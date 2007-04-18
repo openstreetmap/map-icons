@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="symbol-university" viewBox="244.5 110 489 219.9">
+            <path d="M79,43l57,119c0,0,21-96,104-96s124,106,124,106l43-133l82-17L0,17L79,43z"/>
+            <path fill="none" stroke="#000000" stroke-width="20" d="M94,176l-21,39"/>
+            <path d="M300,19c0,10.5-22.6,19-50.5,19S199,29.5,199,19s22.6-19,50.5-19S300,8.5,300,19z"/>
+            <path ill="none" stroke="#000000" stroke-width="20" d="M112,216l-16-38L64,88c0,0-9-8-4-35s16-24,16-24"/>
+        </symbol>
+    </defs>
+</svg>

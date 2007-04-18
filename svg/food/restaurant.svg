@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- derived from http://www.sodipodi.com/index.php3?section=clipart -->
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="symbol-restaurant" viewBox="49 74 103 103">
+            <path fill="black" stroke="none" d="M 84,24 C 80,20 64,38 57,46 C 55,48 52,52 58,58 C 5,109 -5,116 2,123 C 9,130 16,120 66,66 C 72,72 77,69 79,67 C 87,60 104,44 100,40 C 96,36 81,60 77,57 C 73,54 96,36 92,32 C 88,28 71,53 67,49 C 63,45 88,28 84,24 z"/>
+            <path fill="black" stroke="none" d="M 35,53 C 79,101 98,116 90,123 C 81,131 70,111 26,62 C 6,77 -9,36 1,26 C 11,16 55,33 35,53 z"/>
+        </symbol>
+    </defs>
+</svg>

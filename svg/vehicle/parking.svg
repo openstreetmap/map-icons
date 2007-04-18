@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="symbol-parking" viewBox="10 0 20 20">
+            <rect stroke="none" fill="#0087ff" width="20" height="20" x="0" y="-10" rx="4" ry="4" />
+            <path stroke="none" fill="white" fill-rule="nonzero" d="M 5,8 L 5,-7 L 12,-7 C 14,-7 15.5,-5.3 16,-4 C 16.5,-2.77 16.5,-1.23 16,0 C 15.41,1.42 14,3 12,3 L 8,3 L 8,8 L 5,8 z M 8,-4 L 8,0 C 9.3,0 11,0 12.32,-0.31 C 13.6,-0.76 13.5,-2.8 12.5,-3.48 C 11.5,-4.1 8.6,-4 8,-4 z "/>
+        </symbol>
+    </defs>
+</svg>

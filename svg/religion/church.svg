@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+<symbol id="symbol-church" viewBox="2.5 5 10 10">
+	<path fill="black" d="M 0 10 L 0 5 L 5 5 L 5 10 z M 0 2 L 5 2 L 5 3 L 0 3 z M 2 0 L 2 5 L 3 5 L 3 0 z" />
+</symbol>	
+    </defs>
+</svg>

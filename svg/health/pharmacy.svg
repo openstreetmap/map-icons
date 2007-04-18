@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol
+            id="symbol-pharmacy_dispensing" viewBox="18 18 36 36">
+            <rect style="fill:#00cc00" x="0" y="0" width="36" height="36" rx="2" ry="2"/>
+            <path style="fill:#ffffff" d="M20.14 17.3 L20.14 9.44 L11.86 9.44 L11.86 17.3 L4 17.3 
+            L4 25.58 L11.86 25.58 L11.86 33.44 L20.14 33.44 L20.14 25.58 L28 25.58 L28 17.3 L20.14 17.3 Z
+            M0.5 37.44 L31.5 37.44 a0.5 0.5 -180 0 0 0.5 -0.5 L32 5.94 a0.5 0.5 -180 0 0 -0.5 -0.5 
+            L0.5 5.44 a0.5 0.5 -180 0 0 -0.5 0.5 L0 36.94 a0.5 0.5 -180 0 0 0.5 0.5 Z M2 35.44 L2
+            7.44 L30 7.44 L30 35.44 L2 35.44 Z"
+            transform="translate(2,-3.44)"/>
+        </symbol>
+    </defs>
+</svg>

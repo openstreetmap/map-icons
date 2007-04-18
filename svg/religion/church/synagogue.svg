@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="symbol-synagogue" viewBox="10 10 22 22">
+            <path
+                stroke='#0000d0' 
+                fill='none'
+                stroke-width="1.5"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                d="M 10,0 L 20,15 L 0,15 L 10,0 z M 10,20 L 0,5 L 20,5 L 10,20 z" />
+        </symbol>
+    </defs>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- derived from http://www.sodipodi.com/index.php3?section=clipart -->
+        <symbol id="symbol-hostel" viewBox="6.25 4 12.5 12">
+            <path fill="#286a9d" fill-rule="nonzero" stroke="none" d="M 5.5,4 L 9,0 L 12.5,4 L 11.5,4 L 11.5,8 L 10,8 L 10,5 L 8,5 L 8,8 L 6.5,8 L 6.5,4 L 5.5,4 z M 0.5,3.5 C 2,2.5 2.3,1 2.5,0 C 2.7,1 3,2.5 4.5,3.5 L 3.3,3.5 C 3.3,4 4,5 5,6 L 3,6 L 3,8 L 2,8 L 2,6 L 0,6 C 1,5 1.7,4 1.7,3.5 L 0.5,3.5 z M 0,8 L 0,7.5 L 12.5,7.5 L 12.5,8 L 0,8 z " />
+        </symbol>
+    </defs>
+</svg>

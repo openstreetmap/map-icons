@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+<symbol id="symbol-cinema" viewBox="150.3 200 320 420">
+    <path fill="black" d="M123.7,393.2l-35.9,9L0,50.9l35.9-9L123.7,393.2z"/>
+    <path fill="black" d="M291.5,351.2l-35.9,9L167.8,9l35.9-9L291.5,351.2z"/>
+    <path fill="black" d="M201.9,27.8l9,35.9L19.8,111.5l-9-35.9L201.9,27.8z"/>
+    <path fill="black" d="M234.8,159.2l9,35.9L52.6,242.9l-9-35.9L234.8,159.2z"/>
+    <path fill="black" d="M267.7,290.7l9,35.9L85.5,374.4l-9-35.9L267.7,290.7z"/>
+    <path fill="#FFFFFF" d="M40.5,97.5l-21.3,5.3l-5.3-21.3l21.3-5.3L40.5,97.5z"/>
+    <path fill="#FFFFFF" d="M56.9,163l-21.3,5.3L30.2,147l21.3-5.3L56.9,163z"/>
+    <path fill="#FFFFFF" d="M73.3,228.5l-21.3,5.3l-5.3-21.3l21.3-5.3L73.3,228.5z"/>
+    <path fill="#FFFFFF" d="M89.6,294l-21.3,5.3L63,278l21.3-5.3L89.6,294z"/>
+    <path fill="#FFFFFF" d="M106,359.4l-21.3,5.3l-5.3-21.3l21.3-5.3L106,359.4z"/>
+    <path fill="#FFFFFF" d="M209.1,54.3l-21.3,5.3l-5.3-21.3l21.3-5.3L209.1,54.3z"/>
+    <path fill="#FFFFFF" d="M225.4,119.8l-21.3,5.3l-5.3-21.3l21.3-5.3L225.4,119.8z"/>
+    <path fill="#FFFFFF" d="M241.8,185.3l-21.3,5.3l-5.3-21.3l21.3-5.3L241.8,185.3z"/>
+    <path fill="#FFFFFF" d="M258.2,250.8l-21.3,5.3l-5.3-21.3l21.3-5.3L258.2,250.8z"/>
+    <path fill="#FFFFFF" d="M274.6,316.3l-21.3,5.3l-5.3-21.3l21.3-5.3L274.6,316.3z"/>
+</symbol>
+    </defs>
+</svg>

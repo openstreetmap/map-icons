@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="symbol-hospital" viewBox="7.5 7.5 15 15">
+            <path fill="none" stroke="red" stroke-width="2" d="M 12.5,7.5 L 2.5,7.5 L 2.5,7.5 L 12.5,7.5 z M 7.5,2.3 L 7.5,12.5 L 7.5,12.5"/>
+            <path fill="none" stroke="red" stroke-width="1" d="M 14.5 7.5 A 7 7 0 1 1 0.5,7.5 A 7 7 0 1 1 14.5 7.5 z" />
+        </symbol>
+    </defs>
+</svg>

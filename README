@@ -1,0 +1,63 @@
+This is the general OSM Map-Icons directory. 
+All the icons in these directories have to get an 
+entry into the map-features.xml file. So we have one common 
+place for all icons used for drawing maps.
+We currently have three subdirectories representing 
+the three icon schemes(classic,square.big,square.small).
+This means that the user can choose between those 
+three (for now) styles for rendering. The three styles 
+are represented in the three directories:
+  - classic: normally no frames, no borders, transparent 
+             but if you are unsure put the icons here
+  - square.big: these icons all have a square shaped frame,
+             where the color of the frame tells which category they belong to.
+  - square.small: similar to the above(square.big), only smaller
+
+Inside these directories the icons are structured by category. 
+Where every category has it's own sub-directory. 
+There are the following top-categories: 
+      - accommodation
+      - education
+      - food
+      - geocache
+      - health
+      - money
+      - nautical
+      - misc
+      - people
+      - places
+      - public
+      - recreation
+      - religion
+      - shopping
+      - sightseeing
+      - sports
+      - transport
+      - unknown
+      - vehicle
+      - waypoint
+      - wlan
+Each of these categories except 'unknown' can have sub-categories. If you 're
+adding more icons you should try to put them into one of the existing
+categories. For each (sub-)category we have a category-icon which is named
+like the category directory. So for example, for the directory <style>/food/
+we have to have an icon <style>/food.png. The same always applies to each
+sub-sub-directory. before you start a sub-category you'll have to create an
+icon for this subcategory. This way the renderer can always take the category
+icon if there does not exist a specific icon for this.
+If you are not sure where to put the icon you should consider using 
+the others category(directory).
+There are also some png files with size 0 in the directories. These files
+are placeholders for possible icons and poi-types.
+
+Additional files:
+
+- overview.html
+	gives a nice overview of the available Icons with english descriptions
+- overview.de.html
+	gives a nice overview of the available Icons with german descriptions
+- index.html
+	shows all available information about the Icons and POI-Types
+	(not completely done yet)
+
+

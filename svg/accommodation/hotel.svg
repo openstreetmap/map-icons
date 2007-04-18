@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- derived from http://www.sodipodi.com/index.php3?section=clipart -->
+        <symbol id="symbol-hotel" viewBox="43 45 88 100">
+            <path fill="black" stroke="black" stroke-width="1" stroke-miterlimit="4"
+            d="M 0,60 C 0,65 10,65 10,60 L 10,50 L 35,70 L 35,85 C 35,90 45,90 45,85 L 45,70 L 75,70 L 75,85 C 75,90 85,90 85,85 L 85,60 L 40,60 L 5,30 C 9,20 45,20 50,25 L 50,10 C 50,5 40,5 40,10 L 40,15 L 10,15 L 10,10 C 10,5 0,5 0,10 C 0,10 0,60 0,60 z M 10,35 C 15,25 45,25 55,35 L 85,60 C 75,50 40,50 40,60 L 10,35 z "/>
+        </symbol>
+    </defs>
+</svg>

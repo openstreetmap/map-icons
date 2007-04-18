@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="symbol-post_office" viewBox="18 18 36 36">
+            <ellipse style="fill:#ff0000" cx="18" cy="18" rx="18" ry="18"/>
+            <path style="fill:#ffffff" d="M26 25.44 L26 35.44 L2 35.44 L2 25.44 L14 31.44 L26 25.44 Z M2 23.44 L26 23.44 L14 29.44 L2 23.44 Z M0 37.44 L28 37.44 L28 21.44 L0 21.44 L0 37.44 Z" transform="translate(4,-11.44)"/>
+        </symbol>
+    </defs>
+</svg>
