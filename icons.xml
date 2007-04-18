@@ -581,7 +581,7 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">Fastfood</title>
-    <title lang="de">Scnellrestaurant</title>
+    <title lang="de">Schnellrestaurant</title>
     <description lang="en">Fastfood-Restaurant</description>
     <geoinfo>
       <poi_type_id>51</poi_type_id>
@@ -1447,14 +1447,16 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="people.friendsicon"/>
+    <condition k="poi" v="people.friendsd"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <title lang="en">Friendsd</title>
+    <title lang="de">Friendsd</title>
+    <description lang="en">Other GpsDrive-Users currently online</description>
+    <description lang="de">Andere GpsDrive-Benutzer, die gerade online sind</description>
     <geoinfo>
       <poi_type_id>120</poi_type_id>
-      <name>people.friendsicon</name>
+      <name>people.friendsd</name>
     </geoinfo>
   </rule>
 
@@ -5192,7 +5194,7 @@
     <condition k="poi" v="waypoint.wpttemp.wpttemp-green"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">green WP-Pin</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>418</poi_type_id>
@@ -5204,7 +5206,7 @@
     <condition k="poi" v="waypoint.wpttemp.wpttemp-red"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">red WP-Pin</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>419</poi_type_id>
@@ -5216,11 +5218,71 @@
     <condition k="poi" v="waypoint.wpttemp.wpttemp-yellow"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">yellow WP-Pin</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>420</poi_type_id>
       <name>waypoint.wpttemp.wpttemp-yellow</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="people.friendsd.airplane"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>421</poi_type_id>
+      <name>people.friendsd.airplane</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="people.friendsd.bike"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>422</poi_type_id>
+      <name>people.friendsd.bike</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="people.friendsd.boat"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>423</poi_type_id>
+      <name>people.friendsd.boat</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="people.friendsd.car"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>424</poi_type_id>
+      <name>people.friendsd.car</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="people.friendsd.walk"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>425</poi_type_id>
+      <name>people.friendsd.walk</name>
     </geoinfo>
   </rule>
 </rules>
