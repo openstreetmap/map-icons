@@ -1449,9 +1449,9 @@
   <rule>
     <condition k="poi" v="people.friendsd"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Friendsd</title>
-    <title lang="de">Friendsd</title>
+    <scale_max>90000000</scale_max>
+    <title lang="en">FRIENDSD</title>
+    <title lang="de">FRIENDSD</title>
     <description lang="en">Other GpsDrive-Users currently online</description>
     <description lang="de">Andere GpsDrive-Benutzer, die gerade online sind</description>
     <geoinfo>
@@ -5229,9 +5229,11 @@
   <rule>
     <condition k="poi" v="people.friendsd.airplane"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <scale_max>90000000</scale_max>
+    <title lang="en">FRIENDSD Airplane</title>
+    <title lang="de">FRIENDSD Flugzeug</title>
+    <description lang="en">GPS-Drive User travelling by airplane</description>
+    <description lang="de">GPS-Drive Benutzer unterwegs mit einem Flugzeug</description>
     <geoinfo>
       <poi_type_id>421</poi_type_id>
       <name>people.friendsd.airplane</name>
@@ -5241,9 +5243,11 @@
   <rule>
     <condition k="poi" v="people.friendsd.bike"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <scale_max>90000000</scale_max>
+    <title lang="en">FRIENDSD Bike</title>
+    <title lang="de">FRIENDSD Fahrrad</title>
+    <description lang="en">GPS-Drive User travelling by bike</description>
+    <description lang="de">GPS-Drive Benutzer unterwegs mit einem Fahrrad</description>
     <geoinfo>
       <poi_type_id>422</poi_type_id>
       <name>people.friendsd.bike</name>
@@ -5253,9 +5257,11 @@
   <rule>
     <condition k="poi" v="people.friendsd.boat"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <scale_max>90000000</scale_max>
+    <title lang="en">FRIENDSD Boat</title>
+    <title lang="de">FRIENDSD Boot</title>
+    <description lang="en">GPS-Drive User travelling by boat</description>
+    <description lang="de">GPS-Drive Benutzer unterwegs mit einem Boot</description>
     <geoinfo>
       <poi_type_id>423</poi_type_id>
       <name>people.friendsd.boat</name>
@@ -5265,9 +5271,11 @@
   <rule>
     <condition k="poi" v="people.friendsd.car"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <scale_max>90000000</scale_max>
+    <title lang="en">FRIENDSD Car</title>
+    <title lang="de">FRIENDSD Auto</title>
+    <description lang="en">GPS-Drive User travelling by car</description>
+    <description lang="de">GPS-Drive Benutzer unterwegs mit einem Auto</description>
     <geoinfo>
       <poi_type_id>424</poi_type_id>
       <name>people.friendsd.car</name>
@@ -5277,9 +5285,11 @@
   <rule>
     <condition k="poi" v="people.friendsd.walk"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <scale_max>90000000</scale_max>
+    <title lang="en">FRIENDSD Walk</title>
+    <title lang="de">FRIENDSD zu Fuß</title>
+    <description lang="en">GPS-Drive User travelling on foot</description>
+    <description lang="de">GPS-Drive Benutzer zu Fuß unterwegs</description>
     <geoinfo>
       <poi_type_id>425</poi_type_id>
       <name>people.friendsd.walk</name>
