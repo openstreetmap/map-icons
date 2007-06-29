@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 発電所等</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<line stroke="black" stroke-width="18px" x1="125" y1="20" x2="125" y2="230" />
+	<line stroke="black" stroke-width="18px" x1="5" y1="125" x2="245" y2="125" />
+	<line stroke="black" stroke-width="18px" x1="50" y1="50" x2="200" y2="200" />
+	<line stroke="black" stroke-width="18px" x1="50" y1="200" x2="200" y2="50" />
+	<line stroke="black" stroke-width="18px" x1="14" y1="125" x2="14" y2="230" />
+	<line stroke="black" stroke-width="18px" x1="236" y1="125" x2="236" y2="20" />
+	<circle fill="white" stroke="black" stroke-width="18px" cx="125" cy="125" r="55" />
+</svg>

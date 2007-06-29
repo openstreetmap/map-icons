@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="300" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 重要港</title>
+	<rect fill="white" x="0" y="0" width="250" height="300" />
+	<path fill="none" stroke="black" stroke-width="10px"
+		d="M 125 47 V 275 M 39 235 Q 125 310 211 235 M 38 266 V 234 H 65 M 212 266 V 234 H 185"
+	 />
+	<line stroke="black" stroke-width="10px" x1="93" y1="107" x2="157" y2="107" />
+	<line stroke="black" stroke-width="10px" x1="93" y1="127" x2="157" y2="127" />
+	<circle fill="white" stroke="black" stroke-width="10px" cx="125" cy="47" r="25" />
+
+</svg>

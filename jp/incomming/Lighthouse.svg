@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 灯台</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<line stroke="black" stroke-width="15px" x1="125" y1="5" x2="125" y2="245" />
+	<line stroke="black" stroke-width="15px" x1="5" y1="125" x2="245" y2="125" />
+	<line stroke="black" stroke-width="15px" x1="40" y1="40" x2="210" y2="210" />
+	<line stroke="black" stroke-width="15px" x1="40" y1="210" x2="210" y2="40" />
+	<circle fill="white" stroke="black" stroke-width="15px" cx="125" cy="125" r="70" />
+	<circle fill="black" cx="125" cy="125" r="28" />
+</svg>

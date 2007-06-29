@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 記念碑</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<path fill="none" stroke="black" stroke-width="15px" 
+		d="M 160 188 V 70 Q 159 35 125 35 91 35 90 70 L 90 188 185 188"
+	/>
+</svg>

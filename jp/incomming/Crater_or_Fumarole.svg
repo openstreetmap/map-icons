@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 噴火口・噴気口</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<ellipse fill="white" stroke="black" stroke-width="15px" cx="125" cy="186" rx="90" ry="45" />
+	<rect fill="white" x="56" y="125" width="140" height="70" />
+	<g stroke="black" stroke-width="15px" >
+	  <line x1="79" y1="196" x2="166" y2="196" />
+	  <line x1="71" y1="156" x2="158" y2="156" />
+	  <line x1="70" y1="116" x2="157" y2="116" />
+	  <line x1="90" y1="76" x2="177" y2="76" />
+	  <line x1="117" y1="36" x2="204" y2="36" />
+	</g>
+</svg>

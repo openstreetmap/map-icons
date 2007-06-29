@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 風車</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<line stroke="black" stroke-width="15px" x1="125" y1="104" x2="125" y2="230" />
+	<line stroke="black" stroke-width="15px" x1="125" y1="104" x2="92" y2="12" />
+	<line stroke="black" stroke-width="15px" x1="125" y1="104" x2="61.8256628" y2="178.578838" />
+	<line stroke="black" stroke-width="15px" x1="125" y1="104" x2="221.174337" y2="121.421162" />
+	<line stroke="black" stroke-width="15px" x1="80" y1="230" x2="170" y2="230" />
+	<circle fill="white" stroke="black" stroke-width="15px" cx="125" cy="104" r="30" />
+</svg>

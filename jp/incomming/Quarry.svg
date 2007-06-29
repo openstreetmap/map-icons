@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="280" height="230" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 採石地</title>
+	<rect fill="white" x="0" y="0" width="280" height="230" />
+	<g stroke="black" stroke-width="10px" >
+	  <path d="M 17 224 L 275 72 M 3 182 L 248 39 M 3 134 L 206 15 M 24 72 L 139 5 
+	  M 44 56 L 69 99 M 119 14 L 144 57
+	  M 27 114 L 52 157 M 103 70 L 127 112 M 177 27 L 203 71
+	  M 21 174 L 42 213 M 87 129 L 112 172 M 161 87 L 186 130 M 233 45 L 257 86
+	  " />
+	</g>
+</svg>

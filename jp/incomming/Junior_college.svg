@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="600" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 短期大学</title>
+	<rect fill="white" x="0" y="0" width="250" height="600" />
+	<path fill="none" stroke="black" stroke-width="10px"
+		d="M 50 50 Q 125 0 200 50 "
+	/>
+	<path fill="none" stroke="black" stroke-width="10px"
+		d="M 90 62 Q 85 85 74 98
+		 M 84 81 L 112 81 
+		 M 73 112 L 119 112 
+		 M 96 81 L 96 125 Q 90 151 76 163 
+		 M 96 125 Q 108 138 115 150 
+		 M 118 76 L 176 76 
+		 M 126 98 L 126 128 
+		 M 121 98 L 170 98 
+		 M 165 98 L 165 128 
+		 M 122 122 L 170 122 
+		 M 133 134 Q 136 141 139 150 
+		 M 161 131 Q 158 141 153 159 
+		 M 109 161 L 181 161"
+	/>
+	<path fill="none" stroke="black" stroke-width="10px"
+		d="M 77 225 L 176 225 
+		M 125 194 L 125 225 Q 112 276 76 294 
+		M 125 225 Q 147 276 177 294"
+	/>
+	<path fill="none" stroke="black" stroke-width="10px"
+		d="M 50 320 Q 125 370 200 320 "
+	/>
+	<polygon fill="black" stroke="black" stroke-width="1px"
+		points="50,426 20,426 20,394 102,394 102,360 148,360 148,394 230,394 230,426"
+	/>
+	<line stroke="black" stroke-width="32px" x1="56" y1="414" x2="210" y2="560" />
+	<line stroke="black" stroke-width="32px" x1="194" y1="414" x2="40" y2="560" />
+</svg>

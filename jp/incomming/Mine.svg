@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 採鉱地</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<g stroke="black" stroke-width="15px" >
+	  <line x1="50" y1="22" x2="200" y2="228"  /> 
+	  <line x1="200" y1="22" x2="50" y2="228"  /> 
+	</g>
+	<g fill="black">
+	  <path d="M 53 120 L 53 70 103 46 107 64 Z" />
+	  <path d="M 197 120 L 197 70 147 46 143 64 Z" />
+	</g>
+</svg>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 地方港</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<path fill="none" stroke="black" stroke-width="10px"
+		d="M 125 47 V 225 M 39 185 Q 125 260 211 185 M 38 211 V 184 H 65 M 212 211 V 184 H 185"
+	 />
+	<line stroke="black" stroke-width="10px" x1="93" y1="87" x2="157" y2="87" />
+	<circle fill="white" stroke="black" stroke-width="10px" cx="125" cy="47" r="25" />
+
+</svg>

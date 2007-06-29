@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 病院</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<polygon fill="white" stroke="black" stroke-width="10px"
+	 points="20,20 230,20 230,160 125,230 20,160" />
+	<line stroke="black" stroke-width="30px" x1="125" y1="35" x2="125" y2="205" />
+	<line stroke="black" stroke-width="30px" x1="40" y1="120" x2="210" y2="120" />
+</svg>

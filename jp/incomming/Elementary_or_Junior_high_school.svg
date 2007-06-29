@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 小中学校</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<polygon fill="black" stroke="black" stroke-width="1px"
+		points="50,80 20,80 20,48 102,48 102,14
+		 148,14 148,48 230,48 230,80"
+	/>
+	<line stroke="black" stroke-width="32px" x1="56" y1="68" x2="210" y2="214" />
+	<line stroke="black" stroke-width="32px" x1="194" y1="68" x2="40" y2="214" />
+</svg>

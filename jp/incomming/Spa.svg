@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 温泉</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<ellipse fill="white" stroke="black" stroke-width="15px" cx="125" cy="186" rx="90" ry="45" />
+	<rect fill="white" x="56" y="125" width="140" height="70" />
+	<g fill="none" stroke="black" stroke-width="15px" >
+	  <path d="M 85 177 Q 100 146 78 117 58 83 78 50" />
+	  <path d="M 125 177 Q 140 146 118 117 97 71 119 37" />
+	  <path d="M 165 177 Q 180 146 158 117 133 78 158 50" />
+	</g>
+</svg>

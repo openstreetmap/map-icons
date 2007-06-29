@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 図書館</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<path fill="none" stroke="black" stroke-width="16px"
+		d="M 60 215 L 16 84 Q 40 40 110 54 Q 146 16 191 30 L 235 161
+		Q 177 147 154 185 Q 86 171 58 215 L 16 84
+		
+
+		M 110 54 L 148 180"
+	/>
+</svg>

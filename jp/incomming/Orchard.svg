@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 果樹園</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<g fill="white" stroke="black" stroke-width="15px">
+		<line x1="125" y1="125" x2="125" y2="10" />
+		<circle cx="125" cy="150" r="75" />
+	</g>
+</svg>

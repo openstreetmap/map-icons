@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 寺院</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<path fill="none" stroke="black" stroke-width="30px" 
+		d="M 15 30 L 125 30 125 220 235 220 M 30 235 L 30 125 220 125 220 15"
+	/>
+</svg>

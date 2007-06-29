@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="300" height="500" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 電子基準点</title>
+	<rect fill="white" x="0" y="0" width="300" height="500" />
+	<polygon fill="white" stroke="black" stroke-width="15px"
+	 	points="125,275 235,480 15,480 " />
+	<circle fill="black" cx="125" cy="411.666667" r="30" />
+	<path fill="black" 
+		d="M 117.5 275
+		 L 117.5 27
+		  166.666667 97
+		  208.333333 27
+		  250 97 285 27
+		  298 33 250 125
+		  208.333333 55
+		  166.666667 125
+		  132.5 75
+		  132.5 275 Z"
+	/>
+</svg>

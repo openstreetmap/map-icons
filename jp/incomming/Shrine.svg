@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 神社</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<line stroke="black" stroke-width="30px" x1="15" y1="45" x2="235" y2="45" />
+	<line stroke="black" stroke-width="30px" x1="50" y1="95" x2="200" y2="95" />
+	<line stroke="black" stroke-width="30px" x1="50" y1="45" x2="50" y2="215" />
+	<line stroke="black" stroke-width="30px" x1="200" y1="45" x2="200" y2="215" />
+</svg>

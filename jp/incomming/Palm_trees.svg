@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - ヤシ科樹林</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<path fill="none" stroke="black" stroke-width="15px"
+	 d="M 125 30 V 210 H 210
+	  M 150 60 Q 142.5 40 125 34  110 27 84 27  58 27 43 34  25.5 40 18 60
+	  M 100 60 Q 107.5 40 125 34  140 27 166 27  192 27 207 34  224.5 40 232 60
+	  M 150 60 M 100 60 " />
+</svg>

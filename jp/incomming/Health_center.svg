@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 保健所</title>
+	<rect fill="white" x="0" y="0" width="250" height="250" />
+	<circle fill="white" stroke="black" stroke-width="10px" cx="125" cy="125" r="100" />
+	<line stroke="black" stroke-width="20px" x1="125" y1="50" x2="125" y2="200" />
+	<line stroke="black" stroke-width="20px" x1="50" y1="125" x2="200" y2="125" />
+</svg>
