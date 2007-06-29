@@ -1515,7 +1515,7 @@
     <condition k="poi" v="people.people_b"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">B</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>125</poi_type_id>
