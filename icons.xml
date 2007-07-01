@@ -5295,4 +5295,196 @@
       <name>people.friendsd.walk</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="accommodation.camping.trash"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>426</poi_type_id>
+      <name>accommodation.camping.trash</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.museum"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>427</poi_type_id>
+      <name>recreation.museum</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="religion.church.synagogue"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>428</poi_type_id>
+      <name>religion.church.synagogue</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.bicycle"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>429</poi_type_id>
+      <name>sports.bicycle</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.cycling"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>430</poi_type_id>
+      <name>sports.cycling</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.horse"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>431</poi_type_id>
+      <name>sports.horse</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.indoor_pool"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>432</poi_type_id>
+      <name>sports.indoor_pool</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.mountain_bike"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>433</poi_type_id>
+      <name>sports.mountain_bike</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.pool"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>434</poi_type_id>
+      <name>sports.pool</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.racquetball"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>435</poi_type_id>
+      <name>sports.racquetball</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.ski"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>436</poi_type_id>
+      <name>sports.ski</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.swimming"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>437</poi_type_id>
+      <name>sports.swimming</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.tennis"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>438</poi_type_id>
+      <name>sports.tennis</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.drawbridge"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>439</poi_type_id>
+      <name>transport.drawbridge</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.roundabout_left"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>440</poi_type_id>
+      <name>transport.roundabout_left</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.roundabout_right"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>441</poi_type_id>
+      <name>transport.roundabout_right</name>
+    </geoinfo>
+  </rule>
 </rules>

@@ -9,6 +9,9 @@ square.big_sightseeingdir = $(datadir)/map-icons/square.big/sightseeing
 square.big_waypoint_DATA = square.big/waypoint/*.png
 square.big_waypointdir = $(datadir)/map-icons/square.big/waypoint
 
+square.big_waypoint_wpttemp_DATA = square.big/waypoint/wpttemp/*.png
+square.big_waypoint_wpttempdir = $(datadir)/map-icons/square.big/waypoint/wpttemp
+
 square.big_accommodation_DATA = square.big/accommodation/*.png
 square.big_accommodationdir = $(datadir)/map-icons/square.big/accommodation
 
@@ -26,6 +29,9 @@ square.big_wlan_paydir = $(datadir)/map-icons/square.big/wlan/pay
 
 square.big_geocache_DATA = square.big/geocache/*.png
 square.big_geocachedir = $(datadir)/map-icons/square.big/geocache
+
+square.big_geocache_geocache_multi_DATA = square.big/geocache/geocache_multi/*.png
+square.big_geocache_geocache_multidir = $(datadir)/map-icons/square.big/geocache/geocache_multi
 
 square.big_health_DATA = square.big/health/*.png
 square.big_healthdir = $(datadir)/map-icons/square.big/health
@@ -138,6 +144,9 @@ square.big_public_administrationdir = $(datadir)/map-icons/square.big/public/adm
 square.big_people_DATA = square.big/people/*.png
 square.big_peopledir = $(datadir)/map-icons/square.big/people
 
+square.big_people_friendsd_DATA = square.big/people/friendsd/*.png
+square.big_people_friendsddir = $(datadir)/map-icons/square.big/people/friendsd
+
 square.big_people_developer_DATA = square.big/people/developer/*.png
 square.big_people_developerdir = $(datadir)/map-icons/square.big/people/developer
 
@@ -160,14 +169,23 @@ square.small_sightseeingdir = $(datadir)/map-icons/square.small/sightseeing
 square.small_waypoint_DATA = square.small/waypoint/*.png
 square.small_waypointdir = $(datadir)/map-icons/square.small/waypoint
 
+square.small_waypoint_wpttemp_DATA = square.small/waypoint/wpttemp/*.png
+square.small_waypoint_wpttempdir = $(datadir)/map-icons/square.small/waypoint/wpttemp
+
 square.small_accommodation_DATA = square.small/accommodation/*.png
 square.small_accommodationdir = $(datadir)/map-icons/square.small/accommodation
 
 square.small_wlan_DATA = square.small/wlan/*.png
 square.small_wlandir = $(datadir)/map-icons/square.small/wlan
 
+square.small_wlan_pay_DATA = square.small/wlan/pay/*.png
+square.small_wlan_paydir = $(datadir)/map-icons/square.small/wlan/pay
+
 square.small_geocache_DATA = square.small/geocache/*.png
 square.small_geocachedir = $(datadir)/map-icons/square.small/geocache
+
+square.small_geocache_geocache_multi_DATA = square.small/geocache/geocache_multi/*.png
+square.small_geocache_geocache_multidir = $(datadir)/map-icons/square.small/geocache/geocache_multi
 
 square.small_health_DATA = square.small/health/*.png
 square.small_healthdir = $(datadir)/map-icons/square.small/health
@@ -180,6 +198,9 @@ square.small_nauticaldir = $(datadir)/map-icons/square.small/nautical
 
 square.small_food_DATA = square.small/food/*.png
 square.small_fooddir = $(datadir)/map-icons/square.small/food
+
+square.small_food_fastfood_DATA = square.small/food/fastfood/*.png
+square.small_food_fastfooddir = $(datadir)/map-icons/square.small/food/fastfood
 
 square.small_recreation_DATA = square.small/recreation/*.png
 square.small_recreationdir = $(datadir)/map-icons/square.small/recreation
@@ -220,6 +241,9 @@ square.small_publicdir = $(datadir)/map-icons/square.small/public
 square.small_people_DATA = square.small/people/*.png
 square.small_peopledir = $(datadir)/map-icons/square.small/people
 
+square.small_people_friendsd_DATA = square.small/people/friendsd/*.png
+square.small_people_friendsddir = $(datadir)/map-icons/square.small/people/friendsd
+
 square.small_people_developer_DATA = square.small/people/developer/*.png
 square.small_people_developerdir = $(datadir)/map-icons/square.small/people/developer
 
@@ -228,6 +252,58 @@ square.small_religiondir = $(datadir)/map-icons/square.small/religion
 
 square.small_transport_DATA = square.small/transport/*.png
 square.small_transportdir = $(datadir)/map-icons/square.small/transport
+
+
+
+svg_tn_DATA = svg_tn/*.png
+svg_tndir = $(datadir)/map-icons/svg_tn
+
+svg_tn_accommodation_DATA = svg_tn/accommodation/*.png
+svg_tn_accommodationdir = $(datadir)/map-icons/svg_tn/accommodation
+
+svg_tn_accommodation_camping_DATA = svg_tn/accommodation/camping/*.png
+svg_tn_accommodation_campingdir = $(datadir)/map-icons/svg_tn/accommodation/camping
+
+svg_tn_health_DATA = svg_tn/health/*.png
+svg_tn_healthdir = $(datadir)/map-icons/svg_tn/health
+
+svg_tn_food_DATA = svg_tn/food/*.png
+svg_tn_fooddir = $(datadir)/map-icons/svg_tn/food
+
+svg_tn_recreation_DATA = svg_tn/recreation/*.png
+svg_tn_recreationdir = $(datadir)/map-icons/svg_tn/recreation
+
+svg_tn_sports_DATA = svg_tn/sports/*.png
+svg_tn_sportsdir = $(datadir)/map-icons/svg_tn/sports
+
+svg_tn_vehicle_DATA = svg_tn/vehicle/*.png
+svg_tn_vehicledir = $(datadir)/map-icons/svg_tn/vehicle
+
+svg_tn_education_DATA = svg_tn/education/*.png
+svg_tn_educationdir = $(datadir)/map-icons/svg_tn/education
+
+svg_tn_shopping_DATA = svg_tn/shopping/*.png
+svg_tn_shoppingdir = $(datadir)/map-icons/svg_tn/shopping
+
+svg_tn_shopping_rental_DATA = svg_tn/shopping/rental/*.png
+svg_tn_shopping_rentaldir = $(datadir)/map-icons/svg_tn/shopping/rental
+
+svg_tn_public_DATA = svg_tn/public/*.png
+svg_tn_publicdir = $(datadir)/map-icons/svg_tn/public
+
+svg_tn_religion_DATA = svg_tn/religion/*.png
+svg_tn_religiondir = $(datadir)/map-icons/svg_tn/religion
+
+svg_tn_religion_church_DATA = svg_tn/religion/church/*.png
+svg_tn_religion_churchdir = $(datadir)/map-icons/svg_tn/religion/church
+
+svg_tn_transport_DATA = svg_tn/transport/*.png
+svg_tn_transportdir = $(datadir)/map-icons/svg_tn/transport
+
+
+
+jp_tn_incomming_DATA = jp_tn/incomming/*.png
+jp_tn_incommingdir = $(datadir)/map-icons/jp_tn/incomming
 
 
 classic_DATA = classic/*.png
@@ -239,6 +315,9 @@ classic_sightseeingdir = $(datadir)/map-icons/classic/sightseeing
 classic_waypoint_DATA = classic/waypoint/*.png
 classic_waypointdir = $(datadir)/map-icons/classic/waypoint
 
+classic_waypoint_wpttemp_DATA = classic/waypoint/wpttemp/*.png
+classic_waypoint_wpttempdir = $(datadir)/map-icons/classic/waypoint/wpttemp
+
 classic_accommodation_DATA = classic/accommodation/*.png
 classic_accommodationdir = $(datadir)/map-icons/classic/accommodation
 
@@ -247,6 +326,9 @@ classic_accommodation_campingdir = $(datadir)/map-icons/classic/accommodation/ca
 
 classic_wlan_DATA = classic/wlan/*.png
 classic_wlandir = $(datadir)/map-icons/classic/wlan
+
+classic_wlan_pay_DATA = classic/wlan/pay/*.png
+classic_wlan_paydir = $(datadir)/map-icons/classic/wlan/pay
 
 classic_geocache_DATA = classic/geocache/*.png
 classic_geocachedir = $(datadir)/map-icons/classic/geocache
@@ -348,12 +430,14 @@ EXTRA_DIST= \
 	$(square.big_DATA) \
 	$(square.big_sightseeing_DATA) \
 	$(square.big_waypoint_DATA) \
+	$(square.big_waypoint_wpttemp_DATA) \
 	$(square.big_accommodation_DATA) \
 	$(square.big_accommodation_hotel_DATA) \
 	$(square.big_accommodation_camping_DATA) \
 	$(square.big_wlan_DATA) \
 	$(square.big_wlan_pay_DATA) \
 	$(square.big_geocache_DATA) \
+	$(square.big_geocache_geocache_multi_DATA) \
 	$(square.big_health_DATA) \
 	$(square.big_money_DATA) \
 	$(square.big_money_atm_DATA) \
@@ -391,6 +475,7 @@ EXTRA_DIST= \
 	$(square.big_public_recycling_container_DATA) \
 	$(square.big_public_administration_DATA) \
 	$(square.big_people_DATA) \
+	$(square.big_people_friendsd_DATA) \
 	$(square.big_people_developer_DATA) \
 	$(square.big_religion_DATA) \
 	$(square.big_religion_church_DATA) \
@@ -398,13 +483,17 @@ EXTRA_DIST= \
 	$(square.small_DATA) \
 	$(square.small_sightseeing_DATA) \
 	$(square.small_waypoint_DATA) \
+	$(square.small_waypoint_wpttemp_DATA) \
 	$(square.small_accommodation_DATA) \
 	$(square.small_wlan_DATA) \
+	$(square.small_wlan_pay_DATA) \
 	$(square.small_geocache_DATA) \
+	$(square.small_geocache_geocache_multi_DATA) \
 	$(square.small_health_DATA) \
 	$(square.small_money_DATA) \
 	$(square.small_nautical_DATA) \
 	$(square.small_food_DATA) \
+	$(square.small_food_fastfood_DATA) \
 	$(square.small_recreation_DATA) \
 	$(square.small_sports_DATA) \
 	$(square.small_misc_DATA) \
@@ -418,15 +507,34 @@ EXTRA_DIST= \
 	$(square.small_shopping_diy_store_DATA) \
 	$(square.small_public_DATA) \
 	$(square.small_people_DATA) \
+	$(square.small_people_friendsd_DATA) \
 	$(square.small_people_developer_DATA) \
 	$(square.small_religion_DATA) \
 	$(square.small_transport_DATA) \
+	$(svg_tn_DATA) \
+	$(svg_tn_accommodation_DATA) \
+	$(svg_tn_accommodation_camping_DATA) \
+	$(svg_tn_health_DATA) \
+	$(svg_tn_food_DATA) \
+	$(svg_tn_recreation_DATA) \
+	$(svg_tn_sports_DATA) \
+	$(svg_tn_vehicle_DATA) \
+	$(svg_tn_education_DATA) \
+	$(svg_tn_shopping_DATA) \
+	$(svg_tn_shopping_rental_DATA) \
+	$(svg_tn_public_DATA) \
+	$(svg_tn_religion_DATA) \
+	$(svg_tn_religion_church_DATA) \
+	$(svg_tn_transport_DATA) \
+	$(jp_tn_incomming_DATA) \
 	$(classic_DATA) \
 	$(classic_sightseeing_DATA) \
 	$(classic_waypoint_DATA) \
+	$(classic_waypoint_wpttemp_DATA) \
 	$(classic_accommodation_DATA) \
 	$(classic_accommodation_camping_DATA) \
 	$(classic_wlan_DATA) \
+	$(classic_wlan_pay_DATA) \
 	$(classic_geocache_DATA) \
 	$(classic_health_DATA) \
 	$(classic_money_DATA) \
