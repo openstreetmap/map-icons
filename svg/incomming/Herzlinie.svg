@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="690" height="500" version="1.1"
+		xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<!-- Metadata -->
+	<desc  xml:lang="de">Dieses Bild zeigt den Unterschied zwischen der Drehung um die Herzlinie und die um die Schienenmitte.</desc>
+
+	<!-- Stylesheet -->
+	<style type="text/css"><![CDATA[
+		text { fill: black; }
+		text.explanation { font-size: 16; }
+		#middleMarker { fill: red; }
+		#Person { stroke: black; }
+		.personBefore { fill: #cdc6cd; }
+		.personAfter { fill: #838183; }
+	]]></style>
+
+	<!-- Definitions -->
+	<defs>
+		<circle id="middleMarker" cx="0" cy="0" r="6" />
+
+		<symbol id="Person">
+			<!-- Head -->
+			<circle cx="59" cy="30" r="30" /><!-- y+319 -->
+
+			<!-- Body                 right shoulder           right hand                right foot        left foot                  left hand             left shoulder -->
+			<path d="M15,60  L101,60  Q118,60 118,79  L118,170  Q106,188 94,170  L94,304  Q76.5,330 59,304  Q42.5,330 24,304  L24,170  Q12,188 0,170  L0,79  Q0,60 15,60 z" />
+			<!-- Lines between body and arms and the legs -->
+			<path d="M94,170 L94,110   M24,170 L24,110   M59,304 L59,220" fill="none" />
+
+			<!-- Base-line (under a Person) -->
+			<circle cx="-21"  cy="318" r="7" />
+			<circle cx="142" cy="318" r="7"  />
+			<rect x="-14" y="316" width="149" height="5" />
+		</symbol>
+	</defs>
+
+	<!--
+		————————————
+		|Main Image|
+	    ————————————
+	-->
+	<!-- Background -->
+	<rect x="0" y="0" width="690" height="500" fill="white" />
+	<!-- Headline -->
+	<text x="345" y="30" text-anchor="middle" font-size="26">
+		Herzlinienprinzip
+	</text>
+
+	<!-- left Person -->
+	<g transform="translate(59,60)">
+		<use xlink:href="#Person" class="personBefore" />
+		<use xlink:href="#Person" class="personAfter" transform="rotate(45 59 320)"/>
+		<use xlink:href="#middleMarker" transform="translate(59,320)"/>
+		<text class="explanation" xml:lang="de">
+			<tspan x="-30" y="410">Weg, den der Kopf zurücklegt bei</tspan>
+			<tspan x="-30" y="435">Drehung um die Schienenmitte</tspan>
+		</text>
+	</g>
+
+	<!-- right Person -->
+	<g transform="translate(500,60)">
+		<use xlink:href="#Person" class="personBefore" />
+		<use xlink:href="#Person" class="personAfter" transform="rotate(45 59 107)"/>
+		<use xlink:href="#middleMarker" transform="translate(59,107)" />
+		<text class="explanation" xml:lang="de">
+			<tspan x="-80" y="410">Weg, den der Kopf zurücklegt bei</tspan>
+			<tspan x="-80" y="435">Drehung um die Herzlinie</tspan>
+		</text>
+	</g>
+</svg>
+<!-- License: GNU Free Documentation License 1.2
+	<rdf:RDF xmlns="http://web.resource.org/cc/"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
+			<dc:title>Herzlinienprinzip</dc:title>
+			<dc:date>2004-2005</dc:date>
+			<dc:description>Dieses Bild zeigt den Unterschied zwischen der Drehung um die Herzlinie und die um die Schienenmitte.</dc:description>
+			<dc:creator><Agent><dc:title>Boris23, Krummbein123</dc:title></Agent></dc:creator>
+			<dc:rights><Agent><dc:title>Boris23, Krummbein123</dc:title></Agent></dc:rights>
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+		</Work>
+		<License rdf:about="http://www.gnu.org/copyleft/fdl.html">
+			<permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+			<permits rdf:resource="http://web.resource.org/cc/Distribution" />
+			<permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+			<requires rdf:resource="http://web.resource.org/cc/Notice" />
+			<requires rdf:resource="http://web.resource.org/cc/Attribution" />
+			<requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+			<requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+		</License>
+</rdf:RDF> -->

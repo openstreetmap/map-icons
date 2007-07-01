@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<svg
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   enable-background="new 0 0 455.148 454.788"
+   height="454.788"
+   i:pageBounds="0 792 612 0"
+   i:rulerOrigin="0 0"
+   i:viewOrigin="78 623"
+   overflow="visible"
+   space="preserve"
+   viewBox="0 0 455.148 454.788"
+   width="455.148"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docname="cycling.svg"
+   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/sports">
+  <defs
+     id="defs110">
+    <foreignObject
+       id="foreignObject8"
+       y="0"
+       x="0"
+       width="1"
+       requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+       height="1">
+      <i:pgfRef
+         xlink:href="#adobe_illustrator_pgf" />
+    </foreignObject>
+    <linearGradient
+       y2="227.73579"
+       y1="227.73579"
+       x2="455.14841"
+       x1="424.36719"
+       id="XMLID_1_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop16"
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <stop
+         id="stop18"
+         style="stop-color:#E2E2E2"
+         offset="0.1696" />
+      <stop
+         id="stop20"
+         style="stop-color:#D8D8D8"
+         offset="0.3059" />
+      <stop
+         id="stop22"
+         style="stop-color:#C7C7C7"
+         offset="0.4306" />
+      <stop
+         id="stop24"
+         style="stop-color:#B0B0B0"
+         offset="0.5484" />
+      <stop
+         id="stop26"
+         style="stop-color:#919191"
+         offset="0.6614" />
+      <stop
+         id="stop28"
+         style="stop-color:#6B6B6B"
+         offset="0.7707" />
+      <stop
+         id="stop30"
+         style="stop-color:#3E3E3E"
+         offset="0.8772" />
+      <stop
+         id="stop32"
+         style="stop-color:#0C0C0C"
+         offset="0.9788" />
+      <stop
+         id="stop34"
+         style="stop-color:#000000"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="227.37601"
+       y1="227.37601"
+       x2="0.0713"
+       x1="30.851601"
+       id="XMLID_2_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop39"
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <stop
+         id="stop41"
+         style="stop-color:#E2E2E2"
+         offset="0.2675" />
+      <stop
+         id="stop43"
+         style="stop-color:#D8D8D8"
+         offset="0.4824" />
+      <stop
+         id="stop45"
+         style="stop-color:#C7C7C7"
+         offset="0.679" />
+      <stop
+         id="stop47"
+         style="stop-color:#B0B0B0"
+         offset="0.8635" />
+      <stop
+         id="stop49"
+         style="stop-color:#999999"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#999999"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="0.071800001"
+       y1="30.8521"
+       x2="227.73579"
+       x1="227.73579"
+       id="XMLID_3_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop54"
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <stop
+         id="stop56"
+         style="stop-color:#E2E2E2"
+         offset="0.2675" />
+      <stop
+         id="stop58"
+         style="stop-color:#D8D8D8"
+         offset="0.4824" />
+      <stop
+         id="stop60"
+         style="stop-color:#C7C7C7"
+         offset="0.679" />
+      <stop
+         id="stop62"
+         style="stop-color:#B0B0B0"
+         offset="0.8635" />
+      <stop
+         id="stop64"
+         style="stop-color:#999999"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#999999"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="454.67969"
+       y1="423.89941"
+       x2="227.37601"
+       x1="227.37601"
+       id="XMLID_4_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop69"
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <stop
+         id="stop71"
+         style="stop-color:#E2E2E2"
+         offset="0.1696" />
+      <stop
+         id="stop73"
+         style="stop-color:#D8D8D8"
+         offset="0.3059" />
+      <stop
+         id="stop75"
+         style="stop-color:#C7C7C7"
+         offset="0.4306" />
+      <stop
+         id="stop77"
+         style="stop-color:#B0B0B0"
+         offset="0.5484" />
+      <stop
+         id="stop79"
+         style="stop-color:#919191"
+         offset="0.6614" />
+      <stop
+         id="stop81"
+         style="stop-color:#6B6B6B"
+         offset="0.7707" />
+      <stop
+         id="stop83"
+         style="stop-color:#3E3E3E"
+         offset="0.8772" />
+      <stop
+         id="stop85"
+         style="stop-color:#0C0C0C"
+         offset="0.9788" />
+      <stop
+         id="stop87"
+         style="stop-color:#000000"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="761"
+     inkscape:window-width="930"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.83115651"
+     inkscape:cx="227.57401"
+     inkscape:cy="227.394"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Hotel Icon Cycling</dc:title>
+        <dc:description>Part of Hotel Icons Collection</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>symbol</rdf:li>
+            <rdf:li>hotel</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Gerald G.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Gerald G.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     clip-rule="evenodd"
+     d="M 235.658,181.167 L 207.471,208.599 L 247.863,231.819 C 248.115,249.532 248.258,264.651 248.15,278.007 C 248.043,291.291 249.23,304.179 247.287,310.983 C 245.199,317.536 240.303,317.607 236.199,317.607 C 232.058,317.5 225.29,315.664 222.842,310.731 C 220.395,305.62 221.547,298.059 221.438,288.051 C 221.186,277.971 221.186,265.875 221.438,251.079 C 208.551,245.066 197.823,239.847 188.715,234.734 C 179.498,229.658 171.794,225.879 167.114,221.018 C 162.47,215.978 160.849,210.506 160.849,205.43 C 160.778,200.318 162.578,196.502 166.537,190.922 C 170.461,185.234 176.617,179.33 184.177,171.95 C 191.701,164.498 203.942,152.114 211.177,146.858 C 218.269,141.602 221.869,140.414 226.837,140.522 C 231.84,140.558 236.629,143.834 240.77,147.146 C 244.694,150.314 246.385,153.518 250.706,160.07 C 254.954,166.586 260.03,175.19 266.077,186.17 C 277.669,185.126 286.489,185.126 292.825,186.17 C 298.981,187.106 302.761,189.086 303.626,192.254 C 304.454,195.458 303.806,202.73 297.938,205.178 C 291.889,207.338 275.581,206.294 268.057,206.222 C 260.606,206.222 256.61,206.654 253.008,205.178 C 249.194,203.522 248.76,200.714 245.881,196.754 C 243.002,192.723 239.547,187.575 235.658,181.167 z "
+     i:knockout="Off"
+     id="path93"
+     style="fill:#7f7f7f;fill-rule:evenodd" />
+  <path
+     clip-rule="evenodd"
+     d="M 264.914,105.227 C 278.408,105.227 289.359,115.388 289.359,127.907 C 289.359,140.427 278.408,150.587 264.914,150.587 C 251.422,150.587 240.471,140.426 240.471,127.907 C 240.471,115.388 251.422,105.227 264.914,105.227"
+     i:knockout="Off"
+     id="path95"
+     style="fill:#7f7f7f;fill-rule:evenodd" />
+  <path
+     clip-rule="evenodd"
+     d="M 145.443,236.715 C 183.2,236.715 213.842,265.149 213.842,300.183 C 213.842,335.217 183.2,363.65 145.443,363.65 C 107.686,363.65 77.043,335.216 77.043,300.182 C 77.043,265.148 107.686,236.715 145.443,236.715 z M 145.443,248.991 C 175.907,248.991 200.631,271.925 200.631,300.182 C 200.631,328.439 175.906,351.374 145.443,351.374 C 114.98,351.374 90.255,328.439 90.255,300.182 C 90.255,271.925 114.979,248.991 145.443,248.991 z "
+     i:knockout="Off"
+     id="path97"
+     style="fill:#7f7f7f;fill-rule:evenodd" />
+  <path
+     clip-rule="evenodd"
+     d="M 324.326,236.715 C 362.084,236.715 392.726,265.149 392.726,300.183 C 392.726,335.217 362.083,363.651 324.326,363.651 C 286.57,363.651 255.926,335.217 255.926,300.183 C 255.926,265.149 286.57,236.715 324.326,236.715 z M 324.326,248.991 C 354.771,248.991 379.478,271.925 379.478,300.182 C 379.478,328.439 354.771,351.374 324.326,351.374 C 293.883,351.374 269.174,328.439 269.174,300.182 C 269.174,271.925 293.883,248.991 324.326,248.991 z "
+     i:knockout="Off"
+     id="path99"
+     style="fill:#7f7f7f;fill-rule:evenodd" />
+  <path
+     clip-rule="evenodd"
+     d="M 233.283,176.775 L 205.094,204.207 L 245.486,227.427 C 245.738,245.175 245.882,260.187 245.775,273.579 C 245.666,286.827 246.855,299.823 244.91,306.591 C 242.822,313.179 237.926,313.107 233.822,313.179 C 229.681,313.071 222.914,311.235 220.467,306.303 C 218.018,301.263 219.17,293.523 219.063,283.623 C 218.811,273.507 218.811,261.519 219.063,246.686 C 206.174,240.71 195.447,235.382 186.338,230.306 C 177.158,225.23 169.346,221.45 164.702,216.59 C 160.021,211.478 158.547,206.15 158.474,201.038 C 158.402,195.926 160.202,192.11 164.162,186.53 C 168.086,180.878 174.242,174.866 181.803,167.522 C 189.326,159.998 201.567,147.758 208.803,142.466 C 215.895,137.21 219.494,136.022 224.462,136.13 C 229.466,136.202 234.254,139.37 238.394,142.718 C 242.318,145.886 244.009,149.09 248.33,155.642 C 252.578,162.23 257.654,170.762 263.703,181.778 C 275.295,180.734 284.115,180.734 290.451,181.778 C 296.607,182.75 300.387,184.586 301.25,187.826 C 302.078,191.03 301.432,198.302 295.562,200.75 C 289.515,202.982 273.207,201.866 265.683,201.83 C 258.158,201.83 254.199,202.262 250.599,200.75 C 246.925,199.094 246.279,196.286 243.505,192.326 C 240.555,188.295 237.279,183.111 233.283,176.775 z "
+     i:knockout="Off"
+     id="path101"
+     style="fill:#17057a;fill-rule:evenodd" />
+  <path
+     clip-rule="evenodd"
+     d="M 262.516,100.667 C 276.008,100.667 286.959,110.827 286.959,123.347 C 286.959,135.867 276.008,146.027 262.516,146.027 C 249.022,146.027 238.071,135.866 238.071,123.347 C 238.071,110.828 249.021,100.667 262.516,100.667"
+     i:knockout="Off"
+     id="path103"
+     style="fill:#17057a;fill-rule:evenodd" />
+  <path
+     clip-rule="evenodd"
+     d="M 143.067,232.287 C 180.823,232.287 211.467,260.721 211.467,295.755 C 211.467,330.789 180.822,359.223 143.067,359.223 C 105.31,359.223 74.667,330.789 74.667,295.755 C 74.667,260.721 105.31,232.287 143.067,232.287 z M 143.067,244.563 C 173.53,244.563 198.255,267.498 198.255,295.755 C 198.255,324.012 173.53,346.946 143.067,346.946 C 112.603,346.946 87.879,324.012 87.879,295.755 C 87.879,267.498 112.603,244.563 143.067,244.563 z "
+     i:knockout="Off"
+     id="path105"
+     style="fill:#17057a;fill-rule:evenodd" />
+  <path
+     clip-rule="evenodd"
+     d="M 321.951,232.287 C 359.707,232.287 390.351,260.721 390.351,295.755 C 390.351,330.789 359.706,359.223 321.951,359.223 C 284.193,359.223 253.551,330.789 253.551,295.755 C 253.551,260.721 284.193,232.287 321.951,232.287 z M 321.951,244.563 C 352.394,244.563 377.103,267.498 377.103,295.755 C 377.103,324.012 352.394,346.946 321.951,346.946 C 291.506,346.946 266.799,324.012 266.799,295.755 C 266.799,267.498 291.506,244.563 321.951,244.563 z "
+     i:knockout="Off"
+     id="path107"
+     style="fill:#17057a;fill-rule:evenodd" />
+</svg>

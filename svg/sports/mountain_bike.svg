@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<svg
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   enable-background="new 0 0 455.148 454.788"
+   height="454.788"
+   i:pageBounds="0 792 612 0"
+   i:rulerOrigin="0 0"
+   i:viewOrigin="78 623"
+   overflow="visible"
+   space="preserve"
+   viewBox="0 0 455.148 454.788"
+   width="455.148"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docname="mountain_bike.svg"
+   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/sports">
+  <defs
+     id="defs118">
+    <foreignObject
+       id="foreignObject8"
+       y="0"
+       x="0"
+       width="1"
+       requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+       height="1">
+      <i:pgfRef
+         xlink:href="#adobe_illustrator_pgf" />
+    </foreignObject>
+    <linearGradient
+       y2="227.73579"
+       y1="227.73579"
+       x2="455.14841"
+       x1="424.36719"
+       id="XMLID_1_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop16"
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <stop
+         id="stop18"
+         style="stop-color:#E2E2E2"
+         offset="0.1696" />
+      <stop
+         id="stop20"
+         style="stop-color:#D8D8D8"
+         offset="0.3059" />
+      <stop
+         id="stop22"
+         style="stop-color:#C7C7C7"
+         offset="0.4306" />
+      <stop
+         id="stop24"
+         style="stop-color:#B0B0B0"
+         offset="0.5484" />
+      <stop
+         id="stop26"
+         style="stop-color:#919191"
+         offset="0.6614" />
+      <stop
+         id="stop28"
+         style="stop-color:#6B6B6B"
+         offset="0.7707" />
+      <stop
+         id="stop30"
+         style="stop-color:#3E3E3E"
+         offset="0.8772" />
+      <stop
+         id="stop32"
+         style="stop-color:#0C0C0C"
+         offset="0.9788" />
+      <stop
+         id="stop34"
+         style="stop-color:#000000"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="227.37601"
+       y1="227.37601"
+       x2="0.0713"
+       x1="30.851601"
+       id="XMLID_2_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop39"
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <stop
+         id="stop41"
+         style="stop-color:#E2E2E2"
+         offset="0.2675" />
+      <stop
+         id="stop43"
+         style="stop-color:#D8D8D8"
+         offset="0.4824" />
+      <stop
+         id="stop45"
+         style="stop-color:#C7C7C7"
+         offset="0.679" />
+      <stop
+         id="stop47"
+         style="stop-color:#B0B0B0"
+         offset="0.8635" />
+      <stop
+         id="stop49"
+         style="stop-color:#999999"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#999999"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="0.071800001"
+       y1="30.8521"
+       x2="227.73579"
+       x1="227.73579"
+       id="XMLID_3_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop54"
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <stop
+         id="stop56"
+         style="stop-color:#E2E2E2"
+         offset="0.2675" />
+      <stop
+         id="stop58"
+         style="stop-color:#D8D8D8"
+         offset="0.4824" />
+      <stop
+         id="stop60"
+         style="stop-color:#C7C7C7"
+         offset="0.679" />
+      <stop
+         id="stop62"
+         style="stop-color:#B0B0B0"
+         offset="0.8635" />
+      <stop
+         id="stop64"
+         style="stop-color:#999999"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#999999"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="454.67969"
+       y1="423.89941"
+       x2="227.37601"
+       x1="227.37601"
+       id="XMLID_4_"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop69"
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <stop
+         id="stop71"
+         style="stop-color:#E2E2E2"
+         offset="0.1696" />
+      <stop
+         id="stop73"
+         style="stop-color:#D8D8D8"
+         offset="0.3059" />
+      <stop
+         id="stop75"
+         style="stop-color:#C7C7C7"
+         offset="0.4306" />
+      <stop
+         id="stop77"
+         style="stop-color:#B0B0B0"
+         offset="0.5484" />
+      <stop
+         id="stop79"
+         style="stop-color:#919191"
+         offset="0.6614" />
+      <stop
+         id="stop81"
+         style="stop-color:#6B6B6B"
+         offset="0.7707" />
+      <stop
+         id="stop83"
+         style="stop-color:#3E3E3E"
+         offset="0.8772" />
+      <stop
+         id="stop85"
+         style="stop-color:#0C0C0C"
+         offset="0.9788" />
+      <stop
+         id="stop87"
+         style="stop-color:#000000"
+         offset="1" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0" />
+      <a:midPointStop
+         style="stop-color:#E5E5E5"
+         offset="0.75" />
+      <a:midPointStop
+         style="stop-color:#000000"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="579"
+     inkscape:window-width="857"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.83115651"
+     inkscape:cx="227.57401"
+     inkscape:cy="227.394"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Hotel Icon Mountain Biking</dc:title>
+        <dc:description>Part of Hotel Icons Collection</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>symbol</rdf:li>
+            <rdf:li>hotel</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Gerald G.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Gerald G.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g91">
+    <path
+       style="fill:#7f7f7f;fill-rule:evenodd"
+       id="path93"
+       i:knockout="Off"
+       d="M 198.244,215.423 L 173.224,241.739 L 209.152,263.987 C 209.44,280.979 209.476,295.415 209.404,308.268 C 209.332,321.012 210.267,333.36 208.612,339.875 C 206.776,346.246 202.384,346.139 198.748,346.211 C 194.969,346.139 189.064,344.268 186.868,339.623 C 184.637,334.799 185.788,327.418 185.608,317.879 C 185.355,308.268 185.355,296.604 185.608,282.455 C 174.232,276.73 164.584,271.654 156.519,266.795 C 148.347,261.899 141.472,258.299 137.296,253.619 C 133.155,248.795 131.716,243.539 131.716,238.68 C 131.608,233.819 133.3,230.112 136.791,224.784 C 140.319,219.276 145.683,213.659 152.451,206.568 C 159.147,199.44 169.983,187.488 176.499,182.52 C 182.8,177.516 185.968,176.291 190.431,176.472 C 194.931,176.436 199.108,179.64 202.816,182.772 C 206.343,185.868 207.82,188.856 211.671,195.192 C 215.451,201.456 219.951,209.7 225.316,220.212 C 235.72,219.204 243.423,219.204 249.111,220.212 C 254.656,221.148 257.859,222.948 258.724,226.044 C 259.48,229.14 258.759,236.052 253.648,238.429 C 248.285,240.659 233.74,239.437 227.08,239.472 C 220.385,239.544 216.892,239.796 213.687,238.429 C 210.376,236.808 209.835,234.216 207.351,230.365 C 204.725,226.513 201.736,221.579 198.244,215.423 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#7f7f7f;fill-rule:evenodd"
+       id="path95"
+       i:knockout="Off"
+       d="M 224.309,142.628 C 236.311,142.628 246.053,152.369 246.053,164.372 C 246.053,176.375 236.311,186.116 224.309,186.116 C 212.306,186.116 202.565,176.375 202.565,164.372 C 202.564,152.369 212.306,142.628 224.309,142.628"
+       clip-rule="evenodd" />
+    <path
+       style="fill:#7f7f7f;fill-rule:evenodd"
+       id="path97"
+       i:knockout="Off"
+       d="M 118,268.667 C 151.584,268.667 178.84,295.925 178.84,329.507 C 178.84,363.091 151.584,390.349 118,390.349 C 84.416,390.349 57.16,363.091 57.16,329.507 C 57.16,295.925 84.416,268.667 118,268.667 z M 118,280.44 C 145.086,280.44 167.068,302.422 167.068,329.506 C 167.068,356.592 145.086,378.574 118,378.574 C 90.914,378.574 68.932,356.592 68.932,329.506 C 68.932,302.423 90.914,280.44 118,280.44 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#7f7f7f;fill-rule:evenodd"
+       id="path99"
+       i:knockout="Off"
+       d="M 277.156,268.667 C 310.74,268.667 337.996,295.925 337.996,329.507 C 337.996,363.091 310.74,390.349 277.156,390.349 C 243.572,390.349 216.316,363.091 216.316,329.507 C 216.316,295.925 243.572,268.667 277.156,268.667 z M 277.156,280.44 C 304.242,280.44 326.224,302.422 326.224,329.506 C 326.224,356.592 304.242,378.574 277.156,378.574 C 250.07,378.574 228.088,356.592 228.088,329.506 C 228.088,302.423 250.07,280.44 277.156,280.44 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#17057a;fill-rule:evenodd"
+       id="path101"
+       i:knockout="Off"
+       d="M 196.156,211.176 L 171.1,237.491 L 207.029,259.776 C 207.209,276.731 207.389,291.204 207.281,304.02 C 207.173,316.692 208.218,329.184 206.525,335.663 C 204.688,342.036 200.297,341.929 196.661,341.999 C 192.882,341.929 187.013,340.056 184.745,335.411 C 182.405,330.624 183.737,323.136 183.485,313.632 C 183.233,304.021 183.233,292.357 183.485,278.243 C 172.109,272.555 162.462,267.372 154.397,262.548 C 146.225,257.652 139.348,254.052 135.172,249.372 C 131.032,244.583 129.592,239.292 129.592,234.468 C 129.485,229.644 131.176,225.792 134.668,220.536 C 138.16,215.028 143.668,209.411 150.364,202.32 C 157.06,195.156 167.931,183.312 174.377,178.308 C 180.676,173.196 183.844,172.188 188.309,172.224 C 192.809,172.152 196.985,175.464 200.693,178.56 C 204.221,181.692 205.697,184.572 209.549,190.944 C 213.328,197.208 217.792,205.416 223.229,215.999 C 233.561,214.991 241.301,214.991 246.989,215.999 C 252.532,216.899 255.737,218.7 256.6,221.796 C 257.428,224.819 256.672,231.876 251.561,234.216 C 246.196,236.484 231.653,235.152 224.993,235.224 C 218.298,235.259 214.841,235.62 211.565,234.216 C 208.325,232.632 207.713,229.933 205.264,226.116 C 202.637,222.265 199.648,217.331 196.156,211.176 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#17057a;fill-rule:evenodd"
+       id="path103"
+       i:knockout="Off"
+       d="M 222.148,138.308 C 234.15,138.308 243.892,148.05 243.892,160.052 C 243.892,172.054 234.15,181.796 222.148,181.796 C 210.145,181.796 200.404,172.054 200.404,160.052 C 200.404,148.05 210.146,138.308 222.148,138.308"
+       clip-rule="evenodd" />
+    <path
+       style="fill:#17057a;fill-rule:evenodd"
+       id="path105"
+       i:knockout="Off"
+       d="M 115.912,264.456 C 149.496,264.456 176.752,291.712 176.752,325.296 C 176.752,358.88 149.496,386.136 115.912,386.136 C 82.328,386.136 55.072,358.88 55.072,325.296 C 55.072,291.712 82.328,264.456 115.912,264.456 z M 115.912,276.192 C 142.998,276.192 164.98,298.174 164.98,325.258 C 164.98,352.344 142.998,374.326 115.912,374.326 C 88.826,374.326 66.844,352.344 66.844,325.258 C 66.844,298.175 88.826,276.192 115.912,276.192 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#17057a;fill-rule:evenodd"
+       id="path107"
+       i:knockout="Off"
+       d="M 275.031,264.456 C 308.615,264.456 335.873,291.712 335.873,325.296 C 335.873,358.88 308.615,386.136 275.031,386.136 C 241.449,386.136 214.192,358.88 214.192,325.296 C 214.192,291.712 241.449,264.456 275.031,264.456 z M 275.031,276.192 C 302.117,276.192 324.099,298.174 324.099,325.258 C 324.099,352.344 302.117,374.326 275.031,374.326 C 247.947,374.326 225.965,352.344 225.965,325.258 C 225.965,298.175 247.947,276.192 275.031,276.192 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#7f7f7f;fill-rule:evenodd"
+       id="path109"
+       i:knockout="Off"
+       d="M 215.813,106.596 C 218.512,104.4 224.777,97.884 235.038,86.616 C 245.261,75.276 258.94,59.76 276.653,39.384 C 288.244,57.6 296.775,70.74 303.076,79.38 C 309.232,87.912 312.652,91.656 313.48,90.612 C 320.031,84.132 325.541,78.624 330.293,73.8 C 334.973,68.976 338.607,65.016 341.488,61.776 C 355.888,81.792 367.84,98.28 378.316,112.212 C 388.611,126.036 396.785,136.512 403.121,144.216 L 363.916,108.216 C 360.676,117.432 355.385,122.184 347.896,122.616 C 340.191,122.868 328.492,112.536 319.06,110.628 C 309.628,108.72 300.232,114.588 291.843,111.42 C 283.275,108.072 276.652,94.824 268.624,91.404 C 260.56,88.02 252.388,88.02 243.819,91.404 C 234.496,96.444 225.172,101.52 215.813,106.596 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#17057a;fill-rule:evenodd"
+       id="path111"
+       i:knockout="Off"
+       d="M 213.4,101.808 C 216.099,99.54 222.364,93.096 232.625,81.792 C 242.848,70.452 256.527,54.937 274.24,34.56 C 285.832,52.74 294.363,65.988 300.664,74.592 C 306.82,83.16 310.24,86.796 311.068,85.788 C 317.621,79.308 323.129,73.8 327.881,68.976 C 332.561,64.152 336.195,60.156 339.076,56.988 C 353.476,77.004 365.428,93.492 375.904,107.424 C 386.199,121.248 394.373,131.724 400.709,139.428 L 361.504,103.392 C 358.264,112.68 352.973,117.36 345.484,117.828 C 337.851,118.116 326.115,107.676 316.683,105.804 C 307.216,103.896 297.855,109.764 289.431,106.596 C 280.935,103.212 274.275,90.072 266.247,86.616 C 258.147,83.232 250.048,83.232 241.407,86.616 C 232.084,91.656 222.76,96.732 213.4,101.808 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#3d258e;fill-rule:evenodd"
+       id="path113"
+       i:knockout="Off"
+       d="M 254.225,73.8 L 272.621,50.58 L 304.66,97.02 C 296.992,96.732 290.369,95.076 284.644,92.196 C 278.812,89.208 275.355,82.44 270.244,79.38 C 265.061,76.32 259.912,74.412 254.225,73.8 z "
+       clip-rule="evenodd" />
+    <path
+       style="fill:#3d258e;fill-rule:evenodd"
+       id="path115"
+       i:knockout="Off"
+       d="M 315.064,97.812 L 338.285,72.972 L 355.889,97.812 C 350.416,103.752 345.305,106.776 339.869,107.424 C 334.469,107.928 327.988,102.6 323.885,101.016 C 319.672,99.324 316.863,98.388 315.064,97.812 z "
+       clip-rule="evenodd" />
+  </g>
+</svg>

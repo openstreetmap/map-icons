@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="Chukbol.svg"
+   sodipodi:docbase="C:\Documents and Settings\XLB\Escritorio\Archivos de AEL\Tchoukball"
+   inkscape:version="0.40+cvs"
+   sodipodi:version="0.32"
+   id="svg3708"
+   height="64.000000px"
+   width="64.000000px">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     inkscape:window-y="31"
+     inkscape:window-x="110"
+     inkscape:window-height="543"
+     inkscape:window-width="640"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:current-layer="layer1"
+     inkscape:cy="34.780181"
+     inkscape:cx="33.617028"
+     inkscape:zoom="5.5492487"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         id="Work6"
+         rdf:about="">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+           id="type9" />
+        <dc:title
+           id="title3733">Chukbol</dc:title>
+        <dc:date
+           id="date3735">15/122005</dc:date>
+        <dc:creator
+           id="creator3737">
+          <cc:Agent
+             id="Agent3739">
+            <dc:title
+               id="title3741">Fernando Inocencio</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher
+           id="publisher3743">
+          <cc:Agent
+             id="Agent3745">
+            <dc:title
+               id="title3747">Fajro</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language
+           id="language3749">Español</dc:language>
+        <dc:description
+           id="description3751">Tchoukball</dc:description>
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain"
+           id="license3753" />
+        <dc:subject
+           id="subject3755">
+          <rdf:Bag
+             id="Bag3757">
+            <rdf:li
+               id="li3891">Tchoukball</rdf:li>
+            <rdf:li
+               id="li3893">Chukbol</rdf:li>
+            <rdf:li
+               id="li3895">Cxukpilko</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:contributor
+           id="contributor3779">
+          <cc:Agent
+             id="Agent3781">
+            <dc:title
+               id="title3783">Fajro</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:rights
+           id="rights3897">
+          <cc:Agent
+             id="Agent3899">
+            <dc:title
+               id="title3901"></dc:title>
+          </cc:Agent>
+        </dc:rights>
+      </cc:Work>
+      <cc:License
+         id="License3785"
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           id="permits3787"
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           id="permits3789"
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           id="permits3791"
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     id="layer1">
+    <rect
+       ry="58.121475"
+       rx="0.00000000"
+       y="4.4408921e-015"
+       x="4.4408921e-015"
+       height="64.000000"
+       width="64.000000"
+       id="Rectangulo"
+       style="fill:#1404ab;fill-opacity:1.0000000;fill-rule:nonzero;stroke:none;stroke-width:2.0000000;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dashoffset:0.00000000;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="ccccccccccc"
+       id="path2119"
+       d="M 12.436597,56.208367 C 13.615742,55.544779 13.466009,53.851778 12.436597,53.375356 L 7.2427439,53.217966 L 7.2427439,35.432954 L 25.657315,55.264030 C 27.499764,55.529182 27.901037,54.690055 27.703379,53.532746 L 7.0853545,31.655606 C 6.4071523,31.023686 5.4256283,31.327008 5.2276857,31.933652 L 5.1966802,55.736198 L 5.1966802,56.208367 L 12.436597,56.208367 z "
+       style="fill:#ffffff;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:5.0000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="cccccccccccc"
+       id="path2879"
+       d="M 21.288991,38.375831 C 19.521123,39.138674 18.174457,38.158754 18.764880,36.338708 L 39.664980,15.916656 L 33.356961,9.4761253 C 32.956295,7.4420338 33.955002,6.7443928 35.730242,7.1028443 L 42.655380,14.342762 C 43.419074,15.167142 43.434103,16.178689 42.812770,16.703604 L 38.405864,21.267900 L 45.331002,28.350427 L 40.451928,34.173838 L 32.739842,26.776531 L 21.288991,38.375831 z "
+       style="fill:#ffffff;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path2881"
+       d="M 41.902877,35.836234 L 44.071886,33.321925 L 59.845279,49.843900 C 60.679301,51.248495 59.753964,52.840256 57.799215,52.204743 L 41.902877,35.836234 z "
+       style="fill:#ffffff;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path2883"
+       d="M 46.993399,29.970534 L 44.759425,32.496613 L 51.715084,39.256514 C 54.156464,39.577532 54.108539,37.877158 53.761146,36.738282 L 46.993399,29.970534 z "
+       style="fill:#ffffff;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+    <path
+       transform="matrix(0.113233,0.000000,0.000000,0.113233,-6.292753,-8.339605)"
+       sodipodi:open="true"
+       sodipodi:end="6.1232237"
+       sodipodi:start="0.00000000"
+       d="M 354.44014,233.67494 A 29.884169,27.799227 0 1 1 354.05862,229.24707"
+       sodipodi:ry="27.799227"
+       sodipodi:rx="29.884169"
+       sodipodi:cy="233.67494"
+       sodipodi:cx="324.55597"
+       id="path2885"
+       style="stroke-opacity:1.0000000;stroke-dashoffset:0.00000000;stroke-miterlimit:4.0000000;stroke-linejoin:round;stroke-linecap:square;stroke-width:5.0000000;stroke:none;fill-rule:nonzero;fill-opacity:1.0000000;fill:#ffffff"
+       sodipodi:type="arc" />
+    <path
+       transform="matrix(0.113233,0.000000,0.000000,0.113233,-6.607532,-8.339605)"
+       sodipodi:open="true"
+       sodipodi:end="6.1232237"
+       sodipodi:start="0.00000000"
+       d="M 333.59073,157.22707 A 28.494207,29.189188 0 1 1 333.22696,152.57780"
+       sodipodi:ry="29.189188"
+       sodipodi:rx="28.494207"
+       sodipodi:cy="157.22707"
+       sodipodi:cx="305.09653"
+       id="path2887"
+       style="stroke-opacity:1.0000000;stroke-dashoffset:0.00000000;stroke-miterlimit:4.0000000;stroke-linejoin:round;stroke-linecap:square;stroke-width:8.0000000;stroke:#ffffff;fill-rule:nonzero;fill-opacity:1.0000000;fill:none"
+       sodipodi:type="arc" />
+  </g>
+</svg>

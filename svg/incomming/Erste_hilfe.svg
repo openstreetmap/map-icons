@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="300" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<path fill="#006600" d="M0 0L0 300L300 300L300 0L0 0z"/>
+	<path fill="white" d="M120,60  L120,120  L60,120  L60,181  L120,181  L120,241  L181,241  L181,181  L241,181  L241,120  L181,120  L181,60 z"/>
+</svg>
+<!--
+<rdf:RDF xmlns="http://web.resource.org/cc/"
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<Work rdf:about="">
+	<license rdf:resource="http://de.wikipedia.org/wiki/Wikipedia:GNU_Free_Documentation_License" />
+	<dc:title>Erste Hilfe Kreuz</dc:title>
+	<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+</Work>
+<License rdf:about="http://de.wikipedia.org/wiki/Wikipedia:GNU_Free_Documentation_License">
+	<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+	<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+	<permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+	<permits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+	<requires rdf:resource="http://web.resource.org/cc/Notice" />
+	<requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+	<requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+	<requires rdf:resource="http://web.resource.org/cc/Attribution" />
+</License>
+</rdf:RDF> -->
