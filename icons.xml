@@ -5571,4 +5571,1132 @@
       <name>vehicle.tunnel</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="incomming"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>449</poi_type_id>
+      <name>incomming</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Bamboo_grove"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>450</poi_type_id>
+      <name>incomming.Bamboo_grove</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Barren_land"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>451</poi_type_id>
+      <name>incomming.Barren_land</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Blue_danube_easy"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>452</poi_type_id>
+      <name>incomming.Blue_danube_easy</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Broad"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>453</poi_type_id>
+      <name>incomming.Broad</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Broadleaf_trees"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>454</poi_type_id>
+      <name>incomming.Broadleaf_trees</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Chimney"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>455</poi_type_id>
+      <name>incomming.Chimney</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Chukbol"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>456</poi_type_id>
+      <name>incomming.Chukbol</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Coniferous_trees"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>457</poi_type_id>
+      <name>incomming.Coniferous_trees</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Crater_or_Fumarole"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>458</poi_type_id>
+      <name>incomming.Crater_or_Fumarole</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.District_Forest_Office"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>459</poi_type_id>
+      <name>incomming.District_Forest_Office</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Electronic_Datum_point"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>460</poi_type_id>
+      <name>incomming.Electronic_Datum_point</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Emblem-deadly"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>461</poi_type_id>
+      <name>incomming.Emblem-deadly</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Erste_hilfe"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>462</poi_type_id>
+      <name>incomming.Erste_hilfe</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Factory"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>463</poi_type_id>
+      <name>incomming.Factory</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Field"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>464</poi_type_id>
+      <name>incomming.Field</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Figure_rythmique_croche_hampe_haut"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>465</poi_type_id>
+      <name>incomming.Figure_rythmique_croche_hampe_haut</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Fishing_port"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>466</poi_type_id>
+      <name>incomming.Fishing_port</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Gouvernail_svg"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>467</poi_type_id>
+      <name>incomming.Gouvernail_svg</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Government_or_Municipal_office"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>468</poi_type_id>
+      <name>incomming.Government_or_Municipal_office</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Graveyard"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>469</poi_type_id>
+      <name>incomming.Graveyard</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Health_center"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>470</poi_type_id>
+      <name>incomming.Health_center</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Herzlinie"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>471</poi_type_id>
+      <name>incomming.Herzlinie</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.High_Tower"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>472</poi_type_id>
+      <name>incomming.High_Tower</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.High_school"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>473</poi_type_id>
+      <name>incomming.High_school</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Historical_site-Place_of_scenic_beauty-Natural_monument-Protected_animal_plant"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>474</poi_type_id>
+      <name>incomming.Historical_site-Place_of_scenic_beauty-Natural_monument-Protected_animal_plant</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Home_for_the_aged"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>475</poi_type_id>
+      <name>incomming.Home_for_the_aged</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Human"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>476</poi_type_id>
+      <name>incomming.Human</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Important2"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>477</poi_type_id>
+      <name>incomming.Important2</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Important_port"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>478</poi_type_id>
+      <name>incomming.Important_port</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.International_Biohazard_Warning_Symbol"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>479</poi_type_id>
+      <name>incomming.International_Biohazard_Warning_Symbol</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Junior_college"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>480</poi_type_id>
+      <name>incomming.Junior_college</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Koban"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>481</poi_type_id>
+      <name>incomming.Koban</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Laser-symbol"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>482</poi_type_id>
+      <name>incomming.Laser-symbol</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Lighthouse"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>483</poi_type_id>
+      <name>incomming.Lighthouse</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Line-drawing_of_a_human_man"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>484</poi_type_id>
+      <name>incomming.Line-drawing_of_a_human_man</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Local_port"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>485</poi_type_id>
+      <name>incomming.Local_port</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Meteorological_observatory"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>486</poi_type_id>
+      <name>incomming.Meteorological_observatory</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Mine"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>487</poi_type_id>
+      <name>incomming.Mine</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Monument"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>488</poi_type_id>
+      <name>incomming.Monument</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Mulberry_field"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>489</poi_type_id>
+      <name>incomming.Mulberry_field</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Museum"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>490</poi_type_id>
+      <name>incomming.Museum</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.No_Shoes"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>491</poi_type_id>
+      <name>incomming.No_Shoes</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.OLmarker"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>492</poi_type_id>
+      <name>incomming.OLmarker</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Oil_or_Gas_well"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>493</poi_type_id>
+      <name>incomming.Oil_or_Gas_well</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Orchard"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>494</poi_type_id>
+      <name>incomming.Orchard</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Other_Ferry"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>495</poi_type_id>
+      <name>incomming.Other_Ferry</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Other_Tree_plantation"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>496</poi_type_id>
+      <name>incomming.Other_Tree_plantation</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Palm_trees"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>497</poi_type_id>
+      <name>incomming.Palm_trees</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Pictgram_bicycle_man"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>498</poi_type_id>
+      <name>incomming.Pictgram_bicycle_man</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Pictgram_running_man"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>499</poi_type_id>
+      <name>incomming.Pictgram_running_man</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Pictgram_swimming"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>500</poi_type_id>
+      <name>incomming.Pictgram_swimming</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Pithead"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>501</poi_type_id>
+      <name>incomming.Pithead</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Police_station"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>502</poi_type_id>
+      <name>incomming.Police_station</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Post_office"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>503</poi_type_id>
+      <name>incomming.Post_office</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Power_plant"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>504</poi_type_id>
+      <name>incomming.Power_plant</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Quarry"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>505</poi_type_id>
+      <name>incomming.Quarry</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Rice_field"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>506</poi_type_id>
+      <name>incomming.Rice_field</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Shrine"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>507</poi_type_id>
+      <name>incomming.Shrine</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Siberian_Dwarf_Pines"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>508</poi_type_id>
+      <name>incomming.Siberian_Dwarf_Pines</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Simple_Monitor_Icon"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>509</poi_type_id>
+      <name>incomming.Simple_Monitor_Icon</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Spa"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>510</poi_type_id>
+      <name>incomming.Spa</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Standard_point"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>511</poi_type_id>
+      <name>incomming.Standard_point</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Tea_plantation"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>512</poi_type_id>
+      <name>incomming.Tea_plantation</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Technical_college"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>513</poi_type_id>
+      <name>incomming.Technical_college</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Temple"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>514</poi_type_id>
+      <name>incomming.Temple</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Town_or_Village_Office"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>515</poi_type_id>
+      <name>incomming.Town_or_Village_Office</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Triangulation_point"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>516</poi_type_id>
+      <name>incomming.Triangulation_point</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Unesco_Cultural_Heritage_logo"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>517</poi_type_id>
+      <name>incomming.Unesco_Cultural_Heritage_logo</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.University"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>518</poi_type_id>
+      <name>incomming.University</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.WRDK"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>519</poi_type_id>
+      <name>incomming.WRDK</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.Windmill"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>520</poi_type_id>
+      <name>incomming.Windmill</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.amenity"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>521</poi_type_id>
+      <name>incomming.amenity</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.aroad"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>522</poi_type_id>
+      <name>incomming.aroad</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.barn"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>523</poi_type_id>
+      <name>incomming.barn</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.biohazard"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>524</poi_type_id>
+      <name>incomming.biohazard</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.bridleway"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>525</poi_type_id>
+      <name>incomming.bridleway</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.byway"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>526</poi_type_id>
+      <name>incomming.byway</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.contours"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>527</poi_type_id>
+      <name>incomming.contours</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.farm"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>528</poi_type_id>
+      <name>incomming.farm</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.footpath"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>529</poi_type_id>
+      <name>incomming.footpath</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.fwpbr"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>530</poi_type_id>
+      <name>incomming.fwpbr</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.industry"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>531</poi_type_id>
+      <name>incomming.industry</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.interest"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>532</poi_type_id>
+      <name>incomming.interest</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.minorroad"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>533</poi_type_id>
+      <name>incomming.minorroad</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.one"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>534</poi_type_id>
+      <name>incomming.one</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.pbridleway"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>535</poi_type_id>
+      <name>incomming.pbridleway</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.place"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>536</poi_type_id>
+      <name>incomming.place</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.railway"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>537</poi_type_id>
+      <name>incomming.railway</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.road"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>538</poi_type_id>
+      <name>incomming.road</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.stationnew"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>539</poi_type_id>
+      <name>incomming.stationnew</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.the_Self-Defense_Forces"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>540</poi_type_id>
+      <name>incomming.the_Self-Defense_Forces</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.three"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>541</poi_type_id>
+      <name>incomming.three</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="incomming.two"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>542</poi_type_id>
+      <name>incomming.two</name>
+    </geoinfo>
+  </rule>
 </rules>

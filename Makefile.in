@@ -58,46 +58,63 @@ am__vpath_adj = case $$p in \
     *) f=$$p;; \
   esac;
 am__strip_dir = `echo $$p | sed -e 's|^.*/||'`;
-am__installdirs = "$(DESTDIR)$(classicdir)" \
-	"$(DESTDIR)$(classic_accommodationdir)" \
-	"$(DESTDIR)$(classic_accommodation_campingdir)" \
-	"$(DESTDIR)$(classic_educationdir)" \
-	"$(DESTDIR)$(classic_education_schooldir)" \
-	"$(DESTDIR)$(classic_fooddir)" \
-	"$(DESTDIR)$(classic_food_fastfooddir)" \
-	"$(DESTDIR)$(classic_food_restaurantdir)" \
-	"$(DESTDIR)$(classic_food_snacksdir)" \
-	"$(DESTDIR)$(classic_geocachedir)" \
-	"$(DESTDIR)$(classic_healthdir)" \
-	"$(DESTDIR)$(classic_miscdir)" \
-	"$(DESTDIR)$(classic_misc_informationdir)" \
-	"$(DESTDIR)$(classic_moneydir)" \
-	"$(DESTDIR)$(classic_money_bankdir)" \
-	"$(DESTDIR)$(classic_nauticaldir)" \
-	"$(DESTDIR)$(classic_peopledir)" \
-	"$(DESTDIR)$(classic_placesdir)" \
-	"$(DESTDIR)$(classic_places_settlementdir)" \
-	"$(DESTDIR)$(classic_publicdir)" \
-	"$(DESTDIR)$(classic_recreationdir)" \
-	"$(DESTDIR)$(classic_religiondir)" \
-	"$(DESTDIR)$(classic_shoppingdir)" \
-	"$(DESTDIR)$(classic_shopping_groceriesdir)" \
-	"$(DESTDIR)$(classic_shopping_supermarketdir)" \
-	"$(DESTDIR)$(classic_sightseeingdir)" \
-	"$(DESTDIR)$(classic_sportsdir)" \
-	"$(DESTDIR)$(classic_transportdir)" \
-	"$(DESTDIR)$(classic_transport_bridgedir)" \
-	"$(DESTDIR)$(classic_transport_ferrydir)" \
-	"$(DESTDIR)$(classic_vehicledir)" \
-	"$(DESTDIR)$(classic_vehicle_car_rentaldir)" \
-	"$(DESTDIR)$(classic_vehicle_fuel_stationdir)" \
-	"$(DESTDIR)$(classic_vehicle_parkingdir)" \
-	"$(DESTDIR)$(classic_waypointdir)" \
-	"$(DESTDIR)$(classic_waypoint_wpttempdir)" \
-	"$(DESTDIR)$(classic_wlandir)" \
-	"$(DESTDIR)$(classic_wlan_paydir)" \
-	"$(DESTDIR)$(jp_tn_incommingdir)" "$(DESTDIR)$(nickwdir)" \
-	"$(DESTDIR)$(square.bigdir)" \
+am__installdirs = "$(DESTDIR)$(classic.bigdir)" \
+	"$(DESTDIR)$(classic.big_accommodationdir)" \
+	"$(DESTDIR)$(classic.big_accommodation_campingdir)" \
+	"$(DESTDIR)$(classic.big_educationdir)" \
+	"$(DESTDIR)$(classic.big_education_schooldir)" \
+	"$(DESTDIR)$(classic.big_fooddir)" \
+	"$(DESTDIR)$(classic.big_food_fastfooddir)" \
+	"$(DESTDIR)$(classic.big_food_restaurantdir)" \
+	"$(DESTDIR)$(classic.big_food_snacksdir)" \
+	"$(DESTDIR)$(classic.big_geocachedir)" \
+	"$(DESTDIR)$(classic.big_healthdir)" \
+	"$(DESTDIR)$(classic.big_miscdir)" \
+	"$(DESTDIR)$(classic.big_misc_informationdir)" \
+	"$(DESTDIR)$(classic.big_moneydir)" \
+	"$(DESTDIR)$(classic.big_money_bankdir)" \
+	"$(DESTDIR)$(classic.big_nauticaldir)" \
+	"$(DESTDIR)$(classic.big_peopledir)" \
+	"$(DESTDIR)$(classic.big_placesdir)" \
+	"$(DESTDIR)$(classic.big_places_settlementdir)" \
+	"$(DESTDIR)$(classic.big_publicdir)" \
+	"$(DESTDIR)$(classic.big_recreationdir)" \
+	"$(DESTDIR)$(classic.big_religiondir)" \
+	"$(DESTDIR)$(classic.big_shoppingdir)" \
+	"$(DESTDIR)$(classic.big_shopping_groceriesdir)" \
+	"$(DESTDIR)$(classic.big_shopping_supermarketdir)" \
+	"$(DESTDIR)$(classic.big_sightseeingdir)" \
+	"$(DESTDIR)$(classic.big_sportsdir)" \
+	"$(DESTDIR)$(classic.big_transportdir)" \
+	"$(DESTDIR)$(classic.big_transport_bridgedir)" \
+	"$(DESTDIR)$(classic.big_transport_ferrydir)" \
+	"$(DESTDIR)$(classic.big_vehicledir)" \
+	"$(DESTDIR)$(classic.big_vehicle_car_rentaldir)" \
+	"$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)" \
+	"$(DESTDIR)$(classic.big_vehicle_parkingdir)" \
+	"$(DESTDIR)$(classic.big_waypointdir)" \
+	"$(DESTDIR)$(classic.big_waypoint_wpttempdir)" \
+	"$(DESTDIR)$(classic.big_wlandir)" \
+	"$(DESTDIR)$(classic.big_wlan_paydir)" \
+	"$(DESTDIR)$(classic.small_accommodationdir)" \
+	"$(DESTDIR)$(classic.small_fooddir)" \
+	"$(DESTDIR)$(classic.small_incommingdir)" \
+	"$(DESTDIR)$(classic.small_placesdir)" \
+	"$(DESTDIR)$(classic.small_recreationdir)" \
+	"$(DESTDIR)$(classic.small_religiondir)" \
+	"$(DESTDIR)$(classic.small_sightseeingdir)" \
+	"$(DESTDIR)$(classic.small_transportdir)" \
+	"$(DESTDIR)$(classic.small_vehicledir)" \
+	"$(DESTDIR)$(jp_tndir)" \
+	"$(DESTDIR)$(jp_tn_education_schooldir)" \
+	"$(DESTDIR)$(jp_tn_healthdir)" \
+	"$(DESTDIR)$(jp_tn_incommingdir)" \
+	"$(DESTDIR)$(jp_tn_publicdir)" \
+	"$(DESTDIR)$(jp_tn_public_administrationdir)" \
+	"$(DESTDIR)$(jp_tn_shopping_rentaldir)" \
+	"$(DESTDIR)$(jp_tn_sightseeingdir)" \
+	"$(DESTDIR)$(jp_tn_transport_ferrydir)" \
+	"$(DESTDIR)$(nickwdir)" "$(DESTDIR)$(square.bigdir)" \
 	"$(DESTDIR)$(square.big_accommodationdir)" \
 	"$(DESTDIR)$(square.big_accommodation_campingdir)" \
 	"$(DESTDIR)$(square.big_accommodation_hoteldir)" \
@@ -186,6 +203,7 @@ am__installdirs = "$(DESTDIR)$(classicdir)" \
 	"$(DESTDIR)$(svg_tn_accommodation_campingdir)" \
 	"$(DESTDIR)$(svg_tn_educationdir)" \
 	"$(DESTDIR)$(svg_tn_fooddir)" "$(DESTDIR)$(svg_tn_healthdir)" \
+	"$(DESTDIR)$(svg_tn_incommingdir)" \
 	"$(DESTDIR)$(svg_tn_publicdir)" \
 	"$(DESTDIR)$(svg_tn_recreationdir)" \
 	"$(DESTDIR)$(svg_tn_religiondir)" \
@@ -195,45 +213,62 @@ am__installdirs = "$(DESTDIR)$(classicdir)" \
 	"$(DESTDIR)$(svg_tn_sportsdir)" \
 	"$(DESTDIR)$(svg_tn_transportdir)" \
 	"$(DESTDIR)$(svg_tn_vehicledir)"
-classicDATA_INSTALL = $(INSTALL_DATA)
-classic_accommodationDATA_INSTALL = $(INSTALL_DATA)
-classic_accommodation_campingDATA_INSTALL = $(INSTALL_DATA)
-classic_educationDATA_INSTALL = $(INSTALL_DATA)
-classic_education_schoolDATA_INSTALL = $(INSTALL_DATA)
-classic_foodDATA_INSTALL = $(INSTALL_DATA)
-classic_food_fastfoodDATA_INSTALL = $(INSTALL_DATA)
-classic_food_restaurantDATA_INSTALL = $(INSTALL_DATA)
-classic_food_snacksDATA_INSTALL = $(INSTALL_DATA)
-classic_geocacheDATA_INSTALL = $(INSTALL_DATA)
-classic_healthDATA_INSTALL = $(INSTALL_DATA)
-classic_miscDATA_INSTALL = $(INSTALL_DATA)
-classic_misc_informationDATA_INSTALL = $(INSTALL_DATA)
-classic_moneyDATA_INSTALL = $(INSTALL_DATA)
-classic_money_bankDATA_INSTALL = $(INSTALL_DATA)
-classic_nauticalDATA_INSTALL = $(INSTALL_DATA)
-classic_peopleDATA_INSTALL = $(INSTALL_DATA)
-classic_placesDATA_INSTALL = $(INSTALL_DATA)
-classic_places_settlementDATA_INSTALL = $(INSTALL_DATA)
-classic_publicDATA_INSTALL = $(INSTALL_DATA)
-classic_recreationDATA_INSTALL = $(INSTALL_DATA)
-classic_religionDATA_INSTALL = $(INSTALL_DATA)
-classic_shoppingDATA_INSTALL = $(INSTALL_DATA)
-classic_shopping_groceriesDATA_INSTALL = $(INSTALL_DATA)
-classic_shopping_supermarketDATA_INSTALL = $(INSTALL_DATA)
-classic_sightseeingDATA_INSTALL = $(INSTALL_DATA)
-classic_sportsDATA_INSTALL = $(INSTALL_DATA)
-classic_transportDATA_INSTALL = $(INSTALL_DATA)
-classic_transport_bridgeDATA_INSTALL = $(INSTALL_DATA)
-classic_transport_ferryDATA_INSTALL = $(INSTALL_DATA)
-classic_vehicleDATA_INSTALL = $(INSTALL_DATA)
-classic_vehicle_car_rentalDATA_INSTALL = $(INSTALL_DATA)
-classic_vehicle_fuel_stationDATA_INSTALL = $(INSTALL_DATA)
-classic_vehicle_parkingDATA_INSTALL = $(INSTALL_DATA)
-classic_waypointDATA_INSTALL = $(INSTALL_DATA)
-classic_waypoint_wpttempDATA_INSTALL = $(INSTALL_DATA)
-classic_wlanDATA_INSTALL = $(INSTALL_DATA)
-classic_wlan_payDATA_INSTALL = $(INSTALL_DATA)
+classic.bigDATA_INSTALL = $(INSTALL_DATA)
+classic.big_accommodationDATA_INSTALL = $(INSTALL_DATA)
+classic.big_accommodation_campingDATA_INSTALL = $(INSTALL_DATA)
+classic.big_educationDATA_INSTALL = $(INSTALL_DATA)
+classic.big_education_schoolDATA_INSTALL = $(INSTALL_DATA)
+classic.big_foodDATA_INSTALL = $(INSTALL_DATA)
+classic.big_food_fastfoodDATA_INSTALL = $(INSTALL_DATA)
+classic.big_food_restaurantDATA_INSTALL = $(INSTALL_DATA)
+classic.big_food_snacksDATA_INSTALL = $(INSTALL_DATA)
+classic.big_geocacheDATA_INSTALL = $(INSTALL_DATA)
+classic.big_healthDATA_INSTALL = $(INSTALL_DATA)
+classic.big_miscDATA_INSTALL = $(INSTALL_DATA)
+classic.big_misc_informationDATA_INSTALL = $(INSTALL_DATA)
+classic.big_moneyDATA_INSTALL = $(INSTALL_DATA)
+classic.big_money_bankDATA_INSTALL = $(INSTALL_DATA)
+classic.big_nauticalDATA_INSTALL = $(INSTALL_DATA)
+classic.big_peopleDATA_INSTALL = $(INSTALL_DATA)
+classic.big_placesDATA_INSTALL = $(INSTALL_DATA)
+classic.big_places_settlementDATA_INSTALL = $(INSTALL_DATA)
+classic.big_publicDATA_INSTALL = $(INSTALL_DATA)
+classic.big_recreationDATA_INSTALL = $(INSTALL_DATA)
+classic.big_religionDATA_INSTALL = $(INSTALL_DATA)
+classic.big_shoppingDATA_INSTALL = $(INSTALL_DATA)
+classic.big_shopping_groceriesDATA_INSTALL = $(INSTALL_DATA)
+classic.big_shopping_supermarketDATA_INSTALL = $(INSTALL_DATA)
+classic.big_sightseeingDATA_INSTALL = $(INSTALL_DATA)
+classic.big_sportsDATA_INSTALL = $(INSTALL_DATA)
+classic.big_transportDATA_INSTALL = $(INSTALL_DATA)
+classic.big_transport_bridgeDATA_INSTALL = $(INSTALL_DATA)
+classic.big_transport_ferryDATA_INSTALL = $(INSTALL_DATA)
+classic.big_vehicleDATA_INSTALL = $(INSTALL_DATA)
+classic.big_vehicle_car_rentalDATA_INSTALL = $(INSTALL_DATA)
+classic.big_vehicle_fuel_stationDATA_INSTALL = $(INSTALL_DATA)
+classic.big_vehicle_parkingDATA_INSTALL = $(INSTALL_DATA)
+classic.big_waypointDATA_INSTALL = $(INSTALL_DATA)
+classic.big_waypoint_wpttempDATA_INSTALL = $(INSTALL_DATA)
+classic.big_wlanDATA_INSTALL = $(INSTALL_DATA)
+classic.big_wlan_payDATA_INSTALL = $(INSTALL_DATA)
+classic.small_accommodationDATA_INSTALL = $(INSTALL_DATA)
+classic.small_foodDATA_INSTALL = $(INSTALL_DATA)
+classic.small_incommingDATA_INSTALL = $(INSTALL_DATA)
+classic.small_placesDATA_INSTALL = $(INSTALL_DATA)
+classic.small_recreationDATA_INSTALL = $(INSTALL_DATA)
+classic.small_religionDATA_INSTALL = $(INSTALL_DATA)
+classic.small_sightseeingDATA_INSTALL = $(INSTALL_DATA)
+classic.small_transportDATA_INSTALL = $(INSTALL_DATA)
+classic.small_vehicleDATA_INSTALL = $(INSTALL_DATA)
+jp_tnDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_education_schoolDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_healthDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_incommingDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_publicDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_public_administrationDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_shopping_rentalDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_sightseeingDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_transport_ferryDATA_INSTALL = $(INSTALL_DATA)
 nickwDATA_INSTALL = $(INSTALL_DATA)
 square.bigDATA_INSTALL = $(INSTALL_DATA)
 square.big_accommodationDATA_INSTALL = $(INSTALL_DATA)
@@ -325,6 +360,7 @@ svg_tn_accommodation_campingDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_educationDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_foodDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_healthDATA_INSTALL = $(INSTALL_DATA)
+svg_tn_incommingDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_publicDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_recreationDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_religionDATA_INSTALL = $(INSTALL_DATA)
@@ -334,29 +370,45 @@ svg_tn_shopping_rentalDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_sportsDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_transportDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_vehicleDATA_INSTALL = $(INSTALL_DATA)
-DATA = $(classic_DATA) $(classic_accommodation_DATA) \
-	$(classic_accommodation_camping_DATA) \
-	$(classic_education_DATA) $(classic_education_school_DATA) \
-	$(classic_food_DATA) $(classic_food_fastfood_DATA) \
-	$(classic_food_restaurant_DATA) $(classic_food_snacks_DATA) \
-	$(classic_geocache_DATA) $(classic_health_DATA) \
-	$(classic_misc_DATA) $(classic_misc_information_DATA) \
-	$(classic_money_DATA) $(classic_money_bank_DATA) \
-	$(classic_nautical_DATA) $(classic_people_DATA) \
-	$(classic_places_DATA) $(classic_places_settlement_DATA) \
-	$(classic_public_DATA) $(classic_recreation_DATA) \
-	$(classic_religion_DATA) $(classic_shopping_DATA) \
-	$(classic_shopping_groceries_DATA) \
-	$(classic_shopping_supermarket_DATA) \
-	$(classic_sightseeing_DATA) $(classic_sports_DATA) \
-	$(classic_transport_DATA) $(classic_transport_bridge_DATA) \
-	$(classic_transport_ferry_DATA) $(classic_vehicle_DATA) \
-	$(classic_vehicle_car_rental_DATA) \
-	$(classic_vehicle_fuel_station_DATA) \
-	$(classic_vehicle_parking_DATA) $(classic_waypoint_DATA) \
-	$(classic_waypoint_wpttemp_DATA) $(classic_wlan_DATA) \
-	$(classic_wlan_pay_DATA) $(jp_tn_incomming_DATA) $(nickw_DATA) \
-	$(square.big_DATA) $(square.big_accommodation_DATA) \
+DATA = $(classic.big_DATA) $(classic.big_accommodation_DATA) \
+	$(classic.big_accommodation_camping_DATA) \
+	$(classic.big_education_DATA) \
+	$(classic.big_education_school_DATA) $(classic.big_food_DATA) \
+	$(classic.big_food_fastfood_DATA) \
+	$(classic.big_food_restaurant_DATA) \
+	$(classic.big_food_snacks_DATA) $(classic.big_geocache_DATA) \
+	$(classic.big_health_DATA) $(classic.big_misc_DATA) \
+	$(classic.big_misc_information_DATA) $(classic.big_money_DATA) \
+	$(classic.big_money_bank_DATA) $(classic.big_nautical_DATA) \
+	$(classic.big_people_DATA) $(classic.big_places_DATA) \
+	$(classic.big_places_settlement_DATA) \
+	$(classic.big_public_DATA) $(classic.big_recreation_DATA) \
+	$(classic.big_religion_DATA) $(classic.big_shopping_DATA) \
+	$(classic.big_shopping_groceries_DATA) \
+	$(classic.big_shopping_supermarket_DATA) \
+	$(classic.big_sightseeing_DATA) $(classic.big_sports_DATA) \
+	$(classic.big_transport_DATA) \
+	$(classic.big_transport_bridge_DATA) \
+	$(classic.big_transport_ferry_DATA) \
+	$(classic.big_vehicle_DATA) \
+	$(classic.big_vehicle_car_rental_DATA) \
+	$(classic.big_vehicle_fuel_station_DATA) \
+	$(classic.big_vehicle_parking_DATA) \
+	$(classic.big_waypoint_DATA) \
+	$(classic.big_waypoint_wpttemp_DATA) $(classic.big_wlan_DATA) \
+	$(classic.big_wlan_pay_DATA) \
+	$(classic.small_accommodation_DATA) $(classic.small_food_DATA) \
+	$(classic.small_incomming_DATA) $(classic.small_places_DATA) \
+	$(classic.small_recreation_DATA) \
+	$(classic.small_religion_DATA) \
+	$(classic.small_sightseeing_DATA) \
+	$(classic.small_transport_DATA) $(classic.small_vehicle_DATA) \
+	$(jp_tn_DATA) $(jp_tn_education_school_DATA) \
+	$(jp_tn_health_DATA) $(jp_tn_incomming_DATA) \
+	$(jp_tn_public_DATA) $(jp_tn_public_administration_DATA) \
+	$(jp_tn_shopping_rental_DATA) $(jp_tn_sightseeing_DATA) \
+	$(jp_tn_transport_ferry_DATA) $(nickw_DATA) $(square.big_DATA) \
+	$(square.big_accommodation_DATA) \
 	$(square.big_accommodation_camping_DATA) \
 	$(square.big_accommodation_hotel_DATA) \
 	$(square.big_education_DATA) \
@@ -419,11 +471,11 @@ DATA = $(classic_DATA) $(classic_accommodation_DATA) \
 	$(svg_tn_DATA) $(svg_tn_accommodation_DATA) \
 	$(svg_tn_accommodation_camping_DATA) $(svg_tn_education_DATA) \
 	$(svg_tn_food_DATA) $(svg_tn_health_DATA) \
-	$(svg_tn_public_DATA) $(svg_tn_recreation_DATA) \
-	$(svg_tn_religion_DATA) $(svg_tn_religion_church_DATA) \
-	$(svg_tn_shopping_DATA) $(svg_tn_shopping_rental_DATA) \
-	$(svg_tn_sports_DATA) $(svg_tn_transport_DATA) \
-	$(svg_tn_vehicle_DATA)
+	$(svg_tn_incomming_DATA) $(svg_tn_public_DATA) \
+	$(svg_tn_recreation_DATA) $(svg_tn_religion_DATA) \
+	$(svg_tn_religion_church_DATA) $(svg_tn_shopping_DATA) \
+	$(svg_tn_shopping_rental_DATA) $(svg_tn_sports_DATA) \
+	$(svg_tn_transport_DATA) $(svg_tn_vehicle_DATA)
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 pkgdatadir = @pkgdatadir@
 ACLOCAL = @ACLOCAL@
@@ -754,6 +806,8 @@ square.small_transport_DATA = square.small/transport/*.png
 square.small_transportdir = $(datadir)/map-icons/square.small/transport
 svg_tn_DATA = svg_tn/*.png
 svg_tndir = $(datadir)/map-icons/svg_tn
+svg_tn_incomming_DATA = svg_tn/incomming/*.png
+svg_tn_incommingdir = $(datadir)/map-icons/svg_tn/incomming
 svg_tn_accommodation_DATA = svg_tn/accommodation/*.png
 svg_tn_accommodationdir = $(datadir)/map-icons/svg_tn/accommodation
 svg_tn_accommodation_camping_DATA = svg_tn/accommodation/camping/*.png
@@ -782,84 +836,118 @@ svg_tn_religion_church_DATA = svg_tn/religion/church/*.png
 svg_tn_religion_churchdir = $(datadir)/map-icons/svg_tn/religion/church
 svg_tn_transport_DATA = svg_tn/transport/*.png
 svg_tn_transportdir = $(datadir)/map-icons/svg_tn/transport
+jp_tn_DATA = jp_tn/*.png
+jp_tndir = $(datadir)/map-icons/jp_tn
 jp_tn_incomming_DATA = jp_tn/incomming/*.png
 jp_tn_incommingdir = $(datadir)/map-icons/jp_tn/incomming
-classic_DATA = classic/*.png
-classicdir = $(datadir)/map-icons/classic
-classic_sightseeing_DATA = classic/sightseeing/*.png
-classic_sightseeingdir = $(datadir)/map-icons/classic/sightseeing
-classic_waypoint_DATA = classic/waypoint/*.png
-classic_waypointdir = $(datadir)/map-icons/classic/waypoint
-classic_waypoint_wpttemp_DATA = classic/waypoint/wpttemp/*.png
-classic_waypoint_wpttempdir = $(datadir)/map-icons/classic/waypoint/wpttemp
-classic_accommodation_DATA = classic/accommodation/*.png
-classic_accommodationdir = $(datadir)/map-icons/classic/accommodation
-classic_accommodation_camping_DATA = classic/accommodation/camping/*.png
-classic_accommodation_campingdir = $(datadir)/map-icons/classic/accommodation/camping
-classic_wlan_DATA = classic/wlan/*.png
-classic_wlandir = $(datadir)/map-icons/classic/wlan
-classic_wlan_pay_DATA = classic/wlan/pay/*.png
-classic_wlan_paydir = $(datadir)/map-icons/classic/wlan/pay
-classic_geocache_DATA = classic/geocache/*.png
-classic_geocachedir = $(datadir)/map-icons/classic/geocache
-classic_health_DATA = classic/health/*.png
-classic_healthdir = $(datadir)/map-icons/classic/health
-classic_money_DATA = classic/money/*.png
-classic_moneydir = $(datadir)/map-icons/classic/money
-classic_money_bank_DATA = classic/money/bank/*.png
-classic_money_bankdir = $(datadir)/map-icons/classic/money/bank
-classic_nautical_DATA = classic/nautical/*.png
-classic_nauticaldir = $(datadir)/map-icons/classic/nautical
-classic_food_DATA = classic/food/*.png
-classic_fooddir = $(datadir)/map-icons/classic/food
-classic_food_restaurant_DATA = classic/food/restaurant/*.png
-classic_food_restaurantdir = $(datadir)/map-icons/classic/food/restaurant
-classic_food_fastfood_DATA = classic/food/fastfood/*.png
-classic_food_fastfooddir = $(datadir)/map-icons/classic/food/fastfood
-classic_food_snacks_DATA = classic/food/snacks/*.png
-classic_food_snacksdir = $(datadir)/map-icons/classic/food/snacks
-classic_recreation_DATA = classic/recreation/*.png
-classic_recreationdir = $(datadir)/map-icons/classic/recreation
-classic_sports_DATA = classic/sports/*.png
-classic_sportsdir = $(datadir)/map-icons/classic/sports
-classic_misc_DATA = classic/misc/*.png
-classic_miscdir = $(datadir)/map-icons/classic/misc
-classic_misc_information_DATA = classic/misc/information/*.png
-classic_misc_informationdir = $(datadir)/map-icons/classic/misc/information
-classic_places_DATA = classic/places/*.png
-classic_placesdir = $(datadir)/map-icons/classic/places
-classic_places_settlement_DATA = classic/places/settlement/*.png
-classic_places_settlementdir = $(datadir)/map-icons/classic/places/settlement
-classic_vehicle_DATA = classic/vehicle/*.png
-classic_vehicledir = $(datadir)/map-icons/classic/vehicle
-classic_vehicle_car_rental_DATA = classic/vehicle/car_rental/*.png
-classic_vehicle_car_rentaldir = $(datadir)/map-icons/classic/vehicle/car_rental
-classic_vehicle_parking_DATA = classic/vehicle/parking/*.png
-classic_vehicle_parkingdir = $(datadir)/map-icons/classic/vehicle/parking
-classic_vehicle_fuel_station_DATA = classic/vehicle/fuel_station/*.png
-classic_vehicle_fuel_stationdir = $(datadir)/map-icons/classic/vehicle/fuel_station
-classic_education_DATA = classic/education/*.png
-classic_educationdir = $(datadir)/map-icons/classic/education
-classic_education_school_DATA = classic/education/school/*.png
-classic_education_schooldir = $(datadir)/map-icons/classic/education/school
-classic_shopping_DATA = classic/shopping/*.png
-classic_shoppingdir = $(datadir)/map-icons/classic/shopping
-classic_shopping_groceries_DATA = classic/shopping/groceries/*.png
-classic_shopping_groceriesdir = $(datadir)/map-icons/classic/shopping/groceries
-classic_shopping_supermarket_DATA = classic/shopping/supermarket/*.png
-classic_shopping_supermarketdir = $(datadir)/map-icons/classic/shopping/supermarket
-classic_public_DATA = classic/public/*.png
-classic_publicdir = $(datadir)/map-icons/classic/public
-classic_people_DATA = classic/people/*.png
-classic_peopledir = $(datadir)/map-icons/classic/people
-classic_religion_DATA = classic/religion/*.png
-classic_religiondir = $(datadir)/map-icons/classic/religion
-classic_transport_DATA = classic/transport/*.png
-classic_transportdir = $(datadir)/map-icons/classic/transport
-classic_transport_ferry_DATA = classic/transport/ferry/*.png
-classic_transport_ferrydir = $(datadir)/map-icons/classic/transport/ferry
-classic_transport_bridge_DATA = classic/transport/bridge/*.png
-classic_transport_bridgedir = $(datadir)/map-icons/classic/transport/bridge
+jp_tn_sightseeing_DATA = jp_tn/sightseeing/*.png
+jp_tn_sightseeingdir = $(datadir)/map-icons/jp_tn/sightseeing
+jp_tn_health_DATA = jp_tn/health/*.png
+jp_tn_healthdir = $(datadir)/map-icons/jp_tn/health
+jp_tn_education_school_DATA = jp_tn/education/school/*.png
+jp_tn_education_schooldir = $(datadir)/map-icons/jp_tn/education/school
+jp_tn_shopping_rental_DATA = jp_tn/shopping/rental/*.png
+jp_tn_shopping_rentaldir = $(datadir)/map-icons/jp_tn/shopping/rental
+jp_tn_public_DATA = jp_tn/public/*.png
+jp_tn_publicdir = $(datadir)/map-icons/jp_tn/public
+jp_tn_public_administration_DATA = jp_tn/public/administration/*.png
+jp_tn_public_administrationdir = $(datadir)/map-icons/jp_tn/public/administration
+jp_tn_transport_ferry_DATA = jp_tn/transport/ferry/*.png
+jp_tn_transport_ferrydir = $(datadir)/map-icons/jp_tn/transport/ferry
+classic.small_incomming_DATA = classic.small/incomming/*.png
+classic.small_incommingdir = $(datadir)/map-icons/classic.small/incomming
+classic.small_sightseeing_DATA = classic.small/sightseeing/*.png
+classic.small_sightseeingdir = $(datadir)/map-icons/classic.small/sightseeing
+classic.small_accommodation_DATA = classic.small/accommodation/*.png
+classic.small_accommodationdir = $(datadir)/map-icons/classic.small/accommodation
+classic.small_food_DATA = classic.small/food/*.png
+classic.small_fooddir = $(datadir)/map-icons/classic.small/food
+classic.small_recreation_DATA = classic.small/recreation/*.png
+classic.small_recreationdir = $(datadir)/map-icons/classic.small/recreation
+classic.small_places_DATA = classic.small/places/*.png
+classic.small_placesdir = $(datadir)/map-icons/classic.small/places
+classic.small_vehicle_DATA = classic.small/vehicle/*.png
+classic.small_vehicledir = $(datadir)/map-icons/classic.small/vehicle
+classic.small_religion_DATA = classic.small/religion/*.png
+classic.small_religiondir = $(datadir)/map-icons/classic.small/religion
+classic.small_transport_DATA = classic.small/transport/*.png
+classic.small_transportdir = $(datadir)/map-icons/classic.small/transport
+classic.big_DATA = classic.big/*.png
+classic.bigdir = $(datadir)/map-icons/classic.big
+classic.big_sightseeing_DATA = classic.big/sightseeing/*.png
+classic.big_sightseeingdir = $(datadir)/map-icons/classic.big/sightseeing
+classic.big_waypoint_DATA = classic.big/waypoint/*.png
+classic.big_waypointdir = $(datadir)/map-icons/classic.big/waypoint
+classic.big_waypoint_wpttemp_DATA = classic.big/waypoint/wpttemp/*.png
+classic.big_waypoint_wpttempdir = $(datadir)/map-icons/classic.big/waypoint/wpttemp
+classic.big_accommodation_DATA = classic.big/accommodation/*.png
+classic.big_accommodationdir = $(datadir)/map-icons/classic.big/accommodation
+classic.big_accommodation_camping_DATA = classic.big/accommodation/camping/*.png
+classic.big_accommodation_campingdir = $(datadir)/map-icons/classic.big/accommodation/camping
+classic.big_wlan_DATA = classic.big/wlan/*.png
+classic.big_wlandir = $(datadir)/map-icons/classic.big/wlan
+classic.big_wlan_pay_DATA = classic.big/wlan/pay/*.png
+classic.big_wlan_paydir = $(datadir)/map-icons/classic.big/wlan/pay
+classic.big_geocache_DATA = classic.big/geocache/*.png
+classic.big_geocachedir = $(datadir)/map-icons/classic.big/geocache
+classic.big_health_DATA = classic.big/health/*.png
+classic.big_healthdir = $(datadir)/map-icons/classic.big/health
+classic.big_money_DATA = classic.big/money/*.png
+classic.big_moneydir = $(datadir)/map-icons/classic.big/money
+classic.big_money_bank_DATA = classic.big/money/bank/*.png
+classic.big_money_bankdir = $(datadir)/map-icons/classic.big/money/bank
+classic.big_nautical_DATA = classic.big/nautical/*.png
+classic.big_nauticaldir = $(datadir)/map-icons/classic.big/nautical
+classic.big_food_DATA = classic.big/food/*.png
+classic.big_fooddir = $(datadir)/map-icons/classic.big/food
+classic.big_food_restaurant_DATA = classic.big/food/restaurant/*.png
+classic.big_food_restaurantdir = $(datadir)/map-icons/classic.big/food/restaurant
+classic.big_food_fastfood_DATA = classic.big/food/fastfood/*.png
+classic.big_food_fastfooddir = $(datadir)/map-icons/classic.big/food/fastfood
+classic.big_food_snacks_DATA = classic.big/food/snacks/*.png
+classic.big_food_snacksdir = $(datadir)/map-icons/classic.big/food/snacks
+classic.big_recreation_DATA = classic.big/recreation/*.png
+classic.big_recreationdir = $(datadir)/map-icons/classic.big/recreation
+classic.big_sports_DATA = classic.big/sports/*.png
+classic.big_sportsdir = $(datadir)/map-icons/classic.big/sports
+classic.big_misc_DATA = classic.big/misc/*.png
+classic.big_miscdir = $(datadir)/map-icons/classic.big/misc
+classic.big_misc_information_DATA = classic.big/misc/information/*.png
+classic.big_misc_informationdir = $(datadir)/map-icons/classic.big/misc/information
+classic.big_places_DATA = classic.big/places/*.png
+classic.big_placesdir = $(datadir)/map-icons/classic.big/places
+classic.big_places_settlement_DATA = classic.big/places/settlement/*.png
+classic.big_places_settlementdir = $(datadir)/map-icons/classic.big/places/settlement
+classic.big_vehicle_DATA = classic.big/vehicle/*.png
+classic.big_vehicledir = $(datadir)/map-icons/classic.big/vehicle
+classic.big_vehicle_car_rental_DATA = classic.big/vehicle/car_rental/*.png
+classic.big_vehicle_car_rentaldir = $(datadir)/map-icons/classic.big/vehicle/car_rental
+classic.big_vehicle_parking_DATA = classic.big/vehicle/parking/*.png
+classic.big_vehicle_parkingdir = $(datadir)/map-icons/classic.big/vehicle/parking
+classic.big_vehicle_fuel_station_DATA = classic.big/vehicle/fuel_station/*.png
+classic.big_vehicle_fuel_stationdir = $(datadir)/map-icons/classic.big/vehicle/fuel_station
+classic.big_education_DATA = classic.big/education/*.png
+classic.big_educationdir = $(datadir)/map-icons/classic.big/education
+classic.big_education_school_DATA = classic.big/education/school/*.png
+classic.big_education_schooldir = $(datadir)/map-icons/classic.big/education/school
+classic.big_shopping_DATA = classic.big/shopping/*.png
+classic.big_shoppingdir = $(datadir)/map-icons/classic.big/shopping
+classic.big_shopping_groceries_DATA = classic.big/shopping/groceries/*.png
+classic.big_shopping_groceriesdir = $(datadir)/map-icons/classic.big/shopping/groceries
+classic.big_shopping_supermarket_DATA = classic.big/shopping/supermarket/*.png
+classic.big_shopping_supermarketdir = $(datadir)/map-icons/classic.big/shopping/supermarket
+classic.big_public_DATA = classic.big/public/*.png
+classic.big_publicdir = $(datadir)/map-icons/classic.big/public
+classic.big_people_DATA = classic.big/people/*.png
+classic.big_peopledir = $(datadir)/map-icons/classic.big/people
+classic.big_religion_DATA = classic.big/religion/*.png
+classic.big_religiondir = $(datadir)/map-icons/classic.big/religion
+classic.big_transport_DATA = classic.big/transport/*.png
+classic.big_transportdir = $(datadir)/map-icons/classic.big/transport
+classic.big_transport_ferry_DATA = classic.big/transport/ferry/*.png
+classic.big_transport_ferrydir = $(datadir)/map-icons/classic.big/transport/ferry
+classic.big_transport_bridge_DATA = classic.big/transport/bridge/*.png
+classic.big_transport_bridgedir = $(datadir)/map-icons/classic.big/transport/bridge
 nickw_DATA = nickw/*.png
 nickwdir = $(datadir)/map-icons/nickw
 EXTRA_DIST = \
@@ -948,6 +1036,7 @@ EXTRA_DIST = \
 	$(square.small_religion_DATA) \
 	$(square.small_transport_DATA) \
 	$(svg_tn_DATA) \
+	$(svg_tn_incomming_DATA) \
 	$(svg_tn_accommodation_DATA) \
 	$(svg_tn_accommodation_camping_DATA) \
 	$(svg_tn_health_DATA) \
@@ -962,45 +1051,62 @@ EXTRA_DIST = \
 	$(svg_tn_religion_DATA) \
 	$(svg_tn_religion_church_DATA) \
 	$(svg_tn_transport_DATA) \
+	$(jp_tn_DATA) \
 	$(jp_tn_incomming_DATA) \
-	$(classic_DATA) \
-	$(classic_sightseeing_DATA) \
-	$(classic_waypoint_DATA) \
-	$(classic_waypoint_wpttemp_DATA) \
-	$(classic_accommodation_DATA) \
-	$(classic_accommodation_camping_DATA) \
-	$(classic_wlan_DATA) \
-	$(classic_wlan_pay_DATA) \
-	$(classic_geocache_DATA) \
-	$(classic_health_DATA) \
-	$(classic_money_DATA) \
-	$(classic_money_bank_DATA) \
-	$(classic_nautical_DATA) \
-	$(classic_food_DATA) \
-	$(classic_food_restaurant_DATA) \
-	$(classic_food_fastfood_DATA) \
-	$(classic_food_snacks_DATA) \
-	$(classic_recreation_DATA) \
-	$(classic_sports_DATA) \
-	$(classic_misc_DATA) \
-	$(classic_misc_information_DATA) \
-	$(classic_places_DATA) \
-	$(classic_places_settlement_DATA) \
-	$(classic_vehicle_DATA) \
-	$(classic_vehicle_car_rental_DATA) \
-	$(classic_vehicle_parking_DATA) \
-	$(classic_vehicle_fuel_station_DATA) \
-	$(classic_education_DATA) \
-	$(classic_education_school_DATA) \
-	$(classic_shopping_DATA) \
-	$(classic_shopping_groceries_DATA) \
-	$(classic_shopping_supermarket_DATA) \
-	$(classic_public_DATA) \
-	$(classic_people_DATA) \
-	$(classic_religion_DATA) \
-	$(classic_transport_DATA) \
-	$(classic_transport_ferry_DATA) \
-	$(classic_transport_bridge_DATA) \
+	$(jp_tn_sightseeing_DATA) \
+	$(jp_tn_health_DATA) \
+	$(jp_tn_education_school_DATA) \
+	$(jp_tn_shopping_rental_DATA) \
+	$(jp_tn_public_DATA) \
+	$(jp_tn_public_administration_DATA) \
+	$(jp_tn_transport_ferry_DATA) \
+	$(classic.small_incomming_DATA) \
+	$(classic.small_sightseeing_DATA) \
+	$(classic.small_accommodation_DATA) \
+	$(classic.small_food_DATA) \
+	$(classic.small_recreation_DATA) \
+	$(classic.small_places_DATA) \
+	$(classic.small_vehicle_DATA) \
+	$(classic.small_religion_DATA) \
+	$(classic.small_transport_DATA) \
+	$(classic.big_DATA) \
+	$(classic.big_sightseeing_DATA) \
+	$(classic.big_waypoint_DATA) \
+	$(classic.big_waypoint_wpttemp_DATA) \
+	$(classic.big_accommodation_DATA) \
+	$(classic.big_accommodation_camping_DATA) \
+	$(classic.big_wlan_DATA) \
+	$(classic.big_wlan_pay_DATA) \
+	$(classic.big_geocache_DATA) \
+	$(classic.big_health_DATA) \
+	$(classic.big_money_DATA) \
+	$(classic.big_money_bank_DATA) \
+	$(classic.big_nautical_DATA) \
+	$(classic.big_food_DATA) \
+	$(classic.big_food_restaurant_DATA) \
+	$(classic.big_food_fastfood_DATA) \
+	$(classic.big_food_snacks_DATA) \
+	$(classic.big_recreation_DATA) \
+	$(classic.big_sports_DATA) \
+	$(classic.big_misc_DATA) \
+	$(classic.big_misc_information_DATA) \
+	$(classic.big_places_DATA) \
+	$(classic.big_places_settlement_DATA) \
+	$(classic.big_vehicle_DATA) \
+	$(classic.big_vehicle_car_rental_DATA) \
+	$(classic.big_vehicle_parking_DATA) \
+	$(classic.big_vehicle_fuel_station_DATA) \
+	$(classic.big_education_DATA) \
+	$(classic.big_education_school_DATA) \
+	$(classic.big_shopping_DATA) \
+	$(classic.big_shopping_groceries_DATA) \
+	$(classic.big_shopping_supermarket_DATA) \
+	$(classic.big_public_DATA) \
+	$(classic.big_people_DATA) \
+	$(classic.big_religion_DATA) \
+	$(classic.big_transport_DATA) \
+	$(classic.big_transport_ferry_DATA) \
+	$(classic.big_transport_bridge_DATA) \
 	$(nickw_DATA) \
 	CMakeLists.txt \
 	index.html \
@@ -1050,651 +1156,855 @@ clean-libtool:
 distclean-libtool:
 	-rm -f libtool
 uninstall-info-am:
-install-classicDATA: $(classic_DATA)
+install-classic.bigDATA: $(classic.big_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classicdir)" || $(mkdir_p) "$(DESTDIR)$(classicdir)"
-	@list='$(classic_DATA)'; for p in $$list; do \
+	test -z "$(classic.bigdir)" || $(mkdir_p) "$(DESTDIR)$(classic.bigdir)"
+	@list='$(classic.big_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classicDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classicdir)/$$f'"; \
-	  $(classicDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classicdir)/$$f"; \
+	  echo " $(classic.bigDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.bigdir)/$$f'"; \
+	  $(classic.bigDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.bigdir)/$$f"; \
 	done
 
-uninstall-classicDATA:
+uninstall-classic.bigDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_DATA)'; for p in $$list; do \
+	@list='$(classic.big_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classicdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classicdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.bigdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.bigdir)/$$f"; \
 	done
-install-classic_accommodationDATA: $(classic_accommodation_DATA)
+install-classic.big_accommodationDATA: $(classic.big_accommodation_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_accommodationdir)" || $(mkdir_p) "$(DESTDIR)$(classic_accommodationdir)"
-	@list='$(classic_accommodation_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_accommodationdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_accommodationdir)"
+	@list='$(classic.big_accommodation_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_accommodationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_accommodationdir)/$$f'"; \
-	  $(classic_accommodationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_accommodationdir)/$$f"; \
+	  echo " $(classic.big_accommodationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_accommodationdir)/$$f'"; \
+	  $(classic.big_accommodationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_accommodationdir)/$$f"; \
 	done
 
-uninstall-classic_accommodationDATA:
+uninstall-classic.big_accommodationDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_accommodation_DATA)'; for p in $$list; do \
+	@list='$(classic.big_accommodation_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_accommodationdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_accommodationdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_accommodationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_accommodationdir)/$$f"; \
 	done
-install-classic_accommodation_campingDATA: $(classic_accommodation_camping_DATA)
+install-classic.big_accommodation_campingDATA: $(classic.big_accommodation_camping_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_accommodation_campingdir)" || $(mkdir_p) "$(DESTDIR)$(classic_accommodation_campingdir)"
-	@list='$(classic_accommodation_camping_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_accommodation_campingdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_accommodation_campingdir)"
+	@list='$(classic.big_accommodation_camping_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_accommodation_campingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_accommodation_campingdir)/$$f'"; \
-	  $(classic_accommodation_campingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_accommodation_campingdir)/$$f"; \
+	  echo " $(classic.big_accommodation_campingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_accommodation_campingdir)/$$f'"; \
+	  $(classic.big_accommodation_campingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_accommodation_campingdir)/$$f"; \
 	done
 
-uninstall-classic_accommodation_campingDATA:
+uninstall-classic.big_accommodation_campingDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_accommodation_camping_DATA)'; for p in $$list; do \
+	@list='$(classic.big_accommodation_camping_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_accommodation_campingdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_accommodation_campingdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_accommodation_campingdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_accommodation_campingdir)/$$f"; \
 	done
-install-classic_educationDATA: $(classic_education_DATA)
+install-classic.big_educationDATA: $(classic.big_education_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_educationdir)" || $(mkdir_p) "$(DESTDIR)$(classic_educationdir)"
-	@list='$(classic_education_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_educationdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_educationdir)"
+	@list='$(classic.big_education_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_educationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_educationdir)/$$f'"; \
-	  $(classic_educationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_educationdir)/$$f"; \
+	  echo " $(classic.big_educationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_educationdir)/$$f'"; \
+	  $(classic.big_educationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_educationdir)/$$f"; \
 	done
 
-uninstall-classic_educationDATA:
+uninstall-classic.big_educationDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_education_DATA)'; for p in $$list; do \
+	@list='$(classic.big_education_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_educationdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_educationdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_educationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_educationdir)/$$f"; \
 	done
-install-classic_education_schoolDATA: $(classic_education_school_DATA)
+install-classic.big_education_schoolDATA: $(classic.big_education_school_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_education_schooldir)" || $(mkdir_p) "$(DESTDIR)$(classic_education_schooldir)"
-	@list='$(classic_education_school_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_education_schooldir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_education_schooldir)"
+	@list='$(classic.big_education_school_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_education_schoolDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_education_schooldir)/$$f'"; \
-	  $(classic_education_schoolDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_education_schooldir)/$$f"; \
+	  echo " $(classic.big_education_schoolDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_education_schooldir)/$$f'"; \
+	  $(classic.big_education_schoolDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_education_schooldir)/$$f"; \
 	done
 
-uninstall-classic_education_schoolDATA:
+uninstall-classic.big_education_schoolDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_education_school_DATA)'; for p in $$list; do \
+	@list='$(classic.big_education_school_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_education_schooldir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_education_schooldir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_education_schooldir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_education_schooldir)/$$f"; \
 	done
-install-classic_foodDATA: $(classic_food_DATA)
+install-classic.big_foodDATA: $(classic.big_food_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_fooddir)" || $(mkdir_p) "$(DESTDIR)$(classic_fooddir)"
-	@list='$(classic_food_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_fooddir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_fooddir)"
+	@list='$(classic.big_food_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_foodDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_fooddir)/$$f'"; \
-	  $(classic_foodDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_fooddir)/$$f"; \
+	  echo " $(classic.big_foodDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_fooddir)/$$f'"; \
+	  $(classic.big_foodDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_fooddir)/$$f"; \
 	done
 
-uninstall-classic_foodDATA:
+uninstall-classic.big_foodDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_food_DATA)'; for p in $$list; do \
+	@list='$(classic.big_food_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_fooddir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_fooddir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_fooddir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_fooddir)/$$f"; \
 	done
-install-classic_food_fastfoodDATA: $(classic_food_fastfood_DATA)
+install-classic.big_food_fastfoodDATA: $(classic.big_food_fastfood_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_food_fastfooddir)" || $(mkdir_p) "$(DESTDIR)$(classic_food_fastfooddir)"
-	@list='$(classic_food_fastfood_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_food_fastfooddir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_food_fastfooddir)"
+	@list='$(classic.big_food_fastfood_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_food_fastfoodDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_food_fastfooddir)/$$f'"; \
-	  $(classic_food_fastfoodDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_food_fastfooddir)/$$f"; \
+	  echo " $(classic.big_food_fastfoodDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_food_fastfooddir)/$$f'"; \
+	  $(classic.big_food_fastfoodDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_food_fastfooddir)/$$f"; \
 	done
 
-uninstall-classic_food_fastfoodDATA:
+uninstall-classic.big_food_fastfoodDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_food_fastfood_DATA)'; for p in $$list; do \
+	@list='$(classic.big_food_fastfood_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_food_fastfooddir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_food_fastfooddir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_food_fastfooddir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_food_fastfooddir)/$$f"; \
 	done
-install-classic_food_restaurantDATA: $(classic_food_restaurant_DATA)
+install-classic.big_food_restaurantDATA: $(classic.big_food_restaurant_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_food_restaurantdir)" || $(mkdir_p) "$(DESTDIR)$(classic_food_restaurantdir)"
-	@list='$(classic_food_restaurant_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_food_restaurantdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_food_restaurantdir)"
+	@list='$(classic.big_food_restaurant_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_food_restaurantDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_food_restaurantdir)/$$f'"; \
-	  $(classic_food_restaurantDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_food_restaurantdir)/$$f"; \
+	  echo " $(classic.big_food_restaurantDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_food_restaurantdir)/$$f'"; \
+	  $(classic.big_food_restaurantDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_food_restaurantdir)/$$f"; \
 	done
 
-uninstall-classic_food_restaurantDATA:
+uninstall-classic.big_food_restaurantDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_food_restaurant_DATA)'; for p in $$list; do \
+	@list='$(classic.big_food_restaurant_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_food_restaurantdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_food_restaurantdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_food_restaurantdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_food_restaurantdir)/$$f"; \
 	done
-install-classic_food_snacksDATA: $(classic_food_snacks_DATA)
+install-classic.big_food_snacksDATA: $(classic.big_food_snacks_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_food_snacksdir)" || $(mkdir_p) "$(DESTDIR)$(classic_food_snacksdir)"
-	@list='$(classic_food_snacks_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_food_snacksdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_food_snacksdir)"
+	@list='$(classic.big_food_snacks_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_food_snacksDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_food_snacksdir)/$$f'"; \
-	  $(classic_food_snacksDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_food_snacksdir)/$$f"; \
+	  echo " $(classic.big_food_snacksDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_food_snacksdir)/$$f'"; \
+	  $(classic.big_food_snacksDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_food_snacksdir)/$$f"; \
 	done
 
-uninstall-classic_food_snacksDATA:
+uninstall-classic.big_food_snacksDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_food_snacks_DATA)'; for p in $$list; do \
+	@list='$(classic.big_food_snacks_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_food_snacksdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_food_snacksdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_food_snacksdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_food_snacksdir)/$$f"; \
 	done
-install-classic_geocacheDATA: $(classic_geocache_DATA)
+install-classic.big_geocacheDATA: $(classic.big_geocache_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_geocachedir)" || $(mkdir_p) "$(DESTDIR)$(classic_geocachedir)"
-	@list='$(classic_geocache_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_geocachedir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_geocachedir)"
+	@list='$(classic.big_geocache_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_geocacheDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_geocachedir)/$$f'"; \
-	  $(classic_geocacheDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_geocachedir)/$$f"; \
+	  echo " $(classic.big_geocacheDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_geocachedir)/$$f'"; \
+	  $(classic.big_geocacheDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_geocachedir)/$$f"; \
 	done
 
-uninstall-classic_geocacheDATA:
+uninstall-classic.big_geocacheDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_geocache_DATA)'; for p in $$list; do \
+	@list='$(classic.big_geocache_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_geocachedir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_geocachedir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_geocachedir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_geocachedir)/$$f"; \
 	done
-install-classic_healthDATA: $(classic_health_DATA)
+install-classic.big_healthDATA: $(classic.big_health_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_healthdir)" || $(mkdir_p) "$(DESTDIR)$(classic_healthdir)"
-	@list='$(classic_health_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_healthdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_healthdir)"
+	@list='$(classic.big_health_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_healthDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_healthdir)/$$f'"; \
-	  $(classic_healthDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_healthdir)/$$f"; \
+	  echo " $(classic.big_healthDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_healthdir)/$$f'"; \
+	  $(classic.big_healthDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_healthdir)/$$f"; \
 	done
 
-uninstall-classic_healthDATA:
+uninstall-classic.big_healthDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_health_DATA)'; for p in $$list; do \
+	@list='$(classic.big_health_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_healthdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_healthdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_healthdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_healthdir)/$$f"; \
 	done
-install-classic_miscDATA: $(classic_misc_DATA)
+install-classic.big_miscDATA: $(classic.big_misc_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_miscdir)" || $(mkdir_p) "$(DESTDIR)$(classic_miscdir)"
-	@list='$(classic_misc_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_miscdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_miscdir)"
+	@list='$(classic.big_misc_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_miscDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_miscdir)/$$f'"; \
-	  $(classic_miscDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_miscdir)/$$f"; \
+	  echo " $(classic.big_miscDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_miscdir)/$$f'"; \
+	  $(classic.big_miscDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_miscdir)/$$f"; \
 	done
 
-uninstall-classic_miscDATA:
+uninstall-classic.big_miscDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_misc_DATA)'; for p in $$list; do \
+	@list='$(classic.big_misc_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_miscdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_miscdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_miscdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_miscdir)/$$f"; \
 	done
-install-classic_misc_informationDATA: $(classic_misc_information_DATA)
+install-classic.big_misc_informationDATA: $(classic.big_misc_information_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_misc_informationdir)" || $(mkdir_p) "$(DESTDIR)$(classic_misc_informationdir)"
-	@list='$(classic_misc_information_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_misc_informationdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_misc_informationdir)"
+	@list='$(classic.big_misc_information_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_misc_informationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_misc_informationdir)/$$f'"; \
-	  $(classic_misc_informationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_misc_informationdir)/$$f"; \
+	  echo " $(classic.big_misc_informationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_misc_informationdir)/$$f'"; \
+	  $(classic.big_misc_informationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_misc_informationdir)/$$f"; \
 	done
 
-uninstall-classic_misc_informationDATA:
+uninstall-classic.big_misc_informationDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_misc_information_DATA)'; for p in $$list; do \
+	@list='$(classic.big_misc_information_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_misc_informationdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_misc_informationdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_misc_informationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_misc_informationdir)/$$f"; \
 	done
-install-classic_moneyDATA: $(classic_money_DATA)
+install-classic.big_moneyDATA: $(classic.big_money_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_moneydir)" || $(mkdir_p) "$(DESTDIR)$(classic_moneydir)"
-	@list='$(classic_money_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_moneydir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_moneydir)"
+	@list='$(classic.big_money_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_moneyDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_moneydir)/$$f'"; \
-	  $(classic_moneyDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_moneydir)/$$f"; \
+	  echo " $(classic.big_moneyDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_moneydir)/$$f'"; \
+	  $(classic.big_moneyDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_moneydir)/$$f"; \
 	done
 
-uninstall-classic_moneyDATA:
+uninstall-classic.big_moneyDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_money_DATA)'; for p in $$list; do \
+	@list='$(classic.big_money_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_moneydir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_moneydir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_moneydir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_moneydir)/$$f"; \
 	done
-install-classic_money_bankDATA: $(classic_money_bank_DATA)
+install-classic.big_money_bankDATA: $(classic.big_money_bank_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_money_bankdir)" || $(mkdir_p) "$(DESTDIR)$(classic_money_bankdir)"
-	@list='$(classic_money_bank_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_money_bankdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_money_bankdir)"
+	@list='$(classic.big_money_bank_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_money_bankDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_money_bankdir)/$$f'"; \
-	  $(classic_money_bankDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_money_bankdir)/$$f"; \
+	  echo " $(classic.big_money_bankDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_money_bankdir)/$$f'"; \
+	  $(classic.big_money_bankDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_money_bankdir)/$$f"; \
 	done
 
-uninstall-classic_money_bankDATA:
+uninstall-classic.big_money_bankDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_money_bank_DATA)'; for p in $$list; do \
+	@list='$(classic.big_money_bank_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_money_bankdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_money_bankdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_money_bankdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_money_bankdir)/$$f"; \
 	done
-install-classic_nauticalDATA: $(classic_nautical_DATA)
+install-classic.big_nauticalDATA: $(classic.big_nautical_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_nauticaldir)" || $(mkdir_p) "$(DESTDIR)$(classic_nauticaldir)"
-	@list='$(classic_nautical_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_nauticaldir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_nauticaldir)"
+	@list='$(classic.big_nautical_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_nauticalDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_nauticaldir)/$$f'"; \
-	  $(classic_nauticalDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_nauticaldir)/$$f"; \
+	  echo " $(classic.big_nauticalDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_nauticaldir)/$$f'"; \
+	  $(classic.big_nauticalDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_nauticaldir)/$$f"; \
 	done
 
-uninstall-classic_nauticalDATA:
+uninstall-classic.big_nauticalDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_nautical_DATA)'; for p in $$list; do \
+	@list='$(classic.big_nautical_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_nauticaldir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_nauticaldir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_nauticaldir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_nauticaldir)/$$f"; \
 	done
-install-classic_peopleDATA: $(classic_people_DATA)
+install-classic.big_peopleDATA: $(classic.big_people_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_peopledir)" || $(mkdir_p) "$(DESTDIR)$(classic_peopledir)"
-	@list='$(classic_people_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_peopledir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_peopledir)"
+	@list='$(classic.big_people_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_peopleDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_peopledir)/$$f'"; \
-	  $(classic_peopleDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_peopledir)/$$f"; \
+	  echo " $(classic.big_peopleDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_peopledir)/$$f'"; \
+	  $(classic.big_peopleDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_peopledir)/$$f"; \
 	done
 
-uninstall-classic_peopleDATA:
+uninstall-classic.big_peopleDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_people_DATA)'; for p in $$list; do \
+	@list='$(classic.big_people_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_peopledir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_peopledir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_peopledir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_peopledir)/$$f"; \
 	done
-install-classic_placesDATA: $(classic_places_DATA)
+install-classic.big_placesDATA: $(classic.big_places_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_placesdir)" || $(mkdir_p) "$(DESTDIR)$(classic_placesdir)"
-	@list='$(classic_places_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_placesdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_placesdir)"
+	@list='$(classic.big_places_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_placesDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_placesdir)/$$f'"; \
-	  $(classic_placesDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_placesdir)/$$f"; \
+	  echo " $(classic.big_placesDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_placesdir)/$$f'"; \
+	  $(classic.big_placesDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_placesdir)/$$f"; \
 	done
 
-uninstall-classic_placesDATA:
+uninstall-classic.big_placesDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_places_DATA)'; for p in $$list; do \
+	@list='$(classic.big_places_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_placesdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_placesdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_placesdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_placesdir)/$$f"; \
 	done
-install-classic_places_settlementDATA: $(classic_places_settlement_DATA)
+install-classic.big_places_settlementDATA: $(classic.big_places_settlement_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_places_settlementdir)" || $(mkdir_p) "$(DESTDIR)$(classic_places_settlementdir)"
-	@list='$(classic_places_settlement_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_places_settlementdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_places_settlementdir)"
+	@list='$(classic.big_places_settlement_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_places_settlementDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_places_settlementdir)/$$f'"; \
-	  $(classic_places_settlementDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_places_settlementdir)/$$f"; \
+	  echo " $(classic.big_places_settlementDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_places_settlementdir)/$$f'"; \
+	  $(classic.big_places_settlementDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_places_settlementdir)/$$f"; \
 	done
 
-uninstall-classic_places_settlementDATA:
+uninstall-classic.big_places_settlementDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_places_settlement_DATA)'; for p in $$list; do \
+	@list='$(classic.big_places_settlement_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_places_settlementdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_places_settlementdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_places_settlementdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_places_settlementdir)/$$f"; \
 	done
-install-classic_publicDATA: $(classic_public_DATA)
+install-classic.big_publicDATA: $(classic.big_public_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_publicdir)" || $(mkdir_p) "$(DESTDIR)$(classic_publicdir)"
-	@list='$(classic_public_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_publicdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_publicdir)"
+	@list='$(classic.big_public_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_publicDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_publicdir)/$$f'"; \
-	  $(classic_publicDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_publicdir)/$$f"; \
+	  echo " $(classic.big_publicDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_publicdir)/$$f'"; \
+	  $(classic.big_publicDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_publicdir)/$$f"; \
 	done
 
-uninstall-classic_publicDATA:
+uninstall-classic.big_publicDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_public_DATA)'; for p in $$list; do \
+	@list='$(classic.big_public_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_publicdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_publicdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_publicdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_publicdir)/$$f"; \
 	done
-install-classic_recreationDATA: $(classic_recreation_DATA)
+install-classic.big_recreationDATA: $(classic.big_recreation_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_recreationdir)" || $(mkdir_p) "$(DESTDIR)$(classic_recreationdir)"
-	@list='$(classic_recreation_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_recreationdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_recreationdir)"
+	@list='$(classic.big_recreation_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_recreationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_recreationdir)/$$f'"; \
-	  $(classic_recreationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_recreationdir)/$$f"; \
+	  echo " $(classic.big_recreationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_recreationdir)/$$f'"; \
+	  $(classic.big_recreationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_recreationdir)/$$f"; \
 	done
 
-uninstall-classic_recreationDATA:
+uninstall-classic.big_recreationDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_recreation_DATA)'; for p in $$list; do \
+	@list='$(classic.big_recreation_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_recreationdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_recreationdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_recreationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_recreationdir)/$$f"; \
 	done
-install-classic_religionDATA: $(classic_religion_DATA)
+install-classic.big_religionDATA: $(classic.big_religion_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_religiondir)" || $(mkdir_p) "$(DESTDIR)$(classic_religiondir)"
-	@list='$(classic_religion_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_religiondir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_religiondir)"
+	@list='$(classic.big_religion_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_religionDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_religiondir)/$$f'"; \
-	  $(classic_religionDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_religiondir)/$$f"; \
+	  echo " $(classic.big_religionDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_religiondir)/$$f'"; \
+	  $(classic.big_religionDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_religiondir)/$$f"; \
 	done
 
-uninstall-classic_religionDATA:
+uninstall-classic.big_religionDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_religion_DATA)'; for p in $$list; do \
+	@list='$(classic.big_religion_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_religiondir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_religiondir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_religiondir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_religiondir)/$$f"; \
 	done
-install-classic_shoppingDATA: $(classic_shopping_DATA)
+install-classic.big_shoppingDATA: $(classic.big_shopping_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_shoppingdir)" || $(mkdir_p) "$(DESTDIR)$(classic_shoppingdir)"
-	@list='$(classic_shopping_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_shoppingdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_shoppingdir)"
+	@list='$(classic.big_shopping_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_shoppingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_shoppingdir)/$$f'"; \
-	  $(classic_shoppingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_shoppingdir)/$$f"; \
+	  echo " $(classic.big_shoppingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_shoppingdir)/$$f'"; \
+	  $(classic.big_shoppingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_shoppingdir)/$$f"; \
 	done
 
-uninstall-classic_shoppingDATA:
+uninstall-classic.big_shoppingDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_shopping_DATA)'; for p in $$list; do \
+	@list='$(classic.big_shopping_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_shoppingdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_shoppingdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_shoppingdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_shoppingdir)/$$f"; \
 	done
-install-classic_shopping_groceriesDATA: $(classic_shopping_groceries_DATA)
+install-classic.big_shopping_groceriesDATA: $(classic.big_shopping_groceries_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_shopping_groceriesdir)" || $(mkdir_p) "$(DESTDIR)$(classic_shopping_groceriesdir)"
-	@list='$(classic_shopping_groceries_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_shopping_groceriesdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_shopping_groceriesdir)"
+	@list='$(classic.big_shopping_groceries_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_shopping_groceriesDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_shopping_groceriesdir)/$$f'"; \
-	  $(classic_shopping_groceriesDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_shopping_groceriesdir)/$$f"; \
+	  echo " $(classic.big_shopping_groceriesDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_shopping_groceriesdir)/$$f'"; \
+	  $(classic.big_shopping_groceriesDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_shopping_groceriesdir)/$$f"; \
 	done
 
-uninstall-classic_shopping_groceriesDATA:
+uninstall-classic.big_shopping_groceriesDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_shopping_groceries_DATA)'; for p in $$list; do \
+	@list='$(classic.big_shopping_groceries_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_shopping_groceriesdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_shopping_groceriesdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_shopping_groceriesdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_shopping_groceriesdir)/$$f"; \
 	done
-install-classic_shopping_supermarketDATA: $(classic_shopping_supermarket_DATA)
+install-classic.big_shopping_supermarketDATA: $(classic.big_shopping_supermarket_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_shopping_supermarketdir)" || $(mkdir_p) "$(DESTDIR)$(classic_shopping_supermarketdir)"
-	@list='$(classic_shopping_supermarket_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_shopping_supermarketdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_shopping_supermarketdir)"
+	@list='$(classic.big_shopping_supermarket_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_shopping_supermarketDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_shopping_supermarketdir)/$$f'"; \
-	  $(classic_shopping_supermarketDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_shopping_supermarketdir)/$$f"; \
+	  echo " $(classic.big_shopping_supermarketDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_shopping_supermarketdir)/$$f'"; \
+	  $(classic.big_shopping_supermarketDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_shopping_supermarketdir)/$$f"; \
 	done
 
-uninstall-classic_shopping_supermarketDATA:
+uninstall-classic.big_shopping_supermarketDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_shopping_supermarket_DATA)'; for p in $$list; do \
+	@list='$(classic.big_shopping_supermarket_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_shopping_supermarketdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_shopping_supermarketdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_shopping_supermarketdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_shopping_supermarketdir)/$$f"; \
 	done
-install-classic_sightseeingDATA: $(classic_sightseeing_DATA)
+install-classic.big_sightseeingDATA: $(classic.big_sightseeing_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_sightseeingdir)" || $(mkdir_p) "$(DESTDIR)$(classic_sightseeingdir)"
-	@list='$(classic_sightseeing_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_sightseeingdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_sightseeingdir)"
+	@list='$(classic.big_sightseeing_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_sightseeingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_sightseeingdir)/$$f'"; \
-	  $(classic_sightseeingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_sightseeingdir)/$$f"; \
+	  echo " $(classic.big_sightseeingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_sightseeingdir)/$$f'"; \
+	  $(classic.big_sightseeingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_sightseeingdir)/$$f"; \
 	done
 
-uninstall-classic_sightseeingDATA:
+uninstall-classic.big_sightseeingDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_sightseeing_DATA)'; for p in $$list; do \
+	@list='$(classic.big_sightseeing_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_sightseeingdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_sightseeingdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_sightseeingdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_sightseeingdir)/$$f"; \
 	done
-install-classic_sportsDATA: $(classic_sports_DATA)
+install-classic.big_sportsDATA: $(classic.big_sports_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_sportsdir)" || $(mkdir_p) "$(DESTDIR)$(classic_sportsdir)"
-	@list='$(classic_sports_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_sportsdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_sportsdir)"
+	@list='$(classic.big_sports_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_sportsDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_sportsdir)/$$f'"; \
-	  $(classic_sportsDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_sportsdir)/$$f"; \
+	  echo " $(classic.big_sportsDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_sportsdir)/$$f'"; \
+	  $(classic.big_sportsDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_sportsdir)/$$f"; \
 	done
 
-uninstall-classic_sportsDATA:
+uninstall-classic.big_sportsDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_sports_DATA)'; for p in $$list; do \
+	@list='$(classic.big_sports_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_sportsdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_sportsdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_sportsdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_sportsdir)/$$f"; \
 	done
-install-classic_transportDATA: $(classic_transport_DATA)
+install-classic.big_transportDATA: $(classic.big_transport_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_transportdir)" || $(mkdir_p) "$(DESTDIR)$(classic_transportdir)"
-	@list='$(classic_transport_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_transportdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_transportdir)"
+	@list='$(classic.big_transport_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_transportDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_transportdir)/$$f'"; \
-	  $(classic_transportDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_transportdir)/$$f"; \
+	  echo " $(classic.big_transportDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_transportdir)/$$f'"; \
+	  $(classic.big_transportDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_transportdir)/$$f"; \
 	done
 
-uninstall-classic_transportDATA:
+uninstall-classic.big_transportDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_transport_DATA)'; for p in $$list; do \
+	@list='$(classic.big_transport_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_transportdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_transportdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_transportdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_transportdir)/$$f"; \
 	done
-install-classic_transport_bridgeDATA: $(classic_transport_bridge_DATA)
+install-classic.big_transport_bridgeDATA: $(classic.big_transport_bridge_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_transport_bridgedir)" || $(mkdir_p) "$(DESTDIR)$(classic_transport_bridgedir)"
-	@list='$(classic_transport_bridge_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_transport_bridgedir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_transport_bridgedir)"
+	@list='$(classic.big_transport_bridge_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_transport_bridgeDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_transport_bridgedir)/$$f'"; \
-	  $(classic_transport_bridgeDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_transport_bridgedir)/$$f"; \
+	  echo " $(classic.big_transport_bridgeDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_transport_bridgedir)/$$f'"; \
+	  $(classic.big_transport_bridgeDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_transport_bridgedir)/$$f"; \
 	done
 
-uninstall-classic_transport_bridgeDATA:
+uninstall-classic.big_transport_bridgeDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_transport_bridge_DATA)'; for p in $$list; do \
+	@list='$(classic.big_transport_bridge_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_transport_bridgedir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_transport_bridgedir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_transport_bridgedir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_transport_bridgedir)/$$f"; \
 	done
-install-classic_transport_ferryDATA: $(classic_transport_ferry_DATA)
+install-classic.big_transport_ferryDATA: $(classic.big_transport_ferry_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_transport_ferrydir)" || $(mkdir_p) "$(DESTDIR)$(classic_transport_ferrydir)"
-	@list='$(classic_transport_ferry_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_transport_ferrydir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_transport_ferrydir)"
+	@list='$(classic.big_transport_ferry_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_transport_ferryDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_transport_ferrydir)/$$f'"; \
-	  $(classic_transport_ferryDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_transport_ferrydir)/$$f"; \
+	  echo " $(classic.big_transport_ferryDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_transport_ferrydir)/$$f'"; \
+	  $(classic.big_transport_ferryDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_transport_ferrydir)/$$f"; \
 	done
 
-uninstall-classic_transport_ferryDATA:
+uninstall-classic.big_transport_ferryDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_transport_ferry_DATA)'; for p in $$list; do \
+	@list='$(classic.big_transport_ferry_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_transport_ferrydir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_transport_ferrydir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_transport_ferrydir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_transport_ferrydir)/$$f"; \
 	done
-install-classic_vehicleDATA: $(classic_vehicle_DATA)
+install-classic.big_vehicleDATA: $(classic.big_vehicle_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_vehicledir)" || $(mkdir_p) "$(DESTDIR)$(classic_vehicledir)"
-	@list='$(classic_vehicle_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_vehicledir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_vehicledir)"
+	@list='$(classic.big_vehicle_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_vehicleDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_vehicledir)/$$f'"; \
-	  $(classic_vehicleDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_vehicledir)/$$f"; \
+	  echo " $(classic.big_vehicleDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_vehicledir)/$$f'"; \
+	  $(classic.big_vehicleDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_vehicledir)/$$f"; \
 	done
 
-uninstall-classic_vehicleDATA:
+uninstall-classic.big_vehicleDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_vehicle_DATA)'; for p in $$list; do \
+	@list='$(classic.big_vehicle_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_vehicledir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_vehicledir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_vehicledir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_vehicledir)/$$f"; \
 	done
-install-classic_vehicle_car_rentalDATA: $(classic_vehicle_car_rental_DATA)
+install-classic.big_vehicle_car_rentalDATA: $(classic.big_vehicle_car_rental_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_vehicle_car_rentaldir)" || $(mkdir_p) "$(DESTDIR)$(classic_vehicle_car_rentaldir)"
-	@list='$(classic_vehicle_car_rental_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_vehicle_car_rentaldir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_vehicle_car_rentaldir)"
+	@list='$(classic.big_vehicle_car_rental_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_vehicle_car_rentalDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_vehicle_car_rentaldir)/$$f'"; \
-	  $(classic_vehicle_car_rentalDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_vehicle_car_rentaldir)/$$f"; \
+	  echo " $(classic.big_vehicle_car_rentalDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_vehicle_car_rentaldir)/$$f'"; \
+	  $(classic.big_vehicle_car_rentalDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_vehicle_car_rentaldir)/$$f"; \
 	done
 
-uninstall-classic_vehicle_car_rentalDATA:
+uninstall-classic.big_vehicle_car_rentalDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_vehicle_car_rental_DATA)'; for p in $$list; do \
+	@list='$(classic.big_vehicle_car_rental_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_vehicle_car_rentaldir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_vehicle_car_rentaldir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_vehicle_car_rentaldir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_vehicle_car_rentaldir)/$$f"; \
 	done
-install-classic_vehicle_fuel_stationDATA: $(classic_vehicle_fuel_station_DATA)
+install-classic.big_vehicle_fuel_stationDATA: $(classic.big_vehicle_fuel_station_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_vehicle_fuel_stationdir)" || $(mkdir_p) "$(DESTDIR)$(classic_vehicle_fuel_stationdir)"
-	@list='$(classic_vehicle_fuel_station_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_vehicle_fuel_stationdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)"
+	@list='$(classic.big_vehicle_fuel_station_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_vehicle_fuel_stationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_vehicle_fuel_stationdir)/$$f'"; \
-	  $(classic_vehicle_fuel_stationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_vehicle_fuel_stationdir)/$$f"; \
+	  echo " $(classic.big_vehicle_fuel_stationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)/$$f'"; \
+	  $(classic.big_vehicle_fuel_stationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)/$$f"; \
 	done
 
-uninstall-classic_vehicle_fuel_stationDATA:
+uninstall-classic.big_vehicle_fuel_stationDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_vehicle_fuel_station_DATA)'; for p in $$list; do \
+	@list='$(classic.big_vehicle_fuel_station_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_vehicle_fuel_stationdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_vehicle_fuel_stationdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)/$$f"; \
 	done
-install-classic_vehicle_parkingDATA: $(classic_vehicle_parking_DATA)
+install-classic.big_vehicle_parkingDATA: $(classic.big_vehicle_parking_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_vehicle_parkingdir)" || $(mkdir_p) "$(DESTDIR)$(classic_vehicle_parkingdir)"
-	@list='$(classic_vehicle_parking_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_vehicle_parkingdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_vehicle_parkingdir)"
+	@list='$(classic.big_vehicle_parking_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_vehicle_parkingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_vehicle_parkingdir)/$$f'"; \
-	  $(classic_vehicle_parkingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_vehicle_parkingdir)/$$f"; \
+	  echo " $(classic.big_vehicle_parkingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_vehicle_parkingdir)/$$f'"; \
+	  $(classic.big_vehicle_parkingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_vehicle_parkingdir)/$$f"; \
 	done
 
-uninstall-classic_vehicle_parkingDATA:
+uninstall-classic.big_vehicle_parkingDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_vehicle_parking_DATA)'; for p in $$list; do \
+	@list='$(classic.big_vehicle_parking_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_vehicle_parkingdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_vehicle_parkingdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_vehicle_parkingdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_vehicle_parkingdir)/$$f"; \
 	done
-install-classic_waypointDATA: $(classic_waypoint_DATA)
+install-classic.big_waypointDATA: $(classic.big_waypoint_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_waypointdir)" || $(mkdir_p) "$(DESTDIR)$(classic_waypointdir)"
-	@list='$(classic_waypoint_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_waypointdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_waypointdir)"
+	@list='$(classic.big_waypoint_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_waypointDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_waypointdir)/$$f'"; \
-	  $(classic_waypointDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_waypointdir)/$$f"; \
+	  echo " $(classic.big_waypointDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_waypointdir)/$$f'"; \
+	  $(classic.big_waypointDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_waypointdir)/$$f"; \
 	done
 
-uninstall-classic_waypointDATA:
+uninstall-classic.big_waypointDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_waypoint_DATA)'; for p in $$list; do \
+	@list='$(classic.big_waypoint_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_waypointdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_waypointdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_waypointdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_waypointdir)/$$f"; \
 	done
-install-classic_waypoint_wpttempDATA: $(classic_waypoint_wpttemp_DATA)
+install-classic.big_waypoint_wpttempDATA: $(classic.big_waypoint_wpttemp_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_waypoint_wpttempdir)" || $(mkdir_p) "$(DESTDIR)$(classic_waypoint_wpttempdir)"
-	@list='$(classic_waypoint_wpttemp_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_waypoint_wpttempdir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_waypoint_wpttempdir)"
+	@list='$(classic.big_waypoint_wpttemp_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_waypoint_wpttempDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_waypoint_wpttempdir)/$$f'"; \
-	  $(classic_waypoint_wpttempDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_waypoint_wpttempdir)/$$f"; \
+	  echo " $(classic.big_waypoint_wpttempDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_waypoint_wpttempdir)/$$f'"; \
+	  $(classic.big_waypoint_wpttempDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_waypoint_wpttempdir)/$$f"; \
 	done
 
-uninstall-classic_waypoint_wpttempDATA:
+uninstall-classic.big_waypoint_wpttempDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_waypoint_wpttemp_DATA)'; for p in $$list; do \
+	@list='$(classic.big_waypoint_wpttemp_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_waypoint_wpttempdir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_waypoint_wpttempdir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_waypoint_wpttempdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_waypoint_wpttempdir)/$$f"; \
 	done
-install-classic_wlanDATA: $(classic_wlan_DATA)
+install-classic.big_wlanDATA: $(classic.big_wlan_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_wlandir)" || $(mkdir_p) "$(DESTDIR)$(classic_wlandir)"
-	@list='$(classic_wlan_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_wlandir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_wlandir)"
+	@list='$(classic.big_wlan_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_wlanDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_wlandir)/$$f'"; \
-	  $(classic_wlanDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_wlandir)/$$f"; \
+	  echo " $(classic.big_wlanDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_wlandir)/$$f'"; \
+	  $(classic.big_wlanDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_wlandir)/$$f"; \
 	done
 
-uninstall-classic_wlanDATA:
+uninstall-classic.big_wlanDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_wlan_DATA)'; for p in $$list; do \
+	@list='$(classic.big_wlan_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_wlandir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_wlandir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_wlandir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_wlandir)/$$f"; \
 	done
-install-classic_wlan_payDATA: $(classic_wlan_pay_DATA)
+install-classic.big_wlan_payDATA: $(classic.big_wlan_pay_DATA)
 	@$(NORMAL_INSTALL)
-	test -z "$(classic_wlan_paydir)" || $(mkdir_p) "$(DESTDIR)$(classic_wlan_paydir)"
-	@list='$(classic_wlan_pay_DATA)'; for p in $$list; do \
+	test -z "$(classic.big_wlan_paydir)" || $(mkdir_p) "$(DESTDIR)$(classic.big_wlan_paydir)"
+	@list='$(classic.big_wlan_pay_DATA)'; for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  f=$(am__strip_dir) \
-	  echo " $(classic_wlan_payDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic_wlan_paydir)/$$f'"; \
-	  $(classic_wlan_payDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic_wlan_paydir)/$$f"; \
+	  echo " $(classic.big_wlan_payDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.big_wlan_paydir)/$$f'"; \
+	  $(classic.big_wlan_payDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.big_wlan_paydir)/$$f"; \
 	done
 
-uninstall-classic_wlan_payDATA:
+uninstall-classic.big_wlan_payDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(classic_wlan_pay_DATA)'; for p in $$list; do \
+	@list='$(classic.big_wlan_pay_DATA)'; for p in $$list; do \
 	  f=$(am__strip_dir) \
-	  echo " rm -f '$(DESTDIR)$(classic_wlan_paydir)/$$f'"; \
-	  rm -f "$(DESTDIR)$(classic_wlan_paydir)/$$f"; \
+	  echo " rm -f '$(DESTDIR)$(classic.big_wlan_paydir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.big_wlan_paydir)/$$f"; \
+	done
+install-classic.small_accommodationDATA: $(classic.small_accommodation_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_accommodationdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_accommodationdir)"
+	@list='$(classic.small_accommodation_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_accommodationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_accommodationdir)/$$f'"; \
+	  $(classic.small_accommodationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_accommodationdir)/$$f"; \
+	done
+
+uninstall-classic.small_accommodationDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_accommodation_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_accommodationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_accommodationdir)/$$f"; \
+	done
+install-classic.small_foodDATA: $(classic.small_food_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_fooddir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_fooddir)"
+	@list='$(classic.small_food_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_foodDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_fooddir)/$$f'"; \
+	  $(classic.small_foodDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_fooddir)/$$f"; \
+	done
+
+uninstall-classic.small_foodDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_food_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_fooddir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_fooddir)/$$f"; \
+	done
+install-classic.small_incommingDATA: $(classic.small_incomming_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_incommingdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_incommingdir)"
+	@list='$(classic.small_incomming_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_incommingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_incommingdir)/$$f'"; \
+	  $(classic.small_incommingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_incommingdir)/$$f"; \
+	done
+
+uninstall-classic.small_incommingDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_incomming_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_incommingdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_incommingdir)/$$f"; \
+	done
+install-classic.small_placesDATA: $(classic.small_places_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_placesdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_placesdir)"
+	@list='$(classic.small_places_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_placesDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_placesdir)/$$f'"; \
+	  $(classic.small_placesDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_placesdir)/$$f"; \
+	done
+
+uninstall-classic.small_placesDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_places_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_placesdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_placesdir)/$$f"; \
+	done
+install-classic.small_recreationDATA: $(classic.small_recreation_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_recreationdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_recreationdir)"
+	@list='$(classic.small_recreation_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_recreationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_recreationdir)/$$f'"; \
+	  $(classic.small_recreationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_recreationdir)/$$f"; \
+	done
+
+uninstall-classic.small_recreationDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_recreation_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_recreationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_recreationdir)/$$f"; \
+	done
+install-classic.small_religionDATA: $(classic.small_religion_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_religiondir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_religiondir)"
+	@list='$(classic.small_religion_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_religionDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_religiondir)/$$f'"; \
+	  $(classic.small_religionDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_religiondir)/$$f"; \
+	done
+
+uninstall-classic.small_religionDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_religion_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_religiondir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_religiondir)/$$f"; \
+	done
+install-classic.small_sightseeingDATA: $(classic.small_sightseeing_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_sightseeingdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_sightseeingdir)"
+	@list='$(classic.small_sightseeing_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_sightseeingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_sightseeingdir)/$$f'"; \
+	  $(classic.small_sightseeingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_sightseeingdir)/$$f"; \
+	done
+
+uninstall-classic.small_sightseeingDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_sightseeing_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_sightseeingdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_sightseeingdir)/$$f"; \
+	done
+install-classic.small_transportDATA: $(classic.small_transport_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_transportdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_transportdir)"
+	@list='$(classic.small_transport_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_transportDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_transportdir)/$$f'"; \
+	  $(classic.small_transportDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_transportdir)/$$f"; \
+	done
+
+uninstall-classic.small_transportDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_transport_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_transportdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_transportdir)/$$f"; \
+	done
+install-classic.small_vehicleDATA: $(classic.small_vehicle_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_vehicledir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_vehicledir)"
+	@list='$(classic.small_vehicle_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_vehicleDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_vehicledir)/$$f'"; \
+	  $(classic.small_vehicleDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_vehicledir)/$$f"; \
+	done
+
+uninstall-classic.small_vehicleDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_vehicle_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_vehicledir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_vehicledir)/$$f"; \
+	done
+install-jp_tnDATA: $(jp_tn_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tndir)" || $(mkdir_p) "$(DESTDIR)$(jp_tndir)"
+	@list='$(jp_tn_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tnDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tndir)/$$f'"; \
+	  $(jp_tnDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tndir)/$$f"; \
+	done
+
+uninstall-jp_tnDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tndir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tndir)/$$f"; \
+	done
+install-jp_tn_education_schoolDATA: $(jp_tn_education_school_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_education_schooldir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_education_schooldir)"
+	@list='$(jp_tn_education_school_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_education_schoolDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_education_schooldir)/$$f'"; \
+	  $(jp_tn_education_schoolDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_education_schooldir)/$$f"; \
+	done
+
+uninstall-jp_tn_education_schoolDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_education_school_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_education_schooldir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_education_schooldir)/$$f"; \
+	done
+install-jp_tn_healthDATA: $(jp_tn_health_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_healthdir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_healthdir)"
+	@list='$(jp_tn_health_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_healthDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_healthdir)/$$f'"; \
+	  $(jp_tn_healthDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_healthdir)/$$f"; \
+	done
+
+uninstall-jp_tn_healthDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_health_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_healthdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_healthdir)/$$f"; \
 	done
 install-jp_tn_incommingDATA: $(jp_tn_incomming_DATA)
 	@$(NORMAL_INSTALL)
@@ -1712,6 +2022,91 @@ uninstall-jp_tn_incommingDATA:
 	  f=$(am__strip_dir) \
 	  echo " rm -f '$(DESTDIR)$(jp_tn_incommingdir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(jp_tn_incommingdir)/$$f"; \
+	done
+install-jp_tn_publicDATA: $(jp_tn_public_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_publicdir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_publicdir)"
+	@list='$(jp_tn_public_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_publicDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_publicdir)/$$f'"; \
+	  $(jp_tn_publicDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_publicdir)/$$f"; \
+	done
+
+uninstall-jp_tn_publicDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_public_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_publicdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_publicdir)/$$f"; \
+	done
+install-jp_tn_public_administrationDATA: $(jp_tn_public_administration_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_public_administrationdir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_public_administrationdir)"
+	@list='$(jp_tn_public_administration_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_public_administrationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_public_administrationdir)/$$f'"; \
+	  $(jp_tn_public_administrationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_public_administrationdir)/$$f"; \
+	done
+
+uninstall-jp_tn_public_administrationDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_public_administration_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_public_administrationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_public_administrationdir)/$$f"; \
+	done
+install-jp_tn_shopping_rentalDATA: $(jp_tn_shopping_rental_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_shopping_rentaldir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_shopping_rentaldir)"
+	@list='$(jp_tn_shopping_rental_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_shopping_rentalDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_shopping_rentaldir)/$$f'"; \
+	  $(jp_tn_shopping_rentalDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_shopping_rentaldir)/$$f"; \
+	done
+
+uninstall-jp_tn_shopping_rentalDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_shopping_rental_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_shopping_rentaldir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_shopping_rentaldir)/$$f"; \
+	done
+install-jp_tn_sightseeingDATA: $(jp_tn_sightseeing_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_sightseeingdir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_sightseeingdir)"
+	@list='$(jp_tn_sightseeing_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_sightseeingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_sightseeingdir)/$$f'"; \
+	  $(jp_tn_sightseeingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_sightseeingdir)/$$f"; \
+	done
+
+uninstall-jp_tn_sightseeingDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_sightseeing_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_sightseeingdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_sightseeingdir)/$$f"; \
+	done
+install-jp_tn_transport_ferryDATA: $(jp_tn_transport_ferry_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_transport_ferrydir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_transport_ferrydir)"
+	@list='$(jp_tn_transport_ferry_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_transport_ferryDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_transport_ferrydir)/$$f'"; \
+	  $(jp_tn_transport_ferryDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_transport_ferrydir)/$$f"; \
+	done
+
+uninstall-jp_tn_transport_ferryDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_transport_ferry_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_transport_ferrydir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_transport_ferrydir)/$$f"; \
 	done
 install-nickwDATA: $(nickw_DATA)
 	@$(NORMAL_INSTALL)
@@ -3260,6 +3655,23 @@ uninstall-svg_tn_healthDATA:
 	  echo " rm -f '$(DESTDIR)$(svg_tn_healthdir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(svg_tn_healthdir)/$$f"; \
 	done
+install-svg_tn_incommingDATA: $(svg_tn_incomming_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(svg_tn_incommingdir)" || $(mkdir_p) "$(DESTDIR)$(svg_tn_incommingdir)"
+	@list='$(svg_tn_incomming_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(svg_tn_incommingDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(svg_tn_incommingdir)/$$f'"; \
+	  $(svg_tn_incommingDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(svg_tn_incommingdir)/$$f"; \
+	done
+
+uninstall-svg_tn_incommingDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(svg_tn_incomming_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(svg_tn_incommingdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(svg_tn_incommingdir)/$$f"; \
+	done
 install-svg_tn_publicDATA: $(svg_tn_public_DATA)
 	@$(NORMAL_INSTALL)
 	test -z "$(svg_tn_publicdir)" || $(mkdir_p) "$(DESTDIR)$(svg_tn_publicdir)"
@@ -3421,7 +3833,7 @@ CTAGS:
 
 
 distdir: $(DISTFILES)
-	$(mkdir_p) $(distdir)/classic $(distdir)/classic/accommodation $(distdir)/classic/accommodation/camping $(distdir)/classic/education $(distdir)/classic/education/school $(distdir)/classic/food $(distdir)/classic/food/fastfood $(distdir)/classic/food/restaurant $(distdir)/classic/food/snacks $(distdir)/classic/geocache $(distdir)/classic/health $(distdir)/classic/misc $(distdir)/classic/misc/information $(distdir)/classic/money $(distdir)/classic/money/bank $(distdir)/classic/nautical $(distdir)/classic/people $(distdir)/classic/places $(distdir)/classic/places/settlement $(distdir)/classic/public $(distdir)/classic/recreation $(distdir)/classic/religion $(distdir)/classic/shopping $(distdir)/classic/shopping/groceries $(distdir)/classic/shopping/supermarket $(distdir)/classic/sightseeing $(distdir)/classic/sports $(distdir)/classic/transport $(distdir)/classic/transport/bridge $(distdir)/classic/transport/ferry $(distdir)/classic/vehicle $(distdir)/classic/vehicle/car_rental $(distdir)/classic/vehicle/fuel_station $(distdir)/classic/vehicle/parking $(distdir)/classic/waypoint $(distdir)/classic/waypoint/wpttemp $(distdir)/classic/wlan $(distdir)/classic/wlan/pay $(distdir)/jp_tn/incomming $(distdir)/nickw $(distdir)/square.big $(distdir)/square.big/accommodation $(distdir)/square.big/accommodation/camping $(distdir)/square.big/accommodation/hotel $(distdir)/square.big/education $(distdir)/square.big/education/school $(distdir)/square.big/food $(distdir)/square.big/food/fastfood $(distdir)/square.big/food/machine $(distdir)/square.big/food/restaurant $(distdir)/square.big/geocache $(distdir)/square.big/geocache/geocache_multi $(distdir)/square.big/health $(distdir)/square.big/misc $(distdir)/square.big/money $(distdir)/square.big/money/atm $(distdir)/square.big/money/bank $(distdir)/square.big/nautical $(distdir)/square.big/people $(distdir)/square.big/people/developer $(distdir)/square.big/people/friendsd $(distdir)/square.big/places $(distdir)/square.big/places/settlement $(distdir)/square.big/public $(distdir)/square.big/public/administration $(distdir)/square.big/public/inspecting-authority $(distdir)/square.big/public/recycling $(distdir)/square.big/public/recycling/container $(distdir)/square.big/recreation $(distdir)/square.big/religion $(distdir)/square.big/religion/church $(distdir)/square.big/shopping $(distdir)/square.big/shopping/diy_store $(distdir)/square.big/shopping/furniture $(distdir)/square.big/shopping/games $(distdir)/square.big/shopping/groceries $(distdir)/square.big/shopping/machine $(distdir)/square.big/shopping/media $(distdir)/square.big/shopping/rental $(distdir)/square.big/shopping/sports $(distdir)/square.big/shopping/supermarket $(distdir)/square.big/shopping/vehicle $(distdir)/square.big/sightseeing $(distdir)/square.big/sports $(distdir)/square.big/transport $(distdir)/square.big/vehicle $(distdir)/square.big/vehicle/car_rental $(distdir)/square.big/vehicle/fuel_station $(distdir)/square.big/vehicle/parking $(distdir)/square.big/waypoint $(distdir)/square.big/waypoint/wpttemp $(distdir)/square.big/wlan $(distdir)/square.big/wlan/pay $(distdir)/square.small $(distdir)/square.small/accommodation $(distdir)/square.small/education $(distdir)/square.small/food $(distdir)/square.small/food/fastfood $(distdir)/square.small/geocache $(distdir)/square.small/geocache/geocache_multi $(distdir)/square.small/health $(distdir)/square.small/misc $(distdir)/square.small/money $(distdir)/square.small/nautical $(distdir)/square.small/people $(distdir)/square.small/people/developer $(distdir)/square.small/people/friendsd $(distdir)/square.small/places $(distdir)/square.small/places/settlement $(distdir)/square.small/public $(distdir)/square.small/recreation $(distdir)/square.small/religion $(distdir)/square.small/shopping $(distdir)/square.small/shopping/diy_store $(distdir)/square.small/shopping/supermarket $(distdir)/square.small/sightseeing $(distdir)/square.small/sports $(distdir)/square.small/transport $(distdir)/square.small/vehicle $(distdir)/square.small/vehicle/fuel_station $(distdir)/square.small/waypoint $(distdir)/square.small/waypoint/wpttemp $(distdir)/square.small/wlan $(distdir)/square.small/wlan/pay $(distdir)/svg_tn $(distdir)/svg_tn/accommodation $(distdir)/svg_tn/accommodation/camping $(distdir)/svg_tn/education $(distdir)/svg_tn/food $(distdir)/svg_tn/health $(distdir)/svg_tn/public $(distdir)/svg_tn/recreation $(distdir)/svg_tn/religion $(distdir)/svg_tn/religion/church $(distdir)/svg_tn/shopping $(distdir)/svg_tn/shopping/rental $(distdir)/svg_tn/sports $(distdir)/svg_tn/transport $(distdir)/svg_tn/vehicle
+	$(mkdir_p) $(distdir)/classic.big $(distdir)/classic.big/accommodation $(distdir)/classic.big/accommodation/camping $(distdir)/classic.big/education $(distdir)/classic.big/education/school $(distdir)/classic.big/food $(distdir)/classic.big/food/fastfood $(distdir)/classic.big/food/restaurant $(distdir)/classic.big/food/snacks $(distdir)/classic.big/geocache $(distdir)/classic.big/health $(distdir)/classic.big/misc $(distdir)/classic.big/misc/information $(distdir)/classic.big/money $(distdir)/classic.big/money/bank $(distdir)/classic.big/nautical $(distdir)/classic.big/people $(distdir)/classic.big/places $(distdir)/classic.big/places/settlement $(distdir)/classic.big/public $(distdir)/classic.big/recreation $(distdir)/classic.big/religion $(distdir)/classic.big/shopping $(distdir)/classic.big/shopping/groceries $(distdir)/classic.big/shopping/supermarket $(distdir)/classic.big/sightseeing $(distdir)/classic.big/sports $(distdir)/classic.big/transport $(distdir)/classic.big/transport/bridge $(distdir)/classic.big/transport/ferry $(distdir)/classic.big/vehicle $(distdir)/classic.big/vehicle/car_rental $(distdir)/classic.big/vehicle/fuel_station $(distdir)/classic.big/vehicle/parking $(distdir)/classic.big/waypoint $(distdir)/classic.big/waypoint/wpttemp $(distdir)/classic.big/wlan $(distdir)/classic.big/wlan/pay $(distdir)/classic.small/accommodation $(distdir)/classic.small/food $(distdir)/classic.small/incomming $(distdir)/classic.small/places $(distdir)/classic.small/recreation $(distdir)/classic.small/religion $(distdir)/classic.small/sightseeing $(distdir)/classic.small/transport $(distdir)/classic.small/vehicle $(distdir)/jp_tn $(distdir)/jp_tn/education/school $(distdir)/jp_tn/health $(distdir)/jp_tn/incomming $(distdir)/jp_tn/public $(distdir)/jp_tn/public/administration $(distdir)/jp_tn/shopping/rental $(distdir)/jp_tn/sightseeing $(distdir)/jp_tn/transport/ferry $(distdir)/nickw $(distdir)/square.big $(distdir)/square.big/accommodation $(distdir)/square.big/accommodation/camping $(distdir)/square.big/accommodation/hotel $(distdir)/square.big/education $(distdir)/square.big/education/school $(distdir)/square.big/food $(distdir)/square.big/food/fastfood $(distdir)/square.big/food/machine $(distdir)/square.big/food/restaurant $(distdir)/square.big/geocache $(distdir)/square.big/geocache/geocache_multi $(distdir)/square.big/health $(distdir)/square.big/misc $(distdir)/square.big/money $(distdir)/square.big/money/atm $(distdir)/square.big/money/bank $(distdir)/square.big/nautical $(distdir)/square.big/people $(distdir)/square.big/people/developer $(distdir)/square.big/people/friendsd $(distdir)/square.big/places $(distdir)/square.big/places/settlement $(distdir)/square.big/public $(distdir)/square.big/public/administration $(distdir)/square.big/public/inspecting-authority $(distdir)/square.big/public/recycling $(distdir)/square.big/public/recycling/container $(distdir)/square.big/recreation $(distdir)/square.big/religion $(distdir)/square.big/religion/church $(distdir)/square.big/shopping $(distdir)/square.big/shopping/diy_store $(distdir)/square.big/shopping/furniture $(distdir)/square.big/shopping/games $(distdir)/square.big/shopping/groceries $(distdir)/square.big/shopping/machine $(distdir)/square.big/shopping/media $(distdir)/square.big/shopping/rental $(distdir)/square.big/shopping/sports $(distdir)/square.big/shopping/supermarket $(distdir)/square.big/shopping/vehicle $(distdir)/square.big/sightseeing $(distdir)/square.big/sports $(distdir)/square.big/transport $(distdir)/square.big/vehicle $(distdir)/square.big/vehicle/car_rental $(distdir)/square.big/vehicle/fuel_station $(distdir)/square.big/vehicle/parking $(distdir)/square.big/waypoint $(distdir)/square.big/waypoint/wpttemp $(distdir)/square.big/wlan $(distdir)/square.big/wlan/pay $(distdir)/square.small $(distdir)/square.small/accommodation $(distdir)/square.small/education $(distdir)/square.small/food $(distdir)/square.small/food/fastfood $(distdir)/square.small/geocache $(distdir)/square.small/geocache/geocache_multi $(distdir)/square.small/health $(distdir)/square.small/misc $(distdir)/square.small/money $(distdir)/square.small/nautical $(distdir)/square.small/people $(distdir)/square.small/people/developer $(distdir)/square.small/people/friendsd $(distdir)/square.small/places $(distdir)/square.small/places/settlement $(distdir)/square.small/public $(distdir)/square.small/recreation $(distdir)/square.small/religion $(distdir)/square.small/shopping $(distdir)/square.small/shopping/diy_store $(distdir)/square.small/shopping/supermarket $(distdir)/square.small/sightseeing $(distdir)/square.small/sports $(distdir)/square.small/transport $(distdir)/square.small/vehicle $(distdir)/square.small/vehicle/fuel_station $(distdir)/square.small/waypoint $(distdir)/square.small/waypoint/wpttemp $(distdir)/square.small/wlan $(distdir)/square.small/wlan/pay $(distdir)/svg_tn $(distdir)/svg_tn/accommodation $(distdir)/svg_tn/accommodation/camping $(distdir)/svg_tn/education $(distdir)/svg_tn/food $(distdir)/svg_tn/health $(distdir)/svg_tn/incomming $(distdir)/svg_tn/public $(distdir)/svg_tn/recreation $(distdir)/svg_tn/religion $(distdir)/svg_tn/religion/church $(distdir)/svg_tn/shopping $(distdir)/svg_tn/shopping/rental $(distdir)/svg_tn/sports $(distdir)/svg_tn/transport $(distdir)/svg_tn/vehicle
 	@srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`; \
 	topsrcdirstrip=`echo "$(top_srcdir)" | sed 's|.|.|g'`; \
 	list='$(DISTFILES)'; for file in $$list; do \
@@ -3452,7 +3864,7 @@ check-am: all-am
 check: check-am
 all-am: Makefile $(DATA)
 installdirs:
-	for dir in "$(DESTDIR)$(classicdir)" "$(DESTDIR)$(classic_accommodationdir)" "$(DESTDIR)$(classic_accommodation_campingdir)" "$(DESTDIR)$(classic_educationdir)" "$(DESTDIR)$(classic_education_schooldir)" "$(DESTDIR)$(classic_fooddir)" "$(DESTDIR)$(classic_food_fastfooddir)" "$(DESTDIR)$(classic_food_restaurantdir)" "$(DESTDIR)$(classic_food_snacksdir)" "$(DESTDIR)$(classic_geocachedir)" "$(DESTDIR)$(classic_healthdir)" "$(DESTDIR)$(classic_miscdir)" "$(DESTDIR)$(classic_misc_informationdir)" "$(DESTDIR)$(classic_moneydir)" "$(DESTDIR)$(classic_money_bankdir)" "$(DESTDIR)$(classic_nauticaldir)" "$(DESTDIR)$(classic_peopledir)" "$(DESTDIR)$(classic_placesdir)" "$(DESTDIR)$(classic_places_settlementdir)" "$(DESTDIR)$(classic_publicdir)" "$(DESTDIR)$(classic_recreationdir)" "$(DESTDIR)$(classic_religiondir)" "$(DESTDIR)$(classic_shoppingdir)" "$(DESTDIR)$(classic_shopping_groceriesdir)" "$(DESTDIR)$(classic_shopping_supermarketdir)" "$(DESTDIR)$(classic_sightseeingdir)" "$(DESTDIR)$(classic_sportsdir)" "$(DESTDIR)$(classic_transportdir)" "$(DESTDIR)$(classic_transport_bridgedir)" "$(DESTDIR)$(classic_transport_ferrydir)" "$(DESTDIR)$(classic_vehicledir)" "$(DESTDIR)$(classic_vehicle_car_rentaldir)" "$(DESTDIR)$(classic_vehicle_fuel_stationdir)" "$(DESTDIR)$(classic_vehicle_parkingdir)" "$(DESTDIR)$(classic_waypointdir)" "$(DESTDIR)$(classic_waypoint_wpttempdir)" "$(DESTDIR)$(classic_wlandir)" "$(DESTDIR)$(classic_wlan_paydir)" "$(DESTDIR)$(jp_tn_incommingdir)" "$(DESTDIR)$(nickwdir)" "$(DESTDIR)$(square.bigdir)" "$(DESTDIR)$(square.big_accommodationdir)" "$(DESTDIR)$(square.big_accommodation_campingdir)" "$(DESTDIR)$(square.big_accommodation_hoteldir)" "$(DESTDIR)$(square.big_educationdir)" "$(DESTDIR)$(square.big_education_schooldir)" "$(DESTDIR)$(square.big_fooddir)" "$(DESTDIR)$(square.big_food_fastfooddir)" "$(DESTDIR)$(square.big_food_machinedir)" "$(DESTDIR)$(square.big_food_restaurantdir)" "$(DESTDIR)$(square.big_geocachedir)" "$(DESTDIR)$(square.big_geocache_geocache_multidir)" "$(DESTDIR)$(square.big_healthdir)" "$(DESTDIR)$(square.big_miscdir)" "$(DESTDIR)$(square.big_moneydir)" "$(DESTDIR)$(square.big_money_atmdir)" "$(DESTDIR)$(square.big_money_bankdir)" "$(DESTDIR)$(square.big_nauticaldir)" "$(DESTDIR)$(square.big_peopledir)" "$(DESTDIR)$(square.big_people_developerdir)" "$(DESTDIR)$(square.big_people_friendsddir)" "$(DESTDIR)$(square.big_placesdir)" "$(DESTDIR)$(square.big_places_settlementdir)" "$(DESTDIR)$(square.big_publicdir)" "$(DESTDIR)$(square.big_public_administrationdir)" "$(DESTDIR)$(square.big_public_inspecting_authoritydir)" "$(DESTDIR)$(square.big_public_recyclingdir)" "$(DESTDIR)$(square.big_public_recycling_containerdir)" "$(DESTDIR)$(square.big_recreationdir)" "$(DESTDIR)$(square.big_religiondir)" "$(DESTDIR)$(square.big_religion_churchdir)" "$(DESTDIR)$(square.big_shoppingdir)" "$(DESTDIR)$(square.big_shopping_diy_storedir)" "$(DESTDIR)$(square.big_shopping_furnituredir)" "$(DESTDIR)$(square.big_shopping_gamesdir)" "$(DESTDIR)$(square.big_shopping_groceriesdir)" "$(DESTDIR)$(square.big_shopping_machinedir)" "$(DESTDIR)$(square.big_shopping_mediadir)" "$(DESTDIR)$(square.big_shopping_rentaldir)" "$(DESTDIR)$(square.big_shopping_sportsdir)" "$(DESTDIR)$(square.big_shopping_supermarketdir)" "$(DESTDIR)$(square.big_shopping_vehicledir)" "$(DESTDIR)$(square.big_sightseeingdir)" "$(DESTDIR)$(square.big_sportsdir)" "$(DESTDIR)$(square.big_transportdir)" "$(DESTDIR)$(square.big_vehicledir)" "$(DESTDIR)$(square.big_vehicle_car_rentaldir)" "$(DESTDIR)$(square.big_vehicle_fuel_stationdir)" "$(DESTDIR)$(square.big_vehicle_parkingdir)" "$(DESTDIR)$(square.big_waypointdir)" "$(DESTDIR)$(square.big_waypoint_wpttempdir)" "$(DESTDIR)$(square.big_wlandir)" "$(DESTDIR)$(square.big_wlan_paydir)" "$(DESTDIR)$(square.smalldir)" "$(DESTDIR)$(square.small_accommodationdir)" "$(DESTDIR)$(square.small_educationdir)" "$(DESTDIR)$(square.small_fooddir)" "$(DESTDIR)$(square.small_food_fastfooddir)" "$(DESTDIR)$(square.small_geocachedir)" "$(DESTDIR)$(square.small_geocache_geocache_multidir)" "$(DESTDIR)$(square.small_healthdir)" "$(DESTDIR)$(square.small_miscdir)" "$(DESTDIR)$(square.small_moneydir)" "$(DESTDIR)$(square.small_nauticaldir)" "$(DESTDIR)$(square.small_peopledir)" "$(DESTDIR)$(square.small_people_developerdir)" "$(DESTDIR)$(square.small_people_friendsddir)" "$(DESTDIR)$(square.small_placesdir)" "$(DESTDIR)$(square.small_places_settlementdir)" "$(DESTDIR)$(square.small_publicdir)" "$(DESTDIR)$(square.small_recreationdir)" "$(DESTDIR)$(square.small_religiondir)" "$(DESTDIR)$(square.small_shoppingdir)" "$(DESTDIR)$(square.small_shopping_diy_storedir)" "$(DESTDIR)$(square.small_shopping_supermarketdir)" "$(DESTDIR)$(square.small_sightseeingdir)" "$(DESTDIR)$(square.small_sportsdir)" "$(DESTDIR)$(square.small_transportdir)" "$(DESTDIR)$(square.small_vehicledir)" "$(DESTDIR)$(square.small_vehicle_fuel_stationdir)" "$(DESTDIR)$(square.small_waypointdir)" "$(DESTDIR)$(square.small_waypoint_wpttempdir)" "$(DESTDIR)$(square.small_wlandir)" "$(DESTDIR)$(square.small_wlan_paydir)" "$(DESTDIR)$(svg_tndir)" "$(DESTDIR)$(svg_tn_accommodationdir)" "$(DESTDIR)$(svg_tn_accommodation_campingdir)" "$(DESTDIR)$(svg_tn_educationdir)" "$(DESTDIR)$(svg_tn_fooddir)" "$(DESTDIR)$(svg_tn_healthdir)" "$(DESTDIR)$(svg_tn_publicdir)" "$(DESTDIR)$(svg_tn_recreationdir)" "$(DESTDIR)$(svg_tn_religiondir)" "$(DESTDIR)$(svg_tn_religion_churchdir)" "$(DESTDIR)$(svg_tn_shoppingdir)" "$(DESTDIR)$(svg_tn_shopping_rentaldir)" "$(DESTDIR)$(svg_tn_sportsdir)" "$(DESTDIR)$(svg_tn_transportdir)" "$(DESTDIR)$(svg_tn_vehicledir)"; do \
+	for dir in "$(DESTDIR)$(classic.bigdir)" "$(DESTDIR)$(classic.big_accommodationdir)" "$(DESTDIR)$(classic.big_accommodation_campingdir)" "$(DESTDIR)$(classic.big_educationdir)" "$(DESTDIR)$(classic.big_education_schooldir)" "$(DESTDIR)$(classic.big_fooddir)" "$(DESTDIR)$(classic.big_food_fastfooddir)" "$(DESTDIR)$(classic.big_food_restaurantdir)" "$(DESTDIR)$(classic.big_food_snacksdir)" "$(DESTDIR)$(classic.big_geocachedir)" "$(DESTDIR)$(classic.big_healthdir)" "$(DESTDIR)$(classic.big_miscdir)" "$(DESTDIR)$(classic.big_misc_informationdir)" "$(DESTDIR)$(classic.big_moneydir)" "$(DESTDIR)$(classic.big_money_bankdir)" "$(DESTDIR)$(classic.big_nauticaldir)" "$(DESTDIR)$(classic.big_peopledir)" "$(DESTDIR)$(classic.big_placesdir)" "$(DESTDIR)$(classic.big_places_settlementdir)" "$(DESTDIR)$(classic.big_publicdir)" "$(DESTDIR)$(classic.big_recreationdir)" "$(DESTDIR)$(classic.big_religiondir)" "$(DESTDIR)$(classic.big_shoppingdir)" "$(DESTDIR)$(classic.big_shopping_groceriesdir)" "$(DESTDIR)$(classic.big_shopping_supermarketdir)" "$(DESTDIR)$(classic.big_sightseeingdir)" "$(DESTDIR)$(classic.big_sportsdir)" "$(DESTDIR)$(classic.big_transportdir)" "$(DESTDIR)$(classic.big_transport_bridgedir)" "$(DESTDIR)$(classic.big_transport_ferrydir)" "$(DESTDIR)$(classic.big_vehicledir)" "$(DESTDIR)$(classic.big_vehicle_car_rentaldir)" "$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)" "$(DESTDIR)$(classic.big_vehicle_parkingdir)" "$(DESTDIR)$(classic.big_waypointdir)" "$(DESTDIR)$(classic.big_waypoint_wpttempdir)" "$(DESTDIR)$(classic.big_wlandir)" "$(DESTDIR)$(classic.big_wlan_paydir)" "$(DESTDIR)$(classic.small_accommodationdir)" "$(DESTDIR)$(classic.small_fooddir)" "$(DESTDIR)$(classic.small_incommingdir)" "$(DESTDIR)$(classic.small_placesdir)" "$(DESTDIR)$(classic.small_recreationdir)" "$(DESTDIR)$(classic.small_religiondir)" "$(DESTDIR)$(classic.small_sightseeingdir)" "$(DESTDIR)$(classic.small_transportdir)" "$(DESTDIR)$(classic.small_vehicledir)" "$(DESTDIR)$(jp_tndir)" "$(DESTDIR)$(jp_tn_education_schooldir)" "$(DESTDIR)$(jp_tn_healthdir)" "$(DESTDIR)$(jp_tn_incommingdir)" "$(DESTDIR)$(jp_tn_publicdir)" "$(DESTDIR)$(jp_tn_public_administrationdir)" "$(DESTDIR)$(jp_tn_shopping_rentaldir)" "$(DESTDIR)$(jp_tn_sightseeingdir)" "$(DESTDIR)$(jp_tn_transport_ferrydir)" "$(DESTDIR)$(nickwdir)" "$(DESTDIR)$(square.bigdir)" "$(DESTDIR)$(square.big_accommodationdir)" "$(DESTDIR)$(square.big_accommodation_campingdir)" "$(DESTDIR)$(square.big_accommodation_hoteldir)" "$(DESTDIR)$(square.big_educationdir)" "$(DESTDIR)$(square.big_education_schooldir)" "$(DESTDIR)$(square.big_fooddir)" "$(DESTDIR)$(square.big_food_fastfooddir)" "$(DESTDIR)$(square.big_food_machinedir)" "$(DESTDIR)$(square.big_food_restaurantdir)" "$(DESTDIR)$(square.big_geocachedir)" "$(DESTDIR)$(square.big_geocache_geocache_multidir)" "$(DESTDIR)$(square.big_healthdir)" "$(DESTDIR)$(square.big_miscdir)" "$(DESTDIR)$(square.big_moneydir)" "$(DESTDIR)$(square.big_money_atmdir)" "$(DESTDIR)$(square.big_money_bankdir)" "$(DESTDIR)$(square.big_nauticaldir)" "$(DESTDIR)$(square.big_peopledir)" "$(DESTDIR)$(square.big_people_developerdir)" "$(DESTDIR)$(square.big_people_friendsddir)" "$(DESTDIR)$(square.big_placesdir)" "$(DESTDIR)$(square.big_places_settlementdir)" "$(DESTDIR)$(square.big_publicdir)" "$(DESTDIR)$(square.big_public_administrationdir)" "$(DESTDIR)$(square.big_public_inspecting_authoritydir)" "$(DESTDIR)$(square.big_public_recyclingdir)" "$(DESTDIR)$(square.big_public_recycling_containerdir)" "$(DESTDIR)$(square.big_recreationdir)" "$(DESTDIR)$(square.big_religiondir)" "$(DESTDIR)$(square.big_religion_churchdir)" "$(DESTDIR)$(square.big_shoppingdir)" "$(DESTDIR)$(square.big_shopping_diy_storedir)" "$(DESTDIR)$(square.big_shopping_furnituredir)" "$(DESTDIR)$(square.big_shopping_gamesdir)" "$(DESTDIR)$(square.big_shopping_groceriesdir)" "$(DESTDIR)$(square.big_shopping_machinedir)" "$(DESTDIR)$(square.big_shopping_mediadir)" "$(DESTDIR)$(square.big_shopping_rentaldir)" "$(DESTDIR)$(square.big_shopping_sportsdir)" "$(DESTDIR)$(square.big_shopping_supermarketdir)" "$(DESTDIR)$(square.big_shopping_vehicledir)" "$(DESTDIR)$(square.big_sightseeingdir)" "$(DESTDIR)$(square.big_sportsdir)" "$(DESTDIR)$(square.big_transportdir)" "$(DESTDIR)$(square.big_vehicledir)" "$(DESTDIR)$(square.big_vehicle_car_rentaldir)" "$(DESTDIR)$(square.big_vehicle_fuel_stationdir)" "$(DESTDIR)$(square.big_vehicle_parkingdir)" "$(DESTDIR)$(square.big_waypointdir)" "$(DESTDIR)$(square.big_waypoint_wpttempdir)" "$(DESTDIR)$(square.big_wlandir)" "$(DESTDIR)$(square.big_wlan_paydir)" "$(DESTDIR)$(square.smalldir)" "$(DESTDIR)$(square.small_accommodationdir)" "$(DESTDIR)$(square.small_educationdir)" "$(DESTDIR)$(square.small_fooddir)" "$(DESTDIR)$(square.small_food_fastfooddir)" "$(DESTDIR)$(square.small_geocachedir)" "$(DESTDIR)$(square.small_geocache_geocache_multidir)" "$(DESTDIR)$(square.small_healthdir)" "$(DESTDIR)$(square.small_miscdir)" "$(DESTDIR)$(square.small_moneydir)" "$(DESTDIR)$(square.small_nauticaldir)" "$(DESTDIR)$(square.small_peopledir)" "$(DESTDIR)$(square.small_people_developerdir)" "$(DESTDIR)$(square.small_people_friendsddir)" "$(DESTDIR)$(square.small_placesdir)" "$(DESTDIR)$(square.small_places_settlementdir)" "$(DESTDIR)$(square.small_publicdir)" "$(DESTDIR)$(square.small_recreationdir)" "$(DESTDIR)$(square.small_religiondir)" "$(DESTDIR)$(square.small_shoppingdir)" "$(DESTDIR)$(square.small_shopping_diy_storedir)" "$(DESTDIR)$(square.small_shopping_supermarketdir)" "$(DESTDIR)$(square.small_sightseeingdir)" "$(DESTDIR)$(square.small_sportsdir)" "$(DESTDIR)$(square.small_transportdir)" "$(DESTDIR)$(square.small_vehicledir)" "$(DESTDIR)$(square.small_vehicle_fuel_stationdir)" "$(DESTDIR)$(square.small_waypointdir)" "$(DESTDIR)$(square.small_waypoint_wpttempdir)" "$(DESTDIR)$(square.small_wlandir)" "$(DESTDIR)$(square.small_wlan_paydir)" "$(DESTDIR)$(svg_tndir)" "$(DESTDIR)$(svg_tn_accommodationdir)" "$(DESTDIR)$(svg_tn_accommodation_campingdir)" "$(DESTDIR)$(svg_tn_educationdir)" "$(DESTDIR)$(svg_tn_fooddir)" "$(DESTDIR)$(svg_tn_healthdir)" "$(DESTDIR)$(svg_tn_incommingdir)" "$(DESTDIR)$(svg_tn_publicdir)" "$(DESTDIR)$(svg_tn_recreationdir)" "$(DESTDIR)$(svg_tn_religiondir)" "$(DESTDIR)$(svg_tn_religion_churchdir)" "$(DESTDIR)$(svg_tn_shoppingdir)" "$(DESTDIR)$(svg_tn_shopping_rentaldir)" "$(DESTDIR)$(svg_tn_sportsdir)" "$(DESTDIR)$(svg_tn_transportdir)" "$(DESTDIR)$(svg_tn_vehicledir)"; do \
 	  test -z "$$dir" || $(mkdir_p) "$$dir"; \
 	done
 install: install-am
@@ -3497,35 +3909,57 @@ info: info-am
 
 info-am:
 
-install-data-am: install-classicDATA install-classic_accommodationDATA \
-	install-classic_accommodation_campingDATA \
-	install-classic_educationDATA \
-	install-classic_education_schoolDATA install-classic_foodDATA \
-	install-classic_food_fastfoodDATA \
-	install-classic_food_restaurantDATA \
-	install-classic_food_snacksDATA install-classic_geocacheDATA \
-	install-classic_healthDATA install-classic_miscDATA \
-	install-classic_misc_informationDATA install-classic_moneyDATA \
-	install-classic_money_bankDATA install-classic_nauticalDATA \
-	install-classic_peopleDATA install-classic_placesDATA \
-	install-classic_places_settlementDATA \
-	install-classic_publicDATA install-classic_recreationDATA \
-	install-classic_religionDATA install-classic_shoppingDATA \
-	install-classic_shopping_groceriesDATA \
-	install-classic_shopping_supermarketDATA \
-	install-classic_sightseeingDATA install-classic_sportsDATA \
-	install-classic_transportDATA \
-	install-classic_transport_bridgeDATA \
-	install-classic_transport_ferryDATA \
-	install-classic_vehicleDATA \
-	install-classic_vehicle_car_rentalDATA \
-	install-classic_vehicle_fuel_stationDATA \
-	install-classic_vehicle_parkingDATA \
-	install-classic_waypointDATA \
-	install-classic_waypoint_wpttempDATA install-classic_wlanDATA \
-	install-classic_wlan_payDATA install-jp_tn_incommingDATA \
-	install-nickwDATA install-square.bigDATA \
-	install-square.big_accommodationDATA \
+install-data-am: install-classic.bigDATA \
+	install-classic.big_accommodationDATA \
+	install-classic.big_accommodation_campingDATA \
+	install-classic.big_educationDATA \
+	install-classic.big_education_schoolDATA \
+	install-classic.big_foodDATA \
+	install-classic.big_food_fastfoodDATA \
+	install-classic.big_food_restaurantDATA \
+	install-classic.big_food_snacksDATA \
+	install-classic.big_geocacheDATA \
+	install-classic.big_healthDATA install-classic.big_miscDATA \
+	install-classic.big_misc_informationDATA \
+	install-classic.big_moneyDATA \
+	install-classic.big_money_bankDATA \
+	install-classic.big_nauticalDATA \
+	install-classic.big_peopleDATA install-classic.big_placesDATA \
+	install-classic.big_places_settlementDATA \
+	install-classic.big_publicDATA \
+	install-classic.big_recreationDATA \
+	install-classic.big_religionDATA \
+	install-classic.big_shoppingDATA \
+	install-classic.big_shopping_groceriesDATA \
+	install-classic.big_shopping_supermarketDATA \
+	install-classic.big_sightseeingDATA \
+	install-classic.big_sportsDATA \
+	install-classic.big_transportDATA \
+	install-classic.big_transport_bridgeDATA \
+	install-classic.big_transport_ferryDATA \
+	install-classic.big_vehicleDATA \
+	install-classic.big_vehicle_car_rentalDATA \
+	install-classic.big_vehicle_fuel_stationDATA \
+	install-classic.big_vehicle_parkingDATA \
+	install-classic.big_waypointDATA \
+	install-classic.big_waypoint_wpttempDATA \
+	install-classic.big_wlanDATA install-classic.big_wlan_payDATA \
+	install-classic.small_accommodationDATA \
+	install-classic.small_foodDATA \
+	install-classic.small_incommingDATA \
+	install-classic.small_placesDATA \
+	install-classic.small_recreationDATA \
+	install-classic.small_religionDATA \
+	install-classic.small_sightseeingDATA \
+	install-classic.small_transportDATA \
+	install-classic.small_vehicleDATA install-jp_tnDATA \
+	install-jp_tn_education_schoolDATA install-jp_tn_healthDATA \
+	install-jp_tn_incommingDATA install-jp_tn_publicDATA \
+	install-jp_tn_public_administrationDATA \
+	install-jp_tn_shopping_rentalDATA \
+	install-jp_tn_sightseeingDATA \
+	install-jp_tn_transport_ferryDATA install-nickwDATA \
+	install-square.bigDATA install-square.big_accommodationDATA \
 	install-square.big_accommodation_campingDATA \
 	install-square.big_accommodation_hotelDATA \
 	install-square.big_educationDATA \
@@ -3605,11 +4039,12 @@ install-data-am: install-classicDATA install-classic_accommodationDATA \
 	install-svg_tn_accommodationDATA \
 	install-svg_tn_accommodation_campingDATA \
 	install-svg_tn_educationDATA install-svg_tn_foodDATA \
-	install-svg_tn_healthDATA install-svg_tn_publicDATA \
-	install-svg_tn_recreationDATA install-svg_tn_religionDATA \
-	install-svg_tn_religion_churchDATA install-svg_tn_shoppingDATA \
-	install-svg_tn_shopping_rentalDATA install-svg_tn_sportsDATA \
-	install-svg_tn_transportDATA install-svg_tn_vehicleDATA
+	install-svg_tn_healthDATA install-svg_tn_incommingDATA \
+	install-svg_tn_publicDATA install-svg_tn_recreationDATA \
+	install-svg_tn_religionDATA install-svg_tn_religion_churchDATA \
+	install-svg_tn_shoppingDATA install-svg_tn_shopping_rentalDATA \
+	install-svg_tn_sportsDATA install-svg_tn_transportDATA \
+	install-svg_tn_vehicleDATA
 
 install-exec-am:
 
@@ -3635,38 +4070,61 @@ ps: ps-am
 
 ps-am:
 
-uninstall-am: uninstall-classicDATA \
-	uninstall-classic_accommodationDATA \
-	uninstall-classic_accommodation_campingDATA \
-	uninstall-classic_educationDATA \
-	uninstall-classic_education_schoolDATA \
-	uninstall-classic_foodDATA uninstall-classic_food_fastfoodDATA \
-	uninstall-classic_food_restaurantDATA \
-	uninstall-classic_food_snacksDATA \
-	uninstall-classic_geocacheDATA uninstall-classic_healthDATA \
-	uninstall-classic_miscDATA \
-	uninstall-classic_misc_informationDATA \
-	uninstall-classic_moneyDATA uninstall-classic_money_bankDATA \
-	uninstall-classic_nauticalDATA uninstall-classic_peopleDATA \
-	uninstall-classic_placesDATA \
-	uninstall-classic_places_settlementDATA \
-	uninstall-classic_publicDATA uninstall-classic_recreationDATA \
-	uninstall-classic_religionDATA uninstall-classic_shoppingDATA \
-	uninstall-classic_shopping_groceriesDATA \
-	uninstall-classic_shopping_supermarketDATA \
-	uninstall-classic_sightseeingDATA uninstall-classic_sportsDATA \
-	uninstall-classic_transportDATA \
-	uninstall-classic_transport_bridgeDATA \
-	uninstall-classic_transport_ferryDATA \
-	uninstall-classic_vehicleDATA \
-	uninstall-classic_vehicle_car_rentalDATA \
-	uninstall-classic_vehicle_fuel_stationDATA \
-	uninstall-classic_vehicle_parkingDATA \
-	uninstall-classic_waypointDATA \
-	uninstall-classic_waypoint_wpttempDATA \
-	uninstall-classic_wlanDATA uninstall-classic_wlan_payDATA \
-	uninstall-info-am uninstall-jp_tn_incommingDATA \
-	uninstall-nickwDATA uninstall-square.bigDATA \
+uninstall-am: uninstall-classic.bigDATA \
+	uninstall-classic.big_accommodationDATA \
+	uninstall-classic.big_accommodation_campingDATA \
+	uninstall-classic.big_educationDATA \
+	uninstall-classic.big_education_schoolDATA \
+	uninstall-classic.big_foodDATA \
+	uninstall-classic.big_food_fastfoodDATA \
+	uninstall-classic.big_food_restaurantDATA \
+	uninstall-classic.big_food_snacksDATA \
+	uninstall-classic.big_geocacheDATA \
+	uninstall-classic.big_healthDATA \
+	uninstall-classic.big_miscDATA \
+	uninstall-classic.big_misc_informationDATA \
+	uninstall-classic.big_moneyDATA \
+	uninstall-classic.big_money_bankDATA \
+	uninstall-classic.big_nauticalDATA \
+	uninstall-classic.big_peopleDATA \
+	uninstall-classic.big_placesDATA \
+	uninstall-classic.big_places_settlementDATA \
+	uninstall-classic.big_publicDATA \
+	uninstall-classic.big_recreationDATA \
+	uninstall-classic.big_religionDATA \
+	uninstall-classic.big_shoppingDATA \
+	uninstall-classic.big_shopping_groceriesDATA \
+	uninstall-classic.big_shopping_supermarketDATA \
+	uninstall-classic.big_sightseeingDATA \
+	uninstall-classic.big_sportsDATA \
+	uninstall-classic.big_transportDATA \
+	uninstall-classic.big_transport_bridgeDATA \
+	uninstall-classic.big_transport_ferryDATA \
+	uninstall-classic.big_vehicleDATA \
+	uninstall-classic.big_vehicle_car_rentalDATA \
+	uninstall-classic.big_vehicle_fuel_stationDATA \
+	uninstall-classic.big_vehicle_parkingDATA \
+	uninstall-classic.big_waypointDATA \
+	uninstall-classic.big_waypoint_wpttempDATA \
+	uninstall-classic.big_wlanDATA \
+	uninstall-classic.big_wlan_payDATA \
+	uninstall-classic.small_accommodationDATA \
+	uninstall-classic.small_foodDATA \
+	uninstall-classic.small_incommingDATA \
+	uninstall-classic.small_placesDATA \
+	uninstall-classic.small_recreationDATA \
+	uninstall-classic.small_religionDATA \
+	uninstall-classic.small_sightseeingDATA \
+	uninstall-classic.small_transportDATA \
+	uninstall-classic.small_vehicleDATA uninstall-info-am \
+	uninstall-jp_tnDATA uninstall-jp_tn_education_schoolDATA \
+	uninstall-jp_tn_healthDATA uninstall-jp_tn_incommingDATA \
+	uninstall-jp_tn_publicDATA \
+	uninstall-jp_tn_public_administrationDATA \
+	uninstall-jp_tn_shopping_rentalDATA \
+	uninstall-jp_tn_sightseeingDATA \
+	uninstall-jp_tn_transport_ferryDATA uninstall-nickwDATA \
+	uninstall-square.bigDATA \
 	uninstall-square.big_accommodationDATA \
 	uninstall-square.big_accommodation_campingDATA \
 	uninstall-square.big_accommodation_hotelDATA \
@@ -3751,8 +4209,9 @@ uninstall-am: uninstall-classicDATA \
 	uninstall-svg_tn_accommodationDATA \
 	uninstall-svg_tn_accommodation_campingDATA \
 	uninstall-svg_tn_educationDATA uninstall-svg_tn_foodDATA \
-	uninstall-svg_tn_healthDATA uninstall-svg_tn_publicDATA \
-	uninstall-svg_tn_recreationDATA uninstall-svg_tn_religionDATA \
+	uninstall-svg_tn_healthDATA uninstall-svg_tn_incommingDATA \
+	uninstall-svg_tn_publicDATA uninstall-svg_tn_recreationDATA \
+	uninstall-svg_tn_religionDATA \
 	uninstall-svg_tn_religion_churchDATA \
 	uninstall-svg_tn_shoppingDATA \
 	uninstall-svg_tn_shopping_rentalDATA \
@@ -3762,36 +4221,59 @@ uninstall-am: uninstall-classicDATA \
 .PHONY: all all-am check check-am clean clean-generic clean-libtool \
 	distclean distclean-generic distclean-libtool distdir dvi \
 	dvi-am html html-am info info-am install install-am \
-	install-classicDATA install-classic_accommodationDATA \
-	install-classic_accommodation_campingDATA \
-	install-classic_educationDATA \
-	install-classic_education_schoolDATA install-classic_foodDATA \
-	install-classic_food_fastfoodDATA \
-	install-classic_food_restaurantDATA \
-	install-classic_food_snacksDATA install-classic_geocacheDATA \
-	install-classic_healthDATA install-classic_miscDATA \
-	install-classic_misc_informationDATA install-classic_moneyDATA \
-	install-classic_money_bankDATA install-classic_nauticalDATA \
-	install-classic_peopleDATA install-classic_placesDATA \
-	install-classic_places_settlementDATA \
-	install-classic_publicDATA install-classic_recreationDATA \
-	install-classic_religionDATA install-classic_shoppingDATA \
-	install-classic_shopping_groceriesDATA \
-	install-classic_shopping_supermarketDATA \
-	install-classic_sightseeingDATA install-classic_sportsDATA \
-	install-classic_transportDATA \
-	install-classic_transport_bridgeDATA \
-	install-classic_transport_ferryDATA \
-	install-classic_vehicleDATA \
-	install-classic_vehicle_car_rentalDATA \
-	install-classic_vehicle_fuel_stationDATA \
-	install-classic_vehicle_parkingDATA \
-	install-classic_waypointDATA \
-	install-classic_waypoint_wpttempDATA install-classic_wlanDATA \
-	install-classic_wlan_payDATA install-data install-data-am \
+	install-classic.bigDATA install-classic.big_accommodationDATA \
+	install-classic.big_accommodation_campingDATA \
+	install-classic.big_educationDATA \
+	install-classic.big_education_schoolDATA \
+	install-classic.big_foodDATA \
+	install-classic.big_food_fastfoodDATA \
+	install-classic.big_food_restaurantDATA \
+	install-classic.big_food_snacksDATA \
+	install-classic.big_geocacheDATA \
+	install-classic.big_healthDATA install-classic.big_miscDATA \
+	install-classic.big_misc_informationDATA \
+	install-classic.big_moneyDATA \
+	install-classic.big_money_bankDATA \
+	install-classic.big_nauticalDATA \
+	install-classic.big_peopleDATA install-classic.big_placesDATA \
+	install-classic.big_places_settlementDATA \
+	install-classic.big_publicDATA \
+	install-classic.big_recreationDATA \
+	install-classic.big_religionDATA \
+	install-classic.big_shoppingDATA \
+	install-classic.big_shopping_groceriesDATA \
+	install-classic.big_shopping_supermarketDATA \
+	install-classic.big_sightseeingDATA \
+	install-classic.big_sportsDATA \
+	install-classic.big_transportDATA \
+	install-classic.big_transport_bridgeDATA \
+	install-classic.big_transport_ferryDATA \
+	install-classic.big_vehicleDATA \
+	install-classic.big_vehicle_car_rentalDATA \
+	install-classic.big_vehicle_fuel_stationDATA \
+	install-classic.big_vehicle_parkingDATA \
+	install-classic.big_waypointDATA \
+	install-classic.big_waypoint_wpttempDATA \
+	install-classic.big_wlanDATA install-classic.big_wlan_payDATA \
+	install-classic.small_accommodationDATA \
+	install-classic.small_foodDATA \
+	install-classic.small_incommingDATA \
+	install-classic.small_placesDATA \
+	install-classic.small_recreationDATA \
+	install-classic.small_religionDATA \
+	install-classic.small_sightseeingDATA \
+	install-classic.small_transportDATA \
+	install-classic.small_vehicleDATA install-data install-data-am \
 	install-exec install-exec-am install-info install-info-am \
-	install-jp_tn_incommingDATA install-man install-nickwDATA \
-	install-square.bigDATA install-square.big_accommodationDATA \
+	install-jp_tnDATA install-jp_tn_education_schoolDATA \
+	install-jp_tn_healthDATA install-jp_tn_incommingDATA \
+	install-jp_tn_publicDATA \
+	install-jp_tn_public_administrationDATA \
+	install-jp_tn_shopping_rentalDATA \
+	install-jp_tn_sightseeingDATA \
+	install-jp_tn_transport_ferryDATA install-man \
+	install-nickwDATA install-square.bigDATA \
+	install-square.big_accommodationDATA \
 	install-square.big_accommodation_campingDATA \
 	install-square.big_accommodation_hotelDATA \
 	install-square.big_educationDATA \
@@ -3871,45 +4353,69 @@ uninstall-am: uninstall-classicDATA \
 	install-svg_tnDATA install-svg_tn_accommodationDATA \
 	install-svg_tn_accommodation_campingDATA \
 	install-svg_tn_educationDATA install-svg_tn_foodDATA \
-	install-svg_tn_healthDATA install-svg_tn_publicDATA \
-	install-svg_tn_recreationDATA install-svg_tn_religionDATA \
-	install-svg_tn_religion_churchDATA install-svg_tn_shoppingDATA \
-	install-svg_tn_shopping_rentalDATA install-svg_tn_sportsDATA \
-	install-svg_tn_transportDATA install-svg_tn_vehicleDATA \
-	installcheck installcheck-am installdirs maintainer-clean \
-	maintainer-clean-generic mostlyclean mostlyclean-generic \
-	mostlyclean-libtool pdf pdf-am ps ps-am uninstall uninstall-am \
-	uninstall-classicDATA uninstall-classic_accommodationDATA \
-	uninstall-classic_accommodation_campingDATA \
-	uninstall-classic_educationDATA \
-	uninstall-classic_education_schoolDATA \
-	uninstall-classic_foodDATA uninstall-classic_food_fastfoodDATA \
-	uninstall-classic_food_restaurantDATA \
-	uninstall-classic_food_snacksDATA \
-	uninstall-classic_geocacheDATA uninstall-classic_healthDATA \
-	uninstall-classic_miscDATA \
-	uninstall-classic_misc_informationDATA \
-	uninstall-classic_moneyDATA uninstall-classic_money_bankDATA \
-	uninstall-classic_nauticalDATA uninstall-classic_peopleDATA \
-	uninstall-classic_placesDATA \
-	uninstall-classic_places_settlementDATA \
-	uninstall-classic_publicDATA uninstall-classic_recreationDATA \
-	uninstall-classic_religionDATA uninstall-classic_shoppingDATA \
-	uninstall-classic_shopping_groceriesDATA \
-	uninstall-classic_shopping_supermarketDATA \
-	uninstall-classic_sightseeingDATA uninstall-classic_sportsDATA \
-	uninstall-classic_transportDATA \
-	uninstall-classic_transport_bridgeDATA \
-	uninstall-classic_transport_ferryDATA \
-	uninstall-classic_vehicleDATA \
-	uninstall-classic_vehicle_car_rentalDATA \
-	uninstall-classic_vehicle_fuel_stationDATA \
-	uninstall-classic_vehicle_parkingDATA \
-	uninstall-classic_waypointDATA \
-	uninstall-classic_waypoint_wpttempDATA \
-	uninstall-classic_wlanDATA uninstall-classic_wlan_payDATA \
-	uninstall-info-am uninstall-jp_tn_incommingDATA \
-	uninstall-nickwDATA uninstall-square.bigDATA \
+	install-svg_tn_healthDATA install-svg_tn_incommingDATA \
+	install-svg_tn_publicDATA install-svg_tn_recreationDATA \
+	install-svg_tn_religionDATA install-svg_tn_religion_churchDATA \
+	install-svg_tn_shoppingDATA install-svg_tn_shopping_rentalDATA \
+	install-svg_tn_sportsDATA install-svg_tn_transportDATA \
+	install-svg_tn_vehicleDATA installcheck installcheck-am \
+	installdirs maintainer-clean maintainer-clean-generic \
+	mostlyclean mostlyclean-generic mostlyclean-libtool pdf pdf-am \
+	ps ps-am uninstall uninstall-am uninstall-classic.bigDATA \
+	uninstall-classic.big_accommodationDATA \
+	uninstall-classic.big_accommodation_campingDATA \
+	uninstall-classic.big_educationDATA \
+	uninstall-classic.big_education_schoolDATA \
+	uninstall-classic.big_foodDATA \
+	uninstall-classic.big_food_fastfoodDATA \
+	uninstall-classic.big_food_restaurantDATA \
+	uninstall-classic.big_food_snacksDATA \
+	uninstall-classic.big_geocacheDATA \
+	uninstall-classic.big_healthDATA \
+	uninstall-classic.big_miscDATA \
+	uninstall-classic.big_misc_informationDATA \
+	uninstall-classic.big_moneyDATA \
+	uninstall-classic.big_money_bankDATA \
+	uninstall-classic.big_nauticalDATA \
+	uninstall-classic.big_peopleDATA \
+	uninstall-classic.big_placesDATA \
+	uninstall-classic.big_places_settlementDATA \
+	uninstall-classic.big_publicDATA \
+	uninstall-classic.big_recreationDATA \
+	uninstall-classic.big_religionDATA \
+	uninstall-classic.big_shoppingDATA \
+	uninstall-classic.big_shopping_groceriesDATA \
+	uninstall-classic.big_shopping_supermarketDATA \
+	uninstall-classic.big_sightseeingDATA \
+	uninstall-classic.big_sportsDATA \
+	uninstall-classic.big_transportDATA \
+	uninstall-classic.big_transport_bridgeDATA \
+	uninstall-classic.big_transport_ferryDATA \
+	uninstall-classic.big_vehicleDATA \
+	uninstall-classic.big_vehicle_car_rentalDATA \
+	uninstall-classic.big_vehicle_fuel_stationDATA \
+	uninstall-classic.big_vehicle_parkingDATA \
+	uninstall-classic.big_waypointDATA \
+	uninstall-classic.big_waypoint_wpttempDATA \
+	uninstall-classic.big_wlanDATA \
+	uninstall-classic.big_wlan_payDATA \
+	uninstall-classic.small_accommodationDATA \
+	uninstall-classic.small_foodDATA \
+	uninstall-classic.small_incommingDATA \
+	uninstall-classic.small_placesDATA \
+	uninstall-classic.small_recreationDATA \
+	uninstall-classic.small_religionDATA \
+	uninstall-classic.small_sightseeingDATA \
+	uninstall-classic.small_transportDATA \
+	uninstall-classic.small_vehicleDATA uninstall-info-am \
+	uninstall-jp_tnDATA uninstall-jp_tn_education_schoolDATA \
+	uninstall-jp_tn_healthDATA uninstall-jp_tn_incommingDATA \
+	uninstall-jp_tn_publicDATA \
+	uninstall-jp_tn_public_administrationDATA \
+	uninstall-jp_tn_shopping_rentalDATA \
+	uninstall-jp_tn_sightseeingDATA \
+	uninstall-jp_tn_transport_ferryDATA uninstall-nickwDATA \
+	uninstall-square.bigDATA \
 	uninstall-square.big_accommodationDATA \
 	uninstall-square.big_accommodation_campingDATA \
 	uninstall-square.big_accommodation_hotelDATA \
@@ -3994,8 +4500,9 @@ uninstall-am: uninstall-classicDATA \
 	uninstall-svg_tn_accommodationDATA \
 	uninstall-svg_tn_accommodation_campingDATA \
 	uninstall-svg_tn_educationDATA uninstall-svg_tn_foodDATA \
-	uninstall-svg_tn_healthDATA uninstall-svg_tn_publicDATA \
-	uninstall-svg_tn_recreationDATA uninstall-svg_tn_religionDATA \
+	uninstall-svg_tn_healthDATA uninstall-svg_tn_incommingDATA \
+	uninstall-svg_tn_publicDATA uninstall-svg_tn_recreationDATA \
+	uninstall-svg_tn_religionDATA \
 	uninstall-svg_tn_religion_churchDATA \
 	uninstall-svg_tn_shoppingDATA \
 	uninstall-svg_tn_shopping_rentalDATA \
