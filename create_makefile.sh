@@ -3,7 +3,7 @@
 makefile="Makefile.am"
 
 echo "" >$makefile
-for theme in square.big square.small svg svg_tn jp jp_tn classic nickw ; do 
+for theme in square.big square.small svg svg_tn jp jp_tn classic.small classic.big nickw ; do 
     find $theme -type d | grep -v /.svn | while read dir; do
 	# if no files in dir
 	echo $dir/*.png | grep -q -e '\*' && continue
@@ -20,7 +20,7 @@ done
 echo  >>$makefile
 echo  >>$makefile
 echo "EXTRA_DIST= \\" >>$makefile
-for theme in square.big square.small svg svg_tn jp jp_tn classic nickw ; do 
+for theme in square.big square.small svg svg_tn jp jp_tn classic.small classic.big nickw ; do 
     find $theme -type d | grep -v /.svn | while read dir; do
 	# if no files in dir
 	echo $dir/*.png | grep -q -e '\*' && continue

@@ -258,6 +258,9 @@ square.small_transportdir = $(datadir)/map-icons/square.small/transport
 svg_tn_DATA = svg_tn/*.png
 svg_tndir = $(datadir)/map-icons/svg_tn
 
+svg_tn_incomming_DATA = svg_tn/incomming/*.png
+svg_tn_incommingdir = $(datadir)/map-icons/svg_tn/incomming
+
 svg_tn_accommodation_DATA = svg_tn/accommodation/*.png
 svg_tn_accommodationdir = $(datadir)/map-icons/svg_tn/accommodation
 
@@ -302,123 +305,175 @@ svg_tn_transportdir = $(datadir)/map-icons/svg_tn/transport
 
 
 
+jp_tn_DATA = jp_tn/*.png
+jp_tndir = $(datadir)/map-icons/jp_tn
+
 jp_tn_incomming_DATA = jp_tn/incomming/*.png
 jp_tn_incommingdir = $(datadir)/map-icons/jp_tn/incomming
 
+jp_tn_sightseeing_DATA = jp_tn/sightseeing/*.png
+jp_tn_sightseeingdir = $(datadir)/map-icons/jp_tn/sightseeing
 
-classic_DATA = classic/*.png
-classicdir = $(datadir)/map-icons/classic
+jp_tn_health_DATA = jp_tn/health/*.png
+jp_tn_healthdir = $(datadir)/map-icons/jp_tn/health
 
-classic_sightseeing_DATA = classic/sightseeing/*.png
-classic_sightseeingdir = $(datadir)/map-icons/classic/sightseeing
+jp_tn_education_school_DATA = jp_tn/education/school/*.png
+jp_tn_education_schooldir = $(datadir)/map-icons/jp_tn/education/school
 
-classic_waypoint_DATA = classic/waypoint/*.png
-classic_waypointdir = $(datadir)/map-icons/classic/waypoint
+jp_tn_shopping_rental_DATA = jp_tn/shopping/rental/*.png
+jp_tn_shopping_rentaldir = $(datadir)/map-icons/jp_tn/shopping/rental
 
-classic_waypoint_wpttemp_DATA = classic/waypoint/wpttemp/*.png
-classic_waypoint_wpttempdir = $(datadir)/map-icons/classic/waypoint/wpttemp
+jp_tn_public_DATA = jp_tn/public/*.png
+jp_tn_publicdir = $(datadir)/map-icons/jp_tn/public
 
-classic_accommodation_DATA = classic/accommodation/*.png
-classic_accommodationdir = $(datadir)/map-icons/classic/accommodation
+jp_tn_public_administration_DATA = jp_tn/public/administration/*.png
+jp_tn_public_administrationdir = $(datadir)/map-icons/jp_tn/public/administration
 
-classic_accommodation_camping_DATA = classic/accommodation/camping/*.png
-classic_accommodation_campingdir = $(datadir)/map-icons/classic/accommodation/camping
+jp_tn_transport_ferry_DATA = jp_tn/transport/ferry/*.png
+jp_tn_transport_ferrydir = $(datadir)/map-icons/jp_tn/transport/ferry
 
-classic_wlan_DATA = classic/wlan/*.png
-classic_wlandir = $(datadir)/map-icons/classic/wlan
 
-classic_wlan_pay_DATA = classic/wlan/pay/*.png
-classic_wlan_paydir = $(datadir)/map-icons/classic/wlan/pay
+classic.small_incomming_DATA = classic.small/incomming/*.png
+classic.small_incommingdir = $(datadir)/map-icons/classic.small/incomming
 
-classic_geocache_DATA = classic/geocache/*.png
-classic_geocachedir = $(datadir)/map-icons/classic/geocache
+classic.small_sightseeing_DATA = classic.small/sightseeing/*.png
+classic.small_sightseeingdir = $(datadir)/map-icons/classic.small/sightseeing
 
-classic_health_DATA = classic/health/*.png
-classic_healthdir = $(datadir)/map-icons/classic/health
+classic.small_accommodation_DATA = classic.small/accommodation/*.png
+classic.small_accommodationdir = $(datadir)/map-icons/classic.small/accommodation
 
-classic_money_DATA = classic/money/*.png
-classic_moneydir = $(datadir)/map-icons/classic/money
+classic.small_food_DATA = classic.small/food/*.png
+classic.small_fooddir = $(datadir)/map-icons/classic.small/food
 
-classic_money_bank_DATA = classic/money/bank/*.png
-classic_money_bankdir = $(datadir)/map-icons/classic/money/bank
+classic.small_recreation_DATA = classic.small/recreation/*.png
+classic.small_recreationdir = $(datadir)/map-icons/classic.small/recreation
 
-classic_nautical_DATA = classic/nautical/*.png
-classic_nauticaldir = $(datadir)/map-icons/classic/nautical
+classic.small_places_DATA = classic.small/places/*.png
+classic.small_placesdir = $(datadir)/map-icons/classic.small/places
 
-classic_food_DATA = classic/food/*.png
-classic_fooddir = $(datadir)/map-icons/classic/food
+classic.small_vehicle_DATA = classic.small/vehicle/*.png
+classic.small_vehicledir = $(datadir)/map-icons/classic.small/vehicle
 
-classic_food_restaurant_DATA = classic/food/restaurant/*.png
-classic_food_restaurantdir = $(datadir)/map-icons/classic/food/restaurant
+classic.small_religion_DATA = classic.small/religion/*.png
+classic.small_religiondir = $(datadir)/map-icons/classic.small/religion
 
-classic_food_fastfood_DATA = classic/food/fastfood/*.png
-classic_food_fastfooddir = $(datadir)/map-icons/classic/food/fastfood
+classic.small_transport_DATA = classic.small/transport/*.png
+classic.small_transportdir = $(datadir)/map-icons/classic.small/transport
 
-classic_food_snacks_DATA = classic/food/snacks/*.png
-classic_food_snacksdir = $(datadir)/map-icons/classic/food/snacks
 
-classic_recreation_DATA = classic/recreation/*.png
-classic_recreationdir = $(datadir)/map-icons/classic/recreation
+classic.big_DATA = classic.big/*.png
+classic.bigdir = $(datadir)/map-icons/classic.big
 
-classic_sports_DATA = classic/sports/*.png
-classic_sportsdir = $(datadir)/map-icons/classic/sports
+classic.big_sightseeing_DATA = classic.big/sightseeing/*.png
+classic.big_sightseeingdir = $(datadir)/map-icons/classic.big/sightseeing
 
-classic_misc_DATA = classic/misc/*.png
-classic_miscdir = $(datadir)/map-icons/classic/misc
+classic.big_waypoint_DATA = classic.big/waypoint/*.png
+classic.big_waypointdir = $(datadir)/map-icons/classic.big/waypoint
 
-classic_misc_information_DATA = classic/misc/information/*.png
-classic_misc_informationdir = $(datadir)/map-icons/classic/misc/information
+classic.big_waypoint_wpttemp_DATA = classic.big/waypoint/wpttemp/*.png
+classic.big_waypoint_wpttempdir = $(datadir)/map-icons/classic.big/waypoint/wpttemp
 
-classic_places_DATA = classic/places/*.png
-classic_placesdir = $(datadir)/map-icons/classic/places
+classic.big_accommodation_DATA = classic.big/accommodation/*.png
+classic.big_accommodationdir = $(datadir)/map-icons/classic.big/accommodation
 
-classic_places_settlement_DATA = classic/places/settlement/*.png
-classic_places_settlementdir = $(datadir)/map-icons/classic/places/settlement
+classic.big_accommodation_camping_DATA = classic.big/accommodation/camping/*.png
+classic.big_accommodation_campingdir = $(datadir)/map-icons/classic.big/accommodation/camping
 
-classic_vehicle_DATA = classic/vehicle/*.png
-classic_vehicledir = $(datadir)/map-icons/classic/vehicle
+classic.big_wlan_DATA = classic.big/wlan/*.png
+classic.big_wlandir = $(datadir)/map-icons/classic.big/wlan
 
-classic_vehicle_car_rental_DATA = classic/vehicle/car_rental/*.png
-classic_vehicle_car_rentaldir = $(datadir)/map-icons/classic/vehicle/car_rental
+classic.big_wlan_pay_DATA = classic.big/wlan/pay/*.png
+classic.big_wlan_paydir = $(datadir)/map-icons/classic.big/wlan/pay
 
-classic_vehicle_parking_DATA = classic/vehicle/parking/*.png
-classic_vehicle_parkingdir = $(datadir)/map-icons/classic/vehicle/parking
+classic.big_geocache_DATA = classic.big/geocache/*.png
+classic.big_geocachedir = $(datadir)/map-icons/classic.big/geocache
 
-classic_vehicle_fuel_station_DATA = classic/vehicle/fuel_station/*.png
-classic_vehicle_fuel_stationdir = $(datadir)/map-icons/classic/vehicle/fuel_station
+classic.big_health_DATA = classic.big/health/*.png
+classic.big_healthdir = $(datadir)/map-icons/classic.big/health
 
-classic_education_DATA = classic/education/*.png
-classic_educationdir = $(datadir)/map-icons/classic/education
+classic.big_money_DATA = classic.big/money/*.png
+classic.big_moneydir = $(datadir)/map-icons/classic.big/money
 
-classic_education_school_DATA = classic/education/school/*.png
-classic_education_schooldir = $(datadir)/map-icons/classic/education/school
+classic.big_money_bank_DATA = classic.big/money/bank/*.png
+classic.big_money_bankdir = $(datadir)/map-icons/classic.big/money/bank
 
-classic_shopping_DATA = classic/shopping/*.png
-classic_shoppingdir = $(datadir)/map-icons/classic/shopping
+classic.big_nautical_DATA = classic.big/nautical/*.png
+classic.big_nauticaldir = $(datadir)/map-icons/classic.big/nautical
 
-classic_shopping_groceries_DATA = classic/shopping/groceries/*.png
-classic_shopping_groceriesdir = $(datadir)/map-icons/classic/shopping/groceries
+classic.big_food_DATA = classic.big/food/*.png
+classic.big_fooddir = $(datadir)/map-icons/classic.big/food
 
-classic_shopping_supermarket_DATA = classic/shopping/supermarket/*.png
-classic_shopping_supermarketdir = $(datadir)/map-icons/classic/shopping/supermarket
+classic.big_food_restaurant_DATA = classic.big/food/restaurant/*.png
+classic.big_food_restaurantdir = $(datadir)/map-icons/classic.big/food/restaurant
 
-classic_public_DATA = classic/public/*.png
-classic_publicdir = $(datadir)/map-icons/classic/public
+classic.big_food_fastfood_DATA = classic.big/food/fastfood/*.png
+classic.big_food_fastfooddir = $(datadir)/map-icons/classic.big/food/fastfood
 
-classic_people_DATA = classic/people/*.png
-classic_peopledir = $(datadir)/map-icons/classic/people
+classic.big_food_snacks_DATA = classic.big/food/snacks/*.png
+classic.big_food_snacksdir = $(datadir)/map-icons/classic.big/food/snacks
 
-classic_religion_DATA = classic/religion/*.png
-classic_religiondir = $(datadir)/map-icons/classic/religion
+classic.big_recreation_DATA = classic.big/recreation/*.png
+classic.big_recreationdir = $(datadir)/map-icons/classic.big/recreation
 
-classic_transport_DATA = classic/transport/*.png
-classic_transportdir = $(datadir)/map-icons/classic/transport
+classic.big_sports_DATA = classic.big/sports/*.png
+classic.big_sportsdir = $(datadir)/map-icons/classic.big/sports
 
-classic_transport_ferry_DATA = classic/transport/ferry/*.png
-classic_transport_ferrydir = $(datadir)/map-icons/classic/transport/ferry
+classic.big_misc_DATA = classic.big/misc/*.png
+classic.big_miscdir = $(datadir)/map-icons/classic.big/misc
 
-classic_transport_bridge_DATA = classic/transport/bridge/*.png
-classic_transport_bridgedir = $(datadir)/map-icons/classic/transport/bridge
+classic.big_misc_information_DATA = classic.big/misc/information/*.png
+classic.big_misc_informationdir = $(datadir)/map-icons/classic.big/misc/information
+
+classic.big_places_DATA = classic.big/places/*.png
+classic.big_placesdir = $(datadir)/map-icons/classic.big/places
+
+classic.big_places_settlement_DATA = classic.big/places/settlement/*.png
+classic.big_places_settlementdir = $(datadir)/map-icons/classic.big/places/settlement
+
+classic.big_vehicle_DATA = classic.big/vehicle/*.png
+classic.big_vehicledir = $(datadir)/map-icons/classic.big/vehicle
+
+classic.big_vehicle_car_rental_DATA = classic.big/vehicle/car_rental/*.png
+classic.big_vehicle_car_rentaldir = $(datadir)/map-icons/classic.big/vehicle/car_rental
+
+classic.big_vehicle_parking_DATA = classic.big/vehicle/parking/*.png
+classic.big_vehicle_parkingdir = $(datadir)/map-icons/classic.big/vehicle/parking
+
+classic.big_vehicle_fuel_station_DATA = classic.big/vehicle/fuel_station/*.png
+classic.big_vehicle_fuel_stationdir = $(datadir)/map-icons/classic.big/vehicle/fuel_station
+
+classic.big_education_DATA = classic.big/education/*.png
+classic.big_educationdir = $(datadir)/map-icons/classic.big/education
+
+classic.big_education_school_DATA = classic.big/education/school/*.png
+classic.big_education_schooldir = $(datadir)/map-icons/classic.big/education/school
+
+classic.big_shopping_DATA = classic.big/shopping/*.png
+classic.big_shoppingdir = $(datadir)/map-icons/classic.big/shopping
+
+classic.big_shopping_groceries_DATA = classic.big/shopping/groceries/*.png
+classic.big_shopping_groceriesdir = $(datadir)/map-icons/classic.big/shopping/groceries
+
+classic.big_shopping_supermarket_DATA = classic.big/shopping/supermarket/*.png
+classic.big_shopping_supermarketdir = $(datadir)/map-icons/classic.big/shopping/supermarket
+
+classic.big_public_DATA = classic.big/public/*.png
+classic.big_publicdir = $(datadir)/map-icons/classic.big/public
+
+classic.big_people_DATA = classic.big/people/*.png
+classic.big_peopledir = $(datadir)/map-icons/classic.big/people
+
+classic.big_religion_DATA = classic.big/religion/*.png
+classic.big_religiondir = $(datadir)/map-icons/classic.big/religion
+
+classic.big_transport_DATA = classic.big/transport/*.png
+classic.big_transportdir = $(datadir)/map-icons/classic.big/transport
+
+classic.big_transport_ferry_DATA = classic.big/transport/ferry/*.png
+classic.big_transport_ferrydir = $(datadir)/map-icons/classic.big/transport/ferry
+
+classic.big_transport_bridge_DATA = classic.big/transport/bridge/*.png
+classic.big_transport_bridgedir = $(datadir)/map-icons/classic.big/transport/bridge
 
 
 nickw_DATA = nickw/*.png
@@ -512,6 +567,7 @@ EXTRA_DIST= \
 	$(square.small_religion_DATA) \
 	$(square.small_transport_DATA) \
 	$(svg_tn_DATA) \
+	$(svg_tn_incomming_DATA) \
 	$(svg_tn_accommodation_DATA) \
 	$(svg_tn_accommodation_camping_DATA) \
 	$(svg_tn_health_DATA) \
@@ -526,45 +582,62 @@ EXTRA_DIST= \
 	$(svg_tn_religion_DATA) \
 	$(svg_tn_religion_church_DATA) \
 	$(svg_tn_transport_DATA) \
+	$(jp_tn_DATA) \
 	$(jp_tn_incomming_DATA) \
-	$(classic_DATA) \
-	$(classic_sightseeing_DATA) \
-	$(classic_waypoint_DATA) \
-	$(classic_waypoint_wpttemp_DATA) \
-	$(classic_accommodation_DATA) \
-	$(classic_accommodation_camping_DATA) \
-	$(classic_wlan_DATA) \
-	$(classic_wlan_pay_DATA) \
-	$(classic_geocache_DATA) \
-	$(classic_health_DATA) \
-	$(classic_money_DATA) \
-	$(classic_money_bank_DATA) \
-	$(classic_nautical_DATA) \
-	$(classic_food_DATA) \
-	$(classic_food_restaurant_DATA) \
-	$(classic_food_fastfood_DATA) \
-	$(classic_food_snacks_DATA) \
-	$(classic_recreation_DATA) \
-	$(classic_sports_DATA) \
-	$(classic_misc_DATA) \
-	$(classic_misc_information_DATA) \
-	$(classic_places_DATA) \
-	$(classic_places_settlement_DATA) \
-	$(classic_vehicle_DATA) \
-	$(classic_vehicle_car_rental_DATA) \
-	$(classic_vehicle_parking_DATA) \
-	$(classic_vehicle_fuel_station_DATA) \
-	$(classic_education_DATA) \
-	$(classic_education_school_DATA) \
-	$(classic_shopping_DATA) \
-	$(classic_shopping_groceries_DATA) \
-	$(classic_shopping_supermarket_DATA) \
-	$(classic_public_DATA) \
-	$(classic_people_DATA) \
-	$(classic_religion_DATA) \
-	$(classic_transport_DATA) \
-	$(classic_transport_ferry_DATA) \
-	$(classic_transport_bridge_DATA) \
+	$(jp_tn_sightseeing_DATA) \
+	$(jp_tn_health_DATA) \
+	$(jp_tn_education_school_DATA) \
+	$(jp_tn_shopping_rental_DATA) \
+	$(jp_tn_public_DATA) \
+	$(jp_tn_public_administration_DATA) \
+	$(jp_tn_transport_ferry_DATA) \
+	$(classic.small_incomming_DATA) \
+	$(classic.small_sightseeing_DATA) \
+	$(classic.small_accommodation_DATA) \
+	$(classic.small_food_DATA) \
+	$(classic.small_recreation_DATA) \
+	$(classic.small_places_DATA) \
+	$(classic.small_vehicle_DATA) \
+	$(classic.small_religion_DATA) \
+	$(classic.small_transport_DATA) \
+	$(classic.big_DATA) \
+	$(classic.big_sightseeing_DATA) \
+	$(classic.big_waypoint_DATA) \
+	$(classic.big_waypoint_wpttemp_DATA) \
+	$(classic.big_accommodation_DATA) \
+	$(classic.big_accommodation_camping_DATA) \
+	$(classic.big_wlan_DATA) \
+	$(classic.big_wlan_pay_DATA) \
+	$(classic.big_geocache_DATA) \
+	$(classic.big_health_DATA) \
+	$(classic.big_money_DATA) \
+	$(classic.big_money_bank_DATA) \
+	$(classic.big_nautical_DATA) \
+	$(classic.big_food_DATA) \
+	$(classic.big_food_restaurant_DATA) \
+	$(classic.big_food_fastfood_DATA) \
+	$(classic.big_food_snacks_DATA) \
+	$(classic.big_recreation_DATA) \
+	$(classic.big_sports_DATA) \
+	$(classic.big_misc_DATA) \
+	$(classic.big_misc_information_DATA) \
+	$(classic.big_places_DATA) \
+	$(classic.big_places_settlement_DATA) \
+	$(classic.big_vehicle_DATA) \
+	$(classic.big_vehicle_car_rental_DATA) \
+	$(classic.big_vehicle_parking_DATA) \
+	$(classic.big_vehicle_fuel_station_DATA) \
+	$(classic.big_education_DATA) \
+	$(classic.big_education_school_DATA) \
+	$(classic.big_shopping_DATA) \
+	$(classic.big_shopping_groceries_DATA) \
+	$(classic.big_shopping_supermarket_DATA) \
+	$(classic.big_public_DATA) \
+	$(classic.big_people_DATA) \
+	$(classic.big_religion_DATA) \
+	$(classic.big_transport_DATA) \
+	$(classic.big_transport_ferry_DATA) \
+	$(classic.big_transport_bridge_DATA) \
 	$(nickw_DATA) \
 	CMakeLists.txt \
 	index.html \

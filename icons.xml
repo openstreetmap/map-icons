@@ -5487,4 +5487,88 @@
       <name>transport.roundabout_right</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="education.school.junior_high"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>442</poi_type_id>
+      <name>education.school.junior_high</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="food.teashop"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>443</poi_type_id>
+      <name>food.teashop</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.peak_small"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>444</poi_type_id>
+      <name>places.peak_small</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="public.administration.court_of_law"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>445</poi_type_id>
+      <name>public.administration.court_of_law</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.park"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>446</poi_type_id>
+      <name>recreation.park</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.crossing"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>447</poi_type_id>
+      <name>vehicle.crossing</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.tunnel"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>448</poi_type_id>
+      <name>vehicle.tunnel</name>
+    </geoinfo>
+  </rule>
 </rules>
