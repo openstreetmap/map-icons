@@ -294,6 +294,9 @@ svg_tn_shopping_rentaldir = $(datadir)/map-icons/svg_tn/shopping/rental
 svg_tn_public_DATA = svg_tn/public/*.png
 svg_tn_publicdir = $(datadir)/map-icons/svg_tn/public
 
+svg_tn_public_recycling_DATA = svg_tn/public/recycling/*.png
+svg_tn_public_recyclingdir = $(datadir)/map-icons/svg_tn/public/recycling
+
 svg_tn_religion_DATA = svg_tn/religion/*.png
 svg_tn_religiondir = $(datadir)/map-icons/svg_tn/religion
 
@@ -579,6 +582,7 @@ EXTRA_DIST= \
 	$(svg_tn_shopping_DATA) \
 	$(svg_tn_shopping_rental_DATA) \
 	$(svg_tn_public_DATA) \
+	$(svg_tn_public_recycling_DATA) \
 	$(svg_tn_religion_DATA) \
 	$(svg_tn_religion_church_DATA) \
 	$(svg_tn_transport_DATA) \

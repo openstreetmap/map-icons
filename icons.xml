@@ -5571,4 +5571,28 @@
       <name>vehicle.tunnel</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.roundabout_left"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>449</poi_type_id>
+      <name>vehicle.roundabout_left</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.roundabout_right"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>450</poi_type_id>
+      <name>vehicle.roundabout_right</name>
+    </geoinfo>
+  </rule>
 </rules>
