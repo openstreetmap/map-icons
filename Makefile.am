@@ -336,6 +336,9 @@ jp_tn_transport_ferry_DATA = jp_tn/transport/ferry/*.png
 jp_tn_transport_ferrydir = $(datadir)/map-icons/jp_tn/transport/ferry
 
 
+classic.small_DATA = classic.small/*.png
+classic.smalldir = $(datadir)/map-icons/classic.small
+
 classic.small_incomming_DATA = classic.small/incomming/*.png
 classic.small_incommingdir = $(datadir)/map-icons/classic.small/incomming
 
@@ -350,6 +353,9 @@ classic.small_fooddir = $(datadir)/map-icons/classic.small/food
 
 classic.small_recreation_DATA = classic.small/recreation/*.png
 classic.small_recreationdir = $(datadir)/map-icons/classic.small/recreation
+
+classic.small_sports_DATA = classic.small/sports/*.png
+classic.small_sportsdir = $(datadir)/map-icons/classic.small/sports
 
 classic.small_places_DATA = classic.small/places/*.png
 classic.small_placesdir = $(datadir)/map-icons/classic.small/places
@@ -595,11 +601,13 @@ EXTRA_DIST= \
 	$(jp_tn_public_DATA) \
 	$(jp_tn_public_administration_DATA) \
 	$(jp_tn_transport_ferry_DATA) \
+	$(classic.small_DATA) \
 	$(classic.small_incomming_DATA) \
 	$(classic.small_sightseeing_DATA) \
 	$(classic.small_accommodation_DATA) \
 	$(classic.small_food_DATA) \
 	$(classic.small_recreation_DATA) \
+	$(classic.small_sports_DATA) \
 	$(classic.small_places_DATA) \
 	$(classic.small_vehicle_DATA) \
 	$(classic.small_religion_DATA) \

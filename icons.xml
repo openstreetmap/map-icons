@@ -5357,18 +5357,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="sports.horse"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>431</poi_type_id>
-      <name>sports.horse</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="sports.indoor_pool"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -5413,18 +5401,6 @@
     <geoinfo>
       <poi_type_id>435</poi_type_id>
       <name>sports.racquetball</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.ski"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>436</poi_type_id>
-      <name>sports.ski</name>
     </geoinfo>
   </rule>
 
@@ -5593,6 +5569,18 @@
     <geoinfo>
       <poi_type_id>450</poi_type_id>
       <name>vehicle.roundabout_right</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.football"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>451</poi_type_id>
+      <name>sports.football</name>
     </geoinfo>
   </rule>
 </rules>
