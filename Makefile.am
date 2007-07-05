@@ -291,6 +291,9 @@ svg_tn_vehicledir = $(datadir)/map-icons/svg_tn/vehicle
 svg_tn_education_DATA = svg_tn/education/*.png
 svg_tn_educationdir = $(datadir)/map-icons/svg_tn/education
 
+svg_tn_education_school_DATA = svg_tn/education/school/*.png
+svg_tn_education_schooldir = $(datadir)/map-icons/svg_tn/education/school
+
 svg_tn_shopping_DATA = svg_tn/shopping/*.png
 svg_tn_shoppingdir = $(datadir)/map-icons/svg_tn/shopping
 
@@ -371,6 +374,9 @@ classic.small_placesdir = $(datadir)/map-icons/classic.small/places
 
 classic.small_vehicle_DATA = classic.small/vehicle/*.png
 classic.small_vehicledir = $(datadir)/map-icons/classic.small/vehicle
+
+classic.small_education_school_DATA = classic.small/education/school/*.png
+classic.small_education_schooldir = $(datadir)/map-icons/classic.small/education/school
 
 classic.small_people_DATA = classic.small/people/*.png
 classic.small_peopledir = $(datadir)/map-icons/classic.small/people
@@ -599,6 +605,7 @@ EXTRA_DIST= \
 	$(svg_tn_sports_DATA) \
 	$(svg_tn_vehicle_DATA) \
 	$(svg_tn_education_DATA) \
+	$(svg_tn_education_school_DATA) \
 	$(svg_tn_shopping_DATA) \
 	$(svg_tn_shopping_rental_DATA) \
 	$(svg_tn_public_DATA) \
@@ -625,6 +632,7 @@ EXTRA_DIST= \
 	$(classic.small_sports_DATA) \
 	$(classic.small_places_DATA) \
 	$(classic.small_vehicle_DATA) \
+	$(classic.small_education_school_DATA) \
 	$(classic.small_people_DATA) \
 	$(classic.small_religion_DATA) \
 	$(classic.small_transport_DATA) \

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   version="1.0"
+   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/education/school"
+   sodipodi:docname="primary.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="17.680587"
+     inkscape:cy="16.386923"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="857"
+     inkscape:window-height="579"
+     inkscape:window-x="1811"
+     inkscape:window-y="110"
+     width="32px"
+     height="32px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-146.6732,-50.39987)">
+    <text
+       xml:space="preserve"
+       style="font-size:0.09486658px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="1007.2923"
+       y="14.718156"
+       id="text1872"
+       transform="scale(0.178243,5.610315)"><tspan
+         sodipodi:role="line"
+         id="tspan1874"
+         x="1007.2923"
+         y="14.718156"
+         style="text-align:center;text-anchor:middle;fill:red">A</tspan><tspan
+         sodipodi:role="line"
+         x="1007.2923"
+         y="14.836739"
+         id="tspan1876"
+         style="text-align:center;text-anchor:middle"><tspan
+           style="text-align:center;text-anchor:middle;fill:blue"
+           id="tspan1880">B</tspan><tspan
+           style="text-align:center;text-anchor:middle;fill:lime"
+           id="tspan1882"> C</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12.45235729px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="155.53258"
+       y="65.496773"
+       id="text1885"
+       transform="scale(1.037696,0.963673)"><tspan
+         sodipodi:role="line"
+         id="tspan1887"
+         x="155.53258"
+         y="65.496773"
+         style="text-align:center;text-anchor:middle;fill:red">A</tspan><tspan
+         sodipodi:role="line"
+         x="155.53258"
+         y="81.062219"
+         id="tspan1889"
+         style="text-align:center;text-anchor:middle"><tspan
+           style="text-align:center;text-anchor:middle;fill:blue"
+           id="tspan1891">B</tspan><tspan
+           style="text-align:center;text-anchor:middle;fill:lime"
+           id="tspan1893"> C</tspan></tspan></text>
+  </g>
+</svg>
