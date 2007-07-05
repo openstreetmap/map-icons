@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg">
     <defs>
         <symbol id="symbol-museum" viewBox="94 140 156 180">
-            <g fill="#f2f2f2" stroke-width="3" stroke="#000000">
+            <g fill="#f2f2f2" stroke-width="4" stroke="#000000">
                 <path d="M 38.2,92.9 L 60.6,92.9 L 60.6,215.6 L 38.2,215.6 L 38.2,92.9 z " />
                 <path d="M 85,92.9 L 107.4,92.8 L 107.4,215.6 L 85,215.6 L 85,92.9 z " />
                 <path d="M 131.8,92.8 L 154.2,92.8 L 154.2,215.6 L 131.8,215.6 L 131.8,92.8 z " />

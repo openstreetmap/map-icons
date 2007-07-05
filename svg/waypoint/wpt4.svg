@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="61.463894"
+   height="55.392708"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   version="1.0"
+   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/waypoint"
+   sodipodi:docname="wpt4.svg">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="64.458826"
+     inkscape:cy="48.770922"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="891"
+     inkscape:window-height="781"
+     inkscape:window-x="1830"
+     inkscape:window-y="49" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-254.6964,-283.9156)">
+    <text
+       xml:space="preserve"
+       style="font-size:1.76168227px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="559.90985"
+       y="194.46046"
+       id="text1874"
+       transform="scale(0.571888,1.748596)"><tspan
+         sodipodi:role="line"
+         x="559.90985"
+         y="194.46046"
+         id="tspan2758">.</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:aqua;fill-opacity:1;stroke:black;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1880"
+       sodipodi:cx="265.71429"
+       sodipodi:cy="289.50504"
+       sodipodi:rx="122.85714"
+       sodipodi:ry="120"
+       d="M 388.57143 289.50504 A 122.85714 120 0 1 1  142.85715,289.50504 A 122.85714 120 0 1 1  388.57143 289.50504 z"
+       transform="matrix(0.248204,0,0,0.228817,219.477,245.3683)" />
+    <text
+       xml:space="preserve"
+       style="font-size:56.51395035px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="270.60794"
+       y="326.9679"
+       id="text1882"
+       transform="scale(0.986846,1.01333)"><tspan
+         sodipodi:role="line"
+         id="tspan1884"
+         x="270.60794"
+         y="326.9679">4</tspan></text>
+  </g>
+</svg>

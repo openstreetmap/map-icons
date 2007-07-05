@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="160.83618"
+   id="svg1316"
+   inkscape:version="0.44.1"
+   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/recreation"
+   sodipodi:docname="music.svg"
+   sodipodi:version="0.32"
+   version="1.0"
+   width="181.0162"
+   x="0.00000000"
+   y="0.00000000">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Musical Note 3</dc:title>
+        <dc:description>This work is hereby released into the Public Domain. To view a copy of the public domain dedication, visit http://creativecommons.org/licenses/publicdomain/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>symbol</rdf:li>
+            <rdf:li>music</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Dennis Bond</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Public Domain</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:current-layer="svg1316"
+     inkscape:cx="197.25994"
+     inkscape:cy="104.41315"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="579"
+     inkscape:window-width="857"
+     inkscape:window-x="2105"
+     inkscape:window-y="456"
+     inkscape:zoom="1.3037337"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs1318" />
+  <g
+     id="layer1"
+     transform="matrix(-0.219859,-4.957995e-2,-5.113941e-2,0.226774,241.3023,-20.17933)">
+    <path
+       d="M 374.44027,235.14714 C 346.34652,357.28055 314.64401,506.51481 286.55029,628.64829 C 181.90395,556.18869 108.91835,615.08334 119.4692,698.01492 C 126.23986,751.23315 219.58272,808.21199 308.65143,721.32985 C 325.20715,640.35087 355.01864,506.84742 377.59537,402.07762 L 542.58718,519.15719 C 525.749,595.05513 509.20447,670.45741 491.07618,749.26749 C 386.42991,676.80789 313.37171,735.68686 323.92257,818.61845 C 330.69325,871.83667 424.05163,928.7431 513.12035,841.86095 L 614.20931,403.76291 C 613.53748,403.59165 612.8653,403.4263 612.19348,403.25505 L 612.40077,402.99594 C 597.91963,391.58023 388.86286,238.8239 374.44027,235.14714 z M 394.14213,325.5694 L 559.26349,444.87731 C 556.75243,456.0059 554.31761,467.01872 551.85294,478.0426 L 386.6383,360.23232 C 388.77062,350.11748 392.34481,334.36068 394.14213,325.5694 z "
+       id="path5065"
+       style="opacity:1;fill:black;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g1921"
+     transform="matrix(0.201312,-2.887594e-2,3.054284e-2,0.212933,-55.20232,-50.90483)">
+    <path
+       style="opacity:1;fill:black;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2159"
+       d="M 362.59871,675.56622 C 246.49834,609.13916 175.35548,677.36914 193.88206,763.24717 C 205.77079,818.35621 308.61037,869.57948 394.0295,770.58031 C 406.46306,663.62865 422.76033,556.16183 435.19389,449.21017 C 566.48818,564.96343 524.55815,634.99642 497.41335,715.64179 C 553.21953,692.64399 640.63073,591.10925 545.13253,447.89837 C 499.94194,384.45756 504.18191,429.25273 460.40782,302.70428 C 444.97571,300.1555 429.54354,297.60668 414.11145,295.05793 C 395.71273,425.46582 380.99741,545.15833 362.59871,675.56622 z " />
+  </g>
+</svg>

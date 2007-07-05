@@ -254,12 +254,18 @@ square.small_transport_DATA = square.small/transport/*.png
 square.small_transportdir = $(datadir)/map-icons/square.small/transport
 
 
+svg_health_DATA = svg/health/*.png
+svg_healthdir = $(datadir)/map-icons/svg/health
+
 
 svg_tn_DATA = svg_tn/*.png
 svg_tndir = $(datadir)/map-icons/svg_tn
 
 svg_tn_incomming_DATA = svg_tn/incomming/*.png
 svg_tn_incommingdir = $(datadir)/map-icons/svg_tn/incomming
+
+svg_tn_waypoint_DATA = svg_tn/waypoint/*.png
+svg_tn_waypointdir = $(datadir)/map-icons/svg_tn/waypoint
 
 svg_tn_accommodation_DATA = svg_tn/accommodation/*.png
 svg_tn_accommodationdir = $(datadir)/map-icons/svg_tn/accommodation
@@ -575,8 +581,10 @@ EXTRA_DIST= \
 	$(square.small_people_developer_DATA) \
 	$(square.small_religion_DATA) \
 	$(square.small_transport_DATA) \
+	$(svg_health_DATA) \
 	$(svg_tn_DATA) \
 	$(svg_tn_incomming_DATA) \
+	$(svg_tn_waypoint_DATA) \
 	$(svg_tn_accommodation_DATA) \
 	$(svg_tn_accommodation_camping_DATA) \
 	$(svg_tn_health_DATA) \
