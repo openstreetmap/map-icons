@@ -303,6 +303,9 @@ svg_tn_publicdir = $(datadir)/map-icons/svg_tn/public
 svg_tn_public_recycling_DATA = svg_tn/public/recycling/*.png
 svg_tn_public_recyclingdir = $(datadir)/map-icons/svg_tn/public/recycling
 
+svg_tn_people_DATA = svg_tn/people/*.png
+svg_tn_peopledir = $(datadir)/map-icons/svg_tn/people
+
 svg_tn_religion_DATA = svg_tn/religion/*.png
 svg_tn_religiondir = $(datadir)/map-icons/svg_tn/religion
 
@@ -368,6 +371,9 @@ classic.small_placesdir = $(datadir)/map-icons/classic.small/places
 
 classic.small_vehicle_DATA = classic.small/vehicle/*.png
 classic.small_vehicledir = $(datadir)/map-icons/classic.small/vehicle
+
+classic.small_people_DATA = classic.small/people/*.png
+classic.small_peopledir = $(datadir)/map-icons/classic.small/people
 
 classic.small_religion_DATA = classic.small/religion/*.png
 classic.small_religiondir = $(datadir)/map-icons/classic.small/religion
@@ -597,6 +603,7 @@ EXTRA_DIST= \
 	$(svg_tn_shopping_rental_DATA) \
 	$(svg_tn_public_DATA) \
 	$(svg_tn_public_recycling_DATA) \
+	$(svg_tn_people_DATA) \
 	$(svg_tn_religion_DATA) \
 	$(svg_tn_religion_church_DATA) \
 	$(svg_tn_transport_DATA) \
@@ -618,6 +625,7 @@ EXTRA_DIST= \
 	$(classic.small_sports_DATA) \
 	$(classic.small_places_DATA) \
 	$(classic.small_vehicle_DATA) \
+	$(classic.small_people_DATA) \
 	$(classic.small_religion_DATA) \
 	$(classic.small_transport_DATA) \
 	$(classic.big_DATA) \

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="230.18546"
+   height="249.68225"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/people"
+   sodipodi:docname="people_n.svg"
+   version="1.0">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.28"
+     inkscape:cx="211.80361"
+     inkscape:cy="93.310367"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="997"
+     inkscape:window-height="937"
+     inkscape:window-x="1836"
+     inkscape:window-y="163" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-170.6215,-255.6071)">
+    <path
+       sodipodi:type="arc"
+       style="fill:aqua;fill-opacity:1;stroke:black;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1872"
+       sodipodi:cx="285.71429"
+       sodipodi:cy="438.07648"
+       sodipodi:rx="134.28572"
+       sodipodi:ry="94.285713"
+       d="M 420.00002,438.07648 A 134.28572,94.285713 0 1 1 151.44372,436.66047"
+       sodipodi:start="0"
+       sodipodi:end="3.1566115"
+       transform="matrix(0.848885,0,0,-1.424343,43.17569,1126.144)"
+       sodipodi:open="true" />
+    <path
+       sodipodi:type="arc"
+       style="fill:aqua;fill-opacity:1;stroke:black;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1878"
+       sodipodi:cx="266.42856"
+       sodipodi:cy="148.07646"
+       sodipodi:rx="52.938351"
+       sodipodi:ry="48.57143"
+       d="M 266.37358,99.505058 A 52.938351,48.57143 0 1 1 264.55047,99.535607"
+       sodipodi:start="4.7113504"
+       sodipodi:end="10.96009"
+       transform="matrix(-1.636275,-0.102448,9.280258e-2,-1.80634,710.0656,640.0071)"
+       sodipodi:open="true" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.23655021px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="-171.30945"
+       y="-1289.7626"
+       id="text2766"
+       transform="scale(-2.510507,-0.398326)"><tspan
+         sodipodi:role="line"
+         id="tspan2768"
+         x="-171.30945"
+         y="-1289.7626">A</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:aqua;fill-opacity:1;stroke:black;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2788"
+       sodipodi:cx="541.42859"
+       sodipodi:cy="538.07648"
+       sodipodi:rx="2.8571429"
+       sodipodi:ry="0"
+       d="M 541.3987,538.07648 A 2.8571429,0 0 0 0 541.10202,538.07648 L 541.42859,538.07648 z"
+       sodipodi:start="4.7019287"
+       sodipodi:end="4.5978397" />
+    <text
+       xml:space="preserve"
+       style="font-size:143.77206421px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="284.93588"
+       y="347.64267"
+       id="text2790"
+       transform="scale(0.864429,1.156833)"><tspan
+         sodipodi:role="line"
+         id="tspan2792"
+         x="284.93588"
+         y="347.64267">N</tspan></text>
+  </g>
+</svg>
