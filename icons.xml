@@ -5571,4 +5571,124 @@
       <name>sports.football</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="places.barn"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>452</poi_type_id>
+      <name>places.barn</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.cemetary"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>453</poi_type_id>
+      <name>places.cemetary</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.chimney"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>454</poi_type_id>
+      <name>places.chimney</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.farm"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>455</poi_type_id>
+      <name>places.farm</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.lighthouse"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>456</poi_type_id>
+      <name>places.lighthouse</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.windmill"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>457</poi_type_id>
+      <name>places.windmill</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.railway_small"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>458</poi_type_id>
+      <name>transport.railway_small</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.track.arrow"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>459</poi_type_id>
+      <name>transport.track.arrow</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.track.arrow_back"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>460</poi_type_id>
+      <name>transport.track.arrow_back</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.track.rail"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>461</poi_type_id>
+      <name>transport.track.rail</name>
+    </geoinfo>
+  </rule>
 </rules>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xml:space="default" width="300" height="460" xmlns="http://www.w3.org/2000/svg">
+	<title>日本の地図記号 - 電波塔</title>
+	<rect fill="white" x="0" y="0" width="300" height="460" />
+	<circle fill="white" stroke="black" stroke-width="15px" cx="125" cy="350" r="80" />
+	<path fill="black" 
+		d="M 117.5 275
+		 L 117.5 27
+		  166.666667 97
+		  208.333333 27
+		  250 97 285 27
+		  298 33 250 125
+		  208.333333 55
+		  166.666667 125
+		  132.5 75
+		  132.5 275 Z"
+	/>
+</svg>

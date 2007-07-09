@@ -285,6 +285,9 @@ svg_tn_recreationdir = $(datadir)/map-icons/svg_tn/recreation
 svg_tn_sports_DATA = svg_tn/sports/*.png
 svg_tn_sportsdir = $(datadir)/map-icons/svg_tn/sports
 
+svg_tn_places_DATA = svg_tn/places/*.png
+svg_tn_placesdir = $(datadir)/map-icons/svg_tn/places
+
 svg_tn_vehicle_DATA = svg_tn/vehicle/*.png
 svg_tn_vehicledir = $(datadir)/map-icons/svg_tn/vehicle
 
@@ -332,6 +335,15 @@ jp_tn_sightseeingdir = $(datadir)/map-icons/jp_tn/sightseeing
 jp_tn_health_DATA = jp_tn/health/*.png
 jp_tn_healthdir = $(datadir)/map-icons/jp_tn/health
 
+jp_tn_recreation_DATA = jp_tn/recreation/*.png
+jp_tn_recreationdir = $(datadir)/map-icons/jp_tn/recreation
+
+jp_tn_places_DATA = jp_tn/places/*.png
+jp_tn_placesdir = $(datadir)/map-icons/jp_tn/places
+
+jp_tn_education_DATA = jp_tn/education/*.png
+jp_tn_educationdir = $(datadir)/map-icons/jp_tn/education
+
 jp_tn_education_school_DATA = jp_tn/education/school/*.png
 jp_tn_education_schooldir = $(datadir)/map-icons/jp_tn/education/school
 
@@ -343,6 +355,9 @@ jp_tn_publicdir = $(datadir)/map-icons/jp_tn/public
 
 jp_tn_public_administration_DATA = jp_tn/public/administration/*.png
 jp_tn_public_administrationdir = $(datadir)/map-icons/jp_tn/public/administration
+
+jp_tn_religion_DATA = jp_tn/religion/*.png
+jp_tn_religiondir = $(datadir)/map-icons/jp_tn/religion
 
 jp_tn_transport_ferry_DATA = jp_tn/transport/ferry/*.png
 jp_tn_transport_ferrydir = $(datadir)/map-icons/jp_tn/transport/ferry
@@ -359,6 +374,9 @@ classic.small_sightseeingdir = $(datadir)/map-icons/classic.small/sightseeing
 
 classic.small_accommodation_DATA = classic.small/accommodation/*.png
 classic.small_accommodationdir = $(datadir)/map-icons/classic.small/accommodation
+
+classic.small_health_DATA = classic.small/health/*.png
+classic.small_healthdir = $(datadir)/map-icons/classic.small/health
 
 classic.small_food_DATA = classic.small/food/*.png
 classic.small_fooddir = $(datadir)/map-icons/classic.small/food
@@ -378,6 +396,9 @@ classic.small_vehicledir = $(datadir)/map-icons/classic.small/vehicle
 classic.small_education_school_DATA = classic.small/education/school/*.png
 classic.small_education_schooldir = $(datadir)/map-icons/classic.small/education/school
 
+classic.small_public_DATA = classic.small/public/*.png
+classic.small_publicdir = $(datadir)/map-icons/classic.small/public
+
 classic.small_people_DATA = classic.small/people/*.png
 classic.small_peopledir = $(datadir)/map-icons/classic.small/people
 
@@ -386,6 +407,9 @@ classic.small_religiondir = $(datadir)/map-icons/classic.small/religion
 
 classic.small_transport_DATA = classic.small/transport/*.png
 classic.small_transportdir = $(datadir)/map-icons/classic.small/transport
+
+classic.small_transport_track_DATA = classic.small/transport/track/*.png
+classic.small_transport_trackdir = $(datadir)/map-icons/classic.small/transport/track
 
 
 classic.big_DATA = classic.big/*.png
@@ -603,6 +627,7 @@ EXTRA_DIST= \
 	$(svg_tn_food_DATA) \
 	$(svg_tn_recreation_DATA) \
 	$(svg_tn_sports_DATA) \
+	$(svg_tn_places_DATA) \
 	$(svg_tn_vehicle_DATA) \
 	$(svg_tn_education_DATA) \
 	$(svg_tn_education_school_DATA) \
@@ -618,24 +643,31 @@ EXTRA_DIST= \
 	$(jp_tn_incomming_DATA) \
 	$(jp_tn_sightseeing_DATA) \
 	$(jp_tn_health_DATA) \
+	$(jp_tn_recreation_DATA) \
+	$(jp_tn_places_DATA) \
+	$(jp_tn_education_DATA) \
 	$(jp_tn_education_school_DATA) \
 	$(jp_tn_shopping_rental_DATA) \
 	$(jp_tn_public_DATA) \
 	$(jp_tn_public_administration_DATA) \
+	$(jp_tn_religion_DATA) \
 	$(jp_tn_transport_ferry_DATA) \
 	$(classic.small_DATA) \
 	$(classic.small_incomming_DATA) \
 	$(classic.small_sightseeing_DATA) \
 	$(classic.small_accommodation_DATA) \
+	$(classic.small_health_DATA) \
 	$(classic.small_food_DATA) \
 	$(classic.small_recreation_DATA) \
 	$(classic.small_sports_DATA) \
 	$(classic.small_places_DATA) \
 	$(classic.small_vehicle_DATA) \
 	$(classic.small_education_school_DATA) \
+	$(classic.small_public_DATA) \
 	$(classic.small_people_DATA) \
 	$(classic.small_religion_DATA) \
 	$(classic.small_transport_DATA) \
+	$(classic.small_transport_track_DATA) \
 	$(classic.big_DATA) \
 	$(classic.big_sightseeing_DATA) \
 	$(classic.big_waypoint_DATA) \
