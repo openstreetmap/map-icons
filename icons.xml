@@ -5691,4 +5691,16 @@
       <name>transport.track.rail</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="transport.bridge.drawbridge"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>545</poi_type_id>
+      <name>transport.bridge.drawbridge</name>
+    </geoinfo>
+  </rule>
 </rules>

@@ -100,21 +100,26 @@ am__installdirs = "$(DESTDIR)$(classic.bigdir)" \
 	"$(DESTDIR)$(classic.small_accommodationdir)" \
 	"$(DESTDIR)$(classic.small_education_schooldir)" \
 	"$(DESTDIR)$(classic.small_fooddir)" \
+	"$(DESTDIR)$(classic.small_healthdir)" \
 	"$(DESTDIR)$(classic.small_incommingdir)" \
 	"$(DESTDIR)$(classic.small_peopledir)" \
 	"$(DESTDIR)$(classic.small_placesdir)" \
+	"$(DESTDIR)$(classic.small_publicdir)" \
 	"$(DESTDIR)$(classic.small_recreationdir)" \
 	"$(DESTDIR)$(classic.small_religiondir)" \
 	"$(DESTDIR)$(classic.small_sightseeingdir)" \
 	"$(DESTDIR)$(classic.small_sportsdir)" \
 	"$(DESTDIR)$(classic.small_transportdir)" \
+	"$(DESTDIR)$(classic.small_transport_trackdir)" \
 	"$(DESTDIR)$(classic.small_vehicledir)" \
-	"$(DESTDIR)$(jp_tndir)" \
+	"$(DESTDIR)$(jp_tndir)" "$(DESTDIR)$(jp_tn_educationdir)" \
 	"$(DESTDIR)$(jp_tn_education_schooldir)" \
 	"$(DESTDIR)$(jp_tn_healthdir)" \
 	"$(DESTDIR)$(jp_tn_incommingdir)" \
-	"$(DESTDIR)$(jp_tn_publicdir)" \
+	"$(DESTDIR)$(jp_tn_placesdir)" "$(DESTDIR)$(jp_tn_publicdir)" \
 	"$(DESTDIR)$(jp_tn_public_administrationdir)" \
+	"$(DESTDIR)$(jp_tn_recreationdir)" \
+	"$(DESTDIR)$(jp_tn_religiondir)" \
 	"$(DESTDIR)$(jp_tn_shopping_rentaldir)" \
 	"$(DESTDIR)$(jp_tn_sightseeingdir)" \
 	"$(DESTDIR)$(jp_tn_transport_ferrydir)" \
@@ -210,6 +215,7 @@ am__installdirs = "$(DESTDIR)$(classic.bigdir)" \
 	"$(DESTDIR)$(svg_tn_fooddir)" "$(DESTDIR)$(svg_tn_healthdir)" \
 	"$(DESTDIR)$(svg_tn_incommingdir)" \
 	"$(DESTDIR)$(svg_tn_peopledir)" \
+	"$(DESTDIR)$(svg_tn_placesdir)" \
 	"$(DESTDIR)$(svg_tn_publicdir)" \
 	"$(DESTDIR)$(svg_tn_public_recyclingdir)" \
 	"$(DESTDIR)$(svg_tn_recreationdir)" \
@@ -219,6 +225,7 @@ am__installdirs = "$(DESTDIR)$(classic.bigdir)" \
 	"$(DESTDIR)$(svg_tn_shopping_rentaldir)" \
 	"$(DESTDIR)$(svg_tn_sportsdir)" \
 	"$(DESTDIR)$(svg_tn_transportdir)" \
+	"$(DESTDIR)$(svg_tn_transport_bridgedir)" \
 	"$(DESTDIR)$(svg_tn_vehicledir)" \
 	"$(DESTDIR)$(svg_tn_waypointdir)"
 classic.bigDATA_INSTALL = $(INSTALL_DATA)
@@ -263,21 +270,28 @@ classic.smallDATA_INSTALL = $(INSTALL_DATA)
 classic.small_accommodationDATA_INSTALL = $(INSTALL_DATA)
 classic.small_education_schoolDATA_INSTALL = $(INSTALL_DATA)
 classic.small_foodDATA_INSTALL = $(INSTALL_DATA)
+classic.small_healthDATA_INSTALL = $(INSTALL_DATA)
 classic.small_incommingDATA_INSTALL = $(INSTALL_DATA)
 classic.small_peopleDATA_INSTALL = $(INSTALL_DATA)
 classic.small_placesDATA_INSTALL = $(INSTALL_DATA)
+classic.small_publicDATA_INSTALL = $(INSTALL_DATA)
 classic.small_recreationDATA_INSTALL = $(INSTALL_DATA)
 classic.small_religionDATA_INSTALL = $(INSTALL_DATA)
 classic.small_sightseeingDATA_INSTALL = $(INSTALL_DATA)
 classic.small_sportsDATA_INSTALL = $(INSTALL_DATA)
 classic.small_transportDATA_INSTALL = $(INSTALL_DATA)
+classic.small_transport_trackDATA_INSTALL = $(INSTALL_DATA)
 classic.small_vehicleDATA_INSTALL = $(INSTALL_DATA)
 jp_tnDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_educationDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_education_schoolDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_healthDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_incommingDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_placesDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_publicDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_public_administrationDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_recreationDATA_INSTALL = $(INSTALL_DATA)
+jp_tn_religionDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_shopping_rentalDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_sightseeingDATA_INSTALL = $(INSTALL_DATA)
 jp_tn_transport_ferryDATA_INSTALL = $(INSTALL_DATA)
@@ -376,6 +390,7 @@ svg_tn_foodDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_healthDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_incommingDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_peopleDATA_INSTALL = $(INSTALL_DATA)
+svg_tn_placesDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_publicDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_public_recyclingDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_recreationDATA_INSTALL = $(INSTALL_DATA)
@@ -385,6 +400,7 @@ svg_tn_shoppingDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_shopping_rentalDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_sportsDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_transportDATA_INSTALL = $(INSTALL_DATA)
+svg_tn_transport_bridgeDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_vehicleDATA_INSTALL = $(INSTALL_DATA)
 svg_tn_waypointDATA_INSTALL = $(INSTALL_DATA)
 DATA = $(classic.big_DATA) $(classic.big_accommodation_DATA) \
@@ -416,17 +432,22 @@ DATA = $(classic.big_DATA) $(classic.big_accommodation_DATA) \
 	$(classic.big_wlan_pay_DATA) $(classic.small_DATA) \
 	$(classic.small_accommodation_DATA) \
 	$(classic.small_education_school_DATA) \
-	$(classic.small_food_DATA) $(classic.small_incomming_DATA) \
-	$(classic.small_people_DATA) $(classic.small_places_DATA) \
+	$(classic.small_food_DATA) $(classic.small_health_DATA) \
+	$(classic.small_incomming_DATA) $(classic.small_people_DATA) \
+	$(classic.small_places_DATA) $(classic.small_public_DATA) \
 	$(classic.small_recreation_DATA) \
 	$(classic.small_religion_DATA) \
 	$(classic.small_sightseeing_DATA) $(classic.small_sports_DATA) \
-	$(classic.small_transport_DATA) $(classic.small_vehicle_DATA) \
-	$(jp_tn_DATA) $(jp_tn_education_school_DATA) \
+	$(classic.small_transport_DATA) \
+	$(classic.small_transport_track_DATA) \
+	$(classic.small_vehicle_DATA) $(jp_tn_DATA) \
+	$(jp_tn_education_DATA) $(jp_tn_education_school_DATA) \
 	$(jp_tn_health_DATA) $(jp_tn_incomming_DATA) \
-	$(jp_tn_public_DATA) $(jp_tn_public_administration_DATA) \
-	$(jp_tn_shopping_rental_DATA) $(jp_tn_sightseeing_DATA) \
-	$(jp_tn_transport_ferry_DATA) $(nickw_DATA) $(square.big_DATA) \
+	$(jp_tn_places_DATA) $(jp_tn_public_DATA) \
+	$(jp_tn_public_administration_DATA) $(jp_tn_recreation_DATA) \
+	$(jp_tn_religion_DATA) $(jp_tn_shopping_rental_DATA) \
+	$(jp_tn_sightseeing_DATA) $(jp_tn_transport_ferry_DATA) \
+	$(nickw_DATA) $(square.big_DATA) \
 	$(square.big_accommodation_DATA) \
 	$(square.big_accommodation_camping_DATA) \
 	$(square.big_accommodation_hotel_DATA) \
@@ -491,15 +512,17 @@ DATA = $(classic.big_DATA) $(classic.big_accommodation_DATA) \
 	$(svg_tn_accommodation_camping_DATA) $(svg_tn_education_DATA) \
 	$(svg_tn_education_school_DATA) $(svg_tn_food_DATA) \
 	$(svg_tn_health_DATA) $(svg_tn_incomming_DATA) \
-	$(svg_tn_people_DATA) $(svg_tn_public_DATA) \
-	$(svg_tn_public_recycling_DATA) $(svg_tn_recreation_DATA) \
-	$(svg_tn_religion_DATA) $(svg_tn_religion_church_DATA) \
-	$(svg_tn_shopping_DATA) $(svg_tn_shopping_rental_DATA) \
-	$(svg_tn_sports_DATA) $(svg_tn_transport_DATA) \
+	$(svg_tn_people_DATA) $(svg_tn_places_DATA) \
+	$(svg_tn_public_DATA) $(svg_tn_public_recycling_DATA) \
+	$(svg_tn_recreation_DATA) $(svg_tn_religion_DATA) \
+	$(svg_tn_religion_church_DATA) $(svg_tn_shopping_DATA) \
+	$(svg_tn_shopping_rental_DATA) $(svg_tn_sports_DATA) \
+	$(svg_tn_transport_DATA) $(svg_tn_transport_bridge_DATA) \
 	$(svg_tn_vehicle_DATA) $(svg_tn_waypoint_DATA)
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 pkgdatadir = @pkgdatadir@
 ACLOCAL = @ACLOCAL@
+AMAPNIK = @AMAPNIK@
 AMDEP_FALSE = @AMDEP_FALSE@
 AMDEP_TRUE = @AMDEP_TRUE@
 AMTAR = @AMTAR@
@@ -522,7 +545,6 @@ DBUS_CFLAGS = @DBUS_CFLAGS@
 DBUS_GLIB_LIBS = @DBUS_GLIB_LIBS@
 DBUS_LIBS = @DBUS_LIBS@
 DEFS = @DEFS@
-DEF_MAPNIK = @DEF_MAPNIK@
 DEPDIR = @DEPDIR@
 DISABLEGARMIN_FALSE = @DISABLEGARMIN_FALSE@
 DISABLEGARMIN_TRUE = @DISABLEGARMIN_TRUE@
@@ -845,6 +867,8 @@ svg_tn_recreation_DATA = svg_tn/recreation/*.png
 svg_tn_recreationdir = $(datadir)/map-icons/svg_tn/recreation
 svg_tn_sports_DATA = svg_tn/sports/*.png
 svg_tn_sportsdir = $(datadir)/map-icons/svg_tn/sports
+svg_tn_places_DATA = svg_tn/places/*.png
+svg_tn_placesdir = $(datadir)/map-icons/svg_tn/places
 svg_tn_vehicle_DATA = svg_tn/vehicle/*.png
 svg_tn_vehicledir = $(datadir)/map-icons/svg_tn/vehicle
 svg_tn_education_DATA = svg_tn/education/*.png
@@ -867,6 +891,8 @@ svg_tn_religion_church_DATA = svg_tn/religion/church/*.png
 svg_tn_religion_churchdir = $(datadir)/map-icons/svg_tn/religion/church
 svg_tn_transport_DATA = svg_tn/transport/*.png
 svg_tn_transportdir = $(datadir)/map-icons/svg_tn/transport
+svg_tn_transport_bridge_DATA = svg_tn/transport/bridge/*.png
+svg_tn_transport_bridgedir = $(datadir)/map-icons/svg_tn/transport/bridge
 jp_tn_DATA = jp_tn/*.png
 jp_tndir = $(datadir)/map-icons/jp_tn
 jp_tn_incomming_DATA = jp_tn/incomming/*.png
@@ -875,6 +901,12 @@ jp_tn_sightseeing_DATA = jp_tn/sightseeing/*.png
 jp_tn_sightseeingdir = $(datadir)/map-icons/jp_tn/sightseeing
 jp_tn_health_DATA = jp_tn/health/*.png
 jp_tn_healthdir = $(datadir)/map-icons/jp_tn/health
+jp_tn_recreation_DATA = jp_tn/recreation/*.png
+jp_tn_recreationdir = $(datadir)/map-icons/jp_tn/recreation
+jp_tn_places_DATA = jp_tn/places/*.png
+jp_tn_placesdir = $(datadir)/map-icons/jp_tn/places
+jp_tn_education_DATA = jp_tn/education/*.png
+jp_tn_educationdir = $(datadir)/map-icons/jp_tn/education
 jp_tn_education_school_DATA = jp_tn/education/school/*.png
 jp_tn_education_schooldir = $(datadir)/map-icons/jp_tn/education/school
 jp_tn_shopping_rental_DATA = jp_tn/shopping/rental/*.png
@@ -883,6 +915,8 @@ jp_tn_public_DATA = jp_tn/public/*.png
 jp_tn_publicdir = $(datadir)/map-icons/jp_tn/public
 jp_tn_public_administration_DATA = jp_tn/public/administration/*.png
 jp_tn_public_administrationdir = $(datadir)/map-icons/jp_tn/public/administration
+jp_tn_religion_DATA = jp_tn/religion/*.png
+jp_tn_religiondir = $(datadir)/map-icons/jp_tn/religion
 jp_tn_transport_ferry_DATA = jp_tn/transport/ferry/*.png
 jp_tn_transport_ferrydir = $(datadir)/map-icons/jp_tn/transport/ferry
 classic.small_DATA = classic.small/*.png
@@ -893,6 +927,8 @@ classic.small_sightseeing_DATA = classic.small/sightseeing/*.png
 classic.small_sightseeingdir = $(datadir)/map-icons/classic.small/sightseeing
 classic.small_accommodation_DATA = classic.small/accommodation/*.png
 classic.small_accommodationdir = $(datadir)/map-icons/classic.small/accommodation
+classic.small_health_DATA = classic.small/health/*.png
+classic.small_healthdir = $(datadir)/map-icons/classic.small/health
 classic.small_food_DATA = classic.small/food/*.png
 classic.small_fooddir = $(datadir)/map-icons/classic.small/food
 classic.small_recreation_DATA = classic.small/recreation/*.png
@@ -905,12 +941,16 @@ classic.small_vehicle_DATA = classic.small/vehicle/*.png
 classic.small_vehicledir = $(datadir)/map-icons/classic.small/vehicle
 classic.small_education_school_DATA = classic.small/education/school/*.png
 classic.small_education_schooldir = $(datadir)/map-icons/classic.small/education/school
+classic.small_public_DATA = classic.small/public/*.png
+classic.small_publicdir = $(datadir)/map-icons/classic.small/public
 classic.small_people_DATA = classic.small/people/*.png
 classic.small_peopledir = $(datadir)/map-icons/classic.small/people
 classic.small_religion_DATA = classic.small/religion/*.png
 classic.small_religiondir = $(datadir)/map-icons/classic.small/religion
 classic.small_transport_DATA = classic.small/transport/*.png
 classic.small_transportdir = $(datadir)/map-icons/classic.small/transport
+classic.small_transport_track_DATA = classic.small/transport/track/*.png
+classic.small_transport_trackdir = $(datadir)/map-icons/classic.small/transport/track
 classic.big_DATA = classic.big/*.png
 classic.bigdir = $(datadir)/map-icons/classic.big
 classic.big_sightseeing_DATA = classic.big/sightseeing/*.png
@@ -1084,6 +1124,7 @@ EXTRA_DIST = \
 	$(svg_tn_food_DATA) \
 	$(svg_tn_recreation_DATA) \
 	$(svg_tn_sports_DATA) \
+	$(svg_tn_places_DATA) \
 	$(svg_tn_vehicle_DATA) \
 	$(svg_tn_education_DATA) \
 	$(svg_tn_education_school_DATA) \
@@ -1095,28 +1136,36 @@ EXTRA_DIST = \
 	$(svg_tn_religion_DATA) \
 	$(svg_tn_religion_church_DATA) \
 	$(svg_tn_transport_DATA) \
+	$(svg_tn_transport_bridge_DATA) \
 	$(jp_tn_DATA) \
 	$(jp_tn_incomming_DATA) \
 	$(jp_tn_sightseeing_DATA) \
 	$(jp_tn_health_DATA) \
+	$(jp_tn_recreation_DATA) \
+	$(jp_tn_places_DATA) \
+	$(jp_tn_education_DATA) \
 	$(jp_tn_education_school_DATA) \
 	$(jp_tn_shopping_rental_DATA) \
 	$(jp_tn_public_DATA) \
 	$(jp_tn_public_administration_DATA) \
+	$(jp_tn_religion_DATA) \
 	$(jp_tn_transport_ferry_DATA) \
 	$(classic.small_DATA) \
 	$(classic.small_incomming_DATA) \
 	$(classic.small_sightseeing_DATA) \
 	$(classic.small_accommodation_DATA) \
+	$(classic.small_health_DATA) \
 	$(classic.small_food_DATA) \
 	$(classic.small_recreation_DATA) \
 	$(classic.small_sports_DATA) \
 	$(classic.small_places_DATA) \
 	$(classic.small_vehicle_DATA) \
 	$(classic.small_education_school_DATA) \
+	$(classic.small_public_DATA) \
 	$(classic.small_people_DATA) \
 	$(classic.small_religion_DATA) \
 	$(classic.small_transport_DATA) \
+	$(classic.small_transport_track_DATA) \
 	$(classic.big_DATA) \
 	$(classic.big_sightseeing_DATA) \
 	$(classic.big_waypoint_DATA) \
@@ -1918,6 +1967,23 @@ uninstall-classic.small_foodDATA:
 	  echo " rm -f '$(DESTDIR)$(classic.small_fooddir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(classic.small_fooddir)/$$f"; \
 	done
+install-classic.small_healthDATA: $(classic.small_health_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_healthdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_healthdir)"
+	@list='$(classic.small_health_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_healthDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_healthdir)/$$f'"; \
+	  $(classic.small_healthDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_healthdir)/$$f"; \
+	done
+
+uninstall-classic.small_healthDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_health_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_healthdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_healthdir)/$$f"; \
+	done
 install-classic.small_incommingDATA: $(classic.small_incomming_DATA)
 	@$(NORMAL_INSTALL)
 	test -z "$(classic.small_incommingdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_incommingdir)"
@@ -1968,6 +2034,23 @@ uninstall-classic.small_placesDATA:
 	  f=$(am__strip_dir) \
 	  echo " rm -f '$(DESTDIR)$(classic.small_placesdir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(classic.small_placesdir)/$$f"; \
+	done
+install-classic.small_publicDATA: $(classic.small_public_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_publicdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_publicdir)"
+	@list='$(classic.small_public_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_publicDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_publicdir)/$$f'"; \
+	  $(classic.small_publicDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_publicdir)/$$f"; \
+	done
+
+uninstall-classic.small_publicDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_public_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_publicdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_publicdir)/$$f"; \
 	done
 install-classic.small_recreationDATA: $(classic.small_recreation_DATA)
 	@$(NORMAL_INSTALL)
@@ -2054,6 +2137,23 @@ uninstall-classic.small_transportDATA:
 	  echo " rm -f '$(DESTDIR)$(classic.small_transportdir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(classic.small_transportdir)/$$f"; \
 	done
+install-classic.small_transport_trackDATA: $(classic.small_transport_track_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(classic.small_transport_trackdir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_transport_trackdir)"
+	@list='$(classic.small_transport_track_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(classic.small_transport_trackDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(classic.small_transport_trackdir)/$$f'"; \
+	  $(classic.small_transport_trackDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(classic.small_transport_trackdir)/$$f"; \
+	done
+
+uninstall-classic.small_transport_trackDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(classic.small_transport_track_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(classic.small_transport_trackdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(classic.small_transport_trackdir)/$$f"; \
+	done
 install-classic.small_vehicleDATA: $(classic.small_vehicle_DATA)
 	@$(NORMAL_INSTALL)
 	test -z "$(classic.small_vehicledir)" || $(mkdir_p) "$(DESTDIR)$(classic.small_vehicledir)"
@@ -2087,6 +2187,23 @@ uninstall-jp_tnDATA:
 	  f=$(am__strip_dir) \
 	  echo " rm -f '$(DESTDIR)$(jp_tndir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(jp_tndir)/$$f"; \
+	done
+install-jp_tn_educationDATA: $(jp_tn_education_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_educationdir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_educationdir)"
+	@list='$(jp_tn_education_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_educationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_educationdir)/$$f'"; \
+	  $(jp_tn_educationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_educationdir)/$$f"; \
+	done
+
+uninstall-jp_tn_educationDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_education_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_educationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_educationdir)/$$f"; \
 	done
 install-jp_tn_education_schoolDATA: $(jp_tn_education_school_DATA)
 	@$(NORMAL_INSTALL)
@@ -2139,6 +2256,23 @@ uninstall-jp_tn_incommingDATA:
 	  echo " rm -f '$(DESTDIR)$(jp_tn_incommingdir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(jp_tn_incommingdir)/$$f"; \
 	done
+install-jp_tn_placesDATA: $(jp_tn_places_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_placesdir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_placesdir)"
+	@list='$(jp_tn_places_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_placesDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_placesdir)/$$f'"; \
+	  $(jp_tn_placesDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_placesdir)/$$f"; \
+	done
+
+uninstall-jp_tn_placesDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_places_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_placesdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_placesdir)/$$f"; \
+	done
 install-jp_tn_publicDATA: $(jp_tn_public_DATA)
 	@$(NORMAL_INSTALL)
 	test -z "$(jp_tn_publicdir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_publicdir)"
@@ -2172,6 +2306,40 @@ uninstall-jp_tn_public_administrationDATA:
 	  f=$(am__strip_dir) \
 	  echo " rm -f '$(DESTDIR)$(jp_tn_public_administrationdir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(jp_tn_public_administrationdir)/$$f"; \
+	done
+install-jp_tn_recreationDATA: $(jp_tn_recreation_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_recreationdir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_recreationdir)"
+	@list='$(jp_tn_recreation_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_recreationDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_recreationdir)/$$f'"; \
+	  $(jp_tn_recreationDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_recreationdir)/$$f"; \
+	done
+
+uninstall-jp_tn_recreationDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_recreation_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_recreationdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_recreationdir)/$$f"; \
+	done
+install-jp_tn_religionDATA: $(jp_tn_religion_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(jp_tn_religiondir)" || $(mkdir_p) "$(DESTDIR)$(jp_tn_religiondir)"
+	@list='$(jp_tn_religion_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(jp_tn_religionDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(jp_tn_religiondir)/$$f'"; \
+	  $(jp_tn_religionDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(jp_tn_religiondir)/$$f"; \
+	done
+
+uninstall-jp_tn_religionDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(jp_tn_religion_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(jp_tn_religiondir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(jp_tn_religiondir)/$$f"; \
 	done
 install-jp_tn_shopping_rentalDATA: $(jp_tn_shopping_rental_DATA)
 	@$(NORMAL_INSTALL)
@@ -3839,6 +4007,23 @@ uninstall-svg_tn_peopleDATA:
 	  echo " rm -f '$(DESTDIR)$(svg_tn_peopledir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(svg_tn_peopledir)/$$f"; \
 	done
+install-svg_tn_placesDATA: $(svg_tn_places_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(svg_tn_placesdir)" || $(mkdir_p) "$(DESTDIR)$(svg_tn_placesdir)"
+	@list='$(svg_tn_places_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(svg_tn_placesDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(svg_tn_placesdir)/$$f'"; \
+	  $(svg_tn_placesDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(svg_tn_placesdir)/$$f"; \
+	done
+
+uninstall-svg_tn_placesDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(svg_tn_places_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(svg_tn_placesdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(svg_tn_placesdir)/$$f"; \
+	done
 install-svg_tn_publicDATA: $(svg_tn_public_DATA)
 	@$(NORMAL_INSTALL)
 	test -z "$(svg_tn_publicdir)" || $(mkdir_p) "$(DESTDIR)$(svg_tn_publicdir)"
@@ -3992,6 +4177,23 @@ uninstall-svg_tn_transportDATA:
 	  echo " rm -f '$(DESTDIR)$(svg_tn_transportdir)/$$f'"; \
 	  rm -f "$(DESTDIR)$(svg_tn_transportdir)/$$f"; \
 	done
+install-svg_tn_transport_bridgeDATA: $(svg_tn_transport_bridge_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(svg_tn_transport_bridgedir)" || $(mkdir_p) "$(DESTDIR)$(svg_tn_transport_bridgedir)"
+	@list='$(svg_tn_transport_bridge_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f=$(am__strip_dir) \
+	  echo " $(svg_tn_transport_bridgeDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(svg_tn_transport_bridgedir)/$$f'"; \
+	  $(svg_tn_transport_bridgeDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(svg_tn_transport_bridgedir)/$$f"; \
+	done
+
+uninstall-svg_tn_transport_bridgeDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(svg_tn_transport_bridge_DATA)'; for p in $$list; do \
+	  f=$(am__strip_dir) \
+	  echo " rm -f '$(DESTDIR)$(svg_tn_transport_bridgedir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(svg_tn_transport_bridgedir)/$$f"; \
+	done
 install-svg_tn_vehicleDATA: $(svg_tn_vehicle_DATA)
 	@$(NORMAL_INSTALL)
 	test -z "$(svg_tn_vehicledir)" || $(mkdir_p) "$(DESTDIR)$(svg_tn_vehicledir)"
@@ -4034,7 +4236,7 @@ CTAGS:
 
 
 distdir: $(DISTFILES)
-	$(mkdir_p) $(distdir)/classic.big $(distdir)/classic.big/accommodation $(distdir)/classic.big/accommodation/camping $(distdir)/classic.big/education $(distdir)/classic.big/education/school $(distdir)/classic.big/food $(distdir)/classic.big/food/fastfood $(distdir)/classic.big/food/restaurant $(distdir)/classic.big/food/snacks $(distdir)/classic.big/geocache $(distdir)/classic.big/health $(distdir)/classic.big/misc $(distdir)/classic.big/misc/information $(distdir)/classic.big/money $(distdir)/classic.big/money/bank $(distdir)/classic.big/nautical $(distdir)/classic.big/people $(distdir)/classic.big/places $(distdir)/classic.big/places/settlement $(distdir)/classic.big/public $(distdir)/classic.big/recreation $(distdir)/classic.big/religion $(distdir)/classic.big/shopping $(distdir)/classic.big/shopping/groceries $(distdir)/classic.big/shopping/supermarket $(distdir)/classic.big/sightseeing $(distdir)/classic.big/sports $(distdir)/classic.big/transport $(distdir)/classic.big/transport/bridge $(distdir)/classic.big/transport/ferry $(distdir)/classic.big/vehicle $(distdir)/classic.big/vehicle/car_rental $(distdir)/classic.big/vehicle/fuel_station $(distdir)/classic.big/vehicle/parking $(distdir)/classic.big/waypoint $(distdir)/classic.big/waypoint/wpttemp $(distdir)/classic.big/wlan $(distdir)/classic.big/wlan/pay $(distdir)/classic.small $(distdir)/classic.small/accommodation $(distdir)/classic.small/education/school $(distdir)/classic.small/food $(distdir)/classic.small/incomming $(distdir)/classic.small/people $(distdir)/classic.small/places $(distdir)/classic.small/recreation $(distdir)/classic.small/religion $(distdir)/classic.small/sightseeing $(distdir)/classic.small/sports $(distdir)/classic.small/transport $(distdir)/classic.small/vehicle $(distdir)/jp_tn $(distdir)/jp_tn/education/school $(distdir)/jp_tn/health $(distdir)/jp_tn/incomming $(distdir)/jp_tn/public $(distdir)/jp_tn/public/administration $(distdir)/jp_tn/shopping/rental $(distdir)/jp_tn/sightseeing $(distdir)/jp_tn/transport/ferry $(distdir)/nickw $(distdir)/square.big $(distdir)/square.big/accommodation $(distdir)/square.big/accommodation/camping $(distdir)/square.big/accommodation/hotel $(distdir)/square.big/education $(distdir)/square.big/education/school $(distdir)/square.big/food $(distdir)/square.big/food/fastfood $(distdir)/square.big/food/machine $(distdir)/square.big/food/restaurant $(distdir)/square.big/geocache $(distdir)/square.big/geocache/geocache_multi $(distdir)/square.big/health $(distdir)/square.big/misc $(distdir)/square.big/money $(distdir)/square.big/money/atm $(distdir)/square.big/money/bank $(distdir)/square.big/nautical $(distdir)/square.big/people $(distdir)/square.big/people/developer $(distdir)/square.big/people/friendsd $(distdir)/square.big/places $(distdir)/square.big/places/settlement $(distdir)/square.big/public $(distdir)/square.big/public/administration $(distdir)/square.big/public/inspecting-authority $(distdir)/square.big/public/recycling $(distdir)/square.big/public/recycling/container $(distdir)/square.big/recreation $(distdir)/square.big/religion $(distdir)/square.big/religion/church $(distdir)/square.big/shopping $(distdir)/square.big/shopping/diy_store $(distdir)/square.big/shopping/furniture $(distdir)/square.big/shopping/games $(distdir)/square.big/shopping/groceries $(distdir)/square.big/shopping/machine $(distdir)/square.big/shopping/media $(distdir)/square.big/shopping/rental $(distdir)/square.big/shopping/sports $(distdir)/square.big/shopping/supermarket $(distdir)/square.big/shopping/vehicle $(distdir)/square.big/sightseeing $(distdir)/square.big/sports $(distdir)/square.big/transport $(distdir)/square.big/vehicle $(distdir)/square.big/vehicle/car_rental $(distdir)/square.big/vehicle/fuel_station $(distdir)/square.big/vehicle/parking $(distdir)/square.big/waypoint $(distdir)/square.big/waypoint/wpttemp $(distdir)/square.big/wlan $(distdir)/square.big/wlan/pay $(distdir)/square.small $(distdir)/square.small/accommodation $(distdir)/square.small/education $(distdir)/square.small/food $(distdir)/square.small/food/fastfood $(distdir)/square.small/geocache $(distdir)/square.small/geocache/geocache_multi $(distdir)/square.small/health $(distdir)/square.small/misc $(distdir)/square.small/money $(distdir)/square.small/nautical $(distdir)/square.small/people $(distdir)/square.small/people/developer $(distdir)/square.small/people/friendsd $(distdir)/square.small/places $(distdir)/square.small/places/settlement $(distdir)/square.small/public $(distdir)/square.small/recreation $(distdir)/square.small/religion $(distdir)/square.small/shopping $(distdir)/square.small/shopping/diy_store $(distdir)/square.small/shopping/supermarket $(distdir)/square.small/sightseeing $(distdir)/square.small/sports $(distdir)/square.small/transport $(distdir)/square.small/vehicle $(distdir)/square.small/vehicle/fuel_station $(distdir)/square.small/waypoint $(distdir)/square.small/waypoint/wpttemp $(distdir)/square.small/wlan $(distdir)/square.small/wlan/pay $(distdir)/svg/health $(distdir)/svg_tn $(distdir)/svg_tn/accommodation $(distdir)/svg_tn/accommodation/camping $(distdir)/svg_tn/education $(distdir)/svg_tn/education/school $(distdir)/svg_tn/food $(distdir)/svg_tn/health $(distdir)/svg_tn/incomming $(distdir)/svg_tn/people $(distdir)/svg_tn/public $(distdir)/svg_tn/public/recycling $(distdir)/svg_tn/recreation $(distdir)/svg_tn/religion $(distdir)/svg_tn/religion/church $(distdir)/svg_tn/shopping $(distdir)/svg_tn/shopping/rental $(distdir)/svg_tn/sports $(distdir)/svg_tn/transport $(distdir)/svg_tn/vehicle $(distdir)/svg_tn/waypoint
+	$(mkdir_p) $(distdir)/classic.big $(distdir)/classic.big/accommodation $(distdir)/classic.big/accommodation/camping $(distdir)/classic.big/education $(distdir)/classic.big/education/school $(distdir)/classic.big/food $(distdir)/classic.big/food/fastfood $(distdir)/classic.big/food/restaurant $(distdir)/classic.big/food/snacks $(distdir)/classic.big/geocache $(distdir)/classic.big/health $(distdir)/classic.big/misc $(distdir)/classic.big/misc/information $(distdir)/classic.big/money $(distdir)/classic.big/money/bank $(distdir)/classic.big/nautical $(distdir)/classic.big/people $(distdir)/classic.big/places $(distdir)/classic.big/places/settlement $(distdir)/classic.big/public $(distdir)/classic.big/recreation $(distdir)/classic.big/religion $(distdir)/classic.big/shopping $(distdir)/classic.big/shopping/groceries $(distdir)/classic.big/shopping/supermarket $(distdir)/classic.big/sightseeing $(distdir)/classic.big/sports $(distdir)/classic.big/transport $(distdir)/classic.big/transport/bridge $(distdir)/classic.big/transport/ferry $(distdir)/classic.big/vehicle $(distdir)/classic.big/vehicle/car_rental $(distdir)/classic.big/vehicle/fuel_station $(distdir)/classic.big/vehicle/parking $(distdir)/classic.big/waypoint $(distdir)/classic.big/waypoint/wpttemp $(distdir)/classic.big/wlan $(distdir)/classic.big/wlan/pay $(distdir)/classic.small $(distdir)/classic.small/accommodation $(distdir)/classic.small/education/school $(distdir)/classic.small/food $(distdir)/classic.small/health $(distdir)/classic.small/incomming $(distdir)/classic.small/people $(distdir)/classic.small/places $(distdir)/classic.small/public $(distdir)/classic.small/recreation $(distdir)/classic.small/religion $(distdir)/classic.small/sightseeing $(distdir)/classic.small/sports $(distdir)/classic.small/transport $(distdir)/classic.small/transport/track $(distdir)/classic.small/vehicle $(distdir)/jp_tn $(distdir)/jp_tn/education $(distdir)/jp_tn/education/school $(distdir)/jp_tn/health $(distdir)/jp_tn/incomming $(distdir)/jp_tn/places $(distdir)/jp_tn/public $(distdir)/jp_tn/public/administration $(distdir)/jp_tn/recreation $(distdir)/jp_tn/religion $(distdir)/jp_tn/shopping/rental $(distdir)/jp_tn/sightseeing $(distdir)/jp_tn/transport/ferry $(distdir)/nickw $(distdir)/square.big $(distdir)/square.big/accommodation $(distdir)/square.big/accommodation/camping $(distdir)/square.big/accommodation/hotel $(distdir)/square.big/education $(distdir)/square.big/education/school $(distdir)/square.big/food $(distdir)/square.big/food/fastfood $(distdir)/square.big/food/machine $(distdir)/square.big/food/restaurant $(distdir)/square.big/geocache $(distdir)/square.big/geocache/geocache_multi $(distdir)/square.big/health $(distdir)/square.big/misc $(distdir)/square.big/money $(distdir)/square.big/money/atm $(distdir)/square.big/money/bank $(distdir)/square.big/nautical $(distdir)/square.big/people $(distdir)/square.big/people/developer $(distdir)/square.big/people/friendsd $(distdir)/square.big/places $(distdir)/square.big/places/settlement $(distdir)/square.big/public $(distdir)/square.big/public/administration $(distdir)/square.big/public/inspecting-authority $(distdir)/square.big/public/recycling $(distdir)/square.big/public/recycling/container $(distdir)/square.big/recreation $(distdir)/square.big/religion $(distdir)/square.big/religion/church $(distdir)/square.big/shopping $(distdir)/square.big/shopping/diy_store $(distdir)/square.big/shopping/furniture $(distdir)/square.big/shopping/games $(distdir)/square.big/shopping/groceries $(distdir)/square.big/shopping/machine $(distdir)/square.big/shopping/media $(distdir)/square.big/shopping/rental $(distdir)/square.big/shopping/sports $(distdir)/square.big/shopping/supermarket $(distdir)/square.big/shopping/vehicle $(distdir)/square.big/sightseeing $(distdir)/square.big/sports $(distdir)/square.big/transport $(distdir)/square.big/vehicle $(distdir)/square.big/vehicle/car_rental $(distdir)/square.big/vehicle/fuel_station $(distdir)/square.big/vehicle/parking $(distdir)/square.big/waypoint $(distdir)/square.big/waypoint/wpttemp $(distdir)/square.big/wlan $(distdir)/square.big/wlan/pay $(distdir)/square.small $(distdir)/square.small/accommodation $(distdir)/square.small/education $(distdir)/square.small/food $(distdir)/square.small/food/fastfood $(distdir)/square.small/geocache $(distdir)/square.small/geocache/geocache_multi $(distdir)/square.small/health $(distdir)/square.small/misc $(distdir)/square.small/money $(distdir)/square.small/nautical $(distdir)/square.small/people $(distdir)/square.small/people/developer $(distdir)/square.small/people/friendsd $(distdir)/square.small/places $(distdir)/square.small/places/settlement $(distdir)/square.small/public $(distdir)/square.small/recreation $(distdir)/square.small/religion $(distdir)/square.small/shopping $(distdir)/square.small/shopping/diy_store $(distdir)/square.small/shopping/supermarket $(distdir)/square.small/sightseeing $(distdir)/square.small/sports $(distdir)/square.small/transport $(distdir)/square.small/vehicle $(distdir)/square.small/vehicle/fuel_station $(distdir)/square.small/waypoint $(distdir)/square.small/waypoint/wpttemp $(distdir)/square.small/wlan $(distdir)/square.small/wlan/pay $(distdir)/svg/health $(distdir)/svg_tn $(distdir)/svg_tn/accommodation $(distdir)/svg_tn/accommodation/camping $(distdir)/svg_tn/education $(distdir)/svg_tn/education/school $(distdir)/svg_tn/food $(distdir)/svg_tn/health $(distdir)/svg_tn/incomming $(distdir)/svg_tn/people $(distdir)/svg_tn/places $(distdir)/svg_tn/public $(distdir)/svg_tn/public/recycling $(distdir)/svg_tn/recreation $(distdir)/svg_tn/religion $(distdir)/svg_tn/religion/church $(distdir)/svg_tn/shopping $(distdir)/svg_tn/shopping/rental $(distdir)/svg_tn/sports $(distdir)/svg_tn/transport $(distdir)/svg_tn/transport/bridge $(distdir)/svg_tn/vehicle $(distdir)/svg_tn/waypoint
 	@srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`; \
 	topsrcdirstrip=`echo "$(top_srcdir)" | sed 's|.|.|g'`; \
 	list='$(DISTFILES)'; for file in $$list; do \
@@ -4065,7 +4267,7 @@ check-am: all-am
 check: check-am
 all-am: Makefile $(DATA)
 installdirs:
-	for dir in "$(DESTDIR)$(classic.bigdir)" "$(DESTDIR)$(classic.big_accommodationdir)" "$(DESTDIR)$(classic.big_accommodation_campingdir)" "$(DESTDIR)$(classic.big_educationdir)" "$(DESTDIR)$(classic.big_education_schooldir)" "$(DESTDIR)$(classic.big_fooddir)" "$(DESTDIR)$(classic.big_food_fastfooddir)" "$(DESTDIR)$(classic.big_food_restaurantdir)" "$(DESTDIR)$(classic.big_food_snacksdir)" "$(DESTDIR)$(classic.big_geocachedir)" "$(DESTDIR)$(classic.big_healthdir)" "$(DESTDIR)$(classic.big_miscdir)" "$(DESTDIR)$(classic.big_misc_informationdir)" "$(DESTDIR)$(classic.big_moneydir)" "$(DESTDIR)$(classic.big_money_bankdir)" "$(DESTDIR)$(classic.big_nauticaldir)" "$(DESTDIR)$(classic.big_peopledir)" "$(DESTDIR)$(classic.big_placesdir)" "$(DESTDIR)$(classic.big_places_settlementdir)" "$(DESTDIR)$(classic.big_publicdir)" "$(DESTDIR)$(classic.big_recreationdir)" "$(DESTDIR)$(classic.big_religiondir)" "$(DESTDIR)$(classic.big_shoppingdir)" "$(DESTDIR)$(classic.big_shopping_groceriesdir)" "$(DESTDIR)$(classic.big_shopping_supermarketdir)" "$(DESTDIR)$(classic.big_sightseeingdir)" "$(DESTDIR)$(classic.big_sportsdir)" "$(DESTDIR)$(classic.big_transportdir)" "$(DESTDIR)$(classic.big_transport_bridgedir)" "$(DESTDIR)$(classic.big_transport_ferrydir)" "$(DESTDIR)$(classic.big_vehicledir)" "$(DESTDIR)$(classic.big_vehicle_car_rentaldir)" "$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)" "$(DESTDIR)$(classic.big_vehicle_parkingdir)" "$(DESTDIR)$(classic.big_waypointdir)" "$(DESTDIR)$(classic.big_waypoint_wpttempdir)" "$(DESTDIR)$(classic.big_wlandir)" "$(DESTDIR)$(classic.big_wlan_paydir)" "$(DESTDIR)$(classic.smalldir)" "$(DESTDIR)$(classic.small_accommodationdir)" "$(DESTDIR)$(classic.small_education_schooldir)" "$(DESTDIR)$(classic.small_fooddir)" "$(DESTDIR)$(classic.small_incommingdir)" "$(DESTDIR)$(classic.small_peopledir)" "$(DESTDIR)$(classic.small_placesdir)" "$(DESTDIR)$(classic.small_recreationdir)" "$(DESTDIR)$(classic.small_religiondir)" "$(DESTDIR)$(classic.small_sightseeingdir)" "$(DESTDIR)$(classic.small_sportsdir)" "$(DESTDIR)$(classic.small_transportdir)" "$(DESTDIR)$(classic.small_vehicledir)" "$(DESTDIR)$(jp_tndir)" "$(DESTDIR)$(jp_tn_education_schooldir)" "$(DESTDIR)$(jp_tn_healthdir)" "$(DESTDIR)$(jp_tn_incommingdir)" "$(DESTDIR)$(jp_tn_publicdir)" "$(DESTDIR)$(jp_tn_public_administrationdir)" "$(DESTDIR)$(jp_tn_shopping_rentaldir)" "$(DESTDIR)$(jp_tn_sightseeingdir)" "$(DESTDIR)$(jp_tn_transport_ferrydir)" "$(DESTDIR)$(nickwdir)" "$(DESTDIR)$(square.bigdir)" "$(DESTDIR)$(square.big_accommodationdir)" "$(DESTDIR)$(square.big_accommodation_campingdir)" "$(DESTDIR)$(square.big_accommodation_hoteldir)" "$(DESTDIR)$(square.big_educationdir)" "$(DESTDIR)$(square.big_education_schooldir)" "$(DESTDIR)$(square.big_fooddir)" "$(DESTDIR)$(square.big_food_fastfooddir)" "$(DESTDIR)$(square.big_food_machinedir)" "$(DESTDIR)$(square.big_food_restaurantdir)" "$(DESTDIR)$(square.big_geocachedir)" "$(DESTDIR)$(square.big_geocache_geocache_multidir)" "$(DESTDIR)$(square.big_healthdir)" "$(DESTDIR)$(square.big_miscdir)" "$(DESTDIR)$(square.big_moneydir)" "$(DESTDIR)$(square.big_money_atmdir)" "$(DESTDIR)$(square.big_money_bankdir)" "$(DESTDIR)$(square.big_nauticaldir)" "$(DESTDIR)$(square.big_peopledir)" "$(DESTDIR)$(square.big_people_developerdir)" "$(DESTDIR)$(square.big_people_friendsddir)" "$(DESTDIR)$(square.big_placesdir)" "$(DESTDIR)$(square.big_places_settlementdir)" "$(DESTDIR)$(square.big_publicdir)" "$(DESTDIR)$(square.big_public_administrationdir)" "$(DESTDIR)$(square.big_public_inspecting_authoritydir)" "$(DESTDIR)$(square.big_public_recyclingdir)" "$(DESTDIR)$(square.big_public_recycling_containerdir)" "$(DESTDIR)$(square.big_recreationdir)" "$(DESTDIR)$(square.big_religiondir)" "$(DESTDIR)$(square.big_religion_churchdir)" "$(DESTDIR)$(square.big_shoppingdir)" "$(DESTDIR)$(square.big_shopping_diy_storedir)" "$(DESTDIR)$(square.big_shopping_furnituredir)" "$(DESTDIR)$(square.big_shopping_gamesdir)" "$(DESTDIR)$(square.big_shopping_groceriesdir)" "$(DESTDIR)$(square.big_shopping_machinedir)" "$(DESTDIR)$(square.big_shopping_mediadir)" "$(DESTDIR)$(square.big_shopping_rentaldir)" "$(DESTDIR)$(square.big_shopping_sportsdir)" "$(DESTDIR)$(square.big_shopping_supermarketdir)" "$(DESTDIR)$(square.big_shopping_vehicledir)" "$(DESTDIR)$(square.big_sightseeingdir)" "$(DESTDIR)$(square.big_sportsdir)" "$(DESTDIR)$(square.big_transportdir)" "$(DESTDIR)$(square.big_vehicledir)" "$(DESTDIR)$(square.big_vehicle_car_rentaldir)" "$(DESTDIR)$(square.big_vehicle_fuel_stationdir)" "$(DESTDIR)$(square.big_vehicle_parkingdir)" "$(DESTDIR)$(square.big_waypointdir)" "$(DESTDIR)$(square.big_waypoint_wpttempdir)" "$(DESTDIR)$(square.big_wlandir)" "$(DESTDIR)$(square.big_wlan_paydir)" "$(DESTDIR)$(square.smalldir)" "$(DESTDIR)$(square.small_accommodationdir)" "$(DESTDIR)$(square.small_educationdir)" "$(DESTDIR)$(square.small_fooddir)" "$(DESTDIR)$(square.small_food_fastfooddir)" "$(DESTDIR)$(square.small_geocachedir)" "$(DESTDIR)$(square.small_geocache_geocache_multidir)" "$(DESTDIR)$(square.small_healthdir)" "$(DESTDIR)$(square.small_miscdir)" "$(DESTDIR)$(square.small_moneydir)" "$(DESTDIR)$(square.small_nauticaldir)" "$(DESTDIR)$(square.small_peopledir)" "$(DESTDIR)$(square.small_people_developerdir)" "$(DESTDIR)$(square.small_people_friendsddir)" "$(DESTDIR)$(square.small_placesdir)" "$(DESTDIR)$(square.small_places_settlementdir)" "$(DESTDIR)$(square.small_publicdir)" "$(DESTDIR)$(square.small_recreationdir)" "$(DESTDIR)$(square.small_religiondir)" "$(DESTDIR)$(square.small_shoppingdir)" "$(DESTDIR)$(square.small_shopping_diy_storedir)" "$(DESTDIR)$(square.small_shopping_supermarketdir)" "$(DESTDIR)$(square.small_sightseeingdir)" "$(DESTDIR)$(square.small_sportsdir)" "$(DESTDIR)$(square.small_transportdir)" "$(DESTDIR)$(square.small_vehicledir)" "$(DESTDIR)$(square.small_vehicle_fuel_stationdir)" "$(DESTDIR)$(square.small_waypointdir)" "$(DESTDIR)$(square.small_waypoint_wpttempdir)" "$(DESTDIR)$(square.small_wlandir)" "$(DESTDIR)$(square.small_wlan_paydir)" "$(DESTDIR)$(svg_healthdir)" "$(DESTDIR)$(svg_tndir)" "$(DESTDIR)$(svg_tn_accommodationdir)" "$(DESTDIR)$(svg_tn_accommodation_campingdir)" "$(DESTDIR)$(svg_tn_educationdir)" "$(DESTDIR)$(svg_tn_education_schooldir)" "$(DESTDIR)$(svg_tn_fooddir)" "$(DESTDIR)$(svg_tn_healthdir)" "$(DESTDIR)$(svg_tn_incommingdir)" "$(DESTDIR)$(svg_tn_peopledir)" "$(DESTDIR)$(svg_tn_publicdir)" "$(DESTDIR)$(svg_tn_public_recyclingdir)" "$(DESTDIR)$(svg_tn_recreationdir)" "$(DESTDIR)$(svg_tn_religiondir)" "$(DESTDIR)$(svg_tn_religion_churchdir)" "$(DESTDIR)$(svg_tn_shoppingdir)" "$(DESTDIR)$(svg_tn_shopping_rentaldir)" "$(DESTDIR)$(svg_tn_sportsdir)" "$(DESTDIR)$(svg_tn_transportdir)" "$(DESTDIR)$(svg_tn_vehicledir)" "$(DESTDIR)$(svg_tn_waypointdir)"; do \
+	for dir in "$(DESTDIR)$(classic.bigdir)" "$(DESTDIR)$(classic.big_accommodationdir)" "$(DESTDIR)$(classic.big_accommodation_campingdir)" "$(DESTDIR)$(classic.big_educationdir)" "$(DESTDIR)$(classic.big_education_schooldir)" "$(DESTDIR)$(classic.big_fooddir)" "$(DESTDIR)$(classic.big_food_fastfooddir)" "$(DESTDIR)$(classic.big_food_restaurantdir)" "$(DESTDIR)$(classic.big_food_snacksdir)" "$(DESTDIR)$(classic.big_geocachedir)" "$(DESTDIR)$(classic.big_healthdir)" "$(DESTDIR)$(classic.big_miscdir)" "$(DESTDIR)$(classic.big_misc_informationdir)" "$(DESTDIR)$(classic.big_moneydir)" "$(DESTDIR)$(classic.big_money_bankdir)" "$(DESTDIR)$(classic.big_nauticaldir)" "$(DESTDIR)$(classic.big_peopledir)" "$(DESTDIR)$(classic.big_placesdir)" "$(DESTDIR)$(classic.big_places_settlementdir)" "$(DESTDIR)$(classic.big_publicdir)" "$(DESTDIR)$(classic.big_recreationdir)" "$(DESTDIR)$(classic.big_religiondir)" "$(DESTDIR)$(classic.big_shoppingdir)" "$(DESTDIR)$(classic.big_shopping_groceriesdir)" "$(DESTDIR)$(classic.big_shopping_supermarketdir)" "$(DESTDIR)$(classic.big_sightseeingdir)" "$(DESTDIR)$(classic.big_sportsdir)" "$(DESTDIR)$(classic.big_transportdir)" "$(DESTDIR)$(classic.big_transport_bridgedir)" "$(DESTDIR)$(classic.big_transport_ferrydir)" "$(DESTDIR)$(classic.big_vehicledir)" "$(DESTDIR)$(classic.big_vehicle_car_rentaldir)" "$(DESTDIR)$(classic.big_vehicle_fuel_stationdir)" "$(DESTDIR)$(classic.big_vehicle_parkingdir)" "$(DESTDIR)$(classic.big_waypointdir)" "$(DESTDIR)$(classic.big_waypoint_wpttempdir)" "$(DESTDIR)$(classic.big_wlandir)" "$(DESTDIR)$(classic.big_wlan_paydir)" "$(DESTDIR)$(classic.smalldir)" "$(DESTDIR)$(classic.small_accommodationdir)" "$(DESTDIR)$(classic.small_education_schooldir)" "$(DESTDIR)$(classic.small_fooddir)" "$(DESTDIR)$(classic.small_healthdir)" "$(DESTDIR)$(classic.small_incommingdir)" "$(DESTDIR)$(classic.small_peopledir)" "$(DESTDIR)$(classic.small_placesdir)" "$(DESTDIR)$(classic.small_publicdir)" "$(DESTDIR)$(classic.small_recreationdir)" "$(DESTDIR)$(classic.small_religiondir)" "$(DESTDIR)$(classic.small_sightseeingdir)" "$(DESTDIR)$(classic.small_sportsdir)" "$(DESTDIR)$(classic.small_transportdir)" "$(DESTDIR)$(classic.small_transport_trackdir)" "$(DESTDIR)$(classic.small_vehicledir)" "$(DESTDIR)$(jp_tndir)" "$(DESTDIR)$(jp_tn_educationdir)" "$(DESTDIR)$(jp_tn_education_schooldir)" "$(DESTDIR)$(jp_tn_healthdir)" "$(DESTDIR)$(jp_tn_incommingdir)" "$(DESTDIR)$(jp_tn_placesdir)" "$(DESTDIR)$(jp_tn_publicdir)" "$(DESTDIR)$(jp_tn_public_administrationdir)" "$(DESTDIR)$(jp_tn_recreationdir)" "$(DESTDIR)$(jp_tn_religiondir)" "$(DESTDIR)$(jp_tn_shopping_rentaldir)" "$(DESTDIR)$(jp_tn_sightseeingdir)" "$(DESTDIR)$(jp_tn_transport_ferrydir)" "$(DESTDIR)$(nickwdir)" "$(DESTDIR)$(square.bigdir)" "$(DESTDIR)$(square.big_accommodationdir)" "$(DESTDIR)$(square.big_accommodation_campingdir)" "$(DESTDIR)$(square.big_accommodation_hoteldir)" "$(DESTDIR)$(square.big_educationdir)" "$(DESTDIR)$(square.big_education_schooldir)" "$(DESTDIR)$(square.big_fooddir)" "$(DESTDIR)$(square.big_food_fastfooddir)" "$(DESTDIR)$(square.big_food_machinedir)" "$(DESTDIR)$(square.big_food_restaurantdir)" "$(DESTDIR)$(square.big_geocachedir)" "$(DESTDIR)$(square.big_geocache_geocache_multidir)" "$(DESTDIR)$(square.big_healthdir)" "$(DESTDIR)$(square.big_miscdir)" "$(DESTDIR)$(square.big_moneydir)" "$(DESTDIR)$(square.big_money_atmdir)" "$(DESTDIR)$(square.big_money_bankdir)" "$(DESTDIR)$(square.big_nauticaldir)" "$(DESTDIR)$(square.big_peopledir)" "$(DESTDIR)$(square.big_people_developerdir)" "$(DESTDIR)$(square.big_people_friendsddir)" "$(DESTDIR)$(square.big_placesdir)" "$(DESTDIR)$(square.big_places_settlementdir)" "$(DESTDIR)$(square.big_publicdir)" "$(DESTDIR)$(square.big_public_administrationdir)" "$(DESTDIR)$(square.big_public_inspecting_authoritydir)" "$(DESTDIR)$(square.big_public_recyclingdir)" "$(DESTDIR)$(square.big_public_recycling_containerdir)" "$(DESTDIR)$(square.big_recreationdir)" "$(DESTDIR)$(square.big_religiondir)" "$(DESTDIR)$(square.big_religion_churchdir)" "$(DESTDIR)$(square.big_shoppingdir)" "$(DESTDIR)$(square.big_shopping_diy_storedir)" "$(DESTDIR)$(square.big_shopping_furnituredir)" "$(DESTDIR)$(square.big_shopping_gamesdir)" "$(DESTDIR)$(square.big_shopping_groceriesdir)" "$(DESTDIR)$(square.big_shopping_machinedir)" "$(DESTDIR)$(square.big_shopping_mediadir)" "$(DESTDIR)$(square.big_shopping_rentaldir)" "$(DESTDIR)$(square.big_shopping_sportsdir)" "$(DESTDIR)$(square.big_shopping_supermarketdir)" "$(DESTDIR)$(square.big_shopping_vehicledir)" "$(DESTDIR)$(square.big_sightseeingdir)" "$(DESTDIR)$(square.big_sportsdir)" "$(DESTDIR)$(square.big_transportdir)" "$(DESTDIR)$(square.big_vehicledir)" "$(DESTDIR)$(square.big_vehicle_car_rentaldir)" "$(DESTDIR)$(square.big_vehicle_fuel_stationdir)" "$(DESTDIR)$(square.big_vehicle_parkingdir)" "$(DESTDIR)$(square.big_waypointdir)" "$(DESTDIR)$(square.big_waypoint_wpttempdir)" "$(DESTDIR)$(square.big_wlandir)" "$(DESTDIR)$(square.big_wlan_paydir)" "$(DESTDIR)$(square.smalldir)" "$(DESTDIR)$(square.small_accommodationdir)" "$(DESTDIR)$(square.small_educationdir)" "$(DESTDIR)$(square.small_fooddir)" "$(DESTDIR)$(square.small_food_fastfooddir)" "$(DESTDIR)$(square.small_geocachedir)" "$(DESTDIR)$(square.small_geocache_geocache_multidir)" "$(DESTDIR)$(square.small_healthdir)" "$(DESTDIR)$(square.small_miscdir)" "$(DESTDIR)$(square.small_moneydir)" "$(DESTDIR)$(square.small_nauticaldir)" "$(DESTDIR)$(square.small_peopledir)" "$(DESTDIR)$(square.small_people_developerdir)" "$(DESTDIR)$(square.small_people_friendsddir)" "$(DESTDIR)$(square.small_placesdir)" "$(DESTDIR)$(square.small_places_settlementdir)" "$(DESTDIR)$(square.small_publicdir)" "$(DESTDIR)$(square.small_recreationdir)" "$(DESTDIR)$(square.small_religiondir)" "$(DESTDIR)$(square.small_shoppingdir)" "$(DESTDIR)$(square.small_shopping_diy_storedir)" "$(DESTDIR)$(square.small_shopping_supermarketdir)" "$(DESTDIR)$(square.small_sightseeingdir)" "$(DESTDIR)$(square.small_sportsdir)" "$(DESTDIR)$(square.small_transportdir)" "$(DESTDIR)$(square.small_vehicledir)" "$(DESTDIR)$(square.small_vehicle_fuel_stationdir)" "$(DESTDIR)$(square.small_waypointdir)" "$(DESTDIR)$(square.small_waypoint_wpttempdir)" "$(DESTDIR)$(square.small_wlandir)" "$(DESTDIR)$(square.small_wlan_paydir)" "$(DESTDIR)$(svg_healthdir)" "$(DESTDIR)$(svg_tndir)" "$(DESTDIR)$(svg_tn_accommodationdir)" "$(DESTDIR)$(svg_tn_accommodation_campingdir)" "$(DESTDIR)$(svg_tn_educationdir)" "$(DESTDIR)$(svg_tn_education_schooldir)" "$(DESTDIR)$(svg_tn_fooddir)" "$(DESTDIR)$(svg_tn_healthdir)" "$(DESTDIR)$(svg_tn_incommingdir)" "$(DESTDIR)$(svg_tn_peopledir)" "$(DESTDIR)$(svg_tn_placesdir)" "$(DESTDIR)$(svg_tn_publicdir)" "$(DESTDIR)$(svg_tn_public_recyclingdir)" "$(DESTDIR)$(svg_tn_recreationdir)" "$(DESTDIR)$(svg_tn_religiondir)" "$(DESTDIR)$(svg_tn_religion_churchdir)" "$(DESTDIR)$(svg_tn_shoppingdir)" "$(DESTDIR)$(svg_tn_shopping_rentaldir)" "$(DESTDIR)$(svg_tn_sportsdir)" "$(DESTDIR)$(svg_tn_transportdir)" "$(DESTDIR)$(svg_tn_transport_bridgedir)" "$(DESTDIR)$(svg_tn_vehicledir)" "$(DESTDIR)$(svg_tn_waypointdir)"; do \
 	  test -z "$$dir" || $(mkdir_p) "$$dir"; \
 	done
 install: install-am
@@ -4149,18 +4351,23 @@ install-data-am: install-classic.bigDATA \
 	install-classic.small_accommodationDATA \
 	install-classic.small_education_schoolDATA \
 	install-classic.small_foodDATA \
+	install-classic.small_healthDATA \
 	install-classic.small_incommingDATA \
 	install-classic.small_peopleDATA \
 	install-classic.small_placesDATA \
+	install-classic.small_publicDATA \
 	install-classic.small_recreationDATA \
 	install-classic.small_religionDATA \
 	install-classic.small_sightseeingDATA \
 	install-classic.small_sportsDATA \
 	install-classic.small_transportDATA \
+	install-classic.small_transport_trackDATA \
 	install-classic.small_vehicleDATA install-jp_tnDATA \
-	install-jp_tn_education_schoolDATA install-jp_tn_healthDATA \
-	install-jp_tn_incommingDATA install-jp_tn_publicDATA \
+	install-jp_tn_educationDATA install-jp_tn_education_schoolDATA \
+	install-jp_tn_healthDATA install-jp_tn_incommingDATA \
+	install-jp_tn_placesDATA install-jp_tn_publicDATA \
 	install-jp_tn_public_administrationDATA \
+	install-jp_tn_recreationDATA install-jp_tn_religionDATA \
 	install-jp_tn_shopping_rentalDATA \
 	install-jp_tn_sightseeingDATA \
 	install-jp_tn_transport_ferryDATA install-nickwDATA \
@@ -4246,12 +4453,13 @@ install-data-am: install-classic.bigDATA \
 	install-svg_tn_educationDATA \
 	install-svg_tn_education_schoolDATA install-svg_tn_foodDATA \
 	install-svg_tn_healthDATA install-svg_tn_incommingDATA \
-	install-svg_tn_peopleDATA install-svg_tn_publicDATA \
-	install-svg_tn_public_recyclingDATA \
+	install-svg_tn_peopleDATA install-svg_tn_placesDATA \
+	install-svg_tn_publicDATA install-svg_tn_public_recyclingDATA \
 	install-svg_tn_recreationDATA install-svg_tn_religionDATA \
 	install-svg_tn_religion_churchDATA install-svg_tn_shoppingDATA \
 	install-svg_tn_shopping_rentalDATA install-svg_tn_sportsDATA \
-	install-svg_tn_transportDATA install-svg_tn_vehicleDATA \
+	install-svg_tn_transportDATA \
+	install-svg_tn_transport_bridgeDATA install-svg_tn_vehicleDATA \
 	install-svg_tn_waypointDATA
 
 install-exec-am:
@@ -4319,19 +4527,24 @@ uninstall-am: uninstall-classic.bigDATA \
 	uninstall-classic.small_accommodationDATA \
 	uninstall-classic.small_education_schoolDATA \
 	uninstall-classic.small_foodDATA \
+	uninstall-classic.small_healthDATA \
 	uninstall-classic.small_incommingDATA \
 	uninstall-classic.small_peopleDATA \
 	uninstall-classic.small_placesDATA \
+	uninstall-classic.small_publicDATA \
 	uninstall-classic.small_recreationDATA \
 	uninstall-classic.small_religionDATA \
 	uninstall-classic.small_sightseeingDATA \
 	uninstall-classic.small_sportsDATA \
 	uninstall-classic.small_transportDATA \
+	uninstall-classic.small_transport_trackDATA \
 	uninstall-classic.small_vehicleDATA uninstall-info-am \
-	uninstall-jp_tnDATA uninstall-jp_tn_education_schoolDATA \
+	uninstall-jp_tnDATA uninstall-jp_tn_educationDATA \
+	uninstall-jp_tn_education_schoolDATA \
 	uninstall-jp_tn_healthDATA uninstall-jp_tn_incommingDATA \
-	uninstall-jp_tn_publicDATA \
+	uninstall-jp_tn_placesDATA uninstall-jp_tn_publicDATA \
 	uninstall-jp_tn_public_administrationDATA \
+	uninstall-jp_tn_recreationDATA uninstall-jp_tn_religionDATA \
 	uninstall-jp_tn_shopping_rentalDATA \
 	uninstall-jp_tn_sightseeingDATA \
 	uninstall-jp_tn_transport_ferryDATA uninstall-nickwDATA \
@@ -4423,13 +4636,14 @@ uninstall-am: uninstall-classic.bigDATA \
 	uninstall-svg_tn_education_schoolDATA \
 	uninstall-svg_tn_foodDATA uninstall-svg_tn_healthDATA \
 	uninstall-svg_tn_incommingDATA uninstall-svg_tn_peopleDATA \
-	uninstall-svg_tn_publicDATA \
+	uninstall-svg_tn_placesDATA uninstall-svg_tn_publicDATA \
 	uninstall-svg_tn_public_recyclingDATA \
 	uninstall-svg_tn_recreationDATA uninstall-svg_tn_religionDATA \
 	uninstall-svg_tn_religion_churchDATA \
 	uninstall-svg_tn_shoppingDATA \
 	uninstall-svg_tn_shopping_rentalDATA \
 	uninstall-svg_tn_sportsDATA uninstall-svg_tn_transportDATA \
+	uninstall-svg_tn_transport_bridgeDATA \
 	uninstall-svg_tn_vehicleDATA uninstall-svg_tn_waypointDATA
 
 .PHONY: all all-am check check-am clean clean-generic clean-libtool \
@@ -4473,20 +4687,25 @@ uninstall-am: uninstall-classic.bigDATA \
 	install-classic.small_accommodationDATA \
 	install-classic.small_education_schoolDATA \
 	install-classic.small_foodDATA \
+	install-classic.small_healthDATA \
 	install-classic.small_incommingDATA \
 	install-classic.small_peopleDATA \
 	install-classic.small_placesDATA \
+	install-classic.small_publicDATA \
 	install-classic.small_recreationDATA \
 	install-classic.small_religionDATA \
 	install-classic.small_sightseeingDATA \
 	install-classic.small_sportsDATA \
 	install-classic.small_transportDATA \
+	install-classic.small_transport_trackDATA \
 	install-classic.small_vehicleDATA install-data install-data-am \
 	install-exec install-exec-am install-info install-info-am \
-	install-jp_tnDATA install-jp_tn_education_schoolDATA \
-	install-jp_tn_healthDATA install-jp_tn_incommingDATA \
+	install-jp_tnDATA install-jp_tn_educationDATA \
+	install-jp_tn_education_schoolDATA install-jp_tn_healthDATA \
+	install-jp_tn_incommingDATA install-jp_tn_placesDATA \
 	install-jp_tn_publicDATA \
 	install-jp_tn_public_administrationDATA \
+	install-jp_tn_recreationDATA install-jp_tn_religionDATA \
 	install-jp_tn_shopping_rentalDATA \
 	install-jp_tn_sightseeingDATA \
 	install-jp_tn_transport_ferryDATA install-man \
@@ -4574,12 +4793,13 @@ uninstall-am: uninstall-classic.bigDATA \
 	install-svg_tn_educationDATA \
 	install-svg_tn_education_schoolDATA install-svg_tn_foodDATA \
 	install-svg_tn_healthDATA install-svg_tn_incommingDATA \
-	install-svg_tn_peopleDATA install-svg_tn_publicDATA \
-	install-svg_tn_public_recyclingDATA \
+	install-svg_tn_peopleDATA install-svg_tn_placesDATA \
+	install-svg_tn_publicDATA install-svg_tn_public_recyclingDATA \
 	install-svg_tn_recreationDATA install-svg_tn_religionDATA \
 	install-svg_tn_religion_churchDATA install-svg_tn_shoppingDATA \
 	install-svg_tn_shopping_rentalDATA install-svg_tn_sportsDATA \
-	install-svg_tn_transportDATA install-svg_tn_vehicleDATA \
+	install-svg_tn_transportDATA \
+	install-svg_tn_transport_bridgeDATA install-svg_tn_vehicleDATA \
 	install-svg_tn_waypointDATA installcheck installcheck-am \
 	installdirs maintainer-clean maintainer-clean-generic \
 	mostlyclean mostlyclean-generic mostlyclean-libtool pdf pdf-am \
@@ -4624,19 +4844,24 @@ uninstall-am: uninstall-classic.bigDATA \
 	uninstall-classic.small_accommodationDATA \
 	uninstall-classic.small_education_schoolDATA \
 	uninstall-classic.small_foodDATA \
+	uninstall-classic.small_healthDATA \
 	uninstall-classic.small_incommingDATA \
 	uninstall-classic.small_peopleDATA \
 	uninstall-classic.small_placesDATA \
+	uninstall-classic.small_publicDATA \
 	uninstall-classic.small_recreationDATA \
 	uninstall-classic.small_religionDATA \
 	uninstall-classic.small_sightseeingDATA \
 	uninstall-classic.small_sportsDATA \
 	uninstall-classic.small_transportDATA \
+	uninstall-classic.small_transport_trackDATA \
 	uninstall-classic.small_vehicleDATA uninstall-info-am \
-	uninstall-jp_tnDATA uninstall-jp_tn_education_schoolDATA \
+	uninstall-jp_tnDATA uninstall-jp_tn_educationDATA \
+	uninstall-jp_tn_education_schoolDATA \
 	uninstall-jp_tn_healthDATA uninstall-jp_tn_incommingDATA \
-	uninstall-jp_tn_publicDATA \
+	uninstall-jp_tn_placesDATA uninstall-jp_tn_publicDATA \
 	uninstall-jp_tn_public_administrationDATA \
+	uninstall-jp_tn_recreationDATA uninstall-jp_tn_religionDATA \
 	uninstall-jp_tn_shopping_rentalDATA \
 	uninstall-jp_tn_sightseeingDATA \
 	uninstall-jp_tn_transport_ferryDATA uninstall-nickwDATA \
@@ -4728,13 +4953,14 @@ uninstall-am: uninstall-classic.bigDATA \
 	uninstall-svg_tn_education_schoolDATA \
 	uninstall-svg_tn_foodDATA uninstall-svg_tn_healthDATA \
 	uninstall-svg_tn_incommingDATA uninstall-svg_tn_peopleDATA \
-	uninstall-svg_tn_publicDATA \
+	uninstall-svg_tn_placesDATA uninstall-svg_tn_publicDATA \
 	uninstall-svg_tn_public_recyclingDATA \
 	uninstall-svg_tn_recreationDATA uninstall-svg_tn_religionDATA \
 	uninstall-svg_tn_religion_churchDATA \
 	uninstall-svg_tn_shoppingDATA \
 	uninstall-svg_tn_shopping_rentalDATA \
 	uninstall-svg_tn_sportsDATA uninstall-svg_tn_transportDATA \
+	uninstall-svg_tn_transport_bridgeDATA \
 	uninstall-svg_tn_vehicleDATA uninstall-svg_tn_waypointDATA
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.

@@ -321,6 +321,9 @@ svg_tn_religion_churchdir = $(datadir)/map-icons/svg_tn/religion/church
 svg_tn_transport_DATA = svg_tn/transport/*.png
 svg_tn_transportdir = $(datadir)/map-icons/svg_tn/transport
 
+svg_tn_transport_bridge_DATA = svg_tn/transport/bridge/*.png
+svg_tn_transport_bridgedir = $(datadir)/map-icons/svg_tn/transport/bridge
+
 
 
 jp_tn_DATA = jp_tn/*.png
@@ -639,6 +642,7 @@ EXTRA_DIST= \
 	$(svg_tn_religion_DATA) \
 	$(svg_tn_religion_church_DATA) \
 	$(svg_tn_transport_DATA) \
+	$(svg_tn_transport_bridge_DATA) \
 	$(jp_tn_DATA) \
 	$(jp_tn_incomming_DATA) \
 	$(jp_tn_sightseeing_DATA) \
