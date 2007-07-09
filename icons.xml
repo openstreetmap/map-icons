@@ -2303,18 +2303,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="religion.church.synagoge"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Synagoge</title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>190</poi_type_id>
-      <name>religion.church.synagoge</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="shopping.books"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
