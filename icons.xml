@@ -5703,4 +5703,100 @@
       <name>transport.bridge.drawbridge</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.play_street"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>546</poi_type_id>
+      <name>vehicle.restrictions.play_street</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.right_of_way"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>547</poi_type_id>
+      <name>vehicle.restrictions.right_of_way</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.stop"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>548</poi_type_id>
+      <name>vehicle.restrictions.stop</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.stopping_restriction"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>549</poi_type_id>
+      <name>vehicle.restrictions.stopping_restriction</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.traffic-light"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>550</poi_type_id>
+      <name>vehicle.restrictions.traffic-light</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.track"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>551</poi_type_id>
+      <name>transport.track</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.speed.30-end"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>552</poi_type_id>
+      <name>vehicle.restrictions.speed.30-end</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.dead_end"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>553</poi_type_id>
+      <name>vehicle.restrictions.dead_end</name>
+    </geoinfo>
+  </rule>
 </rules>
