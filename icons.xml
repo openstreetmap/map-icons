@@ -3277,6 +3277,7 @@
     <geoinfo>
       <poi_type_id>264</poi_type_id>
       <name>vehicle.car_rental.europcar</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -3596,18 +3597,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="vehicle.play_street"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>290</poi_type_id>
-      <name>vehicle.play_street</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="vehicle.repair_shop"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -3633,7 +3622,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="vehicle.road_works"/>
+    <condition k="poi" v="vehicle.restrictions.road_works"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">Road Works</title>
@@ -4785,7 +4774,7 @@
     <condition k="poi" v="transport.funicular"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">funicular railway, inclined railway</title>
     <title lang="de">Seilbahnstation</title>
     <description lang="en"></description>
     <geoinfo>
@@ -4978,6 +4967,7 @@
     <geoinfo>
       <poi_type_id>401</poi_type_id>
       <name>shopping.kaufhof</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4990,6 +4980,7 @@
     <geoinfo>
       <poi_type_id>402</poi_type_id>
       <name>shopping.supermarket.real</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5067,6 +5058,7 @@
     <geoinfo>
       <poi_type_id>408</poi_type_id>
       <name>wlan.pay.fon</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5797,6 +5789,54 @@
     <geoinfo>
       <poi_type_id>553</poi_type_id>
       <name>vehicle.restrictions.dead_end</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>637</poi_type_id>
+      <name>vehicle.restrictions</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.speed"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>638</poi_type_id>
+      <name>vehicle.restrictions.speed</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.speed_trap"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>640</poi_type_id>
+      <name>vehicle.restrictions.speed_trap</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.road_works"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>641</poi_type_id>
+      <name>vehicle.restrictions.road_works</name>
     </geoinfo>
   </rule>
 </rules>
