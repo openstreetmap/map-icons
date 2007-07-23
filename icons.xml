@@ -2117,16 +2117,16 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="public.toilet"/>
+    <condition k="poi" v="public.toilets"/>
     <condition k="amenity" v="toilets"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">Toilets</title>
-    <title lang="de">Toilette</title>
+    <title lang="de">Toiletten</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>176</poi_type_id>
-      <name>public.toilet</name>
+      <name>public.toilets</name>
     </geoinfo>
   </rule>
 
@@ -3584,15 +3584,15 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="vehicle.parking.restarea-toilet"/>
+    <condition k="poi" v="vehicle.parking.restarea-toilets"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en">Restarea with Toilet</title>
-    <title lang="de">Rastplatz mit Toilette</title>
+    <title lang="en">Restarea with Toilets</title>
+    <title lang="de">Rastplatz mit Toiletten</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>289</poi_type_id>
-      <name>vehicle.parking.restarea-toilet</name>
+      <name>vehicle.parking.restarea-toilets</name>
     </geoinfo>
   </rule>
 
