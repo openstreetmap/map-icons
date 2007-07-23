@@ -5839,4 +5839,592 @@
       <name>vehicle.restrictions.road_works</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="public.cemetary"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>642</poi_type_id>
+      <name>public.cemetary</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="accommodation.camping.caravan"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>642</poi_type_id>
+      <name>accommodation.camping.caravan</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="accommodation.camping.wastewater"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>643</poi_type_id>
+      <name>accommodation.camping.wastewater</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="accommodation.motel"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>644</poi_type_id>
+      <name>accommodation.motel</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="education.college"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>645</poi_type_id>
+      <name>education.college</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.no_icon"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>646</poi_type_id>
+      <name>misc.no_icon</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="nautical.aqueduct"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>647</poi_type_id>
+      <name>nautical.aqueduct</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="nautical.boatyard"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>648</poi_type_id>
+      <name>nautical.boatyard</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="nautical.lock_gate"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>649</poi_type_id>
+      <name>nautical.lock_gate</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="nautical.marina"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>650</poi_type_id>
+      <name>nautical.marina</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="nautical.slipway"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>651</poi_type_id>
+      <name>nautical.slipway</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="nautical.turning"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>652</poi_type_id>
+      <name>nautical.turning</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="nautical.weir"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>653</poi_type_id>
+      <name>nautical.weir</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.beacon"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>654</poi_type_id>
+      <name>places.beacon</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.gasometer"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>655</poi_type_id>
+      <name>places.gasometer</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.power.fossil"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>656</poi_type_id>
+      <name>places.power.fossil</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.power.hydro"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>657</poi_type_id>
+      <name>places.power.hydro</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.power.nuclear"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>658</poi_type_id>
+      <name>places.power.nuclear</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.power.tower"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>659</poi_type_id>
+      <name>places.power.tower</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.power.wind"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>660</poi_type_id>
+      <name>places.power.wind</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.reservoir_covered"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>661</poi_type_id>
+      <name>places.reservoir_covered</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.spring"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>662</poi_type_id>
+      <name>places.spring</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.survey_point"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>663</poi_type_id>
+      <name>places.survey_point</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.water_tower"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>664</poi_type_id>
+      <name>places.water_tower</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.works"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>665</poi_type_id>
+      <name>places.works</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="public.administration.prison"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>666</poi_type_id>
+      <name>public.administration.prison</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="public.arts_centre"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>667</poi_type_id>
+      <name>public.arts_centre</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="public.recycling_small"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>668</poi_type_id>
+      <name>public.recycling_small</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.common"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>669</poi_type_id>
+      <name>recreation.common</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.garden"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>670</poi_type_id>
+      <name>recreation.garden</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.nature_reserve"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>671</poi_type_id>
+      <name>recreation.nature_reserve</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.picnic"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>672</poi_type_id>
+      <name>recreation.picnic</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.theme_park"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>673</poi_type_id>
+      <name>recreation.theme_park</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.water_park"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>674</poi_type_id>
+      <name>recreation.water_park</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sightseeing.archeological"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>675</poi_type_id>
+      <name>sightseeing.archeological</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.centre"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>676</poi_type_id>
+      <name>sports.centre</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.fishing"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>677</poi_type_id>
+      <name>sports.fishing</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.pitch"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>678</poi_type_id>
+      <name>sports.pitch</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.stadium"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>679</poi_type_id>
+      <name>sports.stadium</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.track"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>680</poi_type_id>
+      <name>sports.track</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.bus_small"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>681</poi_type_id>
+      <name>transport.bus_small</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.cattle_grid"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>682</poi_type_id>
+      <name>vehicle.cattle_grid</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.crossing_small"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>683</poi_type_id>
+      <name>vehicle.crossing_small</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.ford"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>684</poi_type_id>
+      <name>vehicle.ford</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.gate"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>685</poi_type_id>
+      <name>vehicle.gate</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.services"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>686</poi_type_id>
+      <name>vehicle.services</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.stile"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>687</poi_type_id>
+      <name>vehicle.stile</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.viaduct"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>688</poi_type_id>
+      <name>vehicle.viaduct</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.zebra_crossing"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>689</poi_type_id>
+      <name>vehicle.zebra_crossing</name>
+    </geoinfo>
+  </rule>
 </rules>
