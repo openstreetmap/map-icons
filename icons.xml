@@ -5421,30 +5421,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="transport.roundabout_left"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>440</poi_type_id>
-      <name>transport.roundabout_left</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="transport.roundabout_right"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>441</poi_type_id>
-      <name>transport.roundabout_right</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="education.school.junior_high"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
