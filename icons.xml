@@ -2234,15 +2234,15 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="religion.cemetary"/>
+    <condition k="poi" v="religion.cemetery"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en">Cemetary</title>
+    <title lang="en">Cemetery</title>
     <title lang="de">Friedhof</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>185</poi_type_id>
-      <name>religion.cemetary</name>
+      <name>religion.cemetery</name>
     </geoinfo>
   </rule>
 
@@ -5553,14 +5553,14 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="places.cemetary"/>
+    <condition k="poi" v="places.cemetery"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>453</poi_type_id>
-      <name>places.cemetary</name>
+      <name>places.cemetery</name>
     </geoinfo>
   </rule>
 
@@ -5817,14 +5817,14 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="public.cemetary"/>
+    <condition k="poi" v="public.cemetery"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>642</poi_type_id>
-      <name>public.cemetary</name>
+      <name>public.cemetery</name>
     </geoinfo>
   </rule>
 
