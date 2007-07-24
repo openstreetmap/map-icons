@@ -551,15 +551,15 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="food.beergarden"/>
+    <condition k="poi" v="food.biergarten"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en">Beergarden</title>
+    <title lang="en">Biergarten</title>
     <title lang="de">Biergarten</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>49</poi_type_id>
-      <name>food.beergarden</name>
+      <name>food.biergarten</name>
     </geoinfo>
   </rule>
 
