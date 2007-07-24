@@ -5289,14 +5289,14 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="recreation.museum"/>
+    <condition k="poi" v="sightseeing.museum"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>427</poi_type_id>
-      <name>recreation.museum</name>
+      <name>sightseeing.museum</name>
     </geoinfo>
   </rule>
 
