@@ -6379,4 +6379,28 @@
       <name>vehicle.zebra_crossing</name>
     </geoinfo>
   </rule>
+
+  <rule>
+    <condition k="poi" v="religion.cemetary"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>690</poi_type_id>
+      <name>religion.cemetary</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="recreation.museum"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>691</poi_type_id>
+      <name>recreation.museum</name>
+    </geoinfo>
+  </rule>
 </rules>

@@ -290,7 +290,7 @@ svgdir = $(datadir)/map-icons/svg
 svg_incomming_DATA = svg/incomming/*.svg
 svg_incommingdir = $(datadir)/map-icons/svg/incomming
 
-svg_sightseeing_DATA =
+svg_sightseeing_DATA = svg/sightseeing/*.svg
 svg_sightseeingdir = $(datadir)/map-icons/svg/sightseeing
 
 svg_waypoint_DATA = svg/waypoint/*.svg
@@ -335,6 +335,12 @@ svg_placesdir = $(datadir)/map-icons/svg/places
 svg_vehicle_DATA = svg/vehicle/*.svg
 svg_vehicledir = $(datadir)/map-icons/svg/vehicle
 
+svg_vehicle_restrictions_DATA = svg/vehicle/restrictions/*.svg
+svg_vehicle_restrictionsdir = $(datadir)/map-icons/svg/vehicle/restrictions
+
+svg_vehicle_restrictions_speed_DATA =
+svg_vehicle_restrictions_speeddir = $(datadir)/map-icons/svg/vehicle/restrictions/speed
+
 svg_education_DATA = svg/education/*.svg
 svg_educationdir = $(datadir)/map-icons/svg/education
 
@@ -374,6 +380,9 @@ svg_tndir = $(datadir)/map-icons/svg_tn
 
 svg_tn_incomming_DATA = svg_tn/incomming/*.png
 svg_tn_incommingdir = $(datadir)/map-icons/svg_tn/incomming
+
+svg_tn_sightseeing_DATA = svg_tn/sightseeing/*.png
+svg_tn_sightseeingdir = $(datadir)/map-icons/svg_tn/sightseeing
 
 svg_tn_waypoint_DATA = svg_tn/waypoint/*.png
 svg_tn_waypointdir = $(datadir)/map-icons/svg_tn/waypoint
@@ -475,7 +484,7 @@ jp_nauticaldir = $(datadir)/map-icons/jp/nautical
 jp_food_DATA =
 jp_fooddir = $(datadir)/map-icons/jp/food
 
-jp_recreation_DATA = jp/recreation/*.svg
+jp_recreation_DATA =
 jp_recreationdir = $(datadir)/map-icons/jp/recreation
 
 jp_sports_DATA =
@@ -533,7 +542,7 @@ jp_tn_sightseeingdir = $(datadir)/map-icons/jp_tn/sightseeing
 jp_tn_health_DATA = jp_tn/health/*.png
 jp_tn_healthdir = $(datadir)/map-icons/jp_tn/health
 
-jp_tn_recreation_DATA = jp_tn/recreation/*.png
+jp_tn_recreation_DATA =
 jp_tn_recreationdir = $(datadir)/map-icons/jp_tn/recreation
 
 jp_tn_places_DATA = jp_tn/places/*.png
@@ -962,6 +971,8 @@ EXTRA_DIST= \
 	$(svg_misc_DATA) \
 	$(svg_places_DATA) \
 	$(svg_vehicle_DATA) \
+	$(svg_vehicle_restrictions_DATA) \
+	$(svg_vehicle_restrictions_speed_DATA) \
 	$(svg_education_DATA) \
 	$(svg_education_school_DATA) \
 	$(svg_shopping_DATA) \
@@ -975,6 +986,7 @@ EXTRA_DIST= \
 	$(svg_transport_bridge_DATA) \
 	$(svg_tn_DATA) \
 	$(svg_tn_incomming_DATA) \
+	$(svg_tn_sightseeing_DATA) \
 	$(svg_tn_waypoint_DATA) \
 	$(svg_tn_accommodation_DATA) \
 	$(svg_tn_accommodation_camping_DATA) \
