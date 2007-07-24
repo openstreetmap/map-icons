@@ -2906,15 +2906,15 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="sightseeing.ruin"/>
+    <condition k="poi" v="sightseeing.ruins"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en">Ruin</title>
-    <title lang="de">Ruine</title>
+    <title lang="en">Ruins</title>
+    <title lang="de">Ruinen</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>236</poi_type_id>
-      <name>sightseeing.ruin</name>
+      <name>sightseeing.ruins</name>
     </geoinfo>
   </rule>
 
