@@ -5553,18 +5553,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="places.cemetery"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>453</poi_type_id>
-      <name>places.cemetery</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="places.chimney"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -5813,18 +5801,6 @@
     <geoinfo>
       <poi_type_id>641</poi_type_id>
       <name>vehicle.restrictions.road_works</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="public.cemetery"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>642</poi_type_id>
-      <name>public.cemetery</name>
     </geoinfo>
   </rule>
 
