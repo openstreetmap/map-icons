@@ -6,12 +6,15 @@ echo "" >$makefile
 for theme in square.big square.small svg svg_tn jp jp_tn classic.small classic.big nickw ; do 
     find $theme -type d | grep -v /.svn | while read dir; do
 	# if no files in dir
-	echo $dir/*.png | grep -q -e '\*' && continue
-
 	name=${dir//-/_}
 	name=${name//\//_}
 	echo "" >>$makefile
-	echo $name'_DATA = '$dir'/*.png' >>$makefile
+	echo -n $name'_DATA =' >>$makefile
+	for type in png svg ; do
+	    echo $dir/*.$type | grep -q -e '\*' && continue
+	    echo -n " $dir/*.$type" >>$makefile
+	done
+	echo "" >>$makefile
 	echo $name'dir = $(datadir)/map-icons/'$dir >>$makefile
     done
     echo  >>$makefile
@@ -23,7 +26,7 @@ echo "EXTRA_DIST= \\" >>$makefile
 for theme in square.big square.small svg svg_tn jp jp_tn classic.small classic.big nickw ; do 
     find $theme -type d | grep -v /.svn | while read dir; do
 	# if no files in dir
-	echo $dir/*.png | grep -q -e '\*' && continue
+	#echo $dir/*.png | grep -q -e '\*' && continue
 
 	name=${dir//-/_}
 	name=${name//\//_}
