@@ -5409,18 +5409,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="transport.drawbridge"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>439</poi_type_id>
-      <name>transport.drawbridge</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="education.school.junior_high"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -5652,8 +5640,8 @@
     <condition k="poi" v="transport.bridge.drawbridge"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <title lang="en">Drawbridge</title>
+    <title lang="de">Zugbrücke</title>
     <geoinfo>
       <poi_type_id>545</poi_type_id>
       <name>transport.bridge.drawbridge</name>
