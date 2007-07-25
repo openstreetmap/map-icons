@@ -78,14 +78,11 @@ square.big_miscdir = $(datadir)/map-icons/square.big/misc
 square.big_misc_landmark_DATA = square.big/misc/landmark/*.png
 square.big_misc_landmarkdir = $(datadir)/map-icons/square.big/misc/landmark
 
-square.big_misc_landmark_power_DATA =
+square.big_misc_landmark_power_DATA = square.big/misc/landmark/power/*.png
 square.big_misc_landmark_powerdir = $(datadir)/map-icons/square.big/misc/landmark/power
 
 square.big_places_DATA = square.big/places/*.png
 square.big_placesdir = $(datadir)/map-icons/square.big/places
-
-square.big_places_power_DATA = square.big/places/power/*.png
-square.big_places_powerdir = $(datadir)/map-icons/square.big/places/power
 
 square.big_places_settlement_DATA = square.big/places/settlement/*.png
 square.big_places_settlementdir = $(datadir)/map-icons/square.big/places/settlement
@@ -425,7 +422,7 @@ svg_recreationdir = $(datadir)/map-icons/svg/recreation
 svg_sports_DATA = svg/sports/*.svg
 svg_sportsdir = $(datadir)/map-icons/svg/sports
 
-svg_misc_DATA =
+svg_misc_DATA = svg/misc/*.svg
 svg_miscdir = $(datadir)/map-icons/svg/misc
 
 svg_misc_landmark_DATA = svg/misc/landmark/*.svg
@@ -507,7 +504,13 @@ svg_tn_recreationdir = $(datadir)/map-icons/svg_tn/recreation
 svg_tn_sports_DATA = svg_tn/sports/*.png
 svg_tn_sportsdir = $(datadir)/map-icons/svg_tn/sports
 
-svg_tn_places_DATA = svg_tn/places/*.png
+svg_tn_misc_DATA = svg_tn/misc/*.png
+svg_tn_miscdir = $(datadir)/map-icons/svg_tn/misc
+
+svg_tn_misc_landmark_DATA = svg_tn/misc/landmark/*.png
+svg_tn_misc_landmarkdir = $(datadir)/map-icons/svg_tn/misc/landmark
+
+svg_tn_places_DATA =
 svg_tn_placesdir = $(datadir)/map-icons/svg_tn/places
 
 svg_tn_vehicle_DATA = svg_tn/vehicle/*.png
@@ -649,6 +652,12 @@ jp_tn_healthdir = $(datadir)/map-icons/jp_tn/health
 
 jp_tn_recreation_DATA =
 jp_tn_recreationdir = $(datadir)/map-icons/jp_tn/recreation
+
+jp_tn_misc_DATA =
+jp_tn_miscdir = $(datadir)/map-icons/jp_tn/misc
+
+jp_tn_misc_landmark_DATA = jp_tn/misc/landmark/*.png
+jp_tn_misc_landmarkdir = $(datadir)/map-icons/jp_tn/misc/landmark
 
 jp_tn_places_DATA = jp_tn/places/*.png
 jp_tn_placesdir = $(datadir)/map-icons/jp_tn/places
@@ -1017,7 +1026,6 @@ EXTRA_DIST= \
 	$(square.big_misc_landmark_DATA) \
 	$(square.big_misc_landmark_power_DATA) \
 	$(square.big_places_DATA) \
-	$(square.big_places_power_DATA) \
 	$(square.big_places_settlement_DATA) \
 	$(square.big_vehicle_DATA) \
 	$(square.big_vehicle_car_rental_DATA) \
@@ -1157,6 +1165,8 @@ EXTRA_DIST= \
 	$(svg_tn_food_DATA) \
 	$(svg_tn_recreation_DATA) \
 	$(svg_tn_sports_DATA) \
+	$(svg_tn_misc_DATA) \
+	$(svg_tn_misc_landmark_DATA) \
 	$(svg_tn_places_DATA) \
 	$(svg_tn_vehicle_DATA) \
 	$(svg_tn_vehicle_restrictions_DATA) \
@@ -1204,6 +1214,8 @@ EXTRA_DIST= \
 	$(jp_tn_sightseeing_DATA) \
 	$(jp_tn_health_DATA) \
 	$(jp_tn_recreation_DATA) \
+	$(jp_tn_misc_DATA) \
+	$(jp_tn_misc_landmark_DATA) \
 	$(jp_tn_places_DATA) \
 	$(jp_tn_education_DATA) \
 	$(jp_tn_education_school_DATA) \

@@ -26,6 +26,7 @@
     <geoinfo>
       <poi_type_id>2</poi_type_id>
       <name>accommodation</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -484,6 +485,7 @@
     <geoinfo>
       <poi_type_id>46</poi_type_id>
       <name>accommodation.youth-hostel</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -700,6 +702,7 @@
     <geoinfo>
       <poi_type_id>64</poi_type_id>
       <name>food.fastfood.burger-king</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -712,6 +715,7 @@
     <geoinfo>
       <poi_type_id>65</poi_type_id>
       <name>food.fastfood.kfc</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -724,6 +728,7 @@
     <geoinfo>
       <poi_type_id>66</poi_type_id>
       <name>food.fastfood.mc-donalds</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -736,6 +741,7 @@
     <geoinfo>
       <poi_type_id>67</poi_type_id>
       <name>food.fastfood.subway</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -796,6 +802,7 @@
     <geoinfo>
       <poi_type_id>72</poi_type_id>
       <name>food.pizzahut</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -1492,6 +1499,7 @@
     <geoinfo>
       <poi_type_id>221</poi_type_id>
       <name>money.atm</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -1588,6 +1596,7 @@
     <geoinfo>
       <poi_type_id>229</poi_type_id>
       <name>money.bank.vr-bank</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -2216,366 +2225,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="places.barn"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>282</poi_type_id>
-      <name>places.barn</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.beacon"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>283</poi_type_id>
-      <name>places.beacon</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.chimney"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>284</poi_type_id>
-      <name>places.chimney</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.farm"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>285</poi_type_id>
-      <name>places.farm</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.gasometer"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>286</poi_type_id>
-      <name>places.gasometer</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.lighthouse"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>287</poi_type_id>
-      <name>places.lighthouse</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.mine"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>288</poi_type_id>
-      <name>places.mine</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.peak"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>289</poi_type_id>
-      <name>places.peak</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.peak_small"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>290</poi_type_id>
-      <name>places.peak_small</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.power.fossil"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>291</poi_type_id>
-      <name>places.power.fossil</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.power.hydro"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>292</poi_type_id>
-      <name>places.power.hydro</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.power.nuclear"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>293</poi_type_id>
-      <name>places.power.nuclear</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.power.tower"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>294</poi_type_id>
-      <name>places.power.tower</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.power.wind"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>295</poi_type_id>
-      <name>places.power.wind</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.reservoir_covered"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>296</poi_type_id>
-      <name>places.reservoir_covered</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>297</poi_type_id>
-      <name>places.settlement</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement.capital"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>298</poi_type_id>
-      <name>places.settlement.capital</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement.city"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>299</poi_type_id>
-      <name>places.settlement.city</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement.hamlet"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>300</poi_type_id>
-      <name>places.settlement.hamlet</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement.part"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>301</poi_type_id>
-      <name>places.settlement.part</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement.suburb"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>302</poi_type_id>
-      <name>places.settlement.suburb</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement.town"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>303</poi_type_id>
-      <name>places.settlement.town</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement.village"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>304</poi_type_id>
-      <name>places.settlement.village</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.spring"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>305</poi_type_id>
-      <name>places.spring</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.survey_point"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>306</poi_type_id>
-      <name>places.survey_point</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.tower"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>307</poi_type_id>
-      <name>places.tower</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.trees"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>308</poi_type_id>
-      <name>places.trees</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.water_tower"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>309</poi_type_id>
-      <name>places.water_tower</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.windmill"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>310</poi_type_id>
-      <name>places.windmill</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.works"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>311</poi_type_id>
-      <name>places.works</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="public.administration"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -2936,14 +2585,14 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="recreation.kiteflying"/>
+    <condition k="poi" v="sports.kiteflying"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>342</poi_type_id>
-      <name>recreation.kiteflying</name>
+      <name>sports.kiteflying</name>
     </geoinfo>
   </rule>
 
@@ -3257,6 +2906,7 @@
     <geoinfo>
       <poi_type_id>369</poi_type_id>
       <name>shopping.diy_store.hagebau</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -3269,6 +2919,7 @@
     <geoinfo>
       <poi_type_id>370</poi_type_id>
       <name>shopping.diy_store.hornbach</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -3281,6 +2932,7 @@
     <geoinfo>
       <poi_type_id>371</poi_type_id>
       <name>shopping.diy_store.obi</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -3293,6 +2945,7 @@
     <geoinfo>
       <poi_type_id>372</poi_type_id>
       <name>shopping.diy_store.praktiker</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -3533,6 +3186,7 @@
     <geoinfo>
       <poi_type_id>392</poi_type_id>
       <name>shopping.kaufhof</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -3965,6 +3619,7 @@
     <geoinfo>
       <poi_type_id>428</poi_type_id>
       <name>shopping.supermarket.aldi</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -3977,6 +3632,7 @@
     <geoinfo>
       <poi_type_id>429</poi_type_id>
       <name>shopping.supermarket.aldi_nord</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -3989,6 +3645,7 @@
     <geoinfo>
       <poi_type_id>430</poi_type_id>
       <name>shopping.supermarket.kaufland</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4001,6 +3658,7 @@
     <geoinfo>
       <poi_type_id>431</poi_type_id>
       <name>shopping.supermarket.lidl</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4013,6 +3671,7 @@
     <geoinfo>
       <poi_type_id>432</poi_type_id>
       <name>shopping.supermarket.marktkauf</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4025,6 +3684,7 @@
     <geoinfo>
       <poi_type_id>433</poi_type_id>
       <name>shopping.supermarket.metro</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4037,6 +3697,7 @@
     <geoinfo>
       <poi_type_id>434</poi_type_id>
       <name>shopping.supermarket.minimal</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4049,6 +3710,7 @@
     <geoinfo>
       <poi_type_id>435</poi_type_id>
       <name>shopping.supermarket.norma</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4061,6 +3723,7 @@
     <geoinfo>
       <poi_type_id>436</poi_type_id>
       <name>shopping.supermarket.pennymarkt</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4073,6 +3736,7 @@
     <geoinfo>
       <poi_type_id>437</poi_type_id>
       <name>shopping.supermarket.plus</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4085,6 +3749,7 @@
     <geoinfo>
       <poi_type_id>438</poi_type_id>
       <name>shopping.supermarket.real</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4097,6 +3762,7 @@
     <geoinfo>
       <poi_type_id>439</poi_type_id>
       <name>shopping.supermarket.rewe</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4109,6 +3775,7 @@
     <geoinfo>
       <poi_type_id>440</poi_type_id>
       <name>shopping.supermarket.tengelmann</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4913,6 +4580,7 @@
     <geoinfo>
       <poi_type_id>507</poi_type_id>
       <name>vehicle.car_rental.avis</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4925,6 +4593,7 @@
     <geoinfo>
       <poi_type_id>508</poi_type_id>
       <name>vehicle.car_rental.europcar</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4937,6 +4606,7 @@
     <geoinfo>
       <poi_type_id>509</poi_type_id>
       <name>vehicle.car_rental.hertz</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4949,6 +4619,7 @@
     <geoinfo>
       <poi_type_id>510</poi_type_id>
       <name>vehicle.car_rental.sixt</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5057,6 +4728,7 @@
     <geoinfo>
       <poi_type_id>519</poi_type_id>
       <name>vehicle.fuel_station.agip</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5069,6 +4741,7 @@
     <geoinfo>
       <poi_type_id>520</poi_type_id>
       <name>vehicle.fuel_station.aral</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5081,6 +4754,7 @@
     <geoinfo>
       <poi_type_id>521</poi_type_id>
       <name>vehicle.fuel_station.autogas</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5105,6 +4779,7 @@
     <geoinfo>
       <poi_type_id>523</poi_type_id>
       <name>vehicle.fuel_station.elf</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5117,6 +4792,7 @@
     <geoinfo>
       <poi_type_id>524</poi_type_id>
       <name>vehicle.fuel_station.esso</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5141,6 +4817,7 @@
     <geoinfo>
       <poi_type_id>526</poi_type_id>
       <name>vehicle.fuel_station.jet</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5153,6 +4830,7 @@
     <geoinfo>
       <poi_type_id>527</poi_type_id>
       <name>vehicle.fuel_station.omv</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5165,6 +4843,7 @@
     <geoinfo>
       <poi_type_id>528</poi_type_id>
       <name>vehicle.fuel_station.shell</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5177,6 +4856,7 @@
     <geoinfo>
       <poi_type_id>529</poi_type_id>
       <name>vehicle.fuel_station.texaco</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5189,6 +4869,7 @@
     <geoinfo>
       <poi_type_id>530</poi_type_id>
       <name>vehicle.fuel_station.total</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5357,6 +5038,7 @@
     <geoinfo>
       <poi_type_id>544</poi_type_id>
       <name>vehicle.restrictions</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -5873,6 +5555,7 @@
     <geoinfo>
       <poi_type_id>589</poi_type_id>
       <name>wlan.pay.fon</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -6173,6 +5856,114 @@
     <geoinfo>
       <poi_type_id>614</poi_type_id>
       <name>misc.landmark.works</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="empty"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>615</poi_type_id>
+      <name>empty</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.landmark.power"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>699</poi_type_id>
+      <name>misc.landmark.power</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.landmark"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>700</poi_type_id>
+      <name>misc.landmark</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.settlement"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>701</poi_type_id>
+      <name>places.settlement</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.settlement.capital"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>702</poi_type_id>
+      <name>places.settlement.capital</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.settlement.city"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>703</poi_type_id>
+      <name>places.settlement.city</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.settlement.hamlet"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>704</poi_type_id>
+      <name>places.settlement.hamlet</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.settlement.town"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>705</poi_type_id>
+      <name>places.settlement.town</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.settlement.village"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>706</poi_type_id>
+      <name>places.settlement.village</name>
     </geoinfo>
   </rule>
 </rules>
