@@ -78,6 +78,9 @@ square.big_miscdir = $(datadir)/map-icons/square.big/misc
 square.big_places_DATA = square.big/places/*.png
 square.big_placesdir = $(datadir)/map-icons/square.big/places
 
+square.big_places_power_DATA = square.big/places/power/*.png
+square.big_places_powerdir = $(datadir)/map-icons/square.big/places/power
+
 square.big_places_settlement_DATA = square.big/places/settlement/*.png
 square.big_places_settlementdir = $(datadir)/map-icons/square.big/places/settlement
 
@@ -153,7 +156,7 @@ square.big_public_recyclingdir = $(datadir)/map-icons/square.big/public/recyclin
 square.big_public_recycling_container_DATA =
 square.big_public_recycling_containerdir = $(datadir)/map-icons/square.big/public/recycling/container
 
-square.big_public_administration_DATA =
+square.big_public_administration_DATA = square.big/public/administration/*.png
 square.big_public_administrationdir = $(datadir)/map-icons/square.big/public/administration
 
 square.big_people_DATA = square.big/people/*.png
@@ -179,6 +182,9 @@ square.big_transport_ferrydir = $(datadir)/map-icons/square.big/transport/ferry
 
 square.big_transport_bridge_DATA = square.big/transport/bridge/*.png
 square.big_transport_bridgedir = $(datadir)/map-icons/square.big/transport/bridge
+
+square.big_transport_track_DATA = square.big/transport/track/*.png
+square.big_transport_trackdir = $(datadir)/map-icons/square.big/transport/track
 
 
 square.small_DATA = square.small/*.png
@@ -259,6 +265,9 @@ square.small_miscdir = $(datadir)/map-icons/square.small/misc
 square.small_places_DATA = square.small/places/*.png
 square.small_placesdir = $(datadir)/map-icons/square.small/places
 
+square.small_places_power_DATA = square.small/places/power/*.png
+square.small_places_powerdir = $(datadir)/map-icons/square.small/places/power
+
 square.small_places_settlement_DATA = square.small/places/settlement/*.png
 square.small_places_settlementdir = $(datadir)/map-icons/square.small/places/settlement
 
@@ -331,7 +340,7 @@ square.small_public_recyclingdir = $(datadir)/map-icons/square.small/public/recy
 square.small_public_recycling_container_DATA =
 square.small_public_recycling_containerdir = $(datadir)/map-icons/square.small/public/recycling/container
 
-square.small_public_administration_DATA =
+square.small_public_administration_DATA = square.small/public/administration/*.png
 square.small_public_administrationdir = $(datadir)/map-icons/square.small/public/administration
 
 square.small_people_DATA = square.small/people/*.png
@@ -357,6 +366,9 @@ square.small_transport_ferrydir = $(datadir)/map-icons/square.small/transport/fe
 
 square.small_transport_bridge_DATA = square.small/transport/bridge/*.png
 square.small_transport_bridgedir = $(datadir)/map-icons/square.small/transport/bridge
+
+square.small_transport_track_DATA = square.small/transport/track/*.png
+square.small_transport_trackdir = $(datadir)/map-icons/square.small/transport/track
 
 
 svg_DATA = svg/*.svg
@@ -868,6 +880,9 @@ classic.big_misc_informationdir = $(datadir)/map-icons/classic.big/misc/informat
 classic.big_places_DATA = classic.big/places/*.png
 classic.big_placesdir = $(datadir)/map-icons/classic.big/places
 
+classic.big_places_power_DATA = classic.big/places/power/*.png
+classic.big_places_powerdir = $(datadir)/map-icons/classic.big/places/power
+
 classic.big_places_settlement_DATA = classic.big/places/settlement/*.png
 classic.big_places_settlementdir = $(datadir)/map-icons/classic.big/places/settlement
 
@@ -913,6 +928,9 @@ classic.big_publicdir = $(datadir)/map-icons/classic.big/public
 classic.big_public_recycling_DATA = classic.big/public/recycling/*.png
 classic.big_public_recyclingdir = $(datadir)/map-icons/classic.big/public/recycling
 
+classic.big_public_administration_DATA = classic.big/public/administration/*.png
+classic.big_public_administrationdir = $(datadir)/map-icons/classic.big/public/administration
+
 classic.big_people_DATA = classic.big/people/*.png
 classic.big_peopledir = $(datadir)/map-icons/classic.big/people
 
@@ -930,6 +948,9 @@ classic.big_transport_ferrydir = $(datadir)/map-icons/classic.big/transport/ferr
 
 classic.big_transport_bridge_DATA = classic.big/transport/bridge/*.png
 classic.big_transport_bridgedir = $(datadir)/map-icons/classic.big/transport/bridge
+
+classic.big_transport_track_DATA = classic.big/transport/track/*.png
+classic.big_transport_trackdir = $(datadir)/map-icons/classic.big/transport/track
 
 
 nickw_DATA = nickw/*.png
@@ -964,6 +985,7 @@ EXTRA_DIST= \
 	$(square.big_sports_DATA) \
 	$(square.big_misc_DATA) \
 	$(square.big_places_DATA) \
+	$(square.big_places_power_DATA) \
 	$(square.big_places_settlement_DATA) \
 	$(square.big_vehicle_DATA) \
 	$(square.big_vehicle_car_rental_DATA) \
@@ -998,6 +1020,7 @@ EXTRA_DIST= \
 	$(square.big_transport_DATA) \
 	$(square.big_transport_ferry_DATA) \
 	$(square.big_transport_bridge_DATA) \
+	$(square.big_transport_track_DATA) \
 	$(square.small_DATA) \
 	$(square.small_incomming_DATA) \
 	$(square.small_sightseeing_DATA) \
@@ -1024,6 +1047,7 @@ EXTRA_DIST= \
 	$(square.small_sports_DATA) \
 	$(square.small_misc_DATA) \
 	$(square.small_places_DATA) \
+	$(square.small_places_power_DATA) \
 	$(square.small_places_settlement_DATA) \
 	$(square.small_vehicle_DATA) \
 	$(square.small_vehicle_car_rental_DATA) \
@@ -1057,6 +1081,7 @@ EXTRA_DIST= \
 	$(square.small_transport_DATA) \
 	$(square.small_transport_ferry_DATA) \
 	$(square.small_transport_bridge_DATA) \
+	$(square.small_transport_track_DATA) \
 	$(svg_DATA) \
 	$(svg_incomming_DATA) \
 	$(svg_sightseeing_DATA) \
@@ -1225,6 +1250,7 @@ EXTRA_DIST= \
 	$(classic.big_misc_DATA) \
 	$(classic.big_misc_information_DATA) \
 	$(classic.big_places_DATA) \
+	$(classic.big_places_power_DATA) \
 	$(classic.big_places_settlement_DATA) \
 	$(classic.big_vehicle_DATA) \
 	$(classic.big_vehicle_car_rental_DATA) \
@@ -1240,12 +1266,14 @@ EXTRA_DIST= \
 	$(classic.big_shopping_rental_DATA) \
 	$(classic.big_public_DATA) \
 	$(classic.big_public_recycling_DATA) \
+	$(classic.big_public_administration_DATA) \
 	$(classic.big_people_DATA) \
 	$(classic.big_religion_DATA) \
 	$(classic.big_religion_church_DATA) \
 	$(classic.big_transport_DATA) \
 	$(classic.big_transport_ferry_DATA) \
 	$(classic.big_transport_bridge_DATA) \
+	$(classic.big_transport_track_DATA) \
 	$(nickw_DATA) \
 	CMakeLists.txt \
 	index.html \
