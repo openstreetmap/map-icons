@@ -42,7 +42,7 @@ square.big_healthdir = $(datadir)/map-icons/square.big/health
 square.big_money_DATA = square.big/money/*.png
 square.big_moneydir = $(datadir)/map-icons/square.big/money
 
-square.big_money_atm_DATA = square.big/money/atm/*.png
+square.big_money_atm_DATA =
 square.big_money_atmdir = $(datadir)/map-icons/square.big/money/atm
 
 square.big_money_bank_DATA = square.big/money/bank/*.png
@@ -60,7 +60,7 @@ square.big_food_restaurantdir = $(datadir)/map-icons/square.big/food/restaurant
 square.big_food_fastfood_DATA = square.big/food/fastfood/*.png
 square.big_food_fastfooddir = $(datadir)/map-icons/square.big/food/fastfood
 
-square.big_food_machine_DATA = square.big/food/machine/*.png
+square.big_food_machine_DATA =
 square.big_food_machinedir = $(datadir)/map-icons/square.big/food/machine
 
 square.big_food_snacks_DATA = square.big/food/snacks/*.png
@@ -108,19 +108,19 @@ square.big_education_schooldir = $(datadir)/map-icons/square.big/education/schoo
 square.big_shopping_DATA = square.big/shopping/*.png
 square.big_shoppingdir = $(datadir)/map-icons/square.big/shopping
 
-square.big_shopping_furniture_DATA = square.big/shopping/furniture/*.png
+square.big_shopping_furniture_DATA =
 square.big_shopping_furnituredir = $(datadir)/map-icons/square.big/shopping/furniture
 
 square.big_shopping_groceries_DATA = square.big/shopping/groceries/*.png
 square.big_shopping_groceriesdir = $(datadir)/map-icons/square.big/shopping/groceries
 
-square.big_shopping_sports_DATA = square.big/shopping/sports/*.png
+square.big_shopping_sports_DATA =
 square.big_shopping_sportsdir = $(datadir)/map-icons/square.big/shopping/sports
 
-square.big_shopping_vehicle_DATA = square.big/shopping/vehicle/*.png
+square.big_shopping_vehicle_DATA =
 square.big_shopping_vehicledir = $(datadir)/map-icons/square.big/shopping/vehicle
 
-square.big_shopping_machine_DATA = square.big/shopping/machine/*.png
+square.big_shopping_machine_DATA =
 square.big_shopping_machinedir = $(datadir)/map-icons/square.big/shopping/machine
 
 square.big_shopping_clothing_DATA =
@@ -129,7 +129,7 @@ square.big_shopping_clothingdir = $(datadir)/map-icons/square.big/shopping/cloth
 square.big_shopping_supermarket_DATA = square.big/shopping/supermarket/*.png
 square.big_shopping_supermarketdir = $(datadir)/map-icons/square.big/shopping/supermarket
 
-square.big_shopping_media_DATA = square.big/shopping/media/*.png
+square.big_shopping_media_DATA =
 square.big_shopping_mediadir = $(datadir)/map-icons/square.big/shopping/media
 
 square.big_shopping_diy_store_DATA = square.big/shopping/diy_store/*.png
@@ -138,22 +138,22 @@ square.big_shopping_diy_storedir = $(datadir)/map-icons/square.big/shopping/diy_
 square.big_shopping_rental_DATA = square.big/shopping/rental/*.png
 square.big_shopping_rentaldir = $(datadir)/map-icons/square.big/shopping/rental
 
-square.big_shopping_games_DATA = square.big/shopping/games/*.png
+square.big_shopping_games_DATA =
 square.big_shopping_gamesdir = $(datadir)/map-icons/square.big/shopping/games
 
 square.big_public_DATA = square.big/public/*.png
 square.big_publicdir = $(datadir)/map-icons/square.big/public
 
-square.big_public_inspecting_authority_DATA = square.big/public/inspecting-authority/*.png
+square.big_public_inspecting_authority_DATA =
 square.big_public_inspecting_authoritydir = $(datadir)/map-icons/square.big/public/inspecting-authority
 
 square.big_public_recycling_DATA = square.big/public/recycling/*.png
 square.big_public_recyclingdir = $(datadir)/map-icons/square.big/public/recycling
 
-square.big_public_recycling_container_DATA = square.big/public/recycling/container/*.png
+square.big_public_recycling_container_DATA =
 square.big_public_recycling_containerdir = $(datadir)/map-icons/square.big/public/recycling/container
 
-square.big_public_administration_DATA = square.big/public/administration/*.png
+square.big_public_administration_DATA =
 square.big_public_administrationdir = $(datadir)/map-icons/square.big/public/administration
 
 square.big_people_DATA = square.big/people/*.png
@@ -862,7 +862,7 @@ classic.big_sportsdir = $(datadir)/map-icons/classic.big/sports
 classic.big_misc_DATA = classic.big/misc/*.png
 classic.big_miscdir = $(datadir)/map-icons/classic.big/misc
 
-classic.big_misc_information_DATA = classic.big/misc/information/*.png
+classic.big_misc_information_DATA =
 classic.big_misc_informationdir = $(datadir)/map-icons/classic.big/misc/information
 
 classic.big_places_DATA = classic.big/places/*.png
