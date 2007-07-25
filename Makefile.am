@@ -274,9 +274,6 @@ square.small_misc_landmark_powerdir = $(datadir)/map-icons/square.small/misc/lan
 square.small_places_DATA = square.small/places/*.png
 square.small_placesdir = $(datadir)/map-icons/square.small/places
 
-square.small_places_power_DATA =
-square.small_places_powerdir = $(datadir)/map-icons/square.small/places/power
-
 square.small_places_settlement_DATA = square.small/places/settlement/*.png
 square.small_places_settlementdir = $(datadir)/map-icons/square.small/places/settlement
 
@@ -768,9 +765,6 @@ classic.small_misc_informationdir = $(datadir)/map-icons/classic.small/misc/info
 classic.small_places_DATA = classic.small/places/*.png
 classic.small_placesdir = $(datadir)/map-icons/classic.small/places
 
-classic.small_places_power_DATA =
-classic.small_places_powerdir = $(datadir)/map-icons/classic.small/places/power
-
 classic.small_places_settlement_DATA = classic.small/places/settlement/*.png
 classic.small_places_settlementdir = $(datadir)/map-icons/classic.small/places/settlement
 
@@ -918,9 +912,6 @@ classic.big_misc_informationdir = $(datadir)/map-icons/classic.big/misc/informat
 
 classic.big_places_DATA = classic.big/places/*.png
 classic.big_placesdir = $(datadir)/map-icons/classic.big/places
-
-classic.big_places_power_DATA =
-classic.big_places_powerdir = $(datadir)/map-icons/classic.big/places/power
 
 classic.big_places_settlement_DATA = classic.big/places/settlement/*.png
 classic.big_places_settlementdir = $(datadir)/map-icons/classic.big/places/settlement
@@ -1089,7 +1080,6 @@ EXTRA_DIST= \
 	$(square.small_misc_landmark_DATA) \
 	$(square.small_misc_landmark_power_DATA) \
 	$(square.small_places_DATA) \
-	$(square.small_places_power_DATA) \
 	$(square.small_places_settlement_DATA) \
 	$(square.small_vehicle_DATA) \
 	$(square.small_vehicle_car_rental_DATA) \
@@ -1252,7 +1242,6 @@ EXTRA_DIST= \
 	$(classic.small_misc_landmark_power_DATA) \
 	$(classic.small_misc_information_DATA) \
 	$(classic.small_places_DATA) \
-	$(classic.small_places_power_DATA) \
 	$(classic.small_places_settlement_DATA) \
 	$(classic.small_vehicle_DATA) \
 	$(classic.small_vehicle_car_rental_DATA) \
@@ -1302,7 +1291,6 @@ EXTRA_DIST= \
 	$(classic.big_misc_landmark_power_DATA) \
 	$(classic.big_misc_information_DATA) \
 	$(classic.big_places_DATA) \
-	$(classic.big_places_power_DATA) \
 	$(classic.big_places_settlement_DATA) \
 	$(classic.big_vehicle_DATA) \
 	$(classic.big_vehicle_car_rental_DATA) \
