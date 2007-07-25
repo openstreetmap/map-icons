@@ -93,7 +93,7 @@ square.big_vehicle_parkingdir = $(datadir)/map-icons/square.big/vehicle/parking
 square.big_vehicle_restrictions_DATA = square.big/vehicle/restrictions/*.png
 square.big_vehicle_restrictionsdir = $(datadir)/map-icons/square.big/vehicle/restrictions
 
-square.big_vehicle_restrictions_speed_DATA =
+square.big_vehicle_restrictions_speed_DATA = square.big/vehicle/restrictions/speed/*.png
 square.big_vehicle_restrictions_speeddir = $(datadir)/map-icons/square.big/vehicle/restrictions/speed
 
 square.big_vehicle_fuel_station_DATA = square.big/vehicle/fuel_station/*.png
@@ -174,6 +174,12 @@ square.big_religion_churchdir = $(datadir)/map-icons/square.big/religion/church
 square.big_transport_DATA = square.big/transport/*.png
 square.big_transportdir = $(datadir)/map-icons/square.big/transport
 
+square.big_transport_ferry_DATA = square.big/transport/ferry/*.png
+square.big_transport_ferrydir = $(datadir)/map-icons/square.big/transport/ferry
+
+square.big_transport_bridge_DATA = square.big/transport/bridge/*.png
+square.big_transport_bridgedir = $(datadir)/map-icons/square.big/transport/bridge
+
 
 square.small_DATA = square.small/*.png
 square.smalldir = $(datadir)/map-icons/square.small
@@ -196,6 +202,9 @@ square.small_accommodationdir = $(datadir)/map-icons/square.small/accommodation
 square.small_accommodation_hotel_DATA = square.small/accommodation/hotel/*.png
 square.small_accommodation_hoteldir = $(datadir)/map-icons/square.small/accommodation/hotel
 
+square.small_accommodation_camping_DATA = square.small/accommodation/camping/*.png
+square.small_accommodation_campingdir = $(datadir)/map-icons/square.small/accommodation/camping
+
 square.small_wlan_DATA = square.small/wlan/*.png
 square.small_wlandir = $(datadir)/map-icons/square.small/wlan
 
@@ -214,14 +223,29 @@ square.small_healthdir = $(datadir)/map-icons/square.small/health
 square.small_money_DATA = square.small/money/*.png
 square.small_moneydir = $(datadir)/map-icons/square.small/money
 
+square.small_money_atm_DATA =
+square.small_money_atmdir = $(datadir)/map-icons/square.small/money/atm
+
+square.small_money_bank_DATA = square.small/money/bank/*.png
+square.small_money_bankdir = $(datadir)/map-icons/square.small/money/bank
+
 square.small_nautical_DATA = square.small/nautical/*.png
 square.small_nauticaldir = $(datadir)/map-icons/square.small/nautical
 
 square.small_food_DATA = square.small/food/*.png
 square.small_fooddir = $(datadir)/map-icons/square.small/food
 
+square.small_food_restaurant_DATA = square.small/food/restaurant/*.png
+square.small_food_restaurantdir = $(datadir)/map-icons/square.small/food/restaurant
+
 square.small_food_fastfood_DATA = square.small/food/fastfood/*.png
 square.small_food_fastfooddir = $(datadir)/map-icons/square.small/food/fastfood
+
+square.small_food_machine_DATA =
+square.small_food_machinedir = $(datadir)/map-icons/square.small/food/machine
+
+square.small_food_snacks_DATA = square.small/food/snacks/*.png
+square.small_food_snacksdir = $(datadir)/map-icons/square.small/food/snacks
 
 square.small_recreation_DATA = square.small/recreation/*.png
 square.small_recreationdir = $(datadir)/map-icons/square.small/recreation
@@ -241,13 +265,16 @@ square.small_places_settlementdir = $(datadir)/map-icons/square.small/places/set
 square.small_vehicle_DATA = square.small/vehicle/*.png
 square.small_vehicledir = $(datadir)/map-icons/square.small/vehicle
 
+square.small_vehicle_car_rental_DATA = square.small/vehicle/car_rental/*.png
+square.small_vehicle_car_rentaldir = $(datadir)/map-icons/square.small/vehicle/car_rental
+
 square.small_vehicle_parking_DATA = square.small/vehicle/parking/*.png
 square.small_vehicle_parkingdir = $(datadir)/map-icons/square.small/vehicle/parking
 
 square.small_vehicle_restrictions_DATA = square.small/vehicle/restrictions/*.png
 square.small_vehicle_restrictionsdir = $(datadir)/map-icons/square.small/vehicle/restrictions
 
-square.small_vehicle_restrictions_speed_DATA =
+square.small_vehicle_restrictions_speed_DATA = square.small/vehicle/restrictions/speed/*.png
 square.small_vehicle_restrictions_speeddir = $(datadir)/map-icons/square.small/vehicle/restrictions/speed
 
 square.small_vehicle_fuel_station_DATA = square.small/vehicle/fuel_station/*.png
@@ -256,17 +283,56 @@ square.small_vehicle_fuel_stationdir = $(datadir)/map-icons/square.small/vehicle
 square.small_education_DATA = square.small/education/*.png
 square.small_educationdir = $(datadir)/map-icons/square.small/education
 
+square.small_education_school_DATA = square.small/education/school/*.png
+square.small_education_schooldir = $(datadir)/map-icons/square.small/education/school
+
 square.small_shopping_DATA = square.small/shopping/*.png
 square.small_shoppingdir = $(datadir)/map-icons/square.small/shopping
+
+square.small_shopping_furniture_DATA =
+square.small_shopping_furnituredir = $(datadir)/map-icons/square.small/shopping/furniture
+
+square.small_shopping_groceries_DATA = square.small/shopping/groceries/*.png
+square.small_shopping_groceriesdir = $(datadir)/map-icons/square.small/shopping/groceries
+
+square.small_shopping_sports_DATA =
+square.small_shopping_sportsdir = $(datadir)/map-icons/square.small/shopping/sports
+
+square.small_shopping_vehicle_DATA =
+square.small_shopping_vehicledir = $(datadir)/map-icons/square.small/shopping/vehicle
+
+square.small_shopping_machine_DATA =
+square.small_shopping_machinedir = $(datadir)/map-icons/square.small/shopping/machine
 
 square.small_shopping_supermarket_DATA = square.small/shopping/supermarket/*.png
 square.small_shopping_supermarketdir = $(datadir)/map-icons/square.small/shopping/supermarket
 
+square.small_shopping_media_DATA =
+square.small_shopping_mediadir = $(datadir)/map-icons/square.small/shopping/media
+
 square.small_shopping_diy_store_DATA = square.small/shopping/diy_store/*.png
 square.small_shopping_diy_storedir = $(datadir)/map-icons/square.small/shopping/diy_store
 
+square.small_shopping_rental_DATA = square.small/shopping/rental/*.png
+square.small_shopping_rentaldir = $(datadir)/map-icons/square.small/shopping/rental
+
+square.small_shopping_games_DATA =
+square.small_shopping_gamesdir = $(datadir)/map-icons/square.small/shopping/games
+
 square.small_public_DATA = square.small/public/*.png
 square.small_publicdir = $(datadir)/map-icons/square.small/public
+
+square.small_public_inspecting_authority_DATA =
+square.small_public_inspecting_authoritydir = $(datadir)/map-icons/square.small/public/inspecting-authority
+
+square.small_public_recycling_DATA = square.small/public/recycling/*.png
+square.small_public_recyclingdir = $(datadir)/map-icons/square.small/public/recycling
+
+square.small_public_recycling_container_DATA =
+square.small_public_recycling_containerdir = $(datadir)/map-icons/square.small/public/recycling/container
+
+square.small_public_administration_DATA =
+square.small_public_administrationdir = $(datadir)/map-icons/square.small/public/administration
 
 square.small_people_DATA = square.small/people/*.png
 square.small_peopledir = $(datadir)/map-icons/square.small/people
@@ -280,8 +346,17 @@ square.small_people_developerdir = $(datadir)/map-icons/square.small/people/deve
 square.small_religion_DATA = square.small/religion/*.png
 square.small_religiondir = $(datadir)/map-icons/square.small/religion
 
+square.small_religion_church_DATA = square.small/religion/church/*.png
+square.small_religion_churchdir = $(datadir)/map-icons/square.small/religion/church
+
 square.small_transport_DATA = square.small/transport/*.png
 square.small_transportdir = $(datadir)/map-icons/square.small/transport
+
+square.small_transport_ferry_DATA = square.small/transport/ferry/*.png
+square.small_transport_ferrydir = $(datadir)/map-icons/square.small/transport/ferry
+
+square.small_transport_bridge_DATA = square.small/transport/bridge/*.png
+square.small_transport_bridgedir = $(datadir)/map-icons/square.small/transport/bridge
 
 
 svg_DATA = svg/*.svg
@@ -829,6 +904,9 @@ classic.big_shopping_groceriesdir = $(datadir)/map-icons/classic.big/shopping/gr
 classic.big_shopping_supermarket_DATA = classic.big/shopping/supermarket/*.png
 classic.big_shopping_supermarketdir = $(datadir)/map-icons/classic.big/shopping/supermarket
 
+classic.big_shopping_rental_DATA = classic.big/shopping/rental/*.png
+classic.big_shopping_rentaldir = $(datadir)/map-icons/classic.big/shopping/rental
+
 classic.big_public_DATA = classic.big/public/*.png
 classic.big_publicdir = $(datadir)/map-icons/classic.big/public
 
@@ -918,6 +996,8 @@ EXTRA_DIST= \
 	$(square.big_religion_DATA) \
 	$(square.big_religion_church_DATA) \
 	$(square.big_transport_DATA) \
+	$(square.big_transport_ferry_DATA) \
+	$(square.big_transport_bridge_DATA) \
 	$(square.small_DATA) \
 	$(square.small_incomming_DATA) \
 	$(square.small_sightseeing_DATA) \
@@ -925,35 +1005,58 @@ EXTRA_DIST= \
 	$(square.small_waypoint_wpttemp_DATA) \
 	$(square.small_accommodation_DATA) \
 	$(square.small_accommodation_hotel_DATA) \
+	$(square.small_accommodation_camping_DATA) \
 	$(square.small_wlan_DATA) \
 	$(square.small_wlan_pay_DATA) \
 	$(square.small_geocache_DATA) \
 	$(square.small_geocache_geocache_multi_DATA) \
 	$(square.small_health_DATA) \
 	$(square.small_money_DATA) \
+	$(square.small_money_atm_DATA) \
+	$(square.small_money_bank_DATA) \
 	$(square.small_nautical_DATA) \
 	$(square.small_food_DATA) \
+	$(square.small_food_restaurant_DATA) \
 	$(square.small_food_fastfood_DATA) \
+	$(square.small_food_machine_DATA) \
+	$(square.small_food_snacks_DATA) \
 	$(square.small_recreation_DATA) \
 	$(square.small_sports_DATA) \
 	$(square.small_misc_DATA) \
 	$(square.small_places_DATA) \
 	$(square.small_places_settlement_DATA) \
 	$(square.small_vehicle_DATA) \
+	$(square.small_vehicle_car_rental_DATA) \
 	$(square.small_vehicle_parking_DATA) \
 	$(square.small_vehicle_restrictions_DATA) \
 	$(square.small_vehicle_restrictions_speed_DATA) \
 	$(square.small_vehicle_fuel_station_DATA) \
 	$(square.small_education_DATA) \
+	$(square.small_education_school_DATA) \
 	$(square.small_shopping_DATA) \
+	$(square.small_shopping_furniture_DATA) \
+	$(square.small_shopping_groceries_DATA) \
+	$(square.small_shopping_sports_DATA) \
+	$(square.small_shopping_vehicle_DATA) \
+	$(square.small_shopping_machine_DATA) \
 	$(square.small_shopping_supermarket_DATA) \
+	$(square.small_shopping_media_DATA) \
 	$(square.small_shopping_diy_store_DATA) \
+	$(square.small_shopping_rental_DATA) \
+	$(square.small_shopping_games_DATA) \
 	$(square.small_public_DATA) \
+	$(square.small_public_inspecting_authority_DATA) \
+	$(square.small_public_recycling_DATA) \
+	$(square.small_public_recycling_container_DATA) \
+	$(square.small_public_administration_DATA) \
 	$(square.small_people_DATA) \
 	$(square.small_people_friendsd_DATA) \
 	$(square.small_people_developer_DATA) \
 	$(square.small_religion_DATA) \
+	$(square.small_religion_church_DATA) \
 	$(square.small_transport_DATA) \
+	$(square.small_transport_ferry_DATA) \
+	$(square.small_transport_bridge_DATA) \
 	$(svg_DATA) \
 	$(svg_incomming_DATA) \
 	$(svg_sightseeing_DATA) \
@@ -1134,6 +1237,7 @@ EXTRA_DIST= \
 	$(classic.big_shopping_DATA) \
 	$(classic.big_shopping_groceries_DATA) \
 	$(classic.big_shopping_supermarket_DATA) \
+	$(classic.big_shopping_rental_DATA) \
 	$(classic.big_public_DATA) \
 	$(classic.big_public_recycling_DATA) \
 	$(classic.big_people_DATA) \
