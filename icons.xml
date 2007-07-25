@@ -3068,22 +3068,11 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="religion.cemetary"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>353</poi_type_id>
-      <name>religion.cemetary</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="religion.cemetery"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Cemetery</title>
+    <title lang="en">Friedhof</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>354</poi_type_id>
