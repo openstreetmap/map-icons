@@ -75,6 +75,12 @@ square.big_sportsdir = $(datadir)/map-icons/square.big/sports
 square.big_misc_DATA = square.big/misc/*.png
 square.big_miscdir = $(datadir)/map-icons/square.big/misc
 
+square.big_misc_landmark_DATA = square.big/misc/landmark/*.png
+square.big_misc_landmarkdir = $(datadir)/map-icons/square.big/misc/landmark
+
+square.big_misc_landmark_power_DATA =
+square.big_misc_landmark_powerdir = $(datadir)/map-icons/square.big/misc/landmark/power
+
 square.big_places_DATA = square.big/places/*.png
 square.big_placesdir = $(datadir)/map-icons/square.big/places
 
@@ -262,10 +268,16 @@ square.small_sportsdir = $(datadir)/map-icons/square.small/sports
 square.small_misc_DATA = square.small/misc/*.png
 square.small_miscdir = $(datadir)/map-icons/square.small/misc
 
+square.small_misc_landmark_DATA = square.small/misc/landmark/*.png
+square.small_misc_landmarkdir = $(datadir)/map-icons/square.small/misc/landmark
+
+square.small_misc_landmark_power_DATA = square.small/misc/landmark/power/*.png
+square.small_misc_landmark_powerdir = $(datadir)/map-icons/square.small/misc/landmark/power
+
 square.small_places_DATA = square.small/places/*.png
 square.small_placesdir = $(datadir)/map-icons/square.small/places
 
-square.small_places_power_DATA = square.small/places/power/*.png
+square.small_places_power_DATA =
 square.small_places_powerdir = $(datadir)/map-icons/square.small/places/power
 
 square.small_places_settlement_DATA = square.small/places/settlement/*.png
@@ -416,7 +428,10 @@ svg_sportsdir = $(datadir)/map-icons/svg/sports
 svg_misc_DATA =
 svg_miscdir = $(datadir)/map-icons/svg/misc
 
-svg_places_DATA = svg/places/*.svg
+svg_misc_landmark_DATA = svg/misc/landmark/*.svg
+svg_misc_landmarkdir = $(datadir)/map-icons/svg/misc/landmark
+
+svg_places_DATA =
 svg_placesdir = $(datadir)/map-icons/svg/places
 
 svg_vehicle_DATA = svg/vehicle/*.svg
@@ -580,7 +595,10 @@ jp_sportsdir = $(datadir)/map-icons/jp/sports
 jp_misc_DATA =
 jp_miscdir = $(datadir)/map-icons/jp/misc
 
-jp_places_DATA = jp/places/*.svg
+jp_misc_landmark_DATA = jp/misc/landmark/*.svg
+jp_misc_landmarkdir = $(datadir)/map-icons/jp/misc/landmark
+
+jp_places_DATA =
 jp_placesdir = $(datadir)/map-icons/jp/places
 
 jp_vehicle_DATA =
@@ -729,13 +747,19 @@ classic.small_sportsdir = $(datadir)/map-icons/classic.small/sports
 classic.small_misc_DATA = classic.small/misc/*.png
 classic.small_miscdir = $(datadir)/map-icons/classic.small/misc
 
+classic.small_misc_landmark_DATA = classic.small/misc/landmark/*.png
+classic.small_misc_landmarkdir = $(datadir)/map-icons/classic.small/misc/landmark
+
+classic.small_misc_landmark_power_DATA = classic.small/misc/landmark/power/*.png
+classic.small_misc_landmark_powerdir = $(datadir)/map-icons/classic.small/misc/landmark/power
+
 classic.small_misc_information_DATA =
 classic.small_misc_informationdir = $(datadir)/map-icons/classic.small/misc/information
 
 classic.small_places_DATA = classic.small/places/*.png
 classic.small_placesdir = $(datadir)/map-icons/classic.small/places
 
-classic.small_places_power_DATA = classic.small/places/power/*.png
+classic.small_places_power_DATA =
 classic.small_places_powerdir = $(datadir)/map-icons/classic.small/places/power
 
 classic.small_places_settlement_DATA = classic.small/places/settlement/*.png
@@ -874,13 +898,19 @@ classic.big_sportsdir = $(datadir)/map-icons/classic.big/sports
 classic.big_misc_DATA = classic.big/misc/*.png
 classic.big_miscdir = $(datadir)/map-icons/classic.big/misc
 
+classic.big_misc_landmark_DATA = classic.big/misc/landmark/*.png
+classic.big_misc_landmarkdir = $(datadir)/map-icons/classic.big/misc/landmark
+
+classic.big_misc_landmark_power_DATA = classic.big/misc/landmark/power/*.png
+classic.big_misc_landmark_powerdir = $(datadir)/map-icons/classic.big/misc/landmark/power
+
 classic.big_misc_information_DATA =
 classic.big_misc_informationdir = $(datadir)/map-icons/classic.big/misc/information
 
 classic.big_places_DATA = classic.big/places/*.png
 classic.big_placesdir = $(datadir)/map-icons/classic.big/places
 
-classic.big_places_power_DATA = classic.big/places/power/*.png
+classic.big_places_power_DATA =
 classic.big_places_powerdir = $(datadir)/map-icons/classic.big/places/power
 
 classic.big_places_settlement_DATA = classic.big/places/settlement/*.png
@@ -984,6 +1014,8 @@ EXTRA_DIST= \
 	$(square.big_recreation_DATA) \
 	$(square.big_sports_DATA) \
 	$(square.big_misc_DATA) \
+	$(square.big_misc_landmark_DATA) \
+	$(square.big_misc_landmark_power_DATA) \
 	$(square.big_places_DATA) \
 	$(square.big_places_power_DATA) \
 	$(square.big_places_settlement_DATA) \
@@ -1046,6 +1078,8 @@ EXTRA_DIST= \
 	$(square.small_recreation_DATA) \
 	$(square.small_sports_DATA) \
 	$(square.small_misc_DATA) \
+	$(square.small_misc_landmark_DATA) \
+	$(square.small_misc_landmark_power_DATA) \
 	$(square.small_places_DATA) \
 	$(square.small_places_power_DATA) \
 	$(square.small_places_settlement_DATA) \
@@ -1097,6 +1131,7 @@ EXTRA_DIST= \
 	$(svg_recreation_DATA) \
 	$(svg_sports_DATA) \
 	$(svg_misc_DATA) \
+	$(svg_misc_landmark_DATA) \
 	$(svg_places_DATA) \
 	$(svg_vehicle_DATA) \
 	$(svg_vehicle_restrictions_DATA) \
@@ -1151,6 +1186,7 @@ EXTRA_DIST= \
 	$(jp_recreation_DATA) \
 	$(jp_sports_DATA) \
 	$(jp_misc_DATA) \
+	$(jp_misc_landmark_DATA) \
 	$(jp_places_DATA) \
 	$(jp_vehicle_DATA) \
 	$(jp_education_DATA) \
@@ -1200,6 +1236,8 @@ EXTRA_DIST= \
 	$(classic.small_recreation_DATA) \
 	$(classic.small_sports_DATA) \
 	$(classic.small_misc_DATA) \
+	$(classic.small_misc_landmark_DATA) \
+	$(classic.small_misc_landmark_power_DATA) \
 	$(classic.small_misc_information_DATA) \
 	$(classic.small_places_DATA) \
 	$(classic.small_places_power_DATA) \
@@ -1248,6 +1286,8 @@ EXTRA_DIST= \
 	$(classic.big_recreation_DATA) \
 	$(classic.big_sports_DATA) \
 	$(classic.big_misc_DATA) \
+	$(classic.big_misc_landmark_DATA) \
+	$(classic.big_misc_landmark_power_DATA) \
 	$(classic.big_misc_information_DATA) \
 	$(classic.big_places_DATA) \
 	$(classic.big_places_power_DATA) \
