@@ -1319,4 +1319,6 @@ EXTRA_DIST= \
 	index.html \
 	overview.de.html \
 	overview.html \
+	README.icons \
+	update_icons.pl \
 	create_makefile.sh

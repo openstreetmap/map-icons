@@ -37,4 +37,6 @@ echo '	CMakeLists.txt'  "\\">>$makefile
 echo '	index.html'  "\\">>$makefile
 echo '	overview.de.html'  "\\">>$makefile
 echo '	overview.html'  "\\">>$makefile
+echo '	README.icons'  "\\">>$makefile
+echo '	update_icons.pl'  "\\">>$makefile
 echo '	create_makefile.sh' >>$makefile
