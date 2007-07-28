@@ -26,7 +26,6 @@
     <geoinfo>
       <poi_type_id>2</poi_type_id>
       <name>accommodation</name>
-      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
