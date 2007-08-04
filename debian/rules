@@ -35,9 +35,11 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
+	./update_svn_revision.sh
 	mkdir -p debian/osm-data-map-icons/usr/share/map-icons/
 	./copy_icons_to_dir.sh debian/osm-data-map-icons/usr/share/map-icons/
 	./merge-icons-all-from-svg2classic2square.sh debian/osm-data-map-icons/usr/share/map-icons/
+	cp icons.xml debian/osm-data-map-icons/usr/share/map-icons/
 	cd debian/osm-data-map-icons/usr/share/map-icons/; ../../../../../update_icons.pl -s
 
 
