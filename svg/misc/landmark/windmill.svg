@@ -1,12 +1,81 @@
-﻿<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xml:space="default" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
-	<title>日本の地図記号 - 風車</title>
-	<rect fill="white" x="0" y="0" width="250" height="250" />
-	<line stroke="black" stroke-width="15px" x1="125" y1="104" x2="125" y2="230" />
-	<line stroke="black" stroke-width="15px" x1="125" y1="104" x2="92" y2="12" />
-	<line stroke="black" stroke-width="15px" x1="125" y1="104" x2="61.8256628" y2="178.578838" />
-	<line stroke="black" stroke-width="15px" x1="125" y1="104" x2="221.174337" y2="121.421162" />
-	<line stroke="black" stroke-width="15px" x1="80" y1="230" x2="170" y2="230" />
-	<circle fill="white" stroke="black" stroke-width="15px" cx="125" cy="104" r="30" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/misc/landmark"
+   sodipodi:docname="windmill.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="18.519178"
+     inkscape:cy="21.935487"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="32px"
+     height="32px"
+     inkscape:window-width="868"
+     inkscape:window-height="897"
+     inkscape:window-x="1600"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#7c6f49;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.86544949px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 8.7032947,30.378335 L 12.263972,9.3395748 L 15.616604,7.3228706 L 18.896136,9.3933618 C 18.896136,9.3933618 21.898744,30.720429 21.549658,30.549381 C 21.200572,30.378335 8.773112,30.634906 8.7032947,30.378335 z "
+       id="path3457"
+       sodipodi:nodetypes="ccccsc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.13726127px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 7.7477044,1.7109877 L 23.591582,17.003923"
+       id="path3459"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.13726127px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 7.815125,17.003924 L 23.321899,1.8639171"
+       id="path3461"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="opacity:1;fill:#fcf8eb;fill-opacity:1;stroke:#000000;stroke-width:0.46843246;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       id="rect3463"
+       width="3.0242128"
+       height="2.4987874"
+       x="14.199539"
+       y="12.272707" />
+  </g>
 </svg>
