@@ -14,7 +14,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/religion/church"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/religion/church"
    sodipodi:docname="catholic.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
@@ -29,17 +29,17 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="19.765305"
-     inkscape:cy="17.381539"
+     inkscape:zoom="22.4"
+     inkscape:cx="15.710716"
+     inkscape:cy="7.0216354"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
-     inkscape:window-width="748"
-     inkscape:window-height="584"
-     inkscape:window-x="2356"
-     inkscape:window-y="0"
+     inkscape:window-width="770"
+     inkscape:window-height="669"
+     inkscape:window-x="1684"
+     inkscape:window-y="90"
      borderlayer="false"
      inkscape:showpageshadow="true" />
   <metadata
@@ -61,10 +61,10 @@
        style="fill:#fffc00;fill-opacity:1;stroke:#000000;stroke-width:1.079;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect3277"
        width="11.196519"
-       height="14.220006"
-       x="9.8086643"
-       y="15.580927"
-       transform="matrix(0.999933,-1.1572613e-2,1.1572613e-2,0.999933,0,0)" />
+       height="14.220005"
+       x="10.060809"
+       y="15.40766"
+       transform="matrix(0.9999999,-4.1822142e-4,4.1822142e-4,0.9999999,0,0)" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect3279"
