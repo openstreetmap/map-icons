@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/misc/landmark"
+   sodipodi:docname="gasometer.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="8.3341337"
+     inkscape:cy="13.880344"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="32px"
+     height="32px"
+     inkscape:window-width="868"
+     inkscape:window-height="897"
+     inkscape:window-x="1600"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#b9bcbc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.95357925px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 2.4767896,7.3984676 L 2.4767896,26.76595 C 4.9781402,30.976863 23.858846,31.186529 26.986989,26.78245 C 27.120041,23.866432 27.076781,7.155361 27.076781,7.155361 L 2.4767896,7.3984676 z "
+       id="path3366"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#b9bcbc;fill-opacity:1;stroke:#130d0d;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       id="path3176"
+       sodipodi:cx="15.357142"
+       sodipodi:cy="0.9285714"
+       sodipodi:rx="12.232142"
+       sodipodi:ry="4.7321429"
+       d="M 15.265641,-3.8034391 A 12.232142,4.7321429 0 1 1 15.225707,-3.8032983"
+       sodipodi:start="4.7049085"
+       sodipodi:end="10.984829"
+       sodipodi:open="true"
+       transform="matrix(1.0351237,0,0,0.4870182,-1.0751143,6.9049116)" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.91543943px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 2.7255767,12.225576 L 5.463206,12.225576 L 5.463206,16.520556 L 7.9519599,16.520556 L 7.9519599,21.245035 L 11.062902,21.245035 L 11.062902,25.540015 L 14.238709,25.51893 L 14.238709,29.765495"
+       id="path3368"
+       sodipodi:nodetypes="ccccccccc" />
+  </g>
+</svg>
