@@ -136,7 +136,8 @@ sub update_overview
     "  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n".
     "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" ".
     "xml:lang=\"en\">\n<head>\n<meta http-equiv=\"Content-Type\" ".
-    "content=\"text/html; charset=utf-8\" />".
+    "content=\"text/html; charset=utf-8\" />\n".
+    "\n".
     "<title>Available POI-Types in gpsdrive</title>\n".
     "<style type=\"text/css\">\ntable { width:100%; }\n".
     "	tr { border-top:5px solid black; }\n".
