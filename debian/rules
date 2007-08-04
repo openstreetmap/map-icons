@@ -40,7 +40,7 @@ install: build
 	./copy_icons_to_dir.sh debian/osm-data-map-icons/usr/share/map-icons/
 	./merge-icons-all-from-svg2classic2square.sh debian/osm-data-map-icons/usr/share/map-icons/
 	cp icons.xml debian/osm-data-map-icons/usr/share/map-icons/
-	cd debian/osm-data-map-icons/usr/share/map-icons/; ../../../../../update_icons.pl -s
+	cd debian/osm-data-map-icons/usr/share/map-icons/; ../../../../../update_icons.pl
 
 
 # Build architecture-independent files here.
