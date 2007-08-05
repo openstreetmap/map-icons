@@ -7,7 +7,7 @@ export DH_VERBOSE=1
 
 # This is the debhelper compatability version to use.
 #export DH_COMPAT=5
-export destdir = $(CURDIR)/debian/osm-data-map-icons/usr
+export destdir = $(CURDIR)/debian/openstreetmap-map-icons
 
 
 build: build-stamp
@@ -35,12 +35,12 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
-	./update_svn_revision.sh
-	mkdir -p debian/osm-data-map-icons/usr/share/map-icons/
-	./copy_icons_to_dir.sh debian/osm-data-map-icons/usr/share/map-icons/
-	./merge-icons-all-from-svg2classic2square.sh debian/osm-data-map-icons/usr/share/map-icons/
-	cp icons.xml debian/osm-data-map-icons/usr/share/map-icons/
-	cd debian/osm-data-map-icons/usr/share/map-icons/; ../../../../../update_icons.pl
+	./debian/update_svn_revision.sh
+	mkdir -p ${destdir}/usr/share/map-icons/
+	./copy_icons_to_dir.sh ${destdir}/usr/share/map-icons/
+	./merge-icons-all-from-svg2classic2square.sh ${destdir}/usr/share/map-icons/
+	cp icons.xml ${destdir}/usr/share/map-icons/
+	cd ${destdir}/usr/share/map-icons/; ../../../../../update_icons.pl
 
 
 # Build architecture-independent files here.
