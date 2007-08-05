@@ -18,7 +18,7 @@ for dir in square.big square.small classic.big classic.small svg svg_tn jp jp_tn
 
     find $dir -name "*.svg" -o -name "*.png" | \
     while read fn ; do 
-	cp $fn $dst/$fn
+	cp -p $fn $dst/$fn
     done 
 done
 
