@@ -9,8 +9,20 @@ Package: openstreetmap-map-icons
 Architecture: all
 Depends: ${misc:Depends}
 Recommends:
+Suggests: gpsdrive, mapnik, openstreetmap-map-icons-restricted
+Description: Openstreetmap-Map-icons are map Icons
+ These Icons are for use with maps build from OSM
+ used in GpsDrive, Mapnik, ...
+
+
+Package: openstreetmap-map-icons-restricted
+Architecture: all
+Depends: ${misc:Depends}, openstreetmap-map-icons
+Recommends:
 Suggests: gpsdrive, mapnik
 Description: Openstreetmap-Map-icons are map Icons
  These Icons are for use with maps build from OSM
  used in GpsDrive, Mapnik, ...
- 
+ Some of the Icons in here might have a restricted licence.
+ This is the reason they are seperated into there own package
+

@@ -182,6 +182,10 @@ sub update_overview
     my $nm = $entry->first_child('geoinfo')->first_child('name')->text;
     my $restricted = $entry->first_child('geoinfo')->first_child('restricted');
 
+    if ( $restricted && $restricted->text && not $opt_r ){
+	next;
+    }
+
     my $ti = $default_title_en;
     my @a_ti = $entry->children('title');
     foreach (@a_ti)

@@ -36,11 +36,21 @@ install: build
 	dh_installdirs
 
 	./debian/update_svn_revision.sh
-	mkdir -p ${destdir}/usr/share/map-icons/
-	./copy_icons_to_dir.sh ${destdir}/usr/share/map-icons/
-	./merge-icons-all-from-svg2classic2square.sh ${destdir}/usr/share/map-icons/
-	cp icons.xml ${destdir}/usr/share/map-icons/
-	cd ${destdir}/usr/share/map-icons/; ../../../../../update_icons.pl
+
+	mkdir -p build
+	./copy_icons_to_dir.sh build
+	./merge-icons-all-from-svg2classic2square.sh build
+	cp icons.xml build
+	cd build; ../update_icons.pl
+
+	# Now split into two packages
+	./copy_icons_to_dirs.pl
+
+	cp icons.xml debian/openstreetmap-map-icons/usr/share/map-icons/
+	cd debian/openstreetmap-map-icons/usr/share/map-icons/; ../../../../../update_icons.pl
+
+	# icons.xml belongs to the unrestricted package
+	cp icons.xml debian/openstreetmap-map-icons/usr/share/map-icons/
 
 
 # Build architecture-independent files here.
