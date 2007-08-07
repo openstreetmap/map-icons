@@ -44,6 +44,7 @@ use Image::Magick;
 use File::Slurp;
 use File::Basename;
 use File::Path;
+use Data::Dumper;
 
 our ($opt_v, $opt_f, $opt_h, $opt_i, $opt_n, $opt_r,$opt_s) = 0;
 getopts('hvinrsf:') or $opt_h = 1;
@@ -88,6 +89,10 @@ chdir('..');
 exit (0);
 
 
+#####################################################################
+#
+# Get the "svn status" for all icons Files
+#
 sub get_svn_status {
     return unless $opt_s;
     $SVN_VERSION = `svnversion`;
@@ -322,7 +327,9 @@ sub update_xml
       pretty_print => 'indented',
       empty_tags => 'normal',
       comments => 'keep',
-      TwigHandlers => { geoinfo => \&sub_geoinfo }
+      TwigHandlers => { 
+	  geoinfo => \&sub_geoinfo # also deletes the entry from %ICONS
+     }
     );
   $twig->parsefile( "$file_xml");	# build the twig
   my $rules= $twig->root;	# get the root of the twig (rules)
@@ -345,16 +352,17 @@ sub update_xml
 
   my @a_id;
   $i = 0;
+  my $id_max = 0;
   foreach my $entry (@rule)
   {
     if  (my $id =
          $entry->first_child('geoinfo')->first_child('poi_type_id')->text)
     {
       $i++;
-      $a_id[$i] = $id;
+      $a_id[$i] = $id; # XXX besser mit push(@a_id,$id)? denn a_id[0] wird nie belegt?
+      $id_max = $id if $id >$id_max;
     }
   }
-  my $id_max = pop(@a_id);
   my %unused = ('','');
   for ( my $k = 1; $k<$id_max; $k++ ) { $unused{$k}=$k; } 
   print STDOUT "  POI-Types defined:\t$i\n";
@@ -378,7 +386,12 @@ sub update_xml
     my $j=1;
 
 
-    foreach my $entry (@rule)
+sub entry_name($){
+    my $entry = shift;
+    return $entry->first_child('geoinfo')->first_child('name')->text();
+}
+
+    foreach my $entry (sort {entry_name($a) cmp entry_name($b) } @rule)
      {
        my $name = $entry->first_child('geoinfo')->first_child('name')->text();
        next if not($opt_i) && $name =~ m/^incomming/;
@@ -411,7 +424,8 @@ sub update_xml
      if (exists $ICONS{$name}) 
      {
        print STDOUT "  o  $poi_type_id\t\t$name\n" if $VERBOSE;
-       $poi_type_id_base = $poi_type_id if ($poi_type_id > $poi_type_id_base);
+       $poi_type_id_base = $poi_type_id 
+	   if ($poi_type_id > $poi_type_id_base);
        delete $ICONS{"$name"};
      }
    }
