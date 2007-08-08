@@ -5965,7 +5965,7 @@
     <condition k="poi" v="waypoint"/>
     <condition k="class" v="waypoint"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="de">Wegpunkt</title>
     <title lang="en">Waypoint</title>
     <description lang="de">Wegpunkte, um z.B. temporäre Punkte zu markieren</description>
@@ -5979,7 +5979,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt1"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 1</title>
     <title lang="de">Wegpunkt 1</title>
     <description lang="en"></description>
@@ -5992,7 +5992,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt2"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 2</title>
     <description lang="en"></description>
     <title lang="de">Wegpunkt 2</title>
@@ -6005,7 +6005,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt3"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 3</title>
     <title lang="de">Wegpunkt 3</title>
     <description lang="en"></description>
@@ -6018,7 +6018,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt4"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 4</title>
     <title lang="de">Wegpunkt 4</title>
     <description lang="en"></description>
@@ -6031,7 +6031,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt5"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 5</title>
     <title lang="de">Wegpunkt 5</title>
     <description lang="en"></description>
@@ -6044,7 +6044,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt6"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 6</title>
     <title lang="de">Wegpunkt 6</title>
     <description lang="en"></description>
@@ -6057,7 +6057,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt7"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 7</title>
     <title lang="de">Wegpunkt 7</title>
     <description lang="en"></description>
@@ -6070,7 +6070,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt8"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 8</title>
     <title lang="de">Wegpunkt 8</title>
     <description lang="en"></description>
@@ -6083,7 +6083,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpt9"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint 9</title>
     <title lang="de">Wegpunkt 9</title>
     <description lang="en"></description>
@@ -6096,7 +6096,7 @@
   <rule>
     <condition k="poi" v="waypoint.wptblue"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint blue</title>
     <title lang="de">Wegpunkt blau</title>
     <description lang="en"></description>
@@ -6109,7 +6109,7 @@
   <rule>
     <condition k="poi" v="waypoint.wptgreen"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint green</title>
     <title lang="de">Wegpunkt grün</title>
     <description lang="en"></description>
@@ -6122,7 +6122,7 @@
   <rule>
     <condition k="poi" v="waypoint.wptorange"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint orange</title>
     <title lang="de">Wegpunkt orange</title>
     <description lang="en"></description>
@@ -6135,7 +6135,7 @@
   <rule>
     <condition k="poi" v="waypoint.wptred"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint red</title>
     <title lang="de">Wegpunkt rot</title>
     <description lang="en"></description>
@@ -6148,7 +6148,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpttemp"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Temporary Waypoint</title>
     <title lang="de">Temporärer Wegpunkt</title>
     <description lang="en"></description>
@@ -6161,7 +6161,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpttemp.wpttemp-green"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">green WP-Pin</title>
     <description lang="en"></description>
     <geoinfo>
@@ -6173,7 +6173,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpttemp.wpttemp-red"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">red WP-Pin</title>
     <description lang="en"></description>
     <geoinfo>
@@ -6185,7 +6185,7 @@
   <rule>
     <condition k="poi" v="waypoint.wpttemp.wpttemp-yellow"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">yellow WP-Pin</title>
     <description lang="en"></description>
     <geoinfo>
@@ -6197,7 +6197,7 @@
   <rule>
     <condition k="poi" v="waypoint.wptyellow"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1500000</scale_max>
     <title lang="en">Waypoint yellow</title>
     <title lang="de">Wegpunkt gelb</title>
     <description lang="en"></description>
