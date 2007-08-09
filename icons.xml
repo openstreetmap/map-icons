@@ -2057,7 +2057,7 @@
     <description lang="en">GPS-Drive User travelling by bike</description>
     <description lang="de">GPS-Drive Benutzer unterwegs mit einem Fahrrad</description>
     <geoinfo>
-      <poi_type_id>249</poi_type_id>
+      <poi_type_id>422</poi_type_id>
       <name>people.friendsd.bike</name>
     </geoinfo>
   </rule>
@@ -2071,7 +2071,7 @@
     <description lang="en">GPS-Drive User travelling by boat</description>
     <description lang="de">GPS-Drive Benutzer unterwegs mit einem Boot</description>
     <geoinfo>
-      <poi_type_id>250</poi_type_id>
+      <poi_type_id>423</poi_type_id>
       <name>people.friendsd.boat</name>
     </geoinfo>
   </rule>
@@ -2085,7 +2085,7 @@
     <description lang="en">GPS-Drive User travelling by car</description>
     <description lang="de">GPS-Drive Benutzer unterwegs mit einem Auto</description>
     <geoinfo>
-      <poi_type_id>251</poi_type_id>
+      <poi_type_id>424</poi_type_id>
       <name>people.friendsd.car</name>
     </geoinfo>
   </rule>
@@ -2099,7 +2099,7 @@
     <description lang="en">GPS-Drive User travelling on foot</description>
     <description lang="de">GPS-Drive Benutzer zu Fuß unterwegs</description>
     <geoinfo>
-      <poi_type_id>252</poi_type_id>
+      <poi_type_id>425</poi_type_id>
       <name>people.friendsd.walk</name>
     </geoinfo>
   </rule>
