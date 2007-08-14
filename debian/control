@@ -9,6 +9,7 @@ Package: openstreetmap-map-icons
 Architecture: all
 Depends: ${misc:Depends}
 Recommends:
+Replaces: osm-data-map-icons
 Suggests: gpsdrive, mapnik, openstreetmap-map-icons-restricted
 Description: Openstreetmap-Map-icons are map Icons
  These Icons are for use with maps build from OSM
@@ -20,6 +21,7 @@ Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons
 Recommends:
 Suggests: gpsdrive, mapnik
+Replaces: osm-data-map-icons
 Description: Openstreetmap-Map-icons are map Icons
  These Icons are for use with maps build from OSM
  used in GpsDrive, Mapnik, ...

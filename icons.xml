@@ -5730,6 +5730,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="vehicle.restrictions.parking"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>511</poi_type_id>
+      <name>vehicle.restrictions.parking</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="vehicle.restrictions.play_street"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -5837,18 +5849,6 @@
     <geoinfo>
       <poi_type_id>510</poi_type_id>
       <name>vehicle.restrictions.stop</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="vehicle.restrictions.stopping_restriction"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>511</poi_type_id>
-      <name>vehicle.restrictions.stopping_restriction</name>
     </geoinfo>
   </rule>
 
