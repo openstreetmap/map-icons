@@ -37,21 +37,19 @@ install: build
 
 	./debian/update_svn_revision.sh
 
+	rm -rf build
 	mkdir -p build
 	./copy_icons_to_dir.sh build
 	./merge-icons-all-from-svg2classic2square.sh build
-	cp icons.xml build
+	cp icons.xml build/
 	cd build; ../update_icons.pl
 
 	# Now split into two packages
 	./copy_icons_to_dirs.pl
 
-	cp icons.xml debian/openstreetmap-map-icons/usr/share/map-icons/
-	cd debian/openstreetmap-map-icons/usr/share/map-icons/; ../../../../../update_icons.pl
-
 	# icons.xml belongs to the unrestricted package
 	cp icons.xml debian/openstreetmap-map-icons/usr/share/map-icons/
-
+	cd debian/openstreetmap-map-icons/usr/share/map-icons/; ../../../../../update_icons.pl
 
 # Build architecture-independent files here.
 binary-indep: build install
