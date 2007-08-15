@@ -11,12 +11,14 @@ fi
 
 mkdir -p $dst
 for dir in square.big square.small classic.big classic.small svg svg_tn jp jp_tn ; do \
-    find  $dir -type d | grep -v '\.svn' | \
+    # Create directories
+    find  $dir -type d | grep -v '/\.svn/' | \
     while read nd ; do 
 	mkdir -p $dst/$nd 
     done 
 
-    find $dir -name "*.svg" -o -name "*.png" | \
+    # Copy Files
+    find $dir -name "*.svg" -o -name "*.png" | grep -v "/.svn/" | \
     while read fn ; do 
 	cp -p $fn $dst/$fn
     done 
