@@ -216,7 +216,7 @@ sub update_overview
       $content .= $all_type_header;
       $content .= "  <tr class=\"id\">\n";
 #      $content .= "     <td class=\"id\">$id</td>\n";
-      $content .= "     <td>&nbsp;$nm</td>";
+      $content .= "     <td>&nbsp;$nm</td>\n";
     }
     else
     {
@@ -227,7 +227,7 @@ sub update_overview
       $nm =~ s,.*\.,,g;
       $content .= "<tr>\n";
 #      $content .= "    <td class=\"id\">$id</td>";
-      $content .= "    <td>&nbsp;$html_space$nm</td>";
+      $content .= "    <td>&nbsp;$html_space$nm</td>\n";
     }
 
     # display all icons
