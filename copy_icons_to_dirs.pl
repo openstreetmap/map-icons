@@ -38,21 +38,26 @@ for my $rule (@rules) {
     #print Dumper(\$rule);
     my $restricted = $rule->{'geoinfo'}->{'restricted'}||'';
     my $name = $rule->{'geoinfo'}->{'name'};
-    $name =~s,\.,/,;
+    $name =~s,\.,/,g;
     if ( ! defined($package_path->{$restricted})) {
 	die "Wrong or unknown restriction '$restricted'\n";
     }
     
     for my $theme ( @theme_dirs) {
+	#print STDERR "Copy  $theme/$name for Theme\n";
+	my $found=0;
 	for my $fn_icon ( "$theme/$name.png","$theme/$name.svg"){
 	    my $src_fn="$src_dir/$fn_icon";
 	    my $dst_fn=$package_path->{$restricted}."$dst_path/".$fn_icon;
 	    if ( -s $src_fn) {
-		# print "$fn_icon	---> $dst_fn\n";
-		mkpath dirname($dst_fn);
-		copy($src_fn,$dst_fn);
-	    }
+		#print STDERR "$fn_icon	---> $dst_fn\n";
+		my $dir = dirname($dst_fn);
+		mkpath $dir  || warn "Cannot create $dir:$!\n";
+		copy($src_fn,$dst_fn)  || warn "Cannot copy $src_fn,$dst_fn:$!\n";;
+		$found++;
+	    }    
 	}
+	# print STDERR "No File for $theme/$name found\n" unless $found;
     };
 };
  
