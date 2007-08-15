@@ -179,13 +179,19 @@ sub update_overview
   select HTMLFILE;
 
   print $html_head;
-  
+
+  my $ID_SEEN={};
   foreach my $entry (@rule)
   {
     my $content = '';
     my $id = $entry->first_child('geoinfo')->first_child('poi_type_id')->text;
     my $nm = $entry->first_child('geoinfo')->first_child('name')->text;
     my $restricted = $entry->first_child('geoinfo')->first_child('restricted');
+
+    if ( $ID_SEEN->{$id} ){
+	die "$id was already seen at $ID_SEEN->{$id}. Here in $nm\n";
+    };
+    $ID_SEEN->{$id}=$nm;
 
     if ( $restricted && $restricted->text && not $opt_r ){
 	next;
