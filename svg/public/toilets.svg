@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="200"
+   height="200"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="toilets.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="C:\Documents and Settings\akillian\Desktop">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="780"
+     inkscape:window-width="811"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1.89"
+     inkscape:cx="100"
+     inkscape:cy="100"
+     inkscape:window-x="373"
+     inkscape:window-y="88"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <g
+     style="display:inline"
+     id="layer2"
+     transform="translate(2.6455026,3.7037037)">
+    <rect
+       width="11.428572"
+       height="141.07143"
+       x="97.5"
+       y="26.785713"
+       style="fill:#0000ff;stroke:#0000ff;stroke-width:5px;stroke-linejoin:round"
+       id="divider" />
+    <path
+       d="M 160.21428,38.035713 C 160.21428,44.66313 154.8417,50.035713 148.21428,50.035713 C 141.58686,50.035713 136.21428,44.66313 136.21428,38.035713 C 136.21428,31.408296 141.58686,26.035713 148.21428,26.035713 C 154.8417,26.035713 160.21428,31.408296 160.21428,38.035713 L 160.21428,38.035713 z "
+       style="fill:#0000ff;stroke:#0000ff"
+       id="manhead" />
+    <path
+       d="M 67,39.285713 C 67,45.91313 61.627417,51.285713 55,51.285713 C 48.372583,51.285713 43,45.91313 43,39.285713 C 43,32.658296 48.372583,27.285713 55,27.285713 C 61.627417,27.285713 67,32.658296 67,39.285713 z "
+       style="fill:#0000ff;stroke:#0000ff;stroke-linejoin:round"
+       id="womanhead" />
+    <path
+       d="M 52.275394,124.74364 L 56.821081,124.74364 L 57.578695,164.8972 L 64.902301,164.8972 L 65.659916,124.4911 L 77.781746,124.23856 L 64.649763,76.003775 L 68.185297,73.98347 L 78.791899,108.83373 L 86.620581,104.54058 L 70.710678,58.073567 L 38.638335,57.063415 L 22.223356,105.55074 L 29.294424,108.32866 L 40.911178,73.98347 L 44.194174,74.488546 L 31.062191,123.73348 L 42.173869,123.98602 L 43.689098,165.14974 L 51.012704,165.14974 L 52.275394,124.74364 z "
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       id="womanbody" />
+    <path
+       d="M 131.31983,56.810877 L 162.12948,56.558338 L 172.23101,64.387021 L 173.99878,109.59135 L 165.15994,109.33881 L 164.14979,73.478394 L 159.6041,72.973317 L 159.73037,165.27601 L 151.27034,165.52854 L 149.50258,110.6015 L 145.20943,110.34896 L 144.19928,165.90735 L 136.37059,165.40228 L 135.86552,73.730932 L 131.06729,73.730932 L 131.57237,108.83373 L 122.98607,109.08627 L 122.22846,64.892097 L 131.31983,56.810877 z "
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       id="manbody" />
+    <path
+       d="M 6.5659916,6.3032492 L 188.14091,6.5557874 L 187.88837,188.13071 L 6.3134534,187.62563 L 6.5659916,6.3032492 z "
+       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:8px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       id="outline" />
+  </g>
+</svg>
