@@ -12,7 +12,7 @@ fi
 mkdir -p $dst
 for dir in square.big square.small classic.big classic.small svg svg_tn jp jp_tn ; do \
     # Create directories
-    find  $dir -type d | grep -v '/\.svn/' | \
+    find  $dir -type d | grep -v '/\.svn' | \
     while read nd ; do 
 	mkdir -p $dst/$nd 
     done 

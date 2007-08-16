@@ -34,7 +34,7 @@ find classic.big/ -name "*.png" | grep -v incomming | while read src ; do
     test -s $src || continue
     test -s $dst && continue
     mkdir -p `dirname $dst`
-    echo "convert $src	-scale 16x16 $dst"
+    echo "	convert $src	-scale 16x16 $dst"
     convert $src -scale 16x16 $dst
 done
 
@@ -44,7 +44,7 @@ find classic.small/ -name "*.png" | grep -v incomming | while read src ; do
     test -s $src || continue
     test -s $dst && continue
     mkdir -p `dirname $dst`
-    echo "convert $src	-scale 32x32 $dst"
+    echo "	convert $src	-scale 32x32 $dst"
     convert $src -scale 32x32 $dst
 done
 
@@ -84,7 +84,7 @@ find classic.big/ -name "*.png" | grep -v -e incomming -e empty.png | \
 	echo "Empty missing"
 	continue
     fi
-    echo "converting/merging: $src --> $dst"
+    echo "	converting/merging: $src --> $dst"
     convert $src	-scale 25x25 /tmp/reduced.png
     mkdir -p `dirname $dst`
     convert $empty \
@@ -99,8 +99,8 @@ find square.big/ -name "*.png" | grep -v incomming | while read src ; do
     test -s $src || continue
     test -s $dst && continue
     mkdir -p `dirname $dst`
-    echo "convert $src	-scale 16x16 $dst"
+    echo "	convert $src	-scale 16x16 $dst"
     convert $src -scale 16x16 $dst
 done
 
-echo "Merging complete"
+echo "Merging icons across Themes complete"
