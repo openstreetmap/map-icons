@@ -67,8 +67,6 @@ my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg jp );
 my $SVN_STATUS={};
 my $SVN_VERSION = '';
 
-sub update_svg_thumbnails();
-
 #####################################################################
 #
 #  M A I N
@@ -81,10 +79,7 @@ unless (-e $file_xml)
 }
 get_svn_status();
 get_icons();		 # read available icons from dirs
-update_svg_thumbnails(); # Update Thumbnails for svg Icons
 update_xml();	         # parse and update contents  of XML-File
-update_overview('en');	 # update html overview from XML-File
-update_overview('de');
 chdir('..');
 exit (0);
 
@@ -108,212 +103,6 @@ sub get_svn_status {
 	}
 	$SVN_STATUS->{$file}="$status,$rev,$rev_ci,$user";
     }
-}
-
-#####################################################################
-#
-#  Update HTML Overview of available Icons and POI-Types
-#
-#
-sub update_overview
-{
-  my $lang = shift || 'en';
-  my $file_html = './overview.html';
-  unless ($lang eq 'en') { $file_html = "./overview.$lang.html" }
-
-  print STDOUT "\n----- Updating HTML Overview '$file_html' -----\n";
-
-  my $twig = new XML::Twig
-    (
-      ignore_elts => { 'scale_min' => 1, 'scale_max' => 1 }
-    );
-  $twig->parsefile( "$file_xml");
-  my $rules = $twig->root;
-  my @rule = $rules->children;
-   
-  # create backup of old overview.html
-  move("$file_html","$file_html.bak") or die (" Couldn't create backup file!")
-    if (-e $file_html);
-
-  # html 'template'
-  my $html_head =
-    "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n".
-    "  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n".
-    "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" ".
-    "xml:lang=\"en\">\n<head>\n<meta http-equiv=\"Content-Type\" ".
-    "content=\"text/html; charset=utf-8\" />\n".
-    "\n".
-    "<title>Available POI-Types in gpsdrive</title>\n".
-    "<style type=\"text/css\">\ntable { width:100%; }\n".
-    "	tr { border-top:5px solid black; }\n".
-    "	tr.id { background-color:#6666ff; color:white; font-weight:bold; }\n".
-    "	td.id { text-align:right; }\ntd.icon { text-align:center; }\n".
-    "	td.empty { text-align:center; height:32px; }\n".
-    "	img.square_big { width:32px; height:32px; }\n".
-    "	img.square_small { width:16px; height:16px; }\n".
-    "	img.classic { max-height:32px; }\n".
-    "	img.svg { max-height:32px; }\n".
-    "	img.jp { max-height:32px; }\n".
-    "	span.desc { font:x-small italic condensed }\n".
-    "</style>\n".
-    "</head>\n";
-  $html_head .= "<body>\n".
-      "<table border=\"0\">\n";
-  $html_head .= "<tr>";
-#  $html_head .= "  <th>ID</th>";
-  $html_head .= "  <th>Name</th>\n";
-  $html_head .= "  <th colspan=\"".(scalar(@ALL_TYPES))."\">Icons</th><th>Description</th></tr>\n";
-  my $all_type_header= "<tr>";
-#  $all_type_header .= "<td></td>"; # ID - Column
-  $all_type_header .= "<td></td>";
-  for my $type ( @ALL_TYPES  ) {
-      my $txt=$type;
-      $txt=~s/\.$//;
-      $txt=~s/\./<br>/;
-      $all_type_header .= "<td align=\"top\"><font size=\"-3\">$txt</font></td>\n";
-  }
-  $all_type_header .= "</tr>\n";
-  my %out;
-
-  open HTMLFILE,">:utf8","$file_html";
-  select HTMLFILE;
-
-  print $html_head;
-
-  my $ID_SEEN={};
-  foreach my $entry (@rule)
-  {
-    my $content = '';
-    my $id = $entry->first_child('geoinfo')->first_child('poi_type_id')->text;
-    my $nm = $entry->first_child('geoinfo')->first_child('name')->text;
-    my $restricted = $entry->first_child('geoinfo')->first_child('restricted');
-
-    if ( $ID_SEEN->{$id} ){
-	die "$id was already seen at $ID_SEEN->{$id}. Here in $nm\n";
-    };
-    $ID_SEEN->{$id}=$nm;
-
-    if ( $restricted && $restricted->text && not $opt_r ){
-	next;
-    }
-
-    my $ti = $default_title_en;
-    my @a_ti = $entry->children('title');
-    foreach (@a_ti)
-    {
-      if ($_->att('lang') eq $lang) { $ti = $_->text;}
-    }
-
-    my $de = $default_desc_en;
-    my @a_de = $entry->children('description');
-    foreach (@a_de)
-    {
-      if ($_->att('lang') eq $lang)
-        { $de = '<span class="desc">&nbsp;&nbsp;'.$_->text.'</span>'; }
-    }
-
-    my $icon = $nm;
-    my $ind = $nm;
-
-    # accentuate base categories
-    if ($id <= $poi_reserved || ( $icon !~ m,\.,) )
-    {
-      $content .= "  <tr><td>&nbsp;</td></tr>\n";
-      $content .= $all_type_header;
-      $content .= "  <tr class=\"id\">\n";
-#      $content .= "     <td class=\"id\">$id</td>\n";
-      $content .= "     <td>&nbsp;$nm</td>\n";
-    }
-    else
-    {
-      my $level = ($icon =~ tr,\.,/,);
-      my $html_space = '';
-      while ($level)
-      { $html_space .='&nbsp;&nbsp;&nbsp;&nbsp;&rsaquo;&nbsp;'; $level--; };
-      $nm =~ s,.*\.,,g;
-      $content .= "<tr>\n";
-#      $content .= "    <td class=\"id\">$id</td>";
-      $content .= "    <td>&nbsp;$html_space$nm</td>\n";
-    }
-
-    # display all icons
-    for my $type ( @ALL_TYPES  ) {
-	my $icon_s = "${type}/$icon.svg";
-	my $icon_p = "${type}/$icon.png";
-	my $icon_t = "${type}_tn/${icon}.png";
-	my $class = $type;
-	$class =~ s/\./_/g;
-
-	my $svn_bgcolor='';
-	my $status_line = $SVN_STATUS->{$icon_s};
-	$status_line ||= $SVN_STATUS->{$icon_p};
-	$status_line ||= '';
-	my ($status,$rev,$rev_ci,$user,$file) =
-	    (split(/,/, $status_line),('')x5);
-	
-	if ( ! ( -s $icon_p or -s $icon_s) ) {
-	    # exchange empty or missing icon files with a char for faster display
-	    if ( -e $icon_p or -e $icon_s) { # exist, but size=0
-		$content .=  "    <td class=\"empty\">".
-		    "<font color=\"red\">_</font>".
-		    "</td>\n";
-	    } else {
-		$content .=  "    <td ";
-		$content .=  '    bgcolor="red" ' if $status eq "M" || $status eq "!";
-		$content .=  "    lass=\"empty\">.</td>\n";
-	    }
-	} elsif ( $restricted && $restricted->text && not $opt_r ){
-		$content .=  "    <td ";
-		$content .=  '    bgcolor="red" ' if $status eq "M" || $status eq "!";
-		$content .=  "    class=\"empty\">r</td>\n";
-	} else {
-	    my $svn_bgcolor='';
-	    if ( $opt_s ) {
-		if ( $status ){
-		    print STDERR "svn_status($icon_p): $status\n" if $VERBOSE;
-		    if ( $status eq "" ) {
-		    } elsif ( $status eq "?" ) { 
-			$svn_bgcolor=' bgcolor="grey" ';
-		    } elsif ( $status eq "M" ){
-			$svn_bgcolor=' bgcolor="green" ';
-		    } else {
-			$svn_bgcolor=' bgcolor="red" ';
-		    }
-		}
-	    }
-	    $status_line =~ s/,/ /g;
-	    $status_line =~ s/guenther/g/;
-	    $status_line =~ s/joerg/j/;
-	    $status_line =~ s/ulf/u/;
-	    $status_line =~ s/$SVN_VERSION//;
-	    $status_line ="<font size=\"-3\">$status_line</font><br>" if $status_line;
-	    $content .= "     <td $svn_bgcolor class=\"icon\">";
-	    $content .= "     $status_line" if $opt_n;
-	    my $icon_path_current;
-	    if ( -s $icon_t ) { $icon_path_current = $icon_t; }
-	    else {		$icon_path_current = $icon_p;   };
-	    my $icon_path_svn=$icon_path_current;
-	    $icon_path_svn =~ s,/([^/]+)\.(...)$,/.svn/text-base/$1.$2.svn-base,;
-	    $content .= "    <img src=\"$icon_path_svn\" /> -->" if -s $icon_path_svn && $status eq "M";
-	    $content .= "     <img src=\"$icon_path_current\" class=\"$class\" alt=\"$nm\" />";
-	    $content .= "</td>\n";
-	}
-    }
-    $content .= "    <td>$ti<br>$de</td>\n";
-    $content .= "  </tr>\n";
-    $out{$ind} = $content;
-  }  
-  # sorted output
-  foreach ( sort keys(%out) )
-  {
-    print $out{$_};
-  }
-
-  print "</table>\n</body>\n</html>";
-  close HTMLFILE;
-  $twig->purge;
-  return;
-
 }
 
 
@@ -496,7 +285,6 @@ sub get_icons
 	  print STDOUT "ignore incomming: $icon_file\n" if $VERBOSE;
       } elsif ( $icon_file =~ m/\.(png|svg)$/ && $icon_file !~ m/empty\.(png|svg)$/ ) {
 	  $i++;
-	  my $icon_file = $File::Find::name;
 	  print STDOUT "  Found icon:\t$i\t$icon_file\n" if $VERBOSE;
 	  for my $type ( @ALL_TYPES ) {
 	      $icon_file =~ s,^$type/,,g;
@@ -510,81 +298,6 @@ sub get_icons
   print STDOUT " $i icons for ".keys(%ICONS)." POI-Types found in data/map-icons\n";
   
 }
-
-
-#############################################################################
-#
-# Create/Update Thumbnail for svg
-sub update_svg_thumbnail($$){
-    my $type = shift;
-    my $icon = shift;
-    $icon =~ s,\.,\/,g;
-    my $icon_svg = "${type}/${icon}.svg";
-    my $icon_svt = "${type}_tn/${icon}.png";
-
-    return unless -s $icon_svg;
-#    print STDERR "update_svg_thumbnail($type,$icon_svg):\t-->  $icon_svt\n" if $VERBOSE;
-
-    my $mtime_svt = (stat($icon_svt))[9]||0;
-    my $mtime_sv  = (stat($icon_svg))[9]||0; 
-    return $icon_svt if $mtime_svt >  $mtime_sv; # Up to Date
-
-    print STDERR "Updating $icon_svg\t-->  $icon_svt\n";
-    my $image_string = File::Slurp::slurp($icon_svg);
-    my ($x,$y)=(200,200);
-    if ( $image_string=~ m/viewBox=\"([\-\d\.]+)\s+([\-\d\.]+)\s+([\-\d\.]+)\s+([\-\d\.]+)\s*\"/){
-	my ( $x0,$y0,$x1,$y1 ) = ($1,$2,$3,$4);
-	print STDERR "		( $x0,$y0,$x1,$y1)" if $VERBOSE;
-	$x0=0 if $x0>0;
-	$y0=0 if $y0>0;
-	$x=int(2+$x1-$x0);
-	$y=int(2+$y1-$y0);
-    } elsif ( $image_string=~ m/height=\"([\-\d\.]+)\"/ ){
-	$y=int(2+$1);
-	if ( $image_string=~ m/width=\"([\-\d\.]+)\"/ ){
-	    $x=int(2+$1);
-	}
-    } else {
-	warn "No Size information found in $icon_svg\n";
-    }
-    # Limit used memory of Image::Magic
-    $x=4000 if $x>4000;
-    $y=4000 if $y>4000;
-    print STDERR " => '${x}x$y' \n" if $VERBOSE;;
-    eval { # in case image::magic dies
-	my $image = Image::Magick->new( size => "${x}x$y");;
-	my $rc = $image->Read($icon_svg);
-	warn "$rc" if "$rc";
-	$rc = $image->Sample(geometry => "32x32+0+0");
-	# For debugging the svg pictures; you can use this line
-	#$rc = $image->Sample(geometry => "128x128+0+0") if $x>128 || $y>128;
-	warn "$rc" if "$rc";
-	
-	if ( ! -d (my $dir=dirname($icon_svt)) ) {
-	    mkpath($dir) || warn ("Cannot create Directory: '$dir'");
-	} 
-	
-	$rc = $image->Transparent(color=>"white");
-	warn "$rc" if "$rc";
-
-	$rc = $image->Write($icon_svt);
-	warn "$rc" if "$rc";
-    };
-    return $icon_svt;
-}
-
-#############################################################################
-#
-# Create/Update Thumbnail for svg
-sub update_svg_thumbnails(){
-    print STDOUT "\n----- Updating SVG Thumbnails -----\n";
-    for my $icon ( keys %ICONS ) {	
-	for my $type ( @ALL_TYPES  ) {
-	    update_svg_thumbnail($type,$icon);
-	}
-    }
-}
-
 
 #####################################################################
 #
