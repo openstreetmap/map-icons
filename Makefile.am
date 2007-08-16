@@ -36,7 +36,7 @@ square.big_geocachedir = $(datadir)/map-icons/square.big/geocache
 square.big_geocache_geocache_multi_DATA = square.big/geocache/geocache_multi/*.png
 square.big_geocache_geocache_multidir = $(datadir)/map-icons/square.big/geocache/geocache_multi
 
-square.big_health_DATA = square.big/health/*.png
+square.big_health_DATA =
 square.big_healthdir = $(datadir)/map-icons/square.big/health
 
 square.big_money_DATA = square.big/money/*.png
@@ -45,7 +45,7 @@ square.big_moneydir = $(datadir)/map-icons/square.big/money
 square.big_money_atm_DATA =
 square.big_money_atmdir = $(datadir)/map-icons/square.big/money/atm
 
-square.big_money_bank_DATA = square.big/money/bank/*.png
+square.big_money_bank_DATA =
 square.big_money_bankdir = $(datadir)/map-icons/square.big/money/bank
 
 square.big_nautical_DATA = square.big/nautical/*.png
@@ -174,13 +174,13 @@ square.big_people_developerdir = $(datadir)/map-icons/square.big/people/develope
 square.big_religion_DATA = square.big/religion/*.png
 square.big_religiondir = $(datadir)/map-icons/square.big/religion
 
-square.big_religion_church_DATA = square.big/religion/church/*.png
+square.big_religion_church_DATA =
 square.big_religion_churchdir = $(datadir)/map-icons/square.big/religion/church
 
 square.big_transport_DATA = square.big/transport/*.png
 square.big_transportdir = $(datadir)/map-icons/square.big/transport
 
-square.big_transport_ferry_DATA = square.big/transport/ferry/*.png
+square.big_transport_ferry_DATA =
 square.big_transport_ferrydir = $(datadir)/map-icons/square.big/transport/ferry
 
 square.big_transport_bridge_DATA = square.big/transport/bridge/*.png
@@ -223,13 +223,13 @@ square.small_geocachedir = $(datadir)/map-icons/square.small/geocache
 square.small_geocache_geocache_multi_DATA = square.small/geocache/geocache_multi/*.png
 square.small_geocache_geocache_multidir = $(datadir)/map-icons/square.small/geocache/geocache_multi
 
-square.small_health_DATA = square.small/health/*.png
+square.small_health_DATA =
 square.small_healthdir = $(datadir)/map-icons/square.small/health
 
 square.small_money_DATA = square.small/money/*.png
 square.small_moneydir = $(datadir)/map-icons/square.small/money
 
-square.small_money_bank_DATA = square.small/money/bank/*.png
+square.small_money_bank_DATA =
 square.small_money_bankdir = $(datadir)/map-icons/square.small/money/bank
 
 square.small_nautical_DATA = square.small/nautical/*.png
@@ -331,13 +331,13 @@ square.small_people_developerdir = $(datadir)/map-icons/square.small/people/deve
 square.small_religion_DATA = square.small/religion/*.png
 square.small_religiondir = $(datadir)/map-icons/square.small/religion
 
-square.small_religion_church_DATA = square.small/religion/church/*.png
+square.small_religion_church_DATA =
 square.small_religion_churchdir = $(datadir)/map-icons/square.small/religion/church
 
 square.small_transport_DATA = square.small/transport/*.png
 square.small_transportdir = $(datadir)/map-icons/square.small/transport
 
-square.small_transport_ferry_DATA = square.small/transport/ferry/*.png
+square.small_transport_ferry_DATA =
 square.small_transport_ferrydir = $(datadir)/map-icons/square.small/transport/ferry
 
 square.small_transport_bridge_DATA = square.small/transport/bridge/*.png
@@ -795,7 +795,7 @@ classic.small_religion_churchdir = $(datadir)/map-icons/classic.small/religion/c
 classic.small_transport_DATA = classic.small/transport/*.png
 classic.small_transportdir = $(datadir)/map-icons/classic.small/transport
 
-classic.small_transport_ferry_DATA = classic.small/transport/ferry/*.png
+classic.small_transport_ferry_DATA =
 classic.small_transport_ferrydir = $(datadir)/map-icons/classic.small/transport/ferry
 
 classic.small_transport_bridge_DATA = classic.small/transport/bridge/*.png
@@ -937,7 +937,7 @@ classic.big_peopledir = $(datadir)/map-icons/classic.big/people
 classic.big_religion_DATA = classic.big/religion/*.png
 classic.big_religiondir = $(datadir)/map-icons/classic.big/religion
 
-classic.big_religion_church_DATA = classic.big/religion/church/*.png
+classic.big_religion_church_DATA =
 classic.big_religion_churchdir = $(datadir)/map-icons/classic.big/religion/church
 
 classic.big_transport_DATA = classic.big/transport/*.png
