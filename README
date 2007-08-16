@@ -2,16 +2,30 @@ This is the general OSM Map-Icons directory.
 All the icons in these directories have to get an 
 entry into the map-features.xml file. So we have one common 
 place for all icons used for drawing maps.
-We currently have three subdirectories representing 
-the three icon schemes(classic,square.big,square.small).
+
+Discussions showed that probably the best Licence for all the 
+icons would be a PD-Style Licence. Because this wouldn't interfeer
+with any use which is planed. So we expect new icons inserted here
+to be PD-Style-Licence
+
+We currently have six subdirectories representing 
+the six icon schemes(classic,square.big,square.small,svg,jp).
 This means that the user can choose between those 
-three (for now) styles for rendering. The three styles 
-are represented in the three directories:
+six (for now) styles for rendering. The styles 
+are each represented in there directories:
   - classic: normally no frames, no borders, transparent 
              but if you are unsure put the icons here
   - square.big: these icons all have a square shaped frame,
              where the color of the frame tells which category they belong to.
   - square.small: similar to the above(square.big), only smaller
+  - svg: these are vectorgrafics in svg-format.
+  - jp:  these are japanese map-sign, as found in openclipart and wikipedia
+For the two svg directories there also exists an thumbnails directory which holds 
+thumbnails for easier viewing on a website, ... These thumbnails directories
+ (svg_tn, jp_tn) are only created by the build process. This is the reason 
+they are not found in svn (any more).
+The build proccess also takes care of filling up directories from others if it 
+thinks this is usefull and possible.
 
 Inside these directories the icons are structured by category. 
 Where every category has it's own sub-directory. 
@@ -42,22 +56,16 @@ adding more icons you should try to put them into one of the existing
 categories. For each (sub-)category we have a category-icon which is named
 like the category directory. So for example, for the directory <style>/food/
 we have to have an icon <style>/food.png. The same always applies to each
-sub-sub-directory. before you start a sub-category you'll have to create an
+sub-sub-directory. Before you start a sub-category you'll have to create an
 icon for this subcategory. This way the renderer can always take the category
 icon if there does not exist a specific icon for this.
 If you are not sure where to put the icon you should consider using 
-the others category(directory).
-There are also some png files with size 0 in the directories. These files
-are placeholders for possible icons and poi-types.
+the misc (directory misc).
 
 Additional files:
 
-- overview.html
+- overview.en.html
 	gives a nice overview of the available Icons with english descriptions
 - overview.de.html
 	gives a nice overview of the available Icons with german descriptions
-- index.html
-	shows all available information about the Icons and POI-Types
-	(not completely done yet)
-
 
