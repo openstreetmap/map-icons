@@ -36,7 +36,7 @@ my $poi_reserved = 30;
 my $poi_type_id_base = $poi_reserved;
 my $VERBOSE = $opt_v;
 
-my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg jp );
+my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan );
 
 my $SVN_STATUS={};
 my $SVN_VERSION = '';
@@ -136,7 +136,7 @@ sub html_head(){
 	"	img.square_small { width:16px; height:16px; }\n".
 	"	img.classic { max-height:32px; }\n".
 	"	img.svg { max-height:32px; }\n".
-	"	img.jp { max-height:32px; }\n".
+	"	img.japan { max-height:32px; }\n".
 	"	span.desc { font:x-small italic condensed }\n".
 	"</style>\n".
 	"</head>\n";

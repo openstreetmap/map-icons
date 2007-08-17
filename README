@@ -9,7 +9,7 @@ with any use which is planed. So we expect new icons inserted here
 to be PD-Style-Licence
 
 We currently have six subdirectories representing 
-the six icon schemes(classic,square.big,square.small,svg,jp).
+the six icon schemes(classic,square.big,square.small,svg,japan).
 This means that the user can choose between those 
 six (for now) styles for rendering. The styles 
 are each represented in there directories:

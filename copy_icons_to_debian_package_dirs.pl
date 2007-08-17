@@ -25,7 +25,7 @@ my $package_path = {
 
 
 my @theme_dirs=qw(classic.big classic.small 
-		  jp jp_tn
+		  japan japan_tn
 		  nickw
 		  square.big square.small
 		  svg svg_tn

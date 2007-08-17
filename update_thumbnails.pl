@@ -22,7 +22,7 @@ die "Can't find dir \"$base_dir\""
 my $VERBOSE=1;
 
 my @theme_dirs=qw(classic.big classic.small 
-		  jp
+		  japan
 		  nickw
 		  square.big square.small
 		  svg
@@ -38,7 +38,7 @@ print "Update Thumbnails for Icons in Directory '$base_dir'\n";
 find( { no_chdir=> 1,
 	wanted => \&create_tn,
       },
-      "$base_dir/svg","$base_dir/jp");
+      "$base_dir/svg","$base_dir/japan");
 
 print "Thumbnails seen:  $COUNT_FILES_SEEN\n";
 print "Thumbnails converted: $COUNT_FILES_CONVERTED\n";

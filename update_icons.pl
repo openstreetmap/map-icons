@@ -62,7 +62,7 @@ my $default_title_en = '';
 my $default_desc_en = '';
 my $VERBOSE = $opt_v;
 
-my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg jp );
+my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan );
 
 my $SVN_STATUS={};
 my $SVN_VERSION = '';
