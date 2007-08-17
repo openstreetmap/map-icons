@@ -41,7 +41,7 @@ my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg jp );
 my $SVN_STATUS={};
 my $SVN_VERSION = '';
 
-sub update_overview($);
+sub update_overview($$);
 
 #####################################################################
 #
@@ -54,8 +54,42 @@ unless (-e $file_xml)
 }
 get_svn_status();
 
-update_overview('en');	 # update html overview from XML-File
-update_overview('de');
+my $rules = XMLin("$file_xml",ForceArray => ['description','title','condition']);
+my @rules=@{$rules->{rule}};
+
+my @INCOMMING_RULES;
+if ( $opt_i ) {
+    my $id=999;
+    my %INCOMMING_RULES;
+    for my $theme ( @ALL_TYPES ) {
+	find( \&add_icons,  "$theme/incomming/" );
+    }
+    sub add_icons { 
+	my $name = $File::Find::name;
+	return if $name =~ m/\.svn/;
+	return unless $name =~ m/incomming/;
+	$name =~ s/\.(svg|png)$//;
+	$name =~ s/^.*incomming/incomming/;
+	$name =~ s/\//\./g;
+	
+	print "--- $name\n";
+	$INCOMMING_RULES{$name}++;
+    }
+
+    for my $name ( sort keys %INCOMMING_RULES ) {
+	push( @INCOMMING_RULES,
+	  {
+	      geoinfo => {
+		  name => "$name",
+		  poi_type_id => $id++,
+	      },
+	  } );
+    }
+    push(@rules, @INCOMMING_RULES);
+}
+
+update_overview('en',\@rules);	 # update html overview from XML-File
+update_overview('de',\@rules);
 
 exit (0);
 
@@ -143,21 +177,17 @@ sub all_type_header(){
 #  Update HTML Overview of available Icons and POI-Types
 #
 #
-sub update_overview($){
-    my $lang = shift || 'en';
+sub update_overview($$){
+    my $lang  = shift || 'en';
+    my $rules = shift;
     my $file_html = "$base_dir/overview.$lang.html";
 
     print STDOUT "----- Updating HTML Overview '$file_html' -----\n";
     
-    my $rules = XMLin("$file_xml",ForceArray => ['description','title','condition']);
-    my @rules=@{$rules->{rule}};
-
-
     my %out;
-    
-    
+
     my $ID_SEEN={};
-    for my $rule (@rules) {
+    for my $rule (@{$rules}) {
 	#print Dumper(\$rule);
 	my $content = '';
 	my $id = $rule->{'geoinfo'}->{'poi_type_id'};
@@ -247,10 +277,14 @@ sub update_overview($){
 	    
 	    print STDERR "svn_status($icon_p): $status\n" if $VERBOSE;
 	    if ( $status eq "" ) {
-		if ( -s  $icon_path_svn ) {
+		if ( -s  $icon_path_svn # Im original svn Verzeichnis
+		     || -s "$icon_s"
+		     || -s "$icon_p"
+		     || -s "$icon_t"
+		     ) {
 		    $svn_bgcolor=' ';
 		} else {
-		    $svn_bgcolor=' bgcolor="#F0F0F0" ';
+		    $svn_bgcolor=' bgcolor="#E5E5E5" ';
 		}
 	    } elsif ( $status eq "_" ) { 
 		$svn_bgcolor=' ';
