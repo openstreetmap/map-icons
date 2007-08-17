@@ -123,21 +123,25 @@ sub html_head(){
 	"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n".
 	"  \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n".
 	"<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" ".
-	"xml:lang=\"en\">\n<head>\n<meta http-equiv=\"Content-Type\" ".
+	"xml:lang=\"en\">\n".
+	"<head>\n".
+	"<meta http-equiv=\"Content-Type\" ".
 	"content=\"text/html; charset=utf-8\" />\n".
 	"\n".
 	"<title>Available POI-Types in gpsdrive</title>\n".
-	"<style type=\"text/css\">\ntable { width:100%; }\n".
-	"	tr { border-top:5px solid black; }\n".
-	"	tr.id { background-color:#6666ff; color:white; font-weight:bold; }\n".
-	"	td.id { text-align:right; }\ntd.icon { text-align:center; }\n".
-	"	td.empty { text-align:center; height:32px; }\n".
-	"	img.square_big { width:32px; height:32px; }\n".
+	"<style type=\"text/css\">\n".
+	"       table            { width:100%;  background-color:#fff8B2; }\n".
+	"	tr               { border-top:5px solid black; }\n".
+	"	tr.id            { background-color:#6666ff; color:white; font-weight:bold; }\n".
+	"	td.id            { text-align:right; }\n".
+	"       td.icon          { text-align:center;}\n".
+	"	td.empty         { text-align:center; height:32px; }\n".
+	"	img.square_big   { width:32px; height:32px; }\n".
 	"	img.square_small { width:16px; height:16px; }\n".
-	"	img.classic { max-height:32px; }\n".
-	"	img.svg { max-height:32px; }\n".
-	"	img.japan { max-height:32px; }\n".
-	"	span.desc { font:x-small italic condensed }\n".
+	"	img.classic      { max-height:32px; }\n".
+	"	img.svg          { max-height:32px; }\n".
+	"	img.japan        { max-height:32px; }\n".
+	"	span.desc        { font:x-small italic condensed }\n".
 	"</style>\n".
 	"</head>\n";
     $html_head .= "<body>\n";
@@ -227,12 +231,14 @@ sub update_overview($$){
 	my $ind = $nm;
 
 	# accentuate base categories
+	my $header_line=0;
 	if ($id <= $poi_reserved || ( $icon !~ m,\.,) )	{
 	    $content .= "  <tr><td>&nbsp;</td></tr>\n";
 	    $content .=     all_type_header();
 	    $content .= "  <tr class=\"id\">\n";
 	    $content .= "     <td class=\"id\">$id</td>\n" if $opt_j;
 	    $content .= "     <td>&nbsp;$nm</td>\n";
+	    $header_line++;
 	} else {
 	    my $level = ($icon =~ tr,\.,/,);
 	    my $html_space = '';
@@ -282,12 +288,12 @@ sub update_overview($$){
 		     || -s "$icon_p"
 		     || -s "$icon_t"
 		     ) {
-		    $svn_bgcolor=' ';
+		    $svn_bgcolor='';
 		} else {
 		    $svn_bgcolor=' bgcolor="#E5E5E5" ';
 		}
 	    } elsif ( $status eq "_" ) { 
-		$svn_bgcolor=' ';
+		$svn_bgcolor='';
 	    } elsif ( $status eq "?" ) { 
 		$svn_bgcolor=' bgcolor="blue" ';
 	    } elsif ( $status eq "M" ){
@@ -304,11 +310,17 @@ sub update_overview($$){
 		$svn_bgcolor='';
 	    }
 	    if ( $empty ) { # exchange empty or missing icon files with a char for faster display
-		$content .=  " $svn_bgcolor class=\"empty\">";
+		$content .=  " class=\"empty\" " unless $header_line;
+		$content .=  $svn_bgcolor;
+		$content .=  " >";
 	    } elsif ( $restricted && not $opt_r ){
-		$content .=   "$svn_bgcolor class=\"empty\">";
+		$content .=  " class=\"empty\" " unless $header_line;
+		$content .=  $svn_bgcolor;
+		$content .=  " >";
 	    } else {
-		$content .= " $svn_bgcolor class=\"icon\">";
+		$content .=  " class=\"icon\" " unless $header_line;
+		$content .= $svn_bgcolor;
+		$content .=  " >";
 	    }
 
 	    if ( $opt_s && $status ) {
