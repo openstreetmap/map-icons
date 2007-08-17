@@ -69,3 +69,26 @@ Additional files:
 - overview.de.html
 	gives a nice overview of the available Icons with german descriptions
 
+
+The Tools in this directory are used to maintain the map-icons directory:
+copy_icons_to_dir.sh <Verzeichnis>
+	Ist eine Art mini "make install"
+update_thumbnails.pl
+	erzeugt die beiden Verzeichnisse svg_tn und jp_tn aus den svg Dateien
+merge-icons-all-from-svg2classic2square.sh
+	versucht in dem angegebenen Verzeichnis So viele Icons durch mischen 
+	der einzelnen Dateien aus den unterschiedlichen Themes zu erzeugen.
+	Sollte man auf keinen Fall im Hauptverzeichnis anwenden, wenn man 
+	geänderte Icons dort hat, denn sonst kennt man sich danach gar nicht mehr
+	aus. Update_thumbnails sollte vorher ausgeführt werden, denn von dort wird
+	auch versucht die Daten zu holen.
+copy_icons_to_debian_package_dirs.pl
+	Verteilt die Icons in build/* in die debian packages
+update_icons.pl
+	liesst jetzt nur noch die XML und ergänzt sie evtl.
+create_overview.pl <Directory>
+	erzeugt die beiden overview*.html Dateien
+
+create_makefile.sh
+	Ist geblieben und erzeugt immer noch das alte automake Makefile.am
+
