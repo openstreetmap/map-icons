@@ -36,10 +36,10 @@
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
-     inkscape:window-width="1067"
-     inkscape:window-height="1085"
-     inkscape:window-x="525"
-     inkscape:window-y="0" />
+     inkscape:window-width="906"
+     inkscape:window-height="714"
+     inkscape:window-x="460"
+     inkscape:window-y="243" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -56,13 +56,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#cdba4e;fill-opacity:1;stroke:#0d0d0d;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       style="fill:#cdba4e;fill-opacity:1;stroke:#0d0d0d;stroke-width:1.04791474;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect2160"
-       width="26.785715"
-       height="15"
-       x="3.75"
-       y="11.553572"
-       ry="1.7857143" />
+       width="26.819799"
+       height="14.051943"
+       x="3.7329574"
+       y="12.518672"
+       ry="1.6728503" />
     <path
        sodipodi:type="arc"
        style="fill:#858584;fill-opacity:1;stroke:#101010;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
@@ -72,7 +72,7 @@
        sodipodi:rx="3.9285715"
        sodipodi:ry="3.0357144"
        d="M 20.892856 28.071428 A 3.9285715 3.0357144 0 1 1  13.035713,28.071428 A 3.9285715 3.0357144 0 1 1  20.892856 28.071428 z"
-       transform="matrix(0.8720496,0,0,1.0108877,-1.2222699,-0.8413475)" />
+       transform="matrix(0.8720496,0,0,1.0108877,-1.0436985,-1.9127761)" />
     <rect
        style="fill:#f2d31d;fill-opacity:1;stroke:#000000;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect2164"
@@ -83,16 +83,16 @@
     <rect
        style="fill:#2327de;fill-opacity:0.877095;stroke:none;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect3141"
-       width="6.9642859"
+       width="6.3392859"
        height="4.579493"
-       x="6.3839288"
-       y="14.608007" />
+       x="6.9196429"
+       y="15.590151" />
     <rect
        style="fill:#2327de;fill-opacity:0.877095;stroke:none;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect3143"
-       width="12.857143"
+       width="10.803572"
        height="4.579493"
-       x="14.107142"
-       y="14.589286" />
+       x="16.607143"
+       y="15.482143" />
   </g>
 </svg>

@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/accommodation"
-   sodipodi:docname="hotel.svg"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/accommodation/hotel"
+   sodipodi:docname="one_star.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
@@ -29,17 +29,17 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
+     inkscape:zoom="15.839192"
      inkscape:cx="21.769455"
-     inkscape:cy="9.1839918"
+     inkscape:cy="26.799721"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
-     inkscape:window-width="906"
-     inkscape:window-height="708"
-     inkscape:window-x="486"
-     inkscape:window-y="262" />
+     inkscape:window-width="942"
+     inkscape:window-height="760"
+     inkscape:window-x="450"
+     inkscape:window-y="210" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -93,5 +93,21 @@
        x="5.0892854"
        y="19.94643"
        ry="0.22321428" />
+    <path
+       sodipodi:type="star"
+       style="fill:#efda00;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2163"
+       sodipodi:sides="5"
+       sodipodi:cx="7.5892859"
+       sodipodi:cy="2"
+       sodipodi:r1="3.3035715"
+       sodipodi:r2="1.6517857"
+       sodipodi:arg1="-0.33029735"
+       sodipodi:arg2="0.29802118"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 10.714286,0.92857143 L 9.1682599,2.4850125 L 9.5739531,4.640962 L 7.6159414,3.6515706 L 5.6908776,4.7036329 L 6.0267858,2.5357143 L 4.4313378,1.029975 L 6.5969522,0.67951899 L 7.5359748,-1.3031413 L 8.53849,0.64818357 L 10.714286,0.92857143 z "
+       transform="matrix(0.6255805,0,0,0.6357092,-0.7700162,3.1882643)" />
   </g>
 </svg>

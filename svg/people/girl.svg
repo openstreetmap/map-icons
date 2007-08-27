@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/food"
-   sodipodi:docname="bar.svg"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/people"
+   sodipodi:docname="girl.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
@@ -31,15 +31,15 @@
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
      inkscape:cx="42.017637"
-     inkscape:cy="9.1839918"
+     inkscape:cy="9.6926975"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
-     inkscape:window-width="906"
-     inkscape:window-height="596"
-     inkscape:window-x="485"
-     inkscape:window-y="420" />
+     inkscape:window-width="980"
+     inkscape:window-height="729"
+     inkscape:window-x="328"
+     inkscape:window-y="203" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -56,17 +56,22 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.45413351px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 15.637782,13.115965 L 15.637782,28.976463"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 15.714286,16.464286 L 15.535714,30.571428"
        id="path2159" />
     <path
-       style="fill:#00ffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.30536804;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 15.637939,16.333445 L 4.166657,4.1887054 L 26.726201,4.1887054 L 15.637939,16.333445 z "
+       sodipodi:type="arc"
+       style="fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path2157"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:cx="14.107142"
+       sodipodi:cy="11.375"
+       sodipodi:rx="6.4285712"
+       sodipodi:ry="6.5178571"
+       d="M 20.535714 11.375 A 6.4285712 6.5178571 0 1 1  7.6785712,11.375 A 6.4285712 6.5178571 0 1 1  20.535714 11.375 z"
+       transform="matrix(1.2674483,0,0,1.2637846,-2.1657885,-3.8934073)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.45413351px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 6.4551021,29.769486 L 23.800165,29.769486"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 8.7499996,22 L 21.785714,22"
        id="path2161" />
   </g>
 </svg>

@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/food"
-   sodipodi:docname="bar.svg"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/people"
+   sodipodi:docname="boy.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
@@ -31,7 +31,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
      inkscape:cx="42.017637"
-     inkscape:cy="9.1839918"
+     inkscape:cy="21.189992"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
@@ -56,17 +56,22 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.45413351px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 15.637782,13.115965 L 15.637782,28.976463"
-       id="path2159" />
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path2167"
+       sodipodi:cx="12.678572"
+       sodipodi:cy="24.142857"
+       sodipodi:rx="7.1428571"
+       sodipodi:ry="6.4285712"
+       d="M 19.821429 24.142857 A 7.1428571 6.4285712 0 1 1  5.5357146,24.142857 A 7.1428571 6.4285712 0 1 1  19.821429 24.142857 z"
+       transform="matrix(1.3011389,0,0,1.3484877,-4.4430116,-11.270632)" />
     <path
-       style="fill:#00ffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.30536804;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 15.637939,16.333445 L 4.166657,4.1887054 L 26.726201,4.1887054 L 15.637939,16.333445 z "
-       id="path2157"
-       sodipodi:nodetypes="cccc" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 18.214286,14.678571 L 26.964286,3.7857143 L 16.785714,3.7857143"
+       id="path3139" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.45413351px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 6.4551021,29.769486 L 23.800165,29.769486"
-       id="path2161" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 27.5,3.25 L 27.5,12.535715"
+       id="path3141" />
   </g>
 </svg>
