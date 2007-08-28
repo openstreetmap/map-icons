@@ -12,10 +12,11 @@
    height="249.68225"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.44.1"
-   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/people"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/people"
    sodipodi:docname="people_q.svg"
-   version="1.0">
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -35,8 +36,8 @@
      inkscape:current-layer="layer1"
      inkscape:window-width="997"
      inkscape:window-height="937"
-     inkscape:window-x="1836"
-     inkscape:window-y="163" />
+     inkscape:window-x="394"
+     inkscape:window-y="79" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -45,7 +46,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g

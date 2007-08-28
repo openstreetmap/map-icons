@@ -26,22 +26,16 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <cc:license
-           rdf:resource="http://creativecommons.org/licenses/LGPL/2.1/" />
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
       </cc:Work>
       <cc:License
-         rdf:about="http://creativecommons.org/licenses/LGPL/2.1/">
+         rdf:about="http://web.resource.org/cc/PublicDomain">
         <cc:permits
            rdf:resource="http://web.resource.org/cc/Reproduction" />
         <cc:permits
            rdf:resource="http://web.resource.org/cc/Distribution" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/Notice" />
         <cc:permits
            rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/ShareAlike" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/SourceCode" />
       </cc:License>
     </rdf:RDF>
   </metadata>
