@@ -48,7 +48,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g
@@ -56,13 +67,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.9520275px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect2159"
-       width="14.107142"
-       height="7.1428571"
-       x="8.5714283"
-       y="10.035715"
-       ry="2.1428571" />
+       width="11.297972"
+       height="8.0836868"
+       x="10.154585"
+       y="9.6545858"
+       ry="2.425106" />
     <rect
        style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect2157"
@@ -70,6 +81,6 @@
        height="15.535714"
        x="3.0357144"
        y="13.964286"
-       ry="4.8214288" />
+       ry="2.6785717" />
   </g>
 </svg>

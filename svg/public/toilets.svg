@@ -16,7 +16,7 @@
    inkscape:version="0.45.1"
    sodipodi:docname="toilets.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   sodipodi:docbase="C:\Documents and Settings\akillian\Desktop">
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/public">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -25,12 +25,28 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bone Killian &lt;vitki@bonius.com&gt;</dc:title>
+          </cc:Agent>
+        </dc:creator>
       </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
      inkscape:window-height="780"
-     inkscape:window-width="811"
+     inkscape:window-width="906"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"

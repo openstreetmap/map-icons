@@ -12,10 +12,11 @@
    height="55.392708"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.44.1"
+   inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/waypoint"
-   sodipodi:docname="wpt9.svg">
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/waypoint"
+   sodipodi:docname="wpt9.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -24,7 +25,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <defs
@@ -44,9 +56,9 @@
      inkscape:cy="48.770922"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     inkscape:window-width="891"
+     inkscape:window-width="906"
      inkscape:window-height="781"
-     inkscape:window-x="1830"
+     inkscape:window-x="485"
      inkscape:window-y="49" />
   <g
      inkscape:label="Layer 1"

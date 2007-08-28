@@ -36,9 +36,9 @@
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
-     inkscape:window-width="770"
+     inkscape:window-width="906"
      inkscape:window-height="669"
-     inkscape:window-x="1684"
+     inkscape:window-x="485"
      inkscape:window-y="90"
      borderlayer="false"
      inkscape:showpageshadow="true" />
@@ -50,7 +50,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g

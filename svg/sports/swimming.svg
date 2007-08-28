@@ -12,10 +12,11 @@
    height="186"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.44.1"
-   sodipodi:docbase="/home/src/apps/gpsdrive/gpsdrive-work/data/map-icons/svg/sports"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/sports"
    sodipodi:docname="swimming.svg"
-   version="1.0">
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -33,9 +34,9 @@
      inkscape:cy="92.695159"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     inkscape:window-width="857"
+     inkscape:window-width="906"
      inkscape:window-height="823"
-     inkscape:window-x="1862"
+     inkscape:window-x="485"
      inkscape:window-y="49"
      width="200px"
      height="200px"
@@ -54,7 +55,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g
