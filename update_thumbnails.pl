@@ -47,6 +47,27 @@ exit;
 
 # ------------------------------------------------------------------
 
+##################################################################
+# Get the licence from a svg File
+# RETURNS: 
+#     'PD' for PublicDomain
+#     '?'  if unknown
+sub get_svg_license($){
+    my $icon_file=shift;
+    my $icon = XMLin($icon_file,ForceArray => ['description','title','condition']);
+    my $license = $icon->{'metadata'}->{'rdf:RDF'}->{'cc:Work'}->{'cc:license'}->{'rdf:resource'};
+    #print Dumper(\$license);
+    return '?' unless $license; 
+#    $license =~ s,http://web.resource.org/cc/,,;
+#    return "Public Domain" if $license && $license =~ m/Public.*Domain/;
+    
+    return $license;
+}
+
+
+##################################################################
+# create all Thumbnails for one icon-name
+# currently this means svg --> svg_tn and japan --> japan_tn
 sub create_tn()
 { 
     my $icon_file = $File::Find::name;
@@ -114,11 +135,12 @@ sub update_svg_thumbnail($$){
 #	print "time_diff($icon_svg)= ".($mtime_svt -  $mtime_svg)."\n";
      }
 
+    my $license = get_svg_license($icon_svg);
     my $image_string = File::Slurp::slurp($icon_svg);
     my ($x,$y)=get_svg_size_of_imge( $image_string);
 
     print STDERR "Updating $icon_svg\t-->  $icon_svt\t";
-    print STDERR " => '${x}x$y' \n" if $VERBOSE;;
+    print STDERR " => '${x}x$y' lic:$license \n" if $VERBOSE;;
     eval { # in case image::magic dies
 	my $image = Image::Magick->new( size => "${x}x$y");;
 	my $rc = $image->Read($icon_svg);
@@ -136,8 +158,11 @@ sub update_svg_thumbnail($$){
 	    mkpath($dir) || warn ("Cannot create Directory: '$dir'");
 	} 
 
+	$image->Comment("License: $license") if $license;
+
 	$rc = $image->Write($icon_svt);
 	warn "ERROR: $rc" if "$rc";
+
     };
     warn "ERROR: $@" if $@;
     $COUNT_FILES_CONVERTED++;

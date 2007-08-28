@@ -22,6 +22,7 @@ use File::Copy;
 use File::Path;
 use Data::Dumper;
 use XML::Simple;
+use Image::Info;
 
 our ($opt_b, $opt_h, $opt_i, $opt_j, $opt_l, $opt_n, $opt_p, $opt_r,$opt_s,$opt_v, $opt_D, $opt_F) = 0;
 getopts('bhijlnprsvF:D:') or $opt_h = 1;
@@ -103,8 +104,31 @@ sub get_svg_license($){
     my $icon = XMLin($icon_file,ForceArray => ['description','title','condition']);
     my $license = $icon->{'metadata'}->{'rdf:RDF'}->{'cc:Work'}->{'cc:license'}->{'rdf:resource'};
     #print Dumper(\$license);
-    return "PD" if $license && $license eq "http://web.resource.org/cc/PublicDomain";
-    return "?";
+    return "?" unless $license;
+    return "PD" if $license eq "http://web.resource.org/cc/PublicDomain";
+    $license =~ s,http://creativecommons.org/licenses/LGPL,LGPL,;
+    return $license;
+}
+
+sub get_png_license($){
+    my $filename = shift;
+    my $comment = get_png_comment($filename);
+    return "?" unless $comment;
+    $comment =~ s/Created with The GIMP//;
+    $comment =~ s,Created with Inkscape \(http://www.inkscape.org/\),,;
+    $comment =~ s,Generator: Adobe Illustrator 10.0\, SVG Export Plug-In \. SVG Version: [\d\.]+ Build \d+\),,g;
+    $comment =~ s/^\s*//g;
+    $comment =~ s/\s*$//g;
+    print "Comment($filename): $comment\n" if $VERBOSE && $comment;
+    return "PD" if $comment =~ m/Public.*Domain/i;
+    return $comment if $comment && $comment =~ m/license/;
+}
+
+# Get Comment Field from a PNG
+sub get_png_comment($){
+    my $filename = shift;
+    my ($s1,$s2)=Image::Info::image_info($filename);
+    my $comment = $s1->{'Comment'};
 }
 
 #####################################################################
@@ -349,14 +373,22 @@ sub update_overview($$){
 		$content .= "     <img src=\"$icon_path_current\" class=\"$class\" alt=\"$nm\" />"
 		    if -s "$base_dir/$icon_path_current";
 	    }
-	    if ( -s "$icon_s" && ! $empty && $opt_l ) {
-		my $license = get_svg_license($icon_s);
+	    if ( ! $empty && $opt_l ) { # Add license Information
+		my $license='';
+		if ( -s "$icon_s"  ) {
+		    $license = get_svg_license($icon_s);
+		} elsif ( -s "$icon_p" ) {
+		    $license = get_png_license($icon_p);
+		}
 		if ( $license eq "PD" ) {
 		    $content .= "<br><font size=\"-2\">$license</font>";
-		} else {
+		} elsif( $license && $license eq "?") {
+		    $content .= "<br><font size=\"-2\">no-license-info</font>";
+		} elsif ( $license ) {
 		    $content .= "<br><font size=\"-2\">license:$license</font>";
 		}
-		#print "License($icon_s): $license\n";
+		print "License($type/$icon): $license\n"
+		    if $VERBOSE && $license && $license ne "?";
 	    }
 
 	    $content .= "</td>\n";
