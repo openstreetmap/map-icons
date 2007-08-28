@@ -23,8 +23,8 @@ use File::Path;
 use Data::Dumper;
 use XML::Simple;
 
-our ($opt_v, $opt_F, $opt_h, $opt_i, $opt_j, $opt_b, $opt_n, $opt_p, $opt_r,$opt_s,$opt_D) = 0;
-getopts('hvijbnprsF:D:') or $opt_h = 1;
+our ($opt_b, $opt_h, $opt_i, $opt_j, $opt_l, $opt_n, $opt_p, $opt_r,$opt_s,$opt_v, $opt_D, $opt_F) = 0;
+getopts('bhijlnprsvF:D:') or $opt_h = 1;
 pod2usage( -exitval => '1',  
            -verbose => '1') if $opt_h;
 
@@ -93,6 +93,19 @@ update_overview('de',\@rules);
 
 exit (0);
 
+##################################################################
+# Get the licence from a svg File
+# RETURNS: 
+#     'PD' for PublicDomain
+#     '?'  if unknown
+sub get_svg_license($){
+    my $icon_file=shift;
+    my $icon = XMLin($icon_file,ForceArray => ['description','title','condition']);
+    my $license = $icon->{'metadata'}->{'rdf:RDF'}->{'cc:Work'}->{'cc:license'}->{'rdf:resource'};
+    #print Dumper(\$license);
+    return "PD" if $license && $license eq "http://web.resource.org/cc/PublicDomain";
+    return "?";
+}
 
 #####################################################################
 #
@@ -336,6 +349,15 @@ sub update_overview($$){
 		$content .= "     <img src=\"$icon_path_current\" class=\"$class\" alt=\"$nm\" />"
 		    if -s "$base_dir/$icon_path_current";
 	    }
+	    if ( -s "$icon_s" && ! $empty && $opt_l ) {
+		my $license = get_svg_license($icon_s);
+		if ( $license eq "PD" ) {
+		    $content .= "<br><font size=\"-2\">$license</font>";
+		} else {
+		    $content .= "<br><font size=\"-2\">license:$license</font>";
+		}
+		#print "License($icon_s): $license\n";
+	    }
 
 	    $content .= "</td>\n";
 	}
@@ -402,6 +424,10 @@ update_icons.pl [-h] [-v] [-i] [-r] [-s] [-f XML-FILE]
 =item B<-j>
 
     show internal id in html page
+
+=item B<-l>
+
+Add licence to overview where known (Currently only svg)
 
 =item B<-r>
 
