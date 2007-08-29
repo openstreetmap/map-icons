@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/misc/landmark/power"
+   sodipodi:docname="hydro.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="7.2627332"
+     inkscape:cy="12.927264"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="32px"
+     height="32px"
+     inkscape:window-width="906"
+     inkscape:window-height="897"
+     inkscape:window-x="486"
+     inkscape:window-y="74" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#010101;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.52399784;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 13.291572,2.1905704 L 2.9906671,19.706914 L 7.9571751,17.231777 L 1.8869985,30.559429 L 11.452124,14.185457 L 5.9337821,16.660593 L 13.291572,2.1905704 z "
+       id="path3443"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke-width:10.30560017"
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       id="path624"
+       d="M 22.046665,29.656927 C 21.338507,30.41146 19.693503,30.422801 19.061811,29.674656 C 18.718886,29.268119 17.787529,29.251532 17.399521,29.626795 C 16.789968,30.392563 15.10732,30.404164 14.475068,29.651604 C 14.117673,29.23183 13.138001,29.227201 12.783056,29.656927 C 12.582597,29.539325 12.382147,29.421724 12.181697,29.304122 C 12.493874,28.933741 13.073511,28.751976 13.629059,28.754517 C 14.1862,28.753371 14.780596,28.933394 15.08329,29.312978 C 15.431966,29.719063 16.372179,29.731485 16.747862,29.334255 C 17.363488,28.579106 19.048375,28.59312 19.672306,29.334255 C 20.02597,29.75026 20.96698,29.748948 21.395676,29.328931 C 21.7575,28.933741 22.337137,28.751976 22.892675,28.754517 C 23.449825,28.753371 24.044229,28.933394 24.346898,29.312978 C 24.695582,29.719063 25.635795,29.731485 26.011487,29.334255 C 26.627113,28.579106 28.312,28.59312 28.935922,29.334255 C 29.289594,29.75026 28.957119,30.422801 28.325419,29.674656 C 27.982503,29.268119 27.051154,29.251532 26.663145,29.626795 C 26.053593,30.392563 24.370928,30.404164 23.738694,29.651604 C 23.381281,29.23183 22.401609,29.227201 22.046665,29.656927 z "
+       inkscape:transform-center-y="-0.73742916"
+       inkscape:transform-center-x="6.513084" />
+    <path
+       style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke-width:10.30560017"
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       id="path625"
+       d="M 21.856277,26.548082 C 21.14812,27.302625 19.503116,27.313966 18.871424,26.565816 C 18.528499,26.159284 17.597141,26.142691 17.209133,26.517943 C 16.599581,27.283717 14.916932,27.295317 14.284681,26.542769 C 13.927285,26.122984 12.947614,26.11836 12.592669,26.548082 C 12.39221,26.43048 12.19176,26.312878 11.99131,26.19527 C 12.303487,25.824912 12.883124,25.643135 13.438671,25.645676 C 13.995813,25.64453 14.590209,25.824542 14.892903,26.204148 C 15.241579,26.610222 16.181792,26.622644 16.557475,26.22542 C 17.173101,25.470265 18.857988,25.484284 19.481919,26.22542 C 19.835582,26.641414 20.776593,26.640113 21.205289,26.220097 C 21.567113,25.824912 22.146749,25.643135 22.702288,25.645676 C 23.259438,25.64453 23.853842,25.824542 24.156511,26.204148 C 24.505195,26.610222 25.445408,26.622644 25.8211,26.22542 C 26.436726,25.470265 28.121613,25.484284 28.745535,26.22542 C 29.099207,26.641414 28.766732,27.313966 28.135032,26.565816 C 27.792115,26.159284 26.860766,26.142691 26.472758,26.517943 C 25.863206,27.283717 24.180541,27.295317 23.548307,26.542769 C 23.190894,26.122984 22.211222,26.11836 21.856277,26.548082 z "
+       inkscape:transform-center-y="-2.1330176"
+       inkscape:transform-center-x="6.5130836" />
+  </g>
+</svg>
