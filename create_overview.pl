@@ -121,6 +121,7 @@ sub get_png_license($){
     $comment =~ s/\s*$//g;
     print "Comment($filename): $comment\n" if $VERBOSE && $comment;
     return "PD" if $comment =~ m/Public.*Domain/i;
+    return "?" unless $comment;
     return $comment if $comment && $comment =~ m/license/;
 }
 
