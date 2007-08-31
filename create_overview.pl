@@ -58,36 +58,6 @@ get_svn_status();
 my $rules = XMLin("$file_xml",ForceArray => ['description','title','condition']);
 my @rules=@{$rules->{rule}};
 
-my @INCOMMING_RULES;
-if ( $opt_i ) {
-    my $id=999;
-    my %INCOMMING_RULES;
-    for my $theme ( @ALL_TYPES ) {
-	find( \&add_icons,  "$theme/incomming/" );
-    }
-    sub add_icons { 
-	my $name = $File::Find::name;
-	return if $name =~ m/\.svn/;
-	return unless $name =~ m/incomming/;
-	$name =~ s/\.(svg|png)$//;
-	$name =~ s/^.*incomming/incomming/;
-	$name =~ s/\//\./g;
-	
-	print "--- $name\n";
-	$INCOMMING_RULES{$name}++;
-    }
-
-    for my $name ( sort keys %INCOMMING_RULES ) {
-	push( @INCOMMING_RULES,
-	  {
-	      geoinfo => {
-		  name => "$name",
-		  poi_type_id => $id++,
-	      },
-	  } );
-    }
-    push(@rules, @INCOMMING_RULES);
-}
 
 update_overview('en',\@rules);	 # update html overview from XML-File
 update_overview('de',\@rules);
@@ -371,8 +341,11 @@ sub update_overview($$){
 	    } elsif ( $restricted && not $opt_r ){
 		$content .=   "r";
 	    } else {
-		$content .= "     <img src=\"$icon_path_current\" class=\"$class\" alt=\"$nm\" />"
-		    if -s "$base_dir/$icon_path_current";
+		if ( -s "$base_dir/$icon_path_current" ){
+		    $content .= "     <a href=\"$icon_path_current\" >";
+		    $content .= "         <img title=\"$nm\" src=\"$icon_path_current\" class=\"$class\" alt=\"$nm\" />";
+		    $content .= "</a>";
+		}
 	    }
 	    if ( ! $empty && $opt_l ) { # Add license Information
 		my $license='';
@@ -413,6 +386,45 @@ sub update_overview($$){
     foreach ( sort keys(%out) )  {
 	print $fo $out{$_};
     }
+
+    if ( $opt_i ) {
+	print $fo "<h3>Incomming Directories</h3>\n";
+	
+	for my $theme ( @ALL_TYPES ) {
+	    my $ext = "png";
+	    $ext = "svg" if $theme =~ m/svg|japan/;
+	    print $fo "<br>\n";
+	    print $fo "Incomming for $theme\n";
+	    print $fo "<table border=\"1\">\n";
+	    print $fo "<tr>\n";
+	    my $count=0;
+	    print STDERR "glob($theme/incomming/*.$ext)\n";
+	    for my $icon ( glob("$theme/incomming/*.$ext" ) ){
+		print STDERR "$icon\n" if $VERBOSE;
+		my $name = $icon;
+		$name =~ s/.*\/incomming\///;
+		$name =~ s/\.(svg|png)$//;
+		my $icon_t = $icon;
+		$icon_t =~ s/\//_tn\//;
+		$icon_t =~ s/\.svg/\.png/;
+		print STDERR "thumb: $icon_t\n" if $VERBOSE;
+		$icon_t = $icon unless -s $icon_t;
+		my $content = "     <a href=\"$icon_t\" >";
+		$content .= "         <img alt=\"$icon\" title=\"$icon\" src=\"$icon_t\" />";
+		$content .= "<br/>$name\n";
+		$content .= "</a>\n";
+		print $fo "    <td>$content</td>";
+
+		if ( $count++ > 5) {
+		    $count=0;
+		    print $fo "</tr><tr>\n";
+		}
+	    }
+	    print $fo "</tr>\n";
+	    print $fo "</table>\n";
+
+	}
+    }
     print $fo "</table>\n</body>\n</html>";
     $fo->close();
     return;
@@ -433,30 +445,29 @@ update_icons.pl [-h] [-v] [-i] [-r] [-s] [-f XML-FILE]
  
 =item B<--h>
 
- Show this help
+Show this help
 
 =item B<-F> XML-FILE
 
- Set file, that holds all the necessary icon and poi_type information.
- The default file is 'icons.xml'.
+Set file, that holds all the necessary icon and poi_type information.
+The default file is 'icons.xml'.
 
 =item B<-D> DIRECTORY
 
- The directory to search for the icons. Default it ./
+The directory to search for the icons. Default it ./
 
 =item B<-v>
 
- Enable verbose output
+Enable verbose output
 
 =item B<-i>
 
- Include incomming directory in icons.xml and overview.html
-
-    not working yet
+Add incomming directory to the end of the 
+overview.*.html file.
 
 =item B<-j>
 
-    show internal id in html page
+show internal id in html page
 
 =item B<-l>
 
@@ -464,15 +475,15 @@ Add licence to overview where known (Currently only svg)
 
 =item B<-r>
 
- Include restricted icons in overview.html
+Include restricted icons in overview.html
 
 =item B<-p>
 
- Show path of Filename
+Show path of Filename
 
 =item B<-b>
 
- Show Border in Table
+Show Border in Table
 
 =item B<-s>
 
@@ -484,7 +495,8 @@ Add licence to overview where known (Currently only svg)
  .svn/ directory
 
 =item B<-n>
-    show the svn revision numbers and user too
-    needs option -s to work
+
+show the svn revision numbers and user too
+needs option -s to work
 
 =back
