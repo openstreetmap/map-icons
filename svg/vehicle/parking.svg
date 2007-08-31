@@ -1,9 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <symbol id="symbol-parking" viewBox="10 0 20 20">
-            <rect stroke="none" fill="#0087ff" width="20" height="20" x="0" y="-10" rx="4" ry="4" />
-            <path stroke="none" fill="white" fill-rule="nonzero" d="M 5,8 L 5,-7 L 12,-7 C 14,-7 15.5,-5.3 16,-4 C 16.5,-2.77 16.5,-1.23 16,0 C 15.41,1.42 14,3 12,3 L 8,3 L 8,8 L 5,8 z M 8,-4 L 8,0 C 9.3,0 11,0 12.32,-0.31 C 13.6,-0.76 13.5,-2.8 12.5,-3.48 C 11.5,-4.1 8.6,-4 8,-4 z "/>
-        </symbol>
-    </defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/vehicle"
+   sodipodi:docname="parking.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="29.021042"
+     inkscape:cy="14.297118"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="32px"
+     height="32px"
+     inkscape:window-width="956"
+     inkscape:window-height="909"
+     inkscape:window-x="436"
+     inkscape:window-y="0"
+     showgrid="true"
+     inkscape:object-bbox="true"
+     inkscape:object-points="true"
+     inkscape:object-nodes="true"
+     inkscape:grid-points="true"
+     inkscape:guide-points="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:title>Map Icon for OpenStreetmap and GpsDrive</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#ff0000;stroke-width:0.1092821;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2157"
+       width="29.990725"
+       height="29.865675"
+       x="1.0671376"
+       y="1.0692713"
+       ry="4.6501541" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.77949917px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="25.967566"
+       y="40.215179"
+       id="text2159"
+       transform="scale(1.2972641,0.770853)"><tspan
+         sodipodi:role="line"
+         id="tspan2161"
+         x="25.967566"
+         y="40.215179">P</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:29.42379189px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="6.3084321"
+       y="26.325073"
+       id="text2160"
+       transform="scale(0.9750027,1.0256382)"><tspan
+         sodipodi:role="line"
+         id="tspan2162"
+         x="6.3084321"
+         y="26.325073"
+         style="font-weight:bold">P</tspan></text>
+  </g>
 </svg>

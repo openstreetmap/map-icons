@@ -145,7 +145,10 @@ sub update_svg_thumbnail($$){
 	my $image = Image::Magick->new( size => "${x}x$y");;
 	my $rc = $image->Read($icon_svg);
 	warn "$rc" if "$rc";
-	$rc = $image->Sample(geometry => "32x32+0+0");
+	if ( $icon_svg !~ /incomming/ ) {
+	    $rc = $image->Sample(geometry => "32x32+0+0");
+	}
+
 	# For debugging the svg pictures; you can use this line
 	#$rc = $image->Sample(geometry => "128x128+0+0") if $x>128 || $y>128;
 	warn "ERROR: $rc" if "$rc";

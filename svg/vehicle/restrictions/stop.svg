@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/vehicle/restrictions"
+   sodipodi:docname="stop.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="15.839192"
+     inkscape:cx="27.09423"
+     inkscape:cy="8.7910817"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="32px"
+     height="32px"
+     inkscape:window-width="1142"
+     inkscape:window-height="889"
+     inkscape:window-x="156"
+     inkscape:window-y="0"
+     showgrid="true"
+     inkscape:object-bbox="true"
+     inkscape:object-points="true"
+     inkscape:object-nodes="true"
+     inkscape:grid-points="true"
+     inkscape:guide-points="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:title>Map Icon for OpenStreetmap and GpsDrive</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#f31818;fill-opacity:1;stroke:#f0e2e2;stroke-width:3.87775566;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2157"
+       sodipodi:sides="8"
+       sodipodi:cx="8"
+       sodipodi:cy="2"
+       sodipodi:r1="29.832869"
+       sodipodi:r2="29.740255"
+       sodipodi:arg1="0.88034987"
+       sodipodi:arg2="0.8821647"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 27.000001,25.000001 L 26.899374,24.962936 L 5.1715728,31.698486 L 5.1266277,31.601124 L -15.000001,21.000001 L -14.962936,20.899374 L -21.698486,-0.82842721 L -21.601124,-0.87337234 L -11.000001,-21.000001 L -10.899374,-20.962936 L 10.828427,-27.698486 L 10.873372,-27.601124 L 31.000001,-17.000001 L 30.962936,-16.899374 L 37.698486,4.8284272 L 37.601124,4.8733723 L 27.000001,25.000001 z "
+       transform="matrix(-0.155911,0.4899203,-0.4937338,-0.1547068,17.933079,12.166133)" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.2309742px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="-57.90855"
+       y="-17.8048"
+       id="text4098"
+       transform="scale(-0.5849504,-1.7095466)"><tspan
+         sodipodi:role="line"
+         id="tspan4100"
+         x="-57.90855"
+         y="-17.8048">STOP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.00007633px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="-0.0053610327"
+       y="203554.52"
+       id="text2160"
+       transform="scale(-6361.0785,1.5720605e-4)"><tspan
+         sodipodi:role="line"
+         id="tspan2162"
+         x="-0.0053610327"
+         y="203554.52">.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.53277206px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="3.422013"
+       y="18.008179"
+       id="text2164"
+       transform="scale(0.8984554,1.1130213)"><tspan
+         sodipodi:role="line"
+         id="tspan2166"
+         x="3.422013"
+         y="18.008179">STOP</tspan></text>
+  </g>
+</svg>

@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg"
-   sodipodi:docname="empty.svg"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/vehicle"
+   sodipodi:docname="crosing_small.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
@@ -29,17 +29,17 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="42.017637"
-     inkscape:cy="9.1839918"
+     inkscape:zoom="22.4"
+     inkscape:cx="22.431541"
+     inkscape:cy="15.277155"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
-     inkscape:window-width="906"
-     inkscape:window-height="596"
-     inkscape:window-x="485"
-     inkscape:window-y="420"
+     inkscape:window-width="1192"
+     inkscape:window-height="999"
+     inkscape:window-x="199"
+     inkscape:window-y="17"
      showgrid="true"
      inkscape:object-bbox="true"
      inkscape:object-points="true"
@@ -72,5 +72,18 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1">
+    <g
+       id="g3132"
+       transform="matrix(0.3355951,0,0,0.2368237,10.610122,12.789878)">
+      <path
+         id="path2157"
+         d="M 5,22 L 25,12"
+         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path2159"
+         d="M 5,12 L 25,22"
+         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
 </svg>

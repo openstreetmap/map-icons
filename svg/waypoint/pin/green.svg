@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   width="32"
+   height="32"
+   version="1.0"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/waypoint/pin"
+   sodipodi:docname="green.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     inkscape:window-height="970"
+     inkscape:window-width="1126"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="true"
+     inkscape:object-points="true"
+     inkscape:object-bbox="true"
+     inkscape:object-nodes="true"
+     inkscape:grid-points="true"
+     inkscape:guide-points="true"
+     inkscape:zoom="11.8125"
+     inkscape:cx="1.0203058"
+     inkscape:cy="11.970677"
+     inkscape:window-x="266"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#808080;fill-rule:evenodd;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 14.863234,13.93212 L 9.0700837,22.083158 L 8.7265574,24.29268 L 10.700291,23.241788 L 16.493442,15.09075 L 14.863234,13.93212 z "
+     id="path3138" />
+  <image
+     xlink:href="svg/waypoint/pin.png"
+     sodipodi:absref="svg/waypoint/pin.png"
+     width="32"
+     height="32"
+     id="image9"
+     x="0"
+     y="0" />
+  <g
+     id="g2161"
+     style="fill:#00ff00">
+    <path
+       transform="matrix(0.8075597,0.5160123,-0.5175485,0.8051626,16.802352,-11.469939)"
+       d="M 21 22 A 7 5 0 1 1  7,22 A 7 5 0 1 1  21 22 z"
+       sodipodi:ry="5"
+       sodipodi:rx="7"
+       sodipodi:cy="22"
+       sodipodi:cx="14"
+       id="path2161"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#030000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="arc" />
+    <rect
+       ry="3.8925574"
+       transform="matrix(0.8190901,0.5736649,-0.5849116,0.8110971,0,0)"
+       y="-7.8418651"
+       x="17.2633"
+       height="11.090103"
+       width="8.246089"
+       id="rect3134"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#030000;stroke-width:0.11176623;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       transform="matrix(0.6433843,0.3773464,-0.4123319,0.5887944,21.080317,-11.253533)"
+       d="M 21 22 A 7 5 0 1 1  7,22 A 7 5 0 1 1  21 22 z"
+       sodipodi:ry="5"
+       sodipodi:rx="7"
+       sodipodi:cy="22"
+       sodipodi:cx="14"
+       id="path3136"
+       style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#030000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="arc" />
+  </g>
+</svg>

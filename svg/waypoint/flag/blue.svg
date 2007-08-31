@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg"
-   sodipodi:docname="empty.svg"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/waypoint/flag"
+   sodipodi:docname="blue.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
@@ -29,17 +29,17 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="42.017637"
-     inkscape:cy="9.1839918"
+     inkscape:zoom="15.839192"
+     inkscape:cx="24.766775"
+     inkscape:cy="14.936609"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
      inkscape:window-width="906"
-     inkscape:window-height="596"
-     inkscape:window-x="485"
-     inkscape:window-y="420"
+     inkscape:window-height="970"
+     inkscape:window-x="366"
+     inkscape:window-y="0"
      showgrid="true"
      inkscape:object-bbox="true"
      inkscape:object-points="true"
@@ -72,5 +72,15 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 5,27 L 5,2"
+       id="path2157" />
+    <path
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 5,4.9152849 C 5,4.9152849 11,12 21.823455,6.3053803 C 21,12 16,19 5,16.910846 L 5,4.9152849 z "
+       id="path2159"
+       sodipodi:nodetypes="cccc" />
+  </g>
 </svg>

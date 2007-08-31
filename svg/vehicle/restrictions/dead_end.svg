@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg"
-   sodipodi:docname="empty.svg"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/transport/restrictions"
+   sodipodi:docname="dead_end.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
@@ -29,23 +29,25 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="42.017637"
-     inkscape:cy="9.1839918"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-87.098319"
+     inkscape:cy="-33.466384"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
-     inkscape:window-width="906"
-     inkscape:window-height="596"
-     inkscape:window-x="485"
-     inkscape:window-y="420"
+     inkscape:window-width="1014"
+     inkscape:window-height="979"
+     inkscape:window-x="294"
+     inkscape:window-y="37"
      showgrid="true"
      inkscape:object-bbox="true"
      inkscape:object-points="true"
      inkscape:object-nodes="true"
      inkscape:grid-points="true"
-     inkscape:guide-points="true" />
+     inkscape:guide-points="true"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -72,5 +74,27 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:3.0999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3150"
+       width="26"
+       height="26"
+       x="3"
+       y="3" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.0999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3152"
+       width="6"
+       height="16"
+       x="13"
+       y="11" />
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:3.0999999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3154"
+       width="20"
+       height="5"
+       x="6"
+       y="6" />
+  </g>
 </svg>

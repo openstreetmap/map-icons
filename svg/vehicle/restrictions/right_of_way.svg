@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg"
-   sodipodi:docname="empty.svg"
+   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/transport/restrictions"
+   sodipodi:docname="right_of_way.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4" />
@@ -29,17 +29,17 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="42.017637"
-     inkscape:cy="9.1839918"
+     inkscape:zoom="15.839192"
+     inkscape:cx="24.923682"
+     inkscape:cy="9.1048958"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
      height="32px"
-     inkscape:window-width="906"
-     inkscape:window-height="596"
-     inkscape:window-x="485"
-     inkscape:window-y="420"
+     inkscape:window-width="989"
+     inkscape:window-height="1016"
+     inkscape:window-x="402"
+     inkscape:window-y="0"
      showgrid="true"
      inkscape:object-bbox="true"
      inkscape:object-points="true"
@@ -72,5 +72,11 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1">
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#f81919;stroke-width:4.02286291;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.0114314,4.056395 L 28.988569,4.056395 L 16.154315,27.116837 L 3.0114314,4.056395 z "
+       id="path2159"
+       sodipodi:nodetypes="cccc" />
+  </g>
 </svg>

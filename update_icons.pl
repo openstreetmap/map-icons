@@ -64,8 +64,6 @@ my $VERBOSE = $opt_v;
 
 my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan );
 
-my $SVN_STATUS={};
-my $SVN_VERSION = '';
 
 #####################################################################
 #
@@ -77,33 +75,11 @@ unless (-e $file_xml)
 {
   create_xml();	# Create a new XML-File if none exists
 }
-get_svn_status();
 get_icons();		 # read available icons from dirs
 update_xml();	         # parse and update contents  of XML-File
 chdir('..');
 exit (0);
 
-
-#####################################################################
-#
-# Get the "svn status" for all icons Files
-#
-sub get_svn_status {
-    return unless $opt_s;
-    $SVN_VERSION = `svnversion`;
-    chomp($SVN_VERSION);
-    $SVN_VERSION =~ s/M//;
-    my $svn_status = `svn -v status .`;
-    for my $line (split(/[\r\n]+/,$svn_status)) {
-	chomp $line;
-	my ($status,$rev,$rev_ci,$user,$file) = (split(/\s+/,$line),('')x5);
-	if ( $status eq "?" ) {
-	    $file = $rev; 
-	    $rev ='';
-	}
-	$SVN_STATUS->{$file}="$status,$rev,$rev_ci,$user";
-    }
-}
 
 
 #####################################################################
@@ -561,26 +537,5 @@ update_icons.pl [-h] [-v] [-i] [-r] [-f XML-FILE]
 =item B<-v>
 
  Enable verbose output
-
-=item B<-i>
-
- Include incomming directory in icons.xml and overview.html
-
-=item B<-r>
-
- Include restricted icons in overview.html
-
-=item B<-s>
-
- add svn status to overview
-    grey is missing in svn
-    green is modified
-    red is any other condition
- this also shows the old and new icon if it is found in the 
- .svn/ directory
-
-=item B<-n>
-    show the svn revision numbers and user too
-    needs option -s to work
 
 =back

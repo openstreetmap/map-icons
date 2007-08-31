@@ -31,7 +31,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
      inkscape:cx="21.789332"
-     inkscape:cy="23.126097"
+     inkscape:cy="15.549953"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="32px"
@@ -56,7 +56,7 @@
         </dc:creator>
         <dc:rights>
           <cc:Agent>
-            <dc:title></dc:title>
+            <dc:title />
           </cc:Agent>
         </dc:rights>
         <dc:publisher>
@@ -84,11 +84,11 @@
      id="layer1">
     <path
        style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1.19946754;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 14.983947,11.430673 L 14.983947,1.2666543 L 23.084218,4.0705216 L 14.983947,6.8159752"
+       d="M 16.310752,11.178135 L 16.310752,1.0141162 L 24.411023,3.8179835 L 16.310752,6.5634371"
        id="path2163" />
     <path
-       style="fill:#8effff;fill-rule:evenodd;stroke:#000000;stroke-width:1.944;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1;fill-opacity:1"
-       d="M 7.0256143,29.647025 L 14.970672,11.851315 L 22.806139,29.647025 L 7.0256143,29.647025 z "
+       style="opacity:1;fill:#8effff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.12988925;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 8.2784963,28.346449 L 16.312551,12.015469 L 24.235789,28.346449 L 8.2784963,28.346449 z "
        id="path2161"
        sodipodi:nodetypes="cccc" />
     <path
