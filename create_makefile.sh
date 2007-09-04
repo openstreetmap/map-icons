@@ -4,7 +4,7 @@ makefile="Makefile.am"
 
 echo "" >$makefile
 for theme in square.big square.small svg japan classic.small classic.big nickw ; do 
-    find $theme -type d | grep -v /.svn | while read dir; do
+    find $theme -type d | grep -v /.svn | sort | while read dir; do
 	# if no files in dir
 	name=${dir//-/_}
 	name=${name//\//_}
@@ -24,7 +24,7 @@ echo  >>$makefile
 echo  >>$makefile
 echo "EXTRA_DIST= \\" >>$makefile
 for theme in square.big square.small svg japan classic.small classic.big nickw ; do 
-    find $theme -type d | grep -v /.svn | while read dir; do
+    find $theme -type d | grep -v /.svn | sort | while read dir; do
 	# if no files in dir
 	#echo $dir/*.png | grep -q -e '\*' && continue
 
@@ -33,6 +33,7 @@ for theme in square.big square.small svg japan classic.small classic.big nickw ;
 	echo '	$('$name'_DATA)' "\\" >>$makefile
     done
 done
+
 echo '	CMakeLists.txt'  "\\">>$makefile
 echo '	overview.de.html'  "\\">>$makefile
 echo '	overview.en.html'  "\\">>$makefile
