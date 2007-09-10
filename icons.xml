@@ -169,6 +169,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="accommodation.hotel.one_star"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>522</poi_type_id>
+      <name>accommodation.hotel.one_star</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="accommodation.hotel.three_star"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -6013,6 +6025,182 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="waypoint.flag"/>
+    <scale_min>1</scale_min>
+    <scale_max>1500000</scale_max>
+    <title lang="en">Waypoint </title>
+    <title lang="de">Wegpunkt </title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>501</poi_type_id>
+      <name>waypoint.flag</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.flag.blue"/>
+    <scale_min>1</scale_min>
+    <scale_max>1500000</scale_max>
+    <title lang="en">Waypoint blue</title>
+    <title lang="de">Wegpunkt blau</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>309</poi_type_id>
+      <name>waypoint.flag.blue</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.flag.green"/>
+    <scale_min>1</scale_min>
+    <scale_max>1500000</scale_max>
+    <title lang="en">Waypoint green</title>
+    <title lang="de">Wegpunkt grün</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>310</poi_type_id>
+      <name>waypoint.flag.green</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.flag.orange"/>
+    <scale_min>1</scale_min>
+    <scale_max>1500000</scale_max>
+    <title lang="en">Waypoint orange</title>
+    <title lang="de">Wegpunkt orange</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>311</poi_type_id>
+      <name>waypoint.flag.orange</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.flag.red"/>
+    <scale_min>1</scale_min>
+    <scale_max>1500000</scale_max>
+    <title lang="en">Waypoint red</title>
+    <title lang="de">Wegpunkt rot</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>312</poi_type_id>
+      <name>waypoint.flag.red</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.flag.temp"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>523</poi_type_id>
+      <name>waypoint.flag.temp</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.flag.yellow"/>
+    <scale_min>1</scale_min>
+    <scale_max>1500000</scale_max>
+    <title lang="en">Waypoint yellow</title>
+    <title lang="de">Wegpunkt gelb</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>433</poi_type_id>
+      <name>waypoint.flag.yellow</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.pin"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>524</poi_type_id>
+      <name>waypoint.pin</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.pin.blue"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>525</poi_type_id>
+      <name>waypoint.pin.blue</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.pin.green"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>526</poi_type_id>
+      <name>waypoint.pin.green</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.pin.orange"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>527</poi_type_id>
+      <name>waypoint.pin.orange</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.pin.red"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>528</poi_type_id>
+      <name>waypoint.pin.red</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.pin.yellow"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>529</poi_type_id>
+      <name>waypoint.pin.yellow</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="de">Routenpunkt</title>
+    <title lang="en">Routepoint</title>
+    <description lang="de">Wegpunkt, um die Punkte der aktuellen Route zu markieren</description>
+    <description lang="en">Waypoint to mark the points of the current route</description>
+    <geoinfo>
+      <poi_type_id>92</poi_type_id>
+      <name>waypoint.routepoint</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="waypoint.wpt1"/>
     <scale_min>1</scale_min>
     <scale_max>1500000</scale_max>
@@ -6130,67 +6318,50 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="waypoint.flag"/>
+    <condition k="poi" v="waypoint.wptblue"/>
     <scale_min>1</scale_min>
-    <scale_max>1500000</scale_max>
-    <title lang="en">Waypoint </title>
-    <title lang="de">Wegpunkt </title>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>501</poi_type_id>
-      <name>waypoint.flag</name>
+      <poi_type_id>530</poi_type_id>
+      <name>waypoint.wptblue</name>
     </geoinfo>
   </rule>
 
   <rule>
-    <condition k="poi" v="waypoint.flag.blue"/>
+    <condition k="poi" v="waypoint.wptgreen"/>
     <scale_min>1</scale_min>
-    <scale_max>1500000</scale_max>
-    <title lang="en">Waypoint blue</title>
-    <title lang="de">Wegpunkt blau</title>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>309</poi_type_id>
-      <name>waypoint.flag.blue</name>
+      <poi_type_id>531</poi_type_id>
+      <name>waypoint.wptgreen</name>
     </geoinfo>
   </rule>
 
   <rule>
-    <condition k="poi" v="waypoint.flag.green"/>
+    <condition k="poi" v="waypoint.wptorange"/>
     <scale_min>1</scale_min>
-    <scale_max>1500000</scale_max>
-    <title lang="en">Waypoint green</title>
-    <title lang="de">Wegpunkt grün</title>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>310</poi_type_id>
-      <name>waypoint.flag.green</name>
+      <poi_type_id>532</poi_type_id>
+      <name>waypoint.wptorange</name>
     </geoinfo>
   </rule>
 
   <rule>
-    <condition k="poi" v="waypoint.flag.orange"/>
+    <condition k="poi" v="waypoint.wptred"/>
     <scale_min>1</scale_min>
-    <scale_max>1500000</scale_max>
-    <title lang="en">Waypoint orange</title>
-    <title lang="de">Wegpunkt orange</title>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>311</poi_type_id>
-      <name>waypoint.flag.orange</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="waypoint.flag.red"/>
-    <scale_min>1</scale_min>
-    <scale_max>1500000</scale_max>
-    <title lang="en">Waypoint red</title>
-    <title lang="de">Wegpunkt rot</title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>312</poi_type_id>
-      <name>waypoint.flag.red</name>
+      <poi_type_id>533</poi_type_id>
+      <name>waypoint.wptred</name>
     </geoinfo>
   </rule>
 
@@ -6244,15 +6415,14 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="waypoint.flag.yellow"/>
+    <condition k="poi" v="waypoint.wptyellow"/>
     <scale_min>1</scale_min>
-    <scale_max>1500000</scale_max>
-    <title lang="en">Waypoint yellow</title>
-    <title lang="de">Wegpunkt gelb</title>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>433</poi_type_id>
-      <name>waypoint.flag.yellow</name>
+      <poi_type_id>534</poi_type_id>
+      <name>waypoint.wptyellow</name>
     </geoinfo>
   </rule>
 
