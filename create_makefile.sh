@@ -32,6 +32,10 @@ for theme in square.big square.small svg japan classic.small classic.big nickw ;
     echo  >>$makefile
 done
 
+echo '' >>$makefile
+echo 'icons.xml_DATA = icons.xml' >>$makefile
+echo 'icons.xmldir = $(datadir)/map-icons/' >>$makefile
+
 echo  >>$makefile
 echo  >>$makefile
 echo "EXTRA_DIST= \\" >>$makefile
@@ -46,8 +50,8 @@ for theme in square.big square.small svg japan classic.small classic.big nickw ;
     done
 done
 
+echo '	$(icons.xml_DATA)'  "\\">>$makefile
 echo '	CMakeLists.txt'  "\\">>$makefile
-echo '	icons.xml'  "\\">>$makefile
 echo '	overview.de.html'  "\\">>$makefile
 echo '	overview.en.html'  "\\">>$makefile
 echo '	README.icons'  "\\">>$makefile

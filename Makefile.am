@@ -884,6 +884,9 @@ nickw_DATA = nickw/amenity.png nickw/barn.png nickw/bridge.png nickw/campsite.pn
 nickwdir = $(datadir)/map-icons/nickw
 
 
+icons.xml_DATA = icons.xml
+icons.xmldir = $(datadir)/map-icons/
+
 
 EXTRA_DIST= \
 	$(square.big_DATA) \
@@ -1175,8 +1178,8 @@ EXTRA_DIST= \
 	$(classic.big_wlan_DATA) \
 	$(classic.big_wlan_pay_DATA) \
 	$(nickw_DATA) \
+	$(icons.xml_DATA) \
 	CMakeLists.txt \
-	icons.xml \
 	overview.de.html \
 	overview.en.html \
 	README.icons \
