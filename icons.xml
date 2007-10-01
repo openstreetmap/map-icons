@@ -4819,7 +4819,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="sports.track"/>
+    <condition k="highway" v="sports.track"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
@@ -5135,6 +5135,54 @@
     <geoinfo>
       <poi_type_id>386</poi_type_id>
       <name>transport.ticket-machine</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="highway" v="transport.track"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>535</poi_type_id>
+      <name>transport.track</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="highway" v="transport.track.arrow"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>536</poi_type_id>
+      <name>transport.track.arrow</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="highway" v="transport.track.arrow_back"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>537</poi_type_id>
+      <name>transport.track.arrow_back</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="highway" v="transport.track.rail"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>538</poi_type_id>
+      <name>transport.track.rail</name>
     </geoinfo>
   </rule>
 
@@ -5852,6 +5900,41 @@
     </geoinfo>
   </rule>
 
+  <rule>
+    <condition k="highway" v="vehicle.shield.motorway_shield"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>539</poi_type_id>
+      <name>vehicle.shield.motorway_shield</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="highway" v="vehicle.shield.motorway_shield2"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>540</poi_type_id>
+      <name>vehicle.shield.motorway_shield2</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="highway" v="vehicle.shield.motorway_shield3"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>541</poi_type_id>
+      <name>vehicle.shield.motorway_shield3</name>
+    </geoinfo>
+  </rule>
 
   <rule>
     <condition k="poi" v="vehicle.stile"/>
