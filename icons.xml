@@ -4469,14 +4469,14 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="sightseeing.archeological"/>
+    <condition k="poi" v="sightseeing.archaeological"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>470</poi_type_id>
-      <name>sightseeing.archeological</name>
+      <name>sightseeing.archaeological</name>
     </geoinfo>
   </rule>
 
