@@ -6193,10 +6193,234 @@
     <title lang="de">Routenpunkt</title>
     <title lang="en">Routepoint</title>
     <description lang="de">Wegpunkt, um die Punkte der aktuellen Route zu markieren</description>
-    <description lang="en">Waypoint to mark the points of the current route</description>
+    <description lang="en">Generic waypoint to mark the points of the current route</description>
     <geoinfo>
       <poi_type_id>92</poi_type_id>
       <name>waypoint.routepoint</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.destination"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Destination</title>
+    <description lang="en">You have reached your destination.</description>
+    <title lang="de">Ziel</title>
+    <description lang="de">Sie haben Ihr Ziel erreicht.</description>
+    <geoinfo>
+      <poi_type_id>542</poi_type_id>
+      <name>waypoint.routepoint.destination</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.left"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Turn left</title>
+    <description lang="en">Turn left here</description>
+    <title lang="de">Links abbiegen</title>
+    <description lang="de">Biegen Sie links ab.</description>
+    <geoinfo>
+      <poi_type_id>543</poi_type_id>
+      <name>waypoint.routepoint.left</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.left.exit"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Take the exit</title>
+    <description lang="en">Leave the motorway here</description>
+    <title lang="de">Ausfahrt links</title>
+    <description lang="de">Verlassen Sie die Autobahn.</description>
+    <geoinfo>
+      <poi_type_id>544</poi_type_id>
+      <name>waypoint.routepoint.left.exit</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.left.fork"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Fork left</title>
+    <description lang="en">Fork left here</description>
+    <title lang="de">Links halten</title>
+    <description lang="de">Hier bitte links halten</description>
+    <geoinfo>
+      <poi_type_id>545</poi_type_id>
+      <name>waypoint.routepoint.left.fork</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.left.hard"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Hard left</title>
+    <description lang="en">Turn hard left here</description>
+    <title lang="de">Scharf links</title>
+    <description lang="de">Biegen Sie hier scharf links ab.</description>
+    <geoinfo>
+      <poi_type_id>546</poi_type_id>
+      <name>waypoint.routepoint.left.hard</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.left.merge"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Merge left</title>
+    <description lang="en">Merge left here.</description>
+    <title lang="de">Auffahrt links</title>
+    <description lang="de">Nehmen Sie die Auffahrt links.</description>
+    <geoinfo>
+      <poi_type_id>547</poi_type_id>
+      <name>waypoint.routepoint.left.merge</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.left.soft"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Soft left</title>
+    <description lang="en">Turn left softly</description>
+    <title lang="de">Leicht links</title>
+    <description lang="de">Biegen Sie hier leicht nach links ab.</description>
+    <geoinfo>
+      <poi_type_id>548</poi_type_id>
+      <name>waypoint.routepoint.left.soft</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.left.uturn"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Uturn left</title>
+    <description lang="en">Please do a U-turn here</description>
+    <title lang="de">links wenden</title>
+    <description lang="de">Bitte wenden Sie hier.</description>
+    <geoinfo>
+      <poi_type_id>549</poi_type_id>
+      <name>waypoint.routepoint.left.uturn</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.right"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Turn right</title>
+    <description lang="en">Turn right here</description>
+    <title lang="de">Rechts abbiegen</title>
+    <description lang="de">Biegen Sie rechts ab.</description>
+    <geoinfo>
+      <poi_type_id>550</poi_type_id>
+      <name>waypoint.routepoint.right</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.right.exit"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Take the exit right</title>
+    <description lang="en">Leave the motorway here</description>
+    <title lang="de">Ausfahrt rechts</title>
+    <description lang="de">Verlassen Sie die Autobahn.</description>
+    <geoinfo>
+      <poi_type_id>551</poi_type_id>
+      <name>waypoint.routepoint.right.exit</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.right.fork"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Fork right</title>
+    <description lang="en">Fork right here</description>
+    <title lang="de">Rechts halten</title>
+    <description lang="de">Hier bitte rechts halten</description>
+    <geoinfo>
+      <poi_type_id>552</poi_type_id>
+      <name>waypoint.routepoint.right.fork</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.right.hard"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Hard right</title>
+    <description lang="en">Turn hard right here</description>
+    <title lang="de">Scharf rechts</title>
+    <description lang="de">Biegen Sie hier scharf rechts ab.</description>
+    <geoinfo>
+      <poi_type_id>553</poi_type_id>
+      <name>waypoint.routepoint.right.hard</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.right.merge"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Merge right</title>
+    <description lang="en">Merge right here</description>
+    <title lang="de">Auffahrt rechts</title>
+    <description lang="de">Nehmen Sie die Auffahrt rechts.</description>
+    <geoinfo>
+      <poi_type_id>554</poi_type_id>
+      <name>waypoint.routepoint.right.merge</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.right.soft"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Soft right</title>
+    <description lang="en">Turn right softly</description>
+    <title lang="de">Leicht rechts</title>
+    <description lang="de">Biegen Sie hier leicht nach rechts ab.</description>
+    <geoinfo>
+      <poi_type_id>555</poi_type_id>
+      <name>waypoint.routepoint.right.soft</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.right.uturn"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Uturn left</title>
+    <description lang="en">Please do a U-turn here</description>
+    <title lang="de">Rechts wenden</title>
+    <description lang="de">Bitte wenden Sie hier.</description>
+    <geoinfo>
+      <poi_type_id>556</poi_type_id>
+      <name>waypoint.routepoint.right.uturn</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="waypoint.routepoint.straight"/>
+    <scale_min>1</scale_min>
+    <scale_max>5000000</scale_max>
+    <title lang="en">Straight on</title>
+    <description lang="en">Go straight on</description>
+    <title lang="de">Geradeaus</title>
+    <description lang="de">Fahren Sie geradeaus.</description>
+    <geoinfo>
+      <poi_type_id>557</poi_type_id>
+      <name>waypoint.routepoint.straight</name>
     </geoinfo>
   </rule>
 
