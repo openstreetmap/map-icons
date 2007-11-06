@@ -6400,7 +6400,7 @@
     <condition k="poi" v="waypoint.routepoint.right.uturn"/>
     <scale_min>1</scale_min>
     <scale_max>5000000</scale_max>
-    <title lang="en">Uturn left</title>
+    <title lang="en">Uturn right</title>
     <description lang="en">Please do a U-turn here</description>
     <title lang="de">Rechts wenden</title>
     <description lang="de">Bitte wenden Sie hier.</description>
