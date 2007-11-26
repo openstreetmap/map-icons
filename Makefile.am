@@ -193,6 +193,15 @@ square.big_waypointdir = $(datadir)/map-icons/square.big/waypoint
 square.big_waypoint_flag_DATA = square.big/waypoint/flag/blue.png square.big/waypoint/flag/green.png square.big/waypoint/flag/orange.png square.big/waypoint/flag/red.png square.big/waypoint/flag/temp.png square.big/waypoint/flag/yellow.png
 square.big_waypoint_flagdir = $(datadir)/map-icons/square.big/waypoint/flag
 
+square.big_waypoint_routepoint_DATA = square.big/waypoint/routepoint/destination.png square.big/waypoint/routepoint/left.png square.big/waypoint/routepoint/right.png square.big/waypoint/routepoint/straight.png
+square.big_waypoint_routepointdir = $(datadir)/map-icons/square.big/waypoint/routepoint
+
+square.big_waypoint_routepoint_left_DATA = square.big/waypoint/routepoint/left/exit.png square.big/waypoint/routepoint/left/fork.png square.big/waypoint/routepoint/left/hard.png square.big/waypoint/routepoint/left/merge.png square.big/waypoint/routepoint/left/soft.png square.big/waypoint/routepoint/left/uturn.png
+square.big_waypoint_routepoint_leftdir = $(datadir)/map-icons/square.big/waypoint/routepoint/left
+
+square.big_waypoint_routepoint_right_DATA = square.big/waypoint/routepoint/right/exit.png square.big/waypoint/routepoint/right/fork.png square.big/waypoint/routepoint/right/hard.png square.big/waypoint/routepoint/right/merge.png square.big/waypoint/routepoint/right/soft.png square.big/waypoint/routepoint/right/uturn.png
+square.big_waypoint_routepoint_rightdir = $(datadir)/map-icons/square.big/waypoint/routepoint/right
+
 square.big_waypoint_wpttemp_DATA = square.big/waypoint/wpttemp/wpttemp-green.png square.big/waypoint/wpttemp/wpttemp-red.png square.big/waypoint/wpttemp/wpttemp-yellow.png
 square.big_waypoint_wpttempdir = $(datadir)/map-icons/square.big/waypoint/wpttemp
 
@@ -356,6 +365,15 @@ square.small_waypointdir = $(datadir)/map-icons/square.small/waypoint
 square.small_waypoint_flag_DATA = square.small/waypoint/flag/blue.png square.small/waypoint/flag/green.png square.small/waypoint/flag/orange.png square.small/waypoint/flag/red.png square.small/waypoint/flag/temp.png square.small/waypoint/flag/yellow.png
 square.small_waypoint_flagdir = $(datadir)/map-icons/square.small/waypoint/flag
 
+square.small_waypoint_routepoint_DATA = square.small/waypoint/routepoint/destination.png square.small/waypoint/routepoint/left.png square.small/waypoint/routepoint/right.png square.small/waypoint/routepoint/straight.png
+square.small_waypoint_routepointdir = $(datadir)/map-icons/square.small/waypoint/routepoint
+
+square.small_waypoint_routepoint_left_DATA = square.small/waypoint/routepoint/left/exit.png square.small/waypoint/routepoint/left/fork.png square.small/waypoint/routepoint/left/hard.png square.small/waypoint/routepoint/left/merge.png square.small/waypoint/routepoint/left/soft.png square.small/waypoint/routepoint/left/uturn.png
+square.small_waypoint_routepoint_leftdir = $(datadir)/map-icons/square.small/waypoint/routepoint/left
+
+square.small_waypoint_routepoint_right_DATA = square.small/waypoint/routepoint/right/exit.png square.small/waypoint/routepoint/right/fork.png square.small/waypoint/routepoint/right/hard.png square.small/waypoint/routepoint/right/merge.png square.small/waypoint/routepoint/right/soft.png square.small/waypoint/routepoint/right/uturn.png
+square.small_waypoint_routepoint_rightdir = $(datadir)/map-icons/square.small/waypoint/routepoint/right
+
 square.small_waypoint_wpttemp_DATA = square.small/waypoint/wpttemp/wpttemp-green.png square.small/waypoint/wpttemp/wpttemp-red.png square.small/waypoint/wpttemp/wpttemp-yellow.png
 square.small_waypoint_wpttempdir = $(datadir)/map-icons/square.small/waypoint/wpttemp
 
@@ -369,7 +387,7 @@ square.small_wlan_paydir = $(datadir)/map-icons/square.small/wlan/pay
 svg_DATA = svg/accommodation.svg svg/education.svg svg/empty.svg svg/food.svg svg/health.svg svg/religion.svg svg/shopping.svg svg/wlan.svg
 svgdir = $(datadir)/map-icons/svg
 
-svg_accommodation_DATA = svg/accommodation/camping.svg svg/accommodation/hostel.svg svg/accommodation/hotel.svg svg/accommodation/motel.svg
+svg_accommodation_DATA = svg/accommodation/camping.svg svg/accommodation/hostel.svg svg/accommodation/hotel.svg svg/accommodation/motel.svg svg/accommodation/shelter-bw.svg svg/accommodation/shelter.svg
 svg_accommodationdir = $(datadir)/map-icons/svg/accommodation
 
 svg_accommodation_camping_DATA = svg/accommodation/camping/caravan.svg svg/accommodation/camping/water.svg
@@ -390,7 +408,7 @@ svg_fooddir = $(datadir)/map-icons/svg/food
 svg_geocache_DATA =
 svg_geocachedir = $(datadir)/map-icons/svg/geocache
 
-svg_health_DATA = svg/health/eye_specialist.png svg/health/doctor.svg svg/health/hospital.svg svg/health/pharmacy.svg
+svg_health_DATA = svg/health/doctor.svg svg/health/eye_specialist.svg svg/health/hospital.svg svg/health/pharmacy.svg svg/health/veterinary.svg
 svg_healthdir = $(datadir)/map-icons/svg/health
 
 svg_incomming_DATA = svg/incomming/biohazard.svg svg/incomming/Biohazard_Warning.svg svg/incomming/Blue_danube_easy.svg svg/incomming/Chukbol.svg svg/incomming/Emblem-deadly.svg svg/incomming/Erste_hilfe.svg svg/incomming/Gouvernail_svg.svg svg/incomming/Herzlinie.svg svg/incomming/Human.svg svg/incomming/Important2.svg svg/incomming/Laser-symbol.svg svg/incomming/monument.svg svg/incomming/Music_Note.svg svg/incomming/No_Shoes.svg svg/incomming/symbols.svg svg/incomming/WRDK.svg
@@ -456,7 +474,7 @@ svg_transport_restrictionsdir = $(datadir)/map-icons/svg/transport/restrictions
 svg_vehicle_DATA = svg/vehicle/crossing_small.svg svg/vehicle/crossing.svg svg/vehicle/fuel_station.svg svg/vehicle/parking.svg svg/vehicle/restrictions.svg
 svg_vehicledir = $(datadir)/map-icons/svg/vehicle
 
-svg_vehicle_restrictions_DATA = svg/vehicle/restrictions/dead_end.svg svg/vehicle/restrictions/right_of_way.svg svg/vehicle/restrictions/roundabout_left.svg svg/vehicle/restrictions/roundabout_right.svg svg/vehicle/restrictions/speed.svg svg/vehicle/restrictions/stop.svg svg/vehicle/restrictions/traffic-light.svg
+svg_vehicle_restrictions_DATA = svg/vehicle/restrictions/bollard-bw.svg svg/vehicle/restrictions/bollard.svg svg/vehicle/restrictions/dead_end.svg svg/vehicle/restrictions/right_of_way.svg svg/vehicle/restrictions/roundabout_left.svg svg/vehicle/restrictions/roundabout_right.svg svg/vehicle/restrictions/speed.svg svg/vehicle/restrictions/stop.svg svg/vehicle/restrictions/traffic-light.svg
 svg_vehicle_restrictionsdir = $(datadir)/map-icons/svg/vehicle/restrictions
 
 svg_vehicle_restrictions_speed_DATA =
@@ -635,7 +653,7 @@ classic.small_public_administrationdir = $(datadir)/map-icons/classic.small/publ
 classic.small_public_recycling_DATA = classic.small/public/recycling/trash-bin.png
 classic.small_public_recyclingdir = $(datadir)/map-icons/classic.small/public/recycling
 
-classic.small_recreation_DATA = classic.small/recreation/bicycling.png classic.small/recreation/cinema.png classic.small/recreation/common.png classic.small/recreation/garden.png classic.small/recreation/music.png classic.small/recreation/nature_reserve.png classic.small/recreation/park.png classic.small/recreation/picnic.png classic.small/recreation/playground.png classic.small/recreation/theater.png classic.small/recreation/theme_park.png classic.small/recreation/water_park.png
+classic.small_recreation_DATA = classic.small/recreation/bicycling.png classic.small/recreation/cinema.png classic.small/recreation/common.png classic.small/recreation/garden.png classic.small/recreation/music.png classic.small/recreation/nature_reserve.png classic.small/recreation/nightclub.png classic.small/recreation/park.png classic.small/recreation/picnic.png classic.small/recreation/playground.png classic.small/recreation/theater.png classic.small/recreation/theme_park.png classic.small/recreation/water_park.png
 classic.small_recreationdir = $(datadir)/map-icons/classic.small/recreation
 
 classic.small_religion_DATA = classic.small/religion/cemetery.png classic.small/religion/church.png
@@ -647,7 +665,7 @@ classic.small_religion_churchdir = $(datadir)/map-icons/classic.small/religion/c
 classic.small_shopping_DATA = classic.small/shopping/supermarket.png
 classic.small_shoppingdir = $(datadir)/map-icons/classic.small/shopping
 
-classic.small_shopping_groceries_DATA = classic.small/shopping/groceries/bakery.png classic.small/shopping/groceries/butcher.png
+classic.small_shopping_groceries_DATA = classic.small/shopping/groceries/bakery.png classic.small/shopping/groceries/butcher.png classic.small/shopping/groceries/fruits.png
 classic.small_shopping_groceriesdir = $(datadir)/map-icons/classic.small/shopping/groceries
 
 classic.small_shopping_rental_DATA = classic.small/shopping/rental/library.png
@@ -656,7 +674,7 @@ classic.small_shopping_rentaldir = $(datadir)/map-icons/classic.small/shopping/r
 classic.small_shopping_supermarket_DATA = classic.small/shopping/supermarket/aldi_nord.png classic.small/shopping/supermarket/aldi.png classic.small/shopping/supermarket/kaufland.png classic.small/shopping/supermarket/lidl.png
 classic.small_shopping_supermarketdir = $(datadir)/map-icons/classic.small/shopping/supermarket
 
-classic.small_sightseeing_DATA = classic.small/sightseeing/archeological.png classic.small/sightseeing/castle.png classic.small/sightseeing/memorial.png classic.small/sightseeing/monument.png classic.small/sightseeing/museum.png classic.small/sightseeing/ruins.png classic.small/sightseeing/viewpoint.png
+classic.small_sightseeing_DATA = classic.small/sightseeing/archaeological.png classic.small/sightseeing/castle.png classic.small/sightseeing/memorial.png classic.small/sightseeing/monument.png classic.small/sightseeing/museum.png classic.small/sightseeing/ruins.png classic.small/sightseeing/viewpoint.png
 classic.small_sightseeingdir = $(datadir)/map-icons/classic.small/sightseeing
 
 classic.small_sports_DATA = classic.small/sports/centre.png classic.small/sports/cycling.png classic.small/sports/fishing.png classic.small/sports/golf.png classic.small/sports/pitch.png classic.small/sports/riding.png classic.small/sports/skiing.png classic.small/sports/stadium.png classic.small/sports/track.png
@@ -795,7 +813,7 @@ classic.big_religion_churchdir = $(datadir)/map-icons/classic.big/religion/churc
 classic.big_shopping_DATA = classic.big/shopping/computers.png classic.big/shopping/confectioner.png
 classic.big_shoppingdir = $(datadir)/map-icons/classic.big/shopping
 
-classic.big_shopping_groceries_DATA = classic.big/shopping/groceries/fruits.png
+classic.big_shopping_groceries_DATA = classic.big/shopping/groceries/butcher.png classic.big/shopping/groceries/fruits.png
 classic.big_shopping_groceriesdir = $(datadir)/map-icons/classic.big/shopping/groceries
 
 classic.big_shopping_rental_DATA =
@@ -822,7 +840,7 @@ classic.big_transport_ferrydir = $(datadir)/map-icons/classic.big/transport/ferr
 classic.big_transport_track_DATA =
 classic.big_transport_trackdir = $(datadir)/map-icons/classic.big/transport/track
 
-classic.big_vehicle_DATA = classic.big/vehicle/car_rental.png classic.big/vehicle/caution.png classic.big/vehicle/fuel_station.png classic.big/vehicle/motorbike.png classic.big/vehicle/repair_shop.png classic.big/vehicle/toll_station.png classic.big/vehicle/towing.png
+classic.big_vehicle_DATA = classic.big/vehicle/car_rental.png classic.big/vehicle/caution.png classic.big/vehicle/exit.png classic.big/vehicle/fuel_station.png classic.big/vehicle/motorbike.png classic.big/vehicle/repair_shop.png classic.big/vehicle/toll_station.png classic.big/vehicle/towing.png
 classic.big_vehicledir = $(datadir)/map-icons/classic.big/vehicle
 
 classic.big_vehicle_car_rental_DATA = classic.big/vehicle/car_rental/sixt.png
@@ -926,6 +944,9 @@ EXTRA_DIST= \
 	$(square.big_vehicle_restrictions_speed_DATA) \
 	$(square.big_waypoint_DATA) \
 	$(square.big_waypoint_flag_DATA) \
+	$(square.big_waypoint_routepoint_DATA) \
+	$(square.big_waypoint_routepoint_left_DATA) \
+	$(square.big_waypoint_routepoint_right_DATA) \
 	$(square.big_waypoint_wpttemp_DATA) \
 	$(square.big_wlan_DATA) \
 	$(square.big_wlan_pay_DATA) \
@@ -980,6 +1001,9 @@ EXTRA_DIST= \
 	$(square.small_vehicle_restrictions_speed_DATA) \
 	$(square.small_waypoint_DATA) \
 	$(square.small_waypoint_flag_DATA) \
+	$(square.small_waypoint_routepoint_DATA) \
+	$(square.small_waypoint_routepoint_left_DATA) \
+	$(square.small_waypoint_routepoint_right_DATA) \
 	$(square.small_waypoint_wpttemp_DATA) \
 	$(square.small_wlan_DATA) \
 	$(square.small_wlan_pay_DATA) \
