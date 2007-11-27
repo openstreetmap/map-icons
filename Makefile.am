@@ -858,9 +858,6 @@ classic.big_vehicle_restrictionsdir = $(datadir)/map-icons/classic.big/vehicle/r
 classic.big_vehicle_restrictions_speed_DATA = classic.big/vehicle/restrictions/speed/30-end.png
 classic.big_vehicle_restrictions_speeddir = $(datadir)/map-icons/classic.big/vehicle/restrictions/speed
 
-classic.big_vehicle_shield_DATA = classic.big/vehicle/shield/motorway_shield2.png classic.big/vehicle/shield/motorway_shield3.png classic.big/vehicle/shield/motorway_shield.png
-classic.big_vehicle_shielddir = $(datadir)/map-icons/classic.big/vehicle/shield
-
 classic.big_waypoint_DATA = classic.big/waypoint/wpt1.png classic.big/waypoint/wpt2.png classic.big/waypoint/wpt3.png classic.big/waypoint/wpt4.png classic.big/waypoint/wpt5.png classic.big/waypoint/wpt6.png classic.big/waypoint/wpt7.png classic.big/waypoint/wpt8.png classic.big/waypoint/wpt9.png classic.big/waypoint/wptblue.png classic.big/waypoint/wptgreen.png classic.big/waypoint/wptorange.png classic.big/waypoint/wptred.png classic.big/waypoint/wpttemp.png classic.big/waypoint/wptyellow.png
 classic.big_waypointdir = $(datadir)/map-icons/classic.big/waypoint
 
@@ -1164,7 +1161,6 @@ EXTRA_DIST= \
 	$(classic.big_vehicle_parking_DATA) \
 	$(classic.big_vehicle_restrictions_DATA) \
 	$(classic.big_vehicle_restrictions_speed_DATA) \
-	$(classic.big_vehicle_shield_DATA) \
 	$(classic.big_waypoint_DATA) \
 	$(classic.big_waypoint_wpttemp_DATA) \
 	$(classic.big_wlan_DATA) \
