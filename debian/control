@@ -2,7 +2,7 @@ Source: openstreetmap-map-icons
 Section: utils
 Priority: optional
 Maintainer: Joerg Ostertag <debian@ostertag.name>
-Build-Depends: debhelper (>> 3.7.2), pkg-config
+Build-Depends: debhelper (>> 3.7.2), pkg-config, libimage-info-perl, imagemagick
 Standards-Version: 3.6.1
 
 Package: openstreetmap-map-icons
