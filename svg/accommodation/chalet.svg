@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   id="svg831"
+   sodipodi:version="0.33pre"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="90.28pt"
+   height="98.89pt"
+   sodipodi:docbase="/home/aki/myndir_ymisl"
+   sodipodi:docname="/home/aki/myndir_ymisl/cabinrental.svg">
+  <defs
+     id="defs833" />
+  <sodipodi:namedview
+     id="base" />
+  <g
+     id="g825"
+     transform="matrix(0.680918,0.000000,0.000000,0.658159,-65.13725,-10.82362)">
+    <g
+       id="g815"
+       transform="matrix(0.268353,0.000000,0.000000,0.275569,94.85440,31.97102)">
+      <path
+         style="font-size:12;fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;fill-opacity:1;"
+         d="M 147.599 86.2593 L 132.265 99.6773 L 153.35 122.679 L 168.685 111.178 L 182.103 122.679 L 203.189 103.511 L 224.274 122.679 L 260.695 122.679 C 272.196 134.18 287.53 155.266 312.451 155.266 C 337.37 155.266 367.422 141.733 368.04 103.511 C 370.452 67.1273 341.203 49.8387 314.367 49.8387 C 287.531 51.7555 270.279 69.0073 260.695 86.2593 L 147.599 86.2593 z M 358.455 102.552 C 358.455 114.72 352.014 124.596 344.078 124.596 C 336.143 124.596 329.702 114.72 329.702 102.552 C 329.702 90.3843 336.143 80.5083 344.078 80.5083 C 352.014 80.5083 358.455 90.3843 358.455 102.552 z "
+         id="path808"
+         sodipodi:nodetypes="cccccccccccccccccc" />
+      <path
+         style="font-size:12;fill-rule:evenodd;stroke:#000000;stroke-width:0.774998pt;"
+         d="M 357.772 94.7983 C 353.022 99.9093 353.023 102.233 360.938 107.345 L 397.348 103.162 C 401.042 100.839 401.57 95.7273 394.182 92.0103 L 357.772 94.7983 z "
+         id="path809"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="font-size:12;fill-rule:evenodd;stroke:#000000;stroke-width:0.981394pt;"
+         d="M 389.251 76.8318 L 398.119 106.2 L 414.786 99.5383 L 405.952 72.2801 L 389.251 76.8318 z M 379.256 66.4785 L 393.879 125.276 L 483.337 100.289 L 468.954 41.4866 L 379.256 66.4785 z "
+         id="path814"
+         sodipodi:nodetypes="cccccccccc" />
+    </g>
+    <path
+       style="font-size:12;fill-rule:evenodd;stroke:#000000;stroke-width:0.57346pt;"
+       d="M 179.113 80.5082 L 118.846 117.313 L 124.873 126.513 L 132.105 123.062 L 132.105 166.768 L 226.123 166.768 L 226.123 123.062 L 232.968 126.398 L 238.995 117.197 L 179.113 80.5082 z M 152.596 121.913 L 152.334 135.774 L 206.575 135.774 L 206.837 121.913 L 152.596 121.913 z "
+       id="path824"
+       sodipodi:nodetypes="ccccccccccccccc" />
+  </g>
+</svg>
