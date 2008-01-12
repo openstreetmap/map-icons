@@ -5020,18 +5020,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="transport.bollard"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>561</poi_type_id>
-      <name>transport.bollard</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="transport.bridge"/>
     <condition k="bridge" v="yes"/>
     <condition k="type" v="bridge"/>
