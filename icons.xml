@@ -172,8 +172,10 @@
     <condition k="poi" v="accommodation.hotel.one_star"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <title lang="en">One-Star Hotel</title>
+    <description lang="en">Does something like this exist in reality?</description>
+    <title lang="de">Ein-Stern-Hotel</title>
+    <description lang="de">Gibt's das wirklich?</description>
     <geoinfo>
       <poi_type_id>522</poi_type_id>
       <name>accommodation.hotel.one_star</name>
@@ -1240,6 +1242,32 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="misc.construction"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Construction site</title>
+    <title lang="de">Baustelle</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id></poi_type_id>
+      <name>misc.construction</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.danger"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Dangerous area</title>
+    <title lang="de">Gefahrenstelle</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id></poi_type_id>
+      <name>misc.danger</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="misc.door"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -1370,6 +1398,20 @@
     <geoinfo>
       <poi_type_id>440</poi_type_id>
       <name>misc.landmark.lighthouse</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.landmark.mountain_pass"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Mountain pass</title>
+    <description lang="en">Highest point on a mountain pass</description>
+    <title lang="de">Bergpass</title>
+    <description lang="de">Höchster Punkt auf einem Bergpass</description>
+    <geoinfo>
+      <poi_type_id></poi_type_id>
+      <name>misc.landmark.mountain_pass</name>
     </geoinfo>
   </rule>
 
@@ -1509,6 +1551,19 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="misc.landmark.plant"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Plant</title>
+    <title lang="de">Pflanze</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id></poi_type_id>
+      <name>misc.landmark.plant</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="misc.landmark.survey_point"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -1537,6 +1592,7 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">Tree(s)</title>
+    <title lang="de">Bäume</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>165</poi_type_id>
@@ -1548,7 +1604,8 @@
     <condition k="poi" v="misc.landmark.water_tower"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Water tower</title>
+    <title lang="de">Wasserturm</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>455</poi_type_id>
@@ -1560,7 +1617,8 @@
     <condition k="poi" v="misc.landmark.windmill"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Windmill</title>
+    <title lang="de">Windmühle</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>456</poi_type_id>
@@ -1572,7 +1630,8 @@
     <condition k="poi" v="misc.landmark.works"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Works</title>
+    <title lang="de">Werk</title>
     <description lang="en"></description>
     <geoinfo>
       <poi_type_id>457</poi_type_id>
@@ -2478,6 +2537,19 @@
     <geoinfo>
       <poi_type_id>10</poi_type_id>
       <name>places</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="places.island"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Island</title>
+    <title lang="de">Insel</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id></poi_type_id>
+      <name>places.island</name>
     </geoinfo>
   </rule>
 
@@ -3696,6 +3768,7 @@
     <geoinfo>
       <poi_type_id>401</poi_type_id>
       <name>shopping.kaufhof</name>
+      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
@@ -4854,6 +4927,19 @@
     <geoinfo>
       <poi_type_id>243</poi_type_id>
       <name>transport.airport</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.airport.helipad"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Helipad</title>
+    <title lang="de">Hubschrauberlandeplatz</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id></poi_type_id>
+      <name>transport.airport.helipad</name>
     </geoinfo>
   </rule>
 
