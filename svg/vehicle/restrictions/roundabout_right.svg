@@ -1,13 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <symbol id="symbol-roundabout_right" viewBox="-253.5 253.5 507 507"> 
-            <g transform="scale(-1,1)">
-                <path fill="#4161D8" d="M507,253.5c0,140-113.5,253.5-253.5,253.5 S0,393.5,0,253.5S113.5,0,253.5,0S507,113.5,507,253.5z"/>
-                <path  fill="#FFFFFF" d="M97.6,113.6l40.8-47.7c0,0,91.7,3.1,90.6,2.1 c-1.1-1,2.3,89.2,2.3,89.2l-49.8,33.2l-1.1-48.8c0,0-27.2,27-30.6,27c-3.4,0-27.2,61.2-27.2,61.2l-3.4,79.9L67,312.8v-73.6 l10.6-50.5l18.8-34.5l38.5-40.5"/>
-                <path fill="#FFFFFF" d="M459.6,190.5l19.7,59.6 c0,0-50.2,76.9-48.7,76.4c1.5-0.4-77.5-44.3-77.5-44.3l-2.6-59.8l42.3,24.3c0,0-9-37.2-7.2-40.1c1.8-2.9-38.3-54.9-38.3-54.9 l-66.6-44.3l24.3-46.2l63,38.1l37.7,35.3l19.8,34l14.7,53.9"/>
-                <path fill="#FFFFFF" d="M209.2,466.6l-60.7-16.1 c0,0-36.9-84-37.4-82.6c-0.4,1.5,79.4-40.7,79.4-40.7l51.5,30.6l-43.5,22.1c0,0,36.1,12.8,37.6,15.9c1.5,3.1,66.9-2,66.9-2 l73.5-31.5l25.4,45.6l-66.4,31.9l-50.2,12.3l-39.3-2L193,432.9"/>
-            </g>
-        </symbol>
-    </defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="725"
+   height="725"
+   id="svg2">
+  <defs
+     id="defs9" />
+  <circle
+     cx="362.5"
+     cy="362.5"
+     r="350"
+     style="fill:white;stroke:black;stroke-width:2.5px"
+     id="circle4" />
+  <path
+     d="M -176.30905 369.66949 A 309.2189 309.2189 0 1 1  -794.74686,369.66949 A 309.2189 309.2189 0 1 1  -176.30905 369.66949 z"
+     transform="matrix(1.061206,0,0,1.061206,877.7452,-29.79549)"
+     style="opacity:1;fill:#039;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path1883" />
+  <path
+     d="M 151.78402,434.22108 L 234.28333,350.31583 L 233.90439,301.34152 L 173.17829,360.72091 C 171.16407,265.73848 252.9506,185.96417 329.76742,175.70399 L 322.96184,134.60623 C 188.08566,161.30323 133.76958,266.74319 131.1744,360.37317 L 69.871094,300.77246 L 69.592126,351.70146 L 151.78402,434.22108 z "
+     style="opacity:1;fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path2806" />
+  <path
+     d="M 530.20519,509.211 L 416.17293,480.17877 L 374.05026,505.1649 L 455.92946,527.7341 C 374.87946,577.29837 264.77518,546.80204 217.23291,485.59886 L 185.15137,512.17172 C 276.12804,615.26176 394.57578,609.10108 476.77812,564.20025 L 456.14996,647.17507 L 500.29272,621.77315 L 530.20519,509.211 z "
+     style="opacity:1;fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path3753" />
+  <path
+     d="M 405.55939,145.06645 L 437.70705,258.25989 L 480.46496,282.14267 L 458.87191,200.00064 C 542.43053,245.20768 571.33979,355.73927 542.2813,427.58425 L 581.36981,441.98665 C 624.84436,311.54788 560.04447,212.20608 479.94026,163.66099 L 562.05521,139.83919 L 517.92343,114.41819 L 405.55939,145.06645 z "
+     style="opacity:1;fill:white;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path3755" />
 </svg>
