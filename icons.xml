@@ -3231,6 +3231,20 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="recreation.zoo"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Zoo</title>
+    <description lang="en"></description>
+    <title lang="de">Zoo</title>
+    <description lang="de"></description>
+    <geoinfo>
+      <poi_type_id></poi_type_id>
+      <name>recreation.zoo</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="religion"/>
     <scale_min>1</scale_min>
     <scale_max>25000</scale_max>
