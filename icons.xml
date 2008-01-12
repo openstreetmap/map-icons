@@ -3130,18 +3130,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="recreation.common32"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>577</poi_type_id>
-      <name>recreation.common32</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="recreation.garden"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -3150,18 +3138,6 @@
     <geoinfo>
       <poi_type_id>335</poi_type_id>
       <name>recreation.garden</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="recreation.garden32"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>578</poi_type_id>
-      <name>recreation.garden32</name>
     </geoinfo>
   </rule>
 
@@ -3203,18 +3179,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="recreation.nature_reserve32"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>579</poi_type_id>
-      <name>recreation.nature_reserve32</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="recreation.nightclub"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -3236,18 +3200,6 @@
     <geoinfo>
       <poi_type_id>464</poi_type_id>
       <name>recreation.park</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="recreation.park32"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>580</poi_type_id>
-      <name>recreation.park32</name>
     </geoinfo>
   </rule>
 
