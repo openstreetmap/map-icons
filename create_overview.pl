@@ -22,7 +22,7 @@ use File::Copy;
 use File::Path;
 use Data::Dumper;
 use XML::Simple;
-use Image::Info;
+#use Image::Info;
 
 our ($opt_b, $opt_h, $opt_i, $opt_j, $opt_l, $opt_n, $opt_p, $opt_r,$opt_s,$opt_v, $opt_D, $opt_F) = 0;
 getopts('bhijlnprsvF:D:') or $opt_h = 1;
