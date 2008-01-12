@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) --><svg height="297mm" id="svg6271" inkscape:version="0.41" sodipodi:docbase="/home/clay" sodipodi:docname="solano2.svg" sodipodi:version="0.32" width="210mm" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
+  <metadata>
+    <rdf:RDF xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work rdf:about="">
+        <dc:title>Island, palm, and the sun</dc:title>
+        <dc:description></dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li></rdf:li>
+            <rdf:li>vacation</rdf:li>
+            <rdf:li>palm</rdf:li>
+            <rdf:li>sun</rdf:li>
+            <rdf:li>plants</rdf:li>
+            <rdf:li>island</rdf:li>
+            <rdf:li>plant</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://www.openclipart.org">
+            <dc:title>Claygirl</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Claygirl</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Claygirl</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date></dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs3"/>
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="base" inkscape:current-layer="layer1" inkscape:cx="368.26000" inkscape:cy="624.14376" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="692" inkscape:window-width="1017" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="0.70000000" pagecolor="#ffffff"/>
+  <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+    <path d="M 140.76834,567.84201 L 220.80169,561.72626 C 160.85445,532.93072 232.90722,380.13518 240.95998,358.33964 C 269.39235,369.84439 253.82472,416.34913 309.25709,434.85388 C 286.35613,394.69196 293.45516,351.53003 243.55420,350.36811 C 293.99563,345.49430 323.43705,315.62048 333.87848,300.74667 C 241.98657,320.87286 262.09467,327.99904 238.20276,342.12523 C 243.08561,322.04427 284.96847,301.96331 270.85132,256.88235 C 254.95941,284.84187 224.06751,297.80138 223.17560,340.76090 C 194.39631,287.90733 165.61702,313.05375 126.83773,300.20018 C 120.05844,312.34661 162.27916,312.49303 216.49987,348.63946 C 159.27463,346.59898 139.04939,401.55850 140.82415,414.51802 C 171.93224,373.81087 178.04034,395.10373 228.14843,354.39658 C 118.27846,569.45788 149.83933,544.37875 140.76834,567.84201 z " id="path3708" inkscape:export-filename="/home/clay/solano02.png" inkscape:export-xdpi="90.000000" inkscape:export-ydpi="90.000000" sodipodi:nodetypes="cccccccccccccc" style="font-size:317.13629;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#67bb27;fill-opacity:1.0000000;fill-rule:nonzero;stroke:#000000;stroke-width:6.7171264;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0.0000000;stroke-dashoffset:0.0000000;stroke-opacity:1.0000000;font-family:Bitstream Charter;text-anchor:start;writing-mode:lr-tb"/>
+    <path d="M 297.15179,591.06696 C 177.67220,592.60884 75.531250,587.59375 75.531250,587.59375 L 74.665179,588.56250 C 74.665179,588.56250 276.20043,474.41657 488.21875,588.56250 L 490.17857,589.02232 C 425.69019,595.40284 359.73634,590.25931 297.15179,591.06696 z " id="path6292" sodipodi:nodetypes="cccccc" style="fill:#e6cc00;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:5.8900000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;stroke-dasharray:none;stroke-miterlimit:4.0000000"/>
+  </g>
+</svg>
