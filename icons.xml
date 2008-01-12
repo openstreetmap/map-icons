@@ -4945,6 +4945,20 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="transport.airport.airfield"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Airfield</title>
+    <title lang="de">Flugfeld</title>
+    <description lang="en">for military purposes</description>
+    <description lang="de">für militärische Zwecke</description>
+    <geoinfo>
+      <poi_type_id></poi_type_id>
+      <name>transport.airport.airfield</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="transport.airport.helipad"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
