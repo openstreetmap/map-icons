@@ -221,6 +221,30 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="accommodation.shelter"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>558</poi_type_id>
+      <name>accommodation.shelter</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="accommodation.shelter-bw"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>559</poi_type_id>
+      <name>accommodation.shelter-bw</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="accommodation.youth-hostel"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -1249,7 +1273,7 @@
     <title lang="de">Baustelle</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id></poi_type_id>
+      <poi_type_id>569</poi_type_id>
       <name>misc.construction</name>
     </geoinfo>
   </rule>
@@ -1262,7 +1286,7 @@
     <title lang="de">Gefahrenstelle</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id></poi_type_id>
+      <poi_type_id>570</poi_type_id>
       <name>misc.danger</name>
     </geoinfo>
   </rule>
@@ -1402,20 +1426,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="misc.landmark.mountain_pass"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Mountain pass</title>
-    <description lang="en">Highest point on a mountain pass</description>
-    <title lang="de">Bergpass</title>
-    <description lang="de">Höchster Punkt auf einem Bergpass</description>
-    <geoinfo>
-      <poi_type_id></poi_type_id>
-      <name>misc.landmark.mountain_pass</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="misc.landmark.mine"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -1424,6 +1434,20 @@
     <geoinfo>
       <poi_type_id>152</poi_type_id>
       <name>misc.landmark.mine</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.landmark.mountain_pass"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Mountain pass</title>
+    <description lang="en">Highest point on a mountain pass</description>
+    <title lang="de">Bergpass</title>
+    <description lang="de">Höchster Punkt auf einem Bergpass</description>
+    <geoinfo>
+      <poi_type_id>567</poi_type_id>
+      <name>misc.landmark.mountain_pass</name>
     </geoinfo>
   </rule>
 
@@ -1451,6 +1475,19 @@
     <geoinfo>
       <poi_type_id>443</poi_type_id>
       <name>misc.landmark.peak_small</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.landmark.plant"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Plant</title>
+    <title lang="de">Pflanze</title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>568</poi_type_id>
+      <name>misc.landmark.plant</name>
     </geoinfo>
   </rule>
 
@@ -1547,19 +1584,6 @@
     <geoinfo>
       <poi_type_id>451</poi_type_id>
       <name>misc.landmark.spring</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="misc.landmark.plant"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Plant</title>
-    <title lang="de">Pflanze</title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id></poi_type_id>
-      <name>misc.landmark.plant</name>
     </geoinfo>
   </rule>
 
@@ -2548,7 +2572,7 @@
     <title lang="de">Insel</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id></poi_type_id>
+      <poi_type_id>571</poi_type_id>
       <name>places.island</name>
     </geoinfo>
   </rule>
@@ -3195,6 +3219,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="recreation.shelter"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>560</poi_type_id>
+      <name>recreation.shelter</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="recreation.theater"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -3239,7 +3275,7 @@
     <title lang="de">Zoo</title>
     <description lang="de"></description>
     <geoinfo>
-      <poi_type_id></poi_type_id>
+      <poi_type_id>572</poi_type_id>
       <name>recreation.zoo</name>
     </geoinfo>
   </rule>
@@ -4953,7 +4989,7 @@
     <description lang="en">for military purposes</description>
     <description lang="de">für militärische Zwecke</description>
     <geoinfo>
-      <poi_type_id></poi_type_id>
+      <poi_type_id>573</poi_type_id>
       <name>transport.airport.airfield</name>
     </geoinfo>
   </rule>
@@ -4966,8 +5002,20 @@
     <title lang="de">Hubschrauberlandeplatz</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id></poi_type_id>
+      <poi_type_id>574</poi_type_id>
       <name>transport.airport.helipad</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="transport.bollard"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>561</poi_type_id>
+      <name>transport.bollard</name>
     </geoinfo>
   </rule>
 
@@ -5355,6 +5403,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="vehicle.bicycle_rental"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>562</poi_type_id>
+      <name>vehicle.bicycle_rental</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="vehicle.car_rental"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -5416,6 +5476,18 @@
       <poi_type_id>266</poi_type_id>
       <name>vehicle.car_rental.sixt</name>
       <restricted>brand</restricted>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.car_sharing"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>563</poi_type_id>
+      <name>vehicle.car_sharing</name>
     </geoinfo>
   </rule>
 
@@ -5855,6 +5927,30 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="vehicle.restrictions.bollard"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>564</poi_type_id>
+      <name>vehicle.restrictions.bollard</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.bollard-bw"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>565</poi_type_id>
+      <name>vehicle.restrictions.bollard-bw</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="vehicle.restrictions.dead_end"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -5999,6 +6095,18 @@
     <geoinfo>
       <poi_type_id>512</poi_type_id>
       <name>vehicle.restrictions.traffic-light</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.traffic_jam"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>566</poi_type_id>
+      <name>vehicle.restrictions.traffic_jam</name>
     </geoinfo>
   </rule>
 
