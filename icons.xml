@@ -185,9 +185,9 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">One-Star Hotel</title>
-    <description lang="en">Does something like this exist in reality?</description>
+    <description lang="en">Very rarely seen in real life (if ever)</description>
     <title lang="de">Ein-Stern-Hotel</title>
-    <description lang="de">Gibt's das wirklich?</description>
+    <description lang="de">Kommt in der Realität sehr selten vor (wenn überhaupt)</description>
     <geoinfo>
       <poi_type_id>522</poi_type_id>
       <name>accommodation.hotel.one_star</name>
