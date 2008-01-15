@@ -16,7 +16,7 @@ my $file = 'icons';
 die "Can't find file \"$file.xml\""
     unless -f "$file.xml";
 
-my $dst_path="/usr/share/map-icons";
+my $dst_path="/usr/share/icons/map-icons";
 my $src_dir="build/";
 my $package_path = {
     ''      => 'debian/openstreetmap-map-icons',

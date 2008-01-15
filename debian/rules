@@ -9,13 +9,22 @@ export DH_VERBOSE=1
 #export DH_COMPAT=5
 export destdir = $(CURDIR)/debian/openstreetmap-map-icons
 
+configure: configure-stamp
+configure-stamp:
+	dh_testdir
+	# Add here commands to configure the package.
+	rm -f CMakeCache.txt
+	mkdir -p build
+#	cd build; cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DMAN_INSTALL_DIR=/usr/share/man -DINFO_INSTALL_DIR=/usr/share/info ..
+
+	touch configure-stamp
 
 build: build-stamp
 build-stamp:
 	dh_testdir
 
 	# Add here commands to compile the package.
-	# $(MAKE)
+	cd build; $(MAKE)
 
 	touch build-stamp
 
@@ -25,7 +34,7 @@ clean:
 	rm -f build-stamp
 
 	# Add here commands to clean up after the build process.
-	-$(MAKE) distclean
+	-cd build; $(MAKE) distclean
 
 	dh_clean
 
@@ -37,8 +46,7 @@ install: build
 
 	./debian/update_svn_revision.sh
 
-	rm -rf build
-	mkdir -p build
+	rm -rf build/*
 	./copy_icons_to_dir.sh build
 	./update_thumbnails.pl build
 	./merge-icons-all-from-svg2classic2square.sh build
@@ -50,8 +58,11 @@ install: build
 	./copy_icons_to_debian_package_dirs.pl
 
 	# icons.xml belongs to the unrestricted package
-	cp icons.xml debian/openstreetmap-map-icons/usr/share/map-icons/
-	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/map-icons/
+	cp icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+
+#	cd build; $(MAKE)
+#	cd build; $(MAKE) DESTDIR=$(destdir) install
 
 # Build architecture-independent files here.
 binary-indep: build install
