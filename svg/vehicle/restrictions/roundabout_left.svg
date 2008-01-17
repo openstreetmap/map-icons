@@ -1,11 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <symbol id="symbol-roundabout_left" viewBox="253.5 253.5 507 507"> 
-            <path fill="#4161D8" d="M507,253.5c0,140-113.5,253.5-253.5,253.5 S0,393.5,0,253.5S113.5,0,253.5,0S507,113.5,507,253.5z"/>
-            <path  fill="#FFFFFF" d="M97.6,113.6l40.8-47.7c0,0,91.7,3.1,90.6,2.1 c-1.1-1,2.3,89.2,2.3,89.2l-49.8,33.2l-1.1-48.8c0,0-27.2,27-30.6,27c-3.4,0-27.2,61.2-27.2,61.2l-3.4,79.9L67,312.8v-73.6 l10.6-50.5l18.8-34.5l38.5-40.5"/>
-            <path fill="#FFFFFF" d="M459.6,190.5l19.7,59.6 c0,0-50.2,76.9-48.7,76.4c1.5-0.4-77.5-44.3-77.5-44.3l-2.6-59.8l42.3,24.3c0,0-9-37.2-7.2-40.1c1.8-2.9-38.3-54.9-38.3-54.9 l-66.6-44.3l24.3-46.2l63,38.1l37.7,35.3l19.8,34l14.7,53.9"/>
-            <path fill="#FFFFFF" d="M209.2,466.6l-60.7-16.1 c0,0-36.9-84-37.4-82.6c-0.4,1.5,79.4-40.7,79.4-40.7l51.5,30.6l-43.5,22.1c0,0,36.1,12.8,37.6,15.9c1.5,3.1,66.9-2,66.9-2 l73.5-31.5l25.4,45.6l-66.4,31.9l-50.2,12.3l-39.3-2L193,432.9"/>
-        </symbol>
-    </defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="725"
+   height="725"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="roundabout_left.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="G:\Documents\map-icons\svg\vehicle\restrictions">
+  <metadata
+     id="metadata2845">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="757"
+     inkscape:window-width="1003"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.52"
+     inkscape:cx="329.64033"
+     inkscape:cy="398.81115"
+     inkscape:window-x="22"
+     inkscape:window-y="29"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs9" />
+  <circle
+     cx="362.5"
+     cy="362.5"
+     r="350"
+     style="fill:#ffffff;stroke:#000000;stroke-width:2.5px"
+     id="circle4"
+     sodipodi:cx="362.5"
+     sodipodi:cy="362.5"
+     sodipodi:rx="350"
+     sodipodi:ry="350"
+     transform="matrix(-1,0,0,1,725,0)" />
+  <path
+     d="M 690.64494,362.49999 C 690.64494,543.72945 543.72943,690.64495 362.49998,690.64495 C 181.27052,690.64495 34.35502,543.72945 34.35502,362.49999 C 34.35502,181.27054 181.27052,34.355034 362.49998,34.355034 C 543.72943,34.355034 690.64494,181.27054 690.64494,362.49999 z "
+     style="opacity:1;fill:#003399;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path1883" />
+  <path
+     d="M 573.21598,434.22108 L 490.71667,350.31583 L 491.09561,301.34152 L 551.82171,360.72091 C 553.83593,265.73848 472.0494,185.96417 395.23258,175.70399 L 402.03816,134.60623 C 536.91434,161.30323 591.23042,266.74319 593.8256,360.37317 L 655.12891,300.77246 L 655.40787,351.70146 L 573.21598,434.22108 z "
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path2806" />
+  <path
+     d="M 194.79481,509.211 L 308.82707,480.17877 L 350.94974,505.1649 L 269.07054,527.7341 C 350.12054,577.29837 460.22482,546.80204 507.76709,485.59886 L 539.84863,512.17172 C 448.87196,615.26176 330.42422,609.10108 248.22188,564.20025 L 268.85004,647.17507 L 224.70728,621.77315 L 194.79481,509.211 z "
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path3753" />
+  <path
+     d="M 319.44061,145.06645 L 287.29295,258.25989 L 244.53504,282.14267 L 266.12809,200.00064 C 182.56947,245.20768 153.66021,355.73927 182.7187,427.58425 L 143.63019,441.98665 C 100.15564,311.54788 164.95553,212.20608 245.05974,163.66099 L 162.94479,139.83919 L 207.07657,114.41819 L 319.44061,145.06645 z "
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path3755" />
 </svg>
