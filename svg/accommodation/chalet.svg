@@ -1,21 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
-"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
 <svg
-   id="svg831"
-   sodipodi:version="0.33pre"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg831"
+   sodipodi:version="0.32"
    width="90.28pt"
    height="98.89pt"
-   sodipodi:docbase="/home/aki/myndir_ymisl"
-   sodipodi:docname="/home/aki/myndir_ymisl/cabinrental.svg">
+   sodipodi:docbase="G:\Documents\map-icons\svg\accommodation"
+   sodipodi:docname="chalet.svg"
+   inkscape:version="0.45.1"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata2216">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
   <defs
      id="defs833" />
   <sodipodi:namedview
-     id="base" />
+     id="base"
+     inkscape:zoom="3.0498533"
+     inkscape:cx="56.424999"
+     inkscape:cy="61.806252"
+     inkscape:window-width="797"
+     inkscape:window-height="573"
+     inkscape:window-x="176"
+     inkscape:window-y="232"
+     inkscape:current-layer="svg831" />
   <g
      id="g825"
      transform="matrix(0.680918,0.000000,0.000000,0.658159,-65.13725,-10.82362)">
