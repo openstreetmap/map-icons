@@ -1,9 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <!-- This image is in the public domain. Slightly changed from http://commons.wikimedia.org/wiki/Image:RWBA_Fernsprecher.svg -->
-        <symbol id="symbol-telephone" viewBox="75 75 150 150">
-            <path fill="black" fill-rule="evenodd" stroke="none" d="M55 44.7375L54.9999307530208 12.2539679065969A35 35 0 0 0 29.0045287463415 43.0858554215078L29.0045821324043 43.0858440614508A100 100 0 0 0 71.3337340951943 133.685197779405L71.333831933318 133.685229222792A35 35 0 0 0 111.661764248632 133.530024865785L86.7468 112.687L83.349415196279 114.274335371795A10 10 0 0 1 70.0565646282046 109.447315196279L46.7754646282046 59.617715196279A10 10 0 0 1 51.602484803721 46.3248646282046L55 44.7375Z M60 46.5801L60 10.1567L70 14.8288L70 41.908L60 46.5801Z M88.5418 107.6697L116.4786 131.0408L119.3115 120.3729L98.5418 102.9976L88.5418 107.6697Z" />
-        </symbol>
-    </defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="32.087959"
+   id="svg1"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\public"
+   sodipodi:docname="telephone.svg"
+   sodipodi:version="0.32"
+   width="24.033924"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <metadata
+     id="metadata2213">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>telephone lutte incendie</dc:title>
+        <dc:description>lutte incendie</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>office</rdf:li>
+            <rdf:li />
+            <rdf:li>telephone</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title>yves GUILLOU</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>yves GUILLOU</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>yves GUILLOU</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:current-layer="svg1"
+     inkscape:cx="79.275099"
+     inkscape:cy="50.285521"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="960"
+     inkscape:window-width="1400"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:zoom="3.6095087"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs2">
+    <marker
+       id="ArrowEnd"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="0"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 0,0 L 10,5 L 0,10 L 0,0 z "
+         id="path4" />
+    </marker>
+    <marker
+       id="ArrowStart"
+       markerHeight="3"
+       markerUnits="strokeWidth"
+       markerWidth="4"
+       orient="auto"
+       refX="10"
+       refY="5"
+       viewBox="0 0 10 10">
+      <path
+         d="M 10,0 L 0,5 L 10,10 L 10,0 z "
+         id="path6" />
+    </marker>
+  </defs>
+  <g
+     id="g10"
+     style="fill:#000000"
+     transform="matrix(0.2752276,0,0,0.2752276,-11.207867,-6.2697836)">
+    <path
+       d="M 66.1172,22.8873 C 66.1172,22.8873 40.3914,23.2214 40.7254,46.2744 C 41.0596,69.3274 45.737,89.7076 53.4214,101.067 C 61.1057,112.427 80.8176,142.162 103.203,139.155 C 103.203,139.155 114.228,136.816 122.58,131.47 L 95.5181,110.422 C 95.5181,110.422 87.4997,115.433 82.4882,108.751 C 77.4767,102.069 61.7739,70.9979 61.7739,70.9979 C 61.7739,70.9979 57.4306,60.9748 67.1195,56.6316 L 66.1172,22.8873 z "
+       id="path11"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="M 69.1241,22.8873 C 69.1241,22.8873 71.1288,22.219 74.8039,24.2237 C 78.479,26.2283 78.479,27.8988 78.479,27.8988 L 78.8131,50.9519 C 78.8131,50.9519 77.8108,52.2883 76.4744,53.6246 C 75.138,54.9611 70.7946,56.9656 70.1264,55.6293 C 69.4583,54.2928 69.1241,22.8873 69.1241,22.8873 z "
+       id="path12"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="M 97.769099,107.95908 L 105.207,104.074 C 105.207,104.074 106.878,103.74 109.55,105.41 C 112.223,107.081 126.255,118.106 126.255,118.106 C 126.255,118.106 128.594,120.111 127.926,122.45 C 127.258,124.788 125.587,129.8 125.587,129.8 L 97.769099,107.95908 z "
+       id="path13"
+       sodipodi:nodetypes="ccccccc"
+       style="fill:#000000;stroke:none" />
+  </g>
 </svg>
