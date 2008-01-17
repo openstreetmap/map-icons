@@ -1,9 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <!-- derived from http://www.sodipodi.com/index.php3?section=clipart -->
-        <symbol id="symbol-hostel" viewBox="6.25 4 12.5 12">
-            <path fill="#286a9d" fill-rule="nonzero" stroke="none" d="M 5.5,4 L 9,0 L 12.5,4 L 11.5,4 L 11.5,8 L 10,8 L 10,5 L 8,5 L 8,8 L 6.5,8 L 6.5,4 L 5.5,4 z M 0.5,3.5 C 2,2.5 2.3,1 2.5,0 C 2.7,1 3,2.5 4.5,3.5 L 3.3,3.5 C 3.3,4 4,5 5,6 L 3,6 L 3,8 L 2,8 L 2,6 L 0,6 C 1,5 1.7,4 1.7,3.5 L 0.5,3.5 z M 0,8 L 0,7.5 L 12.5,7.5 L 12.5,8 L 0,8 z " />
-        </symbol>
-    </defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg637"
+   sodipodi:version="0.32"
+   width="100pt"
+   height="100pt"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\accommodation"
+   sodipodi:docname="hostel.svg"
+   inkscape:version="0.45.1"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata2259">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs639" />
+  <sodipodi:namedview
+     id="base"
+     showgrid="true"
+     snaptogrid="true"
+     inkscape:zoom="3.016"
+     inkscape:cx="62.5"
+     inkscape:cy="62.5"
+     inkscape:window-width="797"
+     inkscape:window-height="573"
+     inkscape:window-x="154"
+     inkscape:window-y="203"
+     inkscape:current-layer="svg637" />
+  <g
+     id="g644"
+     transform="matrix(0.540754,0.000000,0.000000,0.576454,-28.11920,-2.309608)">
+    <path
+       style="font-size:12.000;fill-rule:evenodd;stroke:#000000;stroke-width:0.411495;"
+       d="M 209.1664 24.80312 L 134.8684 96.33661 L 149.7279 96.33661 L 149.7279 203.6368 L 194.3068 203.6368 L 194.3068 149.1079 L 225.0449 149.1079 L 225.0450 203.6368 L 268.6049 203.6368 L 268.6049 96.33661 L 283.4645 96.33661 L 209.1664 24.80312 L 209.1664 24.80312 L 209.1664 24.80312 z "
+       id="path645"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="font-size:12.000;fill-rule:evenodd;stroke:#000000;stroke-width:0.411495;"
+       d="M 60.57025 139.2567 L 78.65655 139.2567 C 78.65655 139.2567 82.85965 150.3342 53.14045 175.0234 L 84.81265 175.0232 L 84.81265 203.6366 L 100.2241 203.6366 L 99.67225 175.0232 L 134.8683 175.0234 C 101.9224 150.8656 105.1491 139.2567 105.1491 139.2567 L 124.6788 139.2567 C 100.5213 117.7967 94.91725 74.87662 94.49265 74.87662 C 94.49265 74.87662 90.28945 114.3222 60.57025 139.2567 L 60.57025 139.2567 L 60.57025 139.2567 z "
+       id="path646"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <rect
+       style="font-size:12.000;fill:#000000;fill-rule:evenodd;stroke-width:1.000000;fill-opacity:1;"
+       id="rect647"
+       width="229,999986"
+       height="6,000000"
+       x="52,133850"
+       y="203,267909" />
+  </g>
 </svg>
