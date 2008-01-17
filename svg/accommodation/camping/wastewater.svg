@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="411.92725"
+   height="276.65714"
+   id="svg2189"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien"
+   sodipodi:docname="wastewater2.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs2191" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="211.37452"
+     inkscape:cy="79.068277"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1400"
+     inkscape:window-height="960"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata2194">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-179.03669,-352.36218)">
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:none"
+       d="M 179.05712,352.36218 L 590.94286,353.07647 C 592.00337,353.07647 546.28909,629.86218 545.94286,629.14789 C 545.94286,629.14789 223.21428,629.00841 223.92856,629.37647 C 223.92856,629.37647 177.99661,352.36218 179.05712,352.36218 z "
+       id="rect2197"
+       sodipodi:nodetypes="ccccc" />
+    <g
+       id="g2219"
+       transform="matrix(0.3436715,0,0,0.3436715,253.65579,363.90006)"
+       style="fill:#009900;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round">
+      <path
+         d="M 280,272 C 134,187 134,187 134,187 C 210,54 210,54 210,54 C 231,17 309,16 336,48 C 373,110 373,110 373,110 L 280,272 z "
+         id="path2221" />
+      <path
+         d="M 162,475 C 84,475 84,475 84,475 C 54,471.75 4,410 34,354 C 68,297 68,297 68,297 C 15,266 15,266 15,266 C 183,266 183,266 183,266 C 268,412 268,412 268,412 C 215,383 215,383 215,383 L 162,475 z "
+         id="path2223" />
+      <path
+         d="M 363,496 C 363,667 363,667 363,667 C 176,667 176,667 176,667 C 165,668 157,657 151,648 C 63,492 64,493 60,488 C 64.75,492 70,496 85,496 L 363,496 z "
+         id="path2225" />
+      <path
+         d="M 687,496 C 706,494 709,489 714,486 C 620,652 620,652 620,652 C 616,660 608,667 596,667 C 492,667 492,667 492,667 C 492,728 492,728 492,728 C 407,583 407,583 407,583 C 492,437 492,437 492,437 C 492,496 492,496 492,496 L 687,496 z "
+         id="path2227" />
+      <path
+         d="M 519,315 C 666,231 666,231 666,231 C 743,362 743,362 743,362 C 771,416 723,468 691,474 C 612,474 612,474 612,474 L 519,315 z "
+         id="path2229" />
+      <path
+         d="M 357,35 C 351,27 339,17 328,15 C 525,15 525,15 525,15 C 536,15 546,19 551,28 C 602,118 602,118 602,118 C 653,89 653,89 653,89 C 570,233 570,233 570,233 C 404,233 404,233 404,233 C 454,203 454,203 454,203 L 357,35 z "
+         id="path2231" />
+    </g>
+  </g>
+</svg>
