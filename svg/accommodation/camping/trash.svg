@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg831"
+   sodipodi:version="0.32"
+   width="90.28pt"
+   height="98.89pt"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien"
+   sodipodi:docname="trash.svg"
+   inkscape:version="0.45.1"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata2212">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs833" />
+  <sodipodi:namedview
+     id="base"
+     inkscape:zoom="3.0498533"
+     inkscape:cx="56.424999"
+     inkscape:cy="61.806252"
+     inkscape:window-width="797"
+     inkscape:window-height="573"
+     inkscape:window-x="132"
+     inkscape:window-y="174"
+     inkscape:current-layer="svg831" />
+  <g
+     id="g663"
+     transform="matrix(0.453438,-6.092601e-3,6.286083e-3,0.467838,-68.49557,-243.2297)">
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-opacity:1;stroke-width:1.25;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;stroke-dasharray:none;"
+       d="M 234.631 654.56 C 242.91 650.487 245.83 646.415 248.75 639.481 C 241.354 634.927 234.852 631.325 231.029 621.047 C 227.822 618.504 213.002 621.684 211.581 629.633 C 217.477 639.85 222.482 647.205 234.631 654.56 z "
+       id="path660"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-opacity:1;stroke-width:1pt;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;"
+       d="M 187.354 655.797 L 267.76 655.796 L 257.611 765.868 L 199.063 765.086 L 187.354 655.797 z "
+       id="path661"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-opacity:1;stroke-width:1pt;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;"
+       d="M 289.719 610.341 C 290.565 618.313 293.945 636.651 293.945 644.623 C 293.945 657.38 288.028 690.866 287.182 702.028 C 286.338 713.19 288.874 749.865 286.338 753.852 C 283.802 757.838 266.898 760.23 266.898 760.23 L 265.208 765.81 L 299.861 765.81 L 303.242 707.608 C 304.932 702.825 310.003 698.838 313.383 707.608 C 314.229 713.987 313.383 729.932 315.919 736.311 C 318.455 742.689 320.991 760.229 320.991 760.229 C 320.991 760.229 307.468 761.824 307.468 765.81 C 307.468 769.797 336.204 768.202 336.204 768.202 C 331.133 757.838 331.132 717.974 327.752 712.392 C 329.442 706.812 327.752 622.299 327.752 622.299 C 327.752 622.299 334.513 624.691 337.049 627.88 C 339.584 631.069 336.203 658.176 337.894 663.758 C 340.993 668.275 346.627 668.01 349.727 665.352 C 348.036 654.988 349.727 626.286 348.037 620.705 C 346.346 615.124 328.597 582.435 322.68 580.043 C 316.765 577.651 312.539 579.245 310.003 577.651 C 307.468 572.867 312.538 568.083 313.383 561.705 C 313.383 548.949 309.158 544.165 297.325 544.165 C 285.492 544.165 280.421 549.747 280.421 552.935 C 280.421 556.125 282.958 570.475 283.802 572.867 C 287.183 575.259 289.718 574.463 293.099 574.463 C 298.171 578.449 293.945 582.435 293.945 582.435 C 293.945 582.435 292.254 583.232 290.564 587.219 C 288.028 591.205 282.111 599.975 276.195 599.975 C 264.363 603.961 230.556 603.165 228.865 606.353 C 225.484 610.34 227.175 615.124 231.4 617.515 L 289.719 610.341 z "
+       id="path662"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>
