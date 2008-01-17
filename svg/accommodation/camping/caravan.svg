@@ -14,7 +14,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/accommodation/camping"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\accommodation\camping"
    sodipodi:docname="caravan.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
@@ -38,8 +38,8 @@
      height="32px"
      inkscape:window-width="906"
      inkscape:window-height="714"
-     inkscape:window-x="460"
-     inkscape:window-y="243" />
+     inkscape:window-x="259"
+     inkscape:window-y="115" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -67,7 +67,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#cdba4e;fill-opacity:1;stroke:#0d0d0d;stroke-width:1.04791474;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       style="fill:#e9ddaf;fill-opacity:1;stroke:#0d0d0d;stroke-width:1.04791474;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect2160"
        width="26.819799"
        height="14.051943"
@@ -76,7 +76,7 @@
        ry="1.6728503" />
     <path
        sodipodi:type="arc"
-       style="fill:#858584;fill-opacity:1;stroke:#101010;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       style="fill:#241f1c;fill-opacity:1;stroke:#101010;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="path2162"
        sodipodi:cx="16.964285"
        sodipodi:cy="28.071428"
@@ -92,14 +92,14 @@
        x="0.98214287"
        y="23.696428" />
     <rect
-       style="fill:#2327de;fill-opacity:0.877095;stroke:none;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       style="fill:#483e37;fill-opacity:0.877095;stroke:none;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect3141"
        width="6.3392859"
        height="4.579493"
        x="6.9196429"
        y="15.590151" />
     <rect
-       style="fill:#2327de;fill-opacity:0.877095;stroke:none;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       style="fill:#483e37;fill-opacity:0.877095;stroke:none;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
        id="rect3143"
        width="10.803572"
        height="4.579493"
