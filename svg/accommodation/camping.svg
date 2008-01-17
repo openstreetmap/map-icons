@@ -14,7 +14,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/accommodation"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\accommodation"
    sodipodi:docname="camping.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
@@ -92,8 +92,8 @@
        id="path2161"
        sodipodi:nodetypes="cccc" />
     <path
-       style="fill:#5abd3f;fill-rule:evenodd;stroke:#00b000;stroke-width:1.42489433px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99431819;fill-opacity:1;opacity:1"
-       d="M 0.87317934,30.322289 L 31.641106,30.322289"
+       style="opacity:1;fill:#5abd3f;fill-opacity:1;fill-rule:evenodd;stroke:#00b000;stroke-width:1.26045012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.99431817"
+       d="M 4.1875774,30.322289 L 28.263574,30.322289"
        id="path2165" />
   </g>
 </svg>
