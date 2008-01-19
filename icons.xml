@@ -117,8 +117,10 @@
     <condition k="poi" v="accommodation.chalet"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
+    <title lang="en">Chalet</title>
+    <title lang="de">Chalet</title>
+    <description lang="en">Leisure residence</description>
+    <description lang="de">Ferienhaus</description>
     <geoinfo>
       <poi_type_id>576</poi_type_id>
       <name>accommodation.chalet</name>
@@ -185,9 +187,9 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">One-Star Hotel</title>
-    <description lang="en">Very rarely seen in real life (if ever)</description>
+    <description lang="en">Very rarely seen in real life</description>
     <title lang="de">Ein-Stern-Hotel</title>
-    <description lang="de">Kommt in der Realität sehr selten vor (wenn überhaupt)</description>
+    <description lang="de">Kommt in der Realität sehr selten vor</description>
     <geoinfo>
       <poi_type_id>522</poi_type_id>
       <name>accommodation.hotel.one_star</name>
