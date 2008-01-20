@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/ms"
-   sodipodi:docname="OSM-Icon-Schutzhütte-BW.svg"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\accommodation"
+   sodipodi:docname="shelter-bw.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/ms/OSM-Icon-Schutzhütte.png"
    inkscape:export-xdpi="180"
@@ -44,8 +44,8 @@
      gridspacingy="0.25px"
      inkscape:window-width="1018"
      inkscape:window-height="712"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-x="66"
+     inkscape:window-y="87"
      gridoriginx="6px"
      gridoriginy="6px" />
   <metadata
@@ -56,7 +56,18 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
       </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <g
