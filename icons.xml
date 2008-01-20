@@ -2592,6 +2592,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="places.locality"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Locality</title>
+    <description lang="en">A (usually rural) place that has a name but isn't a settlement.</description>
+    <geoinfo>
+      <poi_type_id>577</poi_type_id>
+      <name>places.locality</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="places.settlement"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
