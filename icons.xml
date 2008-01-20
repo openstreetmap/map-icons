@@ -1590,6 +1590,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="misc.landmark.range"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Range</title>
+    <description lang="en">A military shooting range</description>
+    <geoinfo>
+      <poi_type_id>579</poi_type_id>
+      <name>misc.landmark.range</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="misc.landmark.reservoir_covered"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
