@@ -1505,6 +1505,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="misc.landmark.pier"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>581</poi_type_id>
+      <name>misc.landmark.pier</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="misc.landmark.plant"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
