@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150"
+   height="200"
+   id="svg2166"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\transport"
+   sodipodi:docname="pedestrian.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2168" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="350"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="150px"
+     height="200px"
+     inkscape:window-width="797"
+     inkscape:window-height="573"
+     inkscape:window-x="66"
+     inkscape:window-y="87" />
+  <metadata
+     id="metadata2171">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-477.30571,-498.04231)">
+    <g
+       transform="translate(188.97898,462.00486)"
+       id="g1966">
+      <path
+         d="M 320.5114,175.86379 L 330.97098,175.86379 L 330.97098,216.95499 C 330.97098,221.02427 320.88495,220.45227 320.88495,216.95499 L 320.5114,175.86379 z "
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path1914" />
+      <path
+         d="M 334.95365,175.86379 L 345.41323,175.86379 L 345.41323,225.92034 C 345.41323,231.98151 335.3272,231.78141 335.3272,225.92034 L 334.95365,175.86379 z "
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path1916" />
+      <path
+         d="M 296.89816,172.00248 C 299.87829,157.60816 301.95983,144.91148 322.12394,125.9093 L 322.12394,97.117576 L 318.55799,96.193071 C 315.25255,107.71749 315.42083,118.32169 318.58978,129.34808 C 316.93525,131.00961 315.37693,132.76736 313.80339,134.50989 C 310.4262,132.83181 310.07948,127.5848 308.38844,122.87164 L 306.32354,109.85089 L 308.25636,98.966586 C 311.83568,90.946035 314.0718,82.584909 327.93511,77.306756 L 336.25565,77.174684 C 352.27443,79.950082 355.3334,91.336709 361.26444,102.55882 C 368.42803,116.11303 376.87788,128.16139 368.7454,132.90912 C 377.75748,138.77717 382.47491,148.93987 395.82019,150.47472 C 402.18973,151.13079 405.50591,149.24241 410.34812,148.62571 L 433.46074,176.625 C 434.55868,183.81115 431.90258,184.74058 429.36651,185.87005 L 413.782,167.24788 L 419.19695,194.71888 L 411.53677,194.71888 L 416.42344,223.77475 C 416.42344,226.56242 407.04632,227.29777 407.04632,224.30304 L 402.29172,197.4924 L 395.73618,197.41892 L 392.78253,228.13313 C 392.78253,231.28903 384.32991,230.71644 384.32991,228.13313 L 388.02793,162.8895 L 361.08522,138.05994 C 357.97894,132.56547 360.24069,130.8602 361.08522,128.15453 C 357.30091,116.83947 350.8797,106.84286 345.76485,96.193071 L 343.91584,96.193071 L 344.04791,126.04137 C 365.66747,144.72915 366.42524,157.69607 369.27369,172.39869 L 296.89816,172.00248 z "
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path1918" />
+      <path
+         d="M 347.40744,56.512512 C 347.41036,64.251186 341.13775,70.526171 333.39908,70.526171 C 325.6604,70.526171 319.38779,64.251186 319.39071,56.512512 C 319.38779,48.773838 325.6604,42.498853 333.39908,42.498853 C 341.13775,42.498853 347.41036,48.773838 347.40744,56.512512 L 347.40744,56.512512 z "
+         transform="translate(0,-0.747113)"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path1922" />
+      <path
+         d="M 347.40744,56.512512 C 347.41036,64.251186 341.13775,70.526171 333.39908,70.526171 C 325.6604,70.526171 319.38779,64.251186 319.39071,56.512512 C 319.38779,48.773838 325.6604,42.498853 333.39908,42.498853 C 341.13775,42.498853 347.41036,48.773838 347.40744,56.512512 L 347.40744,56.512512 z "
+         transform="matrix(0.893333,0,0,0.893333,99.62751,80.17895)"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path1924" />
+    </g>
+  </g>
+</svg>
