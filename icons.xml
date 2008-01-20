@@ -1392,6 +1392,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="misc.landmark.bunker"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>578</poi_type_id>
+      <name>misc.landmark.bunker</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="misc.landmark.chimney"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
