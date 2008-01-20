@@ -23,25 +23,40 @@ use File::Path;
 use Data::Dumper;
 use XML::Simple;
 use Image::Info;
+use Cwd;
 
-our ($opt_b, $opt_h, $opt_i, $opt_j, $opt_l, $opt_n, $opt_p, $opt_r,$opt_s,$opt_v, $opt_D, $opt_F) = 0;
-getopts('bhijlnprsvF:D:') or $opt_h = 1;
+our ($opt_b, $opt_h, $opt_i, $opt_j, $opt_l, $opt_n, $opt_p, $opt_r,$opt_s,$opt_v, $opt_D, $opt_F, $opt_L, $opt_P,$opt_S) = 0;
+getopts('bhijlnprsvF:D:L:P:S:') or $opt_h = 1;
 pod2usage( -exitval => '1',  
            -verbose => '1') if $opt_h;
 
 $opt_b ||=0;
-my $base_dir = $opt_D || '.';
+my $cwd = cwd;
+my $languages = $opt_L || "en,de";
+my $base_dir = $opt_D || cwd;
 my $file_xml = $opt_F || './icons.xml';
 my $i = 0;
 my $poi_reserved = 30;
 my $poi_type_id_base = $poi_reserved;
 my $VERBOSE = $opt_v;
+$opt_P ||= "overview";
 
 my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan );
 
 my $SVN_STATUS={};
 my $SVN_VERSION = '';
 
+my $svn_status2color={
+    "_" =>'',
+    "?" => "blue",
+    "M" => "green",
+    "D" => "red",
+    "C" => "purple",
+    "derived" => "#E5E5E5",
+};
+
+sub html_head($);
+sub get_svn_status($);
 sub update_overview($$);
 
 #####################################################################
@@ -53,14 +68,20 @@ unless (-e $file_xml)
 {
   create_xml();	# Create a new XML-File if none exists
 }
-get_svn_status();
+my $svn_base_dir = $opt_S;
+if ( ! $svn_base_dir ){
+    $svn_base_dir= $base_dir ;
+    $svn_base_dir =~ s,(/build|build/|build),,;
+}
+get_svn_status($svn_base_dir);
 
 my $rules = XMLin("$file_xml",ForceArray => ['description','title','condition']);
 my @rules=@{$rules->{rule}};
 
 
-update_overview('en',\@rules);	 # update html overview from XML-File
-update_overview('de',\@rules);
+for my $lang ( split ( ",", $languages)){
+    update_overview($lang,\@rules);	 # update html overview from XML-File
+}
 
 exit (0);
 
@@ -76,7 +97,7 @@ sub get_svg_license($){
     #print Dumper(\$license);
     return "?" unless $license;
     return "PD" if $license eq "http://web.resource.org/cc/PublicDomain";
-    $license =~ s,http://creativecommons.org/licenses/LGPL,LGPL,;
+    $license =~ s,http://creativecommons.org/licenses/LGPL/?,LGPL-,;
     return $license;
 }
 
@@ -89,6 +110,8 @@ sub get_png_license($){
     $comment =~ s,Generator: Adobe Illustrator 10.0\, SVG Export Plug-In \. SVG Version: [\d\.]+ Build \d+\),,g;
     $comment =~ s/^\s*//g;
     $comment =~ s/\s*$//g;
+    $comment =~ s,http://creativecommons.org/licenses/LGPL/?,LGPL-,;
+	
     print "Comment($filename): $comment\n" if $VERBOSE && $comment;
     return "PD" if $comment =~ m/Public.*Domain/i;
     return "?" unless $comment;
@@ -106,15 +129,19 @@ sub get_png_comment($){
 #
 # Get the "svn status" for all icons Files
 #
-sub get_svn_status {
-    return unless $opt_s;
-    $SVN_VERSION = `svnversion`;
+sub get_svn_status($) {
+    my $svn_base_dir = shift;
+
+    return unless $opt_s || $opt_n;
+
+    $SVN_VERSION = `svnversion $svn_base_dir`;
     chomp($SVN_VERSION);
     $SVN_VERSION =~ s/M//;
-    my $svn_status = `svn -v status .`;
+    my $svn_status = `svn -v status $svn_base_dir`;
     for my $line (split(/[\r\n]+/,$svn_status)) {
 	chomp $line;
 	$line =~ s/^ /_/;
+	$line =~ s,$svn_base_dir/,,;
 	my ($status,$rev,$rev_ci,$user,$file) = (split(/\s+/,$line),('')x5);
 	if ( $status eq "?" ) {
 	    $file = $rev; 
@@ -125,7 +152,8 @@ sub get_svn_status {
     }
 }
 
-sub html_head(){
+sub html_head($){
+    my $lang = shift;
     # html 'template'
     my $html_head =
 	"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n".
@@ -141,8 +169,9 @@ sub html_head(){
 	"       table            { width:100%;  background-color:#fff8B2; }\n".
 	"	tr               { border-top:5px solid black; }\n".
 	"	tr.id            { background-color:#6666ff; color:white; font-weight:bold; }\n".
-	"	td.id            { text-align:right; }\n".
-	"       td.icon          { text-align:center;}\n".
+	"	td.id            { text-align:right; vertical-align:top;}\n".
+	"	td.icon          { text-align:center; vertical-align:top;}\n".
+	"	td.status        { text-align:left; vertical-align:top;}\n".
 	"	td.empty         { text-align:center; height:32px; }\n".
 	"	img.square_big   { width:32px; height:32px; }\n".
 	"	img.square_small { width:16px; height:16px; }\n".
@@ -153,12 +182,70 @@ sub html_head(){
 	"</style>\n".
 	"</head>\n";
     $html_head .= "<body>\n";
+    
+    # Legende
+    $html_head .= "<table border=\"1\">\n";
+    $html_head .= "<tr>\n";
+    if ( 1 ) { # Content with links
+	$html_head .= "<td valign=\"top\">\n";
+	if ( $lang eq "de" ) {
+	    $html_head .= "<h3>Inhalt</h3>\n";
+	} else {
+	    $html_head .= "<h3>Content</h3>\n";
+	}
+	$html_head .= "<ul>\n";
+	#for my $rule (@{$rules}) {
+	for my $top_level (
+	    qw(accommodation  food incomming  nautical  public shopping transport waypoint
+           education      geocache  misc       people    recreation  sightseeing  unknown    wlan
+           empty          health    money      places    religion    sports       vehicle)
+	    ) {
+	    $html_head .= "	<li><a href=\"\#$top_level\">$top_level</a></li>\n";
+	}
+	$html_head .= "</ul>\n";
+	$html_head .= "</td>\n";
+    }
+    $html_head .= "\n";
+    $html_head .= "<td valign=\"top\">\n";
+    if ( $opt_l ) { # Add license Information
+	$html_head .= "<table border=\"1\">\n";
+	$html_head .= "<tr><td><font color=\"green\">lic:PD</font></td> <td>Public Domain License</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"green\">lic:LGPL</font></td> <td>LGPL</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"purple\">lic:?</font></td> <td>I don't know anything about this icon</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"red\">lic:</font></td> <td>License has no known/predefined category</td></tr>\n";
+	$html_head .= "</table>\n";
+#	$html_head .= "</td>\n";
+	}
+    $html_head .= "\n";
+    if ( $opt_s ) { # Add SVN Status Information
+#	$html_head .= "<td valign=\"top\">\n";
+	$html_head .= "<table border=\"1\">\n";
+	for my $status ( keys %{$svn_status2color} ) {
+	    $html_head .= "<tr><td bgcolor=\"$svn_status2color->{$status}\">SVN Status $status</td></tr>\n";
+	}
+	$html_head .= "</table>\n";
+	}
+    $html_head .= "</td>\n";
+
+    $html_head .= "<td valign=\"top\">\n";
+    $html_head .= "<a href=\"overview.en.html\">Without License Info in English</a><br/>\n";
+    $html_head .= "<a href=\"overview.de.html\">Without License Info in German</a><br/>\n";
+    $html_head .= "<a href=\"overview_lic.en.html\">With License Info in English</a><br/>\n";
+    $html_head .= "<a href=\"overview_lic.de.html\">With License Info in German</a><br/>\n";
+    $html_head .= "</td>\n";
+
+    $html_head .= "</tr>\n";
+    $html_head .= "</table>\n";
+    $html_head .= "\n";
+    $html_head .= "\n";
+
+
     $html_head .= "<table border=\"$opt_b\">\n";
     $html_head .= "  <tr>";
     $html_head .= "    <th>ID</th>" if $opt_j;
     $html_head .= "    <th>Name</th>\n";
     $html_head .= "    <th>Path</th>\n" if $opt_p;
-    $html_head .= "    <th colspan=\"".(scalar(@ALL_TYPES))."\">Icons</th>\n";
+    $html_head .= "    <th colspan=\"".(2*scalar(@ALL_TYPES))."\">Icons</th>\n";
     $html_head .= "    <th>Description</th>\n";
     $html_head .= "    <th>condition</th>\n";
     $html_head .= "  </tr>\n";
@@ -175,7 +262,8 @@ sub all_type_header(){
 	my $txt=$type;
 	$txt=~s/\.$//;
 	$txt=~s/\./<br>/;
-	$all_type_header .= "  <td align=\"top\"><font size=\"-3\">$txt</font></td>\n";
+	$all_type_header .= "  <td  colspan=\"2\" valign=\"top\"><font size=\"-3\">$txt</font></td>\n";
+#	$all_type_header .= " <td></td>";
     }
     $all_type_header .= " <td></td>\n";
     $all_type_header .= " <td></td>\n";
@@ -192,7 +280,7 @@ sub all_type_header(){
 sub update_overview($$){
     my $lang  = shift || 'en';
     my $rules = shift;
-    my $file_html = "$base_dir/overview.$lang.html";
+    my $file_html = "$base_dir/${opt_P}.${lang}.html";
 
     print STDOUT "----- Updating HTML Overview '$file_html' -----\n";
     
@@ -245,7 +333,7 @@ sub update_overview($$){
 	    $content .=     all_type_header();
 	    $content .= "  <tr class=\"id\">\n";
 	    $content .= "     <td class=\"id\">$id</td>\n" if $opt_j;
-	    $content .= "     <td>&nbsp;$nm</td>\n";
+	    $content .= "     <td>&nbsp;<a name=\"$nm\">$nm</a></td>\n";
 	    $header_line++;
 	} else {
 	    my $level = ($icon =~ tr,\.,/,);
@@ -266,14 +354,14 @@ sub update_overview($$){
 	for my $type ( @ALL_TYPES  ) {
 	    my $icon_s = "${type}/$icon.svg";
 	    my $icon_p = "${type}/$icon.png";
-	    my $icon_t = "${type}_tn/${icon}.png";
+	    my $icon_t = "${type}_png/${icon}.png";
 	    my $class = $type;
 	    $class =~ s/\./_/g;
 
 	    my $icon_path_current;
 	    if ( -s "$base_dir/$icon_t" ) { $icon_path_current = $icon_t; }
 	    else {		$icon_path_current = $icon_p;   };
-	    my $icon_path_svn=$icon_path_current;
+	    my $icon_path_svn="$svn_base_dir/$icon_path_current";
 	    $icon_path_svn =~ s,/([^/]+)\.(...)$,/.svn/text-base/$1.$2.svn-base,;
 
 	    my $svn_bgcolor='';
@@ -282,14 +370,9 @@ sub update_overview($$){
 	    $status_line ||= '';
 	    my ($status,$rev,$rev_ci,$user,$file) =
 		(split(/,/, $status_line),('')x5);
-	    $status_line = " $status  $user $rev_ci";
-	    #$status_line =~ s/guenther/g/;
-	    #$status_line =~ s/joerg/j/;
-	    #$status_line =~ s/ulf/u/;
-	    #$status_line =~ s/$SVN_VERSION//;
-	    $status_line ="<font size=\"-3\">$status_line</font><br>" if $status_line;
+	    print STDERR "svn_status($icon_p): '$status_line'\n" if $VERBOSE;
 	    
-	    print STDERR "svn_status($icon_p): $status\n" if $VERBOSE;
+	    #print STDERR "svn_status($icon_p)[$icon_path_svn]: '$status'\n" if $VERBOSE;
 	    if ( $status eq "" ) {
 		if ( -s  $icon_path_svn # Im original svn Verzeichnis
 		     || -s "$icon_s"
@@ -298,18 +381,14 @@ sub update_overview($$){
 		     ) {
 		    $svn_bgcolor='';
 		} else {
-		    $svn_bgcolor=' bgcolor="#E5E5E5" ';
+		    $status = "derived";
+#		    $svn_bgcolor=' bgcolor="#E5E5E5" ';
 		}
-	    } elsif ( $status eq "_" ) { 
-		$svn_bgcolor='';
-	    } elsif ( $status eq "?" ) { 
-		$svn_bgcolor=' bgcolor="blue" ';
-	    } elsif ( $status eq "M" ){
-		$svn_bgcolor=' bgcolor="green" ';
-	    } elsif ( $status eq "D" ){
-		$svn_bgcolor=' bgcolor="red" ';
+	    } 
+	    if ( $svn_status2color->{$status}  ) { 
+		$svn_bgcolor=" bgcolor=\"$svn_status2color->{$status} \" ";
 	    } else {
-		$svn_bgcolor=' bgcolor="red" ';
+#		$svn_bgcolor=' bgcolor="red" ';
 	    }
 	    
 	    $content .=  "    <td ";
@@ -331,9 +410,8 @@ sub update_overview($$){
 		$content .=  " >";
 	    }
 
-	    if ( $opt_s && $status ) {
-		$content .= "     $status_line" if $opt_n;
-		$content .= "    <img src=\"$icon_path_svn\" /> -->" 
+	    if ( $opt_s && $status ) { # modified icons .... we show old icon too
+		$content .= "    <img src=\"$icon_path_svn\" /> ==> " 
 		    if -s $icon_path_svn && $status =~ "M|D";
 	    }
 	    if ( $empty ) { # exchange empty or missing icon files with a char for faster display
@@ -347,22 +425,40 @@ sub update_overview($$){
 		    $content .= "</a>";
 		}
 	    }
-	    if ( ! $empty && $opt_l ) { # Add license Information
+	    $content .= "</td>\n";
+
+
+	    # Status Column
+	    $content .= "<td class=\"status\">\n";
+
+	    # -------------- Add license Information
+	    if ( ! $empty && $opt_l ) {
 		my $license='';
 		if ( -s "$icon_s"  ) {
 		    $license = get_svg_license($icon_s);
 		} elsif ( -s "$icon_p" ) {
 		    $license = get_png_license($icon_p);
 		}
-		if ( $license eq "PD" ) {
-		    $content .= "<br><font size=\"-2\">$license</font>";
-		} elsif( $license && $license eq "?") {
-		    $content .= "<br><font size=\"-2\">no-license-info</font>";
-		} elsif ( $license ) {
-		    $content .= "<br><font size=\"-2\">license:$license</font>";
-		}
+		my $lic_color=' color="red" ';
+		$lic_color = ' color="purple" ' if $license eq "?";
+		$lic_color = ' color="green" ' if $license eq "PD";
+		$lic_color = ' color="green" ' if $license =~ m/^LGPL/;
+		$content .= "<font $lic_color size=\"-2\">lic:$license</font><br/>";
 		print "License($type/$icon): $license\n"
 		    if $VERBOSE && $license && $license ne "?";
+	    }
+
+	    # ----------- add SVN Status Info 
+	    if ( ($opt_s || $opt_n)&& $status ) {
+		#$status_line =~ s/guenther/g/;
+		#$status_line =~ s/joerg/j/;
+		#$status_line =~ s/ulf/u/;
+		#$status_line =~ s/$SVN_VERSION//;
+		$content .= "<font size=\"-3\">";
+		$content .= "svn:$status<br>\n" if $opt_s && $status;
+		$content .= "$user<br>\n";
+		$content .= "rev: $rev_ci" if $rev_ci;
+		$content .= "</font>";
 	    }
 
 	    $content .= "</td>\n";
@@ -374,19 +470,17 @@ sub update_overview($$){
     }  
 
     # create backup of old overview.html
-    move("$file_html","$file_html.bak")
-	or die (" Couldn't create backup file!")
-	if (-e $file_html);
 
     my $fo = IO::File->new(">$file_html");
     $fo ||die "Cannot write to '$file_html': $!\n";
     $fo->binmode(":utf8");
-    print $fo html_head();
+    print $fo html_head($lang);
     # sorted output
     foreach ( sort keys(%out) )  {
 	print $fo $out{$_};
     }
 
+    print $fo "</table>\n";
     if ( $opt_i ) {
 	print $fo "<h3>Incomming Directories</h3>\n";
 	
@@ -405,7 +499,7 @@ sub update_overview($$){
 		$name =~ s/.*\/incomming\///;
 		$name =~ s/\.(svg|png)$//;
 		my $icon_t = $icon;
-		$icon_t =~ s/\//_tn\//;
+		$icon_t =~ s/\//_png\//;
 		$icon_t =~ s/\.svg/\.png/;
 		print STDERR "thumb: $icon_t\n" if $VERBOSE;
 		$icon_t = $icon unless -s $icon_t;
@@ -425,7 +519,7 @@ sub update_overview($$){
 
 	}
     }
-    print $fo "</table>\n</body>\n</html>";
+    print $fo "\n</body>\n</html>";
     $fo->close();
     return;
 
@@ -437,7 +531,7 @@ __END__
 
 =head1 SYNOPSIS
  
-update_icons.pl [-h] [-v] [-i] [-r] [-s] [-f XML-FILE]
+create_overview.pl [-h] [-v] [-i] [-r] [-s] [-F XML-FILE] [-D DIR] [-P FILENAME_PREFIX]
  
 =head1 OPTIONS
  
@@ -454,7 +548,7 @@ The default file is 'icons.xml'.
 
 =item B<-D> DIRECTORY
 
-The directory to search for the icons. Default it ./
+The directory to search for the icons. Default it CWD (./)
 
 =item B<-v>
 
@@ -467,7 +561,7 @@ overview.*.html file.
 
 =item B<-j>
 
-show internal id in html page
+show internal gpsdrive-mysql id in html page
 
 =item B<-l>
 
@@ -483,7 +577,7 @@ Show path of Filename
 
 =item B<-b>
 
-Show Border in Table
+Add Border to Table
 
 =item B<-s>
 
@@ -494,9 +588,24 @@ Show Border in Table
  this also shows the old and new icon if it is found in the 
  .svn/ directory
 
+If the working path ends with /build this is truncated, since 
+I expect the real svn co one level above.
+
 =item B<-n>
 
-show the svn revision numbers and user too
-needs option -s to work
+Show the svn revision numbers and user too
+This needs option -s to work
+
+=item B<-L language>
+
+Update only this language. Default is en,de
+
+=item B<-P FILENAME-PREFIX>
+
+Use this for the filename Prefix. Default: overview
+
+=item B<-S SVN-BASE>
+
+Use the Directory  SVN-BASE as Base for determining SVN Status
 
 =back
