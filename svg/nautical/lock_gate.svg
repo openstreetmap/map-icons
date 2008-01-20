@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="421.00003"
+   height="258.14291"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\nautical"
+   sodipodi:docname="lock_gate.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="192.7583"
+     inkscape:cy="129.27128"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="797"
+     inkscape:window-height="573"
+     inkscape:window-x="66"
+     inkscape:window-y="87" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-239.50001,-371.86218)">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="rect2165"
+       width="57.14286"
+       height="43.57143"
+       x="380.92859"
+       y="383.57651" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.83442682;stroke-opacity:1"
+       id="rect2162"
+       width="280.16559"
+       height="54.451283"
+       x="239.91722"
+       y="575.1366" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.37301067;stroke-opacity:1"
+       id="rect2164"
+       width="103.48412"
+       height="72.05555"
+       x="556.82941"
+       y="412.04874" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-width:0.57086283;stroke-opacity:1"
+       id="rect2160"
+       width="77.571991"
+       height="251.8577"
+       x="505.49973"
+       y="377.86197" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect2166"
+       width="0"
+       height="11.428572"
+       x="580"
+       y="803.79077" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       d="M 261.16964,538.0625 C 269.68748,559.8543 290.82071,575.21873 315.70089,575.21875 L 432.85714,575.21875 C 457.7352,575.21875 478.86911,559.85134 487.38839,538.0625 L 261.16964,538.0625 z "
+       id="rect2168" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="rect2176"
+       width="14.285714"
+       height="182.85715"
+       x="371.42856"
+       y="372.36218"
+       ry="7.1428571" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#6c6c6c;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 457.14285,546.6479 L 377.14285,395.21933 L 300,543.79075"
+       id="path2180" />
+  </g>
+</svg>
