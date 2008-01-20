@@ -14,7 +14,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/wlan"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\wlan"
    sodipodi:docname="pay.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
@@ -38,8 +38,8 @@
      height="32px"
      inkscape:window-width="906"
      inkscape:window-height="735"
-     inkscape:window-x="365"
-     inkscape:window-y="0" />
+     inkscape:window-x="44"
+     inkscape:window-y="58" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -69,7 +69,7 @@
      id="layer1">
     <g
        id="g3523"
-       transform="matrix(1.641902,0,0,1.557643,-10.087029,-8.5837189)">
+       transform="matrix(1.641902,0,0,1.557643,-10.364917,-8.5837189)">
       <path
          transform="matrix(2.4344654e-4,-0.3229747,0.3466886,2.2679447e-4,-84.550573,28.281801)"
          sodipodi:open="true"
@@ -112,21 +112,21 @@
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="20.99449"
-       y="18.630434"
+       y="18.819838"
        id="text3549"><tspan
          sodipodi:role="line"
          id="tspan3551"
          x="20.99449"
-         y="18.630434">$</tspan></text>
+         y="18.819838">$</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        x="2.2435315"
-       y="19.009241"
+       y="18.819838"
        id="text3205"><tspan
          sodipodi:role="line"
          id="tspan3207"
          x="2.2435315"
-         y="19.009241">$</tspan></text>
+         y="18.819838">$</tspan></text>
   </g>
 </svg>
