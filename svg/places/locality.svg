@@ -93,24 +93,24 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1"
      transform="translate(-71.720179,-283.64791)">
+    <rect
+       style="fill:#424242;fill-opacity:1;stroke:none;stroke-width:3.49739575;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7133"
+       width="8.2168903"
+       height="259.40039"
+       x="211.60585"
+       y="284.38644" />
     <path
        d="M 297.15179,591.06696 C 177.6722,592.60884 75.53125,587.59375 75.53125,587.59375 L 74.665179,588.5625 C 74.665179,588.5625 276.20043,474.41657 488.21875,588.5625 L 490.17857,589.02232 C 425.69019,595.40284 359.73634,590.25931 297.15179,591.06696 z "
        id="path6292"
        sodipodi:nodetypes="cccccc"
        style="fill:#e6cc00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.88999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="fill:#e0e0e0;fill-opacity:1;stroke:#000000;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#e0e0e0;fill-opacity:1;stroke:#424242;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect7131"
        width="125.46414"
        height="38.321289"
        x="221.55365"
        y="286.77295" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.49739575;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect7133"
-       width="8.2168903"
-       height="255.35976"
-       x="211.60585"
-       y="285.39661" />
   </g>
 </svg>
