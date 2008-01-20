@@ -189,14 +189,14 @@ sub html_head($){
     if ( 1 ) { # Content with links
 	$html_head .= "<td valign=\"top\">\n";
 	if ( $lang eq "de" ) {
-	    $html_head .= "<h3>Inhalt</h3>\n";
+	    $html_head .= "<h3>Kategorien</h3>\n";
 	} else {
-	    $html_head .= "<h3>Content</h3>\n";
+	    $html_head .= "<h3>Categories</h3>\n";
 	}
 	$html_head .= "<ul>\n";
 	#for my $rule (@{$rules}) {
-	for my $top_level (
-	    qw(accommodation  food incomming  nautical  public shopping transport waypoint
+	for my $top_level ( # XXX This List should not be hardcoded !!!!!!
+			    sort qw(accommodation  food incomming  nautical  public shopping transport waypoint
            education      geocache  misc       people    recreation  sightseeing  unknown    wlan
            empty          health    money      places    religion    sports       vehicle)
 	    ) {
@@ -205,13 +205,25 @@ sub html_head($){
 	$html_head .= "</ul>\n";
 	$html_head .= "</td>\n";
     }
+
     $html_head .= "\n";
     $html_head .= "<td valign=\"top\">\n";
+
+    $html_head .= "\n";
+    $html_head .= "<table border=\"1\">\n";
+    $html_head .= "<td valign=\"top\">\n";
+    $html_head .= "<a href=\"overview.en.html\">Without License Info in English</a><br/>\n";
+    $html_head .= "<a href=\"overview.de.html\">Without License Info in German</a><br/>\n";
+    $html_head .= "<a href=\"overview_lic.en.html\">With License Info in English</a><br/>\n";
+    $html_head .= "<a href=\"overview_lic.de.html\">With License Info in German</a><br/>\n";
+    $html_head .= "</td>\n";
+    $html_head .= "</table>\n";
+
     if ( $opt_l ) { # Add license Information
 	$html_head .= "<table border=\"1\">\n";
 	$html_head .= "<tr><td><font color=\"green\">lic:PD</font></td> <td>Public Domain License</td></tr>\n";
 	$html_head .= "<tr><td><font color=\"green\">lic:LGPL</font></td> <td>LGPL</td></tr>\n";
-	$html_head .= "<tr><td><font color=\"purple\">lic:?</font></td> <td>I don't know anything about this icon</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"purple\">lic:?</font></td> <td>No license information available about this icon</td></tr>\n";
 	$html_head .= "<tr><td><font color=\"red\">lic:</font></td> <td>License has no known/predefined category</td></tr>\n";
 	$html_head .= "</table>\n";
 #	$html_head .= "</td>\n";
@@ -225,15 +237,9 @@ sub html_head($){
 	}
 	$html_head .= "</table>\n";
 	}
-    $html_head .= "</td>\n";
 
-    $html_head .= "<td valign=\"top\">\n";
-    $html_head .= "<a href=\"overview.en.html\">Without License Info in English</a><br/>\n";
-    $html_head .= "<a href=\"overview.de.html\">Without License Info in German</a><br/>\n";
-    $html_head .= "<a href=\"overview_lic.en.html\">With License Info in English</a><br/>\n";
-    $html_head .= "<a href=\"overview_lic.de.html\">With License Info in German</a><br/>\n";
-    $html_head .= "</td>\n";
 
+    $html_head .= "</td>\n";
     $html_head .= "</tr>\n";
     $html_head .= "</table>\n";
     $html_head .= "\n";
