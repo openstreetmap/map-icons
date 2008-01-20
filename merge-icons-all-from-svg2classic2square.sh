@@ -10,6 +10,8 @@ if [ ! -n "$dst" ] ; then
     exit -1 
 fi
 
+debug="false"
+echo "$@" | grep debug && debug="true"
 
 # merge-icons-all-from-svg2classic2square
 # Convert and merge icons for the map
@@ -19,9 +21,9 @@ cd $dst
 
 echo "Merging in directory `pwd`"
 echo ""
-echo "svg_tn --> classic.big"
-find svg_tn/ -name "*.png" | grep -v incomming | while read src ; do 
-    dst=${src/svg_tn/classic.big}
+echo "svg_png --> classic.big"
+find svg_png/ -name "*.png" | grep -v incomming | while read src ; do 
+    dst=${src/svg_png/classic.big}
     test -s $src || continue
     test -s $dst && continue
     mkdir -p `dirname $dst`
@@ -59,19 +61,28 @@ find classic.big/ -name "*.png" | grep -v -e incomming -e empty.png | \
     dir=${dir#*/}
     dst=$dst_theme/${src#*/}
 
-    #echo "Check $src $dst"
-
     test -s $dst && continue
     test -s $src || continue
 
+    $debug && echo "Try to create $src	========> $dst"
+
+
     empty=$dst_theme/$dir/empty.png
+    $debug && echo "checking '$empty'"
     if [ ! -s $empty ]; then 
-	empty="`dirname $empty`"
-	empty="`dirname $empty`/empty.png"
+	empty=`dirname $empty`
+	empty=`dirname $empty`/empty.png
+	$debug && echo "checking '$empty'"
     fi
     if [ ! -s $empty ]; then 
-	empty="`dirname $empty`"
-	empty="`dirname $empty`/empty.png"
+	empty=`dirname $empty`
+	empty=`dirname $empty`/empty.png
+	$debug && echo "checking '$empty'"
+    fi
+    if [ ! -s $empty ]; then 
+	empty=`dirname $empty`
+	empty=`dirname $empty`/empty.png
+	$debug && echo "checking '$empty'"
     fi
     if ! [ -s $empty ] ; then
 	echo "empty 2 $empty missing for $src"

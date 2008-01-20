@@ -10,7 +10,7 @@ if [ ! -n "$dst" ] ; then
 fi
 
 mkdir -p $dst
-for dir in square.big square.small classic.big classic.small svg svg_tn japan japan_tn ; do \
+for dir in square.big square.small classic.big classic.small svg svg_png japan japan_png ; do \
     # Create directories
     find  $dir -type d | grep -v '/\.svn' | \
     while read nd ; do 

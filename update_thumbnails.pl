@@ -29,14 +29,14 @@ my @theme_dirs=qw(classic.big classic.small
 		  );
 
 sub update_svg_thumbnail($$);
-sub create_tn();
+sub create_png();
 
 our $COUNT_FILES_SEEN=0;
 our $COUNT_FILES_CONVERTED=0;
 # ---------------------- MAIN ----------------------
 print "Update Thumbnails for Icons in Directory '$base_dir'\n";
 find( { no_chdir=> 1,
-	wanted => \&create_tn,
+	wanted => \&create_png,
       },
       "$base_dir/svg","$base_dir/japan");
 
@@ -67,8 +67,8 @@ sub get_svg_license($){
 
 ##################################################################
 # create all Thumbnails for one icon-name
-# currently this means svg --> svg_tn and japan --> japan_tn
-sub create_tn()
+# currently this means svg --> svg_png and japan --> japan_png
+sub create_png()
 { 
     my $icon_file = $File::Find::name;
     my $icon_dir = $File::Find::dir;
@@ -78,7 +78,7 @@ sub create_tn()
 	$COUNT_FILES_SEEN++;
 	my $dst_file=$icon_file;
 	for my $theme ( @theme_dirs) {
-	    $dst_file =~ s,/$theme/,/${theme}_tn/,;
+	    $dst_file =~ s,/$theme/,/${theme}_png/,;
 	}
 	$dst_file =~ s,\.svg$,.png,;
 	update_svg_thumbnail($icon_file,$dst_file);

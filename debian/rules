@@ -52,14 +52,15 @@ install: build
 	./merge-icons-all-from-svg2classic2square.sh build
 	cp icons.xml build/
 	cd build; ../update_icons.pl
-	./create_overview.pl -D build
+#	./create_overview.pl -D ./build
 
 	# Now split into two packages
 	./copy_icons_to_debian_package_dirs.pl
 
 	# icons.xml belongs to the unrestricted package
 	cp icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
-	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./
+	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
 
 #	cd build; $(MAKE)
 #	cd build; $(MAKE) DESTDIR=$(destdir) install
