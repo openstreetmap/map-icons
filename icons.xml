@@ -1663,6 +1663,18 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="misc.landmark.wastewater_plant"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+    <geoinfo>
+      <poi_type_id>580</poi_type_id>
+      <name>misc.landmark.wastewater_plant</name>
+    </geoinfo>
+  </rule>
+
+  <rule>
     <condition k="poi" v="misc.landmark.water_tower"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
