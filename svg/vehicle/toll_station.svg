@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="725"
+   height="725"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="toll_station.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien">
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="573"
+     inkscape:window-width="797"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.52"
+     inkscape:cx="362.5"
+     inkscape:cy="362.5"
+     inkscape:window-x="22"
+     inkscape:window-y="29"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs9" />
+  <circle
+     cx="362.5"
+     cy="362.5"
+     r="350"
+     style="opacity:1;fill:white;fill-opacity:1;stroke:black;stroke-width:2.5px"
+     id="circle4" />
+  <path
+     d="M 113.09375,332.1875 C 72.544148,331.94572 71.31547,393.74982 112.75,393.03125 L 613.34375,393.03125 C 654.77828,393.74982 653.54962,331.94573 613,332.1875 L 113.09375,332.1875 z "
+     style="opacity:1;fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path2773" />
+  <circle
+     cx="362.5"
+     cy="362.5"
+     r="290"
+     transform="matrix(1.145251,0,0,1.145251,-52.65349,-52.65349)"
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#c00;stroke-width:25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="circle6" />
+  <path
+     d="M 152.2704,301.47899 L 152.2704,178.1108 L 169.96701,178.1108 L 205.36022,258.54991 L 239.99137,178.1108 L 257.68798,178.1108 L 257.68798,301.47899 L 238.9753,301.47899 L 238.9753,224.51146 L 238.63661,224.51146 L 212.81142,283.86706 L 197.23163,283.86706 L 171.40645,224.51146 L 170.98308,224.51146 L 170.98308,301.47899 L 152.2704,301.47899 z M 270.72758,301.39432 L 315.77349,177.94145 L 331.18393,177.94145 L 376.22983,301.39432 L 356.58575,301.39432 L 347.1024,273.53698 L 300.27837,273.53698 L 290.45633,301.39432 L 270.72758,301.39432 z M 305.7821,257.0258 L 341.514,257.0258 C 338.9173,249.4053 336.87105,243.43588 335.37523,239.11751 C 333.87928,234.79927 332.58096,230.97489 331.48028,227.64435 C 330.37947,224.31397 329.26462,220.92706 328.13571,217.48362 C 327.00668,214.04035 325.5108,209.38336 323.64805,203.51262 C 321.6723,209.60915 320.09175,214.47783 318.90638,218.11867 C 317.72091,221.75968 316.57783,225.27359 315.47713,228.66043 C 314.37634,232.04741 313.10625,235.82945 311.66686,240.00657 C 310.22738,244.18382 308.2658,249.85689 305.7821,257.0258 L 305.7821,257.0258 z M 389.52344,259.73533 L 389.52344,178.1108 L 408.23612,178.1108 L 408.23612,257.61851 C 408.23609,266.14227 410.64926,272.64795 415.47564,277.13558 C 420.30194,281.62325 426.27137,283.86708 433.38393,283.86706 C 440.49637,283.86708 446.4658,281.62325 451.29221,277.13558 C 456.11848,272.64795 458.53165,266.14227 458.53173,257.61851 L 458.53173,178.1108 L 477.24441,178.1108 L 477.24441,259.73533 C 477.24431,272.60561 472.98245,282.94979 464.45882,290.76789 C 455.93502,298.58601 445.57673,302.49506 433.38393,302.49506 C 421.13456,302.49506 410.76216,298.58601 402.26669,290.76789 C 393.77118,282.94979 389.52343,272.60561 389.52344,259.73533 L 389.52344,259.73533 z M 522.12099,301.47899 L 522.12099,194.70665 L 488.33656,194.70665 L 488.33656,178.1108 L 574.6181,178.1108 L 574.6181,194.70665 L 540.83367,194.70665 L 540.83367,301.47899 L 522.12099,301.47899 z "
+     style="font-size:173.40979004px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DIN 1451 Mittelschrift"
+     id="text2768" />
+  <path
+     d="M 186.64852,502.47345 L 261.41418,424.89482 C 264.99531,421.53185 268.23078,421.16588 273.54027,426.12571 L 398.3951,545.58504 L 320.35833,628.21351 C 317.92042,630.65142 313.00755,630.33591 310.46082,627.78918 L 189.41941,510.94067 C 186.55997,508.23925 184.08167,505.0403 186.64852,502.47345 z "
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path3692" />
+  <path
+     d="M 236.51328,451.89764 L 367.59319,578.71799 L 382.74324,559.84362 L 253.9901,435.02295 L 236.51328,451.89764 z "
+     style="opacity:1;fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="path4579" />
+  <path
+     d="M 456.22356 524.41565 A 49.664845 49.664845 0 1 1  356.89387,524.41565 A 49.664845 49.664845 0 1 1  456.22356 524.41565 z"
+     transform="matrix(1.037745,-0.469226,0.469226,1.037745,-265.6495,185.6036)"
+     style="opacity:1;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path3680" />
+  <path
+     d="M 456.22356 524.41565 A 49.664845 49.664845 0 1 1  356.89387,524.41565 A 49.664845 49.664845 0 1 1  456.22356 524.41565 z"
+     transform="matrix(1.138897,0,0,1.138897,-6.034856,-109.0295)"
+     style="opacity:1;fill:white;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path2778" />
+  <text
+     x="135.64926"
+     y="694.27173"
+     transform="matrix(0.911184,-0.412,0.412,0.911184,0,0)"
+     style="font-size:105.47325134px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DIN 1451 Mittelschrift"
+     id="text3682"
+     xml:space="preserve"><tspan
+       x="135.64926"
+       y="694.27173"
+       style="font-size:105.47325134px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill-opacity:1;font-family:Arial"
+       id="tspan3684">€</tspan></text>
+  <text
+     x="448.13858"
+     y="525.57068"
+     style="font-size:105.47323608px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DIN 1451 Mittelschrift"
+     id="text3669"
+     xml:space="preserve"><tspan
+       x="448.13858"
+       y="525.57068"
+       style="font-size:105.47323608px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill-opacity:1;font-family:Arial"
+       id="tspan3671">€</tspan></text>
+</svg>
