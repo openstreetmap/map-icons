@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="387.85144"
+   height="918.64642"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\misc\landmark"
+   sodipodi:docname="chimney.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="350"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="797"
+     inkscape:window-height="573"
+     inkscape:window-x="66"
+     inkscape:window-y="87" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-257.14285,-22.28719)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2160"
+       width="100.00001"
+       height="377.14285"
+       x="257.14285"
+       y="563.79077" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2162"
+       sodipodi:cx="457.14285"
+       sodipodi:cy="339.50504"
+       sodipodi:rx="74.285713"
+       sodipodi:ry="47.142857"
+       d="M 531.42857 339.50504 A 74.285713 47.142857 0 1 1  382.85714,339.50504 A 74.285713 47.142857 0 1 1  531.42857 339.50504 z"
+       transform="matrix(0.8555493,-0.2253652,2.4338919e-2,1.4430957,-60.799932,59.733728)" />
+    <path
+       transform="matrix(0.8555493,-0.2253652,2.4338919e-2,1.4430957,59.200067,-117.40912)"
+       d="M 531.42857 339.50504 A 74.285713 47.142857 0 1 1  382.85714,339.50504 A 74.285713 47.142857 0 1 1  531.42857 339.50504 z"
+       sodipodi:ry="47.142857"
+       sodipodi:rx="74.285713"
+       sodipodi:cy="339.50504"
+       sodipodi:cx="457.14285"
+       id="path2168"
+       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2170"
+       sodipodi:cx="457.14285"
+       sodipodi:cy="339.50504"
+       sodipodi:rx="74.285713"
+       sodipodi:ry="47.142857"
+       d="M 531.42857 339.50504 A 74.285713 47.142857 0 1 1  382.85714,339.50504 A 74.285713 47.142857 0 1 1  531.42857 339.50504 z"
+       transform="matrix(0.8555493,-0.2253652,2.4338919e-2,1.4430957,182.05721,-294.55199)" />
+  </g>
+</svg>
