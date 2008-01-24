@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\accommodation\camping"
+   sodipodi:docname="dump-station.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3291"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;">
+      <path
+         id="path3297"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path3303"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.12"
+     inkscape:cx="24.372308"
+     inkscape:cy="16.612347"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="32px"
+     height="32px"
+     inkscape:window-width="906"
+     inkscape:window-height="714"
+     inkscape:window-x="259"
+     inkscape:window-y="115" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#e9ddaf;fill-opacity:1;stroke:#0d0d0d;stroke-width:1.04791474;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       id="rect2160"
+       width="26.819799"
+       height="14.051943"
+       x="3.7329574"
+       y="1.893672"
+       ry="1.6728503" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#241f1c;fill-opacity:1;stroke:#101010;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       id="path2162"
+       sodipodi:cx="16.964285"
+       sodipodi:cy="28.071428"
+       sodipodi:rx="3.9285715"
+       sodipodi:ry="3.0357144"
+       d="M 20.892856 28.071428 A 3.9285715 3.0357144 0 1 1  13.035713,28.071428 A 3.9285715 3.0357144 0 1 1  20.892856 28.071428 z"
+       transform="matrix(0.8720496,0,0,1.0108877,-1.0436985,-12.537776)" />
+    <rect
+       style="fill:#f2d31d;fill-opacity:1;stroke:#000000;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       id="rect2164"
+       width="2.6785715"
+       height="0.71428573"
+       x="0.98214287"
+       y="13.071428" />
+    <rect
+       style="fill:#483e37;fill-opacity:0.877095;stroke:none;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       id="rect3141"
+       width="6.3392859"
+       height="4.579493"
+       x="6.9196429"
+       y="4.9651508" />
+    <rect
+       style="fill:#483e37;fill-opacity:0.877095;stroke:none;stroke-width:1.08200002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
+       id="rect3143"
+       width="10.803572"
+       height="4.579493"
+       x="16.607143"
+       y="4.8571434" />
+    <g
+       transform="matrix(2.9480909e-2,0,0,2.9480909e-2,12.295923,11.327553)"
+       id="g2305"
+       inkscape:label="Ebene 1">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2197"
+         d="M 179.05712,352.36218 L 590.94286,353.07647 C 592.00337,353.07647 546.28909,629.86218 545.94286,629.14789 C 545.94286,629.14789 223.21428,629.00841 223.92856,629.37647 C 223.92856,629.37647 177.99661,352.36218 179.05712,352.36218 z "
+         style="fill:#0000ff;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       style="fill:#803300;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-opacity:1"
+       d="M 23.687591,17.546875 L 23.492278,25.164062"
+       id="path2308" />
+  </g>
+</svg>
