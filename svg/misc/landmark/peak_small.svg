@@ -14,7 +14,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/misc/landmark"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\misc\landmark"
    sodipodi:docname="peak_small.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
@@ -38,8 +38,8 @@
      height="32px"
      inkscape:window-width="906"
      inkscape:window-height="897"
-     inkscape:window-x="486"
-     inkscape:window-y="74" />
+     inkscape:window-x="119"
+     inkscape:window-y="26" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -67,7 +67,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#d1adc6;fill-opacity:1;fill-rule:evenodd;stroke:#1f151d;stroke-width:1.31793761px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#ff00ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.31793761px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 8.5518259,29.295675 L 16.843992,17.962541 L 25.108889,29.246839 L 8.5518259,29.295675 z "
        id="path3382"
        sodipodi:nodetypes="cccc" />
