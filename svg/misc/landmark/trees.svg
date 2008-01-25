@@ -9,17 +9,18 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="128.00000px"
+   height="86.665833"
    id="svg2"
    inkscape:export-filename="/home/nicu/Desktop/rpg_color.png"
    inkscape:export-xdpi="90.000000"
    inkscape:export-ydpi="90.000000"
    inkscape:version="0.45.1"
-   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\misc\landmark"
    sodipodi:docname="trees.svg"
    sodipodi:version="0.32"
-   width="128.00000px"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   width="87.893135"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
   <metadata
      id="metadata2239">
     <rdf:RDF>
@@ -123,7 +124,8 @@
   <g
      id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     inkscape:label="Layer 1"
+     transform="translate(-27.381469,-24.881498)">
     <g
        id="g1881"
        transform="matrix(2.469674,0,0,2.469674,-95.4758,-295.6608)">
