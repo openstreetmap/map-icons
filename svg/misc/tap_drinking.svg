@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="169.07185"
+   height="222.09532"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\misc"
+   sodipodi:docname="tap_drinking.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="82.576631"
+     inkscape:cy="174.71401"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="797"
+     inkscape:window-height="573"
+     inkscape:window-x="176"
+     inkscape:window-y="232" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-323.00943,-296.76374)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 338.00943,346.6479 C 338.00943,346.6479 384.046,344.94852 434.28572,345.93361 C 452.50001,346.29076 475.77697,352.70082 476.4867,378.29119 C 477.31709,408.23218 477.13515,423.32662 476.79623,432.03658"
+       id="path2236"
+       sodipodi:nodetypes="csss" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:8.7668829;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 377.71375,301.14718 C 399.84553,301.14718 422.77913,301.14718 443.59224,301.14718"
+       id="path3209"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 410.83156,301.80019 L 410.47443,350.16857"
+       id="path3211"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path3217"
+       d="M 466.20449,444.04473 L 466.20449,514.90948"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:7.89915419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:15.79830801, 7.89915401;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:7.89915419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:15.79830801, 7.89915401;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 485.39739,444.04473 L 485.39739,514.90948"
+       id="path3255"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#0000ec;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.2986294px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 355.48362,398.10223 L 372.40183,485.37472 L 407.53965,485.37472 L 421.85506,396.77992"
+       id="path2164" />
+  </g>
+</svg>
