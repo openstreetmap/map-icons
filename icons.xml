@@ -1835,7 +1835,6 @@
     <geoinfo>
       <poi_type_id>104</poi_type_id>
       <name>money.atm</name>
-      <restricted>brand</restricted>
     </geoinfo>
   </rule>
 
