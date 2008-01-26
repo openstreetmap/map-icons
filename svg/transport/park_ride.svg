@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="420"
+   height="310"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="park_ride.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\transport">
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="573"
+     inkscape:window-width="797"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1.216129"
+     inkscape:cx="210"
+     inkscape:cy="155"
+     inkscape:window-x="66"
+     inkscape:window-y="87"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <g
+     id="layer1">
+    <path
+       d="M 167.63067,141.54153 L 193.53037,141.54153 L 193.53038,116.37161 L 219.53605,116.51081 L 219.57831,141.54153 L 245.44441,141.54153 L 245.44441,168.65217 L 219.57831,168.65217 L 219.50515,193.60259 L 193.49712,193.47757 L 193.53037,168.65217 L 167.63067,168.65217 L 167.63067,141.54153 z "
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path19965" />
+    <path
+       d="M 5.512072,48.727788 L 413.95661,48.727788 C 413.95661,27.332509 400.53927,8.3728262 379.78176,4.0800053 L 39.686918,4.0800053 C 18.118605,8.0937678 5.512072,27.384364 5.512072,48.727788 z "
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path19064" />
+    <path
+       d="M 5.3958333,261.4762 L 413.84037,261.4762 C 413.84037,282.87147 400.42303,301.83116 379.66552,306.12398 L 39.570679,306.12398 C 18.002366,302.11021 5.3958333,282.81962 5.3958333,261.4762 z "
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path19953" />
+    <path
+       d="M 11.589281,60.416565 L 11.589281,249.15628 L 40.148579,249.15628 L 40.148579,60.416565 L 11.589281,60.416565 z "
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path20852" />
+    <path
+       d="M 40.148579,60.416565 C 58.126752,60.317134 80.028846,58.759244 92.878969,60.379992 C 152.923,67.95317 167.84791,159.68904 91.265584,175.89547 L 40.148579,175.89547 L 40.148579,147.54312 L 90.851682,147.54312 C 123.75937,132.90242 119.29531,99.398542 88.368264,88.355009 L 40.148579,88.355009 L 40.148579,60.416565 z "
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path21739" />
+    <path
+       d="M 276.57649,249.442 L 276.57649,60.502042 L 305.25849,60.502042 L 305.25849,249.51892 L 276.57649,249.442 z "
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path22626" />
+    <path
+       d="M 305.12772,168.26817 L 341.28536,168.26817 L 380.95196,249.43215 L 414.51601,249.43215 L 372.40839,166.43741 C 418.36459,148.44402 424.16951,77.003647 361.72892,60.71065 L 304.97516,60.71065 L 304.97516,86.79907 L 355.77893,86.79907 C 390.55349,97.294668 384.95487,130.86966 357.30456,142.79001 L 304.97516,142.79001 L 305.12772,168.26817 z "
+       style="fill:black;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path23513" />
+  </g>
+</svg>
