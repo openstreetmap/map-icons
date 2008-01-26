@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="582.85712"
+   height="365.71429"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\transport\ferry"
+   sodipodi:docname="ferry-car.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="348.60503"
+     inkscape:cy="523.1309"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="797"
+     inkscape:window-height="573"
+     inkscape:window-x="223"
+     inkscape:window-y="257" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-97.14286,-449.50505)">
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 168.75,648.60714 C 171.96435,717.79089 221.00664,772.37499 281.4375,772.375 L 515.71875,772.375 C 576.14962,772.375 625.19192,717.79091 628.40625,648.60714 C 623.78779,649.29725 619.06663,649.6591 614.28125,649.6591 L 182.84375,649.6591 C 178.05837,649.6591 173.36846,649.29725 168.75,648.60714 z "
+       id="rect2160" />
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2165"
+       width="105.71429"
+       height="162.85715"
+       x="497.14285"
+       y="529.50507"
+       ry="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2167"
+       width="42.857143"
+       height="45.714287"
+       x="531.42859"
+       y="578.07648" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 102.85714,806.6479 C 102.85714,806.6479 157.14285,724.50503 222.85714,718.07646 C 288.57143,711.64789 289.28572,751.6479 365.71429,749.50504 C 442.14286,747.36218 452.14286,695.21934 528.57143,700.93362 C 605,706.64791 671.42857,803.79075 671.42857,803.79075 L 102.85714,806.6479 z "
+       id="path2169"
+       sodipodi:nodetypes="cssscc" />
+    <g
+       transform="matrix(-0.4285552,0,0,0.6234303,474.24783,479.02565)"
+       id="g3221">
+      <path
+         id="path25345"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="matrix(1.079545,0,0,1.079545,-521.3741,-27.12071)"
+         d="M 640.23853,222.03787 C 640.23853,249.14264 618.26578,271.11539 591.16101,271.11539 C 564.05624,271.11539 542.08349,249.14264 542.08349,222.03787 C 542.08349,194.9331 564.05624,172.96035 591.16101,172.96035 C 618.26578,172.96035 640.23853,194.9331 640.23853,222.03787 L 640.23853,222.03787 z " />
+      <path
+         id="path24454"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 285.83418,10.247082 C 288.65554,6.9807461 291.87058,4.1737036 297.80466,4.5388804 L 554.11195,4.5388804 L 681.49562,105.68157 C 682.90126,108.65248 683.61253,110.92902 683.96915,112.85091 L 684.45326,202.47755 C 682.08558,207.61498 679.30008,212.00034 674.33227,212.45753 L 644.76683,212.45753 C 644.76683,124.83077 515.22193,124.6518 515.22193,212.45753 L 182.38817,212.45753 C 182.38817,125.17065 51.857393,124.83574 51.857393,212.45753 L 15.791737,212.45753 C 12.71653,211.01909 9.9497784,212.35674 5.8866518,202.02701 L 5.492299,137.57457 C 7.5896054,131.71045 10.205427,129.47594 12.815364,127.20023 L 200.16379,96.077198 L 285.83418,10.247082 z " />
+      <path
+         id="path25343"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="matrix(1.079545,0,0,1.079545,-58.73586,-27.14299)"
+         d="M 640.23853,222.03787 C 640.23853,249.14264 618.26578,271.11539 591.16101,271.11539 C 564.05624,271.11539 542.08349,249.14264 542.08349,222.03787 C 542.08349,194.9331 564.05624,172.96035 591.16101,172.96035 C 618.26578,172.96035 640.23853,194.9331 640.23853,222.03787 L 640.23853,222.03787 z " />
+      <path
+         id="path25349"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 226.41173,97.07302 L 290.25519,34.075171 C 291.69464,32.851906 292.82676,31.167654 295.32884,31.538345 L 408.85181,31.538345 L 408.85181,108.70014 L 231.27398,108.70014 C 224.51388,106.03369 223.59914,101.99187 226.41173,97.07302 z " />
+      <path
+         id="path26236"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 585.23723,89.186408 L 530.52565,34.0864 C 529.0862,32.863135 527.95408,31.178883 525.452,31.549574 L 429.94598,31.549574 L 429.94598,108.71136 L 592.71536,108.71136 C 600.41757,107.17544 590.2821,96.783985 585.23723,89.186408 z " />
+    </g>
+  </g>
+</svg>
