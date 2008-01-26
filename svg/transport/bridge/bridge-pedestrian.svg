@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2170"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\transport\bridge"
+   sodipodi:docname="bridge-pedestrian.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2172" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="30.143676"
+     inkscape:cy="48.18312"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1400"
+     inkscape:window-height="960"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     width="32px"
+     height="32px" />
+  <metadata
+     id="metadata2175">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-248.20068,-550.15906)">
+    <path
+       style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke-width:10.30560017"
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       id="path624"
+       d="M 264.21115,580.01847 C 263.39237,580.87121 261.49042,580.88404 260.76006,580.03851 C 260.36357,579.57905 259.28672,579.5603 258.83811,579.98441 C 258.13335,580.84986 256.18786,580.86298 255.45685,580.01245 C 255.04363,579.53804 253.91093,579.5328 253.50054,580.01847 C 253.26877,579.88556 253.03701,579.75264 252.80524,579.61974 C 253.16619,579.20115 253.83636,578.99572 254.47869,578.99859 C 255.12286,578.9973 255.8101,579.20075 256.16007,579.62975 C 256.56322,580.08869 257.6503,580.10274 258.08466,579.6538 C 258.79645,578.80034 260.74452,578.81619 261.46591,579.6538 C 261.87481,580.12394 262.96281,580.12247 263.45848,579.64777 C 263.87682,579.20115 264.547,578.99572 265.18931,578.99859 C 265.83348,578.9973 266.52075,579.20075 266.87068,579.62975 C 267.27384,580.08869 268.36091,580.10274 268.79529,579.6538 C 269.50708,578.80034 271.45515,578.81619 272.17653,579.6538 C 272.58545,580.12394 272.20103,580.88404 271.47067,580.03851 C 271.07418,579.57905 269.99736,579.5603 269.54874,579.98441 C 268.84397,580.84986 266.89847,580.86298 266.16748,580.01245 C 265.75424,579.53804 264.62154,579.5328 264.21115,580.01847 z " />
+    <path
+       style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke-width:10.30560017"
+       sodipodi:nodetypes="ccccccccccccccccccc"
+       id="path625"
+       d="M 264.21115,578.4412 C 263.39237,579.29397 261.49042,579.30679 260.76006,578.46125 C 260.36357,578.0018 259.28672,577.98304 258.83811,578.40714 C 258.13335,579.2726 256.18786,579.28571 255.45685,578.43521 C 255.04363,577.96077 253.91093,577.95556 253.50054,578.4412 C 253.26877,578.3083 253.03701,578.17538 252.80524,578.04246 C 253.16619,577.6239 253.83636,577.41846 254.47869,577.42133 C 255.12286,577.42003 255.8101,577.62349 256.16007,578.0525 C 256.56322,578.51144 257.6503,578.52547 258.08466,578.07655 C 258.79645,577.2231 260.74452,577.23894 261.46591,578.07655 C 261.87481,578.5467 262.96281,578.54522 263.45848,578.07052 C 263.87682,577.6239 264.547,577.41846 265.18931,577.42133 C 265.83348,577.42003 266.52075,577.62349 266.87068,578.0525 C 267.27384,578.51144 268.36091,578.52547 268.79529,578.07655 C 269.50708,577.2231 271.45515,577.23894 272.17653,578.07655 C 272.58545,578.5467 272.20103,579.30679 271.47067,578.46125 C 271.07418,578.0018 269.99736,577.98304 269.54874,578.40714 C 268.84397,579.2726 266.89847,579.28571 266.16748,578.43521 C 265.75424,577.96077 264.62154,577.95556 264.21115,578.4412 z " />
+    <path
+       style="font-size:12px;fill-rule:evenodd;stroke:#000000;stroke-width:0.03629506pt"
+       id="path620"
+       d="M 273.6714,575.31409 L 271.95881,575.36263 L 271.95881,580.55646 L 279.72843,580.55646 L 273.6714,575.31409 z "
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="font-size:12px;fill-rule:evenodd;stroke:#000000;stroke-width:0.03916228pt"
+       id="path637"
+       d="M 254.51186,575.24117 L 255.63622,575.28968 L 255.63622,580.47962 L 248.49377,580.47962 L 254.51186,575.24117 z "
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2180"
+       width="17.600103"
+       height="1.0009658"
+       x="255.17328"
+       y="575.24982" />
+    <g
+       id="g2333"
+       transform="matrix(2.873611e-2,0,0,2.873611e-2,258.49543,553.37861)">
+      <circle
+         id="circle2322"
+         style="fill:#000000;stroke:none"
+         cy="105"
+         cx="188"
+         r="56"
+         sodipodi:cx="188"
+         sodipodi:cy="105"
+         sodipodi:rx="56"
+         sodipodi:ry="56" />
+      <path
+         id="path2324"
+         d="M 22,427 C 173.66667,190.33333 159.33333,183.66667 216,182 C 249,183 250,192 306,236 C 375,286.66667 370,287.33333 369,343 C 368.66667,410 373.33333,405 320,430 L 320,317 L 273,275 L 273,434 L 161,433 L 160,307 C 68,449 74,441 22,427 z "
+         style="fill:#000000;stroke:none" />
+      <path
+         id="path2326"
+         d="M 163,450 L 272,450 C 272,475 280,473 338,582 C 399,694.33333 400,686.66667 365,751 L 214,480 C 71,756.66667 89,748.33333 10,743 L 89,595 C 156.66667,472.66667 160.33333,472.33333 163,450 z "
+         style="fill:#000000;stroke:none" />
+    </g>
+  </g>
+</svg>
