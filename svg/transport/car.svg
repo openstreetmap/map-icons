@@ -9,14 +9,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="690"
-   height="270"
+   width="466.72781"
+   height="261.05374"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    sodipodi:docname="car.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien">
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\transport">
   <metadata
      id="metadata11">
     <rdf:RDF>
@@ -52,8 +52,8 @@
      pagecolor="#ffffff"
      id="base"
      inkscape:zoom="1.0318841"
-     inkscape:cx="345"
-     inkscape:cy="135"
+     inkscape:cx="345.00001"
+     inkscape:cy="135.00001"
      inkscape:window-x="110"
      inkscape:window-y="145"
      inkscape:current-layer="svg2" />
@@ -61,7 +61,7 @@
      id="defs4" />
   <g
      id="layer1"
-     transform="matrix(-1,0,0,1,689.94556,0)">
+     transform="matrix(-0.6874148,0,0,1,470.5033,-4.5068144)">
     <path
        d="M 640.23853,222.03787 C 640.23853,249.14264 618.26578,271.11539 591.16101,271.11539 C 564.05624,271.11539 542.08349,249.14264 542.08349,222.03787 C 542.08349,194.9331 564.05624,172.96035 591.16101,172.96035 C 618.26578,172.96035 640.23853,194.9331 640.23853,222.03787 L 640.23853,222.03787 z "
        transform="matrix(1.079545,0,0,1.079545,-521.3741,-27.12071)"
