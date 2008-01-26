@@ -175,7 +175,7 @@ sub entry_name($){
 
   # Create backup copy of old XML-File
   #
-  move("$file_xml","$file_xml.bak") or die (" Couldn't create backup file!");
+  #move("$file_xml","$file_xml.bak") or die (" Couldn't create backup file!");
   move("./icons.tmp","$file_xml") or die (" Couldn't remove temp file!");
   print STDOUT " XML-File successfully updated!\n";
 
