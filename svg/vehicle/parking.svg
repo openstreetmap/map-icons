@@ -8,46 +8,17 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   height="32"
+   version="1.0"
+   width="480"
+   height="480"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
-   version="1.0"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/vehicle"
    sodipodi:docname="parking.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     gridtolerance="10000"
-     guidetolerance="10"
-     objecttolerance="10"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="29.021042"
-     inkscape:cy="14.297118"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     width="32px"
-     height="32px"
-     inkscape:window-width="956"
-     inkscape:window-height="909"
-     inkscape:window-x="436"
-     inkscape:window-y="0"
-     showgrid="true"
-     inkscape:object-bbox="true"
-     inkscape:object-points="true"
-     inkscape:object-nodes="true"
-     inkscape:grid-points="true"
-     inkscape:guide-points="true" />
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\vehicle">
   <metadata
-     id="metadata7">
+     id="metadata8">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -56,7 +27,6 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <cc:license
            rdf:resource="http://web.resource.org/cc/PublicDomain" />
-        <dc:title>Map Icon for OpenStreetmap and GpsDrive</dc:title>
       </cc:Work>
       <cc:License
          rdf:about="http://web.resource.org/cc/PublicDomain">
@@ -69,40 +39,36 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#ff0000;stroke-width:0.1092821;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect2157"
-       width="29.990725"
-       height="29.865675"
-       x="1.0671376"
-       y="1.0692713"
-       ry="4.6501541" />
-    <text
-       xml:space="preserve"
-       style="font-size:1.77949917px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="25.967566"
-       y="40.215179"
-       id="text2159"
-       transform="scale(1.2972641,0.770853)"><tspan
-         sodipodi:role="line"
-         id="tspan2161"
-         x="25.967566"
-         y="40.215179">P</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:29.42379189px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="6.3084321"
-       y="26.325073"
-       id="text2160"
-       transform="scale(0.9750027,1.0256382)"><tspan
-         sodipodi:role="line"
-         id="tspan2162"
-         x="6.3084321"
-         y="26.325073"
-         style="font-weight:bold">P</tspan></text>
-  </g>
+  <sodipodi:namedview
+     inkscape:window-height="573"
+     inkscape:window-width="797"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.78541667"
+     inkscape:cx="240"
+     inkscape:cy="240"
+     inkscape:window-x="154"
+     inkscape:window-y="203"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <path
+     d="M 30.856274,5.7720243 L 450.86109,5.7720243 C 461.67691,6.5627045 473.93298,17.615789 474.52755,30.636789 L 474.52755,449.4433 C 474.57722,459.76184 462.73404,473.63554 449.36321,474.30807 L 29.957547,474.30807 C 20.433732,473.72489 5.5262338,458.92955 5.0927831,449.14373 L 5.691934,30.936364 C 4.6103723,24.633922 19.978002,5.6381226 30.856274,5.7720243 z "
+     style="fill:white;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path3669" />
+  <path
+     d="M 35.1875,16.78125 C 23.426887,16.266334 16.714331,24.30046 17.15625,37.15625 L 17.15625,443.5625 C 17.202803,452.2297 20.884421,462.63293 32.84375,462.84375 L 447.28125,462.8125 C 459.24058,462.6017 462.95345,452.19845 463,443.53125 L 463,37.09375 C 463.44191,24.237959 456.72937,16.20383 444.96875,16.71875 L 35.1875,16.78125 z "
+     style="fill:#039;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.94117647"
+     id="path3661" />
+  <path
+     d="M 175.94451,123.64749 L 175.94451,228.91347 L 249.40673,228.91347 C 267.77211,228.91364 281.4716,223.38905 290.50526,212.33967 C 299.53851,201.29068 304.05524,189.27096 304.05545,176.28048 C 304.05524,156.57135 296.96286,142.08796 282.77829,132.83026 C 273.66998,126.70869 261.94889,123.64776 247.61497,123.64749 L 175.94451,123.64749 z M 126.4471,403.16226 L 126.4471,76.837719 L 244.92733,76.837719 C 257.6188,76.838045 269.82517,78.181865 281.54645,80.869182 C 293.26736,83.557144 305.47372,89.828302 318.16557,99.682677 C 328.02003,107.29796 336.38157,117.78722 343.25023,131.15049 C 350.11839,144.5143 353.5526,160.00555 353.55286,177.6243 C 353.5526,200.9174 344.8551,223.09042 327.46034,244.14344 C 310.0651,265.19677 284.64451,275.72336 251.19849,275.72323 L 175.94451,275.72323 L 175.94451,403.16226 L 126.4471,403.16226 z "
+     style="font-size:458.69091797px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DIN 1451 Mittelschrift"
+     id="text5426" />
 </svg>
