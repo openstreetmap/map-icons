@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="40"
+   id="svg1"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg"
+   sodipodi:docname="unknown.svg"
+   sodipodi:version="0.32"
+   version="1.0"
+   width="25"
+   x="0"
+   y="0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Part of the Flat Icon Collection (Wed Aug 25 23:29:46 2004)</dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>hash</rdf:li>
+            <rdf:li />
+            <rdf:li>action</rdf:li>
+            <rdf:li>computer</rdf:li>
+            <rdf:li>icons</rdf:li>
+            <rdf:li>theme</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     id="base"
+     inkscape:cx="47.779858"
+     inkscape:cy="28.022928"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="685"
+     inkscape:window-width="1016"
+     inkscape:window-x="44"
+     inkscape:window-y="58"
+     inkscape:zoom="4.9119411"
+     pagecolor="#ffffff"
+     showguides="true"
+     snaptoguides="true"
+     width="25px"
+     height="40px"
+     borderlayer="false"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient1160">
+      <stop
+         id="stop1161"
+         offset="0"
+         style="stop-color:#000;stop-opacity:1;" />
+      <stop
+         id="stop1162"
+         offset="1"
+         style="stop-color:#fff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1163"
+       xlink:href="#linearGradient1160" />
+  </defs>
+  <path
+     d="M 8.3345885,23.757699 L 8.3345885,19.869655 C 8.3345885,19.068485 8.4995385,18.455824 8.8294315,18.031671 C 9.1593255,17.607521 9.5599095,17.316901 10.03119,17.159806 C 10.502466,17.002716 11.209385,16.837767 12.151942,16.664964 C 14.602588,16.209396 15.827909,14.976217 15.827909,12.96543 C 15.827909,12.148549 15.498015,11.41807 14.838224,10.773992 C 14.194145,10.114199 13.345846,9.7843073 12.293324,9.7843073 C 11.319348,9.7843073 10.549594,9.9728175 9.9840615,10.34984 C 9.4342355,10.726862 8.8844145,11.276688 8.3345885,11.999313 C 7.8004715,12.706228 7.2820665,13.2482 6.7793708,13.625223 C 6.2923818,13.986536 5.6247418,14.167193 4.7764388,14.167193 C 3.8181738,14.167193 2.9934378,13.80588 2.3022298,13.08325 C 1.6267308,12.344918 1.2889828,11.480907 1.2889828,10.491223 C 1.2889828,8.7632053 1.8545158,7.2472573 2.9855828,5.9433913 C 4.1166508,4.6395203 5.5304838,3.6419823 7.2270835,2.9507743 C 8.9236845,2.2595663 10.612431,1.9139643 12.293324,1.9139643 C 13.942796,1.9139643 15.482307,2.1574543 16.911847,2.6444423 C 18.341392,3.1314313 19.605987,3.8462013 20.705638,4.7887573 C 21.805285,5.7313133 22.661442,6.8780933 23.274104,8.2290873 C 23.902475,9.5643753 24.21666,11.056756 24.21666,12.706228 C 24.21666,15.65957 23.470469,17.953126 21.978088,19.586891 C 20.501419,21.204946 18.467066,22.281031 15.875038,22.815144 L 15.875038,23.757699 C 15.875038,24.511744 15.710089,25.17939 15.380195,25.760632 C 15.06601,26.326166 14.618297,26.773879 14.037054,27.103773 C 13.471521,27.417958 12.827437,27.575053 12.104813,27.575053 C 11.382184,27.575053 10.730251,27.417958 10.14901,27.103773 C 9.5834755,26.773879 9.1357635,26.326166 8.8058645,25.760632 C 8.4916795,25.17939 8.3345885,24.511744 8.3345885,23.757699 z M 7.9104375,33.913744 C 7.9104375,33.159699 8.0989485,32.460636 8.4759725,31.816554 C 8.8687015,31.156767 9.3871105,30.630507 10.03119,30.237772 C 10.675269,29.845041 11.366476,29.648677 12.104813,29.648677 C 12.84315,29.648677 13.534358,29.845041 14.178436,30.237772 C 14.822516,30.630507 15.333067,31.156767 15.710089,31.816554 C 16.102823,32.460636 16.299188,33.159699 16.299188,33.913744 C 16.299188,34.683497 16.102823,35.398267 15.710089,36.058058 C 15.333067,36.702138 14.814661,37.212687 14.154874,37.58971 C 13.510792,37.966732 12.827437,38.155244 12.104813,38.155244 C 11.382184,38.155244 10.690976,37.966732 10.03119,37.58971 C 9.3871105,37.212687 8.8687015,36.702138 8.4759725,36.058058 C 8.0989485,35.398267 7.9104375,34.683497 7.9104375,33.913744 z "
+     id="path836"
+     style="font-size:12px;font-weight:900;fill:#333333;fill-opacity:1;stroke-width:1pt;font-family:VAG Rounded Black SSi" />
+</svg>
