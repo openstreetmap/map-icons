@@ -1,14 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <symbol id="symbol-museum" viewBox="94 140 156 180">
-            <g fill="#f2f2f2" stroke-width="4" stroke="#000000">
-                <path d="M 38.2,92.9 L 60.6,92.9 L 60.6,215.6 L 38.2,215.6 L 38.2,92.9 z " />
-                <path d="M 85,92.9 L 107.4,92.8 L 107.4,215.6 L 85,215.6 L 85,92.9 z " />
-                <path d="M 131.8,92.8 L 154.2,92.8 L 154.2,215.6 L 131.8,215.6 L 131.8,92.8 z " />
-                <path d="M 18.0,216.1 L 170.0,216.1 L 170.0,226.6 L 18.0,226.6 L 18.0,216.1 z " />
-                <path d="M 17.9,82.0 L 95.4,53.6 L 169.9,82.0 L 169.9,92.5 L 17.9,92.5 L 17.9,82.0 z " />
-            </g>
-        </symbol>
-    </defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) --><svg height="60.0000000" id="svg1" inkscape:version="0.38.1" sodipodi:docbase="/home/danny/flat/scalable/apps" sodipodi:docname="apollon.svg" sodipodi:version="0.32" version="1.0" width="60.0000000" x="0" xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" y="0">
+  <metadata>
+    <rdf:RDF xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work rdf:about="">
+        <dc:title>Part of the Flat Icon Collection (Wed Aug 25 23:23:49 2004)</dc:title>
+        <dc:description></dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>hash</rdf:li>
+            <rdf:li></rdf:li>
+            <rdf:li>application</rdf:li>
+            <rdf:li>computer</rdf:li>
+            <rdf:li>icons</rdf:li>
+            <rdf:li>theme</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://www.openclipart.org">
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Danny Allen</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date></dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" id="base" inkscape:cx="39.911523" inkscape:cy="24.602564" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="685" inkscape:window-width="1016" inkscape:window-x="0" inkscape:window-y="0" inkscape:zoom="9.8238822" pagecolor="#ffffff" showguides="true" snaptoguides="true"/>
+  <defs id="defs3"/>
+  <path d="M 2.6517099,53.097556 L 57.767387,53.001749 L 54.768253,47.807097 L 5.8530832,47.807097 L 2.6517099,53.097556 z " id="path828" sodipodi:nodetypes="ccccc" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:#7f7f7f;fill-rule:evenodd;stroke:#333333;stroke-width:2.5000000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;" transform="translate(0.000000,-0.433004)"/>
+  <path d="M 8.6523839,48.421075 L 8.6523839,25.772188" id="path829" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#333333;stroke-width:5.0000000;" transform="translate(0.000000,-0.433004)"/>
+  <path d="M 19.381418,48.421075 L 19.381418,25.772188" id="path830" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#333333;stroke-width:5.0000000;" transform="translate(0.000000,-0.433004)"/>
+  <path d="M 30.110452,48.421075 L 30.110452,25.772188" id="path831" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#333333;stroke-width:5.0000000;" transform="translate(0.000000,-0.433004)"/>
+  <path d="M 40.839486,48.421075 L 40.839486,25.772188" id="path832" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#333333;stroke-width:5.0000000;" transform="translate(0.000000,-0.433004)"/>
+  <path d="M 51.568522,48.421075 L 51.568522,25.772188" id="path833" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#333333;stroke-width:5.0000000;" transform="translate(0.000000,-0.433004)"/>
+  <rect height="9.1613474" id="rect836" rx="0.82780671" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:#7f7f7f;fill-rule:evenodd;stroke:#333333;stroke-width:2.5000000;stroke-dasharray:none;" transform="translate(0.000000,-0.433004)" width="50.348175" x="4.8547759" y="16.865320"/>
+  <path d="M 2.9527873,16.865322 L 56.977695,16.865322 L 30.218935,8.3036368 L 2.9527873,16.865322 z " id="path837" sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)" style="fill:#b3b3b3;fill-rule:evenodd;stroke:#333333;stroke-width:2.5000000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;" transform="translate(0.000000,-0.433004)"/>
 </svg>
