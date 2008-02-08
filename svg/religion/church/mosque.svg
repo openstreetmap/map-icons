@@ -1,8 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <symbol id="symbol-mosque" viewBox="60 60 120 120">
-            <path fill='#00ab00' d="M 4,60 C 11,75 60,107 84,73 C 103,40 76,22 50,7 C 76,6 130,35 103,84 C 72,124 8,97 4,60 z M 35,52 C 35,52 20,55 20,55 L 30,43 C 30,43 21,30 21,30 L 35,35 L 45,23 L 45,38 L 60,45 L 45,50 L 45,65 L 35,52 z"/>
-        </symbol>
-    </defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="514.40881"
+   id="svg378"
+   version="1.0"
+   width="535.08594"
+   x="0"
+   y="0"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="mosque.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien">
+  <sodipodi:namedview
+     inkscape:window-height="573"
+     inkscape:window-width="797"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.53198919"
+     inkscape:cx="531.495"
+     inkscape:cy="208.26209"
+     inkscape:window-x="303"
+     inkscape:window-y="288"
+     inkscape:current-layer="svg378" />
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Pakistan</dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li />
+            <rdf:li>asia</rdf:li>
+            <rdf:li>united_nations_member</rdf:li>
+            <rdf:li>flag</rdf:li>
+            <rdf:li>sign</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title>Lauris Kaplinski</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Lauris Kaplinski</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Lauris Kaplinski</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs380" />
+  <rect
+     height="708.66101"
+     id="rect403"
+     style="font-size:12px;fill:#ffffff;fill-rule:evenodd;stroke-width:1pt"
+     width="266.46799"
+     x="-390.36511"
+     y="-97.126106" />
+  <path
+     d="M 449.89309,202.64994 L 395.02612,191.10724 L 366.17251,239.18163 L 360.1944,183.43335 L 305.55612,170.84644 L 356.72972,147.93438 L 351.81566,92.081678 L 389.41975,133.66943 L 441.02044,111.73684 L 413.08886,160.35213 L 449.89309,202.64994 z "
+     id="path273"
+     style="font-size:12px;fill:#000000;fill-rule:evenodd;stroke-width:1pt" />
+  <path
+     d="M 470.58989,344.69092 C 421.87589,452.01492 294.04889,498.90292 186.41189,449.03692 C 78.775888,399.17192 31.888888,271.34392 81.754888,163.70792 C 107.18889,108.80792 148.81189,71.079917 207.56689,50.488917 C 200.80889,56.203917 194.12189,62.131917 186.79389,69.693917 C 110.89489,148.02192 112.86689,273.19192 191.19389,349.09092 C 269.52189,424.98992 394.69189,423.01892 470.58989,344.69092 z "
+     id="path278"
+     style="font-size:12px;fill:#000000;fill-rule:evenodd;stroke-width:1pt" />
 </svg>
