@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) --><svg height="84.000000px" id="svg1293" inkscape:version="0.41" sodipodi:docbase="/home/rileyp/Desktop/Nautical Flags SVG" sodipodi:docname="alpha.svg" sodipodi:version="0.32" width="84.000000px" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <metadata>
+    <rdf:RDF xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work rdf:about="">
+        <dc:title>international maritime signal flag alpha</dc:title>
+        <dc:description>From at least the time of the ancient Athenians, admirals have hoisted various flags as signals to other members of the fleet to take various actions. Originally, the flags were intended to convey a single message to all the ships of the fleet, often "come aboard the flagship for a conference" where the admiral could convey more detailed tactical directions.</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>signalflag</rdf:li>
+            <rdf:li>flag</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://www.openclipart.org/">
+            <dc:title>Phillip Riley</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>International Code of Signals</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Public Domain</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2005-06-23</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+        <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs3"/>
+  <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" gridspacingx="1.0000000px" gridspacingy="1.0000000px" gridtolerance="4.0000000px" id="base" inkscape:current-layer="layer1" inkscape:cx="42.000000" inkscape:cy="42.000000" inkscape:document-units="px" inkscape:grid-bbox="true" inkscape:grid-points="true" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="974" inkscape:window-width="1272" inkscape:window-x="0" inkscape:window-y="24" inkscape:zoom="9.5000000" pagecolor="#ffffff" showgrid="true"/>
+  <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
+    <image height="79.000000" id="image1574" sodipodi:absref="/home/rileyp/Desktop/Nautical Flags/a.gif" style="fill:#0000ff;fill-opacity:1.0000000;display:none" width="80.000000" x="0.0000000" xlink:href="/home/rileyp/Desktop/Nautical Flags/a.gif" y="0.0000000"/>
+    <image height="79.000000" id="image1642" sodipodi:absref="/home/rileyp/Desktop/Nautical Flags/a.gif" style="display:none" width="80.000000" x="0.0000000" xlink:href="/home/rileyp/Desktop/Nautical Flags/a.gif" y="0.0000000"/>
+    <g id="g1299">
+      <path d="M 1.9999996,1.9999999 L 1.8997490,81.699248 L 81.899749,81.699248 L 61.899749,41.699248 L 81.899749,1.6992480 L 1.9999996,1.9999999 z " id="path13169" style="fill:#ffffff;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:2.0000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"/>
+      <path d="M 41.899749,1.9999999 L 41.899749,81.699248 L 81.899749,81.699248 L 61.899749,41.699248 L 81.899749,1.6992480 L 41.899749,1.9999999 z " id="path13171" style="fill:#0000ff;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"/>
+      <path d="M 1.9999996,1.9999999 L 1.8997490,81.699248 L 81.899749,81.699248 L 61.899749,41.699248 L 82.000000,2.0000000 L 1.9999996,1.9999999 z " id="path2936" sodipodi:nodetypes="cccccc" style="fill:none;fill-opacity:0.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.0000000;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000"/>
+    </g>
+  </g>
+</svg>
