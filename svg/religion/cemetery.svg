@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://web.resource.org/cc/"
@@ -8,116 +8,108 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="31.51786"
-   height="41.237568"
-   id="svg2"
+   height="342.11221"
+   id="svg378"
+   version="1.0"
+   width="244.36586"
+   x="0"
+   y="0"
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
-   sodipodi:docbase="/home/tweety/svn.openstreetmap.org/applications/share/map-icons/svg/religion"
-   sodipodi:docname="cemetery.svg"
+   sodipodi:docname="cemetary.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   version="1.0">
-  <defs
-     id="defs4" />
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien">
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     gridtolerance="10000"
-     guidetolerance="10"
-     objecttolerance="10"
-     inkscape:pageopacity="0.0"
+     inkscape:window-height="573"
+     inkscape:window-width="797"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="16.870145"
-     inkscape:cy="24.50767"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     inkscape:window-width="978"
-     inkscape:window-height="856"
-     inkscape:window-x="413"
-     inkscape:window-y="38" />
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.53198919"
+     inkscape:cx="531.495"
+     inkscape:cy="208.26209"
+     inkscape:window-x="368"
+     inkscape:window-y="351"
+     inkscape:current-layer="svg378" />
   <metadata
-     id="metadata7">
+     id="metadata3">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
+        <dc:title></dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Ulf Lamping</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title></dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <cc:license
-           rdf:resource="http://creativecommons.org/licenses/LGPL/2.1/" />
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language></dc:language>
       </cc:Work>
       <cc:License
-         rdf:about="http://creativecommons.org/licenses/LGPL/2.1/">
+         rdf:about="http://web.resource.org/cc/PublicDomain">
         <cc:permits
            rdf:resource="http://web.resource.org/cc/Reproduction" />
         <cc:permits
            rdf:resource="http://web.resource.org/cc/Distribution" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/Notice" />
         <cc:permits
            rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/ShareAlike" />
-        <cc:requires
-           rdf:resource="http://web.resource.org/cc/SourceCode" />
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <defs
+     id="defs380" />
+  <rect
+     height="708.66101"
+     id="rect403"
+     style="font-size:12px;fill:#ffffff;fill-rule:evenodd;stroke-width:1pt"
+     width="266.46799"
+     x="-546.3833"
+     y="-190.47372" />
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-292.23234,-931.10088)">
+     id="g3136"
+     transform="matrix(1,0.1914894,0,1,-156.0182,-146.62018)">
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#f2ecec;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
-       id="rect2180"
-       width="13.321891"
-       height="3.231303"
-       x="292.29483"
-       y="935.74554" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:#f2ecec;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
-       id="rect2160"
-       width="2.8322647"
-       height="24.483139"
-       x="297.48636"
-       y="931.16339"
-       rx="0"
-       ry="0" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:#f2ecec;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
-       id="rect3163"
-       width="13.321891"
-       height="3.231303"
-       x="300.98071"
-       y="943.88367" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:#f2ecec;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
-       id="rect3161"
-       width="2.8322647"
-       height="24.483139"
-       x="306.17224"
-       y="939.30145"
-       rx="0"
-       ry="0" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:#f2ecec;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
-       id="rect3175"
-       width="13.321891"
-       height="3.231303"
-       x="310.36581"
-       y="952.375" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:#f2ecec;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:18;stroke-opacity:1"
-       id="rect3173"
-       width="2.8322647"
-       height="24.483139"
-       x="315.55734"
-       y="947.79279"
-       rx="0"
-       ry="0" />
+       y="208.01161"
+       x="189.85349"
+       height="178.57507"
+       width="176.69531"
+       id="rect2159"
+       style="fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       transform="matrix(0.9690722,0,0,1,4.0501558,37.594749)"
+       d="M 374.06775 167.59726 A 91.167267 76.129364 0 1 1  191.73322,167.59726 A 91.167267 76.129364 0 1 1  374.06775 167.59726 z"
+       sodipodi:ry="76.129364"
+       sodipodi:rx="91.167267"
+       sodipodi:cy="167.59726"
+       sodipodi:cx="282.90048"
+       id="path3132"
+       style="fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="arc" />
   </g>
 </svg>
