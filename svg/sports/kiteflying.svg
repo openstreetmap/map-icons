@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="436.71429"
+   height="332.60715"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   version="1.0"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl"
+   sodipodi:docname="kiteflying.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="StopS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopS"
+       style="overflow:visible">
+      <path
+         id="path3274"
+         d="M 0,5.65 L 0,-5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.2,0.2)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="208.99459"
+     inkscape:cy="163.66095"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1400"
+     inkscape:window-height="960"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Ulf Lamping</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-166.82143,-257.57647)">
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385.71428,258.07647 L 482.85714,492.36219 L 385.71428,446.6479 L 385.71428,258.07647 z "
+       id="path3136"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385.89286,258.25504 L 603.03571,589.68361 L 471.60714,486.82647 L 385.89286,258.25504 z "
+       id="path2164"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path3138"
+       d="M 385.71428,258.07647 L 288.57142,492.36219 L 385.71428,446.6479 L 385.71428,258.07647 z "
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path3142"
+       d="M 385.81081,257.92046 L 413.75456,459.87764 L 385.81081,447.14185 L 385.81081,257.92046 z "
+       style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.49858138px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.49858138px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385.56499,257.95203 L 357.74751,460.03548 L 385.56499,447.17342 L 385.56499,257.95203 z "
+       id="path3144"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       id="path3146"
+       d="M 385.66964,258.25504 L 167.32143,589.68361 L 298.75,487.83662 L 385.66964,258.25504 z "
+       style="fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;marker-start:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 508.16801,446.37789 L 385.75201,396.0787 L 262.30573,446.6278"
+       id="path3148"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.99770236;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 385.67166,395.57762 L 385.7824,259.82591"
+       id="path3150"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
