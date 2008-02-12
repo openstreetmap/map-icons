@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="559"
+   height="600"
+   viewBox="-69 -21 559 600"
+   id="svg2206"
+   xml:space="preserve"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="orthodox.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\religion\church"><metadata
+   id="metadata7"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><cc:license
+         rdf:resource="http://web.resource.org/cc/PublicDomain" /></cc:Work><cc:License
+       rdf:about="http://web.resource.org/cc/PublicDomain"><cc:permits
+         rdf:resource="http://web.resource.org/cc/Reproduction" /><cc:permits
+         rdf:resource="http://web.resource.org/cc/Distribution" /><cc:permits
+         rdf:resource="http://web.resource.org/cc/DerivativeWorks" /></cc:License></rdf:RDF></metadata><sodipodi:namedview
+   inkscape:window-height="573"
+   inkscape:window-width="797"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   guidetolerance="10.0"
+   gridtolerance="10.0"
+   objecttolerance="10.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   inkscape:zoom="0.62833333"
+   inkscape:cx="279.5"
+   inkscape:cy="300"
+   inkscape:window-x="22"
+   inkscape:window-y="29"
+   inkscape:current-layer="svg2206" /><defs
+   id="defs2212" />
+	<g
+   id="Layer_1">
+		<polygon
+   points="420,281 420,203 246,203 246,136 334,136 334,61 246,61 246,0 174,0 174,61 86,61 86,136 174,136 174,203 0,203 0,281 174,281 174,336.271 111,315.172 111,390.691 174,411.79 174,563 246,563 246,435.901 309,457 309,381.48 246,360.382 246,281 420,281 "
+   id="polygon2209" />
+	</g>
+</svg>
