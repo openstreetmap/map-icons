@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg1353"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   width="188"
+   height="188"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\misc"
+   sodipodi:docname="deprecated.svg"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata1358">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1356" />
+  <sodipodi:namedview
+     inkscape:window-height="960"
+     inkscape:window-width="1400"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="95.134022"
+     inkscape:cy="99.063238"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     inkscape:current-layer="svg1353" />
+  <rect
+     style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect4167"
+     width="188"
+     height="188"
+     x="0"
+     y="0" />
+  <text
+     xml:space="preserve"
+     style="font-size:119.90200806px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     x="141.75507"
+     y="99.083527"
+     id="text4171"><tspan
+       sodipodi:role="line"
+       id="tspan4173"
+       x="141.75507"
+       y="99.083527">!</tspan></text>
+  <g
+     id="g4287"
+     transform="matrix(0.2031296,0,0,0.2031296,4.6155197,37.615532)">
+    <circle
+       id="circle6"
+       style="fill:none;stroke:#cc0000;stroke-width:93.75"
+       r="290"
+       cy="362.5"
+       cx="362.5"
+       sodipodi:cx="362.5"
+       sodipodi:cy="362.5"
+       sodipodi:rx="290"
+       sodipodi:ry="290" />
+    <path
+       id="path2770"
+       style="fill:#cc0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 372.12936,407.61704 L 558.5298,515.33292 L 590.56227,455.34484 L 417.87814,355.17057 L 372.12936,407.61704 z " />
+    <path
+       id="path1883"
+       style="fill:#cc0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 166.58744,209.24794 L 426.33219,359.97799 L 392.44564,419.24834 L 133.71666,270.26552 L 166.58744,209.24794 z " />
+  </g>
+</svg>
