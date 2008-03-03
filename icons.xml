@@ -2191,7 +2191,7 @@
   <rule>
     <condition k="poi" v="people.friendsd"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>10000000</scale_max>
     <title lang="en">FRIENDSD</title>
     <title lang="de">FRIENDSD</title>
     <description lang="en">Other GpsDrive-Users currently online</description>
@@ -2205,7 +2205,7 @@
   <rule>
     <condition k="poi" v="people.friendsd.airplane"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>10000000</scale_max>
     <title lang="en">FRIENDSD Airplane</title>
     <title lang="de">FRIENDSD Flugzeug</title>
     <description lang="en">GPS-Drive User travelling by airplane</description>
@@ -2219,7 +2219,7 @@
   <rule>
     <condition k="poi" v="people.friendsd.bike"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>10000000</scale_max>
     <title lang="en">FRIENDSD Bike</title>
     <title lang="de">FRIENDSD Fahrrad</title>
     <description lang="en">GPS-Drive User travelling by bike</description>
@@ -2233,7 +2233,7 @@
   <rule>
     <condition k="poi" v="people.friendsd.boat"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>10000000</scale_max>
     <title lang="en">FRIENDSD Boat</title>
     <title lang="de">FRIENDSD Boot</title>
     <description lang="en">GPS-Drive User travelling by boat</description>
@@ -2247,7 +2247,7 @@
   <rule>
     <condition k="poi" v="people.friendsd.car"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>10000000</scale_max>
     <title lang="en">FRIENDSD Car</title>
     <title lang="de">FRIENDSD Auto</title>
     <description lang="en">GPS-Drive User travelling by car</description>
@@ -2261,7 +2261,7 @@
   <rule>
     <condition k="poi" v="people.friendsd.walk"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>10000000</scale_max>
     <title lang="en">FRIENDSD Walk</title>
     <title lang="de">FRIENDSD zu Fuß</title>
     <description lang="en">GPS-Drive User travelling on foot</description>
@@ -2721,19 +2721,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="places.settlement.part"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Part of Town</title>
-    <title lang="de">Stadtteil</title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>280</poi_type_id>
-      <name>places.settlement.part</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
     <condition k="poi" v="places.settlement.suburb"/>
     <condition k="place" v="suburb"/>
     <scale_min>1</scale_min>
@@ -2745,19 +2732,6 @@
     <geoinfo>
       <poi_type_id>404</poi_type_id>
       <name>places.settlement.settlement</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="places.settlement.suburb"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Suburb</title>
-    <title lang="de">Vorort</title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>295</poi_type_id>
-      <name>places.settlement.suburb</name>
     </geoinfo>
   </rule>
 
