@@ -3828,7 +3828,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering"/>
+    <condition k="rendering" v="rendering"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3836,7 +3836,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.beach"/>
+    <condition k="rendering" v="rendering.beach"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3844,7 +3844,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.rail_preserved"/>
+    <condition k="rendering" v="rendering.rail_preserved"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3852,7 +3852,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.motorway_shield"/>
+    <condition k="rendering" v="rendering.shield.motorway_shield"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3860,7 +3860,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.motorway_shield1"/>
+    <condition k="rendering" v="rendering.shield.motorway_shield1"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3868,7 +3868,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.motorway_shield2"/>
+    <condition k="rendering" v="rendering.shield.motorway_shield2"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3876,7 +3876,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.motorway_shield3"/>
+    <condition k="rendering" v="rendering.shield.motorway_shield3"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3884,7 +3884,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.motorway_shield4"/>
+    <condition k="rendering" v="rendering.shield.motorway_shield4"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3892,7 +3892,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.primary_shield1"/>
+    <condition k="rendering" v="rendering.shield.primary_shield1"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3900,7 +3900,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.primary_shield2"/>
+    <condition k="rendering" v="rendering.shield.primary_shield2"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3908,7 +3908,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.primary_shield3"/>
+    <condition k="rendering" v="rendering.shield.primary_shield3"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3916,7 +3916,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.primary_shield4"/>
+    <condition k="rendering" v="rendering.shield.primary_shield4"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3924,7 +3924,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.primary_shield5"/>
+    <condition k="rendering" v="rendering.shield.primary_shield5"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3932,7 +3932,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.secondary_shield1"/>
+    <condition k="rendering" v="rendering.shield.secondary_shield1"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3940,7 +3940,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.secondary_shield2"/>
+    <condition k="rendering" v="rendering.shield.secondary_shield2"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3948,7 +3948,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.secondary_shield3"/>
+    <condition k="rendering" v="rendering.shield.secondary_shield3"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3956,7 +3956,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.secondary_shield4"/>
+    <condition k="rendering" v="rendering.shield.secondary_shield4"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3964,7 +3964,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.secondary_shield5"/>
+    <condition k="rendering" v="rendering.shield.secondary_shield5"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3972,7 +3972,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.tertiary_shield1"/>
+    <condition k="rendering" v="rendering.shield.tertiary_shield1"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3980,7 +3980,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.tertiary_shield2"/>
+    <condition k="rendering" v="rendering.shield.tertiary_shield2"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3988,7 +3988,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.tertiary_shield3"/>
+    <condition k="rendering" v="rendering.shield.tertiary_shield3"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3996,7 +3996,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.tertiary_shield4"/>
+    <condition k="rendering" v="rendering.shield.tertiary_shield4"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4004,7 +4004,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.tertiary_shield5"/>
+    <condition k="rendering" v="rendering.shield.tertiary_shield5"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4012,7 +4012,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.trunk_shield1"/>
+    <condition k="rendering" v="rendering.shield.trunk_shield1"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4020,7 +4020,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.trunk_shield2"/>
+    <condition k="rendering" v="rendering.shield.trunk_shield2"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4028,7 +4028,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.trunk_shield3"/>
+    <condition k="rendering" v="rendering.shield.trunk_shield3"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4036,7 +4036,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.trunk_shield4"/>
+    <condition k="rendering" v="rendering.shield.trunk_shield4"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4044,7 +4044,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.shield.trunk_shield5"/>
+    <condition k="rendering" v="rendering.shield.trunk_shield5"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4052,7 +4052,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.station_small"/>
+    <condition k="rendering" v="rendering.station_small"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4060,7 +4060,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.track.arrow"/>
+    <condition k="rendering" v="rendering.track.arrow"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4068,7 +4068,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.track.arrow_back"/>
+    <condition k="rendering" v="rendering.track.arrow_back"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4076,7 +4076,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.track.mini_round"/>
+    <condition k="rendering" v="rendering.track.mini_round"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4084,7 +4084,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.track.rail"/>
+    <condition k="rendering" v="rendering.track.rail"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -4092,7 +4092,7 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="rendering.track.station_small"/>
+    <condition k="rendering" v="rendering.track.station_small"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>

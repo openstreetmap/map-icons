@@ -50,6 +50,7 @@ pod2usage( -exitval => '1',
 my $file_xml = './icons.xml';
 my %ICONS = ('','');
 my $i = 0;
+my $j = 0;
 my $default_scale_min = 1;
 my $default_scale_max = 100000;
 my $default_title_en = '';
@@ -115,15 +116,21 @@ sub update_xml
   #
   my @rule= $rules->children;	# get the updated rule list
 
-  $i = 0;
+  $i = $j = 0;
   foreach my $entry (@rule)
   {
     if  ($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
     {
       $i++;
     }
+    if  ($entry->last_child('condition')->{'att'}->{'k'} eq 'rendering')
+    {
+      $j++;
+    }
+
   }
-  print STDOUT "  POI-Types defined:\t$i\n";
+  print STDOUT "  Defined Points of Interest  :\t$i\n";
+  print STDOUT "  Defined Map Rendering Icons :\t$j\n";
 
   # Write XML-File containing modified contents
   #
@@ -138,7 +145,8 @@ sub update_xml
 sub entry_name($){
     my $entry = shift;
 
-    if ($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
+    if (($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
+      || ($entry->last_child('condition')->{'att'}->{'k'} eq 'rendering'))
     {
       return $entry->last_child('condition')->{'att'}->{'v'};
     }
@@ -147,7 +155,8 @@ sub entry_name($){
     foreach my $entry (sort {entry_name($a) cmp entry_name($b) } @rule)
      {
        my $name = 'unknown';
-       if ($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
+       if (($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
+         || ($entry->last_child('condition')->{'att'}->{'k'} eq 'rendering'))
        {
          $name = $entry->last_child('condition')->{'att'}->{'v'};
        }
@@ -177,7 +186,8 @@ sub entry_name($){
    {
      my( $twig, $condition)= @_;
 
-     if ($condition->{'att'}->{'k'} eq 'poi')
+     if (($condition->{'att'}->{'k'} eq 'poi')
+       || ($condition->{'att'}->{'k'} eq 'rendering'))
      {
        my $name = $condition->{'att'}->{'v'};
        if (exists $ICONS{$name}) 
@@ -203,7 +213,10 @@ sub insert_poi_type
   my $new_rule = new XML::Twig::Elt( 'rule');
  
   my $new_condition = new XML::Twig::Elt('condition');
-  $new_condition->set_att(k=>'poi');
+  if ($name =~ m/^rendering/)
+    { $new_condition->set_att(k=>'rendering'); }
+  else
+    { $new_condition->set_att(k=>'poi'); }
   $new_condition->set_att(v=>"$name");
   my $new_title_en = new XML::Twig::Elt('title',$default_title_en);
   $new_title_en->set_att(lang=>'en');
