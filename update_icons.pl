@@ -21,10 +21,6 @@
 #    <scale_max>$SCALE_MAX</scale_max>
 #    <title lang="$LANG">$TITLE</title>
 #    <description lang="$LANG">$DESCRIPTION</description>
-#    <geoinfo>
-#      <poi_type_id>$POI_TYPE_ID</poi_type_1id>
-#      <name>$NAME</name>
-#    </geoinfo>
 #  </rule>
 #
 #####################################################################
@@ -54,10 +50,8 @@ pod2usage( -exitval => '1',
 my $file_xml = './icons.xml';
 my %ICONS = ('','');
 my $i = 0;
-my $poi_reserved = 30;
-my $poi_type_id_base = $poi_reserved;
 my $default_scale_min = 1;
-my $default_scale_max = 50000;
+my $default_scale_max = 100000;
 my $default_title_en = '';
 my $default_desc_en = '';
 my $VERBOSE = $opt_v;
@@ -99,7 +93,7 @@ sub update_xml
       empty_tags => 'normal',
       comments => 'keep',
       TwigHandlers => { 
-	  geoinfo => \&sub_geoinfo # also deletes the entry from %ICONS
+	  condition => \&sub_condition # also deletes the entry from %ICONS
      }
     );
   $twig->parsefile( "$file_xml");	# build the twig
@@ -121,31 +115,15 @@ sub update_xml
   #
   my @rule= $rules->children;	# get the updated rule list
 
-  my @a_id;
   $i = 0;
-  my $id_max = 0;
   foreach my $entry (@rule)
   {
-    if  (my $id =
-         $entry->first_child('geoinfo')->first_child('poi_type_id')->text)
+    if  ($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
     {
       $i++;
-      $a_id[$i] = $id; # XXX besser mit push(@a_id,$id)? denn a_id[0] wird nie belegt?
-      $id_max = $id if $id >$id_max;
     }
   }
-  my %unused = ('','');
-  for ( my $k = 1; $k<$id_max; $k++ ) { $unused{$k}=$k; } 
   print STDOUT "  POI-Types defined:\t$i\n";
-  print STDOUT "  Max. poi_type_id:\t$id_max\n";
-  print STDOUT "  Unused IDs:\n  \t";
-  foreach (@a_id)
-  { 
-    if (defined($_) && exists $unused{$_}) { delete $unused{$_}; }
-  }
-  foreach (sort(keys(%unused)))
-    { print STDOUT "$_  " if ($_ > $poi_reserved) }
-  print STDOUT "\n\n";
 
   # Write XML-File containing modified contents
   #
@@ -159,12 +137,21 @@ sub update_xml
 
 sub entry_name($){
     my $entry = shift;
-    return $entry->first_child('geoinfo')->first_child('name')->text();
+
+    if ($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
+    {
+      return $entry->last_child('condition')->{'att'}->{'v'};
+    }
 }
 
     foreach my $entry (sort {entry_name($a) cmp entry_name($b) } @rule)
      {
-       my $name = $entry->first_child('geoinfo')->first_child('name')->text();
+       my $name = 'unknown';
+       if ($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
+       {
+         $name = $entry->last_child('condition')->{'att'}->{'v'};
+       }
+
        next if not($opt_i) && $name =~ m/^incomming/;
 
        $entry->print;
@@ -177,27 +164,27 @@ sub entry_name($){
   #
   #move("$file_xml","$file_xml.bak") or die (" Couldn't create backup file!");
   move("./icons.tmp","$file_xml") or die (" Couldn't remove temp file!");
-  print STDOUT " XML-File successfully updated!\n";
+  print STDOUT "\n XML-File successfully updated!\n";
 
   $twig->purge;
 
   return;
 
   # look, if POI-Type already exists in the file by checking for a
-  # known name inside the geoinfo tag. If true, kick it from the icons
+  # known name inside the condition tag. If true, kick it from the icons
   # hash, because it's not needed anymore.
-  sub sub_geoinfo
+  sub sub_condition
    {
-     my( $twig, $geoinfo)= @_;
-     my $poi_type_id = $geoinfo->first_child('poi_type_id')->text;
-     my $name = $geoinfo->first_child('name')->text;
+     my( $twig, $condition)= @_;
 
-     if (exists $ICONS{$name}) 
+     if ($condition->{'att'}->{'k'} eq 'poi')
      {
-       print STDOUT "  o  $poi_type_id\t\t$name\n" if $VERBOSE;
-       $poi_type_id_base = $poi_type_id 
-	   if ($poi_type_id > $poi_type_id_base);
-       delete $ICONS{"$name"};
+       my $name = $condition->{'att'}->{'v'};
+       if (exists $ICONS{$name}) 
+       {
+         print STDOUT "  o  \t$name\n" if $VERBOSE;
+         delete $ICONS{"$name"};
+       }
      }
    }
 }
@@ -214,7 +201,6 @@ sub insert_poi_type
   my $twig_root = shift(@_);
 
   my $new_rule = new XML::Twig::Elt( 'rule');
-  $poi_type_id_base++;
  
   my $new_condition = new XML::Twig::Elt('condition');
   $new_condition->set_att(k=>'poi');
@@ -225,12 +211,7 @@ sub insert_poi_type
   $new_desc_en->set_att(lang=>'en');
   my $new_scale_min = new XML::Twig::Elt('scale_min',$default_scale_min);
   my $new_scale_max = new XML::Twig::Elt('scale_max',$default_scale_max);
-  my $new_poi_type_id = new XML::Twig::Elt('poi_type_id',$poi_type_id_base);
-  my $new_name = new XML::Twig::Elt('name',$name);
 
-  $new_poi_type_id->paste('last_child',$new_rule);
-  $new_name->paste('last_child',$new_rule);
-  $new_rule->insert('geoinfo');
   $new_desc_en->paste('first_child',$new_rule);
   $new_title_en->paste('first_child',$new_rule);
   $new_scale_max->paste('first_child',$new_rule);
@@ -239,7 +220,7 @@ sub insert_poi_type
 
   $new_rule->paste('last_child',$$twig_root); 
 
-  print STDOUT "  +  $poi_type_id_base\t\t$name\n" if $VERBOSE;
+  print STDOUT "  +  \t$name\n" if $VERBOSE;
 }
 
 
@@ -288,7 +269,6 @@ sub create_xml
    my @poi_types = (
 
      { name => 'unknown',
-       poi_type_id => '1',
        scale_min => '1',
        scale_max => '50000',
        description_en => 'Unassigned POI',
@@ -297,7 +277,6 @@ sub create_xml
        title_de => 'Unbekannt',
      },
      { name => 'accommodation',
-       poi_type_id => '2',
        scale_min => '1',
        scale_max => '50000',
        description_en => 'Places to stay',
@@ -306,7 +285,6 @@ sub create_xml
        title_de => 'Unterkunft',
      },
      { name => 'education',
-       poi_type_id => '3',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Schools and other educational facilities',
@@ -315,7 +293,6 @@ sub create_xml
        title_de => 'Bildung',
      },
      { name => 'food',
-       poi_type_id => '4',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Restaurants, Bars, and so on...',
@@ -324,7 +301,6 @@ sub create_xml
        title_de => 'Speiselokal',
      },
      { name => 'geocache',
-       poi_type_id => '5',
        scale_min => '1',
        scale_max => '50000',
        description_en => 'Geocaches',
@@ -333,7 +309,6 @@ sub create_xml
        title_de => 'Geocache',
      },
      { name => 'health',
-       poi_type_id => '6',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Hospital, Doctor, Pharmacy, etc.',
@@ -342,7 +317,6 @@ sub create_xml
        title_de => 'Gesundheit',
      },
      { name => 'money',
-       poi_type_id => '7',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Bank, ATMs, and other money-related places',
@@ -351,7 +325,6 @@ sub create_xml
        title_de => 'Geld',
      },
      { name => 'nautical',
-       poi_type_id => '8',
        scale_min => '1',
        scale_max => '50000',
        description_en => 'Special aeronautical Points',
@@ -360,7 +333,6 @@ sub create_xml
        title_de => 'aeronautisch',
      },
      { name => 'people',
-       poi_type_id => '9',
        scale_min => '1',
        scale_max => '50000',
        description_en => 'Your home, work, friends, and other people',
@@ -369,7 +341,6 @@ sub create_xml
        title_de => 'Person',
      },
      { name => 'places',
-       poi_type_id => '10',
        scale_min => '10000',
        scale_max => '500000',
        description_en => 'Settlements, Mountains, and other geographical stuff',
@@ -378,7 +349,6 @@ sub create_xml
        title_de => 'Ort',
      },
      { name => 'public',
-       poi_type_id => '11',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Public facilities and Administration',
@@ -388,7 +358,6 @@ sub create_xml
        title_de => '&#214;ffentlich',
      },
      { name => 'recreation',
-       poi_type_id => '12',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Places used for recreation (no sports)',
@@ -397,7 +366,6 @@ sub create_xml
        title_de => 'Freizeit',
      },
      { name => 'religion',
-       poi_type_id => '13',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Places and facilities related to religion',
@@ -406,7 +374,6 @@ sub create_xml
        title_de => 'Religion',
      },
      { name => 'shopping',
-       poi_type_id => '14',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'All the places, where you can buy something',
@@ -415,7 +382,6 @@ sub create_xml
        title_de => 'Einkaufen',
      },
      { name => 'sightseeing',
-       poi_type_id => '15',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Historic places and other interesting buildings',
@@ -424,7 +390,6 @@ sub create_xml
        title_de => 'Sehensw&#252;rdigkeit',
      },
      { name => 'sports',
-       poi_type_id => '16',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Sports clubs, stadiums, and other sports facilities',
@@ -433,7 +398,6 @@ sub create_xml
        title_de => 'Sport',
      },
      { name => 'transport',
-       poi_type_id => '17',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Airports and public transportation',
@@ -442,7 +406,6 @@ sub create_xml
        title_de => '&#214;ffentliches Transportmittel',
      },
      { name => 'vehicle',
-       poi_type_id => '18',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'Facilites for drivers, like gas stations or parking places',
@@ -451,7 +414,6 @@ sub create_xml
        title_de => 'Fahrzeug',
      },
      { name => 'wlan',
-       poi_type_id => '19',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'WiFi-related points (Kismet)',
@@ -460,7 +422,6 @@ sub create_xml
        title_de => 'WLAN',
      },
      { name => 'misc',
-       poi_type_id => '20',
        scale_min => '1',
        scale_max => '25000',
        description_en => 'POIs not suitable for another category, and custom types',
@@ -469,7 +430,6 @@ sub create_xml
        title_de => 'Verschiedenes',
      },
      { name => 'waypoint',
-       poi_type_id => '21',
        scale_min => '1',
        scale_max => '50000',
        description_en => 'Waypoints, for example  to temporarily mark several places',
@@ -495,12 +455,8 @@ sub create_xml
        print"    <title lang=\"en\">$$_{'title_en'}</title>\n";
        print"    <description lang=\"de\">$$_{'description_de'}</description>\n";
        print"    <description lang=\"en\">$$_{'description_en'}</description>\n";
-       print"    <geoinfo>\n";
-       print"      <poi_type_id>$$_{'poi_type_id'}</poi_type_id>\n";
-       print"      <name>$$_{'name'}</name>\n";
-       print"    </geoinfo>\n";
        print"  </rule>\n\n";
-       print STDOUT "  +  $$_{'poi_type_id'}\t\t$$_{'name'}\n" if $VERBOSE;
+       print STDOUT "  +  \t$$_{'name'}\n" if $VERBOSE;
      }
    print "</rules>\n";
  
