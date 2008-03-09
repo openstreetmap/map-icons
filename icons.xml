@@ -2166,10 +2166,14 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>450</poi_type_id>
-      <name>misc.landmark.reservoir_covered</name>
-    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.landmark.cave"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Cave</title>
+    <description lang="en"></description>
   </rule>
 
   <rule>
@@ -2178,10 +2182,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>451</poi_type_id>
-      <name>misc.landmark.spring</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2190,10 +2190,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>452</poi_type_id>
-      <name>misc.landmark.survey_point</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2202,10 +2198,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Tower</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>164</poi_type_id>
-      <name>misc.landmark.tower</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2215,10 +2207,6 @@
     <title lang="en">Tree(s)</title>
     <title lang="de">Bäume</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>165</poi_type_id>
-      <name>misc.landmark.trees</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2227,10 +2215,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>580</poi_type_id>
-      <name>misc.landmark.wastewater_plant</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2240,10 +2224,6 @@
     <title lang="en">Water tower</title>
     <title lang="de">Wasserturm</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>455</poi_type_id>
-      <name>misc.landmark.water_tower</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2253,10 +2233,6 @@
     <title lang="en">Windmill</title>
     <title lang="de">Windmühle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>456</poi_type_id>
-      <name>misc.landmark.windmill</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2266,10 +2242,6 @@
     <title lang="en">Works</title>
     <title lang="de">Werk</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>457</poi_type_id>
-      <name>misc.landmark.works</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2278,10 +2250,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>98</poi_type_id>
-      <name>misc.lock_closed</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2290,10 +2258,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>99</poi_type_id>
-      <name>misc.lock_open</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2302,10 +2266,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>458</poi_type_id>
-      <name>misc.no_icon</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2315,10 +2275,6 @@
     <title lang="en">No Smoking</title>
     <title lang="de">Rauchverbot</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>100</poi_type_id>
-      <name>misc.no_smoking</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2335,10 +2291,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>101</poi_type_id>
-      <name>misc.tag_</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2348,10 +2300,6 @@
     <title lang="en">Water Dispenser</title>
     <title lang="de">Wasserspender</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>103</poi_type_id>
-      <name>misc.tap_drinking</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2362,10 +2310,6 @@
     <title lang="en">Money</title>
     <description lang="de">Banken, Geldautomaten, und ähnliches</description>
     <description lang="en">Bank, ATMs, and other money-related places</description>
-    <geoinfo>
-      <poi_type_id>7</poi_type_id>
-      <name>money</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2375,10 +2319,6 @@
     <title lang="en">ATM</title>
     <title lang="de">Geldautomat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>104</poi_type_id>
-      <name>money.atm</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2389,11 +2329,6 @@
     <title lang="de">Geldautomat - Cashgroup</title>
     <description lang="en"></description>
     <description lang="de">Commerzbank, Deutsche Bank, Dresdner Bank, Postbank, HypoVereinsbank</description>
-    <geoinfo>
-      <poi_type_id>105</poi_type_id>
-      <name>money.atm.cashgroup</name>
-      <restricted>brand</restricted>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2403,11 +2338,6 @@
     <title lang="en">Sparkasse ATM</title>
     <title lang="de">Geldautomat - Sparkasse</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>106</poi_type_id>
-      <name>money.atm.sparkasse</name>
-      <restricted>brand</restricted>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2417,10 +2347,6 @@
     <title lang="en">Bank</title>
     <title lang="de">Bank</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>107</poi_type_id>
-      <name>money.bank</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2429,11 +2355,7 @@
     <scale_max>50000</scale_max>
     <title lang="en">Deutsche Bank</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>108</poi_type_id>
-      <name>money.bank.deutsche_bank</name>
-      <restricted>brand</restricted>
-    </geoinfo>
+    <restricted>brand</restricted>
   </rule>
 
   <rule>
@@ -2442,11 +2364,7 @@
     <scale_max>50000</scale_max>
     <title lang="en">HypoVereinsBank</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>109</poi_type_id>
-      <name>money.bank.hvb</name>
-      <restricted>brand</restricted>
-    </geoinfo>
+    <restricted>brand</restricted>
   </rule>
 
   <rule>
@@ -2456,11 +2374,7 @@
     <title lang="en"></title>
     <title lang="de">Postbank</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>110</poi_type_id>
-      <name>money.bank.postbank</name>
-      <restricted>brand</restricted>
-    </geoinfo>
+    <restricted>brand</restricted>
   </rule>
 
   <rule>
@@ -2470,11 +2384,7 @@
     <title lang="en"></title>
     <title lang="de">Sparkasse</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>112</poi_type_id>
-      <name>money.bank.sparkasse</name>
-      <restricted>brand</restricted>
-    </geoinfo>
+    <restricted>brand</restricted>
   </rule>
 
   <rule>
@@ -2484,11 +2394,7 @@
     <title lang="en"></title>
     <title lang="de">Volksbank/Raiffeisenbank</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>111</poi_type_id>
-      <name>money.bank.vr-bank</name>
-      <restricted>brand</restricted>
-    </geoinfo>
+    <restricted>brand</restricted>
   </rule>
 
   <rule>
@@ -2498,10 +2404,6 @@
     <title lang="en">Money Exchange</title>
     <title lang="de">Geldwechsel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>113</poi_type_id>
-      <name>money.exchange</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2512,10 +2414,6 @@
     <title lang="en">aeronautical</title>
     <description lang="de">Spezielle aeronautische Punkte</description>
     <description lang="en">Special aeronautical Points</description>
-    <geoinfo>
-      <poi_type_id>8</poi_type_id>
-      <name>nautical</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2524,10 +2422,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>114</poi_type_id>
-      <name>nautical.alpha_flag</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2537,10 +2431,6 @@
     <title lang="en">Anchor</title>
     <title lang="de">Anker</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>115</poi_type_id>
-      <name>nautical.anchor</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2549,10 +2439,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>233</poi_type_id>
-      <name>nautical.aqueduct</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2561,10 +2447,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Boat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>116</poi_type_id>
-      <name>nautical.boat</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2573,10 +2455,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>235</poi_type_id>
-      <name>nautical.boatyard</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2586,10 +2464,6 @@
     <title lang="en">Diver</title>
     <title lang="de">Taucher</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>117</poi_type_id>
-      <name>nautical.dive_flag</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2598,10 +2472,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>398</poi_type_id>
-      <name>nautical.lock_gate</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2610,10 +2480,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>403</poi_type_id>
-      <name>nautical.marina</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2622,10 +2488,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>430</poi_type_id>
-      <name>nautical.slipway</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2634,10 +2496,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>431</poi_type_id>
-      <name>nautical.turning</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2646,10 +2504,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>432</poi_type_id>
-      <name>nautical.weir</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2660,10 +2514,6 @@
     <title lang="en">People</title>
     <description lang="de">Dein Zuhause, die Arbeitsstelle, Freunde, und andere Personen</description>
     <description lang="en">Your home, work, friends, and other people</description>
-    <geoinfo>
-      <poi_type_id>9</poi_type_id>
-      <name>people</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2673,10 +2523,6 @@
     <title lang="en">Boy</title>
     <title lang="de">Mann</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>118</poi_type_id>
-      <name>people.boy</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2686,10 +2532,6 @@
     <title lang="en">Developer</title>
     <title lang="de">Entwickler</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>396</poi_type_id>
-      <name>people.developer</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2699,10 +2541,6 @@
     <title lang="en">GPSDrive Developer</title>
     <title lang="de">GPSDrive Entwickler</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>122</poi_type_id>
-      <name>people.developer.gpsdrive</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2712,10 +2550,6 @@
     <title lang="en">OSM Developer</title>
     <title lang="de">OSM Entwickler</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>397</poi_type_id>
-      <name>people.developer.openstreetmap</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2725,10 +2559,6 @@
     <title lang="en">friend</title>
     <title lang="de">Freund</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>119</poi_type_id>
-      <name>people.friends</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2739,10 +2569,6 @@
     <title lang="de">FRIENDSD</title>
     <description lang="en">Other GpsDrive-Users currently online</description>
     <description lang="de">Andere GpsDrive-Benutzer, die gerade online sind</description>
-    <geoinfo>
-      <poi_type_id>120</poi_type_id>
-      <name>people.friendsd</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2753,10 +2579,6 @@
     <title lang="de">FRIENDSD Flugzeug</title>
     <description lang="en">GPS-Drive User travelling by airplane</description>
     <description lang="de">GPS-Drive Benutzer unterwegs mit einem Flugzeug</description>
-    <geoinfo>
-      <poi_type_id>421</poi_type_id>
-      <name>people.friendsd.airplane</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2767,10 +2589,6 @@
     <title lang="de">FRIENDSD Fahrrad</title>
     <description lang="en">GPS-Drive User travelling by bike</description>
     <description lang="de">GPS-Drive Benutzer unterwegs mit einem Fahrrad</description>
-    <geoinfo>
-      <poi_type_id>422</poi_type_id>
-      <name>people.friendsd.bike</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2781,10 +2599,6 @@
     <title lang="de">FRIENDSD Boot</title>
     <description lang="en">GPS-Drive User travelling by boat</description>
     <description lang="de">GPS-Drive Benutzer unterwegs mit einem Boot</description>
-    <geoinfo>
-      <poi_type_id>423</poi_type_id>
-      <name>people.friendsd.boat</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2795,10 +2609,6 @@
     <title lang="de">FRIENDSD Auto</title>
     <description lang="en">GPS-Drive User travelling by car</description>
     <description lang="de">GPS-Drive Benutzer unterwegs mit einem Auto</description>
-    <geoinfo>
-      <poi_type_id>424</poi_type_id>
-      <name>people.friendsd.car</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2809,10 +2619,6 @@
     <title lang="de">FRIENDSD zu Fuß</title>
     <description lang="en">GPS-Drive User travelling on foot</description>
     <description lang="de">GPS-Drive Benutzer zu Fuß unterwegs</description>
-    <geoinfo>
-      <poi_type_id>425</poi_type_id>
-      <name>people.friendsd.walk</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2822,10 +2628,6 @@
     <title lang="en">Girl</title>
     <title lang="de">Frau</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>121</poi_type_id>
-      <name>people.girl</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2835,10 +2637,6 @@
     <title lang="en">My Home</title>
     <title lang="de">Mein Zuhause</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>123</poi_type_id>
-      <name>people.home</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3260,6 +3058,15 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="public.administration.embassy"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Embassy</title>
+    <title lang="de">Botschaft</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="poi" v="public.administration.court_of_law"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -3538,18 +3345,6 @@
     <geoinfo>
       <poi_type_id>335</poi_type_id>
       <name>recreation.garden</name>
-    </geoinfo>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="recreation.museum"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>393</poi_type_id>
-      <name>recreation.museum</name>
     </geoinfo>
   </rule>
 
@@ -5289,12 +5084,8 @@
     <condition k="poi" v="sightseeing.museum"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Museum</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>471</poi_type_id>
-      <name>sightseeing.museum</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5325,23 +5116,27 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="sports.basketball"/>
+    <condition k="poi" v="sports.baseball"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Baseball</title>
     <description lang="en"></description>
   </rule>
 
   <rule>
-    <condition k="poi" v="sports.bicycle"/>
+    <condition k="poi" v="sports.basketball"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <scale_max>100000</scale_max>
+    <title lang="en">Basketball</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>473</poi_type_id>
-      <name>sports.bicycle</name>
-    </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.bowling"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en">Bowling</title>
+    <description lang="en"></description>
   </rule>
 
   <rule>
@@ -5362,10 +5157,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>475</poi_type_id>
-      <name>sports.cycling</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5524,6 +5315,110 @@
       <poi_type_id>241</poi_type_id>
       <name>sports.soccer</name>
     </geoinfo>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.climbing"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Climbing</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.cricket"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Cricket</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.polo"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Polo</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.skating"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Skating</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.sailing"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Sailing</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.hockey"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Hockey</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.motor"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Motor Sports</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.gymnastics"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Gymnastics</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.rugby"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Rugby</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.skate_park"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Skate Park</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.volleyball"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Volleyball</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.table_tennis"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Table Tennis</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.squash"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Squash</title>
+    <description lang="en"></description>
   </rule>
 
   <rule>
