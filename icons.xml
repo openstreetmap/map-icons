@@ -134,8 +134,8 @@
   <rule>
     <condition k="poi" v="places.settlement.city"/>
     <condition k="place" v="city"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_min>10000</scale_min>
+    <scale_max>750000</scale_max>
     <title lang="en">City</title>
     <title lang="de">Größere Stadt</title>
     <description lang="en">Settlement from 25000 up to 200000 inhabitants</description>
@@ -151,7 +151,7 @@
     <condition k="class" v="hamlet"/>
     <condition k="place" v="hamlet"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>100000</scale_max>
     <title lang="en">Hamlet</title>
     <title lang="de">Weiler</title>
     <description lang="en">very small settlements, which are not even a village</description>
@@ -166,7 +166,7 @@
     <condition k="poi" v="places.settlement.suburb"/>
     <condition k="place" v="suburb"/>
     <scale_min>1</scale_min>
-    <scale_max>5000</scale_max>
+    <scale_max>20000</scale_max>
     <title lang="en">Suburb</title>
     <title lang="de">Stadteil</title>
     <description lang="en">Area inside a Settlement</description>
@@ -181,7 +181,7 @@
     <condition k="poi" v="places.settlement.town"/>
     <condition k="place" v="town"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>300000</scale_max>
     <title lang="en">Town</title>
     <title lang="de">Kleinstadt</title>
     <description lang="en">Settlement with up to 25000 inhabitants</description>
@@ -197,7 +197,7 @@
     <condition k="place" v="village"/>
     <condition k="class" v="village"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>200000</scale_max>
     <title lang="en">Village</title>
     <title lang="de">Dorf</title>
     <description lang="en">Settlement with less than 2000 inhabitants</description>
@@ -3006,7 +3006,7 @@
   <rule>
     <condition k="poi" v="places.settlement"/>
     <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_max>1000000</scale_max>
     <title lang="en">Settlement</title>
     <title lang="de">Siedlung</title>
     <description lang="en"></description>
@@ -3018,8 +3018,8 @@
 
   <rule>
     <condition k="poi" v="places.settlement.capital"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
+    <scale_min>100000</scale_min>
+    <scale_max>10000000</scale_max>
     <title lang="en">Capital</title>
     <title lang="de">Großstadt</title>
     <description lang="en">Settlement with more than 200000 inhabitants</description>
