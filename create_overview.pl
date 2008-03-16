@@ -296,14 +296,22 @@ sub update_overview($$){
     for my $rule (@{$rules}) {
 	#print Dumper(\$rule);
 	my $content = '';
-	my $id = $rule->{'geoinfo'}->{'poi_type_id'};
-	my $nm = $rule->{'geoinfo'}->{'name'};
+	my $names = $rule->{'condition'};
+	my ($name) = grep { $_->{k} =~ /^poi|rendering$/ } @{$names};
+	$name = $name->{v};
+	my $id = $name;
+	print "name: '$name'\n" if $VERBOSE;
+	if ( ! $name ) {
+	    warn "Undefined Name\n";
+	    warn Dumper(\$rule);
+	    next;
+	}
 	my $restricted = $rule->{'geoinfo'}->{'restricted'};
 
-	if ( $ID_SEEN->{$id} ){
-	    die "$id was already seen at $ID_SEEN->{$id}. Here in $nm\n";
+	if ( $id && defined($ID_SEEN->{$id}) && "$ID_SEEN->{$id}" ){
+	    die "$id was already seen at $ID_SEEN->{$id}. Here in $name\n";
 	};
-	$ID_SEEN->{$id}=$nm;
+	$ID_SEEN->{$id}=$name;
 
 	if ( $restricted && not $opt_r ){
 	    next;
@@ -329,27 +337,27 @@ sub update_overview($$){
 	    $conditions .= "$c->{k}=$c->{v}<br>";
 	}
 
-	my $icon = $nm;
-	my $ind = $nm;
+	my $icon = $name;
+	my $ind = $name;
 
 	# accentuate base categories
 	my $header_line=0;
-	if ($id <= $poi_reserved || ( $icon !~ m,\.,) )	{
+	if ($id !~ m/\./ || ( $icon !~ m,\.,) )	{
 	    $content .= "  <tr><td>&nbsp;</td></tr>\n";
 	    $content .=     all_type_header();
 	    $content .= "  <tr class=\"id\">\n";
 	    $content .= "     <td class=\"id\">$id</td>\n" if $opt_j;
-	    $content .= "     <td>&nbsp;<a name=\"$nm\">$nm</a></td>\n";
+	    $content .= "     <td>&nbsp;<a name=\"$name\">$name</a></td>\n";
 	    $header_line++;
 	} else {
 	    my $level = ($icon =~ tr,\.,/,);
 	    my $html_space = '';
 	    while ($level)
 	    { $html_space .='&nbsp;&nbsp;&nbsp;&nbsp;&rsaquo;&nbsp;'; $level--; };
-	    $nm =~ s,.*\.,,g;
+	    $name =~ s,.*\.,,g;
 	    $content .= "<tr>\n";
 	    $content .= "    <td class=\"id\">$id</td>" if $opt_j;
-	    $content .= "    <td>&nbsp;$html_space$nm</td>\n";
+	    $content .= "    <td>&nbsp;$html_space$name</td>\n";
 	}
 
 	# Add filename+path column
@@ -427,7 +435,7 @@ sub update_overview($$){
 	    } else {
 		if ( -s "$base_dir/$icon_path_current" ){
 		    $content .= "     <a href=\"$icon_path_current\" >";
-		    $content .= "         <img title=\"$nm\" src=\"$icon_path_current\" class=\"$class\" alt=\"$nm\" />";
+		    $content .= "         <img title=\"$name\" src=\"$icon_path_current\" class=\"$class\" alt=\"$name\" />";
 		    $content .= "</a>";
 		}
 	    }
