@@ -10,10 +10,6 @@
     <title lang="de">Herberge</title>
     <description lang="en">Hostel is something between a Hotel and a
     youth Hostel</description>
-    <geoinfo>
-      <poi_type_id>405</poi_type_id>
-      <name>accommodation.hostel</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -24,10 +20,6 @@
     <title lang="de">Hotel</title>
     <title lang="en">Hotel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>32</poi_type_id>
-      <name>accommodation.hotel</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -38,10 +30,6 @@
     <title lang="en">School</title>
     <title lang="de">Schule</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>41</poi_type_id>
-      <name>education.school</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -52,10 +40,6 @@
     <title lang="en">Icecream</title>
     <title lang="de">Eisdiele</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>57</poi_type_id>
-      <name>food.icecream</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -67,10 +51,6 @@
     <title lang="en">Pub</title>
     <title lang="de">Kneipe</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>60</poi_type_id>
-      <name>food.pub</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -82,10 +62,6 @@
     <title lang="en">Restaurant</title>
     <title lang="de">Restaurant</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>61</poi_type_id>
-      <name>food.restaurant</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -96,10 +72,6 @@
     <title lang="en">Hospital</title>
     <title lang="de">Krankenhaus</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>87</poi_type_id>
-      <name>health.hospital</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -110,10 +82,6 @@
     <title lang="en">Pharmacy</title>
     <title lang="de">Apotheke</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>89</poi_type_id>
-      <name>health.pharmacy</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -125,10 +93,6 @@
     <title lang="en">Peak</title>
     <title lang="de">Gipfel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>159</poi_type_id>
-      <name>misc.landmark.peak</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -140,10 +104,6 @@
     <title lang="de">Größere Stadt</title>
     <description lang="en">Settlement from 25000 up to 200000 inhabitants</description>
     <description lang="de">Siedlung mit 25.000 bis 200.000 Einwohnern</description>
-    <geoinfo>
-      <poi_type_id>155</poi_type_id>
-      <name>places.settlement.city</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -156,10 +116,6 @@
     <title lang="de">Weiler</title>
     <description lang="en">very small settlements, which are not even a village</description>
     <description lang="de">sehr kleine Ansiedlungen, die noch kein Dorf sind</description>
-    <geoinfo>
-      <poi_type_id>156</poi_type_id>
-      <name>places.settlement.hamlet</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -171,10 +127,6 @@
     <title lang="de">Stadteil</title>
     <description lang="en">Area inside a Settlement</description>
     <description lang="de">Gebiet in einer Stadt</description>
-    <geoinfo>
-      <poi_type_id>404</poi_type_id>
-      <name>places.settlement.settlement</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -186,10 +138,6 @@
     <title lang="de">Kleinstadt</title>
     <description lang="en">Settlement with up to 25000 inhabitants</description>
     <description lang="de">Siedlung mit bis zu 25.000 Einwohnern </description>
-    <geoinfo>
-      <poi_type_id>157</poi_type_id>
-      <name>places.settlement.town</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -202,10 +150,6 @@
     <title lang="de">Dorf</title>
     <description lang="en">Settlement with less than 2000 inhabitants</description>
     <description lang="de">Siedlung mit weniger als 2.000 Einwohnern</description>
-    <geoinfo>
-      <poi_type_id>158</poi_type_id>
-      <name>places.settlement.village</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -216,10 +160,6 @@
     <title lang="en">Firebrigade</title>
     <title lang="de">Feuerwehr</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>170</poi_type_id>
-      <name>public.firebrigade</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -231,10 +171,6 @@
     <title lang="en">Police Station</title>
     <title lang="de">Polizeirevier</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>171</poi_type_id>
-      <name>public.police</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -245,10 +181,6 @@
     <title lang="en">Post Box</title>
     <title lang="de">Briefkasten</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>172</poi_type_id>
-      <name>public.post_box</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -259,10 +191,6 @@
     <title lang="en">Post Office</title>
     <title lang="de">Postamt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>173</poi_type_id>
-      <name>public.post_office</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -272,10 +200,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Recycling</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>174</poi_type_id>
-      <name>public.recycling</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -287,10 +211,6 @@
     <title lang="en">Public Phone</title>
     <title lang="de">Öffentliches Telefon</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>175</poi_type_id>
-      <name>public.telephone</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -301,10 +221,6 @@
     <title lang="en">Toilets</title>
     <title lang="de">Toilette</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>176</poi_type_id>
-      <name>public.toilets</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -315,10 +231,6 @@
     <title lang="en">Cinema</title>
     <title lang="de">Kino</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>179</poi_type_id>
-      <name>recreation.cinema</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -330,10 +242,6 @@
     <title lang="en">Playground</title>
     <title lang="de">Spielplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>183</poi_type_id>
-      <name>recreation.playground</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -345,10 +253,6 @@
     <title lang="en">Church</title>
     <title lang="de">Kirche</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>186</poi_type_id>
-      <name>religion.church</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -360,10 +264,6 @@
     <title lang="en">Catholic Church</title>
     <title lang="de">Katholische Kirche</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>187</poi_type_id>
-      <name>religion.church.catholic</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -374,10 +274,6 @@
     <title lang="en">Bakery</title>
     <title lang="de">Bäckerei</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>205</poi_type_id>
-      <name>shopping.groceries.bakery</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -387,10 +283,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>369</poi_type_id>
-      <name>shopping.rental.library</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -401,10 +293,6 @@
     <title lang="en">Supermarket</title>
     <title lang="de">Supermarkt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>219</poi_type_id>
-      <name>shopping.supermarket</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -418,10 +306,6 @@
     <title lang="en">Sightseeing</title>
     <description lang="de">Historische Orte und andere interessante Bauwerke</description>
     <description lang="en">Historic places and other interesting buildings</description>
-    <geoinfo>
-      <poi_type_id>15</poi_type_id>
-      <name>sightseeing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -432,10 +316,6 @@
     <title lang="en">Castle</title>
     <title lang="de">Burg</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>215</poi_type_id>
-      <name>sightseeing.castle</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -445,10 +325,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Monument</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>395</poi_type_id>
-      <name>sightseeing.monument</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -460,10 +336,6 @@
     <title lang="en">Viewpoint</title>
     <title lang="de">Aussichtspunkt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>237</poi_type_id>
-      <name>sightseeing.viewpoint</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -474,10 +346,6 @@
     <title lang="en">Golf course</title>
     <title lang="de">Golfplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>238</poi_type_id>
-      <name>sports.golf</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -486,10 +354,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>486</poi_type_id>
-      <name>sports.track</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -502,10 +366,6 @@
     <title lang="en">Bridge</title>
     <title lang="de">Brücke</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>244</poi_type_id>
-      <name>transport.bridge</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -514,10 +374,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>535</poi_type_id>
-      <name>transport.track</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -526,10 +382,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>536</poi_type_id>
-      <name>transport.track.arrow</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -538,10 +390,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>537</poi_type_id>
-      <name>transport.track.arrow_back</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -550,10 +398,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>538</poi_type_id>
-      <name>transport.track.rail</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -564,10 +408,6 @@
     <title lang="en">Caution</title>
     <title lang="de">Gefahrenstelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>267</poi_type_id>
-      <name>vehicle.caution</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -578,10 +418,6 @@
     <title lang="en">Fuel Station</title>
     <title lang="de">Tankstelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>271</poi_type_id>
-      <name>vehicle.fuel_station</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -593,10 +429,6 @@
     <title lang="en">Parking</title>
     <title lang="de">Parkplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>282</poi_type_id>
-      <name>vehicle.parking</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -605,10 +437,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>539</poi_type_id>
-      <name>vehicle.shield.motorway_shield</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -617,10 +445,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>540</poi_type_id>
-      <name>vehicle.shield.motorway_shield2</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -629,10 +453,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>541</poi_type_id>
-      <name>vehicle.shield.motorway_shield3</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -644,10 +464,6 @@
     <title lang="en">Waypoint</title>
     <description lang="de">Wegpunkte, um z.B. temporäre Punkte zu markieren</description>
     <description lang="en">Waypoints, for example to temporarily mark several places</description>
-    <geoinfo>
-      <poi_type_id>21</poi_type_id>
-      <name>waypoint</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -658,10 +474,6 @@
     <title lang="en">Accommodation</title>
     <description lang="de">Hotels, Jugendherbergen, Campingplätze</description>
     <description lang="en">Places to stay</description>
-    <geoinfo>
-      <poi_type_id>2</poi_type_id>
-      <name>accommodation</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -671,10 +483,6 @@
     <title lang="en">Camping Site</title>
     <title lang="de">Campingplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>31</poi_type_id>
-      <name>accommodation.camping</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -683,10 +491,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>426</poi_type_id>
-      <name>accommodation.camping.caravan</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -695,10 +499,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>322</poi_type_id>
-      <name>accommodation.camping.dump-station</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -707,10 +507,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>323</poi_type_id>
-      <name>accommodation.camping.gas-refill</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -719,10 +515,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>324</poi_type_id>
-      <name>accommodation.camping.hookup</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -731,10 +523,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>427</poi_type_id>
-      <name>accommodation.camping.trash</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -743,10 +531,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>428</poi_type_id>
-      <name>accommodation.camping.wastewater</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -756,10 +540,6 @@
     <title lang="en">Water Tap</title>
     <title lang="de">Trinkwasser</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>102</poi_type_id>
-      <name>accommodation.camping.water</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -770,10 +550,6 @@
     <title lang="de">Chalet</title>
     <description lang="en">Leisure residence</description>
     <description lang="de">Ferienhaus</description>
-    <geoinfo>
-      <poi_type_id>576</poi_type_id>
-      <name>accommodation.chalet</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -782,10 +558,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>582</poi_type_id>
-      <name>accommodation.guest_house</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -795,10 +567,6 @@
     <title lang="en">Five-Star Hotel </title>
     <title lang="de">Fünf-Sterne-Hotel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>33</poi_type_id>
-      <name>accommodation.hotel.five_star</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -808,10 +576,6 @@
     <title lang="en">Four-Star Hotel</title>
     <title lang="de">Vier-Sterne-Hotel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>34</poi_type_id>
-      <name>accommodation.hotel.four_star</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -822,10 +586,6 @@
     <description lang="en">Very rarely seen in real life</description>
     <title lang="de">Ein-Stern-Hotel</title>
     <description lang="de">Kommt in der Realität sehr selten vor</description>
-    <geoinfo>
-      <poi_type_id>522</poi_type_id>
-      <name>accommodation.hotel.one_star</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -835,10 +595,6 @@
     <title lang="en">Three-Star Hotel</title>
     <title lang="de">Drei-Sterne-Hotel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>35</poi_type_id>
-      <name>accommodation.hotel.three_star</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -848,10 +604,6 @@
     <title lang="en">Two-Star Hotel</title>
     <title lang="de">Zwei-Sterne-Hotel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>36</poi_type_id>
-      <name>accommodation.hotel.two_star</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -860,10 +612,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>429</poi_type_id>
-      <name>accommodation.motel</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -872,10 +620,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>558</poi_type_id>
-      <name>accommodation.shelter</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -884,10 +628,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>559</poi_type_id>
-      <name>accommodation.shelter-bw</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -898,8 +638,6 @@
     <title lang="de">Jugendherberge</title>
     <description lang="en">Youth Hostel</description>
     <geoinfo>
-      <poi_type_id>37</poi_type_id>
-      <name>accommodation.youth-hostel</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -912,10 +650,6 @@
     <title lang="en">Education</title>
     <description lang="de">Schulen und andere Bildungseinrichtungen</description>
     <description lang="en">Schools and other educational facilities</description>
-    <geoinfo>
-      <poi_type_id>3</poi_type_id>
-      <name>education</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -926,10 +660,6 @@
     <title lang="de">Erwachsenenbildung</title>
     <description lang="en"></description>
     <description lang="de">Volkshochschulen, Abendkurse, usw.</description>
-    <geoinfo>
-      <poi_type_id>38</poi_type_id>
-      <name>education.adult</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -938,10 +668,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>151</poi_type_id>
-      <name>education.college</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -951,10 +677,6 @@
     <title lang="en">Day Nursery</title>
     <title lang="de">Kinderhort</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>39</poi_type_id>
-      <name>education.day_nursery</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -964,10 +686,6 @@
     <title lang="en">Kindergarden</title>
     <title lang="de">Kindergarten</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>40</poi_type_id>
-      <name>education.kindergarden</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -977,10 +695,6 @@
     <title lang="en">Highschool</title>
     <title lang="de">Gymnasium</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>42</poi_type_id>
-      <name>education.school.highschool</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -989,10 +703,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>160</poi_type_id>
-      <name>education.school.junior_high</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1002,10 +712,6 @@
     <title lang="en">Primary School</title>
     <title lang="de">Grundschule</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>43</poi_type_id>
-      <name>education.school.primary</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1015,10 +721,6 @@
     <title lang="en">Secondary School</title>
     <title lang="de">Hauptschule/Realschule</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>44</poi_type_id>
-      <name>education.school.secondary</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1028,10 +730,6 @@
     <title lang="en">Vocational School</title>
     <title lang="de">Berufsschule</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>45</poi_type_id>
-      <name>education.school.vocational</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1041,10 +739,6 @@
     <title lang="en">University</title>
     <title lang="de">Universität</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>46</poi_type_id>
-      <name>education.university</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1055,10 +749,6 @@
     <title lang="en">Food</title>
     <description lang="de">Restaurants, Bars, usw.</description>
     <description lang="en">Restaurants, Bars, and so on...</description>
-    <geoinfo>
-      <poi_type_id>4</poi_type_id>
-      <name>food</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1067,10 +757,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>47</poi_type_id>
-      <name>food.bacon_and_eggs</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1080,10 +766,6 @@
     <title lang="en">Bar</title>
     <title lang="de">Bar</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>48</poi_type_id>
-      <name>food.bar</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1093,10 +775,6 @@
     <title lang="en">Beergarden</title>
     <title lang="de">Biergarten</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>49</poi_type_id>
-      <name>food.biergarten</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1106,10 +784,6 @@
     <title lang="en">Cafe</title>
     <title lang="de">Cafe</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>50</poi_type_id>
-      <name>food.cafe</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1119,10 +793,6 @@
     <title lang="en">Canteen</title>
     <title lang="de">Kantine</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>56</poi_type_id>
-      <name>food.canteen</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1132,10 +802,6 @@
     <title lang="en">Fastfood</title>
     <title lang="de">Schnellrestaurant</title>
     <description lang="en">Fastfood-Restaurant</description>
-    <geoinfo>
-      <poi_type_id>51</poi_type_id>
-      <name>food.fastfood</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1146,8 +812,6 @@
     <title lang="de">Burger King</title>
     <description lang="en">Burger King Restaurant</description>
     <geoinfo>
-      <poi_type_id>52</poi_type_id>
-      <name>food.fastfood.burger-king</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -1160,8 +824,6 @@
     <title lang="de">Kentucky Fried Chicken</title>
     <description lang="en">Kentucky Fried Chicken Restaurant</description>
     <geoinfo>
-      <poi_type_id>53</poi_type_id>
-      <name>food.fastfood.kfc</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -1174,8 +836,6 @@
     <title lang="de">McDonalds</title>
     <description lang="en">McDonalds Restaurant</description>
     <geoinfo>
-      <poi_type_id>54</poi_type_id>
-      <name>food.fastfood.mc-donalds</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -1188,8 +848,6 @@
     <title lang="de">Subway</title>
     <description lang="en">Subway Sandwich Restaurant</description>
     <geoinfo>
-      <poi_type_id>55</poi_type_id>
-      <name>food.fastfood.subway</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -1201,10 +859,6 @@
     <title lang="en"></title>
     <title lang="de">Automat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>69</poi_type_id>
-      <name>food.machine</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1214,10 +868,6 @@
     <title lang="en"></title>
     <title lang="de">Getränkeautomat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>70</poi_type_id>
-      <name>food.machine.beverages</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1226,10 +876,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>71</poi_type_id>
-      <name>food.machine.snacks</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1240,8 +886,6 @@
     <title lang="de">Pizzahut</title>
     <description lang="en">Pizzahut Restaurant</description>
     <geoinfo>
-      <poi_type_id>58</poi_type_id>
-      <name>food.pizzahut</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -1252,10 +896,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>59</poi_type_id>
-      <name>food.prezel</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1265,10 +905,6 @@
     <title lang="en">Chinese Restaurant</title>
     <title lang="de">Chinesisch</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>62</poi_type_id>
-      <name>food.restaurant.chinese</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1278,10 +914,6 @@
     <title lang="en">German Restaurant</title>
     <title lang="de">Deutsch</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>63</poi_type_id>
-      <name>food.restaurant.german</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1291,10 +923,6 @@
     <title lang="en">Greek Restaurant</title>
     <title lang="de">Griechisch</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>64</poi_type_id>
-      <name>food.restaurant.greek</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1304,10 +932,6 @@
     <title lang="en">Indian Restaurant</title>
     <title lang="de">Indisch</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>65</poi_type_id>
-      <name>food.restaurant.indian</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1317,10 +941,6 @@
     <title lang="en">Italian Restaurant</title>
     <title lang="de">Italienisch</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>66</poi_type_id>
-      <name>food.restaurant.italian</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1330,10 +950,6 @@
     <title lang="en">Japanese Restaurant</title>
     <title lang="de">Japanisch</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>67</poi_type_id>
-      <name>food.restaurant.japanese</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1343,10 +959,6 @@
     <title lang="en">Mexican Restaurant</title>
     <title lang="de">Mexikanisch</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>68</poi_type_id>
-      <name>food.restaurant.mexican</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1356,10 +968,6 @@
     <title lang="en">Snack Stand</title>
     <title lang="de">Imbissbude</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>161</poi_type_id>
-      <name>food.snacks</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1369,10 +977,6 @@
     <title lang="en">Pizzasnacks</title>
     <title lang="de">Pizzaimbiss</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>162</poi_type_id>
-      <name>food.snacks.pizza</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1381,10 +985,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>85</poi_type_id>
-      <name>food.teashop</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1394,10 +994,6 @@
     <title lang="en">Wine Tavern</title>
     <title lang="de">Weinstube</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>163</poi_type_id>
-      <name>food.wine_tavern</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1408,10 +1004,6 @@
     <title lang="en">Geocache</title>
     <description lang="de">Geocaches</description>
     <description lang="en">Geocaches</description>
-    <geoinfo>
-      <poi_type_id>5</poi_type_id>
-      <name>geocache</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1420,10 +1012,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">DriveIn Cache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>72</poi_type_id>
-      <name>geocache.geocache_drivein</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1432,10 +1020,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Earthcache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>73</poi_type_id>
-      <name>geocache.geocache_earth</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1444,10 +1028,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Eventcache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>74</poi_type_id>
-      <name>geocache.geocache_event</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1458,10 +1038,6 @@
     <title lang="de">Gefundener Cache</title>
     <description lang="en">A Geocache you have already logged as found</description>
     <description lang="de">Ein Geocache, der bereits als gefunden geloggt wurde</description>
-    <geoinfo>
-      <poi_type_id>90</poi_type_id>
-      <name>geocache.geocache_found</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1470,10 +1046,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Math Cache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>75</poi_type_id>
-      <name>geocache.geocache_math</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1482,10 +1054,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Multicache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>76</poi_type_id>
-      <name>geocache.geocache_multi</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1494,10 +1062,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 01</title>
     <description lang="en">Stage 01 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>406</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage01</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1506,10 +1070,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 02</title>
     <description lang="en">Stage 02 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>409</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage02</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1518,10 +1078,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 03</title>
     <description lang="en">Stage 03 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>410</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage03</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1530,10 +1086,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 04</title>
     <description lang="en">Stage 04 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>411</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage04</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1542,10 +1094,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 05</title>
     <description lang="en">Stage 05 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>412</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage05</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1554,10 +1102,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 06</title>
     <description lang="en">Stage 06 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>413</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage06</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1566,10 +1110,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 07</title>
     <description lang="en">Stage 07 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>414</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage07</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1578,10 +1118,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 08</title>
     <description lang="en">Stage 08 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>415</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage08</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1590,10 +1126,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 09</title>
     <description lang="en">Stage 09 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>416</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage09</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1602,10 +1134,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Stage 10</title>
     <description lang="en">Stage 10 of a Multicache</description>
-    <geoinfo>
-      <poi_type_id>417</poi_type_id>
-      <name>geocache.geocache_multi.multi_stage10</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1614,10 +1142,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Mysterycache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>77</poi_type_id>
-      <name>geocache.geocache_mystery</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1627,10 +1151,6 @@
     <title lang="en">Nightcache</title>
     <title lang="de">Nachtcache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>78</poi_type_id>
-      <name>geocache.geocache_night</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1639,10 +1159,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Traditional</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>79</poi_type_id>
-      <name>geocache.geocache_traditional</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1651,10 +1167,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Virtual Cache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>80</poi_type_id>
-      <name>geocache.geocache_virtual</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1663,10 +1175,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Webcam Cache</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>81</poi_type_id>
-      <name>geocache.geocache_webcam</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1677,10 +1185,6 @@
     <title lang="en">Health</title>
     <description lang="de">Krankenhäuser, Ärzte, Apotheken</description>
     <description lang="en">Hospital, Doctor, Pharmacy, etc.</description>
-    <geoinfo>
-      <poi_type_id>6</poi_type_id>
-      <name>health</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1690,10 +1194,6 @@
     <title lang="en">Chemist</title>
     <title lang="de">Drogerie</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>82</poi_type_id>
-      <name>health.chemist</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1703,10 +1203,6 @@
     <title lang="en">Dentist</title>
     <title lang="de">Zahnarzt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>83</poi_type_id>
-      <name>health.dentist</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1716,10 +1212,6 @@
     <title lang="en">Doctor</title>
     <title lang="de">Arzt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>84</poi_type_id>
-      <name>health.doctor</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1729,10 +1221,6 @@
     <title lang="en">Emergency Room</title>
     <title lang="de">Notaufnahme</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>261</poi_type_id>
-      <name>health.emergency</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1742,10 +1230,6 @@
     <title lang="en">Eye Specialist</title>
     <title lang="de">Augenarzt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>86</poi_type_id>
-      <name>health.eye_specialist</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1755,10 +1239,6 @@
     <title lang="en">Optician</title>
     <title lang="de">Optiker</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>88</poi_type_id>
-      <name>health.optician</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1768,10 +1248,6 @@
     <title lang="en">Physiotherapist</title>
     <title lang="de">Physiotherapeut</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>294</poi_type_id>
-      <name>health.physiotherapist</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1781,10 +1257,6 @@
     <title lang="en">Veterinary</title>
     <title lang="de">Tierarzt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>91</poi_type_id>
-      <name>health.veterinary</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1795,10 +1267,6 @@
     <title lang="en">Miscellaneous</title>
     <description lang="de">Eigenkreationen, und Punkte, die in keine der anderen Kategorien passen</description>
     <description lang="en">POIs not suitable for another category, and custom types</description>
-    <geoinfo>
-      <poi_type_id>20</poi_type_id>
-      <name>misc</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1807,10 +1275,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>94</poi_type_id>
-      <name>misc.bunny</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1819,10 +1283,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>95</poi_type_id>
-      <name>misc.butterfly</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1832,10 +1292,6 @@
     <title lang="en">Construction site</title>
     <title lang="de">Baustelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>569</poi_type_id>
-      <name>misc.construction</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1845,10 +1301,6 @@
     <title lang="en">Dangerous area</title>
     <title lang="de">Gefahrenstelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>570</poi_type_id>
-      <name>misc.danger</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1865,10 +1317,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>96</poi_type_id>
-      <name>misc.door</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1877,10 +1325,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Information</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>97</poi_type_id>
-      <name>misc.information</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1890,10 +1334,6 @@
     <title lang="en"></title>
     <title lang="de">Informationsschalter</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>213</poi_type_id>
-      <name>misc.information.desk</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1903,10 +1343,6 @@
     <title lang="en"></title>
     <title lang="de">Informationspunkt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>214</poi_type_id>
-      <name>misc.information.point</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1915,10 +1351,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>434</poi_type_id>
-      <name>misc.landmark</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1927,10 +1359,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>435</poi_type_id>
-      <name>misc.landmark.barn</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1939,10 +1367,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>436</poi_type_id>
-      <name>misc.landmark.beacon</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1951,10 +1375,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>578</poi_type_id>
-      <name>misc.landmark.bunker</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1963,10 +1383,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>437</poi_type_id>
-      <name>misc.landmark.chimney</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1983,10 +1399,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>438</poi_type_id>
-      <name>misc.landmark.farm</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -1995,10 +1407,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>439</poi_type_id>
-      <name>misc.landmark.gasometer</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2007,10 +1415,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>440</poi_type_id>
-      <name>misc.landmark.lighthouse</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2019,10 +1423,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Mine</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>152</poi_type_id>
-      <name>misc.landmark.mine</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2033,10 +1433,6 @@
     <description lang="en">Highest point on a mountain pass</description>
     <title lang="de">Bergpass</title>
     <description lang="de">Höchster Punkt auf einem Bergpass</description>
-    <geoinfo>
-      <poi_type_id>567</poi_type_id>
-      <name>misc.landmark.mountain_pass</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2045,10 +1441,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>443</poi_type_id>
-      <name>misc.landmark.peak_small</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2057,10 +1449,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>581</poi_type_id>
-      <name>misc.landmark.pier</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2070,10 +1458,6 @@
     <title lang="en">Plant</title>
     <title lang="de">Pflanze</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>568</poi_type_id>
-      <name>misc.landmark.plant</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2082,10 +1466,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>444</poi_type_id>
-      <name>misc.landmark.power</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2094,10 +1474,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>445</poi_type_id>
-      <name>misc.landmark.power.fossil</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2106,10 +1482,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>446</poi_type_id>
-      <name>misc.landmark.power.hydro</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2118,10 +1490,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>447</poi_type_id>
-      <name>misc.landmark.power.nuclear</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2130,10 +1498,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>448</poi_type_id>
-      <name>misc.landmark.power.tower</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2142,10 +1506,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>449</poi_type_id>
-      <name>misc.landmark.power.wind</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2154,10 +1514,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Range</title>
     <description lang="en">A military shooting range</description>
-    <geoinfo>
-      <poi_type_id>579</poi_type_id>
-      <name>misc.landmark.range</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2645,10 +2001,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">A</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>124</poi_type_id>
-      <name>people.people_a</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2657,10 +2009,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">B</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>125</poi_type_id>
-      <name>people.people_b</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2669,10 +2017,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">C</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>126</poi_type_id>
-      <name>people.people_c</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2681,10 +2025,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">D</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>127</poi_type_id>
-      <name>people.people_d</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2693,10 +2033,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">E</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>128</poi_type_id>
-      <name>people.people_e</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2705,10 +2041,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">F</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>129</poi_type_id>
-      <name>people.people_f</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2717,10 +2049,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">G</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>130</poi_type_id>
-      <name>people.people_g</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2729,10 +2057,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">H</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>131</poi_type_id>
-      <name>people.people_h</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2741,10 +2065,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">I</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>132</poi_type_id>
-      <name>people.people_i</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2753,10 +2073,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">J</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>133</poi_type_id>
-      <name>people.people_j</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2765,10 +2081,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">K</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>134</poi_type_id>
-      <name>people.people_k</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2777,10 +2089,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">L</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>135</poi_type_id>
-      <name>people.people_l</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2789,10 +2097,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">M</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>136</poi_type_id>
-      <name>people.people_m</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2801,10 +2105,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">N</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>137</poi_type_id>
-      <name>people.people_n</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2813,10 +2113,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">O</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>138</poi_type_id>
-      <name>people.people_o</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2825,10 +2121,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">P</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>139</poi_type_id>
-      <name>people.people_p</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2837,10 +2129,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Q</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>140</poi_type_id>
-      <name>people.people_q</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2849,10 +2137,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">R</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>141</poi_type_id>
-      <name>people.people_r</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2861,10 +2145,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">S</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>142</poi_type_id>
-      <name>people.people_s</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2873,10 +2153,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">T</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>143</poi_type_id>
-      <name>people.people_t</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2885,10 +2161,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">U</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>144</poi_type_id>
-      <name>people.people_u</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2897,10 +2169,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">V</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>145</poi_type_id>
-      <name>people.people_v</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2909,10 +2177,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">W</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>146</poi_type_id>
-      <name>people.people_w</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2921,10 +2185,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">X</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>147</poi_type_id>
-      <name>people.people_x</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2933,10 +2193,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Y</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>148</poi_type_id>
-      <name>people.people_y</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2945,10 +2201,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Z</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>149</poi_type_id>
-      <name>people.people_z</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2958,10 +2210,6 @@
     <title lang="en">My Work</title>
     <title lang="de">Arbeitsplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>150</poi_type_id>
-      <name>people.work</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2972,10 +2220,6 @@
     <title lang="en">Place</title>
     <description lang="de">Siedlungen, Berggipfel, und anderes geografisches Zeug</description>
     <description lang="en">Settlements, Mountains, and other geographical stuff</description>
-    <geoinfo>
-      <poi_type_id>10</poi_type_id>
-      <name>places</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2985,10 +2229,6 @@
     <title lang="en">Island</title>
     <title lang="de">Insel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>571</poi_type_id>
-      <name>places.island</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -2997,10 +2237,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Locality</title>
     <description lang="en">A (usually rural) place that has a name but isn't a settlement.</description>
-    <geoinfo>
-      <poi_type_id>577</poi_type_id>
-      <name>places.locality</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3010,10 +2246,6 @@
     <title lang="en">Settlement</title>
     <title lang="de">Siedlung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>153</poi_type_id>
-      <name>places.settlement</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3024,10 +2256,6 @@
     <title lang="de">Großstadt</title>
     <description lang="en">Settlement with more than 200000 inhabitants</description>
     <description lang="de">Siedlung mit mehr als 200.000 Einwohnern</description>
-    <geoinfo>
-      <poi_type_id>154</poi_type_id>
-      <name>places.settlement.capital</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3038,10 +2266,6 @@
     <title lang="en">Public</title>
     <description lang="de">Verwaltung und andere öffentliche Einrichtungen</description>
     <description lang="en">Public facilities and Administration</description>
-    <geoinfo>
-      <poi_type_id>11</poi_type_id>
-      <name>public</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3051,10 +2275,6 @@
     <title lang="en">Administration</title>
     <title lang="de">Verwaltung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>166</poi_type_id>
-      <name>public.administration</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3073,10 +2293,6 @@
     <title lang="en">Court of Law</title>
     <title lang="de">Gericht</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>313</poi_type_id>
-      <name>public.administration.court_of_law</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3086,10 +2302,6 @@
     <title lang="en">Prison</title>
     <title lang="de">Gefängnis</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>441</poi_type_id>
-      <name>public.administration.prison</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3099,10 +2311,6 @@
     <title lang="en">Registration Office</title>
     <title lang="de">Einwohnermeldeamt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>167</poi_type_id>
-      <name>public.administration.registration_office</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3112,10 +2320,6 @@
     <title lang="en">Tax Office</title>
     <title lang="de">Finanzamt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>168</poi_type_id>
-      <name>public.administration.tax_office</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3125,10 +2329,6 @@
     <title lang="en">Townhall</title>
     <title lang="de">Rathaus</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>169</poi_type_id>
-      <name>public.administration.townhall</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3138,10 +2338,6 @@
     <title lang="en">Vehicle Registration</title>
     <title lang="de">KFZ-Zulassung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>329</poi_type_id>
-      <name>public.administration.vehicle-registration</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3150,10 +2346,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>442</poi_type_id>
-      <name>public.arts_centre</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3163,10 +2355,6 @@
     <title lang="en"></title>
     <title lang="de">Prüfstelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>325</poi_type_id>
-      <name>public.inspecting-authority</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3177,8 +2365,6 @@
     <title lang="de">DEKRA</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>326</poi_type_id>
-      <name>public.inspecting-authority.dekra</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -3191,8 +2377,6 @@
     <title lang="de">TÜV</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>327</poi_type_id>
-      <name>public.inspecting-authority.tuev</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -3203,10 +2387,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>328</poi_type_id>
-      <name>public.recycling.container</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3216,10 +2396,6 @@
     <title lang="en"></title>
     <title lang="de">Dosencontainer</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>296</poi_type_id>
-      <name>public.recycling.container.cans</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3229,10 +2405,6 @@
     <title lang="en"></title>
     <title lang="de">Altpapiercontainer</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>330</poi_type_id>
-      <name>public.recycling.container.paper</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3242,10 +2414,6 @@
     <title lang="en"></title>
     <title lang="de">Altglascontainer</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>331</poi_type_id>
-      <name>public.recycling.container.used-glass</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3255,10 +2423,6 @@
     <title lang="en"></title>
     <title lang="de">Wertstoffhof</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>337</poi_type_id>
-      <name>public.recycling.recycling-yard</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3268,10 +2432,6 @@
     <title lang="en"></title>
     <title lang="de">Mülleimer</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>333</poi_type_id>
-      <name>public.recycling.trash-bin</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3280,10 +2440,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>334</poi_type_id>
-      <name>public.recycling_small</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3294,10 +2450,6 @@
     <title lang="en">Recreation</title>
     <description lang="de">Freizeiteinrichtungen (kein Sport)</description>
     <description lang="en">Places used for recreation (no sports)</description>
-    <geoinfo>
-      <poi_type_id>12</poi_type_id>
-      <name>recreation</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3306,10 +2458,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>177</poi_type_id>
-      <name>recreation.bicycling</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3318,10 +2466,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>178</poi_type_id>
-      <name>recreation.camera</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3330,10 +2474,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>332</poi_type_id>
-      <name>recreation.common</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3342,10 +2482,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>335</poi_type_id>
-      <name>recreation.garden</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3355,10 +2491,6 @@
     <title lang="en">Music</title>
     <title lang="de">Musik</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>181</poi_type_id>
-      <name>recreation.music</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3367,10 +2499,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>463</poi_type_id>
-      <name>recreation.nature_reserve</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3380,10 +2508,6 @@
     <title lang="en">Nightclub</title>
     <title lang="de">Nachtclub</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>182</poi_type_id>
-      <name>recreation.nightclub</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3392,10 +2516,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>464</poi_type_id>
-      <name>recreation.park</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3404,10 +2524,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>465</poi_type_id>
-      <name>recreation.picnic</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3416,10 +2532,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>560</poi_type_id>
-      <name>recreation.shelter</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3428,10 +2540,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Theater</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>184</poi_type_id>
-      <name>recreation.theater</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3440,10 +2548,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>466</poi_type_id>
-      <name>recreation.theme_park</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3452,10 +2556,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>467</poi_type_id>
-      <name>recreation.water_park</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3466,10 +2566,6 @@
     <description lang="en"></description>
     <title lang="de">Zoo</title>
     <description lang="de"></description>
-    <geoinfo>
-      <poi_type_id>572</poi_type_id>
-      <name>recreation.zoo</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3480,10 +2576,6 @@
     <title lang="en">Religion</title>
     <description lang="de">Kirchen und andere religiöse Einrichtungen</description>
     <description lang="en">Places and facilities related to religion</description>
-    <geoinfo>
-      <poi_type_id>13</poi_type_id>
-      <name>religion</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3493,10 +2585,6 @@
     <title lang="en">Cemetery</title>
     <title lang="en">Friedhof</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>185</poi_type_id>
-      <name>religion.cemetery</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3506,10 +2594,6 @@
     <title lang="en">Chapel</title>
     <title lang="de">Kapelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>339</poi_type_id>
-      <name>religion.chapel</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3559,10 +2643,6 @@
     <title lang="en">Mosque</title>
     <title lang="de">Moschee</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>188</poi_type_id>
-      <name>religion.church.mosque</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3580,10 +2660,6 @@
     <title lang="en">Protestant Church</title>
     <title lang="de">Evangelische Kirche</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>189</poi_type_id>
-      <name>religion.church.protestant</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3608,10 +2684,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Synagogue</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>190</poi_type_id>
-      <name>religion.church.synagogue</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3902,10 +2974,6 @@
     <title lang="en">Shopping</title>
     <description lang="de">Orte, an denen man etwas käuflich erwerben kann</description>
     <description lang="en">All the places, where you can buy something</description>
-    <geoinfo>
-      <poi_type_id>14</poi_type_id>
-      <name>shopping</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3915,10 +2983,6 @@
     <title lang="en"></title>
     <title lang="de">Künstlerbedarf</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>340</poi_type_id>
-      <name>shopping.artists-shop</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3928,10 +2992,6 @@
     <title lang="en">Bookshop</title>
     <title lang="de">Buchhandlung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>191</poi_type_id>
-      <name>shopping.books</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3941,10 +3001,6 @@
     <title lang="en">Shopping Centre/Mall</title>
     <title lang="de">Einkaufszentrum</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>192</poi_type_id>
-      <name>shopping.centre</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3954,10 +3010,6 @@
     <title lang="en"></title>
     <title lang="de">Klamottenladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>341</poi_type_id>
-      <name>shopping.clothing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3967,10 +3019,6 @@
     <title lang="en">Computershop</title>
     <title lang="de">Computerladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>193</poi_type_id>
-      <name>shopping.computers</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3980,10 +3028,6 @@
     <title lang="en">Confectioner</title>
     <title lang="de">Konditor</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>194</poi_type_id>
-      <name>shopping.confectioner</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -3993,10 +3037,6 @@
     <title lang="en"></title>
     <title lang="de">Copyshop</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>342</poi_type_id>
-      <name>shopping.copy-shop</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4006,10 +3046,6 @@
     <title lang="en">DIY Store</title>
     <title lang="de">Heimwerkermarkt/Baumarkt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>195</poi_type_id>
-      <name>shopping.diy_store</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4020,8 +3056,6 @@
     <title lang="de">Hagebau</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>196</poi_type_id>
-      <name>shopping.diy_store.hagebau</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4034,8 +3068,6 @@
     <title lang="de">Hornbach</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>197</poi_type_id>
-      <name>shopping.diy_store.hornbach</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4048,8 +3080,6 @@
     <title lang="de">OBI</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>198</poi_type_id>
-      <name>shopping.diy_store.obi</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4062,8 +3092,6 @@
     <title lang="de">Praktiker</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>199</poi_type_id>
-      <name>shopping.diy_store.praktiker</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4075,10 +3103,6 @@
     <title lang="en">Dry Cleaner</title>
     <title lang="de">Reinigung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>200</poi_type_id>
-      <name>shopping.dry_cleaner</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4088,10 +3112,6 @@
     <title lang="en">Erotic Store</title>
     <title lang="de">Erotikladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>343</poi_type_id>
-      <name>shopping.erotic</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4101,10 +3121,6 @@
     <title lang="en">Fleamarket</title>
     <title lang="de">Flohmarkt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>201</poi_type_id>
-      <name>shopping.flea_market</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4114,10 +3130,6 @@
     <title lang="en">Furniture</title>
     <title lang="de">Enrichtungshaus</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>202</poi_type_id>
-      <name>shopping.furniture</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4127,8 +3139,6 @@
     <title lang="en">IKEA</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>203</poi_type_id>
-      <name>shopping.furniture.ikea</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4139,10 +3149,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>399</poi_type_id>
-      <name>shopping.furniture.kitchen</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4152,10 +3158,6 @@
     <title lang="en">Games Store</title>
     <title lang="de">Spieleladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>344</poi_type_id>
-      <name>shopping.games</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4165,10 +3167,6 @@
     <title lang="en">Computergames</title>
     <title lang="de">Computerspieleladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>345</poi_type_id>
-      <name>shopping.games.computer</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4178,10 +3176,6 @@
     <title lang="en">Roleplayinggames</title>
     <title lang="de">Rollenspielladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>346</poi_type_id>
-      <name>shopping.games.roleplaying</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4191,10 +3185,6 @@
     <title lang="en"></title>
     <title lang="de">Gartenzubehör</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>347</poi_type_id>
-      <name>shopping.garden-accessories</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4204,10 +3194,6 @@
     <title lang="en">Groceries</title>
     <title lang="de">Lebensmittel</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>204</poi_type_id>
-      <name>shopping.groceries</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4217,10 +3203,6 @@
     <title lang="en">Drinks cash-and-carry</title>
     <title lang="de">Getränkemarkt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>206</poi_type_id>
-      <name>shopping.groceries.beverages</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4230,10 +3212,6 @@
     <title lang="en">Butcher</title>
     <title lang="de">Metzgerei</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>207</poi_type_id>
-      <name>shopping.groceries.butcher</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4243,10 +3221,6 @@
     <title lang="en"></title>
     <title lang="de">Fischladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>348</poi_type_id>
-      <name>shopping.groceries.fish</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4256,10 +3230,6 @@
     <title lang="en">Fruit</title>
     <title lang="de">Obst</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>208</poi_type_id>
-      <name>shopping.groceries.fruits</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4269,10 +3239,6 @@
     <title lang="en"></title>
     <title lang="de">Gewürzladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>349</poi_type_id>
-      <name>shopping.groceries.spices</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4282,10 +3248,6 @@
     <title lang="en">Tea Shop</title>
     <title lang="de">Teeladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>350</poi_type_id>
-      <name>shopping.groceries.tea</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4295,10 +3257,6 @@
     <title lang="en">Vegetables</title>
     <title lang="de">Gemüse</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>209</poi_type_id>
-      <name>shopping.groceries.vegetables</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4308,8 +3266,6 @@
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>401</poi_type_id>
-      <name>shopping.kaufhof</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4321,10 +3277,6 @@
     <title lang="en">Kiosk</title>
     <title lang="de">Kiosk</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>351</poi_type_id>
-      <name>shopping.kiosk</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4334,10 +3286,6 @@
     <title lang="en"></title>
     <title lang="de">Küchenausstattung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>352</poi_type_id>
-      <name>shopping.kitchen-accessories</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4355,10 +3303,6 @@
     <title lang="en"></title>
     <title lang="de">Beleuchtung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>353</poi_type_id>
-      <name>shopping.lighting</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4368,10 +3312,6 @@
     <title lang="en"></title>
     <title lang="de">Automat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>354</poi_type_id>
-      <name>shopping.machine</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4381,10 +3321,6 @@
     <title lang="en"></title>
     <title lang="de">Kaugummiautomat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>355</poi_type_id>
-      <name>shopping.machine.chewing-gum</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4394,10 +3330,6 @@
     <title lang="en"></title>
     <title lang="de">Zigarettenautomat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>356</poi_type_id>
-      <name>shopping.machine.cigarette</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4407,10 +3339,6 @@
     <title lang="en"></title>
     <title lang="de">Kondomautomat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>357</poi_type_id>
-      <name>shopping.machine.condom</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4420,10 +3348,6 @@
     <title lang="en"></title>
     <title lang="de">Blumenautomat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>358</poi_type_id>
-      <name>shopping.machine.flower</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4433,10 +3357,6 @@
     <title lang="en"></title>
     <title lang="de">Briefmarkenautomat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>359</poi_type_id>
-      <name>shopping.machine.stamps</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4447,10 +3367,6 @@
     <title lang="de">Markt</title>
     <description lang="en"></description>
     <description lang="de">Ein Platz mit mehreren Verkaufsständen</description>
-    <geoinfo>
-      <poi_type_id>360</poi_type_id>
-      <name>shopping.market</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4460,10 +3376,6 @@
     <title lang="en"></title>
     <title lang="de">Gärtnerei</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>361</poi_type_id>
-      <name>shopping.market-garden</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4473,10 +3385,6 @@
     <title lang="en"></title>
     <title lang="de">Medienladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>362</poi_type_id>
-      <name>shopping.media</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4486,10 +3394,6 @@
     <title lang="en">CD/DVD Store</title>
     <title lang="de">CD/DVD Laden</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>363</poi_type_id>
-      <name>shopping.media.cd-dvd</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4499,10 +3403,6 @@
     <title lang="en">HiFi Store</title>
     <title lang="de">HiFi Laden</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>364</poi_type_id>
-      <name>shopping.media.hi-fi-store</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4512,10 +3412,6 @@
     <title lang="en">Music Shop</title>
     <title lang="de">Musikladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>210</poi_type_id>
-      <name>shopping.music</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4525,10 +3421,6 @@
     <title lang="en">Perfumery</title>
     <title lang="de">Parfümerie</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>211</poi_type_id>
-      <name>shopping.perfumery</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4538,10 +3430,6 @@
     <title lang="en"></title>
     <title lang="de">Zoohandlung/Tierbedarf</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>365</poi_type_id>
-      <name>shopping.pet-shop</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4551,10 +3439,6 @@
     <title lang="en"></title>
     <title lang="de">Druckerei</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>366</poi_type_id>
-      <name>shopping.print-shop</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4563,10 +3447,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>367</poi_type_id>
-      <name>shopping.rental</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4575,10 +3455,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>368</poi_type_id>
-      <name>shopping.rental.event-service</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4587,10 +3463,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>370</poi_type_id>
-      <name>shopping.rental.partyservice</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4599,10 +3471,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>371</poi_type_id>
-      <name>shopping.rental.tools</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4611,10 +3479,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>372</poi_type_id>
-      <name>shopping.rental.video-dvd</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4623,10 +3487,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>373</poi_type_id>
-      <name>shopping.special</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4636,10 +3496,6 @@
     <title lang="en">Sports Shop</title>
     <title lang="de">Sportgeschäft</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>212</poi_type_id>
-      <name>shopping.sports</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4649,10 +3505,6 @@
     <title lang="en">Diving Shop</title>
     <title lang="de">Tauchsportgeschäft</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>336</poi_type_id>
-      <name>shopping.sports.diving</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4662,10 +3514,6 @@
     <title lang="en">Fishing Shop</title>
     <title lang="de">Angelzubehör</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>392</poi_type_id>
-      <name>shopping.sports.fishing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4675,10 +3523,6 @@
     <title lang="en">Outdoor Shop</title>
     <title lang="de">Outdoor Ausrüstung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>394</poi_type_id>
-      <name>shopping.sports.outdoor</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4688,10 +3532,6 @@
     <title lang="en">Wintersports Shop</title>
     <title lang="de">Wintersportzubehör</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>216</poi_type_id>
-      <name>shopping.sports.skiing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4701,10 +3541,6 @@
     <title lang="en">Tennis Shop</title>
     <title lang="de">Tennis Zubehör</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>217</poi_type_id>
-      <name>shopping.sports.tennis</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4714,10 +3550,6 @@
     <title lang="en">Weaponry</title>
     <title lang="de">Waffengeschäft</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>218</poi_type_id>
-      <name>shopping.sports.weaponry</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4727,10 +3559,6 @@
     <title lang="en"></title>
     <title lang="de">Stempelgeschäft</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>374</poi_type_id>
-      <name>shopping.stamp-shop</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4740,10 +3568,6 @@
     <title lang="en"></title>
     <title lang="de">Schreibwarenladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>375</poi_type_id>
-      <name>shopping.stationery</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4755,8 +3579,6 @@
     <title lang="at">Hofer</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>220</poi_type_id>
-      <name>shopping.supermarket.aldi</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4769,8 +3591,6 @@
     <title lang="de">Aldi Nord</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>221</poi_type_id>
-      <name>shopping.supermarket.aldi_nord</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4783,8 +3603,6 @@
     <title lang="de">Kaufland</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>223</poi_type_id>
-      <name>shopping.supermarket.kaufland</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4797,8 +3615,6 @@
     <title lang="de">Lidl</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>224</poi_type_id>
-      <name>shopping.supermarket.lidl</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4811,8 +3627,6 @@
     <title lang="de">Marktkauf</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>225</poi_type_id>
-      <name>shopping.supermarket.marktkauf</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4824,8 +3638,6 @@
     <title lang="en">Metro</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>226</poi_type_id>
-      <name>shopping.supermarket.metro</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4838,8 +3650,6 @@
     <title lang="de">Minimal</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>227</poi_type_id>
-      <name>shopping.supermarket.minimal</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4852,8 +3662,6 @@
     <title lang="de">Norma</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>228</poi_type_id>
-      <name>shopping.supermarket.norma</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4865,8 +3673,6 @@
     <title lang="en">Penny Markt</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>229</poi_type_id>
-      <name>shopping.supermarket.pennymarkt</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4879,8 +3685,6 @@
     <title lang="de">Plus Markt</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>230</poi_type_id>
-      <name>shopping.supermarket.plus</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4892,8 +3696,6 @@
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>402</poi_type_id>
-      <name>shopping.supermarket.real</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4906,8 +3708,6 @@
     <title lang="de">REWE</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>222</poi_type_id>
-      <name>shopping.supermarket.rewe</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4920,8 +3720,6 @@
     <title lang="de">Tengelmann</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>231</poi_type_id>
-      <name>shopping.supermarket.tengelmann</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -4932,10 +3730,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>376</poi_type_id>
-      <name>shopping.tools</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4945,10 +3739,6 @@
     <title lang="en">Toy Store</title>
     <title lang="de">Spielzeugladen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>232</poi_type_id>
-      <name>shopping.toys</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4957,10 +3747,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>377</poi_type_id>
-      <name>shopping.vehicle</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4969,10 +3755,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>378</poi_type_id>
-      <name>shopping.vehicle.accessories</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4981,10 +3763,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>379</poi_type_id>
-      <name>shopping.vehicle.caravan</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -4993,10 +3771,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>380</poi_type_id>
-      <name>shopping.vehicle.commercial</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5005,10 +3779,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>381</poi_type_id>
-      <name>shopping.vehicle.motorhome</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5017,10 +3787,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>382</poi_type_id>
-      <name>shopping.vehicle.trailer</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5029,10 +3795,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>383</poi_type_id>
-      <name>shopping.vehicle.used-cars</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5041,10 +3803,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>384</poi_type_id>
-      <name>shopping.wine</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5053,10 +3811,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>470</poi_type_id>
-      <name>sightseeing.archaeological</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5074,10 +3828,6 @@
     <title lang="en">Memorial</title>
     <title lang="de">Denkmal</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>234</poi_type_id>
-      <name>sightseeing.memorial</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5095,10 +3845,6 @@
     <title lang="en">Ruins</title>
     <title lang="de">Ruinen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>236</poi_type_id>
-      <name>sightseeing.ruins</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5109,10 +3855,6 @@
     <title lang="en">Sports</title>
     <description lang="de">Sportplätze und andere sportliche Einrichtungen</description>
     <description lang="en">Sports clubs, stadiums, and other sports facilities</description>
-    <geoinfo>
-      <poi_type_id>16</poi_type_id>
-      <name>sports</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5145,10 +3887,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>474</poi_type_id>
-      <name>sports.centre</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5165,10 +3903,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Dart</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>180</poi_type_id>
-      <name>sports.dart</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5177,10 +3911,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>476</poi_type_id>
-      <name>sports.fishing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5189,10 +3919,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>242</poi_type_id>
-      <name>sports.flying</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5201,10 +3927,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>477</poi_type_id>
-      <name>sports.football</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5213,10 +3935,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>478</poi_type_id>
-      <name>sports.indoor_pool</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5225,10 +3943,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>338</poi_type_id>
-      <name>sports.kiteflying</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5237,10 +3951,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>479</poi_type_id>
-      <name>sports.mountain_bike</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5249,10 +3959,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>480</poi_type_id>
-      <name>sports.pitch</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5261,10 +3967,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>481</poi_type_id>
-      <name>sports.pool</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5273,10 +3975,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>482</poi_type_id>
-      <name>sports.racquetball</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5285,10 +3983,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>239</poi_type_id>
-      <name>sports.riding</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5298,10 +3992,6 @@
     <title lang="en">Ski run</title>
     <title lang="de">Skipiste</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>240</poi_type_id>
-      <name>sports.skiing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5311,10 +4001,6 @@
     <title lang="en">Soccerfield</title>
     <title lang="de">Fußballplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>241</poi_type_id>
-      <name>sports.soccer</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5427,10 +4113,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>483</poi_type_id>
-      <name>sports.stadium</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5439,10 +4121,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>484</poi_type_id>
-      <name>sports.swimming</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5451,10 +4129,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>485</poi_type_id>
-      <name>sports.tennis</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5473,10 +4147,6 @@
     <title lang="en">Public Transport</title>
     <description lang="de">Flughäfen und öffentliche Transportmittel</description>
     <description lang="en">Airports and public transportation</description>
-    <geoinfo>
-      <poi_type_id>17</poi_type_id>
-      <name>transport</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5486,10 +4156,6 @@
     <title lang="en">Airport</title>
     <title lang="de">Flughafen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>243</poi_type_id>
-      <name>transport.airport</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5500,10 +4166,6 @@
     <title lang="de">Flugfeld</title>
     <description lang="en">for military purposes</description>
     <description lang="de">für militärische Zwecke</description>
-    <geoinfo>
-      <poi_type_id>573</poi_type_id>
-      <name>transport.airport.airfield</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5513,10 +4175,6 @@
     <title lang="en">Helipad</title>
     <title lang="de">Hubschrauberlandeplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>574</poi_type_id>
-      <name>transport.airport.helipad</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5534,10 +4192,6 @@
     <title lang="en">Carbridge</title>
     <title lang="de">Autobrücke</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>245</poi_type_id>
-      <name>transport.bridge.bridge-car</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5547,10 +4201,6 @@
     <title lang="en">Pedestrian Bridge</title>
     <title lang="de">Fußgängerbrücke</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>246</poi_type_id>
-      <name>transport.bridge.bridge-pedestrian</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5560,10 +4210,6 @@
     <title lang="en">Railway Bridge</title>
     <title lang="de">Eisenbahnbrücke</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>247</poi_type_id>
-      <name>transport.bridge.bridge-train</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5572,10 +4218,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>487</poi_type_id>
-      <name>transport.bridge.drawbridge</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5585,10 +4227,6 @@
     <title lang="en">Bus Stop</title>
     <title lang="de">Bushaltestelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>248</poi_type_id>
-      <name>transport.bus</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5597,10 +4235,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>488</poi_type_id>
-      <name>transport.bus_small</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5609,10 +4243,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>249</poi_type_id>
-      <name>transport.car</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5622,10 +4252,6 @@
     <title lang="en">Ferry</title>
     <title lang="de">Fähre</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>250</poi_type_id>
-      <name>transport.ferry</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5635,10 +4261,6 @@
     <title lang="en">Car Ferry</title>
     <title lang="de">Autofähre</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>251</poi_type_id>
-      <name>transport.ferry.ferry-car</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5648,10 +4270,6 @@
     <title lang="en">Pedestrian Ferry</title>
     <title lang="de">Fußgänger Fähre</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>321</poi_type_id>
-      <name>transport.ferry.ferry-pedestrian</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5661,10 +4279,6 @@
     <title lang="en"></title>
     <title lang="de">Seilbahnstation</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>385</poi_type_id>
-      <name>transport.funicular</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5673,10 +4287,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>252</poi_type_id>
-      <name>transport.handicapped</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5686,10 +4296,6 @@
     <title lang="en">Harbour</title>
     <title lang="de">Hafen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>253</poi_type_id>
-      <name>transport.harbour</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5698,10 +4304,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Park + Ride</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>254</poi_type_id>
-      <name>transport.park_ride</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5710,10 +4312,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>255</poi_type_id>
-      <name>transport.pedestrian</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5722,10 +4320,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>518</poi_type_id>
-      <name>transport.rail_preserved</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5735,10 +4329,6 @@
     <title lang="en">Railway Station</title>
     <title lang="de">Bahnhof</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>256</poi_type_id>
-      <name>transport.railway</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5747,10 +4337,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>489</poi_type_id>
-      <name>transport.railway_small</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5760,10 +4346,6 @@
     <title lang="en">Rapidtrain Station</title>
     <title lang="de">S-Bahnhof</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>257</poi_type_id>
-      <name>transport.rapid_train</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5773,10 +4355,6 @@
     <title lang="en">Taxi Stand</title>
     <title lang="de">Taxistand</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>258</poi_type_id>
-      <name>transport.taxi</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5786,10 +4364,6 @@
     <title lang="en"></title>
     <title lang="de">Fahrkartenautomat</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>386</poi_type_id>
-      <name>transport.ticket-machine</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5807,10 +4381,6 @@
     <title lang="en">Tram Station</title>
     <title lang="de">Trambahn Haltestelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>259</poi_type_id>
-      <name>transport.tram</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5828,10 +4398,6 @@
     <title lang="en">Underground Station</title>
     <title lang="de">U-Bahnhof</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>260</poi_type_id>
-      <name>transport.underground</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5842,10 +4408,6 @@
     <title lang="en">Unknown</title>
     <description lang="de">Nicht zugewiesener POI</description>
     <description lang="en">Unassigned POI</description>
-    <geoinfo>
-      <poi_type_id>1</poi_type_id>
-      <name>unknown</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5856,10 +4418,6 @@
     <title lang="en">Vehicle</title>
     <description lang="de">Dinge für Selbstfahrer, z.B. Tankstellen oder Parkplätze</description>
     <description lang="en">Facilites for drivers, like gas stations or parking places</description>
-    <geoinfo>
-      <poi_type_id>18</poi_type_id>
-      <name>vehicle</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5868,10 +4426,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>562</poi_type_id>
-      <name>vehicle.bicycle_rental</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5881,10 +4435,6 @@
     <title lang="en">Car Rental</title>
     <title lang="de">Autovermietung</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>262</poi_type_id>
-      <name>vehicle.car_rental</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5894,8 +4444,6 @@
     <title lang="en">AVIS</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>263</poi_type_id>
-      <name>vehicle.car_rental.avis</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -5907,8 +4455,6 @@
     <title lang="en">Europcar</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>264</poi_type_id>
-      <name>vehicle.car_rental.europcar</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -5920,8 +4466,6 @@
     <title lang="en">Hertz</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>265</poi_type_id>
-      <name>vehicle.car_rental.hertz</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -5933,8 +4477,6 @@
     <title lang="en">Sixt</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>266</poi_type_id>
-      <name>vehicle.car_rental.sixt</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -5945,10 +4487,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>563</poi_type_id>
-      <name>vehicle.car_sharing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5957,10 +4495,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>494</poi_type_id>
-      <name>vehicle.cattle_grid</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5969,10 +4503,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>495</poi_type_id>
-      <name>vehicle.crossing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5981,10 +4511,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>496</poi_type_id>
-      <name>vehicle.crossing_small</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -5994,10 +4520,6 @@
     <title lang="en">Emergency Phone</title>
     <title lang="de">Notrufsäule</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>269</poi_type_id>
-      <name>vehicle.emergency_phone</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6007,10 +4529,6 @@
     <title lang="en"></title>
     <title lang="de">Ausfahrt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>270</poi_type_id>
-      <name>vehicle.exit</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6019,10 +4537,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>497</poi_type_id>
-      <name>vehicle.ford</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6032,8 +4546,6 @@
     <title lang="en">Agip</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>272</poi_type_id>
-      <name>vehicle.fuel_station.agip</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6045,8 +4557,6 @@
     <title lang="en">Aral</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>273</poi_type_id>
-      <name>vehicle.fuel_station.aral</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6058,8 +4568,6 @@
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>387</poi_type_id>
-      <name>vehicle.fuel_station.autogas</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6070,10 +4578,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>388</poi_type_id>
-      <name>vehicle.fuel_station.electric</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6083,8 +4587,6 @@
     <title lang="en"></title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>400</poi_type_id>
-      <name>vehicle.fuel_station.elf</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6096,8 +4598,6 @@
     <title lang="en">Esso</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>274</poi_type_id>
-      <name>vehicle.fuel_station.esso</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6108,10 +4608,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>389</poi_type_id>
-      <name>vehicle.fuel_station.hydrogen</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6121,8 +4617,6 @@
     <title lang="en">Jet</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>275</poi_type_id>
-      <name>vehicle.fuel_station.jet</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6134,8 +4628,6 @@
     <title lang="en">OMV</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>276</poi_type_id>
-      <name>vehicle.fuel_station.omv</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6147,8 +4639,6 @@
     <title lang="en">Shell</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>277</poi_type_id>
-      <name>vehicle.fuel_station.shell</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6160,8 +4650,6 @@
     <title lang="en">Texaco</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>278</poi_type_id>
-      <name>vehicle.fuel_station.texaco</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6173,8 +4661,6 @@
     <title lang="en">Total</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>279</poi_type_id>
-      <name>vehicle.fuel_station.total</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -6185,10 +4671,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>498</poi_type_id>
-      <name>vehicle.gate</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6197,10 +4679,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>281</poi_type_id>
-      <name>vehicle.motorbike</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6209,10 +4687,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>390</poi_type_id>
-      <name>vehicle.parking.bike</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6222,10 +4696,6 @@
     <title lang="en">Car Parking</title>
     <title lang="de">Autoparkplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>283</poi_type_id>
-      <name>vehicle.parking.car</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6235,10 +4705,6 @@
     <title lang="en">Parking Garage</title>
     <title lang="de">Parkhaus</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>284</poi_type_id>
-      <name>vehicle.parking.garage</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6248,10 +4714,6 @@
     <title lang="en">Handicapped Parking</title>
     <title lang="de">Behindertenparkplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>285</poi_type_id>
-      <name>vehicle.parking.handicapped</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6261,10 +4723,6 @@
     <title lang="en">Hiking Parking</title>
     <title lang="de">Wanderparkplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>286</poi_type_id>
-      <name>vehicle.parking.hiking</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6273,10 +4731,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>391</poi_type_id>
-      <name>vehicle.parking.motorbike</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6286,10 +4740,6 @@
     <title lang="en">P+R Parking</title>
     <title lang="de">P+R Parkplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>287</poi_type_id>
-      <name>vehicle.parking.park_ride</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6299,10 +4749,6 @@
     <title lang="en">Restarea</title>
     <title lang="de">Rastplatz</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>288</poi_type_id>
-      <name>vehicle.parking.restarea</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6312,10 +4758,6 @@
     <title lang="en">Restarea with Toilet</title>
     <title lang="de">Rastplatz mit Toilette</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>289</poi_type_id>
-      <name>vehicle.parking.restarea-toilets</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6325,10 +4767,6 @@
     <title lang="en">Repairshop</title>
     <title lang="de">Werkstatt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>291</poi_type_id>
-      <name>vehicle.repair_shop</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6337,10 +4775,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>500</poi_type_id>
-      <name>vehicle.restrictions</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6349,10 +4783,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>564</poi_type_id>
-      <name>vehicle.restrictions.bollard</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6361,10 +4791,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>565</poi_type_id>
-      <name>vehicle.restrictions.bollard-bw</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6374,10 +4800,6 @@
     <title lang="en">Dead End</title>
     <title lang="de">Sackgasse</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>268</poi_type_id>
-      <name>vehicle.restrictions.dead_end</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6386,10 +4808,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>575</poi_type_id>
-      <name>vehicle.restrictions.incline</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6406,10 +4824,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>511</poi_type_id>
-      <name>vehicle.restrictions.parking</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6419,10 +4833,6 @@
     <title lang="en"></title>
     <title lang="de">Spielstraße</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>290</poi_type_id>
-      <name>vehicle.restrictions.play_street</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6431,10 +4841,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>292</poi_type_id>
-      <name>vehicle.restrictions.right_of_way</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6444,10 +4850,6 @@
     <title lang="en">Road Works</title>
     <title lang="de">Baustelle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>293</poi_type_id>
-      <name>vehicle.restrictions.road_works</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6456,10 +4858,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>505</poi_type_id>
-      <name>vehicle.restrictions.roundabout_left</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6468,10 +4866,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>506</poi_type_id>
-      <name>vehicle.restrictions.roundabout_right</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6480,10 +4874,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>507</poi_type_id>
-      <name>vehicle.restrictions.speed</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6492,10 +4882,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>508</poi_type_id>
-      <name>vehicle.restrictions.speed.30-end</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6505,10 +4891,6 @@
     <title lang="en">Speed Trap</title>
     <title lang="de">Radarfalle</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>509</poi_type_id>
-      <name>vehicle.restrictions.speed_trap</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6517,10 +4899,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>510</poi_type_id>
-      <name>vehicle.restrictions.stop</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6529,10 +4907,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>512</poi_type_id>
-      <name>vehicle.restrictions.traffic-light</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6541,10 +4915,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>566</poi_type_id>
-      <name>vehicle.restrictions.traffic_jam</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6553,10 +4923,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>513</poi_type_id>
-      <name>vehicle.services</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6565,10 +4931,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>514</poi_type_id>
-      <name>vehicle.stile</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6578,10 +4940,6 @@
     <title lang="en">Toll Station</title>
     <title lang="de">Mautstation</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>297</poi_type_id>
-      <name>vehicle.toll_station</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6590,10 +4948,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>298</poi_type_id>
-      <name>vehicle.towing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6602,10 +4956,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>515</poi_type_id>
-      <name>vehicle.tunnel</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6622,10 +4972,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>516</poi_type_id>
-      <name>vehicle.viaduct</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6634,10 +4980,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>517</poi_type_id>
-      <name>vehicle.zebra_crossing</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6647,10 +4989,6 @@
     <title lang="en">Waypoint </title>
     <title lang="de">Wegpunkt </title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>501</poi_type_id>
-      <name>waypoint.flag</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6660,10 +4998,6 @@
     <title lang="en">Waypoint blue</title>
     <title lang="de">Wegpunkt blau</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>309</poi_type_id>
-      <name>waypoint.flag.blue</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6673,10 +5007,6 @@
     <title lang="en">Waypoint green</title>
     <title lang="de">Wegpunkt grün</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>310</poi_type_id>
-      <name>waypoint.flag.green</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6686,10 +5016,6 @@
     <title lang="en">Waypoint orange</title>
     <title lang="de">Wegpunkt orange</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>311</poi_type_id>
-      <name>waypoint.flag.orange</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6699,10 +5025,6 @@
     <title lang="en">Waypoint red</title>
     <title lang="de">Wegpunkt rot</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>312</poi_type_id>
-      <name>waypoint.flag.red</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6711,10 +5033,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>523</poi_type_id>
-      <name>waypoint.flag.temp</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6724,10 +5042,6 @@
     <title lang="en">Waypoint yellow</title>
     <title lang="de">Wegpunkt gelb</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>433</poi_type_id>
-      <name>waypoint.flag.yellow</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6736,10 +5050,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>524</poi_type_id>
-      <name>waypoint.pin</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6748,10 +5058,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>525</poi_type_id>
-      <name>waypoint.pin.blue</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6760,10 +5066,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>526</poi_type_id>
-      <name>waypoint.pin.green</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6772,10 +5074,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>527</poi_type_id>
-      <name>waypoint.pin.orange</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6784,10 +5082,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>528</poi_type_id>
-      <name>waypoint.pin.red</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6796,10 +5090,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>529</poi_type_id>
-      <name>waypoint.pin.yellow</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6810,10 +5100,6 @@
     <title lang="en">Routepoint</title>
     <description lang="de">Wegpunkt, um die Punkte der aktuellen Route zu markieren</description>
     <description lang="en">Generic waypoint to mark the points of the current route</description>
-    <geoinfo>
-      <poi_type_id>92</poi_type_id>
-      <name>waypoint.routepoint</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6824,10 +5110,6 @@
     <description lang="en">You have reached your destination.</description>
     <title lang="de">Ziel</title>
     <description lang="de">Sie haben Ihr Ziel erreicht.</description>
-    <geoinfo>
-      <poi_type_id>542</poi_type_id>
-      <name>waypoint.routepoint.destination</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6838,10 +5120,6 @@
     <description lang="en">Turn left here</description>
     <title lang="de">Links abbiegen</title>
     <description lang="de">Biegen Sie links ab.</description>
-    <geoinfo>
-      <poi_type_id>543</poi_type_id>
-      <name>waypoint.routepoint.left</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6852,10 +5130,6 @@
     <description lang="en">Leave the motorway here</description>
     <title lang="de">Ausfahrt links</title>
     <description lang="de">Verlassen Sie die Autobahn.</description>
-    <geoinfo>
-      <poi_type_id>544</poi_type_id>
-      <name>waypoint.routepoint.left.exit</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6866,10 +5140,6 @@
     <description lang="en">Fork left here</description>
     <title lang="de">Links halten</title>
     <description lang="de">Hier bitte links halten</description>
-    <geoinfo>
-      <poi_type_id>545</poi_type_id>
-      <name>waypoint.routepoint.left.fork</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6880,10 +5150,6 @@
     <description lang="en">Turn hard left here</description>
     <title lang="de">Scharf links</title>
     <description lang="de">Biegen Sie hier scharf links ab.</description>
-    <geoinfo>
-      <poi_type_id>546</poi_type_id>
-      <name>waypoint.routepoint.left.hard</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6894,10 +5160,6 @@
     <description lang="en">Merge left here.</description>
     <title lang="de">Auffahrt links</title>
     <description lang="de">Nehmen Sie die Auffahrt links.</description>
-    <geoinfo>
-      <poi_type_id>547</poi_type_id>
-      <name>waypoint.routepoint.left.merge</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6908,10 +5170,6 @@
     <description lang="en">Turn left softly</description>
     <title lang="de">Leicht links</title>
     <description lang="de">Biegen Sie hier leicht nach links ab.</description>
-    <geoinfo>
-      <poi_type_id>548</poi_type_id>
-      <name>waypoint.routepoint.left.soft</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6922,10 +5180,6 @@
     <description lang="en">Please do a U-turn here</description>
     <title lang="de">links wenden</title>
     <description lang="de">Bitte wenden Sie hier.</description>
-    <geoinfo>
-      <poi_type_id>549</poi_type_id>
-      <name>waypoint.routepoint.left.uturn</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6936,10 +5190,6 @@
     <description lang="en">Turn right here</description>
     <title lang="de">Rechts abbiegen</title>
     <description lang="de">Biegen Sie rechts ab.</description>
-    <geoinfo>
-      <poi_type_id>550</poi_type_id>
-      <name>waypoint.routepoint.right</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6950,10 +5200,6 @@
     <description lang="en">Leave the motorway here</description>
     <title lang="de">Ausfahrt rechts</title>
     <description lang="de">Verlassen Sie die Autobahn.</description>
-    <geoinfo>
-      <poi_type_id>551</poi_type_id>
-      <name>waypoint.routepoint.right.exit</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6964,10 +5210,6 @@
     <description lang="en">Fork right here</description>
     <title lang="de">Rechts halten</title>
     <description lang="de">Hier bitte rechts halten</description>
-    <geoinfo>
-      <poi_type_id>552</poi_type_id>
-      <name>waypoint.routepoint.right.fork</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6978,10 +5220,6 @@
     <description lang="en">Turn hard right here</description>
     <title lang="de">Scharf rechts</title>
     <description lang="de">Biegen Sie hier scharf rechts ab.</description>
-    <geoinfo>
-      <poi_type_id>553</poi_type_id>
-      <name>waypoint.routepoint.right.hard</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -6992,10 +5230,6 @@
     <description lang="en">Merge right here</description>
     <title lang="de">Auffahrt rechts</title>
     <description lang="de">Nehmen Sie die Auffahrt rechts.</description>
-    <geoinfo>
-      <poi_type_id>554</poi_type_id>
-      <name>waypoint.routepoint.right.merge</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7006,10 +5240,6 @@
     <description lang="en">Turn right softly</description>
     <title lang="de">Leicht rechts</title>
     <description lang="de">Biegen Sie hier leicht nach rechts ab.</description>
-    <geoinfo>
-      <poi_type_id>555</poi_type_id>
-      <name>waypoint.routepoint.right.soft</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7020,10 +5250,6 @@
     <description lang="en">Please do a U-turn here</description>
     <title lang="de">Rechts wenden</title>
     <description lang="de">Bitte wenden Sie hier.</description>
-    <geoinfo>
-      <poi_type_id>556</poi_type_id>
-      <name>waypoint.routepoint.right.uturn</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7034,10 +5260,6 @@
     <description lang="en">Go straight on</description>
     <title lang="de">Geradeaus</title>
     <description lang="de">Fahren Sie geradeaus.</description>
-    <geoinfo>
-      <poi_type_id>557</poi_type_id>
-      <name>waypoint.routepoint.straight</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7047,10 +5269,6 @@
     <title lang="en">Waypoint 1</title>
     <title lang="de">Wegpunkt 1</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>300</poi_type_id>
-      <name>waypoint.wpt1</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7060,10 +5278,6 @@
     <title lang="en">Waypoint 2</title>
     <description lang="en"></description>
     <title lang="de">Wegpunkt 2</title>
-    <geoinfo>
-      <poi_type_id>301</poi_type_id>
-      <name>waypoint.wpt2</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7073,10 +5287,6 @@
     <title lang="en">Waypoint 3</title>
     <title lang="de">Wegpunkt 3</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>302</poi_type_id>
-      <name>waypoint.wpt3</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7086,10 +5296,6 @@
     <title lang="en">Waypoint 4</title>
     <title lang="de">Wegpunkt 4</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>303</poi_type_id>
-      <name>waypoint.wpt4</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7099,10 +5305,6 @@
     <title lang="en">Waypoint 5</title>
     <title lang="de">Wegpunkt 5</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>304</poi_type_id>
-      <name>waypoint.wpt5</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7112,10 +5314,6 @@
     <title lang="en">Waypoint 6</title>
     <title lang="de">Wegpunkt 6</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>305</poi_type_id>
-      <name>waypoint.wpt6</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7125,10 +5323,6 @@
     <title lang="en">Waypoint 7</title>
     <title lang="de">Wegpunkt 7</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>306</poi_type_id>
-      <name>waypoint.wpt7</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7138,10 +5332,6 @@
     <title lang="en">Waypoint 8</title>
     <title lang="de">Wegpunkt 8</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>307</poi_type_id>
-      <name>waypoint.wpt8</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7151,10 +5341,6 @@
     <title lang="en">Waypoint 9</title>
     <title lang="de">Wegpunkt 9</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>308</poi_type_id>
-      <name>waypoint.wpt9</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7163,10 +5349,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>530</poi_type_id>
-      <name>waypoint.wptblue</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7175,10 +5357,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>531</poi_type_id>
-      <name>waypoint.wptgreen</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7187,10 +5365,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>532</poi_type_id>
-      <name>waypoint.wptorange</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7199,10 +5373,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>533</poi_type_id>
-      <name>waypoint.wptred</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7212,10 +5382,6 @@
     <title lang="en">Temporary Waypoint</title>
     <title lang="de">Temporärer Wegpunkt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>407</poi_type_id>
-      <name>waypoint.wpttemp</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7224,10 +5390,6 @@
     <scale_max>1500000</scale_max>
     <title lang="en">green WP-Pin</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>418</poi_type_id>
-      <name>waypoint.wpttemp.wpttemp-green</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7236,10 +5398,6 @@
     <scale_max>1500000</scale_max>
     <title lang="en">red WP-Pin</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>419</poi_type_id>
-      <name>waypoint.wpttemp.wpttemp-red</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7248,10 +5406,6 @@
     <scale_max>1500000</scale_max>
     <title lang="en">yellow WP-Pin</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>420</poi_type_id>
-      <name>waypoint.wpttemp.wpttemp-yellow</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7260,10 +5414,6 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>534</poi_type_id>
-      <name>waypoint.wptyellow</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7274,10 +5424,6 @@
     <title lang="en">WLAN</title>
     <description lang="de">Accesspoints und andere WLAN-Einrichtungen (Kismet)</description>
     <description lang="en">WiFi-related points (Kismet)</description>
-    <geoinfo>
-      <poi_type_id>19</poi_type_id>
-      <name>wlan</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7287,10 +5433,6 @@
     <title lang="en">Closed WLAN</title>
     <title lang="de">WLAN geschlossen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>314</poi_type_id>
-      <name>wlan.closed</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7300,10 +5442,6 @@
     <title lang="en">Open WLAN</title>
     <title lang="de">WLAN offen</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>315</poi_type_id>
-      <name>wlan.open</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7313,10 +5451,6 @@
     <title lang="en">WLAN requiring fee</title>
     <title lang="de">kostenpflichtiges WLAN</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>316</poi_type_id>
-      <name>wlan.pay</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7326,8 +5460,6 @@
     <title lang="en">Swisscom Eurospot</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>317</poi_type_id>
-      <name>wlan.pay.eurospot</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -7338,10 +5470,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">FON Accesspoint</title>
     <description lang="en">http://www.fon.com</description>
-    <geoinfo>
-      <poi_type_id>408</poi_type_id>
-      <name>wlan.pay.fon</name>
-    </geoinfo>
   </rule>
 
   <rule>
@@ -7351,8 +5479,6 @@
     <title lang="en">Ganag</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>318</poi_type_id>
-      <name>wlan.pay.ganag</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -7364,8 +5490,6 @@
     <title lang="en">T-Mobile</title>
     <description lang="en"></description>
     <geoinfo>
-      <poi_type_id>319</poi_type_id>
-      <name>wlan.pay.t-mobile</name>
       <restricted>brand</restricted>
     </geoinfo>
   </rule>
@@ -7377,9 +5501,5 @@
     <title lang="en">WEP encrypted WLAN</title>
     <title lang="de">WLAN WEP verschlüsselt</title>
     <description lang="en"></description>
-    <geoinfo>
-      <poi_type_id>320</poi_type_id>
-      <name>wlan.wep</name>
-    </geoinfo>
   </rule>
 </rules>
