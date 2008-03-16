@@ -43,6 +43,8 @@ GetOptions (
 	     'verbose'             => \$VERBOSE,
 	     'v+'                  => \$VERBOSE,
 	     'h|help|x'            => \$help, 
+	     'MAN'                 => \$man, 
+	     'man'                 => \$man, 
 	     )
     or pod2usage(1);
 
