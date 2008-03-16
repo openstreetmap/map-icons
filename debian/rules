@@ -46,12 +46,15 @@ install: build
 
 	./debian/update_svn_revision.sh
 
-	rm -rf build/*
+#	rm -rf build/*
 	./copy_icons_to_dir.sh build
 	./update_thumbnails.pl build
 	./merge-icons-all-from-svg2classic2square.sh build
 	cp icons.xml build/
 	cd build; ../update_icons.pl
+	./create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
+	./create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
+
 #	./create_overview.pl -D ./build
 
 	# Now split into two packages
@@ -61,6 +64,9 @@ install: build
 	cp icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./
 	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
+
+	cp geoinfo.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	cp geoinfo.de.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 
 #	cd build; $(MAKE)
 #	cd build; $(MAKE) DESTDIR=$(destdir) install
