@@ -481,7 +481,7 @@
   </rule>
 
   <rule>
-    <condition k="highway" v="sports.track"/>
+    <condition k="poi" v="sports.track"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
@@ -509,7 +509,7 @@
   </rule>
 
   <rule>
-    <condition k="highway" v="transport.track"/>
+    <condition k="poi" v="transport.track"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
@@ -521,7 +521,7 @@
   </rule>
 
   <rule>
-    <condition k="highway" v="transport.track.arrow"/>
+    <condition k="rendering" v="transport.track.arrow"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
@@ -533,7 +533,7 @@
   </rule>
 
   <rule>
-    <condition k="highway" v="transport.track.arrow_back"/>
+    <condition k="rendering" v="transport.track.arrow_back"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
@@ -545,7 +545,7 @@
   </rule>
 
   <rule>
-    <condition k="highway" v="transport.track.rail"/>
+    <condition k="rendering" v="transport.track.rail"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
@@ -600,7 +600,7 @@
   </rule>
 
   <rule>
-    <condition k="highway" v="vehicle.shield.motorway_shield"/>
+    <condition k="rendering" v="vehicle.shield.motorway_shield"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
@@ -612,7 +612,7 @@
   </rule>
 
   <rule>
-    <condition k="highway" v="vehicle.shield.motorway_shield2"/>
+    <condition k="rendering" v="vehicle.shield.motorway_shield2"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
@@ -624,7 +624,7 @@
   </rule>
 
   <rule>
-    <condition k="highway" v="vehicle.shield.motorway_shield3"/>
+    <condition k="rendering" v="vehicle.shield.motorway_shield3"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
