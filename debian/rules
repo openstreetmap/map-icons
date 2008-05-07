@@ -24,7 +24,12 @@ build-stamp:
 	dh_testdir
 
 	# Add here commands to compile the package.
+	mkdir -p build
+	cd build; cmake ..
 	cd build; $(MAKE)
+	./copy_icons_to_dir.sh build
+	./update_thumbnails.pl build
+	./merge-icons-all-from-svg2classic2square.sh build
 
 	touch build-stamp
 
@@ -34,7 +39,8 @@ clean:
 	rm -f build-stamp
 
 	# Add here commands to clean up after the build process.
-	-cd build; $(MAKE) distclean
+	#-cd build; $(MAKE) distclean
+#	rm -rf build/*
 
 	dh_clean
 
@@ -46,10 +52,6 @@ install: build
 
 	./debian/update_svn_revision.sh
 
-#	rm -rf build/*
-	./copy_icons_to_dir.sh build
-	./update_thumbnails.pl build
-	./merge-icons-all-from-svg2classic2square.sh build
 	cp icons.xml build/
 	cd build; ../update_icons.pl
 	./create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
@@ -57,7 +59,7 @@ install: build
 
 #	./create_overview.pl -D ./build
 
-	# Now split into two packages
+	# Now split into differnet packages
 	./copy_icons_to_debian_package_dirs.pl
 
 	# icons.xml belongs to the unrestricted package
