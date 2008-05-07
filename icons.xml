@@ -361,13 +361,6 @@
     <description lang="en"></description>
   </rule>
 
-  <rule>
-    <condition k="poi" v="transport.track"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-  </rule>
 
   <rule>
     <condition k="rendering" v="transport.track.arrow"/>
