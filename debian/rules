@@ -15,6 +15,7 @@ configure-stamp:
 	# Add here commands to configure the package.
 	rm -f CMakeCache.txt
 	mkdir -p build
+	cd build; cmake ..
 #	cd build; cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DMAN_INSTALL_DIR=/usr/share/man -DINFO_INSTALL_DIR=/usr/share/info ..
 
 	touch configure-stamp
@@ -40,7 +41,20 @@ clean:
 
 	# Add here commands to clean up after the build process.
 	#-cd build; $(MAKE) distclean
-#	rm -rf build/*
+	rm -f build/CMakeCache.txt
+	rm -f build/Makefile
+	rm -f build/cmake_install.cmake
+	rm -f build/icons.xml
+	rm -rf build/CMakeFiles
+	rm -rf build/classic.big
+	rm -rf build/classic.small
+	rm -rf build/japan
+	rm -rf build/square.big
+	rm -rf build/square.small
+	rm -rf build/svg
+	rm -rf build/svg_png
+	rm -rf build/japan_png
+#	find build/ -ls
 
 	dh_clean
 
@@ -54,8 +68,8 @@ install: build
 
 	cp icons.xml build/
 	cd build; ../update_icons.pl
-	./create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
-	./create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
+	cd build; ../create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
+	cd build; ../create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
 
 #	./create_overview.pl -D ./build
 
@@ -63,12 +77,13 @@ install: build
 	./copy_icons_to_debian_package_dirs.pl
 
 	# icons.xml belongs to the unrestricted package
-	cp icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	mkdir -p debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	cp build/icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./
 	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
 
-	cp geoinfo.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
-	cp geoinfo.de.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	cp build/geoinfo.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	cp build/geoinfo.de.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 
 #	cd build; $(MAKE)
 #	cd build; $(MAKE) DESTDIR=$(destdir) install
