@@ -76,7 +76,7 @@ install: build
 	# Now split into differnet packages
 	./copy_icons_to_debian_package_dirs.pl
 
-	# icons.xml belongs to the unrestricted package
+	# icons.xml belongs to the main package
 	mkdir -p debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 	cp build/icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./

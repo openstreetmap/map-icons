@@ -1,8 +1,7 @@
 #!/usr/bin/perl -w
 # This little helper copies according to the icons.xml File
-# and the geoinfo->restrictions tag
 # all icons will be placed into there package directory
-# For more Inco see --man option
+# For more Info see --man option
 
 use strict;
 use warnings;
@@ -19,12 +18,9 @@ my $file = 'icons';
 die "Can't find file \"$file.xml\""
     unless -f "$file.xml";
 
-my $dst_path="/usr/share/icons/map-icons";
+my $dst_path="usr/share/icons/map-icons";
 my $src_dir="build/";
-my $package_path = {
-    ''      => 'debian/openstreetmap-map-icons',
-    'brand' => 'debian/openstreetmap-map-icons-restricted',
-};
+my $package_path = 'debian/openstreetmap-map-icons';
 
 
 my @theme_dirs=qw(classic.big classic.small 
@@ -35,16 +31,18 @@ my @theme_dirs=qw(classic.big classic.small
 		  );
 
 my ($man,$help,$DEBUG,$VERBOSE)=(0,0,0,0);
+my $NO_RESTRICTED=0;
 # Set defaults and get options from command line
 Getopt::Long::Configure('no_ignore_case');
 GetOptions ( 
-	     'd+'                  => \$DEBUG,
-	     'debug+'              => \$DEBUG,      
-	     'verbose'             => \$VERBOSE,
-	     'v+'                  => \$VERBOSE,
-	     'h|help|x'            => \$help, 
-	     'MAN'                 => \$man, 
-	     'man'                 => \$man, 
+	     'd+'                 => \$DEBUG,
+	     'debug+'             => \$DEBUG,      
+	     'verbose'            => \$VERBOSE,
+             'exclude-restricted' => \$NO_RESTRICTED,
+	     'v+'                 => \$VERBOSE,
+	     'h|help|x'           => \$help, 
+	     'MAN'                => \$man, 
+	     'man'                => \$man, 
 	     )
     or pod2usage(1);
 
@@ -71,16 +69,18 @@ for my $rule (@rules) {
     }
     $name =~ s,\.,/,g;
 
-    if ( ! defined($package_path->{$restricted})) {
-	die "Wrong or unknown restriction '$restricted'\n";
+    # Do not copy the restricted Icons
+    # This is untested, but might work ;-)
+    if ( $NO_RESTRICTED && $restricted ) {
+	next;
     }
-    
+
     for my $theme ( @theme_dirs) {
 	#print STDERR "Copy  $theme/$name for Theme\n";
 	my $found=0;
 	for my $fn_icon ( "$theme/$name.png","$theme/$name.svg"){
 	    my $src_fn="$src_dir/$fn_icon";
-	    my $dst_fn=$package_path->{$restricted}."$dst_path/".$fn_icon;
+	    my $dst_fn="${package_path}-${theme}/$dst_path/$fn_icon";
 	    if ( -s $src_fn) {
 		print STDERR "$fn_icon	---> $dst_fn\n" if $VERBOSE>2 || $DEBUG;
 		my $dir = dirname($dst_fn);
@@ -111,9 +111,10 @@ B<copy_icons_to_debian_package_dirs.pl> Version 0.1
 =head1 DESCRIPTION
 
 B<copy_icons_to_debian_package_dirs.pl> is a program to copy 
-This little helper copies according to the icons.xml File
-and the geoinfo->restrictions tag
-all icons will be placed into there package directory
+the icons Files into the apropriate debian Directories.
+This little helper copies according to the icons.xml File 
+all files into the new structure.
+All icons will be placed into there package directory
 the default src_dir if build/*
 
 
