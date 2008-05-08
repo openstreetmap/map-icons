@@ -1340,6 +1340,16 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="misc.landmark.forest"/>
+    <scale_min>1</scale_min>
+    <scale_max>500000</scale_max>
+    <title lang="en">Forest</title>
+    <title lang="en">Wald</title>
+    <description lang="en">Forest covering an area</description>
+    <description lang="de">Waldbedeckung fuer ein Gebiet</description>
+  </rule>
+
+  <rule>
     <condition k="poi" v="misc.landmark.barn"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
