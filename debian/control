@@ -24,8 +24,8 @@ Description: Openstreetmap-Map-icons are map Icons
 
 Package: openstreetmap-map-icons-square.small
 Architecture: all
-Depends: ${misc:Depends}
-Recommends: openstreetmap-map-icons
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
+Recommends: 
 Suggests: gpsdrive, mapnik
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
 Description: Openstreetmap-Map-icons are map Icons
@@ -34,7 +34,7 @@ Description: Openstreetmap-Map-icons are map Icons
 
 Package: openstreetmap-map-icons-square.big
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Recommends: openstreetmap-map-icons
 Suggests: gpsdrive, mapnik
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
@@ -44,7 +44,7 @@ Description: Openstreetmap-Map-icons are map Icons
 
 Package: openstreetmap-map-icons-classic.small
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Recommends: openstreetmap-map-icons
 Suggests: gpsdrive, mapnik
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
@@ -54,7 +54,7 @@ Description: Openstreetmap-Map-icons are map Icons
 
 Package: openstreetmap-map-icons-classic.big
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Recommends: openstreetmap-map-icons
 Suggests: gpsdrive, mapnik
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
@@ -65,7 +65,7 @@ Description: Openstreetmap-Map-icons are map Icons
 
 Package: openstreetmap-map-icons-japan
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Recommends: openstreetmap-map-icons
 Suggests: gpsdrive, mapnik
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
@@ -76,7 +76,7 @@ Description: Openstreetmap-Map-icons are map Icons
 
 Package: openstreetmap-map-icons-svg
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Recommends: openstreetmap-map-icons
 Suggests: gpsdrive, mapnik
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted

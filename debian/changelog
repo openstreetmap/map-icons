@@ -1,3 +1,9 @@
+openstreetmap-map-icons (7725) unstable; urgency=low
+
+   * Correct date format in changelog
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Fri, 09 May 2008 01:19:54 +0200
+
 openstreetmap-map-icons (7724) unstable; urgency=low
 
    * Add build depends: libdbd-sqlite3-perl
