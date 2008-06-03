@@ -14,8 +14,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/ms"
-   sodipodi:docname="bikestop2.svg"
+   sodipodi:docbase="/home/ms/osm-svn/svg/vehicle/restrictions"
+   sodipodi:docname="bikestop-simple.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/ms/OSM-Icon-Schutzhütte.png"
    inkscape:export-xdpi="180"
@@ -44,7 +44,7 @@
      inkscape:zoom="45.254834"
      inkscape:cx="10.31761"
      inkscape:cy="2.2980892"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -55,7 +55,7 @@
      gridspacingx="0.25px"
      gridspacingy="0.25px"
      inkscape:window-width="1280"
-     inkscape:window-height="965"
+     inkscape:window-height="962"
      inkscape:window-x="0"
      inkscape:window-y="38"
      gridoriginx="6px"
@@ -98,7 +98,7 @@
     <g
        style="display:inline"
        id="g10847"
-       transform="translate(0.449,-1)">
+       transform="translate(0.449,-1.4996081)">
       <path
          transform="matrix(1.0434781,0,0,1.0434779,-1.0468245,5.9783627e-2)"
          sodipodi:open="true"
@@ -133,7 +133,7 @@
     <g
        style="display:inline"
        id="g10869"
-       transform="translate(-3.0502222,0.5003919)">
+       transform="translate(-3.0502222,1.0003919)">
       <path
          transform="matrix(1.0434781,0,0,1.0434779,-1.0468245,5.9783627e-2)"
          sodipodi:open="true"
