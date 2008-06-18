@@ -348,7 +348,6 @@
     <description lang="en"></description>
   </rule>
 
-
   <rule>
     <condition k="poi" v="transport.bridge"/>
     <condition k="bridge" v="yes"/>
@@ -358,31 +357,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Bridge</title>
     <title lang="de">Brücke</title>
-    <description lang="en"></description>
-  </rule>
-
-
-  <rule>
-    <condition k="rendering" v="transport.track.arrow"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="rendering" v="transport.track.arrow_back"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="rendering" v="transport.track.rail"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
     <description lang="en"></description>
   </rule>
 
@@ -414,30 +388,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Parking</title>
     <title lang="de">Parkplatz</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="rendering" v="vehicle.shield.motorway_shield"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="rendering" v="vehicle.shield.motorway_shield2"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="rendering" v="vehicle.shield.motorway_shield3"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en"></title>
     <description lang="en"></description>
   </rule>
 
@@ -1340,16 +1290,6 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="misc.landmark.forest"/>
-    <scale_min>1</scale_min>
-    <scale_max>500000</scale_max>
-    <title lang="en">Forest</title>
-    <title lang="en">Wald</title>
-    <description lang="en">Forest covering an area</description>
-    <description lang="de">Waldbedeckung fuer ein Gebiet</description>
-  </rule>
-
-  <rule>
     <condition k="poi" v="misc.landmark.barn"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -1370,6 +1310,14 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.landmark.cave"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Cave</title>
     <description lang="en"></description>
   </rule>
 
@@ -1395,6 +1343,16 @@
     <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="misc.landmark.forest"/>
+    <scale_min>1</scale_min>
+    <scale_max>500000</scale_max>
+    <title lang="en">Forest</title>
+    <title lang="en">Wald</title>
+    <description lang="en">Forest covering an area</description>
+    <description lang="de">Waldbedeckung fuer ein Gebiet</description>
   </rule>
 
   <rule>
@@ -1517,14 +1475,6 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="misc.landmark.cave"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Cave</title>
     <description lang="en"></description>
   </rule>
 
@@ -2274,20 +2224,20 @@
   </rule>
 
   <rule>
-    <condition k="poi" v="public.administration.embassy"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Embassy</title>
-    <title lang="de">Botschaft</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
     <condition k="poi" v="public.administration.court_of_law"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">Court of Law</title>
     <title lang="de">Gericht</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="public.administration.embassy"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Embassy</title>
+    <title lang="de">Botschaft</title>
     <description lang="en"></description>
   </rule>
 
@@ -2707,6 +2657,38 @@
   </rule>
 
   <rule>
+    <condition k="rendering" v="rendering.cliff"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.cliff2"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.quarry"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.quarry2"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="rendering" v="rendering.rail_preserved"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
@@ -2755,6 +2737,22 @@
   </rule>
 
   <rule>
+    <condition k="rendering" v="rendering.shield.motorway_shield5"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.motorway_shield6"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="rendering" v="rendering.shield.primary_shield1"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
@@ -2788,6 +2786,30 @@
 
   <rule>
     <condition k="rendering" v="rendering.shield.primary_shield5"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.primary_shield6"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.primary_shield7"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.primary_shield8"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -2835,6 +2857,30 @@
   </rule>
 
   <rule>
+    <condition k="rendering" v="rendering.shield.secondary_shield6"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.secondary_shield7"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.secondary_shield8"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="rendering" v="rendering.shield.tertiary_shield1"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
@@ -2875,6 +2921,30 @@
   </rule>
 
   <rule>
+    <condition k="rendering" v="rendering.shield.tertiary_shield6"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.tertiary_shield7"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.tertiary_shield8"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="rendering" v="rendering.shield.trunk_shield1"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
@@ -2908,6 +2978,30 @@
 
   <rule>
     <condition k="rendering" v="rendering.shield.trunk_shield5"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.trunk_shield6"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.trunk_shield7"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="rendering.shield.trunk_shield8"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
     <title lang="en"></title>
@@ -3870,6 +3964,14 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="sports.bicycle"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="poi" v="sports.bowling"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
@@ -3882,6 +3984,22 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.climbing"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Climbing</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.cricket"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Cricket</title>
     <description lang="en"></description>
   </rule>
 
@@ -3926,6 +4044,22 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="sports.gymnastics"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Gymnastics</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.hockey"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Hockey</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="poi" v="sports.indoor_pool"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -3942,6 +4076,14 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="sports.motor"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Motor Sports</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="poi" v="sports.mountain_bike"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -3954,6 +4096,14 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.polo"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Polo</title>
     <description lang="en"></description>
   </rule>
 
@@ -3982,6 +4132,38 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="sports.rugby"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Rugby</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.sailing"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Sailing</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.skate_park"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Skate Park</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.skating"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Skating</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="poi" v="sports.skiing"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -3996,102 +4178,6 @@
     <scale_max>50000</scale_max>
     <title lang="en">Soccerfield</title>
     <title lang="de">Fußballplatz</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.climbing"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Climbing</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.cricket"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Cricket</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.polo"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Polo</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.skating"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Skating</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.sailing"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Sailing</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.hockey"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Hockey</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.motor"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Motor Sports</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.gymnastics"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Gymnastics</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.rugby"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Rugby</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.skate_park"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Skate Park</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.volleyball"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Volleyball</title>
-    <description lang="en"></description>
-  </rule>
-
-  <rule>
-    <condition k="poi" v="sports.table_tennis"/>
-    <scale_min>1</scale_min>
-    <scale_max>50000</scale_max>
-    <title lang="en">Table Tennis</title>
     <description lang="en"></description>
   </rule>
 
@@ -4120,6 +4206,14 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="sports.table_tennis"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Table Tennis</title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="poi" v="sports.tennis"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -4132,6 +4226,14 @@
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="sports.volleyball"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Volleyball</title>
     <description lang="en"></description>
   </rule>
 
@@ -4366,6 +4468,30 @@
     <condition k="poi" v="transport.track"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="transport.track.arrow"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="transport.track.arrow_back"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="transport.track.rail"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
   </rule>
@@ -4774,6 +4900,22 @@
   </rule>
 
   <rule>
+    <condition k="poi" v="vehicle.restrictions.bikestop"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.bikestop-simple"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
     <condition k="poi" v="vehicle.restrictions.bollard"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
@@ -4785,6 +4927,14 @@
     <condition k="poi" v="vehicle.restrictions.bollard-bw"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="poi" v="vehicle.restrictions.bollard-simple"/>
+    <scale_min>1</scale_min>
+    <scale_max>100000</scale_max>
     <title lang="en"></title>
     <description lang="en"></description>
   </rule>
@@ -4915,6 +5065,30 @@
 
   <rule>
     <condition k="poi" v="vehicle.services"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="vehicle.shield.motorway_shield"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="vehicle.shield.motorway_shield2"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en"></title>
+    <description lang="en"></description>
+  </rule>
+
+  <rule>
+    <condition k="rendering" v="vehicle.shield.motorway_shield3"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en"></title>
