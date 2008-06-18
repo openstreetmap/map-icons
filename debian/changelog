@@ -1,3 +1,21 @@
+openstreetmap-map-icons (8304) unstable; urgency=low
+
+   * add update_icons.pl command; start scripts with interpreter prepended
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Wed, 18 Jun 2008 20:35:11 +0200
+
+openstreetmap-map-icons (8303) unstable; urgency=low
+
+   * Automatic update of changelog from svn-log
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Wed, 18 Jun 2008 20:07:26 +0200
+
+openstreetmap-map-icons (8302) unstable; urgency=low
+
+   * update Icons from directories
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Wed, 18 Jun 2008 19:51:21 +0200
+
 openstreetmap-map-icons (8292) unstable; urgency=low
 
    * -mAdd more rendering symbols from rendering/mapnik/symbols/
