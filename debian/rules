@@ -20,20 +20,6 @@ configure-stamp:
 
 	touch configure-stamp
 
-build: build-stamp
-build-stamp:
-	dh_testdir
-
-	# Add here commands to compile the package.
-	mkdir -p build
-	cd build; cmake ..
-	cd build; $(MAKE)
-	perl ./update_icons.pl 
-	bash ./copy_icons_to_dir.sh build
-	perl ./update_thumbnails.pl build
-	bash ./merge-icons-all-from-svg2classic2square.sh build
-
-	touch build-stamp
 
 clean:
 	dh_testdir
@@ -55,11 +41,11 @@ clean:
 	rm -rf build/svg
 	rm -rf build/svg_png
 	rm -rf build/japan_png
-#	find build/ -ls
+	rm -f debian/files
 
 	dh_clean
 
-install: build
+install:
 	dh_testdir
 	dh_testroot
 	dh_clean -k
@@ -67,8 +53,18 @@ install: build
 
 #	./debian/update_svn_revision.sh
 
+	# Add here commands to compile the package.
+	mkdir -p build
+	cd build; cmake ..
+	cd build; $(MAKE)
+	bash ./copy_icons_to_dir.sh build
+	perl ./update_thumbnails.pl build
+	bash ./merge-icons-all-from-svg2classic2square.sh build
+
+	touch build-stamp
+
 	cp icons.xml build/
-	cd build; perl ../update_icons.pl
+	cd build; perl ../update_icons.pl -v
 	cd build; perl ../create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
 	cd build; perl ../create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
 
