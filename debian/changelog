@@ -1,3 +1,43 @@
+openstreetmap-map-icons (8292) unstable; urgency=low
+
+   * -mAdd more rendering symbols from rendering/mapnik/symbols/
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Wed, 18 Jun 2008 00:23:09 +0200
+
+openstreetmap-map-icons (8285) unstable; urgency=low
+
+   * Add cliff symbols from rendering/mapnik/symbols/cliff2.png
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Tue, 17 Jun 2008 23:10:17 +0200
+
+openstreetmap-map-icons (8235) unstable; urgency=low
+
+   * Get some missing files from http://gpsdrive.de/development/map-icons/square.small/
+
+ -- cmarqu <cmarqu@gpsdrive.de>  Mon, 16 Jun 2008 00:15:18 +0200
+
+openstreetmap-map-icons (8233) unstable; urgency=low
+
+   * Get some missing files from http://gpsdrive.de/development/map-icons/square.small/
+
+ -- cmarqu <cmarqu@gpsdrive.de>  Mon, 16 Jun 2008 00:05:56 +0200
+
+openstreetmap-map-icons (8074) unstable; urgency=low
+
+
+ -- grenzdebil <grenzdebil@gpsdrive.de>  Tue, 03 Jun 2008 20:07:18 +0200
+
+openstreetmap-map-icons (8073) unstable; urgency=low
+
+
+ -- grenzdebil <grenzdebil@gpsdrive.de>  Tue, 03 Jun 2008 20:04:48 +0200
+
+openstreetmap-map-icons (7747) unstable; urgency=low
+
+   * add dependency to openstreetmap-map-icons(>> 7724) and set dependency to one of the theme packages
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sat, 10 May 2008 23:05:53 +0200
+
 openstreetmap-map-icons (7725) unstable; urgency=low
 
    * Correct date format in changelog
@@ -118,98 +158,98 @@ openstreetmap-map-icons (7080) unstable; urgency=low
 
    * - adjusted scales for place types
 
- -- Guenter Maier  Wed, 12 Mar 2008 23:21:42 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Wed, 12 Mar 2008 23:21:42 +0100
 
 openstreetmap-map-icons (7063) unstable; urgency=low
 
    * - added some new poi-types to icons.xml
 
- -- Guenter Maier  Sun, 09 Mar 2008 19:43:24 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Sun, 09 Mar 2008 19:43:24 +0100
 
 openstreetmap-map-icons (7020) unstable; urgency=low
 
    * - separated map rendering icons from poi icons
 
- -- Guenter Maier  Tue, 04 Mar 2008 13:14:30 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Tue, 04 Mar 2008 13:14:30 +0100
 
 openstreetmap-map-icons (7019) unstable; urgency=low
 
    * - updated icons.xml
 
- -- Guenter Maier  Tue, 04 Mar 2008 12:52:52 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Tue, 04 Mar 2008 12:52:52 +0100
 
 openstreetmap-map-icons (7018) unstable; urgency=low
 
    * - removed obsolete geoinfo section from icons.xml creation script
 
- -- Guenter Maier  Tue, 04 Mar 2008 12:41:30 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Tue, 04 Mar 2008 12:41:30 +0100
 
 openstreetmap-map-icons (7011) unstable; urgency=low
 
    * - adapted scale values for friendsd entries
 
- -- Guenter Maier  Mon, 03 Mar 2008 11:39:53 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Mon, 03 Mar 2008 11:39:53 +0100
 
 openstreetmap-map-icons (6918) unstable; urgency=low
 
    * add motorcycle restriction icon
 
- -- Ulf Lamping  Mon, 18 Feb 2008 21:05:58 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 18 Feb 2008 21:05:58 +0100
 
 openstreetmap-map-icons (6891) unstable; urgency=low
 
    * basketball icon from openclipart
 
- -- Ulf Lamping  Sat, 16 Feb 2008 17:06:19 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 16 Feb 2008 17:06:19 +0100
 
 openstreetmap-map-icons (6890) unstable; urgency=low
 
    * optimize icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 16 Feb 2008 15:45:37 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 16 Feb 2008 15:45:37 +0100
 
 openstreetmap-map-icons (6889) unstable; urgency=low
 
    * add airport terminal icon, derived from aiga
 
- -- Ulf Lamping  Sat, 16 Feb 2008 15:28:46 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 16 Feb 2008 15:28:46 +0100
 
 openstreetmap-map-icons (6888) unstable; urgency=low
 
    * add various self drawn sightseeing icons -> PD
 
- -- Ulf Lamping  Sat, 16 Feb 2008 14:58:34 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 16 Feb 2008 14:58:34 +0100
 
 openstreetmap-map-icons (6887) unstable; urgency=low
 
    * create deprecated and proposed icons derived from german wikipedia PD street signs
 
- -- Ulf Lamping  Sat, 16 Feb 2008 12:39:38 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 16 Feb 2008 12:39:38 +0100
 
 openstreetmap-map-icons (6886) unstable; urgency=low
 
    * self created icon -> PD
 
- -- Ulf Lamping  Sat, 16 Feb 2008 05:48:11 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 16 Feb 2008 05:48:11 +0100
 
 openstreetmap-map-icons (6885) unstable; urgency=low
 
    * self created icon -> PD
    * add some svn-ignore stuff
 
- -- Ulf Lamping  Sat, 16 Feb 2008 04:52:58 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 16 Feb 2008 04:52:58 +0100
 
 openstreetmap-map-icons (6884) unstable; urgency=low
 
    * copy over the existing icon hierarchy into something "map features" like - using an XSLT transformation of JOSM's elemstyles.xml to create a "copy shell script"
 
- -- Ulf Lamping  Sat, 16 Feb 2008 03:22:59 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 16 Feb 2008 03:22:59 +0100
 
 openstreetmap-map-icons (6855) unstable; urgency=low
 
    * replace buddhism icon with current usage
 
- -- Ulf Lamping  Tue, 12 Feb 2008 02:38:42 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 12 Feb 2008 02:38:42 +0100
 
 openstreetmap-map-icons (6854) unstable; urgency=low
 
@@ -220,13 +260,13 @@ openstreetmap-map-icons (6854) unstable; urgency=low
    * http://commons.wikimedia.org/wiki/Image:USVA_headstone_emb-05.svg orthodox
    * http://commons.wikimedia.org/wiki/Image:USVA_headstone_emb-11.svg mormon
 
- -- Ulf Lamping  Tue, 12 Feb 2008 02:26:38 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 12 Feb 2008 02:26:38 +0100
 
 openstreetmap-map-icons (6853) unstable; urgency=low
 
    * add a more generic religion icon (compared to the former cross), composite of now existing christian, muslim, hindu and buddhism icons
 
- -- Ulf Lamping  Tue, 12 Feb 2008 01:25:22 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 12 Feb 2008 01:25:22 +0100
 
 openstreetmap-map-icons (6852) unstable; urgency=low
 
@@ -237,212 +277,212 @@ openstreetmap-map-icons (6852) unstable; urgency=low
    * http://commons.wikimedia.org/wiki/Image:Tao.svg
    * http://commons.wikimedia.org/wiki/Image:Ahimsa.svg
 
- -- Ulf Lamping  Tue, 12 Feb 2008 00:23:13 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 12 Feb 2008 00:23:13 +0100
 
 openstreetmap-map-icons (6848) unstable; urgency=low
 
    * gurdwara -> sikhism - instead of trying to find out the temple names of various religious groups, simply use the name of the religion as appearing in wikipedia
 
- -- Ulf Lamping  Mon, 11 Feb 2008 23:27:17 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 11 Feb 2008 23:27:17 +0100
 
 openstreetmap-map-icons (6845) unstable; urgency=low
 
    * PD icon for gurdwara (sikh temple), coming from http://en.wikipedia.org/wiki/Image:Khanda.svg
 
- -- Ulf Lamping  Mon, 11 Feb 2008 21:15:24 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 11 Feb 2008 21:15:24 +0100
 
 openstreetmap-map-icons (6823) unstable; urgency=low
 
    * new crane icon from Christian Koerner,
    * fix license of peak_small icon, deleted with last resizing
 
- -- Ulf Lamping  Sun, 10 Feb 2008 13:33:30 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 10 Feb 2008 13:33:30 +0100
 
 openstreetmap-map-icons (6815) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 09 Feb 2008 18:03:18 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 18:03:18 +0100
 
 openstreetmap-map-icons (6812) unstable; urgency=low
 
    * self created -> PD
 
- -- Ulf Lamping  Sat, 09 Feb 2008 14:24:57 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 14:24:57 +0100
 
 openstreetmap-map-icons (6810) unstable; urgency=low
 
    * self created -> PD
 
- -- Ulf Lamping  Sat, 09 Feb 2008 12:47:52 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 12:47:52 +0100
 
 openstreetmap-map-icons (6809) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 09 Feb 2008 12:13:09 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 12:13:09 +0100
 
 openstreetmap-map-icons (6806) unstable; urgency=low
 
    * self created -> PD
 
- -- Ulf Lamping  Sat, 09 Feb 2008 11:05:57 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 11:05:57 +0100
 
 openstreetmap-map-icons (6805) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 09 Feb 2008 03:56:39 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 03:56:39 +0100
 
 openstreetmap-map-icons (6804) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 09 Feb 2008 02:45:19 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 02:45:19 +0100
 
 openstreetmap-map-icons (6800) unstable; urgency=low
 
    * self created -> PD
 
- -- Ulf Lamping  Sat, 09 Feb 2008 00:25:08 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 00:25:08 +0100
 
 openstreetmap-map-icons (6799) unstable; urgency=low
 
    * self created -> PD
 
- -- Ulf Lamping  Sat, 09 Feb 2008 00:15:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 00:15:29 +0100
 
 openstreetmap-map-icons (6798) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 09 Feb 2008 00:03:56 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 09 Feb 2008 00:03:56 +0100
 
 openstreetmap-map-icons (6797) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Fri, 08 Feb 2008 23:48:31 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 08 Feb 2008 23:48:31 +0100
 
 openstreetmap-map-icons (6796) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Fri, 08 Feb 2008 23:39:52 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 08 Feb 2008 23:39:52 +0100
 
 openstreetmap-map-icons (6795) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Fri, 08 Feb 2008 23:32:37 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 08 Feb 2008 23:32:37 +0100
 
 openstreetmap-map-icons (6794) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 08 Feb 2008 23:21:37 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 08 Feb 2008 23:21:37 +0100
 
 openstreetmap-map-icons (6754) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 02 Feb 2008 21:18:20 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 02 Feb 2008 21:18:20 +0100
 
 openstreetmap-map-icons (6753) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 02 Feb 2008 21:12:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 02 Feb 2008 21:12:05 +0100
 
 openstreetmap-map-icons (6752) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 02 Feb 2008 20:59:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 02 Feb 2008 20:59:05 +0100
 
 openstreetmap-map-icons (6701) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Mon, 28 Jan 2008 03:21:16 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 03:21:16 +0100
 
 openstreetmap-map-icons (6700) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Mon, 28 Jan 2008 02:52:27 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 02:52:27 +0100
 
 openstreetmap-map-icons (6699) unstable; urgency=low
 
    * fix icon background
 
- -- Ulf Lamping  Mon, 28 Jan 2008 02:52:03 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 02:52:03 +0100
 
 openstreetmap-map-icons (6698) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Mon, 28 Jan 2008 02:29:16 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 02:29:16 +0100
 
 openstreetmap-map-icons (6697) unstable; urgency=low
 
    * use the church icon for the top level
 
- -- Ulf Lamping  Mon, 28 Jan 2008 02:13:02 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 02:13:02 +0100
 
 openstreetmap-map-icons (6696) unstable; urgency=low
 
    * fix license
 
- -- Ulf Lamping  Mon, 28 Jan 2008 02:07:04 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 02:07:04 +0100
 
 openstreetmap-map-icons (6695) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Mon, 28 Jan 2008 01:46:21 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 01:46:21 +0100
 
 openstreetmap-map-icons (6694) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Mon, 28 Jan 2008 01:26:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 01:26:29 +0100
 
 openstreetmap-map-icons (6693) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Mon, 28 Jan 2008 01:14:48 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 01:14:48 +0100
 
 openstreetmap-map-icons (6692) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Mon, 28 Jan 2008 01:07:20 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 28 Jan 2008 01:07:20 +0100
 
 openstreetmap-map-icons (6691) unstable; urgency=low
 
    * add a redrawn car_sharing icon
 
- -- Ulf Lamping  Sun, 27 Jan 2008 23:00:34 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 23:00:34 +0100
 
 openstreetmap-map-icons (6690) unstable; urgency=low
 
    * derived from wikipedia
 
- -- Ulf Lamping  Sun, 27 Jan 2008 22:31:32 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 22:31:32 +0100
 
 openstreetmap-map-icons (6689) unstable; urgency=low
 
    * add a redrawn zebra_crossing icon
 
- -- Ulf Lamping  Sun, 27 Jan 2008 22:14:39 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 22:14:39 +0100
 
 openstreetmap-map-icons (6688) unstable; urgency=low
 
    * derived from wikipedia
 
- -- Ulf Lamping  Sun, 27 Jan 2008 21:56:54 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 21:56:54 +0100
 
 openstreetmap-map-icons (6686) unstable; urgency=low
 
@@ -484,577 +524,577 @@ openstreetmap-map-icons (6680) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 18:52:12 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 18:52:12 +0100
 
 openstreetmap-map-icons (6679) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 18:35:23 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 18:35:23 +0100
 
 openstreetmap-map-icons (6678) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 18:30:09 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 18:30:09 +0100
 
 openstreetmap-map-icons (6676) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 15:31:36 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 15:31:36 +0100
 
 openstreetmap-map-icons (6675) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 15:16:02 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 15:16:02 +0100
 
 openstreetmap-map-icons (6674) unstable; urgency=low
 
    * derived from wikipedia
 
- -- Ulf Lamping  Sun, 27 Jan 2008 14:58:40 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 14:58:40 +0100
 
 openstreetmap-map-icons (6673) unstable; urgency=low
 
    * derived from wikipedia
 
- -- Ulf Lamping  Sun, 27 Jan 2008 14:35:56 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 14:35:56 +0100
 
 openstreetmap-map-icons (6672) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 14:14:19 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 14:14:19 +0100
 
 openstreetmap-map-icons (6671) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 14:08:00 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 14:08:00 +0100
 
 openstreetmap-map-icons (6670) unstable; urgency=low
 
    * derived from wikipedia
 
- -- Ulf Lamping  Sun, 27 Jan 2008 13:51:25 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 13:51:25 +0100
 
 openstreetmap-map-icons (6669) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sun, 27 Jan 2008 02:29:59 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 02:29:59 +0100
 
 openstreetmap-map-icons (6668) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 02:23:28 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 02:23:28 +0100
 
 openstreetmap-map-icons (6667) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sun, 27 Jan 2008 02:19:59 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 02:19:59 +0100
 
 openstreetmap-map-icons (6666) unstable; urgency=low
 
    * derived from wikipedia
 
- -- Ulf Lamping  Sun, 27 Jan 2008 01:11:49 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 01:11:49 +0100
 
 openstreetmap-map-icons (6665) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 27 Jan 2008 00:54:44 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 00:54:44 +0100
 
 openstreetmap-map-icons (6664) unstable; urgency=low
 
    * derived from wikipedia
 
- -- Ulf Lamping  Sun, 27 Jan 2008 00:45:51 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 00:45:51 +0100
 
 openstreetmap-map-icons (6663) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sun, 27 Jan 2008 00:35:42 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 00:35:42 +0100
 
 openstreetmap-map-icons (6662) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sun, 27 Jan 2008 00:27:25 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 00:27:25 +0100
 
 openstreetmap-map-icons (6661) unstable; urgency=low
 
    * derived from openclipart/wiki
 
- -- Ulf Lamping  Sun, 27 Jan 2008 00:07:26 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 27 Jan 2008 00:07:26 +0100
 
 openstreetmap-map-icons (6660) unstable; urgency=low
 
    * derived from openclipart/wiki
 
- -- Ulf Lamping  Sat, 26 Jan 2008 23:39:32 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 23:39:32 +0100
 
 openstreetmap-map-icons (6659) unstable; urgency=low
 
    * derived from bridge SVG
 
- -- Ulf Lamping  Sat, 26 Jan 2008 23:27:23 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 23:27:23 +0100
 
 openstreetmap-map-icons (6658) unstable; urgency=low
 
    * derived from bridge and car SVG
 
- -- Ulf Lamping  Sat, 26 Jan 2008 23:18:48 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 23:18:48 +0100
 
 openstreetmap-map-icons (6657) unstable; urgency=low
 
    * slightly "compress" icon
 
- -- Ulf Lamping  Sat, 26 Jan 2008 23:08:39 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 23:08:39 +0100
 
 openstreetmap-map-icons (6656) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 26 Jan 2008 22:59:10 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 22:59:10 +0100
 
 openstreetmap-map-icons (6655) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 26 Jan 2008 22:55:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 22:55:05 +0100
 
 openstreetmap-map-icons (6654) unstable; urgency=low
 
    * change icons for better display in JOSM
 
- -- Ulf Lamping  Sat, 26 Jan 2008 22:50:49 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 22:50:49 +0100
 
 openstreetmap-map-icons (6653) unstable; urgency=low
 
    * not sure about the license
 
- -- Ulf Lamping  Sat, 26 Jan 2008 22:39:37 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 22:39:37 +0100
 
 openstreetmap-map-icons (6652) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 26 Jan 2008 22:32:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 22:32:29 +0100
 
 openstreetmap-map-icons (6651) unstable; urgency=low
 
    * new atm icon, no longer restricted
 
- -- Ulf Lamping  Sat, 26 Jan 2008 22:10:59 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 22:10:59 +0100
 
 openstreetmap-map-icons (6650) unstable; urgency=low
 
    * derived from money.png and hostel.png
 
- -- Ulf Lamping  Sat, 26 Jan 2008 21:36:56 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 21:36:56 +0100
 
 openstreetmap-map-icons (6649) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 26 Jan 2008 21:28:52 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 21:28:52 +0100
 
 openstreetmap-map-icons (6648) unstable; urgency=low
 
    * derived from bus (square big)
 
- -- Ulf Lamping  Sat, 26 Jan 2008 21:15:41 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 21:15:41 +0100
 
 openstreetmap-map-icons (6647) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sat, 26 Jan 2008 21:13:46 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 21:13:46 +0100
 
 openstreetmap-map-icons (6646) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sat, 26 Jan 2008 21:08:17 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 21:08:17 +0100
 
 openstreetmap-map-icons (6645) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 26 Jan 2008 20:53:12 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 20:53:12 +0100
 
 openstreetmap-map-icons (6644) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 26 Jan 2008 20:40:58 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 20:40:58 +0100
 
 openstreetmap-map-icons (6643) unstable; urgency=low
 
    * use a black border
 
- -- Ulf Lamping  Sat, 26 Jan 2008 20:25:44 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 20:25:44 +0100
 
 openstreetmap-map-icons (6642) unstable; urgency=low
 
    * use a black instead of a white border
 
- -- Ulf Lamping  Sat, 26 Jan 2008 20:18:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 20:18:29 +0100
 
 openstreetmap-map-icons (6641) unstable; urgency=low
 
    * don't create a backup file, that's what svn is for!
 
- -- Ulf Lamping  Sat, 26 Jan 2008 20:16:27 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 20:16:27 +0100
 
 openstreetmap-map-icons (6640) unstable; urgency=low
 
    * G?\195?\188nther Meyer, the original author of the empty icons, gave permission to put these icons under the public domain
 
- -- Ulf Lamping  Sat, 26 Jan 2008 19:52:14 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 26 Jan 2008 19:52:14 +0100
 
 openstreetmap-map-icons (6639) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Fri, 25 Jan 2008 23:48:45 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 23:48:45 +0100
 
 openstreetmap-map-icons (6638) unstable; urgency=low
 
    * add a new mountain_pass icon
 
- -- Ulf Lamping  Fri, 25 Jan 2008 23:28:47 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 23:28:47 +0100
 
 openstreetmap-map-icons (6637) unstable; urgency=low
 
    * derived from PD http://de.wikipedia.org/wiki/Bild:Schlaegel_und_eisen-sign_of_mining.svg
 
- -- Ulf Lamping  Fri, 25 Jan 2008 23:04:43 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 23:04:43 +0100
 
 openstreetmap-map-icons (6635) unstable; urgency=low
 
    * add a new door icon
 
- -- Ulf Lamping  Fri, 25 Jan 2008 22:34:06 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 22:34:06 +0100
 
 openstreetmap-map-icons (6634) unstable; urgency=low
 
    * derived from camping/water
 
- -- Ulf Lamping  Fri, 25 Jan 2008 22:12:35 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 22:12:35 +0100
 
 openstreetmap-map-icons (6633) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Fri, 25 Jan 2008 22:01:00 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 22:01:00 +0100
 
 openstreetmap-map-icons (6626) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 03:04:42 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 03:04:42 +0100
 
 openstreetmap-map-icons (6625) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Fri, 25 Jan 2008 02:48:12 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 02:48:12 +0100
 
 openstreetmap-map-icons (6624) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Fri, 25 Jan 2008 02:40:11 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 02:40:11 +0100
 
 openstreetmap-map-icons (6623) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Fri, 25 Jan 2008 02:33:56 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 02:33:56 +0100
 
 openstreetmap-map-icons (6622) unstable; urgency=low
 
    * add PD license
 
- -- Ulf Lamping  Fri, 25 Jan 2008 02:24:28 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 02:24:28 +0100
 
 openstreetmap-map-icons (6621) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 02:23:36 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 02:23:36 +0100
 
 openstreetmap-map-icons (6620) unstable; urgency=low
 
    * improve canvas
 
- -- Ulf Lamping  Fri, 25 Jan 2008 02:21:31 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 02:21:31 +0100
 
 openstreetmap-map-icons (6619) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 02:09:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 02:09:05 +0100
 
 openstreetmap-map-icons (6618) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:40:22 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:40:22 +0100
 
 openstreetmap-map-icons (6617) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:38:19 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:38:19 +0100
 
 openstreetmap-map-icons (6616) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:35:52 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:35:52 +0100
 
 openstreetmap-map-icons (6615) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:33:33 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:33:33 +0100
 
 openstreetmap-map-icons (6614) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:29:47 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:29:47 +0100
 
 openstreetmap-map-icons (6613) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:26:37 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:26:37 +0100
 
 openstreetmap-map-icons (6612) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:23:33 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:23:33 +0100
 
 openstreetmap-map-icons (6611) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:20:30 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:20:30 +0100
 
 openstreetmap-map-icons (6610) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:09:43 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:09:43 +0100
 
 openstreetmap-map-icons (6609) unstable; urgency=low
 
    * improve pier icon
 
- -- Ulf Lamping  Fri, 25 Jan 2008 01:04:55 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 01:04:55 +0100
 
 openstreetmap-map-icons (6608) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 00:53:51 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 00:53:51 +0100
 
 openstreetmap-map-icons (6607) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 00:50:17 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 00:50:17 +0100
 
 openstreetmap-map-icons (6606) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 00:44:28 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 00:44:28 +0100
 
 openstreetmap-map-icons (6605) unstable; urgency=low
 
    * new PD licensed icons
 
- -- Ulf Lamping  Fri, 25 Jan 2008 00:37:50 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 00:37:50 +0100
 
 openstreetmap-map-icons (6604) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 00:22:19 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 00:22:19 +0100
 
 openstreetmap-map-icons (6603) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 00:12:07 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 00:12:07 +0100
 
 openstreetmap-map-icons (6602) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Fri, 25 Jan 2008 00:06:40 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 25 Jan 2008 00:06:40 +0100
 
 openstreetmap-map-icons (6601) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Thu, 24 Jan 2008 22:42:02 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 22:42:02 +0100
 
 openstreetmap-map-icons (6600) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Thu, 24 Jan 2008 22:39:16 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 22:39:16 +0100
 
 openstreetmap-map-icons (6599) unstable; urgency=low
 
    * add PD license
 
- -- Ulf Lamping  Thu, 24 Jan 2008 22:18:09 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 22:18:09 +0100
 
 openstreetmap-map-icons (6598) unstable; urgency=low
 
    * new PD licensed icons
 
- -- Ulf Lamping  Thu, 24 Jan 2008 22:15:54 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 22:15:54 +0100
 
 openstreetmap-map-icons (6597) unstable; urgency=low
 
    * new PD licensed icons
 
- -- Ulf Lamping  Thu, 24 Jan 2008 21:53:10 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 21:53:10 +0100
 
 openstreetmap-map-icons (6596) unstable; urgency=low
 
    * new PD licensed icons
 
- -- Ulf Lamping  Thu, 24 Jan 2008 21:36:52 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 21:36:52 +0100
 
 openstreetmap-map-icons (6595) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Thu, 24 Jan 2008 21:23:52 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 21:23:52 +0100
 
 openstreetmap-map-icons (6594) unstable; urgency=low
 
    * add PD license
 
- -- Ulf Lamping  Thu, 24 Jan 2008 21:16:41 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 21:16:41 +0100
 
 openstreetmap-map-icons (6593) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Thu, 24 Jan 2008 21:15:15 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 21:15:15 +0100
 
 openstreetmap-map-icons (6592) unstable; urgency=low
 
    * new PD licensed icons
 
- -- Ulf Lamping  Thu, 24 Jan 2008 21:11:06 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 21:11:06 +0100
 
 openstreetmap-map-icons (6580) unstable; urgency=low
 
    * add PD license
 
- -- Ulf Lamping  Thu, 24 Jan 2008 07:27:00 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 07:27:00 +0100
 
 openstreetmap-map-icons (6579) unstable; urgency=low
 
    * a better water tap icon
 
- -- Ulf Lamping  Thu, 24 Jan 2008 07:25:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 07:25:05 +0100
 
 openstreetmap-map-icons (6578) unstable; urgency=low
 
    * a camping/dump-station icon
 
- -- Ulf Lamping  Thu, 24 Jan 2008 07:05:36 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 07:05:36 +0100
 
 openstreetmap-map-icons (6577) unstable; urgency=low
 
    * a camping/hookup icon
 
- -- Ulf Lamping  Thu, 24 Jan 2008 06:46:54 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 06:46:54 +0100
 
 openstreetmap-map-icons (6576) unstable; urgency=low
 
    * use PD licensed icons for accommodation "top level" icons
 
- -- Ulf Lamping  Thu, 24 Jan 2008 06:19:06 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 06:19:06 +0100
 
 openstreetmap-map-icons (6575) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Thu, 24 Jan 2008 06:14:02 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 06:14:02 +0100
 
 openstreetmap-map-icons (6574) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Thu, 24 Jan 2008 05:51:13 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 24 Jan 2008 05:51:13 +0100
 
 openstreetmap-map-icons (6550) unstable; urgency=low
 
    * - added  source templates for square.big and square.small icons
 
- -- Guenter Maier  Tue, 22 Jan 2008 22:27:33 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Tue, 22 Jan 2008 22:27:33 +0100
 
 openstreetmap-map-icons (6514) unstable; urgency=low
 
    * a different zoo icon
 
- -- Ulf Lamping  Mon, 21 Jan 2008 00:20:54 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 21 Jan 2008 00:20:54 +0100
 
 openstreetmap-map-icons (6513) unstable; urgency=low
 
    * a guest house icon
 
- -- Ulf Lamping  Sun, 20 Jan 2008 23:33:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 23:33:29 +0100
 
 openstreetmap-map-icons (6512) unstable; urgency=low
 
    * a pier icon
 
- -- Ulf Lamping  Sun, 20 Jan 2008 22:42:20 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 22:42:20 +0100
 
 openstreetmap-map-icons (6511) unstable; urgency=low
 
    * a better icon display in JOSM
 
- -- Ulf Lamping  Sun, 20 Jan 2008 22:07:47 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 22:07:47 +0100
 
 openstreetmap-map-icons (6510) unstable; urgency=low
 
    * a new wastewater_plant icon
 
- -- Ulf Lamping  Sun, 20 Jan 2008 22:01:06 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 22:01:06 +0100
 
 openstreetmap-map-icons (6509) unstable; urgency=low
 
    * add a new gas-refill icon
 
- -- Ulf Lamping  Sun, 20 Jan 2008 21:19:08 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 21:19:08 +0100
 
 openstreetmap-map-icons (6508) unstable; urgency=low
 
    * svg_tn, japan_tn -> svg_png, japan_png
 
- -- Ulf Lamping  Sun, 20 Jan 2008 21:17:31 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 21:17:31 +0100
 
 openstreetmap-map-icons (6507) unstable; urgency=low
 
@@ -1066,7 +1106,7 @@ openstreetmap-map-icons (6506) unstable; urgency=low
 
    * a shooting range icon
 
- -- Ulf Lamping  Sun, 20 Jan 2008 20:33:42 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 20:33:42 +0100
 
 openstreetmap-map-icons (6505) unstable; urgency=low
 
@@ -1084,7 +1124,7 @@ openstreetmap-map-icons (6503) unstable; urgency=low
 
    * add a new bunker icon
 
- -- Ulf Lamping  Sun, 20 Jan 2008 19:43:39 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 19:43:39 +0100
 
 openstreetmap-map-icons (6502) unstable; urgency=low
 
@@ -1102,19 +1142,19 @@ openstreetmap-map-icons (6499) unstable; urgency=low
 
    * a better icon display in JOSM
 
- -- Ulf Lamping  Sun, 20 Jan 2008 18:34:50 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 18:34:50 +0100
 
 openstreetmap-map-icons (6498) unstable; urgency=low
 
    * add new icon places/locality
 
- -- Ulf Lamping  Sun, 20 Jan 2008 18:23:25 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 18:23:25 +0100
 
 openstreetmap-map-icons (6497) unstable; urgency=low
 
    * I've tried to draw a better firebrigade icon
 
- -- Ulf Lamping  Sun, 20 Jan 2008 18:22:14 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 18:22:14 +0100
 
 openstreetmap-map-icons (6496) unstable; urgency=low
 
@@ -1138,320 +1178,320 @@ openstreetmap-map-icons (6493) unstable; urgency=low
 
    * (re-)draw some nautical SVG icons to better display what they mean, derive PNG's from it
 
- -- Ulf Lamping  Sun, 20 Jan 2008 15:27:33 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 15:27:33 +0100
 
 openstreetmap-map-icons (6492) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 20 Jan 2008 13:33:44 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 13:33:44 +0100
 
 openstreetmap-map-icons (6491) unstable; urgency=low
 
    * adjust alignment of dollar signs
 
- -- Ulf Lamping  Sun, 20 Jan 2008 13:30:59 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 13:30:59 +0100
 
 openstreetmap-map-icons (6490) unstable; urgency=low
 
    * PD license: various icons taken from http://de.wikipedia.org/wiki/Bildtafel_der_Verkehrszeichen_in_Deutschland
 
- -- Ulf Lamping  Sun, 20 Jan 2008 13:19:23 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 13:19:23 +0100
 
 openstreetmap-map-icons (6489) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 20 Jan 2008 13:19:02 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 13:19:02 +0100
 
 openstreetmap-map-icons (6488) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sun, 20 Jan 2008 13:05:51 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 13:05:51 +0100
 
 openstreetmap-map-icons (6487) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 20 Jan 2008 12:54:59 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 12:54:59 +0100
 
 openstreetmap-map-icons (6486) unstable; urgency=low
 
    * PD license: various icons taken from http://de.wikipedia.org/wiki/Bildtafel_der_Verkehrszeichen_in_Deutschland
 
- -- Ulf Lamping  Sun, 20 Jan 2008 12:41:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 12:41:05 +0100
 
 openstreetmap-map-icons (6485) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 20 Jan 2008 11:57:31 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 11:57:31 +0100
 
 openstreetmap-map-icons (6484) unstable; urgency=low
 
    * add svg_tn and japan_tn to the ignore list
 
- -- Ulf Lamping  Sun, 20 Jan 2008 11:47:42 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 11:47:42 +0100
 
 openstreetmap-map-icons (6483) unstable; urgency=low
 
    * more icons PD licensed (from Martin Simon)
    * derived from SVG
 
- -- Ulf Lamping  Sun, 20 Jan 2008 11:39:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 11:39:29 +0100
 
 openstreetmap-map-icons (6482) unstable; urgency=low
 
    * more icons PD licensed (from Martin Simon)
 
- -- Ulf Lamping  Sun, 20 Jan 2008 11:29:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 11:29:05 +0100
 
 openstreetmap-map-icons (6480) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sun, 20 Jan 2008 03:21:23 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 03:21:23 +0100
 
 openstreetmap-map-icons (6479) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sun, 20 Jan 2008 03:15:12 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 03:15:12 +0100
 
 openstreetmap-map-icons (6478) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 20 Jan 2008 02:39:51 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 02:39:51 +0100
 
 openstreetmap-map-icons (6477) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sun, 20 Jan 2008 02:31:35 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 02:31:35 +0100
 
 openstreetmap-map-icons (6476) unstable; urgency=low
 
    * use the soccer icon for the sports part
 
- -- Ulf Lamping  Sun, 20 Jan 2008 02:23:40 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 02:23:40 +0100
 
 openstreetmap-map-icons (6475) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sun, 20 Jan 2008 02:17:43 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 02:17:43 +0100
 
 openstreetmap-map-icons (6474) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 20 Jan 2008 02:17:06 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 02:17:06 +0100
 
 openstreetmap-map-icons (6473) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sun, 20 Jan 2008 01:52:55 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 20 Jan 2008 01:52:55 +0100
 
 openstreetmap-map-icons (6471) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sat, 19 Jan 2008 22:24:04 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 22:24:04 +0100
 
 openstreetmap-map-icons (6470) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sat, 19 Jan 2008 21:38:21 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 21:38:21 +0100
 
 openstreetmap-map-icons (6469) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 19 Jan 2008 21:28:16 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 21:28:16 +0100
 
 openstreetmap-map-icons (6468) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sat, 19 Jan 2008 21:18:10 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 21:18:10 +0100
 
 openstreetmap-map-icons (6467) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sat, 19 Jan 2008 20:57:10 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 20:57:10 +0100
 
 openstreetmap-map-icons (6466) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sat, 19 Jan 2008 20:31:40 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 20:31:40 +0100
 
 openstreetmap-map-icons (6464) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sat, 19 Jan 2008 19:50:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 19:50:29 +0100
 
 openstreetmap-map-icons (6463) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sat, 19 Jan 2008 19:43:44 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 19:43:44 +0100
 
 openstreetmap-map-icons (6462) unstable; urgency=low
 
    * toilets: blue -> black, convert to png
 
- -- Ulf Lamping  Sat, 19 Jan 2008 19:35:33 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 19:35:33 +0100
 
 openstreetmap-map-icons (6461) unstable; urgency=low
 
    * use the same icons as in accomodation/camping/trash
 
- -- Ulf Lamping  Sat, 19 Jan 2008 19:23:42 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 19:23:42 +0100
 
 openstreetmap-map-icons (6459) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sat, 19 Jan 2008 19:12:59 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 19:12:59 +0100
 
 openstreetmap-map-icons (6458) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sat, 19 Jan 2008 19:08:21 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 19:08:21 +0100
 
 openstreetmap-map-icons (6457) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 19 Jan 2008 19:01:13 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 19:01:13 +0100
 
 openstreetmap-map-icons (6456) unstable; urgency=low
 
    * derived from SVG
 
- -- Ulf Lamping  Sat, 19 Jan 2008 19:00:53 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 19:00:53 +0100
 
 openstreetmap-map-icons (6454) unstable; urgency=low
 
    * more icons PD licensed
 
- -- Ulf Lamping  Sat, 19 Jan 2008 18:28:41 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 18:28:41 +0100
 
 openstreetmap-map-icons (6453) unstable; urgency=low
 
    * fix water tap in classic big and derive square's from it
 
- -- Ulf Lamping  Sat, 19 Jan 2008 18:06:45 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 18:06:45 +0100
 
 openstreetmap-map-icons (6452) unstable; urgency=low
 
    * fix some descriptions
 
- -- Ulf Lamping  Sat, 19 Jan 2008 18:04:44 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 19 Jan 2008 18:04:44 +0100
 
 openstreetmap-map-icons (6439) unstable; urgency=low
 
    * PD: SVG from sodipodi
 
- -- Ulf Lamping  Fri, 18 Jan 2008 00:14:04 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 18 Jan 2008 00:14:04 +0100
 
 openstreetmap-map-icons (6437) unstable; urgency=low
 
    * redraw wastewater icon in SVG and derive other formats from it
 
- -- Ulf Lamping  Fri, 18 Jan 2008 00:01:16 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 18 Jan 2008 00:01:16 +0100
 
 openstreetmap-map-icons (6435) unstable; urgency=low
 
    * license text got lost :-(
 
- -- Ulf Lamping  Thu, 17 Jan 2008 23:00:14 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 23:00:14 +0100
 
 openstreetmap-map-icons (6434) unstable; urgency=low
 
    * add a white background for better display in JOSM
 
- -- Ulf Lamping  Thu, 17 Jan 2008 22:56:19 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 22:56:19 +0100
 
 openstreetmap-map-icons (6433) unstable; urgency=low
 
    * PD recycling symbol from http://de.wikipedia.org/wiki/Bild:Recycle001.svg
 
- -- Ulf Lamping  Thu, 17 Jan 2008 22:43:27 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 22:43:27 +0100
 
 openstreetmap-map-icons (6431) unstable; urgency=low
 
    * prettify camping icon and convert to classic
 
- -- Ulf Lamping  Thu, 17 Jan 2008 22:14:07 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 22:14:07 +0100
 
 openstreetmap-map-icons (6430) unstable; urgency=low
 
    * make the caravan coloring look a bit more realistic and convert to other formats
 
- -- Ulf Lamping  Thu, 17 Jan 2008 21:59:30 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 21:59:30 +0100
 
 openstreetmap-map-icons (6429) unstable; urgency=low
 
    * add the trash icon from sodipodi (PD), the former icon reminded me all the time of a glass with some icecubes in it
 
- -- Ulf Lamping  Thu, 17 Jan 2008 21:37:48 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 21:37:48 +0100
 
 openstreetmap-map-icons (6423) unstable; urgency=low
 
    * PD license: the rest of the accommodation icons that I know the license of
 
- -- Ulf Lamping  Thu, 17 Jan 2008 03:34:02 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 03:34:02 +0100
 
 openstreetmap-map-icons (6422) unstable; urgency=low
 
    * PD license: some shopping tags (derived from openclipart)
 
- -- Ulf Lamping  Thu, 17 Jan 2008 03:09:42 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 03:09:42 +0100
 
 openstreetmap-map-icons (6421) unstable; urgency=low
 
    * add a PD symbol from openclipart
 
- -- Ulf Lamping  Thu, 17 Jan 2008 02:14:53 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 02:14:53 +0100
 
 openstreetmap-map-icons (6420) unstable; urgency=low
 
    * PD license: various icons taken from http://de.wikipedia.org/wiki/Bildtafel_der_Verkehrszeichen_in_Deutschland
 
- -- Ulf Lamping  Thu, 17 Jan 2008 01:35:07 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 01:35:07 +0100
 
 openstreetmap-map-icons (6419) unstable; urgency=low
 
    * PD license: cabinrental from sodipodi cliparts
 
- -- Ulf Lamping  Thu, 17 Jan 2008 01:23:32 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 17 Jan 2008 01:23:32 +0100
 
 openstreetmap-map-icons (6405) unstable; urgency=low
 
    * add a white background for better display in JOSM
 
- -- Ulf Lamping  Wed, 16 Jan 2008 09:31:33 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 16 Jan 2008 09:31:33 +0100
 
 openstreetmap-map-icons (6404) unstable; urgency=low
 
    * redraw viaduct/aqueduct icons using SVG (inkscape), derive png's from it
 
- -- Ulf Lamping  Wed, 16 Jan 2008 09:23:45 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 16 Jan 2008 09:23:45 +0100
 
 openstreetmap-map-icons (6403) unstable; urgency=low
 
    * add a white background so put icons on white background, otherwise nothing to see in JOSM
 
- -- Ulf Lamping  Wed, 16 Jan 2008 01:10:39 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 16 Jan 2008 01:10:39 +0100
 
 openstreetmap-map-icons (6401) unstable; urgency=low
 
@@ -1463,325 +1503,325 @@ openstreetmap-map-icons (6383) unstable; urgency=low
 
    * add a white background for better display in JOSM
 
- -- Ulf Lamping  Mon, 14 Jan 2008 11:09:06 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 14 Jan 2008 11:09:06 +0100
 
 openstreetmap-map-icons (6382) unstable; urgency=low
 
    * Remove ' from icon description to avoid database problems
 
- -- Ulf Lamping  Mon, 14 Jan 2008 11:08:03 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 14 Jan 2008 11:08:03 +0100
 
 openstreetmap-map-icons (6381) unstable; urgency=low
 
    * put "use Image::Info;" back into
 
- -- Ulf Lamping  Mon, 14 Jan 2008 10:57:25 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 14 Jan 2008 10:57:25 +0100
 
 openstreetmap-map-icons (6371) unstable; urgency=low
 
    * some more derives from OSM wiki and SVG
 
- -- Ulf Lamping  Sat, 12 Jan 2008 23:25:49 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 23:25:49 +0100
 
 openstreetmap-map-icons (6370) unstable; urgency=low
 
    * derive from original OSM wiki file
 
- -- Ulf Lamping  Sat, 12 Jan 2008 23:22:57 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 23:22:57 +0100
 
 openstreetmap-map-icons (6369) unstable; urgency=low
 
    * some more PD wikipedia icons and some more derived square icons
 
- -- Ulf Lamping  Sat, 12 Jan 2008 22:18:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 22:18:05 +0100
 
 openstreetmap-map-icons (6368) unstable; urgency=low
 
    * some more stuff derived from SVG
 
- -- Ulf Lamping  Sat, 12 Jan 2008 20:58:32 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 20:58:32 +0100
 
 openstreetmap-map-icons (6364) unstable; urgency=low
 
    * fix bollard, some stuff was in transport, the rest was in vehicle
 
- -- Ulf Lamping  Sat, 12 Jan 2008 18:36:32 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 18:36:32 +0100
 
 openstreetmap-map-icons (6363) unstable; urgency=low
 
    * stuff derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 18:30:38 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 18:30:38 +0100
 
 openstreetmap-map-icons (6362) unstable; urgency=low
 
    * some icon cleanup
 
- -- Ulf Lamping  Sat, 12 Jan 2008 18:29:56 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 18:29:56 +0100
 
 openstreetmap-map-icons (6361) unstable; urgency=low
 
    * remove accidentially added *32 entries
 
- -- Ulf Lamping  Sat, 12 Jan 2008 18:28:28 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 18:28:28 +0100
 
 openstreetmap-map-icons (6360) unstable; urgency=low
 
    * symbols derived from SVG
 
- -- Ulf Lamping  Sat, 12 Jan 2008 17:48:55 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 17:48:55 +0100
 
 openstreetmap-map-icons (6359) unstable; urgency=low
 
    * chalet symbol from sodipodi
 
- -- Ulf Lamping  Sat, 12 Jan 2008 17:48:21 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 17:48:21 +0100
 
 openstreetmap-map-icons (6358) unstable; urgency=low
 
    * more SVG's from openclipart (and derives)
 
- -- Ulf Lamping  Sat, 12 Jan 2008 17:47:14 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 17:47:14 +0100
 
 openstreetmap-map-icons (6357) unstable; urgency=low
 
    * add various road sign derived stuff - coming from PD wikipedia http://de.wikipedia.org/wiki/Bildtafel_der_Verkehrszeichen_in_Deutschland
 
- -- Ulf Lamping  Sat, 12 Jan 2008 16:55:30 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 16:55:30 +0100
 
 openstreetmap-map-icons (6356) unstable; urgency=low
 
    * add vehicle.restrictions.incline
 
- -- Ulf Lamping  Sat, 12 Jan 2008 16:54:16 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 16:54:16 +0100
 
 openstreetmap-map-icons (6352) unstable; urgency=low
 
    * hostel icon, converted from sodipodi
 
- -- Ulf Lamping  Sat, 12 Jan 2008 14:52:47 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 14:52:47 +0100
 
 openstreetmap-map-icons (6351) unstable; urgency=low
 
    * update some accommodation related icons, converted from the SVG ones
 
- -- Ulf Lamping  Sat, 12 Jan 2008 14:52:19 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 14:52:19 +0100
 
 openstreetmap-map-icons (6350) unstable; urgency=low
 
    * converted shelter(s) from SVG
 
- -- Ulf Lamping  Sat, 12 Jan 2008 13:45:36 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 13:45:36 +0100
 
 openstreetmap-map-icons (6349) unstable; urgency=low
 
    * copied from classic.small
 
- -- Ulf Lamping  Sat, 12 Jan 2008 13:36:34 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 13:36:34 +0100
 
 openstreetmap-map-icons (6348) unstable; urgency=low
 
    * hand converted icons from SVG original (using GIMP)
 
- -- Ulf Lamping  Sat, 12 Jan 2008 13:26:14 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 13:26:14 +0100
 
 openstreetmap-map-icons (6347) unstable; urgency=low
 
    * update to latest changes
 
- -- Ulf Lamping  Sat, 12 Jan 2008 13:25:26 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 13:25:26 +0100
 
 openstreetmap-map-icons (6346) unstable; urgency=low
 
    * add airfield (derived from openclipart)
 
- -- Ulf Lamping  Sat, 12 Jan 2008 09:54:27 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 09:54:27 +0100
 
 openstreetmap-map-icons (6345) unstable; urgency=low
 
    * put icons on white background, otherwise nothing to see in JOSM
 
- -- Ulf Lamping  Sat, 12 Jan 2008 09:33:11 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 09:33:11 +0100
 
 openstreetmap-map-icons (6344) unstable; urgency=low
 
    * add zoo
 
- -- Ulf Lamping  Sat, 12 Jan 2008 09:25:20 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 09:25:20 +0100
 
 openstreetmap-map-icons (6343) unstable; urgency=low
 
    * zoo icon from http://wiki.openstreetmap.org/index.php/Proposed_features/Zoo
 
- -- Ulf Lamping  Sat, 12 Jan 2008 09:15:33 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 09:15:33 +0100
 
 openstreetmap-map-icons (6342) unstable; urgency=low
 
    * converted from SVG icons
 
- -- Ulf Lamping  Sat, 12 Jan 2008 07:43:54 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 07:43:54 +0100
 
 openstreetmap-map-icons (6341) unstable; urgency=low
 
    * "Image::Info" seems to be unused (and doesn't exist on cygwin)
 
- -- Ulf Lamping  Sat, 12 Jan 2008 07:37:24 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 07:37:24 +0100
 
 openstreetmap-map-icons (6340) unstable; urgency=low
 
    * add some new icons
 
- -- Ulf Lamping  Sat, 12 Jan 2008 07:36:26 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 07:36:26 +0100
 
 openstreetmap-map-icons (6339) unstable; urgency=low
 
    * from OSM map features page
 
- -- Ulf Lamping  Sat, 12 Jan 2008 07:20:49 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 07:20:49 +0100
 
 openstreetmap-map-icons (6338) unstable; urgency=low
 
    * wrong theme
 
- -- Ulf Lamping  Sat, 12 Jan 2008 06:51:53 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 06:51:53 +0100
 
 openstreetmap-map-icons (6337) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 06:51:28 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 06:51:28 +0100
 
 openstreetmap-map-icons (6336) unstable; urgency=low
 
    * wrong theme
 
- -- Ulf Lamping  Sat, 12 Jan 2008 06:41:52 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 06:41:52 +0100
 
 openstreetmap-map-icons (6335) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 06:40:34 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 06:40:34 +0100
 
 openstreetmap-map-icons (6334) unstable; urgency=low
 
    * fix various typos
 
- -- Ulf Lamping  Sat, 12 Jan 2008 06:11:25 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 06:11:25 +0100
 
 openstreetmap-map-icons (6333) unstable; urgency=low
 
    * derived from SVG icons
 
- -- Ulf Lamping  Sat, 12 Jan 2008 05:40:57 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 05:40:57 +0100
 
 openstreetmap-map-icons (6332) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 05:26:01 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 05:26:01 +0100
 
 openstreetmap-map-icons (6331) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 05:25:19 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 05:25:19 +0100
 
 openstreetmap-map-icons (6330) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 05:02:35 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 05:02:35 +0100
 
 openstreetmap-map-icons (6329) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 05:01:51 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 05:01:51 +0100
 
 openstreetmap-map-icons (6328) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 04:32:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 04:32:29 +0100
 
 openstreetmap-map-icons (6327) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 04:31:49 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 04:31:49 +0100
 
 openstreetmap-map-icons (6326) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 04:17:55 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 04:17:55 +0100
 
 openstreetmap-map-icons (6325) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 04:17:02 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 04:17:02 +0100
 
 openstreetmap-map-icons (6324) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 04:06:44 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 04:06:44 +0100
 
 openstreetmap-map-icons (6323) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 04:05:36 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 04:05:36 +0100
 
 openstreetmap-map-icons (6322) unstable; urgency=low
 
    * construction "banner" from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 03:51:16 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 03:51:16 +0100
 
 openstreetmap-map-icons (6321) unstable; urgency=low
 
    * construction "banner" from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 03:50:39 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 03:50:39 +0100
 
 openstreetmap-map-icons (6320) unstable; urgency=low
 
    * common danger sign from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 03:39:15 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 03:39:15 +0100
 
 openstreetmap-map-icons (6319) unstable; urgency=low
 
    * common danger sign from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 03:38:48 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 03:38:48 +0100
 
 openstreetmap-map-icons (6318) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 03:21:08 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 03:21:08 +0100
 
 openstreetmap-map-icons (6317) unstable; urgency=low
 
    * derived from openclipart
 
- -- Ulf Lamping  Sat, 12 Jan 2008 03:17:53 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 03:17:53 +0100
 
 openstreetmap-map-icons (6316) unstable; urgency=low
 
    * new helipad icon, coming from openclipart(aiga) and scaled
 
- -- Ulf Lamping  Sat, 12 Jan 2008 02:58:05 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 02:58:05 +0100
 
 openstreetmap-map-icons (6315) unstable; urgency=low
 
    * from http://wiki.openstreetmap.org/index.php/Proposed_features/Pass, license unclear
 
- -- Ulf Lamping  Sat, 12 Jan 2008 02:29:34 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 12 Jan 2008 02:29:34 +0100
 
 openstreetmap-map-icons (6237) unstable; urgency=low
 
@@ -1799,19 +1839,19 @@ openstreetmap-map-icons (6051) unstable; urgency=low
 
    * copied from square.small
 
- -- Ulf Lamping  Wed, 12 Dec 2007 22:59:38 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 12 Dec 2007 22:59:38 +0100
 
 openstreetmap-map-icons (6043) unstable; urgency=low
 
    * some icons "copyied" from svg
 
- -- Ulf Lamping  Wed, 12 Dec 2007 11:33:50 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 12 Dec 2007 11:33:50 +0100
 
 openstreetmap-map-icons (6042) unstable; urgency=low
 
    * some icons "copyied" from svg
 
- -- Ulf Lamping  Wed, 12 Dec 2007 11:33:07 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 12 Dec 2007 11:33:07 +0100
 
 openstreetmap-map-icons (6011) unstable; urgency=low
 
@@ -1825,28 +1865,28 @@ openstreetmap-map-icons (5993) unstable; urgency=low
    * - add some existing icons to the styles/icon_overview.osm
    * - add "caution" icons to shelter and bollard
 
- -- Ulf Lamping  Sun, 09 Dec 2007 16:02:24 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 09 Dec 2007 16:02:24 +0100
 
 openstreetmap-map-icons (5946) unstable; urgency=low
 
 
- -- grenzdebil  Sat, 08 Dec 2007 16:28:54 +0100
+ -- grenzdebil <grenzdebil@gpsdrive.de>  Sat, 08 Dec 2007 16:28:54 +0100
 
 openstreetmap-map-icons (5945) unstable; urgency=low
 
 
- -- grenzdebil  Sat, 08 Dec 2007 16:22:09 +0100
+ -- grenzdebil <grenzdebil@gpsdrive.de>  Sat, 08 Dec 2007 16:22:09 +0100
 
 openstreetmap-map-icons (5944) unstable; urgency=low
 
 
- -- grenzdebil  Sat, 08 Dec 2007 16:02:43 +0100
+ -- grenzdebil <grenzdebil@gpsdrive.de>  Sat, 08 Dec 2007 16:02:43 +0100
 
 openstreetmap-map-icons (5869) unstable; urgency=low
 
    * updates to latest changes in map features, add a "swimming" icon, other cleanup
 
- -- Ulf Lamping  Sun, 02 Dec 2007 20:08:47 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 02 Dec 2007 20:08:47 +0100
 
 openstreetmap-map-icons (5788) unstable; urgency=low
 
@@ -1876,84 +1916,84 @@ openstreetmap-map-icons (5768) unstable; urgency=low
 openstreetmap-map-icons (5433) unstable; urgency=low
 
 
- -- grenzdebil  Sat, 10 Nov 2007 13:46:53 +0100
+ -- grenzdebil <grenzdebil@gpsdrive.de>  Sat, 10 Nov 2007 13:46:53 +0100
 
 openstreetmap-map-icons (5351) unstable; urgency=low
 
    * - fixed typo in icon description
 
- -- Guenter Maier  Tue, 06 Nov 2007 12:05:37 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Tue, 06 Nov 2007 12:05:37 +0100
 
 openstreetmap-map-icons (5350) unstable; urgency=low
 
    * - updated overview for new icons
 
- -- Guenter Maier  Tue, 06 Nov 2007 12:01:36 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Tue, 06 Nov 2007 12:01:36 +0100
 
 openstreetmap-map-icons (5343) unstable; urgency=low
 
    * copied from square.big
 
- -- Ulf Lamping  Tue, 06 Nov 2007 02:07:43 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 06 Nov 2007 02:07:43 +0100
 
 openstreetmap-map-icons (5342) unstable; urgency=low
 
    * remove "satellite pixels"
 
- -- Ulf Lamping  Tue, 06 Nov 2007 02:06:06 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 06 Nov 2007 02:06:06 +0100
 
 openstreetmap-map-icons (5341) unstable; urgency=low
 
    * - added some icons for routing to themes square.big and square.small
 
- -- Guenter Maier  Tue, 06 Nov 2007 01:56:28 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Tue, 06 Nov 2007 01:56:28 +0100
 
 openstreetmap-map-icons (5340) unstable; urgency=low
 
    * resized from classic.small
 
- -- Ulf Lamping  Tue, 06 Nov 2007 01:31:33 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 06 Nov 2007 01:31:33 +0100
 
 openstreetmap-map-icons (5339) unstable; urgency=low
 
    * resized from classic.big
 
- -- Ulf Lamping  Tue, 06 Nov 2007 01:27:11 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 06 Nov 2007 01:27:11 +0100
 
 openstreetmap-map-icons (5338) unstable; urgency=low
 
    * resized from classic_big
 
- -- Ulf Lamping  Tue, 06 Nov 2007 01:23:26 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 06 Nov 2007 01:23:26 +0100
 
 openstreetmap-map-icons (5337) unstable; urgency=low
 
    * derive from SVG again
 
- -- Ulf Lamping  Tue, 06 Nov 2007 01:20:08 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 06 Nov 2007 01:20:08 +0100
 
 openstreetmap-map-icons (5336) unstable; urgency=low
 
    * fix file extension
 
- -- Ulf Lamping  Tue, 06 Nov 2007 01:08:29 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 06 Nov 2007 01:08:29 +0100
 
 openstreetmap-map-icons (5331) unstable; urgency=low
 
 
- -- grenzdebil  Mon, 05 Nov 2007 20:39:40 +0100
+ -- grenzdebil <grenzdebil@gpsdrive.de>  Mon, 05 Nov 2007 20:39:40 +0100
 
 openstreetmap-map-icons (5325) unstable; urgency=low
 
    * archeological.png -> archaeological.png
 
- -- Ulf Lamping  Mon, 05 Nov 2007 09:22:52 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 05 Nov 2007 09:22:52 +0100
 
 openstreetmap-map-icons (5324) unstable; urgency=low
 
    * archeological.png -> archaeological.png
 
- -- Ulf Lamping  Mon, 05 Nov 2007 09:21:22 +0100
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 05 Nov 2007 09:21:22 +0100
 
 openstreetmap-map-icons (4802) unstable; urgency=low
 
@@ -1996,7 +2036,7 @@ openstreetmap-map-icons (4500) unstable; urgency=low
 
    * - added icon for routepoints
 
- -- Guenter Maier  Mon, 10 Sep 2007 23:38:25 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Mon, 10 Sep 2007 23:38:25 +0200
 
 openstreetmap-map-icons (4452) unstable; urgency=low
 
@@ -2284,13 +2324,13 @@ openstreetmap-map-icons (4043) unstable; urgency=low
 
    * - fixed wrong IDs for friendsd types
 
- -- Guenter Maier  Thu, 09 Aug 2007 10:11:06 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Thu, 09 Aug 2007 10:11:06 +0200
 
 openstreetmap-map-icons (4030) unstable; urgency=low
 
    * - make waypoints visible also in coarser maps
 
- -- Guenter Maier  Wed, 08 Aug 2007 22:46:59 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Wed, 08 Aug 2007 22:46:59 +0200
 
 openstreetmap-map-icons (4015) unstable; urgency=low
 
@@ -2530,7 +2570,7 @@ openstreetmap-map-icons (3767) unstable; urgency=low
 
    * replace gasometer icon in classic.big by larger original
 
- -- Ulf Lamping  Fri, 27 Jul 2007 01:33:39 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Fri, 27 Jul 2007 01:33:39 +0200
 
 openstreetmap-map-icons (3734) unstable; urgency=low
 
@@ -2681,7 +2721,7 @@ openstreetmap-map-icons (3691) unstable; urgency=low
 
    * copy over some obviously matching icons
 
- -- Ulf Lamping  Wed, 25 Jul 2007 02:42:14 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 25 Jul 2007 02:42:14 +0200
 
 openstreetmap-map-icons (3688) unstable; urgency=low
 
@@ -2699,25 +2739,25 @@ openstreetmap-map-icons (3683) unstable; urgency=low
 
    * move museum from recreation to sightseeing
 
- -- Ulf Lamping  Tue, 24 Jul 2007 11:34:23 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 24 Jul 2007 11:34:23 +0200
 
 openstreetmap-map-icons (3682) unstable; urgency=low
 
    * ruin -> ruins, as used in osm
 
- -- Ulf Lamping  Tue, 24 Jul 2007 11:28:51 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 24 Jul 2007 11:28:51 +0200
 
 openstreetmap-map-icons (3681) unstable; urgency=low
 
    * beergarden -> biergarten, as used in osm
 
- -- Ulf Lamping  Tue, 24 Jul 2007 11:23:14 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 24 Jul 2007 11:23:14 +0200
 
 openstreetmap-map-icons (3680) unstable; urgency=low
 
    * remove cemetery from public and places, keep it only under religion
 
- -- Ulf Lamping  Tue, 24 Jul 2007 11:18:40 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 24 Jul 2007 11:18:40 +0200
 
 openstreetmap-map-icons (3674) unstable; urgency=low
 
@@ -2729,31 +2769,31 @@ openstreetmap-map-icons (3673) unstable; urgency=low
 
    * use gravestone instead of crosses, it's more generic
 
- -- Ulf Lamping  Tue, 24 Jul 2007 00:27:05 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 24 Jul 2007 00:27:05 +0200
 
 openstreetmap-map-icons (3672) unstable; urgency=low
 
    * renamed cemetary -> cemetery
 
- -- Ulf Lamping  Tue, 24 Jul 2007 00:01:06 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Tue, 24 Jul 2007 00:01:06 +0200
 
 openstreetmap-map-icons (3671) unstable; urgency=low
 
    * renamed toilet -> toilets (same for restarea-toilet)
 
- -- Ulf Lamping  Mon, 23 Jul 2007 23:57:05 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 23 Jul 2007 23:57:05 +0200
 
 openstreetmap-map-icons (3670) unstable; urgency=low
 
    * remove transport.roundabout_left/right - it's already under vehicle as well and it fit's better there
 
- -- Ulf Lamping  Mon, 23 Jul 2007 23:53:19 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 23 Jul 2007 23:53:19 +0200
 
 openstreetmap-map-icons (3669) unstable; urgency=low
 
    * copy over some icons from classic.small to other themes where it makes sense
 
- -- Ulf Lamping  Mon, 23 Jul 2007 10:25:32 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Mon, 23 Jul 2007 10:25:32 +0200
 
 openstreetmap-map-icons (3668) unstable; urgency=low
 
@@ -2765,19 +2805,19 @@ openstreetmap-map-icons (3666) unstable; urgency=low
 
    * remaining icons from mappaint
 
- -- Ulf Lamping  Sun, 22 Jul 2007 23:55:22 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 22 Jul 2007 23:55:22 +0200
 
 openstreetmap-map-icons (3665) unstable; urgency=low
 
    * merge some more icons from mappaint
 
- -- Ulf Lamping  Sun, 22 Jul 2007 21:08:46 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 22 Jul 2007 21:08:46 +0200
 
 openstreetmap-map-icons (3664) unstable; urgency=low
 
    * first round of merging mappaint icons into classic.small theme
 
- -- Ulf Lamping  Sun, 22 Jul 2007 16:34:17 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sun, 22 Jul 2007 16:34:17 +0200
 
 openstreetmap-map-icons (3661) unstable; urgency=low
 
@@ -2790,61 +2830,61 @@ openstreetmap-map-icons (3660) unstable; urgency=low
 
    * remove "bad pixels"
 
- -- Ulf Lamping  Sat, 21 Jul 2007 23:16:26 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 23:16:26 +0200
 
 openstreetmap-map-icons (3659) unstable; urgency=low
 
    * add/improve some food icons
 
- -- Ulf Lamping  Sat, 21 Jul 2007 23:15:26 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 23:15:26 +0200
 
 openstreetmap-map-icons (3658) unstable; urgency=low
 
    * remove "bad pixels"
 
- -- Ulf Lamping  Sat, 21 Jul 2007 23:14:09 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 23:14:09 +0200
 
 openstreetmap-map-icons (3657) unstable; urgency=low
 
    * remove "bad pixels"
 
- -- Ulf Lamping  Sat, 21 Jul 2007 23:09:51 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 23:09:51 +0200
 
 openstreetmap-map-icons (3651) unstable; urgency=low
 
    * add scaled down versions for square.small icons
 
- -- Ulf Lamping  Sat, 21 Jul 2007 03:43:17 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 03:43:17 +0200
 
 openstreetmap-map-icons (3650) unstable; urgency=low
 
    * remove white pixels
 
- -- Ulf Lamping  Sat, 21 Jul 2007 03:42:37 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 03:42:37 +0200
 
 openstreetmap-map-icons (3649) unstable; urgency=low
 
    * add scaled down versions for square.small icons
 
- -- Ulf Lamping  Sat, 21 Jul 2007 03:40:34 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 03:40:34 +0200
 
 openstreetmap-map-icons (3647) unstable; urgency=low
 
    * an idea to differentiate the religions by (mostly) arbitrary colours
 
- -- Ulf Lamping  Sat, 21 Jul 2007 03:08:48 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 03:08:48 +0200
 
 openstreetmap-map-icons (3646) unstable; urgency=low
 
    * remove white pixels
 
- -- Ulf Lamping  Sat, 21 Jul 2007 02:40:22 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 02:40:22 +0200
 
 openstreetmap-map-icons (3645) unstable; urgency=low
 
    * "merge" icons from mappaint work into the dirs
 
- -- Ulf Lamping  Sat, 21 Jul 2007 02:20:22 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Sat, 21 Jul 2007 02:20:22 +0200
 
 openstreetmap-map-icons (3585) unstable; urgency=low
 
@@ -2856,31 +2896,31 @@ openstreetmap-map-icons (3581) unstable; urgency=low
 
    * remove white pixels
 
- -- Ulf Lamping  Thu, 12 Jul 2007 23:40:20 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 12 Jul 2007 23:40:20 +0200
 
 openstreetmap-map-icons (3571) unstable; urgency=low
 
    * remove white pixels
 
- -- Ulf Lamping  Thu, 12 Jul 2007 01:34:04 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 12 Jul 2007 01:34:04 +0200
 
 openstreetmap-map-icons (3570) unstable; urgency=low
 
    * remove white pixels
 
- -- Ulf Lamping  Thu, 12 Jul 2007 01:15:33 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Thu, 12 Jul 2007 01:15:33 +0200
 
 openstreetmap-map-icons (3569) unstable; urgency=low
 
    * one white pixel was left over from last commit
 
- -- Ulf Lamping  Wed, 11 Jul 2007 23:54:19 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 11 Jul 2007 23:54:19 +0200
 
 openstreetmap-map-icons (3568) unstable; urgency=low
 
    * remove white pixels from transparency
 
- -- Ulf Lamping  Wed, 11 Jul 2007 23:51:11 +0200
+ -- Ulf Lamping <Ulf Lamping@gpsdrive.de>  Wed, 11 Jul 2007 23:51:11 +0200
 
 openstreetmap-map-icons (3560) unstable; urgency=low
 
@@ -3069,7 +3109,7 @@ openstreetmap-map-icons (3419) unstable; urgency=low
 
    * - fixed some small typos
 
- -- Guenter Maier  Sat, 30 Jun 2007 01:13:45 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Sat, 30 Jun 2007 01:13:45 +0200
 
 openstreetmap-map-icons (3417) unstable; urgency=low
 
@@ -3119,7 +3159,7 @@ openstreetmap-map-icons (2874) unstable; urgency=low
 
    * - added some descriptions
 
- -- Guenter Maier  Sun, 13 May 2007 12:13:32 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Sun, 13 May 2007 12:13:32 +0200
 
 openstreetmap-map-icons (2725) unstable; urgency=low
 
@@ -3131,7 +3171,7 @@ openstreetmap-map-icons (2589) unstable; urgency=low
 
    * - added some icons
 
- -- Guenter Maier  Wed, 18 Apr 2007 19:00:16 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Wed, 18 Apr 2007 19:00:16 +0200
 
 openstreetmap-map-icons (2579) unstable; urgency=low
 
@@ -3149,32 +3189,32 @@ openstreetmap-map-icons (2489) unstable; urgency=low
 
    * readmes and move some sites
 
- -- Steve Coast  Sat, 14 Apr 2007 12:39:01 +0200
+ -- Steve Coast <Steve Coast@gpsdrive.de>  Sat, 14 Apr 2007 12:39:01 +0200
 
 openstreetmap-map-icons (2367) unstable; urgency=low
 
    * - added several wayupoint icons/poi-types
 
- -- Guenter Maier  Sun, 01 Apr 2007 14:50:44 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Sun, 01 Apr 2007 14:50:44 +0200
 
 openstreetmap-map-icons (2366) unstable; urgency=low
 
    * - added some new icons/poi-types
 
- -- Guenter Maier  Sun, 01 Apr 2007 04:01:32 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Sun, 01 Apr 2007 04:01:32 +0200
 
 openstreetmap-map-icons (2348) unstable; urgency=low
 
    *  - added names for POI-Types to icons.xml
 
- -- Guenter Maier  Wed, 28 Mar 2007 00:19:22 +0200
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Wed, 28 Mar 2007 00:19:22 +0200
 
 openstreetmap-map-icons (2245) unstable; urgency=low
 
    * - changed two geocache icons
    * - added some titles and descriptions to icons.xml
 
- -- Guenter Maier  Fri, 09 Mar 2007 21:45:53 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Fri, 09 Mar 2007 21:45:53 +0100
 
 openstreetmap-map-icons (2148) unstable; urgency=low
 
@@ -3216,7 +3256,7 @@ openstreetmap-map-icons (2031) unstable; urgency=low
 
    * - added some icons/poi_types
 
- -- Guenter Maier  Wed, 31 Jan 2007 23:17:51 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Wed, 31 Jan 2007 23:17:51 +0100
 
 openstreetmap-map-icons (1964) unstable; urgency=low
 
@@ -3228,13 +3268,13 @@ openstreetmap-map-icons (1937) unstable; urgency=low
 
    * - added some icons
 
- -- Guenter Maier  Thu, 18 Jan 2007 15:56:20 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Thu, 18 Jan 2007 15:56:20 +0100
 
 openstreetmap-map-icons (1904) unstable; urgency=low
 
    * - fixed removed public icon in classic
 
- -- Guenter Maier  Mon, 15 Jan 2007 00:11:41 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Mon, 15 Jan 2007 00:11:41 +0100
 
 openstreetmap-map-icons (1903) unstable; urgency=low
 
@@ -3270,26 +3310,26 @@ openstreetmap-map-icons (1890) unstable; urgency=low
 
    * - added cmake config for icon dirs
 
- -- Guenter Maier  Fri, 12 Jan 2007 20:28:47 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Fri, 12 Jan 2007 20:28:47 +0100
 
 openstreetmap-map-icons (1886) unstable; urgency=low
 
    * - added some icons, poi-types and descriptions
 
- -- Guenter Maier  Thu, 11 Jan 2007 13:26:44 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Thu, 11 Jan 2007 13:26:44 +0100
 
 openstreetmap-map-icons (1884) unstable; urgency=low
 
    * - added some new poi_types
    * - added html overview including german and english titles/description
 
- -- Guenter Maier  Thu, 11 Jan 2007 01:02:49 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Thu, 11 Jan 2007 01:02:49 +0100
 
 openstreetmap-map-icons (1865) unstable; urgency=low
 
    * - updated icons overview
 
- -- Guenter Maier  Sat, 06 Jan 2007 13:09:49 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Sat, 06 Jan 2007 13:09:49 +0100
 
 openstreetmap-map-icons (1864) unstable; urgency=low
 
@@ -3301,13 +3341,13 @@ openstreetmap-map-icons (1859) unstable; urgency=low
 
    * - added some icons including description of icon scheme
 
- -- Guenter Maier  Thu, 04 Jan 2007 15:02:08 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Thu, 04 Jan 2007 15:02:08 +0100
 
 openstreetmap-map-icons (1857) unstable; urgency=low
 
    * - cleaning up the icons
 
- -- Guenter Maier  Thu, 04 Jan 2007 14:40:17 +0100
+ -- Guenter Maier <Guenter Maier@gpsdrive.de>  Thu, 04 Jan 2007 14:40:17 +0100
 
 openstreetmap-map-icons (1697) unstable; urgency=low
 
@@ -3355,7 +3395,7 @@ openstreetmap-map-icons (1384) unstable; urgency=low
 
    * Freemap icons added
 
- -- nick  Sat, 16 Sep 2006 10:59:52 +0200
+ -- nick <nick@gpsdrive.de>  Sat, 16 Sep 2006 10:59:52 +0200
 
 openstreetmap-map-icons (1345) unstable; urgency=low
 
