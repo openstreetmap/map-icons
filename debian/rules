@@ -28,9 +28,10 @@ build-stamp:
 	mkdir -p build
 	cd build; cmake ..
 	cd build; $(MAKE)
-	./copy_icons_to_dir.sh build
-	./update_thumbnails.pl build
-	./merge-icons-all-from-svg2classic2square.sh build
+	perl ./update_icons.pl 
+	bash ./copy_icons_to_dir.sh build
+	perl ./update_thumbnails.pl build
+	bash ./merge-icons-all-from-svg2classic2square.sh build
 
 	touch build-stamp
 
@@ -67,20 +68,20 @@ install: build
 #	./debian/update_svn_revision.sh
 
 	cp icons.xml build/
-	cd build; ../update_icons.pl
-	cd build; ../create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
-	cd build; ../create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
+	cd build; perl ../update_icons.pl
+	cd build; perl ../create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
+	cd build; perl ../create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
 
 #	./create_overview.pl -D ./build
 
 	# Now split into differnet packages
-	./copy_icons_to_debian_package_dirs.pl
+	perl ./copy_icons_to_debian_package_dirs.pl
 
 	# icons.xml belongs to the main package
 	mkdir -p debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 	cp build/icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
-	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./
-	./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
+	perl ./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./
+	perl ./create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
 
 	cp build/geoinfo.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 	cp build/geoinfo.de.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
