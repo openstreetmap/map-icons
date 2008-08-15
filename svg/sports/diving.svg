@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="180.43748"
+   id="svg1"
+   inkscape:version="0.46"
+   sodipodi:docbase="/home/chris"
+   sodipodi:docname="diving.svg"
+   sodipodi:version="0.32"
+   width="56.875"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>SCUBA Tank</dc:title>
+        <dc:description>Yellow SCUBA tank with valve and black tank boot.</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>boat</rdf:li>
+            <rdf:li />
+            <rdf:li>sports</rdf:li>
+            <rdf:li>dive</rdf:li>
+            <rdf:li>water</rdf:li>
+            <rdf:li>tank</rdf:li>
+            <rdf:li>scuba</rdf:li>
+            <rdf:li>diving</rdf:li>
+            <rdf:li>recreation</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title>Chris Murphy [chrismurf+svg@gmail.com]</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Chris Murphy [chrismurf+svg@gmail.com]</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Chris Murphy [chrismurf+svg@gmail.com]</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 90.625 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="57.5 : 90.625 : 1"
+       inkscape:persp3d-origin="28.75 : 60.416667 : 1"
+       id="perspective23" />
+    <linearGradient
+       id="linearGradient580">
+      <stop
+         id="stop581"
+         offset="0.00000000"
+         style="stop-color:#f5f5f5;stop-opacity:1;" />
+      <stop
+         id="stop582"
+         offset="1.00000000"
+         style="stop-color:#a7a7a7;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient576">
+      <stop
+         id="stop577"
+         offset="0.00000000"
+         style="stop-color:#ffca00;stop-opacity:1;" />
+      <stop
+         id="stop578"
+         offset="1.00000000"
+         style="stop-color:#ffff93;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient579"
+       x1="62.281909"
+       x2="176.12288"
+       xlink:href="#linearGradient576"
+       y1="79.054282"
+       y2="98.894354"
+       gradientTransform="scale(0.5595525,1.7871423)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient622"
+       x1="0.91666669"
+       x2="0.32291666"
+       xlink:href="#linearGradient580"
+       y1="0.0625"
+       y2="1.015625" />
+    <radialGradient
+       cx="85.446484"
+       cy="64.467917"
+       fx="85.446484"
+       fy="64.467917"
+       id="radialGradient623"
+       r="19.143642"
+       xlink:href="#linearGradient580"
+       gradientTransform="scale(0.7971303,1.2545001)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="2pt"
+     horizgrid="false"
+     id="base"
+     inkscape:cx="18.378113"
+     inkscape:cy="51.269318"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="694"
+     inkscape:window-width="986"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:zoom="2.0000000"
+     pagecolor="#ffffff"
+     showgrid="true"
+     snaptogrid="true"
+     vertgrid="false">
+    <inkscape:grid
+       id="GridFromPre046Settings"
+       type="xygrid"
+       originx="0px"
+       originy="0px"
+       spacingx="1pt"
+       spacingy="1pt"
+       color="#0000ff"
+       empcolor="#0000ff"
+       opacity="0.2"
+       empopacity="0.4"
+       empspacing="5"
+       units="pt"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <g
+     id="valve"
+     style="font-size:12px"
+     transform="translate(-29.6875,-67.37501)">
+    <path
+       d="M 61.875,91.250006 L 54.375,91.250006 L 54.375,81.250006 L 51.875,81.250006 L 51.875,76.250006 L 54.375,76.250006 L 54.375,71.250006 C 54.375,66.250006 61.875,66.250006 61.875,71.250006 L 61.875,76.250006 L 66.875,76.250006 L 66.875,81.250006 L 61.875,81.250006 L 61.875,91.250006 z"
+       id="mainvalve"
+       sodipodi:nodetypes="ccccccssccccc"
+       style="fill:url(#radialGradient623);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 66.875,75 L 81.875,72.5 L 81.875,85 L 66.875,82.5 L 66.875,75 z"
+       id="handle"
+       sodipodi:nodetypes="ccccc"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 58.75,71.875 A 0.625,0.625 0 1 1 57.5,71.875 A 0.625,0.625 0 1 1 58.75,71.875 z"
+       id="outlet"
+       sodipodi:cx="58.125"
+       sodipodi:cy="71.875"
+       sodipodi:rx="0.625"
+       sodipodi:ry="0.625"
+       sodipodi:type="arc"
+       style="font-size:12px;fill:#ff0000;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+  </g>
+  <g
+     id="tank"
+     transform="translate(-0.39063,-0.4218903)">
+    <path
+       d="M 33.75,125 C 33.75,102.5 45,98.75 48.75,98.75 C 52.5,98.75 52.5,96.25 52.5,92.5 L 63.75,92.5 C 63.75,96.25 64.162637,98.75 67.5,98.75 C 71.25,98.75 82.5,102.5 82.5,125 L 82.5,248.75 L 33.75,248.75 L 33.75,125 z"
+       id="maintank"
+       sodipodi:nodetypes="csccssccs"
+       style="font-size:12px;fill:url(#linearGradient579);fill-rule:evenodd;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       transform="translate(-29.29687,-68.20312)" />
+    <path
+       boot="path620"
+       d="M 33.75,226.25 L 33.75,248.75 L 82.5,248.75 L 82.5,226.25 L 86.25,226.25 L 86.25,222.5 L 30,222.5 L 30,226.25 L 33.75,226.25 z"
+       id="boot"
+       sodipodi:nodetypes="ccccccccc"
+       style="font-size:12px;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linecap:round;stroke-linejoin:bevel"
+       transform="translate(-29.29687,-68.20312)" />
+  </g>
+</svg>
