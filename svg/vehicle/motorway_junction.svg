@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   width="523"
+   height="330"
+   viewBox="0 0 523 330"
+   overflow="visible"
+   xml:space="preserve"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="motorway_junction.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\osm\svn.openstreetmap.org\applications\share\map-icons\svg\vehicle\motorway_junction.png"
+   inkscape:export-xdpi="5.5066919"
+   inkscape:export-ydpi="5.5066919"><metadata
+   id="metadata13"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs11"><inkscape:perspective
+     sodipodi:type="inkscape:persp3d"
+     inkscape:vp_x="0 : 165 : 1"
+     inkscape:vp_y="0 : 1000 : 0"
+     inkscape:vp_z="523 : 165 : 1"
+     inkscape:persp3d-origin="261.5 : 110 : 1"
+     id="perspective15" /></defs><sodipodi:namedview
+   inkscape:window-height="480"
+   inkscape:window-width="640"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   guidetolerance="10.0"
+   gridtolerance="10.0"
+   objecttolerance="10.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   showgrid="false" />
+<g
+   id="XMLID_4_">
+	<g
+   id="g4">
+		<path
+   d="M523.25,271.25c0,0.33,0,0.67,0,1c-13.69,7.65-26.15,16.52-40,24c-134.55-84.11-269.43-171.49-403-255    c-8.71-5.45-19.13-9.74-26-18c13.17-6.83,24.96-15.04,37-23c1,0,2,0,3,0c36.51,26.68,94.71,40.39,154,43    c69.24,3.04,136.62-13.84,181-43c1,0,2,0,3,0c11.6,8.73,24.87,15.8,37,24c-52.74,35.26-107.79,68.21-161,103    c-13.83-8.49-29.38-15.39-40-26c26.16-14.84,51.22-30.78,76-47c-49.04,10.3-116.05,10.56-165,0c84.61,55.01,176.38,111.17,263,166    c-3.46-9.99-10.63-21.44-13-35c-4.84-27.68,2.59-57.91,14-75c-26.06,14.27-55.22,34.11-82,51c-13.48-8.45-28.75-15.38-39-26    c54.64-32.69,106.85-67.81,161-101c14.18,7.15,26.61,16.06,40,24c0,0.33,0,0.67,0,1c-24.2,16.32-49.68,36.81-62,67    c-5.96,14.61-11.88,34.92-7,58c2.37,11.19,8.09,23.16,13,32C480.06,239.3,501.93,256.1,523.25,271.25z"
+   id="path6" />
+		<path
+   d="M469.25,306.25c-12.95,7.72-25.59,15.74-38,24c-0.67,0-1.33,0-2,0c-44.43-27.33-110.44-47.19-183-44    c-60.9,2.68-114.72,20.22-153,44c-0.67,0-1.33,0-2,0c-11.09-9.91-27.19-14.81-37-26c54.64-32.69,106.85-67.81,161-101    c13.82,7.18,25.94,16.06,39,24c-24.07,17.27-50.38,32.29-75,49c46.81-10.68,116.27-11.08,163,0c-8.81-8.52-20.63-13.46-31-20    c-76.94-48.51-154.19-98.67-231-146c6.35,15.27,14.97,34.31,15,55c0.03,20.48-8.41,39.12-15,54c25.6-14.07,53.95-34.05,81-50    c13.74,7.59,26.07,16.6,39,25c-52.71,34.96-107.82,67.52-161,102c-13.71-7.29-25.83-16.17-39-24c0-0.67,0-1.33,0-2    c25.41-16.02,51.44-39.08,63-69c7.98-20.65,7.96-49.4,0-71c-11.44-31.02-37.53-53.99-63-71c0-0.67,0-1.33,0-2    c14.1-6.57,24.74-16.59,39-23C182.44,125.06,327.21,214.29,469.25,306.25z"
+   id="path8" />
+	</g>
+</g>
+</svg>
