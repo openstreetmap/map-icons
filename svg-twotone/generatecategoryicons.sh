@@ -16,7 +16,7 @@ for (( i = 0 ; i < ${#TYPES[@]} ; i++ )) do
     for (( j = 0 ; j < ${#SIZES[@]} ; j++ )) do
       ./recolourtopng.sh ${FILE} ${BACKGROUND_COLOURS[i]} ${BACKGROUND_COLOURS[i]} ${FORGROUND_COLOURS[i]} ${SIZES[j]} ${FOLDERNAME}/${FILE%.*}.${SIZES[j]}
     done
-    #./recolour.sh ${FILE} ${BACKGROUND_COLOURS[i]} ${BACKGROUND_COLOURS[i]} ${FORGROUND_COLOURS[i]} > ${FOLDERNAME}/${FILE%.*}.svg
+    ./recolour.sh ${FILE} ${BACKGROUND_COLOURS[i]} ${BACKGROUND_COLOURS[i]} ${FORGROUND_COLOURS[i]} > ${FOLDERNAME}/${FILE%.*}.svg
   done
 
 done
