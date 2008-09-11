@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="171.07001"
+   height="160"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\nautical"
+   sodipodi:docname="waterfall.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\lamping.net\raw\motorrad\karte\icons\waterfall.png"
+   inkscape:export-xdpi="5.2600002"
+   inkscape:export-ydpi="5.2600002">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 80 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="191.07141 : 80 : 1"
+       inkscape:persp3d-origin="95.535706 : 53.333333 : 1"
+       id="perspective12" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="-9.2504424"
+     inkscape:cy="56.578058"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1400"
+     inkscape:window-height="960"
+     inkscape:window-x="0"
+     inkscape:window-y="29"
+     height="160px"
+     width="191.07141px"
+     showgrid="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-268.21429,-559.505)">
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="rect2160"
+       width="91.785698"
+       height="134.64287"
+       x="268.57141"
+       y="584.86218" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="rect2162"
+       width="89.64286"
+       height="39.999992"
+       x="349.99997"
+       y="679.50513" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4133"
+       sodipodi:cx="174.82143"
+       sodipodi:cy="80.89286"
+       sodipodi:rx="50.535713"
+       sodipodi:ry="33.035713"
+       d="M 225.35714,80.89286 A 50.535713,33.035713 0 1 1 124.28571,80.89286 A 50.535713,33.035713 0 1 1 225.35714,80.89286 z"
+       transform="translate(182.5,584.505)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:14.7600193;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4135"
+       sodipodi:cx="14.464286"
+       sodipodi:cy="25.178577"
+       sodipodi:rx="48.392857"
+       sodipodi:ry="38.75"
+       d="M -33.928571,25.178576 A 48.392857,38.75 0 0 1 62.857142,25.178577"
+       transform="matrix(0.9077854,0,0,2.24433,344.5481,625.49772)"
+       sodipodi:start="3.1415927"
+       sodipodi:end="6.2831853"
+       sodipodi:open="true" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="rect2164"
+       width="92.5"
+       height="113.57143"
+       x="268.57141"
+       y="605.93359" />
+  </g>
+</svg>
