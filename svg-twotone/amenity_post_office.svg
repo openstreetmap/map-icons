@@ -14,9 +14,19 @@
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.46"
-   sodipodi:docname="post_office.svg"
+   sodipodi:docname="amenity_post_office.svg"
    sodipodi:docbase="s:\Data\FacilityIcons"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs3263">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 290 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="580 : 290 : 1"
+       inkscape:persp3d-origin="290 : 193.33333 : 1"
+       id="perspective3265" />
+  </defs>
   <metadata
      id="metadata2975">
     <rdf:RDF>
@@ -25,7 +35,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-			  <cc:license
+        <cc:license
            rdf:resource="http://web.resource.org/cc/PublicDomain" />
         <dc:language>en</dc:language>
       </cc:Work>
@@ -44,7 +54,7 @@
      pagecolor="#ffffff"
      id="base"
      inkscape:zoom="0.92167712"
-     inkscape:cx="64.539201"
+     inkscape:cx="215.15635"
      inkscape:cy="367.99332"
      inkscape:window-x="91"
      inkscape:window-y="25"
@@ -79,7 +89,7 @@
   </g>
   <path
      style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:NPSPICT3;-inkscape-font-specification:NPSPICT3"
-     d="M 126.19975,188.66899 L 226.02765,288.98257 L 126.19975,388.81046 L 126.19975,188.66899 z M 436.76562,169.86019 L 313.80202,292.35284 C 307.68915,298.46559 299.97235,301.52189 290.6516,301.52176 C 281.0066,301.52189 272.96602,298.3037 266.52985,291.86715 L 144.52289,169.86019 L 436.76562,169.86019 z M 456.06009,388.81046 L 356.23219,288.98257 L 456.06009,188.66899 L 456.06009,388.81046 z M 144.03721,407.61925 L 244.35077,307.79135 L 248.69241,312.13298 C 260.26985,323.38697 274.25623,329.01391 290.6516,329.0138 C 307.04649,329.01391 320.87099,323.38697 332.12515,312.13298 L 336.46676,307.79135 L 436.76562,407.61925 L 144.03721,407.61925 z M 99.193389,434.62562 L 484.0378,434.62562 L 484.0378,142.36816 L 99.193389,142.36816 L 99.193389,434.62562 z"
+     d="M 131.79596,192.04629 L 228.24657,288.96614 L 131.79596,385.41673 L 131.79596,192.04629 z M 431.85502,173.87381 L 313.05143,292.22239 C 307.14536,298.12834 299.68963,301.08124 290.68421,301.08111 C 281.36551,301.08124 273.59696,297.97192 267.37853,291.75313 L 149.49921,173.87381 L 431.85502,173.87381 z M 450.49674,385.41673 L 354.04613,288.96614 L 450.49674,192.04629 L 450.49674,385.41673 z M 149.02996,403.5892 L 245.9498,307.1386 L 250.14455,311.33334 C 261.33031,322.2066 274.84352,327.64317 290.68421,327.64306 C 306.52444,327.64317 319.88125,322.2066 330.75466,311.33334 L 334.94939,307.1386 L 431.85502,403.5892 L 149.02996,403.5892 z M 105.70326,429.68191 L 477.52793,429.68191 L 477.52793,147.31187 L 105.70326,147.31187 L 105.70326,429.68191 z"
      id="flowRoot3192" />
   <path
      sodipodi:type="arc"
@@ -90,5 +100,15 @@
      sodipodi:rx="288.57144"
      sodipodi:ry="288.57144"
      d="M 505.71429,305.71429 A 288.57144,288.57144 0 1 1 -71.428589,305.71429 A 288.57144,288.57144 0 1 1 505.71429,305.71429 z"
-     transform="matrix(0.8928987,0,0,0.8928987,97.428444,19.493953)" />
+     transform="matrix(0.9469422,0,0,0.9469422,85.693279,2.9720757)" />
+  <path
+     transform="matrix(0.9469422,0,0,0.9469422,85.693279,2.9720757)"
+     d="M 505.71429,305.71429 A 288.57144,288.57144 0 1 1 -71.428589,305.71429 A 288.57144,288.57144 0 1 1 505.71429,305.71429 z"
+     sodipodi:ry="288.57144"
+     sodipodi:rx="288.57144"
+     sodipodi:cy="305.71429"
+     sodipodi:cx="217.14285"
+     id="path3267"
+     style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:25.13761519999999900;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;opacity:0.1"
+     sodipodi:type="arc" />
 </svg>

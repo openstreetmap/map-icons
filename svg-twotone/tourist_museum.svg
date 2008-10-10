@@ -75,33 +75,33 @@
        id="path1329" />
   </g>
   <path
-     d="M 23.159867,490.46638 L 557.64236,489.5373 L 528.55835,439.16233 L 54.205081,439.16233 L 23.159867,490.46638 z"
+     d="M 23.159867,470.46638 L 557.64236,469.5373 L 528.55835,419.16233 L 54.205081,419.16233 L 23.159867,470.46638 z"
      id="path828"
      sodipodi:nodetypes="ccccc"
      sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)"
      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:22.61511803;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.58139535" />
   <path
-     d="M 81.351206,445.11637 L 81.351206,225.47952"
+     d="M 101.35121,425.11637 L 101.35121,205.47952"
      id="path829"
      sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)"
      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:48.48733902;stroke-opacity:1" />
   <path
-     d="M 163.95544,445.11637 L 163.95544,225.47952"
+     d="M 223.95544,425.11637 L 223.95544,205.47952"
      id="path830"
      sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)"
      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:48.48733902;stroke-opacity:1" />
   <path
-     d="M 414.92482,445.11637 L 414.92482,225.47952"
+     d="M 354.92482,425.11637 L 354.92482,205.47952"
      id="path832"
      sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)"
      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:48.48733902;stroke-opacity:1" />
   <path
-     d="M 497.52906,445.11637 L 497.52906,225.47952"
+     d="M 477.52906,425.11637 L 477.52906,205.47952"
      id="path833"
      sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)"
      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:48.48733902;stroke-opacity:1" />
   <path
-     d="M 24.452984,168.9176 L 557.89553,168.9176 L 293.67923,79.311399 L 24.452984,168.9176 z"
+     d="M 24.452984,148.9176 L 557.89553,148.9176 L 293.67923,59.311399 L 24.452984,148.9176 z"
      id="path837"
      sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.80000001)"
      style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:22.61511803;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.58139535" />
@@ -111,18 +111,6 @@
      width="496.41064"
      height="44.06712"
      x="42.874058"
-     y="168.99475"
+     y="148.99475"
      rx="0" />
-  <flowRoot
-     xml:space="preserve"
-     id="flowRoot4949"
-     style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial Black;-inkscape-font-specification:Arial Black"
-     transform="matrix(1.3176101,0,0,1.3176101,-105.72345,-82.793965)"><flowRegion
-       id="flowRegion4951"><rect
-         id="rect4953"
-         width="145.7672"
-         height="148.83598"
-         x="233.22751"
-         y="248.57143"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Arial Black;-inkscape-font-specification:Arial Black" /></flowRegion><flowPara
-       id="flowPara4955">M</flowPara></flowRoot></svg>
+</svg>
