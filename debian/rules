@@ -36,13 +36,14 @@ clean:
 	rm -rf build/classic.big
 	rm -rf build/classic.small
 	rm -rf build/japan
+	rm -rf build/svg_png
 	rm -rf build/square.big
 	rm -rf build/square.small
 	rm -rf build/svg
-	rm -rf build/svg_png
 	rm -rf build/japan_png
+	rm -rf build/svg-twotone
+	rm -rf build/svg-twotone_png
 	rm -f debian/files
-
 	dh_clean
 
 install:

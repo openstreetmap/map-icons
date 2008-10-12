@@ -24,10 +24,11 @@ my $package_path = 'debian/openstreetmap-map-icons';
 
 
 my @theme_dirs=qw(classic.big classic.small 
-		  japan japan_tn
+		  japan japan_png
 		  nickw
 		  square.big square.small
-		  svg svg_tn
+		  svg svg_png
+                  svg-twotone svg-twotone_png
 		  );
 
 my ($man,$help,$DEBUG,$VERBOSE)=(0,0,0,0);

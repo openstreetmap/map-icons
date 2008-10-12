@@ -30,6 +30,16 @@ find svg_png/ -name "*.png" | grep -v incomming | while read src ; do
     cp $src $dst
 done
 
+echo ""
+echo "svg-twotone_png --> classic.big"
+find svg-twotone_png/ -name "*.png" | grep -v incomming | while read src ; do 
+    dst=${src/svg_png/classic.big}
+    test -s $src || continue
+    test -s $dst && continue
+    mkdir -p `dirname $dst`
+    cp $src $dst
+done
+
 echo "classic.big --> classic.small"
 find classic.big/ -name "*.png" | grep -v incomming | while read src ; do 
     dst=${src/classic.big/classic.small}

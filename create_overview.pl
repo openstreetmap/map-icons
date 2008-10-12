@@ -41,7 +41,7 @@ my $poi_type_id_base = $poi_reserved;
 my $VERBOSE = $opt_v;
 $opt_P ||= "overview";
 
-my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan );
+my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan  svg-twotone);
 
 my $SVN_STATUS={};
 my $SVN_VERSION = '';

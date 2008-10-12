@@ -27,6 +27,7 @@ use File::Copy;
 use XML::Twig;
 use Getopt::Long;
 use Pod::Usage;
+use Getopt::Long;
 
 my $lang;
 my $db_file;

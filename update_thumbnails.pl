@@ -13,19 +13,39 @@ use File::Copy;
 use File::Find;
 use File::Slurp;
 use Image::Magick;
+use Getopt::Long;
+use Pod::Usage;
+
+# Set defaults and get options from command line
+my ($man,$help,$DEBUG,$VERBOSE)=(0,0,0,0);
+Getopt::Long::Configure('no_ignore_case');
+GetOptions ( 
+	     'd+'                 => \$DEBUG,
+	     'debug+'             => \$DEBUG,      
+	     'verbose'            => \$VERBOSE,
+	     'v+'                 => \$VERBOSE,
+	     'h|help|x'           => \$help, 
+	     'MAN'                => \$man, 
+	     'man'                => \$man, 
+	     )
+    or pod2usage(1);
+
+pod2usage(1) if $help;
+pod2usage(-verbose=>2) if $man;
+
+
 
 my $base_dir=$ARGV[0];
 
 die "Can't find dir \"$base_dir\""
     unless -d $base_dir;
 
-my $VERBOSE=1;
-
 my @theme_dirs=qw(classic.big classic.small 
 		  japan
 		  nickw
 		  square.big square.small
 		  svg
+                  svg-twotone
 		  );
 
 sub update_svg_thumbnail($$);
@@ -34,11 +54,16 @@ sub create_png();
 our $COUNT_FILES_SEEN=0;
 our $COUNT_FILES_CONVERTED=0;
 # ---------------------- MAIN ----------------------
+
+
 print "Update Thumbnails for Icons in Directory '$base_dir'\n";
 find( { no_chdir=> 1,
 	wanted => \&create_png,
       },
-      "$base_dir/svg","$base_dir/japan");
+    "$base_dir/svg",
+    "$base_dir/japan",
+    "$base_dir/svg-twotone"
+    );
 
 print "Thumbnails seen:  $COUNT_FILES_SEEN\n";
 print "Thumbnails converted: $COUNT_FILES_CONVERTED\n";
@@ -54,13 +79,17 @@ exit;
 #     '?'  if unknown
 sub get_svg_license($){
     my $icon_file=shift;
-    my $icon = XMLin($icon_file,ForceArray => ['description','title','condition']);
-    my $license = $icon->{'metadata'}->{'rdf:RDF'}->{'cc:Work'}->{'cc:license'}->{'rdf:resource'};
-    #print Dumper(\$license);
-    return '?' unless $license; 
-#    $license =~ s,http://web.resource.org/cc/,,;
-#    return "Public Domain" if $license && $license =~ m/Public.*Domain/;
-    
+    my $license="?";
+    eval {
+	my $icon = XMLin($icon_file,ForceArray => ['description','title','condition']);
+	$license = $icon->{'metadata'}->{'rdf:RDF'}->{'cc:Work'}->{'cc:license'}->{'rdf:resource'};
+	#print Dumper(\$license);
+	return '?' unless $license; 
+	#    $license =~ s,http://web.resource.org/cc/,,;
+	#    return "Public Domain" if $license && $license =~ m/Public.*Domain/;
+    };
+    warn "ERROR: $@" if $@;
+
     return $license;
 }
 
@@ -73,7 +102,9 @@ sub create_png()
     my $icon_file = $File::Find::name;
     my $icon_dir = $File::Find::dir;
     return if $icon_file =~ m/\.svn/;
-    
+
+    print STDERR "create_png( $icon_file )\n" if $DEBUG>0;
+
     if ( $icon_file =~ m/\.svg$/ ) {
 	$COUNT_FILES_SEEN++;
 	my $dst_file=$icon_file;
@@ -120,12 +151,11 @@ sub update_svg_thumbnail($$){
     my $icon_svg = shift;
     my $icon_svt = shift;
 
-    #print STDERR "update_svg_thumbnail($icon_svg	$icon_svt)\n";
+    print STDERR "update_svg_thumbnail($icon_svg,	$icon_svt)\n" if $DEBUG>0;
 
     if ( ! -s $icon_svg ) {
 	die "Icon '$icon_svg' not found\n";
     }
-#    print STDERR "update_svg_thumbnail($type,$icon_svg):\t-->  $icon_svt\n" if $VERBOSE;
 
     my $mtime_svt = (stat($icon_svt))[9]||0;
     my $mtime_svg  = (stat($icon_svg))[9]||0; 
@@ -171,3 +201,48 @@ sub update_svg_thumbnail($$){
     $COUNT_FILES_CONVERTED++;
 
 }
+
+
+
+__END__
+
+=head1 NAME
+
+B<update_thumbnails.pl> Version 0.1
+
+=head1 DESCRIPTION
+
+B<update_thumbnails.pl> is a program to update the thumbnails 
+corresponding to the svg icons.
+This little helper creates thumbnails for all svg Files in the japa/svg/svg-
+All icon-thumbnails will be placed into there package directory
+the default src_dir if build/*
+
+
+=head1 SYNOPSIS
+
+B<Common usages:>
+
+update_thumbnails.pl [-d] [-h] [--man] <build-directory>
+
+=over
+
+=item B<--man>
+
+Print this small usage
+
+=item B<-h>
+
+Print small Help
+
+=item B<-d>
+
+Add some more Debug Output
+
+=item B<build-directory>
+
+The directory where we search for the icons. This is also the
+directory where the thunbnails are written
+
+
+=back
