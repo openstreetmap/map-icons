@@ -21,9 +21,9 @@ cd $dst
 
 echo "Merging in directory `pwd`"
 echo ""
-echo "svg_png --> classic.big"
-find svg_png/ -name "*.png" | grep -v incomming | while read src ; do 
-    dst=${src/svg_png/classic.big}
+echo "svg-png --> classic.big"
+find svg-png/ -name "*.png" | grep -v incomming | while read src ; do 
+    dst=${src/svg-png/classic.big}
     test -s $src || continue
     test -s $dst && continue
     mkdir -p `dirname $dst`
@@ -31,9 +31,9 @@ find svg_png/ -name "*.png" | grep -v incomming | while read src ; do
 done
 
 echo ""
-echo "svg-twotone_png --> classic.big"
-find svg-twotone_png/ -name "*.png" | grep -v incomming | while read src ; do 
-    dst=${src/svg_png/classic.big}
+echo "svg-twotone-png --> classic.big"
+find svg-twotone-png/ -name "*.png" | grep -v incomming | while read src ; do 
+    dst=${src/svg-png/classic.big}
     test -s $src || continue
     test -s $dst && continue
     mkdir -p `dirname $dst`

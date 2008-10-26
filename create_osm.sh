@@ -9,7 +9,7 @@
 # xsltproc from the (cygwin) libxslt package
 
 # go through the directory "themes" we're interested in
-for dir in classic.big classic.small square.big square.small svg_png svg-twotone svg-twotone_png; do \
+for dir in classic.big classic.small square.big square.small svg-png svg-twotone svg-twotone-png; do \
 	# keep the user informed
 	echo +++ $dir +++
 	

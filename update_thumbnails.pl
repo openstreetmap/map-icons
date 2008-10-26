@@ -96,7 +96,7 @@ sub get_svg_license($){
 
 ##################################################################
 # create all Thumbnails for one icon-name
-# currently this means svg --> svg_png and japan --> japan_png
+# currently this means svg --> svg-png and japan --> japan-png
 sub create_png()
 { 
     my $icon_file = $File::Find::name;
@@ -109,7 +109,7 @@ sub create_png()
 	$COUNT_FILES_SEEN++;
 	my $dst_file=$icon_file;
 	for my $theme ( @theme_dirs) {
-	    $dst_file =~ s,/$theme/,/${theme}_png/,;
+	    $dst_file =~ s,/$theme/,/${theme}-png/,;
 	}
 	$dst_file =~ s,\.svg$,.png,;
 	update_svg_thumbnail($icon_file,$dst_file);
@@ -170,7 +170,8 @@ sub update_svg_thumbnail($$){
     my ($x,$y)=get_svg_size_of_imge( $image_string);
 
     print STDERR "Updating $icon_svg\t-->  $icon_svt\t";
-    print STDERR " => '${x}x$y' lic:$license \n" if $VERBOSE;;
+    print STDERR " => '${x}x$y' lic:$license" if $VERBOSE;
+    print STDERR "\n";
     eval { # in case image::magic dies
 	my $image = Image::Magick->new( size => "${x}x$y");;
 	my $rc = $image->Read($icon_svg);

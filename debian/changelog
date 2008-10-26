@@ -1,3 +1,9 @@
+openstreetmap-map-icons (11145) unstable; urgency=low
+
+   * map-icons: copy_icons_to_debian_package_dirs.pl tn is now called _png
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 12 Oct 2008 20:02:26 +0200
+
 openstreetmap-map-icons (11120) unstable; urgency=low
 
    * more icons

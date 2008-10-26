@@ -7,17 +7,28 @@ Standards-Version: 3.6.1
 
 Package: openstreetmap-map-icons
 Architecture: all
-Depends: ${misc:Depends}
-	 openstreetmap-map-icons-classic.small | openstreetmap-map-icons-classic.big | openstreetmap-map-icons-square.small | openstreetmap-map-icons-square.big | openstreetmap-map-icons-japan | openstreetmap-map-icons-svg | openstreetmap-map-icons-svg-twotone | openstreetmap-map-icons-svg-twotone_png
+Depends: openstreetmap-map-icons-classic.small
+ | openstreetmap-map-icons-classic.big
+ | openstreetmap-map-icons-square.small
+ | openstreetmap-map-icons-square.big
+ | openstreetmap-map-icons-japan
+ | openstreetmap-map-icons-svg
+ | openstreetmap-map-icons-svg-twotone
+ | openstreetmap-map-icons-japan-png
+ | openstreetmap-map-icons-svg-png
+ | openstreetmap-map-icons-svg-twotone-png
 Recommends:
 Conflicts: openstreetmap-map-icons-restricted
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik,
-	  openstreetmap-map-icons-classic.small, openstreetmap-map-icons-classic.big,
-	  openstreetmap-map-icons-square.small, openstreetmap-map-icons-square.big,
-	  openstreetmap-map-icons-japan, openstreetmap-map-icons-japan_png,
-	  openstreetmap-map-icons-svg, openstreetmap-map-icons-svg_png,
-	  openstreetmap-map-icons-svg-twotone, openstreetmap-map-icons-svg-twotone_png
+ openstreetmap-map-icons-square.small,
+ openstreetmap-map-icons-square.big,
+ openstreetmap-map-icons-japan,
+ openstreetmap-map-icons-japan-png,
+ openstreetmap-map-icons-svg,
+ openstreetmap-map-icons-svg-png,
+ openstreetmap-map-icons-svg-twotone,
+ openstreetmap-map-icons-svg-twotone-png
 Description: Openstreetmap-Map-icons are map Icons
  These Icons are for use with maps build from OSM
  used in GpsDrive, Mapnik, ...
@@ -73,7 +84,7 @@ Description: Openstreetmap-Map-icons are map Icons
  These Icons are for use with maps build from OSM
  used in GpsDrive, Mapnik, ...
 
-Package: openstreetmap-map-icons-japan_png
+Package: openstreetmap-map-icons-japan-png
 Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
@@ -93,7 +104,7 @@ Description: Openstreetmap-Map-icons are map Icons
  These Icons are for use with maps build from OSM
  used in GpsDrive, Mapnik, ...
 
-Package: openstreetmap-map-icons-svg_png
+Package: openstreetmap-map-icons-svg-png
 Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
@@ -114,7 +125,7 @@ Description: Openstreetmap-Map-icons are map Icons
  used in GpsDrive, Mapnik, ...
 
 
-Package: openstreetmap-map-icons-svg-twotone_png
+Package: openstreetmap-map-icons-svg-twotone-png
 Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted

@@ -368,7 +368,7 @@ sub update_overview($$){
 	for my $type ( @ALL_TYPES  ) {
 	    my $icon_s = "${type}/$icon.svg";
 	    my $icon_p = "${type}/$icon.png";
-	    my $icon_t = "${type}_png/${icon}.png";
+	    my $icon_t = "${type}-png/${icon}.png";
 	    my $class = $type;
 	    $class =~ s/\./_/g;
 
@@ -513,7 +513,7 @@ sub update_overview($$){
 		$name =~ s/.*\/incomming\///;
 		$name =~ s/\.(svg|png)$//;
 		my $icon_t = $icon;
-		$icon_t =~ s/\//_png\//;
+		$icon_t =~ s/\//-png\//;
 		$icon_t =~ s/\.svg/\.png/;
 		print STDERR "thumb: $icon_t\n" if $VERBOSE;
 		$icon_t = $icon unless -s $icon_t;
