@@ -16,22 +16,31 @@ whitespaces.
 THE STRUCTURE:
 ---------------
 
-	icons/theme
-		the icons belonging to theme "theme"
+	map-icons/<theme>
+		the icons belonging to theme <theme>
+		Each Scheme has a unique loook.
 
-	icons/classic
-		this will hold the `old` gpsdrive icons from tweety
+	map-icons/classic
+		this will hold the `old` gpsdrive icons from J. Ostertag
 
-	icons/square.big
-	icons/square.small
+	map-icons/square.big
+	map-icons/square.small
 		the first icon themes designed for the new structure
 
+	map-icons/svg
+		A set of Icons drawn in svg. So these are scaleable
+
+	map-icons/japan
+		Japanese Style Map icons
+
+	map-icons/svg-twotone
+		SVG-Icons kept in two color Tones.
 
 GUIDELINES:
 ------------
 
 Each of these directories has to contain at least one icon for each of the
-twenty base categories, e.g. shopping.png for the category "Shopping" and a
+(twenty) base categories, e.g. shopping.png for the category "Shopping" and a
 corresponding subfolder with the same name, containing at least one icon called
 "empty.png". Optionally you can place additional sub icons into those folders,
 to allow a more precise classification of the related POI.
@@ -39,7 +48,7 @@ If it should be necessary, one can add other sub-subfolders.
 
 Example:
 
-	icons/themename/
+	map-icons/themename/
 	|
 	|_ food.png
 	|
@@ -126,7 +135,7 @@ FILES:
 icons.xml		holds all available icon and poi-type information,
 			including titles and description in various languages.
 
-overview.html		gives you a nice overview of the currently availabe
+overview.en.html	gives you a nice overview of the currently availabe
 			icons and POI-Types in english language.
 
 overview.de.html	same as above in german (if available)
