@@ -25,8 +25,8 @@ use XML::Simple;
 use Image::Info;
 use Cwd;
 
-our ($opt_b, $opt_h, $opt_i, $opt_j, $opt_l, $opt_n, $opt_p, $opt_r,$opt_s,$opt_v, $opt_D, $opt_F, $opt_L, $opt_P,$opt_S) = 0;
-getopts('bhijlnprsvF:D:L:P:S:') or $opt_h = 1;
+our ($opt_b,$opt_c, $opt_h, $opt_i, $opt_j, $opt_l, $opt_n, $opt_p, $opt_r,$opt_s,$opt_v, $opt_D, $opt_F, $opt_L, $opt_P,$opt_S) = 0;
+getopts('bchijlnprsvF:D:L:P:S:') or $opt_h = 1;
 pod2usage( -exitval => '1',  
            -verbose => '1') if $opt_h;
 
@@ -41,7 +41,7 @@ my $poi_type_id_base = $poi_reserved;
 my $VERBOSE = $opt_v;
 $opt_P ||= "overview";
 
-my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan  svg-twotone);
+my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan svg-twotone);
 
 my $SVN_STATUS={};
 my $SVN_VERSION = '';
@@ -97,6 +97,7 @@ sub get_svg_license($){
     #print Dumper(\$license);
     return "?" unless $license;
     return "PD" if $license eq "http://web.resource.org/cc/PublicDomain";
+    return "PD" if $license =~ m,http://creativecommons.org/licenses/publicdomain/,;
     $license =~ s,http://creativecommons.org/licenses/LGPL/?,LGPL-,;
     return $license;
 }
@@ -195,11 +196,17 @@ sub html_head($){
 	}
 	$html_head .= "<ul>\n";
 	#for my $rule (@{$rules}) {
-	for my $top_level ( # XXX This List should not be hardcoded !!!!!!
-			    sort qw(accommodation  food incomming  nautical  public shopping transport waypoint
-           education      geocache  misc       people    recreation  sightseeing  unknown    wlan
-           empty          health    money      places    religion    sports       vehicle)
-	    ) {
+	my %top_categories;
+	for my $dir ( sort glob ( "$base_dir/*/*")) {
+	    next unless -d $dir;
+	    next if  $dir =~ m/CMakeFiles/;
+	    my ($cat) = ($dir =~ m/.*\/(.+)(\.svg|\.png)?$/ );
+#	    print "$cat\t$dir\n";
+	    $top_categories{$cat}++;
+	}
+	my @top_categories;
+	@top_categories = (sort keys %top_categories);
+	for my $top_level ( @top_categories ) {
 	    $html_head .= "	<li><a href=\"\#$top_level\">$top_level</a></li>\n";
 	}
 	$html_head .= "</ul>\n";
@@ -209,22 +216,31 @@ sub html_head($){
     $html_head .= "\n";
     $html_head .= "<td valign=\"top\">\n";
 
-    $html_head .= "\n";
-    $html_head .= "<table border=\"1\">\n";
-    $html_head .= "<td valign=\"top\">\n";
-    $html_head .= "<a href=\"overview.en.html\">Without License Info in English</a><br/>\n";
-    $html_head .= "<a href=\"overview.de.html\">Without License Info in German</a><br/>\n";
-    $html_head .= "<a href=\"overview_lic.en.html\">With License Info in English</a><br/>\n";
-    $html_head .= "<a href=\"overview_lic.de.html\">With License Info in German</a><br/>\n";
-    $html_head .= "</td>\n";
-    $html_head .= "</table>\n";
-
-    if ( $opt_l ) { # Add license Information
+    # Links to other Versions
+    if (0) {
+	$html_head .= "\n";
 	$html_head .= "<table border=\"1\">\n";
-	$html_head .= "<tr><td><font color=\"green\">lic:PD</font></td> <td>Public Domain License</td></tr>\n";
-	$html_head .= "<tr><td><font color=\"green\">lic:LGPL</font></td> <td>LGPL</td></tr>\n";
+	$html_head .= "<td valign=\"top\">\n";
+	$html_head .= "<a href=\"overview.en.html\">Without License Info in English</a><br/>\n";
+	$html_head .= "<a href=\"overview.de.html\">Without License Info in German</a><br/>\n";
+	$html_head .= "<a href=\"overview_lic.en.html\">With License Info in English</a><br/>\n";
+	$html_head .= "<a href=\"overview_lic.de.html\">With License Info in German</a><br/>\n";
+	$html_head .= "</td>\n";
+	$html_head .= "</table>\n";
+    };
+    
+    if ( $opt_l || $opt_c ) { # Add license Information
+	# Legend for Colors
+	if ( $lang eq "de" ) {
+	    $html_head .= "<h3>Lizensen</h3>\n";
+	} else {
+	    $html_head .= "<h3>Licenses</h3>\n";
+	}
+	$html_head .= "<table border=\"1\">\n";
+	$html_head .= "<tr><td><font color=\"green\" >lic:PD</font></td> <td>Public Domain License</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"green\" >lic:LGPL</font></td> <td>LGPL</td></tr>\n";
 	$html_head .= "<tr><td><font color=\"purple\">lic:?</font></td> <td>No license information available about this icon</td></tr>\n";
-	$html_head .= "<tr><td><font color=\"red\">lic:</font></td> <td>License has no known/predefined category</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"red\"   >lic:</font></td> <td>License has no known/predefined category</td></tr>\n";
 	$html_head .= "</table>\n";
 #	$html_head .= "</td>\n";
 	}
@@ -253,7 +269,7 @@ sub html_head($){
     $html_head .= "    <th>Path</th>\n" if $opt_p;
     $html_head .= "    <th colspan=\"".(2*scalar(@ALL_TYPES))."\">Icons</th>\n";
     $html_head .= "    <th>Description</th>\n";
-    $html_head .= "    <th>condition</th>\n";
+    $html_head .= "    <th>OSM Condition</th>\n";
     $html_head .= "  </tr>\n";
     return $html_head;
 }
@@ -412,17 +428,35 @@ sub update_overview($$){
 	    }
 	    if ( $empty ) { # exchange empty or missing icon files with a char for faster display
 		$content .=  " class=\"empty\" " unless $header_line;
-		$content .=  $svn_bgcolor;
-		$content .=  " >";
 	    } elsif ( $restricted && not $opt_r ){
 		$content .=  " class=\"empty\" " unless $header_line;
-		$content .=  $svn_bgcolor;
-		$content .=  " >";
 	    } else {
 		$content .=  " class=\"icon\" " unless $header_line;
-		$content .= $svn_bgcolor;
-		$content .=  " >";
 	    }
+
+	    # -------------- Add license Information Part 1
+	    my $license='';
+	    my $lic_color=' ';
+	    my $lic_bgcolor=' ';
+	    if ( ! $empty && ( $opt_l || $opt_c)  ) {
+		$lic_color='red';
+		if ( -s "$icon_s"  ) {
+		    $license = get_svg_license($icon_s);
+		} elsif ( -s "$icon_p" ) {
+		    $license = get_png_license($icon_p);
+		}
+		$lic_color = 'purple' if $license eq "?";
+		$lic_color = 'green'  if $license eq "PD";
+		$lic_color = 'green'  if $license =~ m/^LGPL/;
+	    }
+
+	    if ( $opt_c && $lic_color && ( $license eq "PD" )) {
+		$content .= "bgcolor=\"$lic_color\"";
+	    } else {
+		$content .= $svn_bgcolor;
+	    }
+	    $content .=  " >";
+
 
 	    if ( $opt_s && $status ) { # modified icons .... we show old icon too
 		$content .= "    <img src=\"$icon_path_svn\" /> ==> " 
@@ -445,19 +479,9 @@ sub update_overview($$){
 	    # Status Column
 	    $content .= "<td class=\"status\">\n";
 
-	    # -------------- Add license Information
+	    # -------------- Add license Information Part 2
 	    if ( ! $empty && $opt_l ) {
-		my $license='';
-		if ( -s "$icon_s"  ) {
-		    $license = get_svg_license($icon_s);
-		} elsif ( -s "$icon_p" ) {
-		    $license = get_png_license($icon_p);
-		}
-		my $lic_color=' color="red" ';
-		$lic_color = ' color="purple" ' if $license eq "?";
-		$lic_color = ' color="green" ' if $license eq "PD";
-		$lic_color = ' color="green" ' if $license =~ m/^LGPL/;
-		$content .= "<font $lic_color size=\"-2\">lic:$license</font><br/>";
+		$content .= "<font color=\"$lic_color\" size=\"-2\">lic:$license</font><br/>";
 		print "License($type/$icon): $license\n"
 		    if $VERBOSE && $license && $license ne "?";
 	    }
@@ -533,6 +557,8 @@ sub update_overview($$){
 
 	}
     }
+
+
     print $fo "\n</body>\n</html>";
     $fo->close();
     return;
@@ -579,7 +605,11 @@ show internal gpsdrive-mysql id in html page
 
 =item B<-l>
 
-Add licence to overview where known (Currently only svg)
+Add licence to overview where known
+
+=item B<-c>
+
+Add licence information in form of Background Colors
 
 =item B<-r>
 
