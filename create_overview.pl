@@ -237,9 +237,9 @@ sub html_head($){
 	    $html_head .= "<h3>Licenses</h3>\n";
 	}
 	$html_head .= "<table border=\"1\">\n";
-	$html_head .= "<tr><td><font color=\"green\" >lic:PD</font></td> <td>Public Domain License</td></tr>\n";
-	$html_head .= "<tr><td><font color=\"green\" >lic:LGPL</font></td> <td>LGPL</td></tr>\n";
-	$html_head .= "<tr><td><font color=\"purple\">lic:?</font></td> <td>No license information available about this icon</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"lightgreen\" >lic:PD</font></td> <td>Public Domain License</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"lightgreen\" >lic:LGPL</font></td> <td>LGPL</td></tr>\n";
+	$html_head .= "<tr><td><font color=\"red\">lic:?</font></td> <td>No license information available about this icon</td></tr>\n";
 	$html_head .= "<tr><td><font color=\"red\"   >lic:</font></td> <td>License has no known/predefined category</td></tr>\n";
 	$html_head .= "</table>\n";
 #	$html_head .= "</td>\n";
@@ -267,7 +267,10 @@ sub html_head($){
     $html_head .= "    <th>ID</th>" if $opt_j;
     $html_head .= "    <th>Name</th>\n";
     $html_head .= "    <th>Path</th>\n" if $opt_p;
-    $html_head .= "    <th colspan=\"".(2*scalar(@ALL_TYPES))."\">Icons</th>\n";
+    my $cols_per_icon= 1;
+    $cols_per_icon++ if $opt_s || $opt_n;
+    $cols_per_icon++ if $opt_l;
+    $html_head .= "    <th colspan=\"".($cols_per_icon*scalar(@ALL_TYPES))."\">Icons</th>\n";
     $html_head .= "    <th>Description</th>\n";
     $html_head .= "    <th>OSM Condition</th>\n";
     $html_head .= "  </tr>\n";
@@ -284,8 +287,9 @@ sub all_type_header(){
 	my $txt=$type;
 	$txt=~s/\.$//;
 	$txt=~s/\./<br>/;
-	$all_type_header .= "  <td  colspan=\"2\" valign=\"top\"><font size=\"-3\">$txt</font></td>\n";
-#	$all_type_header .= " <td></td>";
+	$all_type_header .= " <td  valign=\"top\"><font size=\"-3\">$txt</font></td>\n";
+	$all_type_header .= " <td><font size=\"-3\">lic</font></td>" if $opt_l;
+	$all_type_header .= " <td><font size=\"-3\">svn</font></td>" if $opt_s || $opt_n;
     }
     $all_type_header .= " <td></td>\n";
     $all_type_header .= " <td></td>\n";
@@ -439,19 +443,19 @@ sub update_overview($$){
 	    my $lic_color=' ';
 	    my $lic_bgcolor=' ';
 	    if ( ! $empty && ( $opt_l || $opt_c)  ) {
-		$lic_color='red';
 		if ( -s "$icon_s"  ) {
 		    $license = get_svg_license($icon_s);
 		} elsif ( -s "$icon_p" ) {
 		    $license = get_png_license($icon_p);
 		}
-		$lic_color = 'purple' if $license eq "?";
-		$lic_color = 'green'  if $license eq "PD";
-		$lic_color = 'green'  if $license =~ m/^LGPL/;
+		$lic_color='red';
+		$lic_color = 'red'         if $license eq "?";
+		$lic_color = 'lightgreen'  if $license eq "PD";
+		$lic_color = 'lightgreen'  if $license =~ m/^LGPL/;
 	    }
 
-	    if ( $opt_c && $lic_color && ( $license eq "PD" )) {
-		$content .= "bgcolor=\"$lic_color\"";
+	    if ( $opt_c && $lic_color ) {
+		$content .= " bgcolor=\"$lic_color\" ";
 	    } else {
 		$content .= $svn_bgcolor;
 	    }
@@ -459,7 +463,7 @@ sub update_overview($$){
 
 
 	    if ( $opt_s && $status ) { # modified icons .... we show old icon too
-		$content .= "    <img src=\"$icon_path_svn\" /> ==> " 
+		$content .= "\n            <img src=\"$icon_path_svn\" /> ==> " 
 		    if -s $icon_path_svn && $status =~ "M|D";
 	    }
 	    if ( $empty ) { # exchange empty or missing icon files with a char for faster display
@@ -468,38 +472,45 @@ sub update_overview($$){
 		$content .=   "r";
 	    } else {
 		if ( -s "$base_dir/$icon_path_current" ){
-		    $content .= "     <a href=\"$icon_path_current\" >";
-		    $content .= "         <img title=\"$name\" src=\"$icon_path_current\" class=\"$class\" alt=\"$name\" />";
+		    $content .= "     <a href=\"$icon_path_current\" >\n";
+		    $content .= "                 <img title=\"$name\" src=\"$icon_path_current\" class=\"$class\" alt=\"$name\" />";
 		    $content .= "</a>";
 		}
 	    }
 	    $content .= "</td>\n";
 
 
-	    # Status Column
-	    $content .= "<td class=\"status\">\n";
 
 	    # -------------- Add license Information Part 2
-	    if ( ! $empty && $opt_l ) {
-		$content .= "<font color=\"$lic_color\" size=\"-2\">lic:$license</font><br/>";
-		print "License($type/$icon): $license\n"
-		    if $VERBOSE && $license && $license ne "?";
+	    if ( $opt_l ) {
+		$content .= "                      <td>";
+		if ( ! $empty  ) {
+		    $content .= "<font color=\"$lic_color\" size=\"-2\">$license</font>";
+		    print "License($type/$icon): $license\n"
+			if $VERBOSE && $license && $license ne "?";
+		}
+		$content .= "</td>\n";
+
 	    }
 
 	    # ----------- add SVN Status Info 
-	    if ( ($opt_s || $opt_n)&& $status ) {
-		#$status_line =~ s/guenther/g/;
-		#$status_line =~ s/joerg/j/;
-		#$status_line =~ s/ulf/u/;
-		#$status_line =~ s/$SVN_VERSION//;
-		$content .= "<font size=\"-3\">";
-		$content .= "svn:$status<br>\n" if $opt_s && $status;
-		$content .= "$user<br>\n";
-		$content .= "rev: $rev_ci" if $rev_ci;
-		$content .= "</font>";
+	    if ($opt_s || $opt_n) {
+		$content .= "<td class=\"status\">\n";
+		if ( $status ) {
+		    # Status Column
+		    #$status_line =~ s/guenther/g/;
+		    #$status_line =~ s/joerg/j/;
+		    #$status_line =~ s/ulf/u/;
+		    #$status_line =~ s/$SVN_VERSION//;
+		    $content .= "<font size=\"-3\">";
+		    $content .= "svn:$status<br>\n" if $opt_s && $status;
+		    $content .= "$user<br>\n";
+		    $content .= "rev: $rev_ci" if $rev_ci;
+		    $content .= "</font>";
+		}
+		$content .= "</td>\n";
 	    }
 
-	    $content .= "</td>\n";
 	}
 	$content .= "    <td>$title<br>$descr</td>\n";
 	$content .= "    <td><font size=-1>$conditions</font></td>\n";
