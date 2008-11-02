@@ -1,3 +1,39 @@
+openstreetmap-map-icons (11606) unstable; urgency=low
+
+   * new changelog
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 11:30:34 +0100
+
+openstreetmap-map-icons (11605) unstable; urgency=low
+
+   * New Icons from malenki <malenki.ch>
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 11:30:14 +0100
+
+openstreetmap-map-icons (11604) unstable; urgency=low
+
+   * remove black background from emty images, reduce font size, add handling for converted files, resort japan to last column
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 11:29:28 +0100
+
+openstreetmap-map-icons (11603) unstable; urgency=low
+
+   * map-icons/CMakeLists.txt: Add cmake_minimum_required
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 11:28:14 +0100
+
+openstreetmap-map-icons (11602) unstable; urgency=low
+
+   * correct directory name for svg-twotone-png
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 11:27:22 +0100
+
+openstreetmap-map-icons (11601) unstable; urgency=low
+
+   * Add comment when converting, for not commented out
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 11:26:27 +0100
+
 openstreetmap-map-icons (11600) unstable; urgency=low
 
    * New Icons from malenki <malenki.ch>

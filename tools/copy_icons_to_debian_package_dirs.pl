@@ -112,18 +112,19 @@ B<copy_icons_to_debian_package_dirs.pl> Version 0.1
 =head1 DESCRIPTION
 
 B<copy_icons_to_debian_package_dirs.pl> is a program to copy 
-the icons Files into the apropriate debian Directories.
+the icons Files into the appropriate debian Directories.
 This little helper copies according to the icons.xml File 
 all files into the new structure.
 All icons will be placed into there package directory
-the default src_dir if build/*
+the default src_dir is build/<theme> the destination directories
+are debian/openstreetmap-map-icons-<theme>
 
 
 =head1 SYNOPSIS
 
 B<Common usages:>
 
-geoinfo.pl [-d] [--man]
+copy_icons_to_debian_package_dirs.pl [-d] [--man]
 
 =item B<--man>
 
@@ -132,5 +133,9 @@ Print this small usage
 =item B<-d>
 
 Add some more Debug Output
+
+=item B<--exclude-restricted>
+
+Do not include icons marked as restricted in icons.xml
 
 =back
