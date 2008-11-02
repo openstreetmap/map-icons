@@ -37,7 +37,7 @@ my $dst_dir="./build";
 Getopt::Long::Configure('no_ignore_case');
 GetOptions ( 
 #    'src-dir'            => \$src_dir,
-    'dst-dir'            => \$dst_dir,
+    'dst-dir:s'          => \$dst_dir,
     'd+'                 => \$DEBUG,
     'debug+'             => \$DEBUG,      
     'verbose'            => \$VERBOSE,
@@ -154,25 +154,19 @@ for my $src (
 
 ($src_theme,$dst_theme)=qw(classic.big square.big);
 print "$src_theme	-->	$dst_theme\n";
-for my $full_path (
+for my $src (
     split(/\s+/,
 	  `find "$dst_dir/$src_theme/" -name "*.png" | grep -v -e incomming -e empty.png` ) ) {
     # merge and convert an image from classic.big to square.big
-    my $src=${full_path};
-    $src=~ s/square.big/classic.big/;
-    my ($src_theme) = ( $src =~ m,[^/]+,);
-    my $dst_theme="square.big";
-    my $dir=dirname($src);
-    $dir=basename($dir);
-    my $dst="$dst_dir/$dst_theme/" . basename($src);
+    my $dst=$src;
+    $dst =~ s,$src_theme,$dst_theme,;
 
     next unless -s $src;
     next if -s $dst;
 
     $DEBUG && print "Try to create $src	========> $dst\n";
 
-
-    my $empty="$dst_dir/$dst_theme/$dir/empty.png";
+    my $empty=dirname($dst)."/empty.png";
     $DEBUG && print "checking '$empty'\n";
     if ( ! -s $empty ) {
 	my $empty=dirname($empty);
