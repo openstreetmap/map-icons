@@ -61,8 +61,8 @@ find( { no_chdir=> 1,
 	wanted => \&create_png,
       },
     "$base_dir/svg",
-    "$base_dir/svg-twotone"
-    "$base_dir/japan",
+    "$base_dir/svg-twotone",
+    "$base_dir/japan"
     );
 
 print "Thumbnails seen:  $COUNT_FILES_SEEN\n";
