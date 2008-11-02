@@ -60,7 +60,7 @@ install:
 	cd build; $(MAKE)
 	bash ./tools/copy_icons_to_dir.sh build
 	perl ./tools/update_thumbnails.pl build
-	bash ./tools/merge-icons-all-from-svg2classic2square.sh build
+	perl ./tools/compile_icons.pl --dst-dir=build
 
 	touch build-stamp
 
