@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+
 PROJECT(icons)
 
 INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/square.big/
