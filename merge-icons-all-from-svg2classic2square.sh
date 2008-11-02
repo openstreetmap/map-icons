@@ -17,6 +17,8 @@ echo "$@" | grep debug && debug="true"
 # Convert and merge icons for the map
 # so we merge between different themes to have more icons
 
+conv_string="Converted from http://svn.openstreetmap.org/applications/share/map-icons"
+
 cd $dst
 
 echo "Merging in directory `pwd`"
@@ -48,6 +50,7 @@ find classic.big/ -name "*.png" | grep -v incomming | while read src ; do
     mkdir -p `dirname $dst`
     echo "	convert $src	-scale 16x16 $dst"
     convert $src -scale 16x16 $dst
+# -comment "Converted from classic.big"
 done
 
 echo "classic.small --> classic.big"
@@ -57,7 +60,8 @@ find classic.small/ -name "*.png" | grep -v incomming | while read src ; do
     test -s $dst && continue
     mkdir -p `dirname $dst`
     echo "	convert $src	-scale 32x32 $dst"
-    convert $src -scale 32x32 $dst
+    convert $src -scale 32x32  $dst
+# -comment "${conv_string}/classic.small"
 done
 
 echo "classic.big --> square.big"
@@ -111,6 +115,7 @@ find classic.big/ -name "*.png" | grep -v -e incomming -e empty.png | \
     convert $empty \
 	-geometry +4+4 /tmp/reduced.png  \
 	-composite $dst
+#  -comment "${conv_string}/classic.big" 
 #    echo "Converted $src $dst"
 done
 
@@ -122,6 +127,7 @@ find square.big/ -name "*.png" | grep -v incomming | while read src ; do
     mkdir -p `dirname $dst`
     echo "	convert $src	-scale 16x16 $dst"
     convert $src -scale 16x16 $dst
+    #  -comment "$conv_string/square.big"
 done
 
 echo "Merging icons across Themes complete"
