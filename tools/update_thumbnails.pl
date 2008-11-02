@@ -41,11 +41,11 @@ die "Can't find dir \"$base_dir\""
     unless -d $base_dir;
 
 my @theme_dirs=qw(classic.big classic.small 
-		  japan
 		  nickw
 		  square.big square.small
 		  svg
                   svg-twotone
+		  japan
 		  );
 
 sub update_svg_thumbnail($$);
@@ -61,8 +61,8 @@ find( { no_chdir=> 1,
 	wanted => \&create_png,
       },
     "$base_dir/svg",
-    "$base_dir/japan",
     "$base_dir/svg-twotone"
+    "$base_dir/japan",
     );
 
 print "Thumbnails seen:  $COUNT_FILES_SEEN\n";
@@ -96,7 +96,10 @@ sub get_svg_license($){
 
 ##################################################################
 # create all Thumbnails for one icon-name
-# currently this means svg --> svg-png and japan --> japan-png
+# currently this means
+#       svg         --> svg-png
+#   and svg-twotone --> svg-twotone-png
+#   and japan       --> japan-png
 sub create_png()
 { 
     my $icon_file = $File::Find::name;
@@ -215,9 +218,10 @@ B<update_thumbnails.pl> Version 0.1
 
 B<update_thumbnails.pl> is a program to update the thumbnails 
 corresponding to the svg icons.
-This little helper creates thumbnails for all svg Files in the japa/svg/svg-
+This little helper creates thumbnails for all svg Files in
+the japa/svg/svg-twotone Directories
 All icon-thumbnails will be placed into there package directory
-the default src_dir if build/*
+the default src_dir is build/*
 
 
 =head1 SYNOPSIS
