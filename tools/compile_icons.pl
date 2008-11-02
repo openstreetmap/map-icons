@@ -16,28 +16,32 @@
 use strict;
 use warnings;
 
+#use utf8;
 use Cwd;
 use Data::Dumper;
 use File::Basename;
 use File::Copy;
 use File::Find;
 use File::Path;
+use File::Slurp;
 use Getopt::Long;
 use IO::File;
 use Image::Info;
 use Image::Magick;
 use Pod::Usage;
 use XML::Simple;
-#use utf8;
 
 # Set defaults and get options from command line
 my ($man,$help,$DEBUG,$VERBOSE)=(0,0,0,0);
+my ( $do_update_thumbnails,$do_merge_icons)=(0,0);
 #my $src_dir="./build";
 my $dst_dir="./build";
 Getopt::Long::Configure('no_ignore_case');
 GetOptions ( 
 #    'src-dir'            => \$src_dir,
     'dst-dir:s'          => \$dst_dir,
+    'update-thumbnails'  => \$do_update_thumbnails,
+    'merge-icons'        => \$do_merge_icons,
     'd+'                 => \$DEBUG,
     'debug+'             => \$DEBUG,      
     'verbose'            => \$VERBOSE,
@@ -51,6 +55,25 @@ GetOptions (
 pod2usage(1) if $help;
 pod2usage(-verbose=>2) if $man;
 
+( $do_update_thumbnails,$do_merge_icons)=(1,1) 
+    unless $do_update_thumbnails || $do_merge_icons;
+
+
+# --------------------------------------------
+
+sub update_svg_thumbnail($$);
+sub create_png();
+our $COUNT_FILES_SEEN=0;
+our $COUNT_FILES_CONVERTED=0;
+my @theme_dirs=qw(classic.big classic.small 
+		  square.big square.small
+		  svg
+                  svg-twotone
+		  japan
+		  nickw
+		  );
+
+
 # --------------------------------------------
 # Create a path for a given Filename
 sub mkpath4icon($) {
@@ -59,7 +82,7 @@ sub mkpath4icon($) {
     if ( ! -d $dir ) {
 	mkpath($dir) || warn ("Cannot create Directory: '$dir'");
     };
-	     };
+};
 
 
 
@@ -86,30 +109,201 @@ sub image_resize($$$){
 	mkpath4icon($dst_file);
 	$rc = $image->Write($dst_file);
 	warn "ERROR: $rc" if "$rc";
+	};
+    warn "ERROR: $@" if $@;
+	     }
+
+
+##################################################################
+# Get the licence from a svg File
+# RETURNS: 
+#     'PD' for PublicDomain
+#     '?'  if unknown
+sub get_svg_license($){
+    my $icon_file=shift;
+    my $license="?";
+    eval {
+	my $icon = XMLin($icon_file,ForceArray => ['description','title','condition']);
+	$license = $icon->{'metadata'}->{'rdf:RDF'}->{'cc:Work'}->{'cc:license'}->{'rdf:resource'};
+	#print Dumper(\$license);
+	return '?' unless $license; 
+	#    $license =~ s,http://web.resource.org/cc/,,;
+	#    return "Public Domain" if $license && $license =~ m/Public.*Domain/;
     };
     warn "ERROR: $@" if $@;
+
+    return $license;
+		}
+
+
+##################################################################
+# create all Thumbnails for one icon-name
+# currently this means
+#       svg         --> svg-png
+#   and svg-twotone --> svg-twotone-png
+#   and japan       --> japan-png
+sub create_png()
+{ 
+    my $icon_file = $File::Find::name;
+    my $icon_dir = $File::Find::dir;
+    return if $icon_file =~ m/\.svn/;
+
+    print STDERR "create_png( $icon_file )\n" if $DEBUG>0;
+
+    if ( $icon_file =~ m/\.svg$/ ) {
+	$COUNT_FILES_SEEN++;
+	my $dst_file=$icon_file;
+	for my $theme ( @theme_dirs) {
+	    $dst_file =~ s,/$theme/,/${theme}-png/,;
+	}
+	$dst_file =~ s,\.svg$,.png,;
+	update_svg_thumbnail($icon_file,$dst_file);
+    }
 }
 
-# --------------------------------------------
-my $conv_string="Converted from http://svn.openstreetmap.org/applications/share/map-icons";
-my ($src_theme,$dst_theme);
+# ------------------------------------------------------------------
+# ARGS:
+#   gets an string with the svg image
+# RETURNS: ($x,$y) the x/y entents of this svg FIle
+sub get_svg_size_of_image($){
+    my $image_string=shift;
+    my ($x,$y)=(200,200);
+    if ( $image_string=~ m/viewBox=\"([\-\d\.]+)\s+([\-\d\.]+)\s+([\-\d\.]+)\s+([\-\d\.]+)\s*\"/ ){
+	my ( $x0,$y0,$x1,$y1 ) = ($1,$2,$3,$4);
+	#print STDERR "		( $x0,$y0,$x1,$y1)" if $VERBOSE;
+	$x0=0 if $x0>0;
+	$y0=0 if $y0>0;
+	$x=int(2+$x1-$x0);
+	$y=int(2+$y1-$y0);
+    } elsif ( $image_string=~ m/height=\"([\-\d\.]+)\"/ ){
+	$y=int(2+$1);
+	if ( $image_string=~ m/width=\"([\-\d\.]+)\"/ ){
+	    $x=int(2+$1);
+	}
+    } else {
+	warn "No Size information found using $x/$y\n";
+    }
+    # Limit used memory of Image::Magic
+    $x=4000 if $x>4000;
+    $y=4000 if $y>4000;
+    return ($x,$y);
+}
 
-print "Merging in directory '$dst_dir'";
-print "\n";
+#############################################################################
+#
+# Create/Update Thumbnail for svg
+sub update_svg_thumbnail($$){
+    my $icon_svg = shift;
+    my $icon_svt = shift;
 
-($src_theme,$dst_theme)=qw(svg-png classic.big);
-print "$src_theme	-->	$dst_theme\n";
-for my $src ( 
-    split(/\s+/,
-	  `find "$dst_dir/$src_theme/" -name "*.png" | grep -v incomming` ) ) {
-    my $dst = "$src";
-    $dst =~ s/svg-png/classic.big/;
+    print STDERR "update_svg_thumbnail($icon_svg,	$icon_svt)\n" if $DEBUG>0;
+
+    if ( ! -s $icon_svg ) {
+	die "Icon '$icon_svg' not found\n";
+    }
+
+    my $mtime_svt = (stat($icon_svt))[9]||0;
+    my $mtime_svg  = (stat($icon_svg))[9]||0; 
+    if ( $mtime_svt >  $mtime_svg) { # Up to Date
+	return;
+	} else {
+	    #	print "time_diff($icon_svg)= ".($mtime_svt -  $mtime_svg)."\n";
+	}
+
+    my $license = get_svg_license($icon_svg);
+    my $image_string = File::Slurp::slurp($icon_svg);
+    my ($x,$y)=get_svg_size_of_image( $image_string);
+
+    print STDERR "Updating $icon_svg\t-->  $icon_svt\t";
+    print STDERR " => '${x}x$y' lic:$license" if $VERBOSE;
+    print STDERR "\n";
+    eval { # in case image::magic dies
+	my $image = Image::Magick->new( size => "${x}x$y");;
+	my $rc = $image->Read($icon_svg);
+	if ( "$rc") {
+	    warn "ERROR: reading '$icon_svg': $rc\n";
+	    return;
+	}
+	if ( $icon_svg !~ /incomming/ ) {
+	    $rc = $image->Sample(geometry => "32x32+0+0");
+	    if ( "$rc") {
+		warn "ERROR: resize 32x32 '$icon_svg': $rc\n";
+		return;
+	    }
+	}
+
+	# For debugging the svg pictures; you can use this line
+	#$rc = $image->Sample(geometry => "128x128+0+0") if $x>128 || $y>128;
+	warn "ERROR: $rc" if "$rc";
+	
+	$rc = $image->Transparent(color=>"white");
+	warn "ERROR: Transparent: $rc" if "$rc";
+
+	my $dir=dirname($icon_svt);
+	if ( ! -d $dir ) {
+	    mkpath($dir) || warn ("Cannot create Directory: '$dir'");
+	} 
+
+	$image->Comment("License: $license") if $license;
+
+	$rc = $image->Write($icon_svt);
+	warn "ERROR: writing '$icon_svt': $rc" if "$rc";
+
+	};
+    warn "ERROR: $@" if $@;
+    $COUNT_FILES_CONVERTED++;
+
+}
+
+
+
+# ---------------------- MAIN ----------------------
+
+
+# -------------------------------------------- Update Thumbnails
+
+my $base_dir=$dst_dir;
+
+if ( $do_update_thumbnails) {
+
+    die "Can't find dir \"$base_dir\""
+	unless -d $base_dir;
+
+
+    print "Update Thumbnails for Icons in Directory '$base_dir'\n";
+    find( { no_chdir=> 1,
+	    wanted => \&create_png,
+	  },
+	  "$base_dir/svg",
+	  "$base_dir/svg-twotone",
+	  "$base_dir/japan"
+	);
+
+    print "Thumbnails seen:  $COUNT_FILES_SEEN\n";
+    print "Thumbnails converted: $COUNT_FILES_CONVERTED\n";
+}
+if ( $do_merge_icons ) {
+
+    # -------------------------------------------- Merge Icons between themes
+    my $conv_string="Converted from http://svn.openstreetmap.org/applications/share/map-icons";
+    my ($src_theme,$dst_theme);
+
+    print "Merging in directory '$dst_dir'";
+    print "\n";
+
+    ($src_theme,$dst_theme)=qw(svg-png classic.big);
+    print "$src_theme	-->	$dst_theme\n";
+    for my $src ( 
+	split(/\s+/,
+	      `find "$dst_dir/$src_theme/" -name "*.png" | grep -v incomming` ) ) {
+	my $dst = "$src";
+	$dst =~ s/svg-png/classic.big/;
 #    $DEBUG && print STDERR "check $src	$dst\n";
-    next unless -s $src;
-    next if -s $dst;
-    $DEBUG && print "copy($src,$dst)\n";
-    copy($src,$dst);
-}
+	next unless -s $src;
+	next if -s $dst;
+	$DEBUG && print "copy($src,$dst)\n";
+	copy($src,$dst);
+    }
 
 ($src_theme,$dst_theme)=qw(svg-twotone-png classic.big);
 print "$src_theme	-->	$dst_theme\n";
@@ -170,7 +364,7 @@ for my $src (
     $DEBUG && print "checking '$empty'\n";
     if ( ! -s $empty ) {
 	my $empty=dirname($empty);
-    $empty=dirname( $empty)."/empty.png";
+	$empty=dirname( $empty)."/empty.png";
 	$DEBUG && print "checking '$empty'\n";
     }
     if ( ! -s $empty ) {
@@ -183,13 +377,13 @@ for my $src (
 	$empty=dirname($empty)."/empty.png";
 	$DEBUG && print "checking '$empty'\n";
     }
-	if ( ! -s $empty ) {
+    if ( ! -s $empty ) {
 	print "empty 2 $empty missing for $src\n";
 	print "missing\n";
 	next;
     }
 
-	#print "check for merging: $src_theme --> $dst_theme	$dst\n";
+    #print "check for merging: $src_theme --> $dst_theme	$dst\n";
     if ( ! -s $empty ) {
 	print "Empty missing\n";
 	next;
@@ -219,6 +413,7 @@ for my $src (
 
 print "Merging icons across Themes complete\n";
 
+}
 
 # =item B<--src-dir>
 # The Source Directory. Default is ./
@@ -236,6 +431,11 @@ B<compile_icons.pl>  Convert/merges icons
 This is used to get as many Icons as possible.
 So if you have a convertable Icon you have the chance to get icons 
 for all other themes too.
+Before merging the Icons between the different themes, we create/update 
+the thumbnails corresponding to the svg icons.
+Thumbnails are created for all svg Files in the 
+themes directories japan/svg/svg-twotone 
+All icon-thumbnails will be placed into there dst-dir directory.
 
 =head1 SYNOPSIS
 
@@ -248,6 +448,14 @@ compile_icons.pl [-d] [-h] [--man] <build-directory>
 =item B<--dst-dir>
 
 The Destination Directory. Default is ./build/
+
+=item B<--update-thumbnails>
+
+Only update thumbnails
+
+=item B<--merge-icons>
+
+Only merge Icons
 
 =item B<--man>
 
