@@ -1,3 +1,57 @@
+openstreetmap-map-icons (11600) unstable; urgency=low
+
+   * New Icons from malenki <malenki.ch>
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 09:38:36 +0100
+
+openstreetmap-map-icons (11597) unstable; urgency=low
+
+   * New Icons from  
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sat, 01 Nov 2008 17:30:27 +0100
+
+openstreetmap-map-icons (11596) unstable; urgency=low
+
+   * reserve one column for lic and svn information
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sat, 01 Nov 2008 16:51:08 +0100
+
+openstreetmap-map-icons (11595) unstable; urgency=low
+
+   * improve icons description
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sat, 01 Nov 2008 16:50:33 +0100
+
+openstreetmap-map-icons (11593) unstable; urgency=low
+
+   * add colorizer for different Licenses
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sat, 01 Nov 2008 16:16:46 +0100
+
+openstreetmap-map-icons (11592) unstable; urgency=low
+
+   * remove generated Files
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sat, 01 Nov 2008 16:13:47 +0100
+
+openstreetmap-map-icons (11591) unstable; urgency=low
+
+   * correct debian Package description
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sat, 01 Nov 2008 16:12:18 +0100
+
+openstreetmap-map-icons (11583) unstable; urgency=low
+
+   * remove deprecated automake creation tool
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sat, 01 Nov 2008 14:47:22 +0100
+
+openstreetmap-map-icons (11484) unstable; urgency=low
+
+   * map_icons: rename the thumbnail directories _png to -png so I can add them more easily as a seperate debian package
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 26 Oct 2008 03:51:10 +0100
+
 openstreetmap-map-icons (11145) unstable; urgency=low
 
    * map-icons: copy_icons_to_debian_package_dirs.pl tn is now called _png
