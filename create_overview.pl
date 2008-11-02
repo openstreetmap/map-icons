@@ -41,7 +41,7 @@ my $poi_type_id_base = $poi_reserved;
 my $VERBOSE = $opt_v;
 $opt_P ||= "overview";
 
-my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg japan svg-twotone);
+my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg svg-twotone japan);
 
 my $SVN_STATUS={};
 my $SVN_VERSION = '';
@@ -96,8 +96,9 @@ sub get_svg_license($){
     my $license = $icon->{'metadata'}->{'rdf:RDF'}->{'cc:Work'}->{'cc:license'}->{'rdf:resource'};
     #print Dumper(\$license);
     return "?" unless $license;
-    return "PD" if $license eq "http://web.resource.org/cc/PublicDomain";
-    return "PD" if $license =~ m,http://creativecommons.org/licenses/publicdomain/,;
+    return "PD"   if $license eq "http://web.resource.org/cc/PublicDomain";
+    return "PD"   if $license =~ m,http://creativecommons.org/licenses/publicdomain,;
+    return "CONV" if $license =~ m,Converted from http://svn.openstreetmap.org/applications/share/map-icons,;
     $license =~ s,http://creativecommons.org/licenses/LGPL/?,LGPL-,;
     return $license;
 }
@@ -114,7 +115,8 @@ sub get_png_license($){
     $comment =~ s,http://creativecommons.org/licenses/LGPL/?,LGPL-,;
 	
     print "Comment($filename): $comment\n" if $VERBOSE && $comment;
-    return "PD" if $comment =~ m/Public.*Domain/i;
+    return "PD"   if $comment =~ m/Public.*Domain/i;
+    return "CONV" if $comment =~ m,converted from ,;
     return "?" unless $comment;
     return $comment if $comment && $comment =~ m/license/;
 }
@@ -193,8 +195,9 @@ sub html_head($){
 	    $html_head .= "<h3>Kategorien</h3>\n";
 	} else {
 	    $html_head .= "<h3>Categories</h3>\n";
-	}
-	$html_head .= "<ul>\n";
+	};
+
+	$html_head .= "<font size=\"-2\"><ul>\n";
 	#for my $rule (@{$rules}) {
 	my %top_categories;
 	for my $dir ( sort glob ( "$base_dir/*/*")) {
@@ -209,7 +212,7 @@ sub html_head($){
 	for my $top_level ( @top_categories ) {
 	    $html_head .= "	<li><a href=\"\#$top_level\">$top_level</a></li>\n";
 	}
-	$html_head .= "</ul>\n";
+	$html_head .= "</font></ul>\n";
 	$html_head .= "</td>\n";
     }
 
@@ -231,17 +234,19 @@ sub html_head($){
     
     if ( $opt_l || $opt_c ) { # Add license Information
 	# Legend for Colors
+	$html_head .= "<font size=\"-1\">";
 	if ( $lang eq "de" ) {
 	    $html_head .= "<h3>Lizensen</h3>\n";
 	} else {
 	    $html_head .= "<h3>Licenses</h3>\n";
 	}
 	$html_head .= "<table border=\"1\">\n";
-	$html_head .= "<tr><td><font color=\"lightgreen\" >lic:PD</font></td> <td>Public Domain License</td></tr>\n";
-	$html_head .= "<tr><td><font color=\"lightgreen\" >lic:LGPL</font></td> <td>LGPL</td></tr>\n";
-	$html_head .= "<tr><td><font color=\"red\">lic:?</font></td> <td>No license information available about this icon</td></tr>\n";
-	$html_head .= "<tr><td><font color=\"red\"   >lic:</font></td> <td>License has no known/predefined category</td></tr>\n";
+	$html_head .= "<tr><td><font size=\"-2\" color=\"lightgreen\" >lic:PD</font></td> <td><font size=\"-2\" >Public Domain License</font></td></tr>\n";
+	$html_head .= "<tr><td><font size=\"-2\" color=\"lightgreen\" >lic:LGPL</font></td> <td><font size=\"-2\" >LGPL</font></td></tr>\n";
+	$html_head .= "<tr><td><font size=\"-2\" color=\"red\">lic:?</font></td> <td><font size=\"-2\" >No license information available about this icon</font></td></tr>\n";
+	$html_head .= "<tr><td><font size=\"-2\" color=\"red\"   >lic:</font></td> <td><font size=\"-2\" >License has no known/predefined category</font></td></tr>\n";
 	$html_head .= "</table>\n";
+	$html_head .= "</font>";
 #	$html_head .= "</td>\n";
 	}
     $html_head .= "\n";
@@ -449,16 +454,20 @@ sub update_overview($$){
 		    $license = get_png_license($icon_p);
 		}
 		$lic_color='red';
+		$lic_color = ''            if $license eq "CONV";
 		$lic_color = 'red'         if $license eq "?";
 		$lic_color = 'lightgreen'  if $license eq "PD";
 		$lic_color = 'lightgreen'  if $license =~ m/^LGPL/;
 	    }
 
-	    if ( $opt_c && $lic_color ) {
-		$content .= " bgcolor=\"$lic_color\" ";
-	    } else {
-		$content .= $svn_bgcolor;
+	    if ( ! $empty ) {
+		if ( $opt_c && $lic_color ) {
+		    $content .= " bgcolor=\"$lic_color\" ";
+		} else {
+		    $content .= $svn_bgcolor;
+		}
 	    }
+
 	    $content .=  " >";
 
 
