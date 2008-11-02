@@ -41,7 +41,7 @@ my $poi_type_id_base = $poi_reserved;
 my $VERBOSE = $opt_v;
 $opt_P ||= "overview";
 
-my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg svg-twotone japan);
+my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg svg-twotone japan nickw);
 
 my $SVN_STATUS={};
 my $SVN_VERSION = '';
@@ -186,13 +186,15 @@ sub html_head($){
 	"	img.classic      { max-height:32px; }\n".
 	"	img.svg          { max-height:32px; }\n".
 	"	img.japan        { max-height:32px; }\n".
+	"	img.svg-twotone  { max-height:32px; }\n".
+	"	img.nickw        { max-height:32px; }\n".
 	"	span.desc        { font:x-small italic condensed }\n".
 	"</style>\n".
 	"</head>\n";
     $html_head .= "<body>\n";
     
     # Legende
-    $html_head .= "<table border=\"1\">\n";
+    $html_head .= "<table>\n";
     $html_head .= "<tr>\n";
     if ( 1 ) { # Content with links
 	$html_head .= "<td valign=\"top\">\n";
@@ -202,6 +204,7 @@ sub html_head($){
 	    $html_head .= "<h3>Categories</h3>\n";
 	};
 
+	$html_head .= "<table><tr><td valign=\"top\">\n";
 	$html_head .= "<font size=\"-2\"><ul>\n";
 	#for my $rule (@{$rules}) {
 	my %top_categories;
@@ -214,10 +217,14 @@ sub html_head($){
 	}
 	my @top_categories;
 	@top_categories = (sort keys %top_categories);
+	my $cat_count=1;
 	for my $top_level ( @top_categories ) {
 	    $html_head .= "	<li><a href=\"\#$top_level\">$top_level</a></li>\n";
+	    $html_head .= "\n	</font></ul></td><td valign=\"top\"><ul><font size=\"-2\">\n" 
+		unless $cat_count++ % 5;
 	}
 	$html_head .= "</font></ul>\n";
+	$html_head .= "</td></tr></table>\n";
 	$html_head .= "</td>\n";
     }
 
