@@ -92,12 +92,17 @@ exit (0);
 #     '?'  if unknown
 sub get_svg_license($){
     my $icon_file=shift;
-    my $icon = XMLin($icon_file,ForceArray => ['description','title','condition']);
+    my $icon;
+    eval{
+	$icon = XMLin($icon_file,ForceArray => ['description','title','condition']);
+    };
     my $license = $icon->{'metadata'}->{'rdf:RDF'}->{'cc:Work'}->{'cc:license'}->{'rdf:resource'};
     #print Dumper(\$license);
     return "?" unless $license;
     return "PD"   if $license eq "http://web.resource.org/cc/PublicDomain";
     return "PD"   if $license =~ m,http://creativecommons.org/licenses/publicdomain,;
+    return "CC-by-SA"   if $license =~ m,http://creativecommons.org/licenses/by-sa/,;
+    return "CONV" if $license =~ m,Converted from,;
     return "CONV" if $license =~ m,Converted from http://svn.openstreetmap.org/applications/share/map-icons,;
     $license =~ s,http://creativecommons.org/licenses/LGPL/?,LGPL-,;
     return $license;
@@ -243,6 +248,7 @@ sub html_head($){
 	$html_head .= "<table border=\"1\">\n";
 	$html_head .= "<tr><td><font size=\"-2\" color=\"lightgreen\" >lic:PD</font></td> <td><font size=\"-2\" >Public Domain License</font></td></tr>\n";
 	$html_head .= "<tr><td><font size=\"-2\" color=\"lightgreen\" >lic:LGPL</font></td> <td><font size=\"-2\" >LGPL</font></td></tr>\n";
+	$html_head .= "<tr><td><font size=\"-2\" color=\"red\" >lic:CC-by-SA</font></td> <td><font size=\"-2\" >CC-by-SA</font></td></tr>\n";
 	$html_head .= "<tr><td><font size=\"-2\" color=\"red\">lic:?</font></td> <td><font size=\"-2\" >No license information available about this icon</font></td></tr>\n";
 	$html_head .= "<tr><td><font size=\"-2\" color=\"red\"   >lic:</font></td> <td><font size=\"-2\" >License has no known/predefined category</font></td></tr>\n";
 	$html_head .= "</table>\n";
@@ -456,6 +462,7 @@ sub update_overview($$){
 		$lic_color='red';
 		$lic_color = ''            if $license eq "CONV";
 		$lic_color = 'red'         if $license eq "?";
+		$lic_color = 'red'         if $license eq "CC-by-SA";
 		$lic_color = 'lightgreen'  if $license eq "PD";
 		$lic_color = 'lightgreen'  if $license =~ m/^LGPL/;
 	    }
