@@ -1,20 +1,58 @@
 cmake_minimum_required(VERSION 2.6)
 
-PROJECT(icons)
+PROJECT(map-icons)
 
-INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/square.big/
-	DESTINATION ${ICON_INSTALL_DIR}/square.big
-	REGEX ".svn" EXCLUDE )
+AUX_SOURCE_DIRECTORY(${CMAKE_SOURCE_DIR} ALL_SRC)
+message(STATUS "ALL_SRC: ${ALL_SRC}")
 
-INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/square.small/
-	DESTINATION ${ICON_INSTALL_DIR}/square.small
-	REGEX ".svn" EXCLUDE )
 
-INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/classic.big/
-	DESTINATION ${ICON_INSTALL_DIR}/classic.big
-	REGEX ".svn" EXCLUDE )
+# Find Compile Command
+FIND_PACKAGE(Perl REQUIRED)
+FIND_PROGRAM(COMPILE_EXECUTABLE
+  NAMES compile_icons.pl 
+  PATHS tools ${CMAKE_SOURCE_DIR}/
+  )
+message(STATUS "Compile Command: ${COMPILE_EXECUTABLE}")
 
-INSTALL(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/classic.small/
-	DESTINATION ${ICON_INSTALL_DIR}/classic.small
-	REGEX ".svn" EXCLUDE )
+# ---------------------- Set Variables
+IF (NOT APPLICATION_NAME)
+  MESSAGE(STATUS "${PROJECT_NAME} is used as APPLICATION_NAME")
+  SET(APPLICATION_NAME ${PROJECT_NAME})
+ENDIF (NOT APPLICATION_NAME)
 
+message(STATUS "CMAKE_INSTALL_PREFIX: ${CMAKE_INSTALL_PREFIX}")
+
+SET(SHARE_INSTALL_PREFIX
+  "${CMAKE_INSTALL_PREFIX}/share"
+  CACHE PATH "Base directory for files which go to share/"
+  FORCE
+  )
+
+SET(ICON_INSTALL_DIR
+  "${SHARE_INSTALL_PREFIX}/icons/map-icons"
+  CACHE PATH "The icon install dir (default data/map-icons/)"
+  FORCE
+  )
+
+# ---------------------- README
+configure_file(README ${CMAKE_CURRENT_BINARY_DIR}/README COPYONLY)
+configure_file(README.icons ${CMAKE_CURRENT_BINARY_DIR}/README.icons COPYONLY)
+install(
+  FILES
+    ${CMAKE_CURRENT_BINARY_DIR}/README
+  DESTINATION
+    ${ICON_INSTALL_DIR}
+)
+install(
+  FILES
+    ${CMAKE_CURRENT_BINARY_DIR}/README.icons
+  DESTINATION
+    ${ICON_INSTALL_DIR}
+)
+
+# ---------------------- compile-build
+ADD_CUSTOM_TARGET(all
+  COMMAND ${PERL_EXECUTABLE} ${COMPILE_EXECUTABLE}
+  COMMENT "compile Map-Icons"
+  VERBATIM
+  )
