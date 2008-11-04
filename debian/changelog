@@ -1,3 +1,123 @@
+openstreetmap-map-icons (11687) unstable; urgency=low
+
+   * Compine source copy into tools/update_icons.pl; rename some variables
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Tue, 04 Nov 2008 21:21:00 +0100
+
+openstreetmap-map-icons (11686) unstable; urgency=low
+
+   * Compine source copy into tools/update_icons.pl; rename some variables
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Tue, 04 Nov 2008 21:20:37 +0100
+
+openstreetmap-map-icons (11685) unstable; urgency=low
+
+   * map-icons: basic Cmake File
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Tue, 04 Nov 2008 21:19:25 +0100
+
+openstreetmap-map-icons (11635) unstable; urgency=low
+
+   * map-icons/tools/create_overview.pl: improve Header 
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 22:11:58 +0100
+
+openstreetmap-map-icons (11634) unstable; urgency=low
+
+   * Integrate update_thumbnails.pl into compile_icons.pl
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 22:10:40 +0100
+
+openstreetmap-map-icons (11632) unstable; urgency=low
+
+   * next part of renaing icons to default structure
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 21:28:28 +0100
+
+openstreetmap-map-icons (11630) unstable; urgency=low
+
+   * next part of renaing icons to default structure
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 21:06:49 +0100
+
+openstreetmap-map-icons (11629) unstable; urgency=low
+
+   * next part of renaing icons to default structure
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 20:58:02 +0100
+
+openstreetmap-map-icons (11628) unstable; urgency=low
+
+   * start moving icons into standard structure
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 20:21:36 +0100
+
+openstreetmap-map-icons (11626) unstable; urgency=low
+
+   * nickw: incomming is excluded by the scripts by default, so the name is more convenient
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 16:44:40 +0100
+
+openstreetmap-map-icons (11625) unstable; urgency=low
+
+   * svg-twotone: incomming is excluded by the scripts by default, so the name is more convenient
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 16:44:17 +0100
+
+openstreetmap-map-icons (11624) unstable; urgency=low
+
+   * create directory named unstructured to reflect unsorted icons
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 16:25:42 +0100
+
+openstreetmap-map-icons (11622) unstable; urgency=low
+
+   * create directory unstructured to reflect unsorted icons
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 16:17:03 +0100
+
+openstreetmap-map-icons (11621) unstable; urgency=low
+
+   * map-icons/ compile_icons.pl: Option --dst-dir needs value allowed, fix bug in calculation of directories for conversion from classic.big --> square.big
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 16:09:13 +0100
+
+openstreetmap-map-icons (11620) unstable; urgency=low
+
+   * map-icons/create_overview.pl: use eval for XML-read, add CC-by-SA recognition for licenses
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 16:07:40 +0100
+
+openstreetmap-map-icons (11613) unstable; urgency=low
+
+   * Improve comments, remove typo
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 13:50:30 +0100
+
+openstreetmap-map-icons (11612) unstable; urgency=low
+
+   * map-icons: replace merge-icons-all-from-svg2classic2square.sh with a new perl script compile_icons.pl
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 13:48:38 +0100
+
+openstreetmap-map-icons (11611) unstable; urgency=low
+
+   * map-icons: replace merge-icons-all-from-svg2classic2square.sh with a new perl script compile_icons.pl
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 13:47:56 +0100
+
+openstreetmap-map-icons (11610) unstable; urgency=low
+
+   * Improve comments
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 13:46:50 +0100
+
+openstreetmap-map-icons (11607) unstable; urgency=low
+
+   * map-icons/tools: move all scripts into there own tools directory
+
+ -- Joerg Ostertag (Debian Packages) <debian@ostertag.name>  Sun, 02 Nov 2008 11:44:39 +0100
+
 openstreetmap-map-icons (11606) unstable; urgency=low
 
    * new changelog

@@ -43,6 +43,7 @@ clean:
 	rm -rf build/japan_png
 	rm -rf build/svg-twotone
 	rm -rf build/svg-twotone_png
+	rm -rf build/nickw
 	rm -f debian/files
 	dh_clean
 
@@ -58,9 +59,6 @@ install:
 	mkdir -p build
 	cd build; cmake ..
 	cd build; $(MAKE)
-	bash ./tools/copy_icons_to_dir.sh build
-	perl ./tools/update_thumbnails.pl build
-	perl ./tools/compile_icons.pl --dst-dir=build
 
 	touch build-stamp
 
@@ -68,8 +66,6 @@ install:
 	cd build; perl ../tools/update_icons.pl -v
 	cd build; perl ../tools/create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
 	cd build; perl ../tools/create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
-
-#	./create_overview.pl -D ./build
 
 	# Now split into differnet packages
 	perl ./tools/copy_icons_to_debian_package_dirs.pl

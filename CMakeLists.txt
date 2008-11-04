@@ -10,7 +10,7 @@ message(STATUS "ALL_SRC: ${ALL_SRC}")
 FIND_PACKAGE(Perl REQUIRED)
 FIND_PROGRAM(COMPILE_EXECUTABLE
   NAMES compile_icons.pl 
-  PATHS tools ${CMAKE_SOURCE_DIR}/
+  PATHS tools ${CMAKE_SOURCE_DIR}/tools
   )
 message(STATUS "Compile Command: ${COMPILE_EXECUTABLE}")
 
@@ -52,7 +52,7 @@ install(
 
 # ---------------------- compile-build
 ADD_CUSTOM_TARGET(all
-  COMMAND ${PERL_EXECUTABLE} ${COMPILE_EXECUTABLE}
+  COMMAND ${PERL_EXECUTABLE} ${COMPILE_EXECUTABLE} --src-dir=${CMAKE_SOURCE_DIR} --dst-dir=${CMAKE_CURRENT_BINARY_DIR}
   COMMENT "compile Map-Icons"
   VERBATIM
   )

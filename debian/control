@@ -135,3 +135,13 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  These Icons are for use with maps build from OSM
  used in GpsDrive, Mapnik, ...
 
+Package: openstreetmap-map-icons-nickw
+Architecture: all
+Depends: ${misc:Depends}, openstreetmap-nickw(>> 7724)
+Conflicts: openstreetmap-map-icons-restricted
+Suggests: gpsdrive, mapnik
+Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
+Description: Icons for drawing Maps. Used in Openstreetmap and others
+ These Icons are for use with maps build from OSM
+ used in GpsDrive, Mapnik, ...
+

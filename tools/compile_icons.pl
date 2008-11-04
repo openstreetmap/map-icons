@@ -39,7 +39,7 @@ my $src_dir=".";
 my $dst_dir="./build";
 Getopt::Long::Configure('no_ignore_case');
 GetOptions ( 
-    'src-dir'            => \$src_dir,
+    'src-dir:s'          => \$src_dir,
     'dst-dir:s'          => \$dst_dir,
     'copy-from-source'   => \$do_copy_from_source,
     'update-thumbnails'  => \$do_update_thumbnails,
