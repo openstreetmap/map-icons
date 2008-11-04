@@ -30,16 +30,18 @@ use Image::Info;
 use Image::Magick;
 use Pod::Usage;
 use XML::Simple;
+use File::stat;
 
 # Set defaults and get options from command line
 my ($man,$help,$DEBUG,$VERBOSE)=(0,0,0,0);
-my ( $do_update_thumbnails,$do_merge_icons)=(0,0);
-#my $src_dir="./build";
+my ( $do_copy_from_source,$do_update_thumbnails,$do_merge_icons)=(0,0,0);
+my $src_dir=".";
 my $dst_dir="./build";
 Getopt::Long::Configure('no_ignore_case');
 GetOptions ( 
-#    'src-dir'            => \$src_dir,
+    'src-dir'            => \$src_dir,
     'dst-dir:s'          => \$dst_dir,
+    'copy-from-source'   => \$do_copy_from_source,
     'update-thumbnails'  => \$do_update_thumbnails,
     'merge-icons'        => \$do_merge_icons,
     'd+'                 => \$DEBUG,
@@ -55,8 +57,8 @@ GetOptions (
 pod2usage(1) if $help;
 pod2usage(-verbose=>2) if $man;
 
-( $do_update_thumbnails,$do_merge_icons)=(1,1) 
-    unless $do_update_thumbnails || $do_merge_icons;
+( $do_copy_from_source,$do_update_thumbnails,$do_merge_icons)=(1,1,1) 
+    unless $do_copy_from_source || $do_update_thumbnails || $do_merge_icons;
 
 
 # --------------------------------------------
@@ -101,16 +103,16 @@ sub image_resize($$$){
 	$rc = $image->Sample(geometry => "${size}x${size}+0+0");
 	
 	$rc = $image->Transparent(color=>"white");
-	warn "ERROR: $rc" if "$rc";
+	warn "!!!!!! ERROR: $rc" if "$rc";
 
 
 	$image->Comment("Converted from $src_file");
 
 	mkpath4icon($dst_file);
 	$rc = $image->Write($dst_file);
-	warn "ERROR: $rc" if "$rc";
+	warn "!!!!!! ERROR: $rc" if "$rc";
 	};
-    warn "ERROR: $@" if $@;
+    warn "!!!!!! ERROR: $@" if $@;
 	     }
 
 
@@ -130,7 +132,7 @@ sub get_svg_license($){
 	#    $license =~ s,http://web.resource.org/cc/,,;
 	#    return "Public Domain" if $license && $license =~ m/Public.*Domain/;
     };
-    warn "ERROR: $@" if $@;
+    warn "!!!!!! ERROR: $@" if $@;
 
     return $license;
 		}
@@ -194,63 +196,65 @@ sub get_svg_size_of_image($){
 # Create/Update Thumbnail for svg
 sub update_svg_thumbnail($$){
     my $icon_svg = shift;
-    my $icon_svt = shift;
+    my $icon_png = shift;
 
-    print STDERR "update_svg_thumbnail($icon_svg,	$icon_svt)\n" if $DEBUG>0;
+    print STDERR "update_svg_thumbnail: check($icon_svg,	$icon_png)\n" if $DEBUG>0;
 
     if ( ! -s $icon_svg ) {
 	die "Icon '$icon_svg' not found\n";
     }
 
-    my $mtime_svt = (stat($icon_svt))[9]||0;
-    my $mtime_svg  = (stat($icon_svg))[9]||0; 
-    if ( $mtime_svt >  $mtime_svg) { # Up to Date
+    my $mtime_svg = (stat($icon_svg)->mtime)|| 0; 
+    my $mtime_png = 0;
+    $mtime_png = (stat($icon_png)->mtime) if -s $icon_png;
+    if ( $mtime_png >  $mtime_svg) {
+	# Up to Date
 	return;
-	} else {
-	    #	print "time_diff($icon_svg)= ".($mtime_svt -  $mtime_svg)."\n";
-	}
+    } else {
+	$DEBUG && print STDERR "time_diff($icon_svg)= ".($mtime_png -  $mtime_svg)."\n";
+    }
 
     my $license = get_svg_license($icon_svg);
     my $image_string = File::Slurp::slurp($icon_svg);
     my ($x,$y)=get_svg_size_of_image( $image_string);
 
-    print STDERR "Updating $icon_svg\t-->  $icon_svt\t";
+    print STDERR "Updating $icon_svg\t-->  $icon_png\t";
     print STDERR " => '${x}x$y' lic:$license" if $VERBOSE;
     print STDERR "\n";
     eval { # in case image::magic dies
 	my $image = Image::Magick->new( size => "${x}x$y");;
 	my $rc = $image->Read($icon_svg);
 	if ( "$rc") {
-	    warn "ERROR: reading '$icon_svg': $rc\n";
+	    warn "!!!!!! ERROR: reading '$icon_svg': $rc\n";
 	    return;
 	}
 	if ( $icon_svg !~ /incomming/ ) {
 	    $rc = $image->Sample(geometry => "32x32+0+0");
 	    if ( "$rc") {
-		warn "ERROR: resize 32x32 '$icon_svg': $rc\n";
+		warn "!!!!!! ERROR: resize 32x32 '$icon_svg': $rc\n";
 		return;
 	    }
 	}
 
 	# For debugging the svg pictures; you can use this line
 	#$rc = $image->Sample(geometry => "128x128+0+0") if $x>128 || $y>128;
-	warn "ERROR: $rc" if "$rc";
+	warn "!!!!!! ERROR: $rc" if "$rc";
 	
 	$rc = $image->Transparent(color=>"white");
-	warn "ERROR: Transparent: $rc" if "$rc";
+	warn "!!!!!! ERROR: Transparent: $rc" if "$rc";
 
-	my $dir=dirname($icon_svt);
+	my $dir=dirname($icon_png);
 	if ( ! -d $dir ) {
 	    mkpath($dir) || warn ("Cannot create Directory: '$dir'");
 	} 
 
 	$image->Comment("License: $license") if $license;
 
-	$rc = $image->Write($icon_svt);
-	warn "ERROR: writing '$icon_svt': $rc" if "$rc";
+	$rc = $image->Write($icon_png);
+	warn "!!!!!! ERROR: writing '$icon_png': $rc" if "$rc";
 
 	};
-    warn "ERROR: $@" if $@;
+    warn "!!!!!! ERROR: $@" if $@;
     $COUNT_FILES_CONVERTED++;
 
 }
@@ -259,24 +263,55 @@ sub update_svg_thumbnail($$){
 
 # ---------------------- MAIN ----------------------
 
+# -------------------------------------------- Copy Files from src-dir if newer
+if ( $do_copy_from_source ) {
+    if ( ! -d $dst_dir ) {
+	mkpath($dst_dir) || warn ("Cannot create Directory: '$dst_dir'");
+    };
+    print STDERR "Copy Icons from $src_dir	-->	$dst_dir\n" if $DEBUG>0;
+
+    for my $dir ( qw(square.big square.small
+              classic.big classic.small
+              svg
+              svg-twotone
+              japan
+              nickw
+              )) {
+	# Copy Files
+	for my $src_file ( split(/\s+/,`find $src_dir/$dir -name "*.svg" -o -name "*.png"` )) {
+	    next if $src_file =~ m,/.svn/,;
+	    my $dst_file = $src_file;
+	    $dst_file =~ s,$src_dir,$dst_dir,;
+	    my $time_src = (stat($src_file)->mtime);
+	    my $time_dst = 0;
+	    $time_dst = (stat($dst_file)->mtime) if -s $dst_file;
+	    next if $time_src < $time_dst;
+	    mkpath4icon($dst_file);
+	    print "copy $src_file $dst_file\n";
+	    my $rc = copy($src_file,$dst_file);
+	    if ( $rc != 1 ) {
+		warn "!!!!!! ERROR: Copying ($src_file,$dst_file): $rc: $!\n";
+	    };
+	}
+    }
+}
+
 
 # -------------------------------------------- Update Thumbnails
 
-my $base_dir=$dst_dir;
-
 if ( $do_update_thumbnails) {
 
-    die "Can't find dir \"$base_dir\""
-	unless -d $base_dir;
+    die "Can't find dir \"$dst_dir\""
+	unless -d $dst_dir;
 
 
-    print "Update Thumbnails for Icons in Directory '$base_dir'\n";
+    print "Update Thumbnails for Icons in Directory '$dst_dir'\n";
     find( { no_chdir=> 1,
 	    wanted => \&create_png,
 	  },
-	  "$base_dir/svg",
-	  "$base_dir/svg-twotone",
-	  "$base_dir/japan"
+	  "$dst_dir/svg",
+	  "$dst_dir/svg-twotone",
+	  "$dst_dir/japan"
 	);
 
     print "Thumbnails seen:  $COUNT_FILES_SEEN\n";
@@ -415,10 +450,6 @@ print "Merging icons across Themes complete\n";
 
 }
 
-# =item B<--src-dir>
-# The Source Directory. Default is ./
-
-
 __END__
 
 =head1 NAME
@@ -448,6 +479,10 @@ compile_icons.pl [-d] [-h] [--man] <build-directory>
 =item B<--dst-dir>
 
 The Destination Directory. Default is ./build/
+
+=item B<--src-dir>
+
+The Source Directory. Default is ./
 
 =item B<--update-thumbnails>
 
