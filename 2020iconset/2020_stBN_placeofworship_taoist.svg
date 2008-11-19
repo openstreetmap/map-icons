@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20"
+   height="20"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="2020_stBN_placeofworship_taoist.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="751"
+     inkscape:window-width="1059"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="true"
+     inkscape:zoom="8.1435989"
+     inkscape:cx="18.023259"
+     inkscape:cy="9.73256"
+     inkscape:window-x="22"
+     inkscape:window-y="29"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2461"
+       inkscape:persp3d-origin="10 : 6.6666667 : 1"
+       inkscape:vp_z="20 : 10 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 10 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2466"
+       inkscape:persp3d-origin="400 : 200 : 1"
+       inkscape:vp_z="800 : 300 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 300 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2922"
+       inkscape:persp3d-origin="6.0019999 : 4.0050001 : 1"
+       inkscape:vp_z="12.004 : 6.0075002 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 6.0075002 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4224"
+       inkscape:persp3d-origin="4.1040001 : 3.596 : 1"
+       inkscape:vp_z="8.2080002 : 5.3940001 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 5.3940001 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <path
+     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 0.5,8 L 10,0.5 L 19.5,8 L 19.5,19.5 L 0.5,19.5 L 0.5,8 z"
+     id="background"
+     sodipodi:nodetypes="cccccc" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+     id="path2934"
+     sodipodi:cx="9"
+     sodipodi:cy="11"
+     sodipodi:rx="7"
+     sodipodi:ry="7"
+     d="M 16,11 A 7,7 0 1 1 2,11 A 7,7 0 1 1 16,11 z"
+     transform="translate(1,0)" />
+  <path
+     transform="matrix(0,-1,1,0,-1,27)"
+     d="M 22,11 A 6,6 0 1 1 10,11 L 16,11 z"
+     sodipodi:ry="6"
+     sodipodi:rx="6"
+     sodipodi:cy="11"
+     sodipodi:cx="16"
+     id="path4234"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+     sodipodi:type="arc"
+     sodipodi:start="0"
+     sodipodi:end="3.1415927" />
+  <path
+     sodipodi:end="3.1415927"
+     sodipodi:start="0"
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+     id="path4238"
+     sodipodi:cx="16"
+     sodipodi:cy="11"
+     sodipodi:rx="6"
+     sodipodi:ry="6"
+     d="M 22,11 A 6,6 0 1 1 10,11 L 16,11 z"
+     transform="matrix(0,1,-1,0,21,-5)" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+     id="path4232"
+     sodipodi:cx="13"
+     sodipodi:cy="14"
+     sodipodi:rx="3"
+     sodipodi:ry="3"
+     d="M 16,14 A 3,3 0 1 1 10,14 A 3,3 0 1 1 16,14 z"
+     transform="translate(-3,-6)" />
+  <path
+     transform="translate(-3,0)"
+     d="M 16,14 A 3,3 0 1 1 10,14 A 3,3 0 1 1 16,14 z"
+     sodipodi:ry="3"
+     sodipodi:rx="3"
+     sodipodi:cy="14"
+     sodipodi:cx="13"
+     id="path4240"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+     sodipodi:type="arc" />
+  <path
+     transform="matrix(0.6666667,0,0,0.6666667,3.666666,3)"
+     d="M 11,7.5 A 1.5,1.5 0 1 1 8,7.5 A 1.5,1.5 0 1 1 11,7.5 z"
+     sodipodi:ry="1.5"
+     sodipodi:rx="1.5"
+     sodipodi:cy="7.5"
+     sodipodi:cx="9.5"
+     id="path4236"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+     sodipodi:type="arc" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-opacity:1"
+     id="path4242"
+     sodipodi:cx="9.5"
+     sodipodi:cy="7.5"
+     sodipodi:rx="1.5"
+     sodipodi:ry="1.5"
+     d="M 11,7.5 A 1.5,1.5 0 1 1 8,7.5 A 1.5,1.5 0 1 1 11,7.5 z"
+     transform="matrix(0.6666667,0,0,0.6666667,3.666666,9)" />
+</svg>

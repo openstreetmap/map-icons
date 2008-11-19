@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20"
+   height="20"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="2020_st_placeofworship_jain.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="844"
+     inkscape:window-width="1440"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="true"
+     inkscape:zoom="17.707065"
+     inkscape:cx="10.145021"
+     inkscape:cy="4.8299419"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2461"
+       inkscape:persp3d-origin="10 : 6.6666667 : 1"
+       inkscape:vp_z="20 : 10 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 10 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2466"
+       inkscape:persp3d-origin="400 : 200 : 1"
+       inkscape:vp_z="800 : 300 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 300 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2914"
+       inkscape:persp3d-origin="4.0910001 : 5 : 1"
+       inkscape:vp_z="8.1820002 : 7.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 7.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <path
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 0,2 L 2,0 L 4,2 L 4,5 L 10,0 L 20,8 L 20,20 L 0,20 L 0,2 z"
+     id="path2389"
+     sodipodi:nodetypes="ccccccccc" />
+  <g
+     id="g2903"
+     transform="matrix(0.977756,0,0,0.977756,6,3.33366)">
+	<path
+   style="fill:#ffffff"
+   d="M 0,10.909 C 0,10.909 0,3.411 0,2.501 C 0,1.592 0.909,1.592 0.909,2.501 C 0.909,3.411 0.909,4.546 0.909,5.456 C 0.909,6.365 1.819,6.365 1.819,5.456 C 1.819,4.546 1.819,2.273 1.819,1.364 C 1.819,0.455 2.728,0.455 2.728,1.364 C 2.728,2.273 2.728,4.319 2.728,5.228 C 2.728,6.137 3.639,6.138 3.638,5.228 C 3.638,4.319 3.638,1.591 3.638,0.682 C 3.638,-0.227 4.546,-0.227 4.546,0.682 C 4.546,1.591 4.546,4.546 4.546,5.455 C 4.546,6.364 5.455,6.364 5.455,5.455 C 5.455,4.545 5.455,2.499 5.455,1.59 C 5.455,0.681 6.364,0.681 6.364,1.59 C 6.364,2.499 6.364,6.136 6.364,7.045 C 6.364,7.954 7.273,7.954 7.273,7.045 C 7.273,6.136 7.273,6.363 7.273,5.455 C 7.273,4.545 8.182,4.545 8.182,4.545 C 8.182,4.545 8.182,9.999 8.182,10.908 C 8.182,13.169 6.35,15 4.091,15 C 1.832,15 0,13.169 0,10.909 z"
+   id="path2905" />
+
+</g>
+  <path
+     sodipodi:type="arc"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+     id="path2925"
+     sodipodi:cx="10"
+     sodipodi:cy="14"
+     sodipodi:rx="3"
+     sodipodi:ry="3"
+     d="M 13,14 A 3,3 0 1 1 7,14 A 3,3 0 1 1 13,14 z" />
+</svg>
