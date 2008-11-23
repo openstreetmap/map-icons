@@ -2,7 +2,7 @@ Source: openstreetmap-map-icons
 Section: utils
 Priority: optional
 Maintainer: Joerg Ostertag <debian@ostertag.name>
-Build-Depends: debhelper (>> 3.7.2), pkg-config, libimage-info-perl, imagemagick, libdbd-sqlite3-perl
+Build-Depends: debhelper (>> 3.7.2), pkg-config, libimage-info-perl, imagemagick, libdbd-sqlite3-perl, cmake, libperl6-slurp-perl
 Standards-Version: 3.6.1
 
 Package: openstreetmap-map-icons
@@ -137,7 +137,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
 
 Package: openstreetmap-map-icons-nickw
 Architecture: all
-Depends: ${misc:Depends}, openstreetmap-nickw(>> 7724)
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
