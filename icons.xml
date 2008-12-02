@@ -14,7 +14,7 @@
 
   <rule>
     <condition k="poi" v="accommodation.hotel"/>
-    <condition k="amenity" v="hotel"/>
+    <condition k="tourism" v="hotel"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="de">Hotel</title>
@@ -34,7 +34,7 @@
 
   <rule>
     <condition k="poi" v="food.icecream"/>
-    <condition k="amenity" v="ice cream parlour"/>
+    <condition k="amenity" v="ice_cream"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">Icecream</title>
