@@ -2,7 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -12,13 +12,21 @@
    height="252.14287"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.45.1"
+   inkscape:version="0.46"
    version="1.0"
    sodipodi:docbase="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\svn.openstreetmap.org\applications\share\map-icons\svg\misc"
    sodipodi:docname="no_icon.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
-     id="defs4" />
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 126.07143 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="252.14287 : 126.07143 : 1"
+       inkscape:persp3d-origin="126.07143 : 84.047623 : 1"
+       id="perspective10" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -32,11 +40,12 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:window-width="797"
-     inkscape:window-height="573"
+     inkscape:window-height="667"
      inkscape:window-x="176"
      inkscape:window-y="232"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:guide-bbox="true"
+     showgrid="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -72,13 +81,5 @@
        x="222.94804"
        y="148.16739"
        ry="31.069748" />
-    <path
-       style="fill:#ff0000;fill-rule:evenodd;stroke:#e20000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 263.57142,345.93362 L 420.71428,188.79077"
-       id="path2160" />
-    <path
-       id="path2162"
-       d="M 263.57142,188.79077 L 420.71428,345.93362"
-       style="fill:#ff0000;fill-rule:evenodd;stroke:#e20000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
