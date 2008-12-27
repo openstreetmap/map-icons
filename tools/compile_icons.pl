@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-
 ############################################################################
 #
 # This script Converts and merges icons.
@@ -11,6 +10,9 @@
 # so we merge between different themes to have more icons
 #
 #############################################################################
+
+# TODO replace the `find` Command
+
 
 #use diagnostics;
 use strict;
@@ -60,10 +62,25 @@ pod2usage(-verbose=>2) if $man;
 ( $do_copy_from_source,$do_update_thumbnails,$do_merge_icons)=(1,1,1) 
     unless $do_copy_from_source || $do_update_thumbnails || $do_merge_icons;
 
+sub update_svg_thumbnail($$);
 
 # --------------------------------------------
+# Check if dst needs to be updated from src
+# Params (SRC,DST)
+sub needs_update($$){
+    my $src_file = shift;
+    my $dst_file = shift;
+    warn "$src_file not existing, but i'm asked to check if we need to update from it.\n"
+	unless -s $src_file;
+    return 1 unless -s $dst_file;
+    my $time_src = (stat($src_file)->mtime);
+    my $time_dst = (stat($dst_file)->mtime);
+    return 0 if $time_src < $time_dst;
+    return 1;
+}
 
-sub update_svg_thumbnail($$);
+
+# --------------------------------------------
 sub create_png();
 our $COUNT_FILES_SEEN=0;
 our $COUNT_FILES_CONVERTED=0;
@@ -94,12 +111,13 @@ sub image_resize($$$){
     my $src_file = shift;
     my $dst_file = shift;
     my $size = shift;
-    print "	resize $src_file	-scale ${size}x${size} $dst_file\n";
+    print "	resize $src_file	-scale ${size}x${size} $dst_file\n" 
+	if $VERBOSE || $DEBUG ;
 
     eval { # in case image::magic dies
 	my $image = Image::Magick->new(); # size => "${size}x${size}");
 	my $rc = $image->Read($src_file);
-	warn "$rc" if "$rc";
+	warn "!!!WARNING: Load Image: $rc" if "$rc";
 	$rc = $image->Sample(geometry => "${size}x${size}+0+0");
 	
 	$rc = $image->Transparent(color=>"white");
@@ -108,6 +126,48 @@ sub image_resize($$$){
 
 	$image->Comment("Converted from $src_file");
 
+	mkpath4icon($dst_file);
+	$rc = $image->Write($dst_file);
+	warn "!!!!!! ERROR: $rc" if "$rc";
+	};
+    warn "!!!!!! ERROR: $@" if $@;
+	     }
+
+
+
+# --------------------------------------------
+# Take the template and merge src on top of it in the middle
+sub image_merge($$$){
+    my $template_file = shift;
+    my $src_file = shift;
+    my $dst_file = shift;
+    print "	merge $src_file with $template_file  ---> $dst_file\n"
+	if $VERBOSE || $DEBUG;
+
+    my $size=28;
+
+    eval { # in case image::magic dies
+	my $image = Image::Magick->new(); # size => "${size}x${size}");
+	my $rc = $image->Read($template_file);
+	warn "!!!WARNING: Load Image: $rc" if "$rc";
+
+	my $image1 = Image::Magick->new(); # size => "${size}x${size}");
+	$rc = $image1->Read($src_file);
+	warn "!!!WARNING: Load Image: $rc" if "$rc";
+	my $image_size = $image1->Get('size');
+	print "Size: '$image_size'\n";
+	$rc = $image1->Sample( geometry => "${size}x${size}+0+0" );
+	$rc = $image1->Transparent(color=>"white" );
+	warn "!!!!!! ERROR: $rc" if "$rc";
+
+	$rc = $image->Composite( compose  => 'Overlay', 
+				 geometry => '${size}x${size}+4+4',
+				 image    => $image1);
+
+	# load template and put them together
+#    `convert $template_file -geometry +4+4 $image  -composite $dst`;
+
+	$image->Comment("Converted from $src_file");
 	mkpath4icon($dst_file);
 	$rc = $image->Write($dst_file);
 	warn "!!!!!! ERROR: $rc" if "$rc";
@@ -218,9 +278,11 @@ sub update_svg_thumbnail($$){
     my $image_string = File::Slurp::slurp($icon_svg);
     my ($x,$y)=get_svg_size_of_image( $image_string);
 
-    print STDERR "Updating $icon_svg\t-->  $icon_png\t";
-    print STDERR " => '${x}x$y' lic:$license" if $VERBOSE;
-    print STDERR "\n";
+    if ($VERBOSE || $DEBUG ) {
+	print STDERR "Updating $icon_svg\t-->  $icon_png\t";
+	print STDERR " => '${x}x$y' lic:$license" if $VERBOSE;
+	print STDERR "\n";
+    }
     eval { # in case image::magic dies
 	my $image = Image::Magick->new( size => "${x}x$y");;
 	my $rc = $image->Read($icon_svg);
@@ -287,7 +349,7 @@ if ( $do_copy_from_source ) {
 	    $time_dst = (stat($dst_file)->mtime) if -s $dst_file;
 	    next if $time_src < $time_dst;
 	    mkpath4icon($dst_file);
-	    print "copy $src_file $dst_file\n";
+	    print "copy $src_file $dst_file\n" if $VERBOSE || $DEBUG;
 	    my $rc = copy($src_file,$dst_file);
 	    if ( $rc != 1 ) {
 		warn "!!!!!! ERROR: Copying ($src_file,$dst_file): $rc: $!\n";
@@ -323,8 +385,10 @@ if ( $do_merge_icons ) {
     my $conv_string="Converted from http://svn.openstreetmap.org/applications/share/map-icons";
     my ($src_theme,$dst_theme);
 
-    print "Merging in directory '$dst_dir'";
-    print "\n";
+    if ($VERBOSE || $DEBUG ) {
+	print "Merging in directory '$dst_dir'";
+	print "\n";
+    }
 
     ($src_theme,$dst_theme)=qw(svg-png classic.big);
     print "$src_theme	-->	$dst_theme\n";
@@ -336,8 +400,15 @@ if ( $do_merge_icons ) {
 #    $DEBUG && print STDERR "check $src	$dst\n";
 	next unless -s $src;
 	next if -s $dst;
+
 	$DEBUG && print "copy($src,$dst)\n";
-	copy($src,$dst);
+	mkpath4icon($dst);
+	my $rc = copy($src,$dst);
+	if ( $rc != 1 ) {
+	    warn "!!!!!! ERROR: Copying ($src,$dst): $rc: $!\n";
+	    warn `pwd`."\n";
+	    warn `ls -l $src`."\n";
+	};
     }
 
 ($src_theme,$dst_theme)=qw(svg-twotone-png classic.big);
@@ -376,7 +447,8 @@ for my $src (
     $dst =~ s/classic.small/classic.big/;
     next unless -s $src;
     next if -s $dst;
-    print "	convert $src	-scale 32x32 $dst\n";
+    print "	convert $src	-scale 32x32 $dst\n"    
+	if $VERBOSE || $DEBUG ;
     image_resize($src,$dst,32);
 # -comment "${conv_string}/classic.small"
 }
@@ -423,10 +495,11 @@ for my $src (
 	print "Empty missing\n";
 	next;
     }
-    print "	converting/merging: $src --> $dst\n";
-    image_resize($src,'/tmp/reduced.png',25);
+    print "	merging: $empty + $src --> $dst\n"
+	if $VERBOSE || $DEBUG;
     mkpath4icon($dst);
-    `convert $empty -geometry +4+4 /tmp/reduced.png  -composite $dst`;
+    image_merge($empty,$src,$dst);
+#    `convert $empty -geometry +4+4 /tmp/reduced.png  -composite $dst`;
 #  -comment "${conv_string}/classic.big" 
 #    print "Converted $src $dst\n";
 }
@@ -441,7 +514,8 @@ for my $src (
     next unless -s $src;
     next if -s $dst;
     mkpath4icon($dst);
-    print "	convert $src	-scale 16x16 $dst\n";
+    print "	convert $src	-scale 16x16 $dst\n"
+	if $VERBOSE || $DEBUG ;
     image_resize($src,$dst,16);
     #  -comment "$conv_string/square.big"
 }
