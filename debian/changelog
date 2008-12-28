@@ -1,3 +1,45 @@
+openstreetmap-map-icons (12607) unstable; urgency=low
+
+   * use perl interface of immage::magic instead of system calls
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Sat, 27 Dec 2008 14:11:15 +0100
+
+openstreetmap-map-icons (12593) unstable; urgency=low
+
+   * remove now empty directory
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Fri, 26 Dec 2008 01:08:11 +0100
+
+openstreetmap-map-icons (12592) unstable; urgency=low
+
+   * move icons to the right place: these are the parking (place) icons, not the parking restriction icons
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Fri, 26 Dec 2008 01:07:02 +0100
+
+openstreetmap-map-icons (12586) unstable; urgency=low
+
+   * initial import
+
+ -- slowrider via osm-dev List <dev@openstreetmap.org>  Thu, 25 Dec 2008 16:29:13 +0100
+
+openstreetmap-map-icons (12546) unstable; urgency=low
+
+   * get svnrevision the new way
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Wed, 24 Dec 2008 21:07:11 +0100
+
+openstreetmap-map-icons (12462) unstable; urgency=low
+
+   * map-icons/debian/control: Change Architecture to any so we will not have to build it for each arcitecture
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Mon, 22 Dec 2008 10:42:43 +0100
+
+openstreetmap-map-icons (12461) unstable; urgency=low
+
+   * introduce new naming scheme for mail addresses to reduce spam
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Mon, 22 Dec 2008 10:41:23 +0100
+
 openstreetmap-map-icons (12371) unstable; urgency=low
 
    * add white background for JOSM
