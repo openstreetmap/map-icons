@@ -47,7 +47,7 @@ clean:
 	rm -f debian/files
 	dh_clean
 
-install:
+install: clean
 	dh_testdir
 	dh_testroot
 	dh_clean -k
@@ -63,7 +63,7 @@ install:
 	touch build-stamp
 
 	cp icons.xml build/
-	cd build; perl ../tools/update_icons.pl -v
+	cd build; perl ../tools/update_icons.pl
 	cd build; perl ../tools/create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
 	cd build; perl ../tools/create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
 
