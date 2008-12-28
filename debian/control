@@ -6,7 +6,7 @@ Build-Depends: debhelper (>> 3.7.2), pkg-config, libimage-info-perl, imagemagick
 Standards-Version: 3.6.1
 
 Package: openstreetmap-map-icons
-Architecture: any
+Architecture: all
 Depends: openstreetmap-map-icons-classic.small
  | openstreetmap-map-icons-classic.big
  | openstreetmap-map-icons-square.small
@@ -35,7 +35,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
 
 
 Package: openstreetmap-map-icons-square.small
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -45,7 +45,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-square.big
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -55,7 +55,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-classic.small
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -65,7 +65,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-classic.big
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -75,7 +75,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-japan
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -85,7 +85,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-japan-png
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -95,7 +95,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-svg
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -105,7 +105,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-svg-png
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -115,7 +115,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-svg-twotone
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -126,7 +126,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
 
 
 Package: openstreetmap-map-icons-svg-twotone-png
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
@@ -136,7 +136,7 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
  used in GpsDrive, Mapnik, ...
 
 Package: openstreetmap-map-icons-nickw
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 7724)
 Conflicts: openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
