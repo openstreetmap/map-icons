@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In  -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="576px"
+   height="576px"
+   viewBox="-0.943 -0.943 576 576"
+   enable-background="new -0.943 -0.943 576 576"
+   xml:space="preserve"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="no_right_turn.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\osm\turn-restrictions\no_right_turn2.png"
+   inkscape:export-xdpi="5.0164223"
+   inkscape:export-ydpi="5.0164223"><metadata
+   id="metadata21"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><cc:license
+         rdf:resource="http://creativecommons.org/licenses/publicdomain/" /></cc:Work><cc:License
+       rdf:about="http://creativecommons.org/licenses/publicdomain/"><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:permits
+         rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /></cc:License></rdf:RDF></metadata><sodipodi:namedview
+   inkscape:window-height="667"
+   inkscape:window-width="788"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   guidetolerance="10.0"
+   gridtolerance="10.0"
+   objecttolerance="10.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   showgrid="false"
+   inkscape:zoom="0.80208333"
+   inkscape:cx="288"
+   inkscape:cy="288"
+   inkscape:window-x="132"
+   inkscape:window-y="174"
+   inkscape:current-layer="svg2" />
+<defs
+   id="defs4"><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="0 : 288 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="576 : 288 : 1"
+   inkscape:persp3d-origin="288 : 192 : 1"
+   id="perspective23" />
+</defs>
+<circle
+   cx="287.05701"
+   cy="287.05701"
+   r="286.96899"
+   id="circle6"
+   sodipodi:cx="287.05701"
+   sodipodi:cy="287.05701"
+   sodipodi:rx="286.96899"
+   sodipodi:ry="286.96899"
+   transform="matrix(-1,0,0,1,574.11401,0)"
+   style="fill:#ffffff;stroke:#000000;stroke-width:0.17640001;stroke-linecap:round;stroke-linejoin:round" />
+<circle
+   cx="287.05701"
+   cy="287.05701"
+   r="273.98199"
+   id="circle8"
+   sodipodi:cx="287.05701"
+   sodipodi:cy="287.05701"
+   sodipodi:rx="273.98199"
+   sodipodi:ry="273.98199"
+   transform="matrix(-1,0,0,1,574.11401,0)"
+   style="fill:#ea190e;stroke:#ff0000;stroke-width:0.17640001;stroke-linecap:round;stroke-linejoin:round" />
+<path
+   d="M 129.22001,397.147 C 73.017014,316.568 86.534014,206.59 160.57901,142.02 C 234.62401,77.451 345.41801,79.023 417.60001,145.669 L 134.59201,392.462 L 129.22001,397.147 z"
+   id="path10"
+   style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17640001;stroke-linecap:round;stroke-linejoin:round" />
+<path
+   d="M 156.68101,428.6 C 228.94201,495.161 339.73801,496.602 413.70601,431.945 C 487.67401,367.288 501.06201,257.294 444.76301,176.781 L 162.04801,423.909 L 156.68101,428.6 z"
+   id="path12"
+   style="fill:#ffffff;stroke:#ff0000;stroke-width:0.17640001;stroke-linecap:round;stroke-linejoin:round" />
+<polygon
+   points="225.514,260.801 189.028,228.952 165.96,228.952 165.96,215.487 128.67,246.265 166.257,281.375 166.257,260.801 225.514,260.801 "
+   id="polygon14"
+   transform="matrix(-1,0,0,1,574.11401,0)"
+   style="stroke:#000000;stroke-width:0.17640001;stroke-linecap:round;stroke-linejoin:round" />
+<path
+   d="M 321.40101,228.952 L 284.87701,260.802 C 270.06201,260.857 257.53301,271.782 255.46301,286.453 L 218.69701,318.513 L 218.69701,287.17 C 218.69701,270.104 226.11001,253.879 239.01001,242.707 C 251.91001,231.535 269.02801,226.516 285.91901,228.953 L 321.40101,228.953 L 321.40101,228.952 z"
+   id="path16"
+   style="stroke:#000000;stroke-width:0.17640001;stroke-linecap:round;stroke-linejoin:round" />
+<polygon
+   points="355.417,437.926 355.417,373.072 318.949,341.236 318.956,437.926 355.417,437.926 "
+   id="polygon18"
+   transform="matrix(-1,0,0,1,574.11401,0)"
+   style="stroke:#000000;stroke-width:0.17640001;stroke-linecap:round;stroke-linejoin:round" />
+</svg>
