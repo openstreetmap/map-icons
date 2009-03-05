@@ -5,8 +5,8 @@ place for all icons used for drawing maps.
 
 Discussions showed that probably the best Licence for all the 
 icons would be a PD-Style Licence. Because this wouldn't interfeer
-with any use which is planed. So we expect new icons inserted here
-to be PD-Style-Licence
+with any use which is planned. So we expect new icons inserted here
+to be PD-Style-Licence.
 
 We currently have six subdirectories representing 
 the six icon schemes(classic,square.big,square.small,svg,japan).
@@ -35,17 +35,19 @@ There are the following top-categories:
       - food
       - geocache
       - health
+      - leisure
+      - misc
       - money
       - nautical
-      - misc
       - people
-      - places
-      - public
-      - recreation
+      - place
       - religion
-      - shopping
+      - rendering
+      - routing
+      - service
+      - shop
       - sightseeing
-      - sports
+      - sport
       - transport
       - unknown
       - vehicle
@@ -64,10 +66,8 @@ the misc (directory misc).
 
 Additional files:
 
-- overview.en.html
-	gives a nice overview of the available Icons with english descriptions
-- overview.de.html
-	gives a nice overview of the available Icons with german descriptions
+- index_*.html
+	gives a nice overview of the available Icons with descriptions
 
 
 The Tools in this directory are used to maintain the map-icons directory:
@@ -84,10 +84,6 @@ merge-icons-all-from-svg2classic2square.sh
 	auch versucht die Daten zu holen.
 copy_icons_to_debian_package_dirs.pl
 	Verteilt die Icons in build/* in die debian packages
-update_icons.pl
-	liesst jetzt nur noch die XML und ergänzt sie evtl.
-create_overview.pl <Directory>
-	erzeugt die beiden overview*.html Dateien
 
 create_makefile.sh
 	Ist geblieben und erzeugt immer noch das alte automake Makefile.am
