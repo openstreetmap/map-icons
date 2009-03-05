@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="32mm" height="32mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 32 32"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str2 {stroke:#0A0B0C;stroke-width:0.2}
+    .str0 {stroke:#1F1A17;stroke-width:0.2}
+    .str1 {stroke:#0A0B0C;stroke-width:1.5}
+    .fil0 {fill:none}
+    .fil2 {fill:#0A0B0C}
+    .fil1 {fill:#616F85}
+   ]]>
+  </style>
+ </defs>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <line class="fil0 str0" x1="22.3898" y1="9.8331" x2="8.3471" y2= "9.8331" />
+  <polyline class="fil0 str0" points="8.3471,9.8331 4.9004,6.6382 8.4214,3.6662 22.4641,3.7405 22.3898,9.8331 "/>
+  <polygon class="fil0 str0" points="10.2046,12.5822 24.173,12.5822 27.8064,15.5542 24.173,18.7491 10.2046,18.7491 "/>
+  <line class="fil0 str1" x1="16.2972" y1="30.86" x2="16.2972" y2= "0.9171" />
+  <polygon class="fil1 str0" points="8.3471,9.8331 16.2972,9.8331 16.2972,3.7079 8.4214,3.6662 4.9004,6.6382 "/>
+  <polygon class="fil1 str0" points="16.2972,3.7079 16.2972,9.8331 22.3898,9.8331 22.4641,3.7405 "/>
+  <polygon class="fil1 str0" points="16.2972,3.7079 16.2972,9.8331 22.3898,9.8331 22.4641,3.7405 "/>
+  <polygon class="fil1 str0" points="16.2972,12.5822 10.2046,12.5822 10.2046,18.7491 16.2972,18.7491 "/>
+  <polygon class="fil1 str0" points="16.2972,12.5822 16.2972,18.7491 24.173,18.7491 27.8064,15.5542 24.173,12.5822 "/>
+  <polygon class="fil1 str0" points="8.3471,9.8331 16.2972,9.8331 16.2972,3.7079 8.4214,3.6662 4.9004,6.6382 "/>
+  <polygon class="fil1 str0" points="8.3471,9.8331 16.2972,9.8331 16.2972,3.7079 8.4214,3.6662 4.9004,6.6382 "/>
+  <polygon class="fil1 str0" points="16.2972,3.7079 16.2972,9.8331 22.3898,9.8331 22.4641,3.7405 "/>
+  <path class="fil1 str0" d="M16.2972 12.5822l7.8758 0 3.6334 2.972 -3.6334 3.1949 -7.8758 0 -6.0926 0 0 -6.1669 6.0926 0zm6.1669 -8.8417l-0.0743 6.0926 -6.0926 0 -7.9501 0 -3.4467 -3.1949 3.521 -2.972 7.8758 0.0417 6.1669 0.0326z"/>
+  <path class="fil2 str2" d="M16.2972 12.5822l7.8758 0 3.6334 2.972 -3.6334 3.1949 -7.8758 0 -6.0926 0 0 -6.1669 6.0926 0zm6.1669 -8.8417l-0.0743 6.0926 -6.0926 0 -7.9501 0 -3.4467 -3.1949 3.521 -2.972 7.8758 0.0417 6.1669 0.0326z"/>
+ </g>
+</svg>

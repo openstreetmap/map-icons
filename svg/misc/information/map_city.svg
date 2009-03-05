@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="30mm" height="20mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 30 20"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:cc="http://web.resource.org/cc/"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ version="1.0"
+ sodipodi:version="0.32"
+ inkscape:version="0.44.1"
+ sodipodi:docname="Fahrrad_aus_Zusatzzeichen_1000-32.svg"
+ sodipodi:docbase="L:\Wiki\pedia\ksh\svg">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#84C225;stroke-width:0.0762}
+    .str2 {stroke:white;stroke-width:0.2}
+    .str0 {stroke:white;stroke-width:0.2}
+    .fil3 {fill:none;fill-rule:nonzero}
+    .fil4 {fill:white}
+    .fil0 {fill:#84C225}
+    .fil1 {fill:white}
+    .fil2 {fill:#84C225;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M4.0158 0l21.9684 0c2.2175,0 4.0158,1.7983 4.0158,4.0158l0 11.9684c0,2.2174 -1.7983,4.0157 -4.0158,4.0157l-21.9684 0.0001c-2.2174,-0.0001 -4.0157,-1.7984 -4.0157,-4.0159l-0.0001 -11.9683c0.0001,-2.2175 1.7984,-4.0158 4.0159,-4.0158z"/>
+  <circle class="fil1 str0" cx="7" cy="10" r="6"/>
+  <path class="fil2" d="M6.8801 7.1986c-0.3302,0 -0.6011,-0.0974 -0.8107,-0.2942 -0.2116,-0.1969 -0.3175,-0.4361 -0.3175,-0.7218 0,-0.2942 0.1059,-0.5334 0.3175,-0.7197 0.2096,-0.1863 0.4805,-0.2794 0.8107,-0.2794 0.3366,0 0.6075,0.0931 0.817,0.2794 0.2075,0.1863 0.3133,0.4255 0.3133,0.7197 0,0.2984 -0.1058,0.5418 -0.3133,0.7323 -0.2095,0.1884 -0.4804,0.2837 -0.817,0.2837zm0.9673 7.3554l-1.9579 0 0 -6.35 1.9579 0 0 6.35z"/>
+  <path id="_1" class="fil3 str1" d="M6.8801 7.1986c-0.3302,0 -0.6011,-0.0974 -0.8107,-0.2942 -0.2116,-0.1969 -0.3175,-0.4361 -0.3175,-0.7218 0,-0.2942 0.1059,-0.5334 0.3175,-0.7197 0.2096,-0.1863 0.4805,-0.2794 0.8107,-0.2794 0.3366,0 0.6075,0.0931 0.817,0.2794 0.2075,0.1863 0.3133,0.4255 0.3133,0.7197 0,0.2984 -0.1058,0.5418 -0.3133,0.7323 -0.2095,0.1884 -0.4804,0.2837 -0.817,0.2837zm0.9673 7.3554l-1.9579 0 0 -6.35 1.9579 0 0 6.35z"/>
+  <sodipodi:namedview inkscape:window-height="749" inkscape:window-width="1024" inkscape:pageshadow="2" inkscape:pageopacity="1" guidetolerance="10.0" gridtolerance="10.0" objecttolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="white" id="base" inkscape:zoom="1.05" inkscape:cx="426.38288" inkscape:cy="175.14" inkscape:window-x="545" inkscape:window-y="8" inkscape:current-layer="g2015" inkscape:showpageshadow="false" showborder="true" showgrid="true" gridempspacing="20" width="440px" height="360px"/>
+  <polygon class="fil4 str2" points="13.3006,13.5248 13.3006,11.2953 14.6437,9.7105 16.0404,11.3759 16.0404,12.3966 16.5508,12.3966 16.5508,9.6836 16.7926,9.2538 16.7926,7.0512 17.5984,4.3113 18.3774,7.0781 18.3774,9.227 18.6997,9.7911 18.6997,10.8387 19.5056,10.3014 21.3859,11.3759 21.3859,13.0144 21.8962,13.0144 21.8962,9.2001 22.1648,9.2001 22.1648,7.5347 22.514,7.5347 22.514,5.9499 23.7765,5.9499 23.7765,7.8033 24.0451,7.8033 24.0451,10.8655 24.5824,10.8655 24.5824,12.4503 25.1733,12.4503 25.1733,9.7105 26.2209,8.6897 27.3222,9.7642 27.3222,11.3222 28.3698,10.2746 29.498,11.349 29.498,13.4979 "/>
+ </g>
+</svg>
