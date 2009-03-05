@@ -3,6 +3,29 @@
 # $Id: README.icons 1204 2007-01-11 13:16:56Z dse $
 #
 
+This should give you a short information about the icons here.
+As these structure was originally designed for GpsDrive, maybe not all icons
+may be of use for all maps or other osm applications.
+
+The master file here is "icons.xml", which should hold all the necessary data
+about the icons POI-types and other objects, including names and descriptions
+in various languages and a matching with existing tags used in the database.
+
+If you like to add icons for existing types mentioned there, please read the
+rest of this file and have a look at the index html files, to see which icons
+are still missing.
+
+If you like to add new icons or POI-types, that are not mentioned already,
+please add your new icons to the corresponding folder, and create a new entry
+in "icons.xml".
+
+The structure for the rules in icons.xml is derived from gpsdrive:
+- The key gives the primary usage for that icon
+  (currently poi,dynamic,rendering,general).
+- The value gives a unique identifier for that icon, that also maps the
+  folder structure for the entry.
+
+
 THE ICON FILES: 
 ----------------
 
@@ -40,7 +63,7 @@ GUIDELINES:
 ------------
 
 Each of these directories has to contain at least one icon for each of the
-(twenty) base categories, e.g. shopping.png for the category "Shopping" and a
+(twenty) base categories, e.g. shop.png for the category "Shop" and a
 corresponding subfolder with the same name, containing at least one icon called
 "empty.png". Optionally you can place additional sub icons into those folders,
 to allow a more precise classification of the related POI.
@@ -92,19 +115,19 @@ THE BASE POI CATEGORIES:
 	 Special nautical points
   - 9	PEOPLE						(yellow)
 	 You, work, your friends, and other people
-  - 10	PLACES						(transparent)
+  - 10	PLACE						(transparent)
 	 Settlements, mountains, and other geographical stuff
-  - 11	PUBLIC						(light red)
-	 Public facilities
-  - 12	RECREATION					(light green)
-	 Places used for recreation (no sports!)
+  - 11	SERVICE						(light red)
+	 Public facilities and services
+  - 12	LEISURE						(light green)
+	 Places used for leisure and recreation (no sports!)
   - 13	RELIGION					(violet)
 	 Places of worship and other facilities related to religion
-  - 14	SHOPPING				(dark red)
+  - 14	SHOP						(dark red)
 	 All the places, where you can buy something
   - 15	SIGHTSEEING					(green/white)
 	 Historic places and other interesting buildings
-  - 16	SPORTS						(dark green)
+  - 16	SPORT						(dark green)
 	 Sports clubs, stadiums, and other sports facilities
   - 17	TRANSPORT					(blue/white)
 	 Public transportation
@@ -125,18 +148,19 @@ for your theme as you like.
 SCRIPTS:
 ---------
 
-update_icons.pl		This file creates not only the file icons.xml from
-			their available icons, it builds also a nice html-
-			overview of the icons and POI-Types.
+create_icons_index.pl	This script creates some html overviews of all
+			the descriptions in icons.xml, showing also the
+			icons if available.
 			This should be a maintainer-only script!
+
 FILES:
 -------
 
 icons.xml		holds all available icon and poi-type information,
 			including titles and description in various languages.
 
-overview.en.html	gives you a nice overview of the currently availabe
+index_all.en.html	gives you a nice overview of all the currently availabe
 			icons and POI-Types in english language.
 
-overview.de.html	same as above in german (if available)
+index_*.en.html		there are also several overviews available, sorted by type
 
