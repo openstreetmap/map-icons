@@ -1109,14 +1109,14 @@
     <condition k="barrier" v="stile"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Stile</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="poi" v="misc.landmark">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Landmark</title>
     <description lang="en"></description>
   </rule>
 
@@ -1124,7 +1124,7 @@
     <condition k="man_made" v="barn"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Barn</title>
     <description lang="en"></description>
   </rule>
 
@@ -1132,7 +1132,7 @@
     <condition k="man_made" v="beacon"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Beacon</title>
     <description lang="en"></description>
   </rule>
 
@@ -1140,7 +1140,7 @@
     <condition k="military" v="bunker"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Bunker</title>
     <description lang="en"></description>
   </rule>
 
@@ -1156,7 +1156,7 @@
     <condition k="man_made" v="chimney"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">chimney</title>
     <description lang="en"></description>
   </rule>
 
@@ -1164,7 +1164,7 @@
     <condition k="man_made" v="crane"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">crane</title>
     <description lang="en"></description>
   </rule>
 
@@ -1205,7 +1205,7 @@
     <condition k="man_made" v="pier"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Pier</title>
     <description lang="en"></description>
   </rule>
 
@@ -1213,7 +1213,7 @@
     <condition k="power" v="generator"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Power generator</title>
     <description lang="en"></description>
   </rule>
 
@@ -1222,7 +1222,7 @@
     <condition_2nd k="power_source" v="gas"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Gas-fired power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1231,7 +1231,7 @@
     <condition_2nd k="power_source" v="biofuel"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Biofuel-fired power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1240,7 +1240,7 @@
     <condition_2nd k="power_source" v="oil"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Oil-fired power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1249,7 +1249,7 @@
     <condition_2nd k="power_source" v="coal"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Coal-fired power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1258,7 +1258,7 @@
     <condition_2nd k="power_source" v="waste"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Waste-fired power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1267,7 +1267,7 @@
     <condition_2nd k="power_source" v="hydro"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Hydropower plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1276,7 +1276,7 @@
     <condition_2nd k="power_source" v="tidal"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Tidal power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1285,7 +1285,7 @@
     <condition_2nd k="power_source" v="geothermal"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Geothermal power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1294,7 +1294,7 @@
     <condition_2nd k="power_source" v="nuclear"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Nuclear power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1303,7 +1303,7 @@
     <condition_2nd k="power_source" v="photovoltaic"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Photovoltaic power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1312,7 +1312,7 @@
     <condition_2nd k="power_source" v="solarthermal"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Solarthermal power plant</title>
     <description lang="en"></description>
   </rule>
 
@@ -1320,7 +1320,7 @@
     <condition k="power" v="tower"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Power tower</title>
     <description lang="en"></description>
   </rule>
 
@@ -1329,7 +1329,7 @@
     <condition_2nd k="power_source" v="wind"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Wind turbine tower</title>
     <description lang="en"></description>
   </rule>
 
@@ -1345,7 +1345,7 @@
     <condition k="man_made" v="reservoir_covered"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Covered reservoir</title>
     <description lang="en"></description>
   </rule>
 
@@ -2333,7 +2333,7 @@
     <condition_2nd k="religion" v="bahai"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Bahai facility</title>
     <description lang="en"></description>
   </rule>
 
@@ -2342,7 +2342,7 @@
     <condition_2nd k="religion" v="jain"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Jain facility</title>
     <description lang="en"></description>
   </rule>
 
@@ -2352,7 +2352,7 @@
     <condition_3rd k="denomination" v="mormon"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Mormon facility</title>
     <description lang="en"></description>
   </rule>
 
@@ -2361,7 +2361,7 @@
     <condition_2nd k="religion" v="sikh"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Sikh facility</title>
     <description lang="en"></description>
   </rule>
 
@@ -2370,7 +2370,7 @@
     <condition_2nd k="religion" v="taoist"/>
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Taoist facility</title>
     <description lang="en"></description>
   </rule>
 
@@ -3893,7 +3893,7 @@
   <rule k="rendering" v="vehicle.exit">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Exit</title>
     <title lang="de">Ausfahrt</title>
     <description lang="en"></description>
   </rule>
@@ -4595,24 +4595,24 @@
     <description lang="en"></description>
   </rule>
   
-  <rule k="poi" v="misc.deprecated">
+  <rule k="general" v="misc.deprecated">
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Deprecated</title>
     <description lang="en"></description>
   </rule>
 
-  <rule k="poi" v="misc.door">
+  <rule k="general" v="misc.door">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Door</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="poi" v="misc.landmark.farm">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Farm</title>
     <description lang="en"></description>
   </rule>
 
@@ -4628,21 +4628,21 @@
   <rule k="general" v="misc.lock_closed">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Locked</title>
     <description lang="en"></description>
   </rule>
   
   <rule k="general" v="misc.lock_open">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Unlocked</title>
     <description lang="en"></description>
   </rule>
   
   <rule k="general" v="misc.no_icon">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">No icon</title>
     <description lang="en"></description>
   </rule>
 
@@ -4657,56 +4657,56 @@
   <rule k="general" v="misc.proposed">
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">proposed</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="general" v="misc.tag_">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Tag</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="rendering" v="rendering">
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Rendering</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="rendering" v="rendering.beach">
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Beach</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="rendering" v="rendering.cliff">
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Cliff</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="rendering" v="rendering.cliff2">
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Cliff 2</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="rendering" v="rendering.quarry">
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Quarry</title>
     <description lang="en"></description>
   </rule>
 
   <rule k="rendering" v="rendering.quarry2">
     <scale_min>1</scale_min>
     <scale_max>100000</scale_max>
-    <title lang="en"></title>
+    <title lang="en">Quarry 2</title>
     <description lang="en"></description>
   </rule>
 
