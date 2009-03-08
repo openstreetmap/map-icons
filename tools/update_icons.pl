@@ -119,15 +119,15 @@ sub update_xml
   $i = $j = 0;
   foreach my $entry (@rule)
   {
-    if  ($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
-    {
-      $i++;
-    }
-    if  ($entry->last_child('condition')->{'att'}->{'k'} eq 'rendering')
-    {
-      $j++;
-    }
-
+      my $condition=$entry->last_child('condition');
+      if  ( $condition && $condition->{'att'}->{'k'} eq 'poi' )
+	  {
+	      $i++;
+	  }
+      if  ( $condition && $condition->{'att'}->{'k'} eq 'rendering')
+	  {
+	      $j++;
+	  }
   }
   print STDOUT "  Defined Points of Interest  :\t$i\n";
   print STDOUT "  Defined Map Rendering Icons :\t$j\n";
@@ -144,21 +144,24 @@ sub update_xml
 
 sub entry_name($){
     my $entry = shift;
-
-    if (($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
-      || ($entry->last_child('condition')->{'att'}->{'k'} eq 'rendering'))
+    my $condition = $entry->last_child('condition');
+    return '' if not(defined($condition));
+    if (($condition->{'att'}->{'k'} eq 'poi')
+      || ($condition->{'att'}->{'k'} eq 'rendering'))
     {
-      return $entry->last_child('condition')->{'att'}->{'v'};
+      return $condition->{'att'}->{'v'};
     }
 }
 
     foreach my $entry (sort {entry_name($a) cmp entry_name($b) } @rule)
      {
        my $name = 'unknown';
-       if (($entry->last_child('condition')->{'att'}->{'k'} eq 'poi')
-         || ($entry->last_child('condition')->{'att'}->{'k'} eq 'rendering'))
+       my $condition=$entry->last_child('condition');
+       next if not(defined($condition));
+       if (($condition->{'att'}->{'k'} eq 'poi')
+         || ($condition->{'att'}->{'k'} eq 'rendering'))
        {
-         $name = $entry->last_child('condition')->{'att'}->{'v'};
+         $name = $condition->{'att'}->{'v'};
        }
 
        next if not($opt_i) && $name =~ m/^incomming/;

@@ -154,8 +154,8 @@ sub image_merge($$$){
 	my $image1 = Image::Magick->new(); # size => "${size}x${size}");
 	$rc = $image1->Read($src_file);
 	warn "!!!WARNING: Load Image: $rc" if "$rc";
-	my $image_size = $image1->Get('size');
-	print "Size: '$image_size'\n";
+	my $image_size = $image1->Get('size') || '';
+	print "Size: '$image_size'\n" if $DEBUG>0;
 	$rc = $image1->Sample( geometry => "${size}x${size}+0+0" );
 	$rc = $image1->Transparent(color=>"white" );
 	warn "!!!!!! ERROR: $rc" if "$rc";
