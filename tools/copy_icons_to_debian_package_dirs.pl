@@ -56,18 +56,19 @@ my $rules = XMLin("$file.xml",
 		  ForceArray => [ 'condition' ],
     );
 my @rules=@{$rules->{rule}};
+my $count_images=0;
 for my $rule (@rules) {
-    print Dumper(\$rule) if $DEBUG >10;
+    #print "Rule: " . Dumper(\$rule) if $VERBOSE;
     my $restricted = $rule->{'geoinfo'}->{'restricted'}||'';
-    my $names = $rule->{'condition'};
-    my ($name) = grep { $_->{k} =~ /^poi|rendering$/ } @{$names};
-    $name = $name->{v};
-    print "name: '$name'\n" if $VERBOSE;
-    if ( ! $name ) {
+    my $name;
+    if ( $rule->{k} =~ /^poi|rendering$/ ) {
+	$name = $rule->{v};
+    } else {
 	warn "Undefined Name\n";
 	warn Dumper(\$rule);
 	next;
     }
+    print "name: '$name'\n" if $VERBOSE;
     $name =~ s,\.,/,g;
 
     # Do not copy the restricted Icons
@@ -88,12 +89,17 @@ for my $rule (@rules) {
 		mkpath $dir  || warn "Cannot create $dir:$!\n";
 		copy($src_fn,$dst_fn)  || warn "Cannot copy $src_fn,$dst_fn:$!\n";;
 		$found++;
+		$count_images++;
 	    }    
 	}
-	# print STDERR "No File for $theme/$name found\n" unless $found;
+	#warn "No File for $theme/$name found\n" unless $found;
     };
 };
  
+if ( $count_images < 1700 ) {
+    die ("Did not find enough Icons. Found only $count_images icons ---> Failing ....\n");
+}
+
 my $write_output=0;
 if ( $write_output) {
     my $xml = XMLout($rules);
