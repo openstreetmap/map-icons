@@ -1,3 +1,63 @@
+openstreetmap-map-icons (12830) unstable; urgency=low
+
+   * add turn restriction icons
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Sat, 03 Jan 2009 02:14:03 +0100
+
+openstreetmap-map-icons (12829) unstable; urgency=low
+
+   * add turn restriction icons
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Sat, 03 Jan 2009 02:12:42 +0100
+
+openstreetmap-map-icons (12785) unstable; urgency=low
+
+   * Add perlmagic as dependency
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Thu, 01 Jan 2009 21:18:16 +0100
+
+openstreetmap-map-icons (12764) unstable; urgency=low
+
+   * convert dentist icon from two-tone
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Thu, 01 Jan 2009 12:02:48 +0100
+
+openstreetmap-map-icons (12763) unstable; urgency=low
+
+   * bring two-tone icons in sync with other icon names (2)
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Thu, 01 Jan 2009 11:50:21 +0100
+
+openstreetmap-map-icons (12762) unstable; urgency=low
+
+   * bring two-tone icons in sync with other icon names
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Thu, 01 Jan 2009 11:49:27 +0100
+
+openstreetmap-map-icons (12649) unstable; urgency=low
+
+   * Change Architecture to  all because icons are Architecture independent
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Sun, 28 Dec 2008 22:34:28 +0100
+
+openstreetmap-map-icons (12644) unstable; urgency=low
+
+   * update changelog
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Sun, 28 Dec 2008 20:02:13 +0100
+
+openstreetmap-map-icons (12643) unstable; urgency=low
+
+   * remove old build traces
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Sun, 28 Dec 2008 20:01:54 +0100
+
+openstreetmap-map-icons (12642) unstable; urgency=low
+
+   * clearn before build; be less verbose while creating icons
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Sun, 28 Dec 2008 20:01:19 +0100
+
 openstreetmap-map-icons (12607) unstable; urgency=low
 
    * use perl interface of immage::magic instead of system calls
