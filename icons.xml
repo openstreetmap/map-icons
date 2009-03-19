@@ -2346,7 +2346,7 @@
     <description lang="en"></description>
   </rule>
 
-  <rule k="poi" v="religion.mormon">
+  <rule k="poi" v="religion.christian.mormon">
     <condition k="amenity" v="place_of_worship"/>
     <condition_2nd k="religion" v="christian"/>
     <condition_3rd k="denomination" v="mormon"/>
