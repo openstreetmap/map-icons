@@ -1,4 +1,14 @@
 #!/usr/bin/perl
+#
+# This script is currently deprecated.
+# But we will keep it for now, since one might be able to use 
+# part of the code to write a checker to show newly added icons.
+#
+
+exit -1
+
+
+
 #####################################################################
 #
 #  This script handles the XML-Files for the POI-Types in gpsdrive.
