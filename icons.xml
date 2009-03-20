@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules PUBLIC "http://svn.openstreetmap.org/applications/share/map-icons/icons.dtd" "icons.dtd">
+
 <rules>
 
   <rule k="poi" v="accommodation.hostel">
