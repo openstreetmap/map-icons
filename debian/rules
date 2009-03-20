@@ -46,11 +46,11 @@ clean:
 	rm -rf build/nickw
 	rm -f debian/files
 	dh_clean
+	dh_clean -k
 
-install: clean
+install:
 	dh_testdir
 	dh_testroot
-	dh_clean -k
 	dh_installdirs
 
 #	./debian/update_svn_revision.sh
@@ -62,22 +62,31 @@ install: clean
 
 	touch build-stamp
 
-	cp icons.xml build/
-	cd build; perl ../tools/update_icons.pl
-	cd build; perl ../tools/create_geoinfo-db.pl --lang=en --icons_xml=icons.xml
-	cd build; perl ../tools/create_geoinfo-db.pl --lang=de --icons_xml=icons.xml
+	cp -u icons.xml build/
+	cp -u icons.dtd build/
+	# We do not want to change the ixons.xml automagically for mow anymore
+#	cd build; perl ../tools/update_icons.pl
+
+
+	# Create geoinfo.*.db
+	cd build; perl ../tools/create_geoinfo-db.pl --lang=en --source=icons.xml
+	cd build; perl ../tools/create_geoinfo-db.pl --lang=de --source=icons.xml
 
 	# Now split into differnet packages
 	perl ./tools/copy_icons_to_debian_package_dirs.pl
 
-	# icons.xml belongs to the main package
 	mkdir -p debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+
+	# This is not really FSH, but i didn't want to create a new directory
 	cp build/icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	cp build/icons.dtd debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	cp build/geoinfo.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	cp build/geoinfo.de.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+
+	# icons.xml belongs to the main package
 	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./
 	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
 
-	cp build/geoinfo.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
-	cp build/geoinfo.de.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 
 #	cd build; $(MAKE)
 #	cd build; $(MAKE) DESTDIR=$(destdir) install
