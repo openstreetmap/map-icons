@@ -334,9 +334,7 @@ sub update_overview($$){
     for my $rule (@{$rules}) {
 	#print Dumper(\$rule);
 	my $content = '';
-	my $names = $rule->{'condition'};
-	my ($name) = grep { $_->{k} =~ /^poi|rendering$/ } @{$names};
-	$name = $name->{v};
+	my $name = $rule->{v};
 	my $id = $name;
 	print "name: '$name'\n" if $VERBOSE;
 	if ( ! $name ) {

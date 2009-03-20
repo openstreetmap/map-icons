@@ -61,7 +61,7 @@ for my $rule (@rules) {
     #print "Rule: " . Dumper(\$rule) if $VERBOSE;
     my $restricted = $rule->{'geoinfo'}->{'restricted'}||'';
     my $name;
-    if ( $rule->{k} =~ /^poi|rendering$/ ) {
+    if ( $rule->{k} =~ /^poi|rendering|dynamic|general|other$/ ) {
 	$name = $rule->{v};
     } else {
 	warn "Undefined Name\n";
