@@ -17,7 +17,13 @@ my $version = '$Revision: 1824 $';
 $Version =~ s/\$Revision:\s*(\d+)\s*\$/$1/;
  
 my $VERSION ="create_geoinfo-db.pl (c) Guenther Meyer
-Version 0.1-$Version";
+Version 0.3-$Version";
+
+# History:
+#
+# v0.3 Included OSM-Matching into poi_type table
+# v0.2 Added Table for OpenStreetMap-Matching
+# v0.1 Initial Release
 
 use strict;
 use warnings;
@@ -26,15 +32,13 @@ use DBI;
 use File::Copy;
 use XML::Twig;
 use Getopt::Long;
-use Pod::Usage;
-use Getopt::Long;
 
 my $lang;
+my $icon_file;
 my $db_file;
 my $dbh;
-my ($man,$help,$DEBUG,$VERBOSE)=(0,0,0,0);
+my $VERBOSE=0;
 
-my $icons_xml= "./icons.xml";
 
 ########################################################################################
 # Execute SQL statement
@@ -71,7 +75,12 @@ sub create_dbfile(){
 		scale_min      INTEGER       NOT NULL default \'1\',
 		scale_max      INTEGER       NOT NULL default \'50000\',
 		title          VARCHAR(160)  NULL default \'\',
-		description    VARCHAR(160)  NULL default \'\');') or die;
+		description    VARCHAR(160)  NULL default \'\',
+		proximity      INTEGER       default \'25\',
+		editable       INTEGER       default \'1\',
+		osm_condition  VARCHAR(160)  NULL default \'\',
+		osm_cond_2nd   VARCHAR(160)  NULL default \'\',
+		osm_cond_3rd   VARCHAR(160)  NULL default \'\');') or die;
 
      # ------- SOURCE
     db_exec('CREATE TABLE source (
@@ -81,31 +90,20 @@ sub create_dbfile(){
 		last_update    DATE         NOT NULL default \'0000-00-00\',
 		url            VARCHAR(160) NOT NULL default \'\',
 		licence        VARCHAR(160) NOT NULL default \'\');') or die;
- 
 }
 
 
 ########################################################################################
 # Fill poi_type table
 #
-sub fill_default_poi_types(;$) {
+sub fill_default_poi_types {
     my $i=1;
     my $used_icons ={};
 
     my $unused_icon ={};
     my $existing_icon ={};
 
-    my $icon_file=shift;
-    $icon_file = '../data/map-icons/icons.xml'          unless -s $icon_file;
-    $icon_file = '../share/map-icons/icons.xml'         unless -s $icon_file;
-    $icon_file = '/usr/local/share/icons/map-icons/icons.xml' unless -s $icon_file;
-    $icon_file = '/usr/local/share/map-icons/icons.xml' unless -s $icon_file;
-    $icon_file = '/usr/share/icons/map-icons/icons.xml' unless -s $icon_file;
-    $icon_file = '/usr/share/map-icons/icons.xml'       unless -s $icon_file;
-    $icon_file = '/opt/gpsdrive/icons.xml'              unless -s $icon_file;
     die "no Icon File found" unless -s $icon_file;
-
-    print "Using Icons File '$icon_file'\n" if $DEBUG || $VERBOSE;
 
     our $title = ''; our $title_en = '';
     our $description = ''; our $description_en = '';
@@ -126,26 +124,75 @@ sub fill_default_poi_types(;$) {
     sub sub_poi
     {
       my ($twig, $poi_elm) = @_;
-      if ($poi_elm->first_child('condition')->att('k') eq 'poi')
+      use Data::Dumper;
+      my $key=$poi_elm->att('k');
+      if ( ! $key ) {
+	  warn "missing k= for ".$poi_elm->sprint."\n";
+	  #warn "parent:".$poi_elm->parent->sprint;
+	  #warn Data::Dumper->new([$poi_elm], ['poi_elm'])->Maxdepth(2)->Indent(2)->Dump;
+      } elsif ( 'poi' eq "$key" )
       {
-        my $name = $poi_elm->first_child('condition')->att('v');
+        my $osm_1st = '';
+	my $osm_2nd = '';
+	my $osm_3rd = '';
+        my $name = $poi_elm->att('v');
+        my $scale_min = $poi_elm->first_child('scale_min')->text;
+        my $scale_max = $poi_elm->first_child('scale_max')->text;
+        if ($poi_elm->children_count('condition'))
+	{
+          $osm_1st = $poi_elm->first_child('condition')->att('k').'='
+                     .$poi_elm->first_child('condition')->att('v');
+        }
+        if ($poi_elm->children_count('condition_2nd'))
+	{
+	  $osm_2nd = $poi_elm->first_child('condition_2nd')->att('k').'='
+                     .$poi_elm->first_child('condition_2nd')->att('v');
+	}
+        if ($poi_elm->children_count('condition_3rd'))
+	{
+          $osm_3rd = $poi_elm->first_child('condition_3rd')->att('k').'='
+                    .$poi_elm->first_child('condition_3rd')->att('v');
+        }
+        $title = $title_en unless ($title);
+	$description = $description_en unless ($description);
+
+	# replace ' by something else, because otherwise the sql statement will fail
+	$title =~ s/'/''/g;
+	$description =~ s/'/''/g;
+	$osm_1st =~ s/'/''/g;
+	$osm_2nd =~ s/'/''/g;
+	$osm_3rd =~ s/'/''/g;
+
+	if ( $VERBOSE) {
+	    print "Adding POI: $name\n";
+	    print "            $title - $description\n";
+	}
+
+	db_exec(
+	  "INSERT INTO `poi_type` ".
+          "(poi_type, scale_min, scale_max, title, description, editable, osm_condition, osm_cond_2nd, osm_cond_3rd ) ".
+	  "VALUES ('$name','$scale_min','$scale_max','$title','$description','1','$osm_1st','$osm_2nd','$osm_3rd');") 
+	    or die;
+      }
+      elsif ( 'dynamic' eq $key )
+      {
+        my $name = $poi_elm->att('v');
         my $scale_min = $poi_elm->first_child('scale_min')->text;
         my $scale_max = $poi_elm->first_child('scale_max')->text;
         $title = $title_en unless ($title);
 	$description = $description_en unless ($description);
 
 	# replace ' by something else, because otherwise the sql statement wil fail
-	#$description =~ s/'/&#0039;/g;
 	$description =~ s/'/&apos;/g;
 
-	print "Adding POI: $name\n" if $VERBOSE;
-	print "            $title - $description\n"  if $VERBOSE > 1;
+	print "Adding dynamic point: $name\n";
+	print "                      $title - $description\n";
 
 	db_exec(
 	  "INSERT INTO `poi_type` ".
-          "(poi_type, scale_min, scale_max, title, description) ".
-	  "VALUES ('$name','$scale_min','$scale_max','$title','$description');") 
-	    or die "Insert of poi_type Failed ('$name','$scale_min','$scale_max','$title','$description')\n";
+          "(poi_type, scale_min, scale_max, title, description, editable) ".
+	  "VALUES ('$name','$scale_min','$scale_max','$title','$description','0');") 
+	    or die;
       }
       $title = ''; $title_en = '';
       $description = ''; $description_en = '';
@@ -219,7 +266,6 @@ sub fill_default_sources() {   # Just some Default Sources
         url         => 'http://www.opencaching.de/',
         licence     => 'unknown'
       },
-      
       { source_id   => '7',
         name        => 'friendsd',
         comment     => 'Position received from friendsd server', 
@@ -248,11 +294,17 @@ sub fill_default_sources() {   # Just some Default Sources
         url         => 'http://www.openstreetmap.org/',
         licence     => 'Creative Commons Attribution-ShareAlike 2.0'
       },
+      { source_id   => '11',
+        name        => 'ais',
+        comment     => 'Position received from an AIS receiver', 
+        last_update => '2009-02-26',
+        url         => '',
+        licence     => 'none'
+      },
     );
 
-      print "Adding Sources:\n";
     foreach (@sources) {
-      print "	Adding Source: $$_{'name'} - $$_{'url'}\n" if $VERBOSE;
+      print "Adding Source: $$_{'name'} - $$_{'url'}\n";
       db_exec(
         "INSERT INTO `source` ".
           "(source_id, name, comment, last_update, url, licence) ".
@@ -271,68 +323,76 @@ sub fill_default_sources() {   # Just some Default Sources
 
 # Set defaults and get options from command line
 Getopt::Long::Configure('no_ignore_case');
-GetOptions ( 'lang=s'      => \$lang,
-	     'icons_xml=s' => \$icons_xml,
-	     'db_file=s'   => \$db_file,
-	     'd+'          => \$DEBUG,
-	     'debug+'      => \$DEBUG,      
-	     'verbose'     => \$VERBOSE,
-	     'v+'          => \$VERBOSE,
-	     'h|help|x'    => \$help, 
-	     'MAN'         => \$man, 
-	     'man'         => \$man, 
-    )
-    or pod2usage(1);
-
-pod2usage(1) if $help;
-pod2usage(-verbose=>2) if $man;
+GetOptions (
+	     'lang=s'             => \$lang,
+	     'source=s'           => \$icon_file,
+	     'verbose'            => \$VERBOSE,
+	   ) || die("Unknown Option!!!!!!!\n");
 
 $lang = $lang || $default_lang;
 
 if ($lang eq 'en')
-  { $db_file ||= "./geoinfo.db"; }
+  { $db_file = "./geoinfo.db"; }
 else
-  { $db_file ||= "./geoinfo.$lang.db"; }
+  { $db_file = "./geoinfo.$lang.db"; }
 
 print "$VERSION\n";
 
 create_dbfile();
 fill_default_sources();
-fill_default_poi_types($icons_xml);
+fill_default_poi_types();
 
 
 __END__
 
 =head1 NAME
 
-B<create_geoinfo-db.pl> Version 0.1
+B<create_geoinfo-db.pl>
 
 =head1 DESCRIPTION
+
+B<create_geoinfo-db.pl> is creating the geoinfo.db from the icons and icons.xml File
 
 Create SQLite Database file used by GpsDrive
 Fill it with:
    - POI Sources predefined in this script
    - POI Types as defined in icons.xml
-   TODO: - Field Types for additional POI Information (poi_extra)
 
-=item B<--man>
+=head1 SYNOPSIS
 
-Print this small usage
+B<Common usages:>
 
-=item B<-d>
+  create_geoinfo-db.pl --lang=en
 
-Add some more Debug Output
+=head1 OPTIONS
 
-=item B<-v>
+=over 8
 
-Some more Otput while creating
+=item B<-lang>
 
-=item B<icons_xml>
+select the language to use
 
-Icons.xml File (default ./icons.xml)
+=item B<-source>
 
-=item B<db_file>
-
-the resulting geoinfo.db File (default ./geoinfo.db | geoinfo.de.db)
+select the icons.xml file to use
 
 =back
+
+
+=head1 AUTHOR
+
+Written by Guenther Meyer <d.s.e@sordidmusic.com>
+
+=head1 COPYRIGHT
+
+This is free software.  You may redistribute copies of it under the terms of the GNU General Pub-
+lic  License <http://www.gnu.org/licenses/gpl.html>.  There is NO WARRANTY, to the extent permit-
+ted by law.
+
+=head1 SEE ALSO
+
+gpsdrive(1)
+
+
+=cut
+
