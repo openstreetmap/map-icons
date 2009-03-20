@@ -2962,7 +2962,7 @@
   </rule>
 
   <rule k="poi" v="shop.sports.outdoor">
-    <rule k="shop" v="outdoor"/>
+    <condition k="shop" v="outdoor"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">Outdoor Shop</title>
