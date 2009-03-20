@@ -4626,6 +4626,16 @@
     <description lang="de">Waldbedeckung fuer ein Gebiet</description>
   </rule>
   
+  <rule k="rendering" v="rendering.landuse.cemetery">
+    <condition k="landuse" v="cemetery"/>
+    <scale_min>1</scale_min>
+    <scale_max>500000</scale_max>
+    <title lang="en">Cemetery</title>
+    <title lang="en">Friedhof</title>
+    <description lang="en">Cemetery covering an area</description>
+    <description lang="de">Friedhof Gebiet</description>
+  </rule>
+  
   <rule k="general" v="misc.lock_closed">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
