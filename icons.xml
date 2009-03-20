@@ -7,8 +7,7 @@
     <scale_max>50000</scale_max>
     <title lang="en">Hostel</title>
     <title lang="de">Herberge</title>
-    <description lang="en">Hostel is something between a Hotel and a
-    youth Hostel</description>
+    <description lang="en">Hostel is something between a Hotel and a youth Hostel</description>
   </rule>
 
   <rule k="poi" v="accommodation.hotel">
