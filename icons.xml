@@ -4616,7 +4616,8 @@
     <description lang="en"></description>
   </rule>
 
-  <rule k="rendering" v="rendering.forest">
+  <rule k="rendering" v="rendering.landuse.forest">
+    <condition k="landuse" v="forest"/>
     <scale_min>1</scale_min>
     <scale_max>500000</scale_max>
     <title lang="en">Forest</title>
