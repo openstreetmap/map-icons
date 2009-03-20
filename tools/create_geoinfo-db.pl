@@ -185,8 +185,10 @@ sub fill_default_poi_types {
 	# replace ' by something else, because otherwise the sql statement wil fail
 	$description =~ s/'/&apos;/g;
 
-	print "Adding dynamic point: $name\n";
-	print "                      $title - $description\n";
+	if ( $VERBOSE )  {
+	    print "Adding dynamic point: $name\n";
+	    print "                      $title - $description\n";
+	}
 
 	db_exec(
 	  "INSERT INTO `poi_type` ".
@@ -304,12 +306,13 @@ sub fill_default_sources() {   # Just some Default Sources
     );
 
     foreach (@sources) {
-      print "Adding Source: $$_{'name'} - $$_{'url'}\n";
-      db_exec(
-        "INSERT INTO `source` ".
-          "(source_id, name, comment, last_update, url, licence) ".
-	  "VALUES ($$_{'source_id'},'$$_{'name'}','$$_{'comment'}',".
-	  "'$$_{'last_update'}','$$_{'url'}','$$_{'licence'}');") or die;
+	print "Adding Source: $$_{'name'} - $$_{'url'}\n"
+	    if $VERBOSE;
+	db_exec(
+	    "INSERT INTO `source` ".
+	    "(source_id, name, comment, last_update, url, licence) ".
+	    "VALUES ($$_{'source_id'},'$$_{'name'}','$$_{'comment'}',".
+	    "'$$_{'last_update'}','$$_{'url'}','$$_{'licence'}');") or die;
     }
 
 }
