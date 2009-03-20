@@ -75,6 +75,7 @@ sub create_dbfile(){
 		scale_max      INTEGER       NOT NULL default \'50000\',
 		title          VARCHAR(160)  NULL default \'\',
 		description    VARCHAR(160)  NULL default \'\',
+		proximity      INTEGER       default \'25\',
 		editable       INTEGER       default \'1\',
 		osm_condition  VARCHAR(160)  NULL default \'\',
 		osm_cond_2nd   VARCHAR(160)  NULL default \'\',
@@ -156,11 +157,11 @@ sub fill_default_poi_types {
 	$description = $description_en unless ($description);
 
 	# replace ' by something else, because otherwise the sql statement will fail
-	$title =~ s/'/&apos;/g;
-	$description =~ s/'/&apos;/g;
-	$osm_1st =~ s/'/&apos;/g;
-	$osm_2nd =~ s/'/&apos;/g;
-	$osm_3rd =~ s/'/&apos;/g;
+	$title =~ s/'/''/g;
+	$description =~ s/'/''/g;
+	$osm_1st =~ s/'/''/g;
+	$osm_2nd =~ s/'/''/g;
+	$osm_3rd =~ s/'/''/g;
 
 	print "Adding POI: $name\n";
 	print "            $title - $description\n";
@@ -367,6 +368,10 @@ B<Common usages:>
 =item B<-lang>
 
 select the language to use
+
+=item B<-source>
+
+select the icons.xml file to use
 
 =back
 
