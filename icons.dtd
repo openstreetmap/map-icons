@@ -1,0 +1,41 @@
+<!ELEMENT rules (rule)+>
+
+<!ELEMENT rule
+  ((condition|condition_2nd|condition_3rd|description|restricted|description)*|title+|scale_min|scale_max)+>
+
+<!ATTLIST rule
+  k  (poi|dynamic|rendering|general|other)  #REQUIRED
+  v  ID  #REQUIRED
+>
+
+<!ELEMENT condition EMPTY>
+<!ATTLIST condition
+  k  CDATA  #REQUIRED
+  v  CDATA  #REQUIRED
+>
+
+<!ELEMENT condition_2nd EMPTY>
+<!ATTLIST condition_2nd
+  k  CDATA  #REQUIRED
+  v  CDATA  #REQUIRED
+>
+
+<!ELEMENT condition_3rd EMPTY>
+<!ATTLIST condition_3rd
+  k  CDATA  #REQUIRED
+  v  CDATA  #REQUIRED
+>
+
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description
+  lang  CDATA  #REQUIRED
+>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+  lang  CDATA  #REQUIRED
+>
+<!ELEMENT restricted (#PCDATA)>
+<!ELEMENT scale_min (#PCDATA)>
+<!ELEMENT scale_max (#PCDATA)>
+
