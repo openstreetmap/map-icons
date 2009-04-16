@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="32"
+   height="32"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="fort.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata2393">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>malenki (Michael Buchberger)</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="977"
+     inkscape:window-width="1276"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="11.313709"
+     inkscape:cx="20.910329"
+     inkscape:cy="23.508543"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3753"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective2395" />
+  </defs>
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.92799997;stroke-miterlimit:4;stroke-opacity:0.38721804"
+     d="M 7.0500489,17.918701 C 3.1541369,17.918701 -0.012451061,21.085288 -0.012451061,24.981201 C -0.012451061,28.877113 3.1541369,32.01245 7.0500489,32.012451 C 10.945962,32.012451 14.081299,28.877113 14.081299,24.981201 C 14.081299,21.085288 10.945962,17.918701 7.0500489,17.918701 z M 7.0187989,17.981201 C 7.0691219,17.98133 8.6031619,22.732767 8.6437989,22.762451 C 8.6844359,22.792136 13.659621,22.777051 13.675049,22.824951 C 13.690477,22.872851 9.6594729,25.77713 9.6437989,25.824951 C 9.6281249,25.872771 11.153337,30.607977 11.112549,30.637451 C 11.07176,30.666926 7.0691229,27.73133 7.0187989,27.731201 C 6.9684759,27.731071 2.9344349,30.635884 2.8937989,30.606201 C 2.8531609,30.576517 4.4092269,25.872851 4.3937989,25.824951 C 4.3783699,25.77705 0.34687494,22.841522 0.36254894,22.793701 C 0.37822294,22.745881 5.3530099,22.760675 5.3937989,22.731201 C 5.4345859,22.701726 6.9684749,17.981071 7.0187989,17.981201 z"
+     id="path3188" />
+  <rect
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.75754625px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     id="rect2412"
+     width="1.2984442"
+     height="17.902433"
+     x="6.385201"
+     y="0.089917183"
+     inkscape:transform-center-x="-0.03442279"
+     inkscape:transform-center-y="-15.958866" />
+  <path
+     d="M 7.6796287,0.090675823 L 20.55007,3.1783014 L 7.6776913,7.1998086 L 7.6796287,0.090675823 z"
+     id="path3193"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.04903595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:transform-center-x="-7.0387385"
+     inkscape:transform-center-y="-18.405377" />
+</svg>
