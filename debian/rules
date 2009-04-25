@@ -82,15 +82,19 @@ install:
 
 	mkdir -p debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 
+	# Create a seperate Overview Package
+	mkdir -p debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/
+
 	# This is not really FSH, but i didn't want to create a new directory
-	cp build/icons.xml debian/openstreetmap-map-icons/usr/share/icons/map-icons/
-	cp build/icons.dtd debian/openstreetmap-map-icons/usr/share/icons/map-icons/
+	cp build/icons.xml debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/
+	cp build/icons.dtd debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/
+
 	cp build/geoinfo.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 	cp build/geoinfo.de.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 
 	# icons.xml belongs to the main package
-	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./
-	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
+	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/ -S ./
+	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
 
 
 #	cd build; $(MAKE)

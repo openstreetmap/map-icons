@@ -32,14 +32,30 @@ Recommends: openstreetmap-map-icons-square.small,
  openstreetmap-map-icons-svg,
  openstreetmap-map-icons-svg-png,
  openstreetmap-map-icons-svg-twotone,
- openstreetmap-map-icons-svg-twotone-png
+ openstreetmap-map-icons-svg-twotone-png,
+ openstreetmap-map-icons-info
 Conflicts: openstreetmap-map-icons-restricted
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
 Suggests: gpsdrive, mapnik
 Description: Icons for drawing Maps. Used in Openstreetmap and others
  These Icons are for use with maps build from OSM
  used in GpsDrive, Mapnik, ...
+ This is the main dependency package. You will have to install at least one 
+ of the Theme-Packages.
 
+
+Package: openstreetmap-map-icons-info
+Architecture: all
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 14170)
+Conflicts: openstreetmap-map-icons-restricted, openstreetmap-map-icons-square.small-minimal
+Suggests: gpsdrive, mapnik
+Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
+Description: Information to the Icons OpenStreetMap-Icons Package.
+ This includes an html Overview, the xml source, ...
+ The MapIcons Package is for drawing Maps. Used in Openstreetmap and others
+ These Icons are for use with maps build from OSM
+ used in GpsDrive, Mapnik, ...
+ This Pack
 
 Package: openstreetmap-map-icons-square.small
 Architecture: all
