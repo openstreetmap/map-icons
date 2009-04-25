@@ -17,6 +17,7 @@ Architecture: all
 Depends: openstreetmap-map-icons-classic.small
  | openstreetmap-map-icons-classic.big
  | openstreetmap-map-icons-square.small
+ | openstreetmap-map-icons-square.small-minimal
  | openstreetmap-map-icons-square.big
  | openstreetmap-map-icons-japan
  | openstreetmap-map-icons-svg
@@ -43,12 +44,24 @@ Description: Icons for drawing Maps. Used in Openstreetmap and others
 Package: openstreetmap-map-icons-square.small
 Architecture: all
 Depends: ${misc:Depends}, openstreetmap-map-icons(>> 14170)
-Conflicts: openstreetmap-map-icons-restricted
+Conflicts: openstreetmap-map-icons-restricted, openstreetmap-map-icons-square.small-minimal
 Suggests: gpsdrive, mapnik
 Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
 Description: Icons for drawing Maps. Used in Openstreetmap and others
  These Icons are for use with maps build from OSM
  used in GpsDrive, Mapnik, ...
+
+Package: openstreetmap-map-icons-square.small-minimal
+Architecture: all
+Depends: ${misc:Depends}, openstreetmap-map-icons(>> 14170)
+Conflicts: openstreetmap-map-icons-restricted, openstreetmap-map-icons-square.small
+Suggests: gpsdrive, mapnik
+Replaces: osm-data-map-icons, openstreetmap-map-icons-restricted
+Description: Icons for drawing Maps. Used in Openstreetmap and others
+ These Icons are for use with maps build from OSM
+ used in GpsDrive, Mapnik, ...
+ This is a special set of icons which has only the minimal required
+ icons in order to keep the package small for embeded systems.
 
 Package: openstreetmap-map-icons-square.big
 Architecture: all

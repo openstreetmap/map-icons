@@ -44,7 +44,6 @@ clean:
 	rm -rf build/svg-twotone
 	rm -rf build/svg-twotone_png
 	rm -rf build/nickw
-	rm -f debian/files
 	dh_clean
 	dh_clean -k
 
@@ -54,6 +53,8 @@ install:
 	dh_installdirs
 
 #	./debian/update_svn_revision.sh
+
+	rm -f debian/files
 
 	# Add here commands to compile the package.
 	mkdir -p build
@@ -74,6 +75,10 @@ install:
 
 	# Now split into differnet packages
 	perl ./tools/copy_icons_to_debian_package_dirs.pl
+
+	# Create Mini Icon Set
+	mkdir -p debian/openstreetmap-map-icons-square.small-minimal/usr/share/icons/map-icons/square.small
+	cp debian/openstreetmap-map-icons-square.small/usr/share/icons/map-icons/square.small/*.png debian/openstreetmap-map-icons-square.small-minimal/usr/share/icons/map-icons/square.small
 
 	mkdir -p debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 
