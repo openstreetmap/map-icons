@@ -65,7 +65,7 @@ install:
 
 	cp -u icons.xml build/
 	cp -u icons.dtd build/
-	# We do not want to change the ixons.xml automagically for mow anymore
+	# We do not want to change the ixons.xml automagically for now anymore
 #	cd build; perl ../tools/update_icons.pl
 
 
@@ -93,8 +93,8 @@ install:
 	cp build/geoinfo.de.db debian/openstreetmap-map-icons/usr/share/icons/map-icons/
 
 	# icons.xml belongs to the main package
-	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/ -S ./
-	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/ -S ./ -l -n -b -P overview_lic
+	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/ 
+	perl ./tools/create_overview.pl -D debian/openstreetmap-map-icons-info/usr/share/icons/map-icons/ -l -n -b -P overview_lic
 
 
 #	cd build; $(MAKE)
