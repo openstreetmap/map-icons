@@ -261,7 +261,7 @@ sub update_svg_thumbnail($$){
     print STDERR "update_svg_thumbnail: check($icon_svg,	$icon_png)\n" if $DEBUG>0;
 
     if ( ! -s $icon_svg ) {
-	die "Icon '$icon_svg' not found\n";
+	die "!!!!!!!!! FATAL ERROR Icon '$icon_svg' not found\n";
     }
 
     my $mtime_svg = (stat($icon_svg)->mtime)|| 0; 
