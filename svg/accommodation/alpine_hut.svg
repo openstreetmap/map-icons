@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg831"
+   sodipodi:version="0.32"
+   width="90.28pt"
+   height="98.89pt"
+   sodipodi:docbase="G:\Documents\map-icons\svg\accommodation"
+   sodipodi:docname="alpine_hut.svg"
+   inkscape:version="0.46"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="C:\Dokumente und Einstellungen\ulfl\Eigene Dateien\osm\svn.map-icons\svg\accommodation\alpine_hut.png"
+   inkscape:export-xdpi="14.400395"
+   inkscape:export-ydpi="14.400395">
+  <metadata
+     id="metadata2216">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs833">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 61.806252 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="112.85 : 61.806252 : 1"
+       inkscape:persp3d-origin="56.424999 : 41.204168 : 1"
+       id="perspective12" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     inkscape:zoom="3.0498533"
+     inkscape:cx="56.424999"
+     inkscape:cy="61.806252"
+     inkscape:window-width="797"
+     inkscape:window-height="667"
+     inkscape:window-x="176"
+     inkscape:window-y="232"
+     inkscape:current-layer="svg831"
+     showgrid="false" />
+  <path
+     sodipodi:nodetypes="ccccccccccccccc"
+     id="path824"
+     d="M 55.868365,10.472771 L 6.0645952,53.905069 L 11.045219,64.761728 L 17.021639,60.6893 L 17.021639,112.26551 L 94.716743,112.26551 L 94.716743,60.6893 L 100.37335,64.626018 L 105.35397,53.76818 L 55.868365,10.472771 z M 33.955103,59.333398 L 33.738591,75.69037 L 78.562561,75.69037 L 78.779074,59.333398 L 33.955103,59.333398 z"
+     style="font-size:12px;fill-rule:evenodd;stroke:#000000;stroke-width:0.56630268pt" />
+</svg>
