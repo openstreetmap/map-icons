@@ -52,8 +52,7 @@ install:
 	dh_testroot
 	dh_installdirs
 
-#	./debian/update_svn_revision.sh
-
+#       ../../utils/svn/svn_log2debian_changelog.pl --project_name="openstreetmap-map-icons"
 	rm -f debian/files
 
 	# Add here commands to compile the package.
