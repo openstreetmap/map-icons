@@ -8,7 +8,7 @@ Build-Depends: debhelper (>> 3.7.2),
 	imagemagick,
 	libdbd-sqlite3-perl,
 	cmake,
-	libperl6-slurp-perl,
+	libperl6-slurp-perl|libfile-slurp-perl,
 	perlmagick
 Standards-Version: 3.6.1
 
