@@ -8,12 +8,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   height="32"
+   width="16"
+   height="16"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.46"
-   sodipodi:docname="power_plant_photovoltaic_rising_sun_above_-_finis.svg"
+   sodipodi:docname="power_plant_photovoltaic_rising_sun_above_-_finis16x16.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    version="1.0">
   <defs
@@ -33,15 +33,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.481547"
-     inkscape:cx="8.8305053"
-     inkscape:cy="18.754222"
+     inkscape:zoom="57.926188"
+     inkscape:cx="6.6829072"
+     inkscape:cy="6.9846524"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1272"
      inkscape:window-height="977"
-     inkscape:window-x="2"
+     inkscape:window-x="4"
      inkscape:window-y="0" />
   <metadata
      id="metadata7">
@@ -75,7 +75,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(5.8416828e-2,0,-1.5871476e-2,6.6197053e-2,9.6139883,-30.467544)"
+       transform="matrix(2.9064146e-2,0,-7.8965413e-3,3.2793615e-2,4.7829062,-15.051592)"
        id="g3512">
       <g
          id="g3514"
@@ -155,7 +155,7 @@
     </g>
     <g
        id="g3318"
-       transform="matrix(0.9106404,-0.4131997,0.4131997,0.9106404,-2.2214945,3.2221383)">
+       transform="matrix(0.4530713,-0.2046966,0.2055794,0.4511257,-1.1056059,1.6380696)">
       <path
          inkscape:transform-center-y="14.455956"
          inkscape:transform-center-x="5.8515571"
