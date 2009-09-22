@@ -1,3 +1,129 @@
+openstreetmap-map-icons (17741) unstable; urgency=low
+
+   * changed svg-icon power_plant_photovoltaic to 16x16
+
+ -- malenki via osm-dev List <dev@openstreetmap.org>  Mon, 21 Sep 2009 15:16:41 +0200
+
+openstreetmap-map-icons (17740) unstable; urgency=low
+
+   * add svg-icon power_plant_photovoltaic
+
+ -- malenki via osm-dev List <dev@openstreetmap.org>  Mon, 21 Sep 2009 14:47:17 +0200
+
+openstreetmap-map-icons (17602) unstable; urgency=low
+
+   * adding historic=boundary_stone
+
+ -- slowrider via osm-dev List <dev@openstreetmap.org>  Sun, 13 Sep 2009 20:56:47 +0200
+
+openstreetmap-map-icons (17601) unstable; urgency=low
+
+   * adding boundary_stone
+
+ -- slowrider via osm-dev List <dev@openstreetmap.org>  Sun, 13 Sep 2009 20:50:44 +0200
+
+openstreetmap-map-icons (17471) unstable; urgency=low
+
+   * use new svn_ changelog utility
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Sat, 05 Sep 2009 20:39:45 +0200
+
+openstreetmap-map-icons (17470) unstable; urgency=low
+
+   * Also allow libfile-slurp-perl
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Sat, 05 Sep 2009 20:39:23 +0200
+
+openstreetmap-map-icons (17425) unstable; urgency=low
+
+   * added islet
+
+ -- slowrider via osm-dev List <dev@openstreetmap.org>  Tue, 01 Sep 2009 23:53:16 +0200
+
+openstreetmap-map-icons (17242) unstable; urgency=low
+
+   * #3265
+
+ -- slowrider via osm-dev List <dev@openstreetmap.org>  Tue, 25 Aug 2009 11:02:25 +0200
+
+openstreetmap-map-icons (17030) unstable; urgency=low
+
+   * optimized PNG images (this time without distorting effects I hope)
+
+ -- stoecker via osm-dev List <dev@openstreetmap.org>  Thu, 13 Aug 2009 00:19:29 +0200
+
+openstreetmap-map-icons (17027) unstable; urgency=low
+
+   * add various new icons
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Wed, 12 Aug 2009 22:20:48 +0200
+
+openstreetmap-map-icons (17026) unstable; urgency=low
+
+   * add various new icons
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Wed, 12 Aug 2009 22:05:04 +0200
+
+openstreetmap-map-icons (17025) unstable; urgency=low
+
+   * put it on a white background, so it's visible in JOSM
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Wed, 12 Aug 2009 21:46:17 +0200
+
+openstreetmap-map-icons (17021) unstable; urgency=low
+
+   * add an icon for highway=emergency_access_point
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Wed, 12 Aug 2009 12:44:39 +0200
+
+openstreetmap-map-icons (17020) unstable; urgency=low
+
+   * put it on a white background, so it's visible in JOSM
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Wed, 12 Aug 2009 12:29:10 +0200
+
+openstreetmap-map-icons (17019) unstable; urgency=low
+
+   * "quick and dirty" icon for tourism=alpine_hut
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Wed, 12 Aug 2009 12:26:20 +0200
+
+openstreetmap-map-icons (17018) unstable; urgency=low
+
+   * put it on a white background, so it's visible in JOSM
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Wed, 12 Aug 2009 12:04:58 +0200
+
+openstreetmap-map-icons (17017) unstable; urgency=low
+
+   * two new icons from https://josm.openstreetmap.de/ticket/2894 (scaled down to 16*16)
+
+ -- Ulf Lamping via osm-dev List <dev@openstreetmap.org>  Wed, 12 Aug 2009 12:00:32 +0200
+
+openstreetmap-map-icons (16908) unstable; urgency=low
+
+   * Icon for hotel.
+
+ -- gramzon via osm-dev List <dev@openstreetmap.org>  Fri, 07 Aug 2009 11:54:01 +0200
+
+openstreetmap-map-icons (16670) unstable; urgency=low
+
+   * Minor cosmetic; more visible Error message
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Thu, 23 Jul 2009 20:25:30 +0200
+
+openstreetmap-map-icons (16669) unstable; urgency=low
+
+   * Minor cosmetic
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Thu, 23 Jul 2009 20:24:59 +0200
+
+openstreetmap-map-icons (16668) unstable; urgency=low
+
+   * New changelog from svn
+
+ -- Joerg Ostertag (Debian Packages) (debian via the domain ostertag.name) via osm-dev List <dev@openstreetmap.org>  Thu, 23 Jul 2009 20:23:59 +0200
+
 openstreetmap-map-icons (16414) unstable; urgency=low
 
    * Icon for school.
