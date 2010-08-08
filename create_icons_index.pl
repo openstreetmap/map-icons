@@ -342,7 +342,7 @@ sub update_overview($$$){
 		    $content .= "                 <img title=\"$name\" src=\"$icon_path_current\" class=\"$class\" alt=\"$name\" />";
 		    $content .= "</a>";
 		} else {
-		    $content .= " <img src=\"$base_dir/ok.png\" title=\"exists\" alt=\"ok\" class=\"$class\" />";
+		    $content .= " <img src=\"ok.png\" title=\"exists\" alt=\"ok\" class=\"$class\" />";
 		}
 	    }
 	    $content .= "</td>\n";
