@@ -23,8 +23,8 @@ use XML::Simple;
 use Image::Info;
 use Cwd;
 
-our ($opt_b, $opt_h, $opt_i, $opt_j, $opt_p, $opt_r,$opt_v, $opt_D, $opt_F, $opt_L, $opt_P,$opt_S) = 0;
-getopts('bhijprvF:D:L:P:S:') or $opt_h = 1;
+our ($opt_a, $opt_b, $opt_h, $opt_i, $opt_j, $opt_p, $opt_r,$opt_v, $opt_D, $opt_F, $opt_L, $opt_P,$opt_S) = 0;
+getopts('abhijprvF:D:L:P:S:') or $opt_h = 1;
 pod2usage( -exitval => '1',  
            -verbose => '1') if $opt_h;
 
@@ -39,6 +39,7 @@ my $poi_reserved = 30;
 my $poi_type_id_base = $poi_reserved;
 my $VERBOSE = $opt_v;
 $opt_P ||= "index";
+my $link_base = $opt_a ? "http://trac.openstreetmap.org/export/HEAD/applications/share/map-icons/" : "";
 
 my @ALL_TYPES = qw(square.big square.small classic.big classic.small svg svg-twotone japan nickw);
 
@@ -211,7 +212,8 @@ sub update_overview($$$){
     my $type = shift;
     my $lang  = shift || 'en';
     my $rules = shift;
-    my $file_html = "$base_dir/${opt_P}_${type}.${lang}.html";
+    my $abs_links = $opt_a ? "-abs" : "";
+    my $file_html = "$base_dir/${opt_P}_${type}${abs_links}.${lang}.html";
 
     print STDOUT "----- Updating HTML Overview '$file_html' -----\n";
     
@@ -339,10 +341,10 @@ sub update_overview($$$){
 	    } else {
 		if ( -s "$base_dir/$icon_path_current" ){
 		    $content .= "     <a href=\"$icon_path_current\" >\n";
-		    $content .= "                 <img title=\"$name\" src=\"$icon_path_current\" class=\"$class\" alt=\"$name\" />";
+		    $content .= "                 <img title=\"$name\" src=\"$link_base$icon_path_current\" class=\"$class\" alt=\"$name\" />";
 		    $content .= "</a>";
 		} else {
-		    $content .= " <img src=\"ok.png\" title=\"exists\" alt=\"ok\" class=\"$class\" />";
+		    $content .= " <img src=\"${link_base}ok.png\" title=\"exists\" alt=\"ok\" class=\"$class\" />";
 		}
 	    }
 	    $content .= "</td>\n";
@@ -388,8 +390,8 @@ sub update_overview($$$){
 		$icon_t =~ s/\.svg/\.png/;
 		print STDERR "thumb: $icon_t\n" if $VERBOSE;
 		$icon_t = $icon unless -s $icon_t;
-		my $content = "     <a href=\"$icon_t\" >";
-		$content .= "         <img alt=\"$icon\" title=\"$icon\" src=\"$icon_t\" />";
+		my $content = "     <a href=\"$link_base$icon_t\" >";
+		$content .= "         <img alt=\"$icon\" title=\"$icon\" src=\"$link_base$icon_t\" />";
 		$content .= "<br/>$name\n";
 		$content .= "</a>\n";
 		print $fo "    <td>$content</td>";
@@ -423,7 +425,7 @@ create_overview.pl [-h] [-v] [-i] [-r] [-s] [-F XML-FILE] [-D DIR] [-P FILENAME_
 =head1 OPTIONS
  
 =over 2
- 
+
 =item B<--h>
 
 Show this help
@@ -473,5 +475,9 @@ Use this for the filename Prefix. Default: overview
 =item B<-S SVN-BASE>
 
 Use the Directory  SVN-BASE as Base for determining SVN Status
+
+=item B<-a>
+ 
+Use absolute path for images files that link to the current svn on trac.openstreetmap.org
 
 =back
