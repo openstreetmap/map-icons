@@ -321,7 +321,7 @@ sub update_overview($$$){
 	    } elsif ( $restricted && not $opt_r ){
 		$content .=  " class=\"empty\" " unless $header_line;
 	    } else {
-		$content .=  " class=\"icon\" " unless $header_line;
+		$content .=  " class=\"icon\" " unless $header_line;		
 	    }
 
 	    # -------------- Add license Information Part 1
@@ -341,6 +341,8 @@ sub update_overview($$$){
 		    $content .= "     <a href=\"$icon_path_current\" >\n";
 		    $content .= "                 <img title=\"$name\" src=\"$icon_path_current\" class=\"$class\" alt=\"$name\" />";
 		    $content .= "</a>";
+		} else {
+		    $content .= " <img src=\"$base_dir/ok.png\" title=\"exists\" alt=\"ok\" class=\"$class\" />";
 		}
 	    }
 	    $content .= "</td>\n";
