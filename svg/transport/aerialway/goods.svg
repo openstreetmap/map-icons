@@ -15,11 +15,11 @@
    sodipodi:version="0.32"
    inkscape:version="0.48.0 r9654"
    version="1.0"
-   sodipodi:docname="cable_car.svg"
+   sodipodi:docname="goods.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="C:\Dokumente und Einstellungen\ulfl\cable_car20.png"
-   inkscape:export-xdpi="6.1462359"
-   inkscape:export-ydpi="6.1462359">
+   inkscape:export-filename="C:\Dokumente und Einstellungen\ulfl\goods20.png"
+   inkscape:export-xdpi="6.8661346"
+   inkscape:export-ydpi="6.8661346">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -38,7 +38,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-286.23304"
+     inkscape:cx="-402.14281"
      inkscape:cy="283.63827"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -87,34 +87,10 @@
     <rect
        style="fill:#000000;stroke-width:15;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect3195"
-       width="204.28572"
-       height="160"
-       x="287.67859"
-       y="434.86218"
-       ry="43.333332" />
-    <rect
-       ry="32.85714"
-       y="449.86215"
-       x="431.96426"
-       height="91.428566"
-       width="51.428566"
-       id="rect2989"
-       style="fill:#ffffff;stroke-width:15;stroke-miterlimit:4;stroke-dasharray:none" />
-    <rect
-       style="fill:#ffffff;stroke-width:15;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect2991"
-       width="68.571419"
-       height="131.42856"
-       x="356.25003"
-       y="449.86215"
-       ry="47.23214" />
-    <rect
-       style="fill:#ffffff;stroke-width:15;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect2993"
-       width="51.428566"
-       height="91.428566"
-       x="296.24997"
-       y="449.86215"
-       ry="32.85714" />
+       width="134.28572"
+       height="68.571426"
+       x="323.39288"
+       y="462.00504"
+       ry="18.571428" />
   </g>
 </svg>
