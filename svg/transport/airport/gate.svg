@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="gate.svg"
+   inkscape:export-filename="F:\gate20.png"
+   inkscape:export-xdpi="28.129999"
+   inkscape:export-ydpi="28.129999">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="40.521429"
+     inkscape:cy="31.585685"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="1110"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-988.36218)">
+    <text
+       xml:space="preserve"
+       style="font-size:30.81586838px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Handwriting;-inkscape-font-specification:Lucida Handwriting"
+       x="10.355163"
+       y="1031.3915"
+       id="text3738"><tspan
+         sodipodi:role="line"
+         id="tspan3740"
+         x="10.355163"
+         y="1031.3915"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Arial Black;-inkscape-font-specification:Arial Black Heavy">A3</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#0000c6;stroke-width:5.92175341;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3742"
+       sodipodi:cx="38.764603"
+       sodipodi:cy="49.226521"
+       sodipodi:rx="31.946074"
+       sodipodi:ry="31.946074"
+       d="m 6.9672395,52.305369 a 31.946074,31.946074 0 1 1 0.00499,0.05108"
+       transform="matrix(0.86604691,0,0,0.86604691,-1.5719644,977.72971)"
+       sodipodi:start="3.0450664"
+       sodipodi:end="9.3266452"
+       sodipodi:open="true" />
+  </g>
+</svg>
