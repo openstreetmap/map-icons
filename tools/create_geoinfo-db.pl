@@ -67,7 +67,7 @@ sub create_dbfile(){
 
     $create_statement="CREATE DATABASE geoinfo;";
     $dbh = DBI->connect("dbi:SQLite:dbname=$db_file",'','');
-    $dbh->{unicode} = 1;
+    $dbh->{sqlite_unicode} = 1;
 
     # ------- POI_TYPE
     db_exec('CREATE TABLE poi_type (
