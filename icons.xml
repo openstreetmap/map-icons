@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rules PUBLIC "http://svn.openstreetmap.org/applications/share/map-icons/icons.dtd" "icons.dtd">
 
 <rules>
@@ -1055,7 +1055,14 @@
     <description lang="en"></description>
   </rule>
 
-  <rule k="poi" v="health.physiotherapy">
+   <rule k="poi" v="health.hearing_aid">
+    <condition k="shop" v="hearing_aid"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Hearing Aid</title>
+    <title lang="de">Akustiker</title>
+    <description lang="en"></description>
+  </rule>    <rule k="poi" v="health.physiotherapy">
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
     <title lang="en">Physiotherapy</title>
@@ -1401,7 +1408,14 @@
     <description lang="en"></description>
   </rule>
 
-  <rule k="poi" v="misc.landmark.works">
+  <rule k="poi" v="misc.landmark.watermill">
+    <condition k="man_made" v="watermill"/>
+    <scale_min>1</scale_min>
+    <scale_max>50000</scale_max>
+    <title lang="en">Watermill</title>
+    <title lang="de">Wassermühle</title>
+    <description lang="en"></description>
+  </rule>    <rule k="poi" v="misc.landmark.works">
     <condition k="man_made" v="works"/>
     <scale_min>1</scale_min>
     <scale_max>50000</scale_max>
